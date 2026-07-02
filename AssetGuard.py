@@ -946,7 +946,7 @@ def main():
         json_output=Path(args.output_json),
         simple_image_test=args.simple_image_test,
     )
-
+    #change for scoring, deprecated
     if args.strict and Path(args.output_json).exists():
         data = json.loads(Path(args.output_json).read_text(encoding="utf-8"))
         for row in data:
