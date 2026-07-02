@@ -1,8 +1,8 @@
 # AssetGuard
 
-AssetGuard is a Python CLI tool that checks whether Assets referenced in reStructuredText (`.rst`) files match the surrounding document context.
+AssetGuard is a Python CLI tool that checks whether `assets` referenced in reStructuredText (`.rst`) files match the surrounding document context.
 
-It extracts asset references, resolves local asset paths, sends the RST content plus attached assets to a multimodal AI API, and writes structured evaluation results to text and JSON files containing only `failed` and `partial` verdict results.
+It extracts asset references, resolves local asset paths, sends the RST content plus attached `assets` to a multimodal AI API, and writes structured evaluation results to text and JSON files containing only `failed` and `partial` verdict results.
 
 ## Quick start
 
@@ -43,7 +43,7 @@ python3 assetguard.py --workspace ~/your_workspace_path --source-root ~/your_sou
 - Valid AI API key
 - Multimodal AI model behind API
 - A `workspace` containing a folder/subfolders with `.rst` files 
-- A `source root` containing referenced assets from `.rst` files
+- A `source root` containing referenced `assets` from `.rst` files
 
 ## What it does
 
@@ -53,15 +53,15 @@ For each `.rst` file, AssetGuard:
 - Resolves Asset paths
 - Tries fallback file extensions if needed
 - Loads supported local Asset files
-- Converts Assets to base64 strings
-- Sends the RST content and Assets to the AI API
+- Converts `assets` to base64 strings
+- Sends the RST content and `assets` to the AI API
 - Parses the structured response
 - Computes a weighted score based using the AI Valuation
 - Writes readable and machine-readable output files
 
 ## Supported Asset types
 
-Recognized Assets during path resolution:
+Recognized `assets` during path resolution:
 
 - `.png` `.jpg` `.jpeg` `.webp` `.gif`
 
