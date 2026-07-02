@@ -2,7 +2,7 @@
 
 AssetGuard is a Python CLI tool that checks whether `assets` referenced in reStructuredText (`.rst`) files match the surrounding document context.
 
-It extracts asset references, resolves local asset paths, sends the RST content plus attached `assets` to a multimodal AI API, and writes structured evaluation results to text and JSON files containing only `failed` and `partial` verdict results.
+It extracts `asset`references, resolves local `asset`paths, sends the RST content plus attached `assets` to a multimodal AI API, and writes structured evaluation results to text and JSON files containing only `failed` and `partial` verdict results.
 
 ## Quick start
 
@@ -49,17 +49,17 @@ python3 assetguard.py --workspace ~/your_workspace_path --source-root ~/your_sou
 
 For each `.rst` file, AssetGuard:
 
-- Extracts Asset references
-- Resolves Asset paths
+- Extracts `asset`references
+- Resolves `asset`paths
 - Tries fallback file extensions if needed
-- Loads supported local Asset files
+- Loads supported local `asset`files
 - Converts `assets` to base64 strings
 - Sends the RST content and `assets` to the AI API
 - Parses the structured response
 - Computes a weighted score based using the AI Valuation
 - Writes readable and machine-readable output files
 
-## Supported Asset types
+## Supported `asset`types
 
 Recognized `assets` during path resolution:
 
@@ -67,7 +67,7 @@ Recognized `assets` during path resolution:
 
 ## Scoring and Verdict
 
-The model evaluates each Asset with these criteria:
+The model evaluates each `asset`with these criteria:
 
 - `topic_match`
 - `detail_match`
@@ -171,24 +171,24 @@ set +a
 
 ## Notes
 
-- Remote asset references are detected but not attached as local binary files
-- Duplicate asset paths are deduplicated before submission
+- Remote `asset`references are detected but not attached as local binary files
+- Duplicate `asset`paths are deduplicated before submission
 - Full RST content is included in the prompt
 - Larger RST files may increase token usage and API cost
 - The script includes debug print statements intended for development
 - Workspace path and Source root path are NOT the same paths and may differ
-- Use exactly the referenced asset folder path (from your `.rst` files) as source root path
+- Use exactly the referenced `asset`folder path (from your `.rst` files) as source root path
 
 ## Limitations
 
-- Only a subset of recognized asset types is sent to the API
+- Only a subset of recognized `asset`types is sent to the API
 - The script depends on the configured AI endpoint response format
 
 ## Use cases
 
-- Documentation asset validation
+- Documentation `asset`validation
 - Technical content QA
 - Detection of misleading or weak visuals
 - Machine-readable audit output for pipelines
-- Base for future brand or asset compliance checks
+- Base for future brand or `asset`compliance checks
 EOF && cp output/README.md output/readme.md
