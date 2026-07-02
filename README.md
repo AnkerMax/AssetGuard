@@ -31,7 +31,7 @@ set +a
 4. Run the default script
 
 ```bash
-python3 assetguard.py --workspace ~/your_workspace_path --source-root ~/your_source_root_path
+python3 assetguard.py --workspace your_workspace_path --source-root your_source_root_path
 ```
 
 5. Read results:
@@ -111,34 +111,34 @@ Verdict thresholds:
 Run on the current workspace:
 
 ```bash
-python3 assetguard.py --workspace . --source-root ~/your_source_root_path
+python3 assetguard.py --workspace . --source-root your_source_root_path
 ```
 
 Run on one file:
 
 ```bash
 python3 assetguard.py \
-  --workspace ~/your_wworkspace_path\
-  --source-root ~/your_source_root_path
-  --rst-file docs/example.rst
+  --workspace your_wworkspace_path\
+  --source-root your_source_root_path
+  --rst-file your_path_to_rst_file/example.rst
 ```
 
 Run on multiple files:
 
 ```bash
 python3 assetguard.py \
-  --workspace ~/your_wworkspace_path \
-  --source-root ~/your_source_root_path \
-  --rst-file docs/file1.rst \
-  --rst-file docs/file2.rst
+  --workspace your_wworkspace_path \
+  --source-root your_source_root_path \
+  --rst-file your_path_to_rst_file/file1.rst \
+  --rst-file your_path_to_rst_file/file2.rst
 ```
 
 Run on files listed in a text file:
 
 ```bash
 python3 assetguard.py \
-  --workspace ~/your_wworkspace_path \
-  --source-root ~/your_source_root_path \
+  --workspace your_wworkspace_path \
+  --source-root your_source_root_path \
   --file-list rst_files.txt
 ```
 
@@ -146,8 +146,8 @@ Pass API values directly instead of using `.env`:
 
 ```bash
 python3 assetguard.py \
-  --workspace ~/your_wworkspace_path \
-  --source-root ~/your_source_root_path \
+  --workspace your_wworkspace_path \
+  --source-root your_source_root_path \
   --api-url "$AI_API_URL" \
   --api-key "$AI_API_KEY" \
   --model "$AI_MODEL"
