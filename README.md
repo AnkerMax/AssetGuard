@@ -41,7 +41,7 @@ python3 assetguard.py --workspace ~/your_workspace_path --source-root ~/your_sou
 - Internet access
 - Valid OpenAPI v1/responses compatible AI API URL
 - Valid AI API key
-- Multimodal AI model behind API
+- Multimodal compatible AI model behind API
 - A `workspace` containing a folder/subfolders with `.rst` files 
 - A `source root` containing referenced `assets` from `.rst` files
 
