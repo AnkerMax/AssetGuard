@@ -2,7 +2,7 @@
 
 AssetGuard is a Python CLI tool that checks whether `assets` referenced in reStructuredText (`.rst`) files match the surrounding document context.
 
-It extracts `asset`references, resolves local `asset`paths, sends the RST content plus attached `assets` to a multimodal AI API, and writes structured evaluation results to text and JSON files containing only `failed` and `partial` verdict results.
+It extracts `asset`references, resolves local `asset`paths, sends the RST content and attached `assets` to a multimodal AI API, and writes structured evaluation results to text and JSON files containing only `failed` and `partial` verdict results.
 
 ## Quick start
 
@@ -34,6 +34,18 @@ set +a
 python3 assetguard.py --workspace ~/your_workspace_path --source-root ~/your_source_root_path
 ```
 
+5. Read results:
+
+```
+cat results_with_images.txt
+```
+```
+cat results_with_images.debug.txt
+```
+```
+cat results_with_images.json
+```
+
 ## Prerequisites
 
 - Python 3.10 or newer recommended
@@ -45,7 +57,7 @@ python3 assetguard.py --workspace ~/your_workspace_path --source-root ~/your_sou
 - A `workspace` containing a folder/subfolders with `.rst` files 
 - A `source root` containing referenced `assets` from `.rst` files
 
-## What it does
+## How it works
 
 For each `.rst` file, AssetGuard:
 
@@ -57,9 +69,9 @@ For each `.rst` file, AssetGuard:
 - Sends the RST content and `assets` to the AI API
 - Parses the structured response
 - Computes a weighted score based using the AI Valuation
-- Writes readable and machine-readable output files
+- Writes two human readable `.txt` and one machine-readable `.json` output file containing only `fail` and `partial` verdicts
 
-## Supported `asset`types
+## Supported asset types
 
 Recognized `assets` during path resolution:
 
@@ -67,7 +79,7 @@ Recognized `assets` during path resolution:
 
 ## Scoring and Verdict
 
-The model evaluates each `asset`with these criteria:
+The model evaluates each `asset` with these criteria:
 
 - `topic_match`
 - `detail_match`
@@ -75,7 +87,7 @@ The model evaluates each `asset`with these criteria:
 - `visual_evidence`
 - `contradictions`
 
-Weights used:
+Weights used for criteria:
 
 - `topic_match`: 0.30
 - `detail_match`: 0.20
@@ -83,9 +95,9 @@ Weights used:
 - `visual_evidence`: 0.15
 - `contradictions`: 0.15
 
-Computing the overall score:
+Computing the overall weighted score:
 
-$\text{normalized weighted score} = \frac{\sum_k w_k \cdot c_k}{\sum_k 3 \cdot w_k}$ where $\(c_k\)$ is criterion score (0–3) and $\(w_k\)$ is corresponding weight
+$\text{score} = \frac{\sum_k w_k \cdot c_k}{\sum_k 3 \cdot w_k}$ where $\(c_k\)$ is criterion score (0–3) and $\(w_k\)$ is corresponding weight
 
 
 Verdict thresholds:
@@ -99,7 +111,7 @@ Verdict thresholds:
 Run on the current workspace:
 
 ```bash
-python3 assetguard.py --workspace ~/your_wworkspace_path --source-root ~/your_source_root_path
+python3 assetguard.py --workspace . --source-root ~/your_source_root_path
 ```
 
 Run on one file:
@@ -116,7 +128,7 @@ Run on multiple files:
 ```bash
 python3 assetguard.py \
   --workspace ~/your_wworkspace_path \
-  --source-root ~/your_source_root_path
+  --source-root ~/your_source_root_path \
   --rst-file docs/file1.rst \
   --rst-file docs/file2.rst
 ```
@@ -126,7 +138,7 @@ Run on files listed in a text file:
 ```bash
 python3 assetguard.py \
   --workspace ~/your_wworkspace_path \
-  --source-root ~/your_source_root_path
+  --source-root ~/your_source_root_path \
   --file-list rst_files.txt
 ```
 
@@ -135,6 +147,7 @@ Pass API values directly instead of using `.env`:
 ```bash
 python3 assetguard.py \
   --workspace ~/your_wworkspace_path \
+  --source-root ~/your_source_root_path \
   --api-url "$AI_API_URL" \
   --api-key "$AI_API_KEY" \
   --model "$AI_MODEL"
@@ -171,22 +184,18 @@ set +a
 
 ## Notes
 
-- Remote `asset`references are detected but not attached as local binary files
-- Duplicate `asset`paths are deduplicated before submission
+- Remote `asset` references are detected but not attached as local binary files
+- Duplicate `asset` paths are deduplicated before submission
 - Full RST content is included in the prompt
 - Larger RST files may increase token usage and API cost
 - The script includes debug print statements intended for development
-- Workspace path and Source root path are NOT the same paths and may differ
-- Use exactly the referenced `asset`folder path (from your `.rst` files) as source root path
-
-## Limitations
-
-- Only a subset of recognized `asset`types is sent to the API
-- The script depends on the configured AI endpoint response format
+- Workspace path and Source root path are allowed to differ
+- Use exactly the `asset` folder path referenced in the `.rst` file as source root path
 
 ## Use cases
 
-- Documentation `asset`validation
+- Documentation `asset` validation
+- easy to automate validation into pipeline
 - Technical content QA
 - Detection of misleading or weak visuals
 - Machine-readable audit output for pipelines
