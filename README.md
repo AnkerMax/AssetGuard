@@ -200,4 +200,3 @@ set +a
 - Detection of misleading or weak visuals
 - Machine-readable audit output for pipelines
 - Base for future brand or `asset`compliance checks
-EOF && cp output/README.md output/readme.md
