@@ -1,8 +1,8 @@
 # AssetGuard
 
-AssetGuard is a Python CLI tool that checks whether images referenced in reStructuredText (`.rst`) files match the surrounding document context.
+AssetGuard is a Python CLI tool that checks whether Assets referenced in reStructuredText (`.rst`) files match the surrounding document context.
 
-It extracts image references, resolves local image paths, sends the RST content plus attached images to a multimodal AI API, and writes structured evaluation results to text and JSON files.
+It extracts asset references, resolves local asset paths, sends the RST content plus attached assets to a multimodal AI API, and writes structured evaluation results to text and JSON files containing only `failed` and `partial` verdict results.
 
 ## Quick start
 
@@ -42,7 +42,7 @@ python3 assetguard.py --workspace ~/your_workspace_path --source-root ~/your_sou
 - Valid OpenAPI v1/responses compatible AI API URL
 - Valid AI API key
 - Multimodal AI model behind API
-- A `workspace` containing `.rst` files 
+- A `workspace` containing a folder/subfolders with `.rst` files 
 - A `source root` containing referenced assets from `.rst` files
 
 ## What it does
@@ -63,11 +63,7 @@ For each `.rst` file, AssetGuard:
 
 Recognized Assets during path resolution:
 
-- `.png`
-- `.jpg`
-- `.jpeg`
-- `.webp`
-- `.gif`
+- `.png` `.jpg` `.jpeg` `.webp` `.gif`
 
 ## Scoring and Verdict
 
@@ -79,7 +75,7 @@ The model evaluates each Asset with these criteria:
 - `visual_evidence`
 - `contradictions`
 
-Weights:
+Weights used:
 
 - `topic_match`: 0.30
 - `detail_match`: 0.20
@@ -103,14 +99,15 @@ Verdict thresholds:
 Run on the current workspace:
 
 ```bash
-python3 assetguard.py --workspace . --source-root
+python3 assetguard.py --workspace ~/your_wworkspace_path --source-root ~/your_source_root_path
 ```
 
 Run on one file:
 
 ```bash
 python3 assetguard.py \
-  --workspace . \
+  --workspace ~/your_wworkspace_path\
+  --source-root ~/your_source_root_path
   --rst-file docs/example.rst
 ```
 
@@ -118,7 +115,8 @@ Run on multiple files:
 
 ```bash
 python3 assetguard.py \
-  --workspace . \
+  --workspace ~/your_wworkspace_path \
+  --source-root ~/your_source_root_path
   --rst-file docs/file1.rst \
   --rst-file docs/file2.rst
 ```
@@ -127,31 +125,16 @@ Run on files listed in a text file:
 
 ```bash
 python3 assetguard.py \
-  --workspace . \
+  --workspace ~/your_wworkspace_path \
+  --source-root ~/your_source_root_path
   --file-list rst_files.txt
-```
-
-Run only under a path prefix:
-
-```bash
-python3 assetguard.py \
-  --workspace . \
-  --path-prefix docs/
-```
-
-Use a custom source root for leading-slash image paths:
-
-```bash
-python3 assetguard.py \
-  --workspace . \
-  --source-root ./source
 ```
 
 Pass API values directly instead of using `.env`:
 
 ```bash
 python3 assetguard.py \
-  --workspace . \
+  --workspace ~/your_wworkspace_path \
   --api-url "$AI_API_URL" \
   --api-key "$AI_API_KEY" \
   --model "$AI_MODEL"
@@ -178,10 +161,6 @@ Supported variables:
 
 Important:
 The script does not load `.env` automatically.
-
-Why:
-The code reads values via `os.getenv(...)`. A `.env` file is only a plain text file until its values are exported into the shell environment.
-
 Load it like this before running the script:
 
 ```bash
@@ -192,21 +171,22 @@ set +a
 
 ## Notes
 
-- Remote image references are detected but not attached as local binary files
-- Duplicate image paths are deduplicated before submission
+- Remote asset references are detected but not attached as local binary files
+- Duplicate asset paths are deduplicated before submission
 - Full RST content is included in the prompt
 - Larger RST files may increase token usage and API cost
 - The script includes debug print statements intended for development
+- Workspace path and Source root path are NOT the same paths and may differ
+- Use exactly the referenced asset folder path (from your `.rst` files) as source root path
 
 ## Limitations
 
-- Only a subset of recognized image types is sent to the API
+- Only a subset of recognized asset types is sent to the API
 - The script depends on the configured AI endpoint response format
-- The provided code should be reviewed for formatting and indentation consistency before production use
 
 ## Use cases
 
-- Documentation image validation
+- Documentation asset validation
 - Technical content QA
 - Detection of misleading or weak visuals
 - Machine-readable audit output for pipelines
