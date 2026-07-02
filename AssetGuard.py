@@ -897,7 +897,7 @@ def main():
     parser.add_argument("--model", default=os.getenv("AI_MODEL", "qwen3.6-35b"), help="Model name.")
     parser.add_argument("--output-text", default="results_with_images.txt", help="Readable text output.")
     parser.add_argument("--output-json", default="results_with_images.json", help="Machine-readable JSON output.")
-    parser.add_argument("--simple-image-test", action="store_true", help="Use a minimal prompt that only asks for a short description of the attached images.")
+    parser.add_argument("--simple-image-test", action="store_true", help="Use a minimal prompt that only asks for a short description of the attached images.")#only needed for debugging, deprecated
     parser.add_argument("--strict", action="store_true", help="Exit with code 1 when score <0.55")
     parser.add_argument("--output-debug", default="results_with_images.debug.txt", help="Debug output with raw model text.")
     args = parser.parse_args()
