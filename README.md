@@ -85,7 +85,11 @@ The model evaluates each `asset` with these criteria:
 
 Weights used for criteria:
 
-- `topic_match`: 0.30 `detail_match`: 0.20 `section_relevance`: 0.20 `visual_evidence`: 0.15 `contradictions`: 0.15
+- `topic_match`: 0.30
+- `detail_match`: 0.20
+- `section_relevance`: 0.20
+- `visual_evidence`: 0.15
+- `contradictions`: 0.15
 
 Computing the overall weighted score:
 
