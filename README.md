@@ -81,19 +81,11 @@ Recognized `assets` during path resolution:
 
 The model evaluates each `asset` with these criteria:
 
-- `topic_match`
-- `detail_match`
-- `section_relevance`
-- `visual_evidence`
-- `contradictions`
+- `topic_match` `detail_match` `section_relevance` `visual_evidence` `contradictions`
 
 Weights used for criteria:
 
-- `topic_match`: 0.30
-- `detail_match`: 0.20
-- `section_relevance`: 0.20
-- `visual_evidence`: 0.15
-- `contradictions`: 0.15
+- `topic_match`: 0.30 `detail_match`: 0.20 `section_relevance`: 0.20 `visual_evidence`: 0.15 `contradictions`: 0.15
 
 Computing the overall weighted score:
 
@@ -102,9 +94,7 @@ $\text{score} = \frac{\sum_k w_k \cdot c_k}{\sum_k 3 \cdot w_k}$  ; where $\(c_k
 
 Verdict thresholds:
 
-- `pass`: score >= 0.80
-- `partial`: score >= 0.55 and < 0.80
-- `fail`: score < 0.55
+- `pass`: score >= 0.80 `partial`: score >= 0.55 and < 0.80 `fail`: score < 0.55
 
 ## Usage
 
