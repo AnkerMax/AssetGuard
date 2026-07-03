@@ -180,7 +180,6 @@ set +a
 
 ## Notes
 
-- Remote `asset` references are detected but not attached as local binary files
 - Duplicate `asset` paths are deduplicated before submission
 - Full RST content is included in the prompt
 - Larger RST files may increase token usage and API cost
