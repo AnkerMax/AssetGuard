@@ -967,7 +967,7 @@ def main():
                 if verdict_from_score(score) == "fail":
                     raise SystemExit(1)
 
-    print(f"Done. Checked {written} rst files and wrote f {args.output_text} with {flagged_count} rst files flagged as failed XOR partial and {args.output_json}")
+    print(f"Done. Checked {written} rst files and wrote f {args.output_text} with {flagged_count} rst files containing assets flagged as failed or partial and wrote {args.output_json}")
 
 if __name__ == "__main__":
     main()
