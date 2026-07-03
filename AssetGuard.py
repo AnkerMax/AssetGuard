@@ -80,7 +80,7 @@ def resolve_local_path(rst_file: Path, target: str, workspace: Path, source_root
     target = normalize_target(target)
 
     if target.startswith(("http://", "https://", "data:")):
-        return Path(target)
+        raise ValueError(f"Non-local image target found in RST: {target}")
 
     if target.startswith("/"):
         if source_root is not None:
@@ -99,8 +99,9 @@ def find_alternative_image_path(path: Path) -> Optional[Path]:
         if candidate.exists():
             return candidate
     return None
-  def guess_media_type(path: str) -> str:
-      mime, _ = mimetypes.guess_type(path)
+
+def guess_media_type(path: Path) -> str:
+      mime, _ = mimetypes.guess_type(str(path))
       return mime or "application/octet-stream"
 
 def load_local_image_content(path: Path) -> Optional[Dict[str, Any]]:
@@ -117,7 +118,7 @@ def load_local_image_content(path: Path) -> Optional[Dict[str, Any]]:
 
     return {
         "path": str(path.resolve()),
-        "media_type": guess_media_type(str(path)),
+        "media_type": guess_media_type(path),
         "data_base64": base64.b64encode(raw).decode("utf-8"),
     }
 
@@ -128,31 +129,33 @@ def build_image_candidates(
     source_root: Optional[Path] = None,
 ) -> List[Dict[str, Any]]:
     candidates = []
+
     for ref in refs:
         target = ref["target"]
         original_resolved = resolve_local_path(rst_path, target, workspace, source_root)
-        is_remote = str(original_resolved).startswith(("http://", "https://", "data:"))
 
         final_resolved = original_resolved
         fallback_used = False
-        if not is_remote:
-            alt = find_alternative_image_path(original_resolved)
-            if alt is not None:
-                final_resolved = alt
-                fallback_used = (alt != original_resolved)
 
-        exists_local = final_resolved.exists() if not is_remote else False
+        alt = find_alternative_image_path(original_resolved)
+        if alt is not None:
+            final_resolved = alt
+            fallback_used = (alt != original_resolved)
+
+        exists_local = final_resolved.exists()
+
         candidates.append({
             **ref,
             "resolved_path": str(final_resolved),
             "original_resolved_path": str(original_resolved),
-            "exists": exists_local or is_remote,
-            "is_remote": is_remote,
+            "exists": exists_local,
             "is_image_extension": looks_like_image_path(target),
             "fallback_used": fallback_used,
             "original_target": target,
         })
+
     return candidates
+
 def make_prompt(job: Dict[str, Any], simple_image_test: bool) -> str:
     image_count = job.get("attached_image_count", len(job.get("image_refs", [])))
 
@@ -812,19 +815,22 @@ def process_files(
 
             if not image_refs:
                 continue
-
+            
             image_payloads = []
             seen_image_paths = set()
+
             for img in image_refs:
-                if img["is_remote"]:
+                resolved_path = Path(img["resolved_path"])
+                loaded = load_local_image_content(resolved_path)
+                if not loaded:
                     continue
-                loaded = load_local_image_content(Path(img["resolved_path"]))
-                if loaded:
-                    p = loaded["path"]
-                    if p in seen_image_paths:
-                        continue
-                    seen_image_paths.add(p)
-                    image_payloads.append(loaded)
+
+                p = loaded["path"]
+                if p in seen_image_paths:
+                    continue
+
+    seen_image_paths.add(p)
+    image_payloads.append(loaded)
 
             rel_path = rst_file.relative_to(workspace).as_posix() if rst_file.is_relative_to(workspace) else str(rst_file)
             job = {
