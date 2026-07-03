@@ -946,15 +946,17 @@ def main():
         json_output=Path(args.output_json),
         simple_image_test=args.simple_image_test,
     )
-    #change for scoring, deprecated
+   
     if args.strict and Path(args.output_json).exists():
-        data = json.loads(Path(args.output_json).read_text(encoding="utf-8"))
-        for row in data:
-            parsed = ((row or {}).get("result") or {}).get("parsed_json") or {}
-            for item in parsed.get("results", []):
-                if item.get("verdict") == "fail":
-                    raise SystemExit(1)
-
+    data = json.loads(Path(args.output_json).read_text(encoding="utf-8"))
+    for row in data:
+        parsed = ((row or {}).get("result") or {}).get("parsed_json") or {}
+        for item in parsed.get("results", []):
+            criteria = item.get("criteria", {})
+            score = compute_overall_score(criteria)
+            if verdict_from_score(score) == "fail":
+                raise SystemExit(1)
+                
     print(f"Done. Wrote {written} file results to {args.output_text} and {args.output_json}")
 
 if __name__ == "__main__":
