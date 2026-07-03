@@ -94,7 +94,9 @@ $\text{score} = \frac{\sum_k w_k \cdot c_k}{\sum_k 3 \cdot w_k}$  ; =[0,1] ; whe
 
 Verdict thresholds:
 
-- `pass`: score >= 0.80 `partial`: score >= 0.55 and < 0.80 `fail`: score < 0.55
+- `pass`: score >= 0.80
+- `partial`: 0.55 <= score < 0.80
+- `fail`: score < 0.55
 
 ## Usage
 
@@ -108,8 +110,8 @@ Run on one file:
 
 ```bash
 python3 assetguard.py \
-  --workspace your_wworkspace_path\
-  --source-root your_source_root_path
+  --workspace your_wworkspace_path \
+  --source-root your_source_root_path \
   --rst-file your_path_to_rst_file/example.rst
 ```
 
