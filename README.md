@@ -92,7 +92,7 @@ Weights used for criteria:
 
 Computing the overall weighted score:
 
-$\text{score} = \frac{\sum_k w_k \cdot c_k}{\sum_k 3 \cdot w_k}$  ; =[0,1] ; where $\(c_k\)$ is criterion score (0–3) and $\(w_k\)$ is corresponding weight
+$\text{score} = \frac{\sum_k w_k \cdot c_k}{\sum_k 3 \cdot w_k}$ ; range [0,1] ; where $\(c_k\)$ is criterion score (0–3) and $\(w_k\)$ is corresponding weight
 
 
 Verdict thresholds:
