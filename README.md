@@ -114,7 +114,7 @@ Run on one file:
 
 ```bash
 python3 assetguard.py \
-  --workspace your_wworkspace_path \
+  --workspace your_workspace_path \
   --source-root your_source_root_path \
   --rst-file your_path_to_rst_file/example.rst
 ```
@@ -123,7 +123,7 @@ Run on multiple files:
 
 ```bash
 python3 assetguard.py \
-  --workspace your_wworkspace_path \
+  --workspace your_workspace_path \
   --source-root your_source_root_path \
   --rst-file your_path_to_rst_file/file1.rst \
   --rst-file your_path_to_rst_file/file2.rst
@@ -133,7 +133,7 @@ Run on files listed in a text file:
 
 ```bash
 python3 assetguard.py \
-  --workspace your_wworkspace_path \
+  --workspace your_workspace_path \
   --source-root your_source_root_path \
   --file-list rst_files.txt
 ```
@@ -142,7 +142,7 @@ Pass API values directly instead of using `.env`:
 
 ```bash
 python3 assetguard.py \
-  --workspace your_wworkspace_path \
+  --workspace your_workspace_path \
   --source-root your_source_root_path \
   --api-url "$AI_API_URL" \
   --api-key "$AI_API_KEY" \
