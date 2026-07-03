@@ -50,7 +50,6 @@ cat results_with_images.json
 
 - Python 3.10 or newer recommended
 - pip
-- Internet access
 - Valid OpenAPI v1/responses compatible AI API URL
 - Valid AI API key
 - Multimodal compatible AI model behind API
