@@ -100,8 +100,8 @@ def find_alternative_image_path(path: Path) -> Optional[Path]:
             return candidate
     return None
   def guess_media_type(path: str) -> str:
-    mime, _ = mimetypes.guess_type(path)
-    return mime or "application/octet-stream"
+      mime, _ = mimetypes.guess_type(path)
+      return mime or "application/octet-stream"
 
 def load_local_image_content(path: Path) -> Optional[Dict[str, Any]]:
     if not path.exists() or not path.is_file():
@@ -193,27 +193,28 @@ def make_prompt(job: Dict[str, Any], simple_image_test: bool) -> str:
         "RST>>>"
     )
   def extract_response_text(data: Dict[str, Any]) -> str:
-    output_text = data.get("output_text")
-    if isinstance(output_text, str) and output_text.strip():
-        return output_text.strip()
+      output_text = data.get("output_text")
+      if isinstance(output_text, str) and output_text.strip():
+          return output_text.strip()
 
-    output = data.get("output", [])
-    parts: List[str] = []
+      output = data.get("output", [])
+      parts: List[str] = []
 
-    if isinstance(output, list):
-        for item in output:
-            if not isinstance(item, dict):
-                continue
+      if isinstance(output, list):
+          for item in output:
+              if not isinstance(item, dict):
+                  continue
 
-            content = item.get("content", [])
-            if isinstance(content, list):
-                for part in content:
-                    if not isinstance(part, dict):
-                        continue
-                    if part.get("type") in {"output_text", "text"} and isinstance(part.get("text"), str):
-                        parts.append(part["text"])
+              content = item.get("content", [])
+              if isinstance(content, list):
+                  for part in content:
+                      if not isinstance(part, dict):
+                          continue
+                      if part.get("type") in {"output_text", "text"} and isinstance(part.get("text"), str):
+                          parts.append(part["text"])
 
-    return "\n".join(p for p in parts if p).strip()
+      return "\n".join(p for p in parts if p).strip()
+      
 def format_compact_block(row: Dict[str, Any]) -> str:
     parsed = ((row.get("result") or {}).get("parsed_json")) or {}
     results = parsed.get("results", [])
