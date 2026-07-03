@@ -803,6 +803,7 @@ def process_files(
     simple_image_test: bool,
 ) -> int:
     written = 0
+    flagged_count = 0
     all_rows = []
 
     with text_output.open("w", encoding="utf-8") as tout, debug_output.open("w", encoding="utf-8") as dout:
@@ -883,6 +884,7 @@ def process_files(
             compact_block = format_compact_block(row)
             if compact_block.strip():
                 tout.write(compact_block + "\n\n" + ("-" * 80) + "\n\n")
+                flagged_count +=1
             else: tout.write("")
             written += 1
             dout.write(format_debug_block(row) + "\n\n" + ("-" * 80) + "\n\n")
@@ -892,7 +894,7 @@ def process_files(
         encoding="utf-8"
     )
 
-    return written
+    return written, flagged_count
 def main():
     parser = argparse.ArgumentParser(description="Structured-output version of the .rst image audit script with JSON and text output.")
     parser.add_argument("--workspace", default=".", help="Local repo/workspace path. Defaults to current directory.")
@@ -942,7 +944,7 @@ def main():
             seen.add(rp)
             deduped.append(p.resolve())
 
-    written = process_files(
+    written, flagged_count = process_files(
         files=deduped,
         workspace=workspace,
         source_root=source_root,
@@ -965,7 +967,7 @@ def main():
                 if verdict_from_score(score) == "fail":
                     raise SystemExit(1)
 
-    print(f"Done. Wrote {written} file results to {args.output_text} and {args.output_json}")
+    print(f"Done. Checked {written} rst files and wrote f {args.output_text} with {flagged_count} rst files flagged as failed XOR partial and {args.output_json}")
 
 if __name__ == "__main__":
     main()
