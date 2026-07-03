@@ -195,29 +195,30 @@ def make_prompt(job: Dict[str, Any], simple_image_test: bool) -> str:
         f"{job['rst_raw']}\n"
         "RST>>>"
     )
-  def extract_response_text(data: Dict[str, Any]) -> str:
-      output_text = data.get("output_text")
-      if isinstance(output_text, str) and output_text.strip():
-          return output_text.strip()
 
-      output = data.get("output", [])
-      parts: List[str] = []
+def extract_response_text(data: Dict[str, Any]) -> str:
+    output_text = data.get("output_text")
+    if isinstance(output_text, str) and output_text.strip():
+        return output_text.strip()
 
-      if isinstance(output, list):
-          for item in output:
-              if not isinstance(item, dict):
-                  continue
+    output = data.get("output", [])
+    parts: List[str] = []
 
-              content = item.get("content", [])
-              if isinstance(content, list):
-                  for part in content:
-                      if not isinstance(part, dict):
-                          continue
-                      if part.get("type") in {"output_text", "text"} and isinstance(part.get("text"), str):
-                          parts.append(part["text"])
+    if isinstance(output, list):
+        for item in output:
+            if not isinstance(item, dict):
+                continue
 
-      return "\n".join(p for p in parts if p).strip()
-      
+            content = item.get("content", [])
+            if isinstance(content, list):
+                for part in content:
+                    if not isinstance(part, dict):
+                        continue
+                    if part.get("type") in {"output_text", "text"} and isinstance(part.get("text"), str):
+                        parts.append(part["text"])
+
+    return "\n".join(p for p in parts if p).strip()
+
 def format_compact_block(row: Dict[str, Any]) -> str:
     parsed = ((row.get("result") or {}).get("parsed_json")) or {}
     results = parsed.get("results", [])
@@ -815,7 +816,7 @@ def process_files(
 
             if not image_refs:
                 continue
-            
+
             image_payloads = []
             seen_image_paths = set()
 
@@ -829,8 +830,8 @@ def process_files(
                 if p in seen_image_paths:
                     continue
 
-    seen_image_paths.add(p)
-    image_payloads.append(loaded)
+                seen_image_paths.add(p)
+                image_payloads.append(loaded)
 
             rel_path = rst_file.relative_to(workspace).as_posix() if rst_file.is_relative_to(workspace) else str(rst_file)
             job = {
@@ -953,17 +954,17 @@ def main():
         json_output=Path(args.output_json),
         simple_image_test=args.simple_image_test,
     )
-   
+
     if args.strict and Path(args.output_json).exists():
-    data = json.loads(Path(args.output_json).read_text(encoding="utf-8"))
-    for row in data:
-        parsed = ((row or {}).get("result") or {}).get("parsed_json") or {}
-        for item in parsed.get("results", []):
-            criteria = item.get("criteria", {})
-            score = compute_overall_score(criteria)
-            if verdict_from_score(score) == "fail":
-                raise SystemExit(1)
-                
+        data = json.loads(Path(args.output_json).read_text(encoding="utf-8"))
+        for row in data:
+            parsed = ((row or {}).get("result") or {}).get("parsed_json") or {}
+            for item in parsed.get("results", []):
+                criteria = item.get("criteria", {})
+                score = compute_overall_score(criteria)
+                if verdict_from_score(score) == "fail":
+                    raise SystemExit(1)
+
     print(f"Done. Wrote {written} file results to {args.output_text} and {args.output_json}")
 
 if __name__ == "__main__":
