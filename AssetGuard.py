@@ -21,9 +21,22 @@ WEIGHTS = {
     "visual_evidence": 0.15,
     "contradictions": 0.15,
 }
+WEIGHTS_STYLE = {
+    "topic_match": 0.18,
+    "detail_match": 0.15,
+    "section_relevance": 0.15,
+    "visual_evidence": 0.12,
+    "contradictions": 0.10,
+    "t-style": 0.30,
+}
 
-def compute_overall_score(criteria: dict) -> float:
-    weighted_normalized_score = sum(criteria[k] * WEIGHTS[k] for k in WEIGHTS) / sum(3 * WEIGHTS[k] for k in WEIGHTS)
+def compute_overall_score(criteria: dict, use_tstyle: bool = False) -> float:
+    weights = WEIGHTS_TSTYLE if use_tstyle else WEIGHTS
+
+    weighted_normalized_score = (
+        sum(criteria[k] * weights[k] for k in weights)
+        / sum(3 * weights[k] for k in weights)
+    )
     return round(weighted_normalized_score, 2)
 
 def verdict_from_score(score: float) -> str:
