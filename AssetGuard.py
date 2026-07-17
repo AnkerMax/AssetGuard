@@ -24,7 +24,6 @@ DEFAULT_MAX_RETRIES = 2
 DEFAULT_REQUEST_DELAY = 1
 DEFAULT_MAX_OUTPUT_TOKENS = 8000
 
-# Backend compatibility placeholder: the backend expects at least one tool.
 BACKEND_REQUIRED_TOOL = {
     "type": "function",
     "function": {
@@ -365,23 +364,43 @@ def collect_json_blocks(text: str, open_char: str, close_char: str) -> List[str]
     return blocks
 
 
+def _is_complete_result_item(item: Any) -> bool:
+    if not isinstance(item, dict):
+        return False
+
+    required_top = {"document_path", "image_path", "criteria", "reasons", "missing_evidence"}
+    if not required_top.issubset(item.keys()):
+        return False
+
+    criteria = item.get("criteria")
+    if not isinstance(criteria, dict):
+        return False
+
+    required_criteria = {
+        "topic_match",
+        "detail_match",
+        "section_relevance",
+        "visual_evidence",
+        "contradictions",
+    }
+    if not required_criteria.issubset(criteria.keys()):
+        return False
+
+    if not isinstance(item.get("reasons"), list) or not all(isinstance(x, str) for x in item.get("reasons")):
+        return False
+
+    if not isinstance(item.get("missing_evidence"), list) or not all(
+        isinstance(x, str) for x in item.get("missing_evidence")
+    ):
+        return False
+
+    return True
+
+
 def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     text = extract_response_text(data)
     if not text:
         return None
-
-    def is_valid_results_candidate(obj: Any) -> bool:
-        return (
-            isinstance(obj, dict)
-            and isinstance(obj.get("results"), list)
-            and all(isinstance(x, dict) for x in obj.get("results", []))
-        )
-
-    def is_criteria_only_candidate(obj: Any) -> bool:
-        if not isinstance(obj, dict):
-            return False
-        keys = {"topic_match", "detail_match", "section_relevance", "visual_evidence", "contradictions"}
-        return keys.issubset(obj.keys())
 
     candidates: List[Dict[str, Any]] = []
 
@@ -401,16 +420,14 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         except Exception:
             pass
 
-    result_candidates = [obj for obj in candidates if is_valid_results_candidate(obj)]
-    non_empty = [obj for obj in result_candidates if obj.get("results")]
-    if non_empty:
-        return non_empty[-1]
-    if result_candidates:
-        return result_candidates[-1]
-
-    criteria_candidates = [obj for obj in candidates if is_criteria_only_candidate(obj)]
-    if criteria_candidates:
-        return {"results": [{"criteria": criteria_candidates[-1]}]}
+    for obj in reversed(candidates):
+        if not isinstance(obj, dict):
+            continue
+        results = obj.get("results")
+        if not isinstance(results, list):
+            continue
+        if all(_is_complete_result_item(x) for x in results):
+            return obj
 
     return None
 
@@ -641,16 +658,46 @@ def format_compact_block(row: AuditRow) -> str:
             lines.append("ERRORS:")
         lines.append("  - backend_error")
 
-    if results:
+    flagged: List[Tuple[int, float, str, Dict[str, Any]]] = []
+    for i, item in enumerate(results, start=1):
+        criteria = item.get("criteria", {})
+        score = compute_overall_score(criteria)
+        verdict = verdict_from_score(score)
+        if verdict == "pass":
+            continue
+        flagged.append((i, score, verdict, item))
+
+    if flagged:
         lines.append("RESULTS:")
-        for i, item in enumerate(results, start=1):
-            criteria = item.get("criteria", {})
-            score = compute_overall_score(criteria)
-            verdict = verdict_from_score(score)
-            if verdict == "pass":
-                continue
+        for i, score, verdict, item in flagged:
             lines.append(f"  - SCORE {score:.2f} | IMAGE {i}: {verdict}")
             lines.append(f"    PATH: {item.get('image_path', '')}")
+
+            criteria = item.get("criteria", {})
+            lines.append(
+                "    CRITERIA: "
+                f"topic={criteria.get('topic_match', 'n/a')}, "
+                f"detail={criteria.get('detail_match', 'n/a')}, "
+                f"section={criteria.get('section_relevance', 'n/a')}, "
+                f"visual={criteria.get('visual_evidence', 'n/a')}, "
+                f"contradictions={criteria.get('contradictions', 'n/a')}"
+            )
+
+            reasons = item.get("reasons") or []
+            if reasons:
+                lines.append("    REASONS:")
+                for reason in reasons:
+                    lines.append(f"      - {reason}")
+
+            missing = item.get("missing_evidence") or []
+            if missing:
+                lines.append("    MISSING EVIDENCE:")
+                for miss in missing:
+                    lines.append(f"      - {miss}")
+
+    has_errors = bool(invalid_refs) or row.result.get("error") == "backend_error"
+    if not flagged and not has_errors:
+        return ""
 
     return "\n".join(lines)
 
@@ -904,7 +951,12 @@ def enforce_strict_mode(json_output: Path) -> None:
             raise SystemExit(1)
 
         parsed = result.get("parsed_json") or {}
+        if not isinstance(parsed.get("results"), list):
+            raise SystemExit(1)
+
         for item in parsed.get("results", []):
+            if not _is_complete_result_item(item):
+                raise SystemExit(1)
             criteria = item.get("criteria", {})
             score = compute_overall_score(criteria)
             if verdict_from_score(score) == "fail":
@@ -927,7 +979,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-text", default="results_with_images.txt", help="Readable text output.")
     parser.add_argument("--output-json", default="results_with_images.json", help="Machine-readable JSON output.")
     parser.add_argument("--output-debug", default="results_with_images.debug.txt", help="Debug output with raw model text.")
-    parser.add_argument("--strict", action="store_true", help="Exit with code 1 when score < 0.55, backend error, or kein png.")
+    parser.add_argument("--strict", action="store_true", help="Exit with code 1 when score < 0.55, backend error, kein png, or invalid parsed JSON.")
     return parser.parse_args()
 
 
