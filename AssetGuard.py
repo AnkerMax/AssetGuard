@@ -8,10 +8,8 @@ import time
 from dataclasses import dataclass, asdict
 from pathlib import Path, PurePosixPath
 from typing import Any, Dict, List, Optional, Tuple
-
 import requests
 
-PNG_EXTENSION = ".png"
 WEIGHTS = {
     "topic_match": 0.30,
     "detail_match": 0.20,
@@ -19,11 +17,12 @@ WEIGHTS = {
     "visual_evidence": 0.15,
     "contradictions": 0.15,
 }
+
 REQUEST_CONNECT_TIMEOUT = 5
 REQUEST_READ_TIMEOUT = 60
 DEFAULT_MAX_RETRIES = 2
 DEFAULT_REQUEST_DELAY = 0.3
-DEFAULT_MAX_OUTPUT_TOKENS = 8192
+DEFAULT_MAX_OUTPUT_TOKENS = 8000
 
 # Backend compatibility placeholder: the backend expects at least one tool.
 # This tool must remain present even though tool_choice is set to "none".
@@ -199,7 +198,7 @@ def normalize_target(target: str) -> str:
 
 
 def is_png_path(path: str) -> bool:
-    return PurePosixPath(path).suffix.lower() == PNG_EXTENSION
+    return PurePosixPath(path).suffix.lower() == ".png"
 
 
 def resolve_local_path(
@@ -218,7 +217,7 @@ def resolve_local_path(
 
 
 def load_local_image_content(path: Path) -> LoadedImage:
-    if path.suffix.lower() != PNG_EXTENSION:
+    if path.suffix.lower() != ".png":
         raise ValueError("kein png")
     if not path.exists() or not path.is_file():
         raise ValueError("kein png")
