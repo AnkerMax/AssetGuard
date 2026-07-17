@@ -2,7 +2,6 @@
 import argparse
 import base64
 import json
-import mimetypes
 import os
 import re
 import time
@@ -12,9 +11,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import requests
 
-IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp", ".svg", ".tif", ".tiff"}
-FALLBACK_EXTENSIONS = [".png", ".jpg", ".jpeg", ".webp", ".gif", ".bmp", ".svg", ".tif", ".tiff"]
-API_SAFE_IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
+PNG_EXTENSION = ".png"
 WEIGHTS = {
     "topic_match": 0.30,
     "detail_match": 0.20,
@@ -25,7 +22,7 @@ WEIGHTS = {
 REQUEST_CONNECT_TIMEOUT = 5
 REQUEST_READ_TIMEOUT = 60
 DEFAULT_MAX_RETRIES = 2
-DEFAULT_INITIAL_DELAY = 1.5
+DEFAULT_REQUEST_DELAY = 0.3
 DEFAULT_MAX_OUTPUT_TOKENS = 8192
 
 # Backend compatibility placeholder: the backend expects at least one tool.
@@ -109,8 +106,8 @@ class ImageReference:
     original_resolved_path: Optional[str] = None
     resolved_path: Optional[str] = None
     exists: bool = False
-    is_image_extension: bool = False
-    fallback_used: bool = False
+    is_png: bool = False
+    error: Optional[str] = None
 
 
 @dataclass
@@ -184,7 +181,14 @@ def extract_image_refs(rst_raw: str) -> List[ImageReference]:
             if not match:
                 continue
             if kind == "substitution_image":
-                refs.append(ImageReference(kind=kind, name=match.group(1).strip(), target=match.group(2).strip(), line=idx))
+                refs.append(
+                    ImageReference(
+                        kind=kind,
+                        name=match.group(1).strip(),
+                        target=match.group(2).strip(),
+                        line=idx,
+                    )
+                )
             else:
                 refs.append(ImageReference(kind=kind, target=match.group(1).strip(), line=idx))
     return refs
@@ -194,11 +198,16 @@ def normalize_target(target: str) -> str:
     return target.strip().strip('"').strip("'")
 
 
-def looks_like_image_path(path: str) -> bool:
-    return PurePosixPath(path).suffix.lower() in IMAGE_EXTENSIONS
+def is_png_path(path: str) -> bool:
+    return PurePosixPath(path).suffix.lower() == PNG_EXTENSION
 
 
-def resolve_local_path(rst_file: Path, target: str, workspace: Path, source_root: Optional[Path] = None) -> Path:
+def resolve_local_path(
+    rst_file: Path,
+    target: str,
+    workspace: Path,
+    source_root: Optional[Path] = None,
+) -> Path:
     target = normalize_target(target)
     if target.startswith(("http://", "https://", "data:")):
         raise ValueError(f"Non-local image target found in RST: {target}")
@@ -208,34 +217,20 @@ def resolve_local_path(rst_file: Path, target: str, workspace: Path, source_root
     return (rst_file.parent / target).resolve()
 
 
-def find_alternative_image_path(path: Path) -> Optional[Path]:
-    if path.exists():
-        return path
-    base = path.with_suffix("")
-    for ext in FALLBACK_EXTENSIONS:
-        candidate = Path(str(base) + ext)
-        if candidate.exists():
-            return candidate
-    return None
-
-
-def guess_media_type(path: Path) -> str:
-    mime, _ = mimetypes.guess_type(str(path))
-    return mime or "application/octet-stream"
-
-
-def load_local_image_content(path: Path) -> Optional[LoadedImage]:
+def load_local_image_content(path: Path) -> LoadedImage:
+    if path.suffix.lower() != PNG_EXTENSION:
+        raise ValueError("kein png")
     if not path.exists() or not path.is_file():
-        return None
-    if path.suffix.lower() not in API_SAFE_IMAGE_EXTENSIONS:
-        return None
+        raise ValueError("kein png")
+
     try:
         raw = path.read_bytes()
     except OSError:
-        return None
+        raise ValueError("kein png")
+
     return LoadedImage(
         path=str(path.resolve()),
-        media_type=guess_media_type(path),
+        media_type="image/png",
         data_base64=base64.b64encode(raw).decode("utf-8"),
     )
 
@@ -247,14 +242,15 @@ def build_image_candidates(
     source_root: Optional[Path] = None,
 ) -> List[ImageReference]:
     candidates: List[ImageReference] = []
+
     for ref in refs:
-        original_resolved = resolve_local_path(rst_path, ref.target, workspace, source_root)
-        final_resolved = original_resolved
-        fallback_used = False
-        alt = find_alternative_image_path(original_resolved)
-        if alt is not None:
-            final_resolved = alt
-            fallback_used = alt != original_resolved
+        resolved = resolve_local_path(rst_path, ref.target, workspace, source_root)
+        is_png = is_png_path(ref.target)
+        exists = resolved.exists()
+
+        error = None
+        if not is_png or not exists:
+            error = "kein png"
 
         candidates.append(
             ImageReference(
@@ -263,13 +259,14 @@ def build_image_candidates(
                 target=ref.target,
                 line=ref.line,
                 original_target=ref.target,
-                original_resolved_path=str(original_resolved),
-                resolved_path=str(final_resolved),
-                exists=final_resolved.exists(),
-                is_image_extension=looks_like_image_path(ref.target),
-                fallback_used=fallback_used,
+                original_resolved_path=str(resolved),
+                resolved_path=str(resolved),
+                exists=exists,
+                is_png=is_png,
+                error=error,
             )
         )
+
     return candidates
 
 
@@ -322,7 +319,11 @@ def extract_response_text(data: Dict[str, Any]) -> str:
         if not isinstance(item, dict):
             continue
         for part in item.get("content", []):
-            if isinstance(part, dict) and part.get("type") in {"output_text", "text"} and isinstance(part.get("text"), str):
+            if (
+                isinstance(part, dict)
+                and part.get("type") in {"output_text", "text"}
+                and isinstance(part.get("text"), str)
+            ):
                 parts.append(part["text"])
     return "\n".join(p for p in parts if p).strip()
 
@@ -372,7 +373,11 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         return None
 
     def is_valid_results_candidate(obj: Any) -> bool:
-        return isinstance(obj, dict) and isinstance(obj.get("results"), list) and all(isinstance(x, dict) for x in obj.get("results", []))
+        return (
+            isinstance(obj, dict)
+            and isinstance(obj.get("results"), list)
+            and all(isinstance(x, dict) for x in obj.get("results", []))
+        )
 
     def is_criteria_only_candidate(obj: Any) -> bool:
         if not isinstance(obj, dict):
@@ -381,6 +386,7 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         return keys.issubset(obj.keys())
 
     candidates: List[Dict[str, Any]] = []
+
     for raw in collect_json_blocks(text, "{", "}"):
         try:
             obj = json.loads(raw)
@@ -388,6 +394,7 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
                 candidates.append(obj)
         except Exception:
             pass
+
     for raw in collect_json_blocks(text, "[", "]"):
         try:
             obj = json.loads(raw)
@@ -406,6 +413,7 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     criteria_candidates = [obj for obj in candidates if is_criteria_only_candidate(obj)]
     if criteria_candidates:
         return {"results": [{"criteria": criteria_candidates[-1]}]}
+
     return None
 
 
@@ -415,7 +423,12 @@ class ResponsesClient:
         self.api_key = api_key
         self.model = model
 
-    def build_payload(self, prompt: str, images: List[LoadedImage], max_output_tokens: int) -> Tuple[Dict[str, Any], List[str]]:
+    def build_payload(
+        self,
+        prompt: str,
+        images: List[LoadedImage],
+        max_output_tokens: int,
+    ) -> Tuple[Dict[str, Any], List[str]]:
         content: List[Dict[str, Any]] = [{"type": "input_text", "text": prompt}]
         attached_images: List[str] = []
         seen_paths = set()
@@ -451,7 +464,7 @@ class ResponsesClient:
         attached_images: List[str],
         timeout: int = 180,
         max_retries: int = DEFAULT_MAX_RETRIES,
-        initial_delay: float = DEFAULT_INITIAL_DELAY,
+        request_delay: float = DEFAULT_REQUEST_DELAY,
     ) -> ApiResult:
         headers = {
             "Authorization": f"Bearer {self.api_key}",
@@ -459,9 +472,11 @@ class ResponsesClient:
         }
 
         last_result: Optional[ApiResult] = None
-        delay = initial_delay
 
         for attempt in range(1, max_retries + 1):
+            if request_delay > 0:
+                time.sleep(request_delay)
+
             try:
                 response = requests.post(
                     self.api_url,
@@ -472,12 +487,26 @@ class ResponsesClient:
                 status_code = response.status_code
                 response_text = response.text
 
-                if status_code == 429 and attempt < max_retries:
-                    time.sleep(delay)
-                    delay *= 2
-                    continue
+                if status_code in {429, 500, 502, 503, 504}:
+                    last_result = ApiResult(
+                        raw_text="",
+                        parsed_json=None,
+                        attached_image_count=len(attached_images),
+                        attached_images=attached_images,
+                        raw_response=None,
+                        http_status=status_code,
+                        http_response_text=response_text,
+                        finish_reason=None,
+                        attempt=attempt,
+                        max_retries=max_retries,
+                        error="backend_error",
+                    )
+                    if attempt < max_retries:
+                        continue
+                    return last_result
 
                 response.raise_for_status()
+
                 try:
                     data = response.json()
                 except Exception:
@@ -495,8 +524,27 @@ class ResponsesClient:
                     attempt=attempt,
                     max_retries=max_retries,
                 )
-            except requests.RequestException as exc:
+
+            except (requests.Timeout, requests.ConnectionError) as exc:
                 last_result = ApiResult(
+                    raw_text="",
+                    parsed_json=None,
+                    attached_image_count=len(attached_images),
+                    attached_images=attached_images,
+                    raw_response=None,
+                    http_status=None,
+                    http_response_text=str(exc),
+                    finish_reason=None,
+                    attempt=attempt,
+                    max_retries=max_retries,
+                    error="backend_error",
+                )
+                if attempt < max_retries:
+                    continue
+                return last_result
+
+            except requests.RequestException as exc:
+                return ApiResult(
                     raw_text="",
                     parsed_json=None,
                     attached_image_count=len(attached_images),
@@ -507,28 +555,22 @@ class ResponsesClient:
                     finish_reason=None,
                     attempt=attempt,
                     max_retries=max_retries,
-                    error=str(exc),
+                    error="backend_error",
                 )
-                if attempt < max_retries:
-                    time.sleep(delay)
-                    delay *= 2
 
-        if last_result is None:
-            last_result = ApiResult(
-                raw_text="",
-                parsed_json=None,
-                attached_image_count=len(attached_images),
-                attached_images=attached_images,
-                raw_response=None,
-                http_status=None,
-                http_response_text="",
-                finish_reason=None,
-                attempt=max_retries,
-                max_retries=max_retries,
-                error="unknown_failure",
-            )
-        last_result.warning = "empty_or_invalid_response_after_retries"
-        return last_result
+        return last_result or ApiResult(
+            raw_text="",
+            parsed_json=None,
+            attached_image_count=len(attached_images),
+            attached_images=attached_images,
+            raw_response=None,
+            http_status=None,
+            http_response_text="",
+            finish_reason=None,
+            attempt=max_retries,
+            max_retries=max_retries,
+            error="backend_error",
+        )
 
     def analyze_images(
         self,
@@ -537,9 +579,16 @@ class ResponsesClient:
         timeout: int = 180,
         max_retries: int = DEFAULT_MAX_RETRIES,
         max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS,
+        request_delay: float = DEFAULT_REQUEST_DELAY,
     ) -> ApiResult:
         payload, attached_images = self.build_payload(prompt, images, max_output_tokens)
-        return self.post_with_retries(payload, attached_images, timeout=timeout, max_retries=max_retries)
+        return self.post_with_retries(
+            payload=payload,
+            attached_images=attached_images,
+            timeout=timeout,
+            max_retries=max_retries,
+            request_delay=request_delay,
+        )
 
 
 def build_human_readable_summary(parsed: Optional[Dict[str, Any]]) -> str:
@@ -553,6 +602,7 @@ def build_human_readable_summary(parsed: Optional[Dict[str, Any]]) -> str:
         verdict = verdict_from_score(score)
         if verdict == "pass":
             continue
+
         lines.append(f"- SCORE {score:.2f} | IMAGE {i}: {verdict}")
         lines.append(f"  PATH: {item.get('image_path', '')}")
         lines.append(
@@ -569,50 +619,41 @@ def build_human_readable_summary(parsed: Optional[Dict[str, Any]]) -> str:
             lines.append("  MISSING EVIDENCE:")
             for miss in item["missing_evidence"]:
                 lines.append(f"    - {miss}")
+
     return "\n".join(lines)
 
 
 def format_compact_block(row: AuditRow) -> str:
     parsed = ((row.result or {}).get("parsed_json")) or {}
     results = parsed.get("results", [])
-    if not results:
-        return ""
-
-    result_lines: List[str] = []
-    for i, item in enumerate(results, start=1):
-        criteria = item.get("criteria", {})
-        score = compute_overall_score(criteria)
-        verdict = verdict_from_score(score)
-        if verdict == "pass":
-            continue
-        result_lines.append(f"  - SCORE {score:.2f} | IMAGE {i}: {verdict}")
-        result_lines.append(f"    PATH: {item.get('image_path', '')}")
-        result_lines.append(
-            "    CRITERIA: "
-            f"topic={criteria.get('topic_match', 'n/a')}, "
-            f"detail={criteria.get('detail_match', 'n/a')}, "
-            f"section={criteria.get('section_relevance', 'n/a')}, "
-            f"visual={criteria.get('visual_evidence', 'n/a')}, "
-            f"contradictions={criteria.get('contradictions', 'n/a')}"
-        )
-        reasons = item.get("reasons", [])
-        if reasons:
-            result_lines.append(f"    IMAGE CONTENT: {reasons[0]}")
-        missing = item.get("missing_evidence", [])
-        if missing:
-            result_lines.append("    MISSING EVIDENCE:")
-            for miss in missing:
-                result_lines.append(f"      - {miss}")
-
-    if not result_lines:
-        return ""
 
     lines = [f"FILE: {row.file_path}"]
     if row.title:
         lines.append(f"TITLE: {row.title}")
     lines.append(f"IMAGE COUNT: {row.image_count}")
-    lines.append("RESULTS:")
-    lines.extend(result_lines)
+
+    invalid_refs = [ref for ref in row.image_refs if ref.get("error") == "kein png"]
+    if invalid_refs:
+        lines.append("ERRORS:")
+        for ref in invalid_refs:
+            lines.append(f"  - {ref.get('used_path', ref.get('original_path', ''))}: kein png")
+
+    if row.result.get("error") == "backend_error":
+        if "ERRORS:" not in lines:
+            lines.append("ERRORS:")
+        lines.append("  - backend_error")
+
+    if results:
+        lines.append("RESULTS:")
+        for i, item in enumerate(results, start=1):
+            criteria = item.get("criteria", {})
+            score = compute_overall_score(criteria)
+            verdict = verdict_from_score(score)
+            if verdict == "pass":
+                continue
+            lines.append(f"  - SCORE {score:.2f} | IMAGE {i}: {verdict}")
+            lines.append(f"    PATH: {item.get('image_path', '')}")
+
     return "\n".join(lines)
 
 
@@ -635,7 +676,8 @@ def format_debug_block(row: AuditRow) -> str:
             f"kind={ref.get('kind', '')} | "
             f"line={ref.get('line', '')} | "
             f"exists={ref.get('exists', '')} | "
-            f"fallback_used={ref.get('fallback_used', '')}"
+            f"is_png={ref.get('is_png', '')} | "
+            f"error={ref.get('error', '')}"
         )
     lines.append("ATTACHED IMAGES:")
     attached = row.result.get("attached_images", [])
@@ -691,7 +733,13 @@ def select_input_files(args: argparse.Namespace, workspace: Path) -> List[Path]:
     return deduped
 
 
-def make_row(rst_file: Path, workspace: Path, title: Optional[str], image_refs: List[ImageReference], result: ApiResult) -> AuditRow:
+def make_row(
+    rst_file: Path,
+    workspace: Path,
+    title: Optional[str],
+    image_refs: List[ImageReference],
+    result: ApiResult,
+) -> AuditRow:
     rel_path = rst_file.relative_to(workspace).as_posix() if rst_file.is_relative_to(workspace) else str(rst_file)
     return AuditRow(
         file_path=rel_path,
@@ -705,7 +753,8 @@ def make_row(rst_file: Path, workspace: Path, title: Optional[str], image_refs: 
                 "kind": img.kind,
                 "line": img.line,
                 "exists": img.exists,
-                "fallback_used": img.fallback_used,
+                "is_png": img.is_png,
+                "error": img.error,
             }
             for img in image_refs
         ],
@@ -718,6 +767,9 @@ def process_file(
     workspace: Path,
     source_root: Optional[Path],
     client: ResponsesClient,
+    max_retries: int,
+    request_delay: float,
+    max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS,
 ) -> Optional[AuditRow]:
     if not rst_file.exists() or not rst_file.is_file():
         return None
@@ -730,11 +782,16 @@ def process_file(
 
     loaded_images: List[LoadedImage] = []
     seen_paths = set()
+
     for ref in image_refs:
-        if not ref.resolved_path:
+        if ref.error == "kein png" or not ref.resolved_path:
             continue
-        loaded = load_local_image_content(Path(ref.resolved_path))
-        if not loaded or loaded.path in seen_paths:
+        try:
+            loaded = load_local_image_content(Path(ref.resolved_path))
+        except ValueError:
+            ref.error = "kein png"
+            continue
+        if loaded.path in seen_paths:
             continue
         seen_paths.add(loaded.path)
         loaded_images.append(loaded)
@@ -748,11 +805,33 @@ def process_file(
     }
     prompt = make_prompt(job)
 
+    if not loaded_images:
+        result = ApiResult(
+            raw_text="",
+            parsed_json=None,
+            attached_image_count=0,
+            attached_images=[],
+            raw_response=None,
+            http_status=None,
+            http_response_text="kein png",
+            finish_reason=None,
+            attempt=0,
+            max_retries=max_retries,
+            error="kein png",
+        )
+        return make_row(rst_file, workspace, job["title"], image_refs, result)
+
     try:
-        result = client.analyze_images(prompt, loaded_images)
+        result = client.analyze_images(
+            prompt=prompt,
+            images=loaded_images,
+            max_retries=max_retries,
+            request_delay=request_delay,
+            max_output_tokens=max_output_tokens,
+        )
     except Exception as exc:
         result = ApiResult(
-            raw_text=f"API call failed: {exc}",
+            raw_text="",
             parsed_json=None,
             attached_image_count=len(loaded_images),
             attached_images=[img.path for img in loaded_images],
@@ -760,9 +839,9 @@ def process_file(
             http_status=None,
             http_response_text=str(exc),
             finish_reason=None,
-            attempt=1,
-            max_retries=DEFAULT_MAX_RETRIES,
-            error=str(exc),
+            attempt=max_retries,
+            max_retries=max_retries,
+            error="backend_error",
         )
 
     return make_row(rst_file, workspace, job["title"], image_refs, result)
@@ -776,6 +855,9 @@ def process_files(
     text_output: Path,
     debug_output: Path,
     json_output: Path,
+    max_retries: int,
+    request_delay: float,
+    max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS,
 ) -> Tuple[int, int, int]:
     processed_files = 0
     flagged_files = 0
@@ -783,9 +865,18 @@ def process_files(
 
     with text_output.open("w", encoding="utf-8") as tout, debug_output.open("w", encoding="utf-8") as dout:
         for rst_file in files:
-            row = process_file(rst_file, workspace, source_root, client)
+            row = process_file(
+                rst_file=rst_file,
+                workspace=workspace,
+                source_root=source_root,
+                client=client,
+                max_retries=max_retries,
+                request_delay=request_delay,
+                max_output_tokens=max_output_tokens,
+            )
             if row is None:
                 continue
+
             processed_files += 1
             all_rows.append(asdict(row))
 
@@ -793,6 +884,7 @@ def process_files(
             if compact_block.strip():
                 tout.write(compact_block + "\n\n" + ("-" * 80) + "\n\n")
                 flagged_files += 1
+
             dout.write(format_debug_block(row) + "\n\n" + ("-" * 80) + "\n\n")
 
     json_output.write_text(json.dumps(all_rows, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -802,9 +894,18 @@ def process_files(
 def enforce_strict_mode(json_output: Path) -> None:
     if not json_output.exists():
         return
+
     data = json.loads(json_output.read_text(encoding="utf-8"))
     for row in data:
-        parsed = ((row or {}).get("result") or {}).get("parsed_json") or {}
+        image_refs = row.get("image_refs", [])
+        if any(ref.get("error") == "kein png" for ref in image_refs):
+            raise SystemExit(1)
+
+        result = (row or {}).get("result") or {}
+        if result.get("error") in {"kein png", "backend_error"}:
+            raise SystemExit(1)
+
+        parsed = result.get("parsed_json") or {}
         for item in parsed.get("results", []):
             criteria = item.get("criteria", {})
             score = compute_overall_score(criteria)
@@ -822,15 +923,19 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--api-url", default=os.getenv("AI_API_URL"), help="Responses endpoint, e.g. .../v1/responses")
     parser.add_argument("--api-key", default=os.getenv("AI_API_KEY"), help="AI API key.")
     parser.add_argument("--model", default=os.getenv("AI_MODEL", "qwen3.6-35b"), help="Model name.")
+    parser.add_argument("--request-delay", type=float, default=DEFAULT_REQUEST_DELAY, help="Fixed delay before each API call.")
+    parser.add_argument("--max-retries", type=int, default=DEFAULT_MAX_RETRIES, help="Number of attempts for backend/transient errors.")
+    parser.add_argument("--max-output-tokens", type=int, default=DEFAULT_MAX_OUTPUT_TOKENS, help="Maximum output tokens for the API.")
     parser.add_argument("--output-text", default="results_with_images.txt", help="Readable text output.")
     parser.add_argument("--output-json", default="results_with_images.json", help="Machine-readable JSON output.")
     parser.add_argument("--output-debug", default="results_with_images.debug.txt", help="Debug output with raw model text.")
-    parser.add_argument("--strict", action="store_true", help="Exit with code 1 when score < 0.55")
+    parser.add_argument("--strict", action="store_true", help="Exit with code 1 when score < 0.55, backend error, or kein png.")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
+
     if not args.api_url:
         raise SystemExit("Missing AI API URL. Use --api-url or set AI_API_URL.")
     if not args.api_key:
@@ -841,6 +946,7 @@ def main() -> None:
     files = select_input_files(args, workspace)
 
     client = ResponsesClient(api_url=args.api_url, api_key=args.api_key, model=args.model)
+
     processed_files, flagged_files, row_count = process_files(
         files=files,
         workspace=workspace,
@@ -849,6 +955,9 @@ def main() -> None:
         text_output=Path(args.output_text),
         debug_output=Path(args.output_debug),
         json_output=Path(args.output_json),
+        max_retries=args.max_retries,
+        request_delay=args.request_delay,
+        max_output_tokens=args.max_output_tokens,
     )
 
     if args.strict:
