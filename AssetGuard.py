@@ -24,6 +24,13 @@ DEFAULT_MAX_RETRIES = 2
 DEFAULT_REQUEST_DELAY = 1
 DEFAULT_MAX_OUTPUT_TOKENS = 8000
 
+VALID_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg"}
+MEDIA_TYPES_BY_SUFFIX = {
+    ".png": "image/png",
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+}
+
 BACKEND_REQUIRED_TOOL = {
     "type": "function",
     "function": {
@@ -103,7 +110,7 @@ class ImageReference:
     original_resolved_path: Optional[str] = None
     resolved_path: Optional[str] = None
     exists: bool = False
-    is_png: bool = False
+    is_valid_image: bool = False
     error: Optional[str] = None
 
 
@@ -195,8 +202,20 @@ def normalize_target(target: str) -> str:
     return target.strip().strip('"').strip("'")
 
 
-def is_png_path(path: str) -> bool:
-    return PurePosixPath(path).suffix.lower() == ".png"
+def get_image_suffix(path: str) -> str:
+    return PurePosixPath(path).suffix.lower()
+
+
+def is_valid_image_path(path: str) -> bool:
+    return get_image_suffix(path) in VALID_IMAGE_SUFFIXES
+
+
+def get_media_type_for_path(path: Path) -> str:
+    suffix = path.suffix.lower()
+    media_type = MEDIA_TYPES_BY_SUFFIX.get(suffix)
+    if not media_type:
+        raise ValueError("kein valides Bild")
+    return media_type
 
 
 def resolve_local_path(
@@ -215,19 +234,19 @@ def resolve_local_path(
 
 
 def load_local_image_content(path: Path) -> LoadedImage:
-    if path.suffix.lower() != ".png":
-        raise ValueError("kein png")
+    if path.suffix.lower() not in VALID_IMAGE_SUFFIXES:
+        raise ValueError("kein valides Bild")
     if not path.exists() or not path.is_file():
-        raise ValueError("kein png")
+        raise ValueError("kein valides Bild")
 
     try:
         raw = path.read_bytes()
     except OSError:
-        raise ValueError("kein png")
+        raise ValueError("kein valides Bild")
 
     return LoadedImage(
         path=str(path.resolve()),
-        media_type="image/png",
+        media_type=get_media_type_for_path(path),
         data_base64=base64.b64encode(raw).decode("utf-8"),
     )
 
@@ -242,12 +261,12 @@ def build_image_candidates(
 
     for ref in refs:
         resolved = resolve_local_path(rst_path, ref.target, workspace, source_root)
-        is_png = is_png_path(ref.target)
+        is_valid_image = is_valid_image_path(ref.target)
         exists = resolved.exists()
 
         error = None
-        if not is_png or not exists:
-            error = "kein png"
+        if not is_valid_image or not exists:
+            error = "kein valides Bild"
 
         candidates.append(
             ImageReference(
@@ -259,7 +278,7 @@ def build_image_candidates(
                 original_resolved_path=str(resolved),
                 resolved_path=str(resolved),
                 exists=exists,
-                is_png=is_png,
+                is_valid_image=is_valid_image,
                 error=error,
             )
         )
@@ -647,11 +666,11 @@ def format_compact_block(row: AuditRow) -> str:
         lines.append(f"TITLE: {row.title}")
     lines.append(f"IMAGE COUNT: {row.image_count}")
 
-    invalid_refs = [ref for ref in row.image_refs if ref.get("error") == "kein png"]
+    invalid_refs = [ref for ref in row.image_refs if ref.get("error") == "kein valides Bild"]
     if invalid_refs:
         lines.append("ERRORS:")
         for ref in invalid_refs:
-            lines.append(f"  - {ref.get('used_path', ref.get('original_path', ''))}: kein png")
+            lines.append(f"  - {ref.get('used_path', ref.get('original_path', ''))}: kein valides Bild")
 
     if row.result.get("error") == "backend_error":
         if "ERRORS:" not in lines:
@@ -721,7 +740,7 @@ def format_debug_block(row: AuditRow) -> str:
             f"kind={ref.get('kind', '')} | "
             f"line={ref.get('line', '')} | "
             f"exists={ref.get('exists', '')} | "
-            f"is_png={ref.get('is_png', '')} | "
+            f"is_valid_image={ref.get('is_valid_image', '')} | "
             f"error={ref.get('error', '')}"
         )
     lines.append("ATTACHED IMAGES:")
@@ -798,7 +817,7 @@ def make_row(
                 "kind": img.kind,
                 "line": img.line,
                 "exists": img.exists,
-                "is_png": img.is_png,
+                "is_valid_image": img.is_valid_image,
                 "error": img.error,
             }
             for img in image_refs
@@ -829,12 +848,12 @@ def process_file(
     seen_paths = set()
 
     for ref in image_refs:
-        if ref.error == "kein png" or not ref.resolved_path:
+        if ref.error == "kein valides Bild" or not ref.resolved_path:
             continue
         try:
             loaded = load_local_image_content(Path(ref.resolved_path))
         except ValueError:
-            ref.error = "kein png"
+            ref.error = "kein valides Bild"
             continue
         if loaded.path in seen_paths:
             continue
@@ -858,11 +877,11 @@ def process_file(
             attached_images=[],
             raw_response=None,
             http_status=None,
-            http_response_text="kein png",
+            http_response_text="kein valides Bild",
             finish_reason=None,
             attempt=0,
             max_retries=max_retries,
-            error="kein png",
+            error="kein valides Bild",
         )
         return make_row(rst_file, workspace, job["title"], image_refs, result)
 
@@ -943,11 +962,11 @@ def enforce_strict_mode(json_output: Path) -> None:
     data = json.loads(json_output.read_text(encoding="utf-8"))
     for row in data:
         image_refs = row.get("image_refs", [])
-        if any(ref.get("error") == "kein png" for ref in image_refs):
+        if any(ref.get("error") == "kein valides Bild" for ref in image_refs):
             raise SystemExit(1)
 
         result = (row or {}).get("result") or {}
-        if result.get("error") in {"kein png", "backend_error"}:
+        if result.get("error") in {"kein valides Bild", "backend_error"}:
             raise SystemExit(1)
 
         parsed = result.get("parsed_json") or {}
@@ -979,7 +998,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-text", default="results_with_images.txt", help="Readable text output.")
     parser.add_argument("--output-json", default="results_with_images.json", help="Machine-readable JSON output.")
     parser.add_argument("--output-debug", default="results_with_images.debug.txt", help="Debug output with raw model text.")
-    parser.add_argument("--strict", action="store_true", help="Exit with code 1 when score < 0.55, backend error, kein png, or invalid parsed JSON.")
+    parser.add_argument("--strict", action="store_true", help="Exit with code 1 when score < 0.55, backend error, invalid image, or invalid parsed JSON.")
     return parser.parse_args()
 
 
