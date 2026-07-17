@@ -25,8 +25,7 @@ DEFAULT_REQUEST_DELAY = 0.3
 DEFAULT_MAX_OUTPUT_TOKENS = 8000
 
 # Backend compatibility placeholder: the backend expects at least one tool.
-# This tool must remain present even though tool_choice is set to "none".
-BACKEND_REQUIRED_DUMMY_TOOL = {
+BACKEND_REQUIRED_TOOL = {
     "type": "function",
     "function": {
         "name": "get_weather",
@@ -449,7 +448,7 @@ class ResponsesClient:
                 "Do not guess paths. Return JSON only."
             ),
             "input": [{"role": "user", "content": content}],
-            "tools": [BACKEND_REQUIRED_DUMMY_TOOL],
+            "tools": [BACKEND_REQUIRED_TOOL],
             "tool_choice": "none",
             "response_format": RESPONSE_SCHEMA,
             "temperature": 0,
