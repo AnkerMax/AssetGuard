@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 import argparse
 import base64
+import csv
 import json
+import logging
 import os
 import re
+import sys
 import time
 from dataclasses import dataclass, asdict
 from pathlib import Path, PurePosixPath
 from typing import Any, Dict, List, Optional, Tuple
+
 import requests
 
 WEIGHTS = {
@@ -24,13 +28,19 @@ DEFAULT_MAX_RETRIES = 2
 DEFAULT_REQUEST_DELAY = 1
 DEFAULT_MAX_OUTPUT_TOKENS = 8000
 
-# Akzeptierte Bild-Suffixe
 VALID_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg"}
 MEDIA_TYPES_BY_SUFFIX = {
     ".png": "image/png",
     ".jpg": "image/jpeg",
     ".jpeg": "image/jpeg",
 }
+
+EXIT_OK = 0
+EXIT_CONFIG_ERROR = 2
+EXIT_STRICT_FAILURE = 3
+EXIT_RUNTIME_ERROR = 4
+
+LOGGER = logging.getLogger(__name__)
 
 BACKEND_REQUIRED_TOOL = {
     "type": "function",
@@ -47,6 +57,7 @@ BACKEND_REQUIRED_TOOL = {
     }
 }
 
+# WICHTIG: JSON-Schema unverändert gelassen
 RESPONSE_SCHEMA = {
     "type": "json_schema",
     "json_schema": {
@@ -64,6 +75,19 @@ RESPONSE_SCHEMA = {
                         "properties": {
                             "document_path": {"type": "string"},
                             "image_path": {"type": "string"},
+                            "image_kind": {
+                                "type": "string",
+                                "enum": ["screenshot", "icon", "other"]
+                            },
+                            "contains_interactive_buttons": {"type": "boolean"},
+                            "buttons_magenta": {"type": "boolean"},
+                            "hard_fail": {"type": "boolean"},
+                            "hard_fail_reason": {
+                                "anyOf": [
+                                    {"type": "string"},
+                                    {"type": "null"}
+                                ]
+                            },
                             "criteria": {
                                 "type": "object",
                                 "additionalProperties": False,
@@ -88,6 +112,11 @@ RESPONSE_SCHEMA = {
                         "required": [
                             "document_path",
                             "image_path",
+                            "image_kind",
+                            "contains_interactive_buttons",
+                            "buttons_magenta",
+                            "hard_fail",
+                            "hard_fail_reason",
                             "criteria",
                             "reasons",
                             "missing_evidence",
@@ -128,14 +157,13 @@ class ApiResult:
     parsed_json: Optional[Dict[str, Any]]
     attached_image_count: int
     attached_images: List[str]
-    raw_response: Optional[Dict[str, Any]]
     http_status: Optional[int]
-    http_response_text: str
     finish_reason: Optional[str]
     attempt: int
     max_retries: int
     error: Optional[str] = None
     warning: Optional[str] = None
+    response_excerpt: Optional[str] = None
 
 
 @dataclass
@@ -145,6 +173,17 @@ class AuditRow:
     image_count: int
     image_refs: List[Dict[str, Any]]
     result: Dict[str, Any]
+
+
+def configure_logging(level: str) -> None:
+    numeric_level = getattr(logging, level.upper(), None)
+    if not isinstance(numeric_level, int):
+        raise SystemExit(f"Invalid log level: {level}")
+
+    logging.basicConfig(
+        level=numeric_level,
+        format="%(asctime)s %(levelname)s %(name)s - %(message)s",
+    )
 
 
 def compute_overall_score(criteria: Dict[str, int]) -> float:
@@ -159,6 +198,12 @@ def verdict_from_score(score: float) -> str:
     if score >= 0.55:
         return "partial"
     return "fail"
+
+
+def final_verdict(item: Dict[str, Any]) -> str:
+    if item.get("hard_fail") is True:
+        return "fail"
+    return verdict_from_score(compute_overall_score(item.get("criteria", {})))
 
 
 def extract_title(rst_raw: str) -> Optional[str]:
@@ -208,13 +253,11 @@ def get_image_suffix(path: str) -> str:
 
 
 def is_valid_image_path(path: str) -> bool:
-    suffix = get_image_suffix(path)
-    return suffix in VALID_IMAGE_SUFFIXES
+    return get_image_suffix(path) in VALID_IMAGE_SUFFIXES
 
 
 def get_media_type_for_path(path: Path) -> str:
-    suffix = path.suffix.lower()
-    media_type = MEDIA_TYPES_BY_SUFFIX.get(suffix)
+    media_type = MEDIA_TYPES_BY_SUFFIX.get(path.suffix.lower())
     if not media_type:
         raise ValueError("kein valides Bild")
     return media_type
@@ -247,11 +290,9 @@ def load_local_image_content(path: Path) -> LoadedImage:
     except OSError:
         raise ValueError("kein valides Bild")
 
-    media_type = get_media_type_for_path(path)
-
     return LoadedImage(
         path=str(path.resolve()),
-        media_type=media_type,
+        media_type=get_media_type_for_path(path),
         data_base64=base64.b64encode(raw).decode("utf-8"),
     )
 
@@ -265,13 +306,19 @@ def build_image_candidates(
     candidates: List[ImageReference] = []
 
     for ref in refs:
-        resolved = resolve_local_path(rst_path, ref.target, workspace, source_root)
-        valid = is_valid_image_path(ref.target)
-        exists = resolved.exists()
-
-        error = None
-        if not valid or not exists:
+        try:
+            resolved = resolve_local_path(rst_path, ref.target, workspace, source_root)
+            valid = is_valid_image_path(ref.target)
+            exists = resolved.exists()
+            error = None if (valid and exists) else "kein valides Bild"
+            resolved_path = str(resolved)
+            original_resolved_path = str(resolved)
+        except ValueError:
+            valid = False
+            exists = False
             error = "kein valides Bild"
+            resolved_path = None
+            original_resolved_path = None
 
         candidates.append(
             ImageReference(
@@ -280,8 +327,8 @@ def build_image_candidates(
                 target=ref.target,
                 line=ref.line,
                 original_target=ref.target,
-                original_resolved_path=str(resolved),
-                resolved_path=str(resolved),
+                original_resolved_path=original_resolved_path,
+                resolved_path=resolved_path,
                 exists=exists,
                 is_valid_image=valid,
                 error=error,
@@ -296,16 +343,27 @@ def make_prompt(job: Dict[str, Any]) -> str:
     return (
         "Analyze the reStructuredText document and all attached images.\n"
         "Evaluate every attached image separately.\n"
-        "Return one object in results for each attached image.\n"
-        "Determine whether the image matches the document content in a meaningful contextual way.\n\n"
+        "Return one object in results for each attached image.\n\n"
+        "First classify the image:\n"
+        "- image_kind must be one of: screenshot, icon, other.\n"
+        "- screenshot = UI/application/page screenshot with visible interface.\n"
+        "- icon = small symbolic graphic, logo, pictogram, or isolated UI symbol.\n"
+        "- other = anything else.\n\n"
+        "Then apply this mandatory rule before contextual scoring:\n"
+        "- If the image is a screenshot, check whether visible user-interactive buttons are magenta.\n"
+        "- User-interactive buttons include clearly clickable UI controls such as buttons, CTA elements, or obvious interactive controls.\n"
+        "- If the image is a screenshot and contains interactive buttons and those buttons are not magenta, set hard_fail=true.\n"
+        "- In that case set hard_fail_reason to a short explanation.\n"
+        "- In that case the image must be treated as failed regardless of the criteria scores.\n"
+        "- If there are no visible interactive buttons, set contains_interactive_buttons=false and do not hard-fail for color.\n\n"
+        "Scoring rules:\n"
+        "- criteria scores still need to be filled for every image.\n"
+        "- But if hard_fail=true, the final judgment must ignore the score.\n\n"
         "Field meaning:\n"
         "- document_path: use exactly the provided file path of the rst document.\n"
         "- image_path: use exactly the path that was provided for each attached image.\n"
-        "- criteria.topic_match: score from 0 to 3.\n"
-        "- criteria.detail_match: score from 0 to 3.\n"
-        "- criteria.section_relevance: score from 0 to 3.\n"
-        "- criteria.visual_evidence: score from 0 to 3.\n"
-        "- criteria.contradictions: score from 0 to 3, where 3 means no clear contradiction.\n"
+        "- buttons_magenta should be true only if the visible interactive buttons are magenta.\n"
+        "- If no interactive buttons are visible, set buttons_magenta=false.\n"
         "- reasons: short bullet-style statements explaining the judgment.\n"
         "- missing_evidence: short bullet-style statements listing missing or unclear information.\n\n"
         "Rules:\n"
@@ -383,8 +441,30 @@ def _is_complete_result_item(item: Any) -> bool:
     if not isinstance(item, dict):
         return False
 
-    required_top = {"document_path", "image_path", "criteria", "reasons", "missing_evidence"}
+    required_top = {
+        "document_path",
+        "image_path",
+        "image_kind",
+        "contains_interactive_buttons",
+        "buttons_magenta",
+        "hard_fail",
+        "hard_fail_reason",
+        "criteria",
+        "reasons",
+        "missing_evidence",
+    }
     if not required_top.issubset(item.keys()):
+        return False
+
+    if item["image_kind"] not in {"screenshot", "icon", "other"}:
+        return False
+    if not isinstance(item.get("contains_interactive_buttons"), bool):
+        return False
+    if not isinstance(item.get("buttons_magenta"), bool):
+        return False
+    if not isinstance(item.get("hard_fail"), bool):
+        return False
+    if item.get("hard_fail_reason") is not None and not isinstance(item.get("hard_fail_reason"), str):
         return False
 
     criteria = item.get("criteria")
@@ -400,6 +480,11 @@ def _is_complete_result_item(item: Any) -> bool:
     }
     if not required_criteria.issubset(criteria.keys()):
         return False
+
+    for key in required_criteria:
+        value = criteria.get(key)
+        if not isinstance(value, int) or value < 0 or value > 3:
+            return False
 
     if not isinstance(item.get("reasons"), list) or not all(isinstance(x, str) for x in item.get("reasons")):
         return False
@@ -436,12 +521,8 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             pass
 
     for obj in reversed(candidates):
-        if not isinstance(obj, dict):
-            continue
         results = obj.get("results")
-        if not isinstance(results, list):
-            continue
-        if all(_is_complete_result_item(x) for x in results):
+        if isinstance(results, list) and all(_is_complete_result_item(x) for x in results):
             return obj
 
     return None
@@ -523,14 +604,14 @@ class ResponsesClient:
                         parsed_json=None,
                         attached_image_count=len(attached_images),
                         attached_images=attached_images,
-                        raw_response=None,
                         http_status=status_code,
-                        http_response_text=response_text,
                         finish_reason=None,
                         attempt=attempt,
                         max_retries=max_retries,
                         error="backend_error",
+                        response_excerpt=response_text[:2000],
                     )
+                    LOGGER.warning("Transient backend error %s on attempt %s/%s", status_code, attempt, max_retries)
                     if attempt < max_retries:
                         continue
                     return last_result
@@ -542,17 +623,19 @@ class ResponsesClient:
                 except Exception:
                     data = {"_non_json_response_text": response_text}
 
+                raw_text = extract_response_text(data) if isinstance(data, dict) else ""
+                parsed_json = extract_response_json(data) if isinstance(data, dict) else None
+
                 return ApiResult(
-                    raw_text=extract_response_text(data) if isinstance(data, dict) else "",
-                    parsed_json=extract_response_json(data) if isinstance(data, dict) else None,
+                    raw_text=raw_text,
+                    parsed_json=parsed_json,
                     attached_image_count=len(attached_images),
                     attached_images=attached_images,
-                    raw_response=data if isinstance(data, dict) else None,
                     http_status=status_code,
-                    http_response_text=response_text,
                     finish_reason=extract_finish_reason(data) if isinstance(data, dict) else None,
                     attempt=attempt,
                     max_retries=max_retries,
+                    response_excerpt=None if parsed_json else response_text[:2000],
                 )
 
             except (requests.Timeout, requests.ConnectionError) as exc:
@@ -561,31 +644,31 @@ class ResponsesClient:
                     parsed_json=None,
                     attached_image_count=len(attached_images),
                     attached_images=attached_images,
-                    raw_response=None,
                     http_status=None,
-                    http_response_text=str(exc),
                     finish_reason=None,
                     attempt=attempt,
                     max_retries=max_retries,
                     error="backend_error",
+                    response_excerpt=str(exc)[:2000],
                 )
+                LOGGER.warning("Connection/backend error on attempt %s/%s: %s", attempt, max_retries, exc)
                 if attempt < max_retries:
                     continue
                 return last_result
 
             except requests.RequestException as exc:
+                response = getattr(exc, "response", None)
                 return ApiResult(
                     raw_text="",
                     parsed_json=None,
                     attached_image_count=len(attached_images),
                     attached_images=attached_images,
-                    raw_response=None,
-                    http_status=getattr(getattr(exc, "response", None), "status_code", None),
-                    http_response_text=getattr(getattr(exc, "response", None), "text", str(exc)),
+                    http_status=getattr(response, "status_code", None),
                     finish_reason=None,
                     attempt=attempt,
                     max_retries=max_retries,
                     error="backend_error",
+                    response_excerpt=(getattr(response, "text", str(exc)) or "")[:2000],
                 )
 
         return last_result or ApiResult(
@@ -593,9 +676,7 @@ class ResponsesClient:
             parsed_json=None,
             attached_image_count=len(attached_images),
             attached_images=attached_images,
-            raw_response=None,
             http_status=None,
-            http_response_text="",
             finish_reason=None,
             attempt=max_retries,
             max_retries=max_retries,
@@ -619,134 +700,6 @@ class ResponsesClient:
             max_retries=max_retries,
             request_delay=request_delay,
         )
-
-
-def build_human_readable_summary(parsed: Optional[Dict[str, Any]]) -> str:
-    if not parsed or not isinstance(parsed.get("results"), list):
-        return "<no parsed JSON results>"
-
-    lines: List[str] = []
-    for i, item in enumerate(parsed["results"], start=1):
-        criteria = item.get("criteria", {})
-        score = compute_overall_score(criteria)
-        verdict = verdict_from_score(score)
-        if verdict == "pass":
-            continue
-
-        lines.append(f"- SCORE {score:.2f} | IMAGE {i}: {verdict}")
-        lines.append(f"  PATH: {item.get('image_path', '')}")
-        lines.append(
-            "  CRITERIA: "
-            f"topic={criteria.get('topic_match', 'n/a')}, "
-            f"detail={criteria.get('detail_match', 'n/a')}, "
-            f"section={criteria.get('section_relevance', 'n/a')}, "
-            f"visual={criteria.get('visual_evidence', 'n/a')}, "
-            f"contradictions={criteria.get('contradictions', 'n/a')}"
-        )
-        for reason in item.get("reasons", []):
-            lines.append(f"    - {reason}")
-        if item.get("missing_evidence"):
-            lines.append("  MISSING EVIDENCE:")
-            for miss in item["missing_evidence"]:
-                lines.append(f"    - {miss}")
-
-    return "\n".join(lines)
-
-
-def format_compact_block(row: AuditRow) -> str:
-    parsed = ((row.result or {}).get("parsed_json")) or {}
-    results = parsed.get("results", [])
-
-    lines = [f"FILE: {row.file_path}"]
-    if row.title:
-        lines.append(f"TITLE: {row.title}")
-    lines.append(f"IMAGE COUNT: {row.image_count}")
-
-    invalid_refs = [ref for ref in row.image_refs if ref.get("error") == "kein valides Bild"]
-    if invalid_refs:
-        lines.append("ERRORS:")
-        for ref in invalid_refs:
-            lines.append(f"  - {ref.get('used_path', ref.get('original_path', ''))}: kein valides Bild")
-
-    if row.result.get("error") == "backend_error":
-        if "ERRORS:" not in lines:
-            lines.append("ERRORS:")
-        lines.append("  - backend_error")
-
-    # Hier werden Score & Verdict für alle result-Items berechnet,
-    # und nur partial/fail werden für die results.txt gesammelt.
-    flagged: List[Tuple[int, float, str, Dict[str, Any]]] = []
-    for i, item in enumerate(results, start=1):
-        criteria = item.get("criteria", {})
-        score = compute_overall_score(criteria)
-        verdict = verdict_from_score(score)
-        if verdict == "pass":
-            continue
-        flagged.append((i, score, verdict, item))
-
-    if flagged:
-        lines.append("RESULTS:")
-        for i, score, verdict, item in flagged:
-            lines.append(f"  - SCORE {score:.2f} | IMAGE {i}: {verdict}")
-            lines.append(f"    PATH: {item.get('image_path', '')}")
-
-            criteria = item.get("criteria", {})
-            lines.append(
-                "    CRITERIA: "
-                f"topic={criteria.get('topic_match', 'n/a')}, "
-                f"detail={criteria.get('detail_match', 'n/a')}, "
-                f"section={criteria.get('section_relevance', 'n/a')}, "
-                f"visual={criteria.get('visual_evidence', 'n/a')}, "
-                f"contradictions={criteria.get('contradictions', 'n/a')}"
-            )
-
-            reasons = item.get("reasons") or []
-            if reasons:
-                lines.append("    REASONS:")
-                for reason in reasons:
-                    lines.append(f"      - {reason}")
-
-            missing = item.get("missing_evidence") or []
-            if missing:
-                lines.append("    MISSING EVIDENCE:")
-                for miss in missing:
-                    lines.append(f"      - {miss}")
-
-    has_errors = bool(invalid_refs) or row.result.get("error") == "backend_error"
-    if not flagged and not has_errors:
-        return ""
-
-    return "\n".join(lines)
-
-
-def format_debug_block(row: AuditRow) -> str:
-    lines = [f"FILE: {row.file_path}"]
-    if row.title:
-        lines.append(f"TITLE: {row.title}")
-    lines.append(f"IMAGE COUNT: {row.image_count}")
-    lines.append(f"ATTACHED IMAGE COUNT: {row.result.get('attached_image_count', 0)}")
-    lines.append(f"HTTP STATUS: {row.result.get('http_status', 'n/a')}")
-    lines.append(f"FINISH REASON: {row.result.get('finish_reason', 'n/a')}")
-    lines.append(f"ATTEMPT: {row.result.get('attempt', 'n/a')}/{row.result.get('max_retries', 'n/a')}")
-    lines.append("IMAGE REFERENCES:")
-    for ref in row.image_refs:
-        lines.append(
-            "  - "
-            f"original_target={ref.get('original_target', '')} | "
-            f"original_path={ref.get('original_path', '')} | "
-            f"used_path={ref.get('used_path', '')} | "
-            f"kind={ref.get('kind', '')} | "
-            f"line={ref.get('line', '')} | "
-            f"exists={ref.get('exists', '')} | "
-            f"is_valid_image={ref.get('is_valid_image', '')} | "
-            f"error={ref.get('error', '')}"
-        )
-    lines.append("ATTACHED IMAGES:")
-    attached = row.result.get("attached_images", [])
-    lines.extend([f"  - {item}" for item in attached] if attached else ["  - none"])
-    lines.append("RAW MODEL OUTPUT:")
-    lines.append(row.result.get("raw_text") or "<empty response>")
-    return "\n".join(lines)
 
 
 def read_file_list(file_list: Path) -> List[Path]:
@@ -824,6 +777,159 @@ def make_row(
     )
 
 
+def build_result_items_for_json(row: AuditRow) -> List[Dict[str, Any]]:
+    result = row.result or {}
+    parsed = result.get("parsed_json") or {}
+    items = parsed.get("results") if isinstance(parsed, dict) else []
+    if not isinstance(items, list):
+        items = []
+
+    enriched: List[Dict[str, Any]] = []
+    for item in items:
+        criteria = item.get("criteria", {})
+        score = compute_overall_score(criteria)
+        verdict = final_verdict(item)
+        enriched.append({
+            **item,
+            "overall_score": score,
+            "verdict": verdict,
+        })
+    return enriched
+
+
+def build_json_row(row: AuditRow) -> Dict[str, Any]:
+    result = row.result or {}
+    enriched_results = build_result_items_for_json(row)
+
+    verdicts = [item.get("verdict") for item in enriched_results]
+    summary = {
+        "pass": sum(1 for v in verdicts if v == "pass"),
+        "partial": sum(1 for v in verdicts if v == "partial"),
+        "fail": sum(1 for v in verdicts if v == "fail"),
+    }
+
+    return {
+        "file_path": row.file_path,
+        "title": row.title,
+        "image_count": row.image_count,
+        "image_refs": row.image_refs,
+        "status": {
+            "http_status": result.get("http_status"),
+            "finish_reason": result.get("finish_reason"),
+            "attempt": result.get("attempt"),
+            "max_retries": result.get("max_retries"),
+            "error": result.get("error"),
+            "warning": result.get("warning"),
+            "attached_image_count": result.get("attached_image_count"),
+        },
+        "summary": summary,
+        "results": enriched_results,
+        "response_excerpt": result.get("response_excerpt"),
+    }
+
+
+def iter_csv_rows(row: AuditRow) -> List[Dict[str, Any]]:
+    output_rows: List[Dict[str, Any]] = []
+
+    invalid_refs = [ref for ref in row.image_refs if ref.get("error") == "kein valides Bild"]
+    if invalid_refs:
+        for ref in invalid_refs:
+            output_rows.append({
+                "document_file": row.file_path,
+                "document_title": row.title or "",
+                "image_file": ref.get("used_path") or ref.get("original_path") or "",
+                "image_reference_type": ref.get("kind") or "",
+                "image_reference_line": ref.get("line") or "",
+                "detected_image_type": "",
+                "has_interactive_buttons": "",
+                "interactive_buttons_magenta": "",
+                "hard_fail_triggered": "",
+                "hard_fail_reason": "",
+                "score_topic_match": "",
+                "score_detail_match": "",
+                "score_section_relevance": "",
+                "score_visual_evidence": "",
+                "score_contradictions": "",
+                "overall_score": "",
+                "final_verdict": "fail",
+                "processing_error": "kein valides Bild",
+                "api_http_status": row.result.get("http_status"),
+                "api_finish_reason": row.result.get("finish_reason"),
+                "api_attempt": row.result.get("attempt"),
+                "match_reasons": "",
+                "missing_evidence": "",
+            })
+
+    if row.result.get("error") == "backend_error":
+        output_rows.append({
+            "document_file": row.file_path,
+            "document_title": row.title or "",
+            "image_file": "",
+            "image_reference_type": "",
+            "image_reference_line": "",
+            "detected_image_type": "",
+            "has_interactive_buttons": "",
+            "interactive_buttons_magenta": "",
+            "hard_fail_triggered": "",
+            "hard_fail_reason": "",
+            "score_topic_match": "",
+            "score_detail_match": "",
+            "score_section_relevance": "",
+            "score_visual_evidence": "",
+            "score_contradictions": "",
+            "overall_score": "",
+            "final_verdict": "fail",
+            "processing_error": "backend_error",
+            "api_http_status": row.result.get("http_status"),
+            "api_finish_reason": row.result.get("finish_reason"),
+            "api_attempt": row.result.get("attempt"),
+            "match_reasons": "",
+            "missing_evidence": "",
+        })
+        return output_rows
+
+    parsed = row.result.get("parsed_json") or {}
+    results = parsed.get("results", [])
+    if not isinstance(results, list):
+        return output_rows
+
+    ref_by_used_path = {
+        ref.get("used_path"): ref for ref in row.image_refs if ref.get("used_path")
+    }
+
+    for item in results:
+        criteria = item.get("criteria", {})
+        image_path = item.get("image_path", "")
+        ref = ref_by_used_path.get(image_path, {})
+        output_rows.append({
+            "document_file": row.file_path,
+            "document_title": row.title or "",
+            "image_file": image_path,
+            "image_reference_type": ref.get("kind", ""),
+            "image_reference_line": ref.get("line", ""),
+            "detected_image_type": item.get("image_kind"),
+            "has_interactive_buttons": item.get("contains_interactive_buttons"),
+            "interactive_buttons_magenta": item.get("buttons_magenta"),
+            "hard_fail_triggered": item.get("hard_fail"),
+            "hard_fail_reason": item.get("hard_fail_reason") or "",
+            "score_topic_match": criteria.get("topic_match"),
+            "score_detail_match": criteria.get("detail_match"),
+            "score_section_relevance": criteria.get("section_relevance"),
+            "score_visual_evidence": criteria.get("visual_evidence"),
+            "score_contradictions": criteria.get("contradictions"),
+            "overall_score": compute_overall_score(criteria),
+            "final_verdict": final_verdict(item),
+            "processing_error": row.result.get("error") or "",
+            "api_http_status": row.result.get("http_status"),
+            "api_finish_reason": row.result.get("finish_reason"),
+            "api_attempt": row.result.get("attempt"),
+            "match_reasons": " | ".join(item.get("reasons", [])),
+            "missing_evidence": " | ".join(item.get("missing_evidence", [])),
+        })
+
+    return output_rows
+
+
 def process_file(
     rst_file: Path,
     workspace: Path,
@@ -834,12 +940,15 @@ def process_file(
     max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS,
 ) -> Optional[AuditRow]:
     if not rst_file.exists() or not rst_file.is_file():
+        LOGGER.warning("Skipping missing file: %s", rst_file)
         return None
 
     rst_raw = rst_file.read_text(encoding="utf-8", errors="replace")
     refs = extract_image_refs(rst_raw)
     image_refs = build_image_candidates(rst_file, refs, workspace, source_root)
+
     if not image_refs:
+        LOGGER.debug("No image references found in %s", rst_file)
         return None
 
     loaded_images: List[LoadedImage] = []
@@ -868,20 +977,22 @@ def process_file(
     prompt = make_prompt(job)
 
     if not loaded_images:
+        LOGGER.warning("No valid images for %s", rst_file)
         result = ApiResult(
             raw_text="",
             parsed_json=None,
             attached_image_count=0,
             attached_images=[],
-            raw_response=None,
             http_status=None,
-            http_response_text="kein valides Bild",
             finish_reason=None,
             attempt=0,
             max_retries=max_retries,
             error="kein valides Bild",
+            response_excerpt="kein valides Bild",
         )
         return make_row(rst_file, workspace, job["title"], image_refs, result)
+
+    LOGGER.info("Analyzing %s with %d attached images", rel_path, len(loaded_images))
 
     try:
         result = client.analyze_images(
@@ -892,21 +1003,59 @@ def process_file(
             max_output_tokens=max_output_tokens,
         )
     except Exception as exc:
+        LOGGER.exception("Unexpected analyze_images error for %s", rel_path)
         result = ApiResult(
             raw_text="",
             parsed_json=None,
             attached_image_count=len(loaded_images),
             attached_images=[img.path for img in loaded_images],
-            raw_response=None,
             http_status=None,
-            http_response_text=str(exc),
             finish_reason=None,
             attempt=max_retries,
             max_retries=max_retries,
             error="backend_error",
+            response_excerpt=str(exc)[:2000],
         )
 
     return make_row(rst_file, workspace, job["title"], image_refs, result)
+
+
+def write_csv(csv_output: Path, rows: List[Dict[str, Any]]) -> None:
+    fieldnames = [
+        "document_file",
+        "document_title",
+        "image_file",
+        "image_reference_type",
+        "image_reference_line",
+        "detected_image_type",
+        "has_interactive_buttons",
+        "interactive_buttons_magenta",
+        "hard_fail_triggered",
+        "hard_fail_reason",
+        "score_topic_match",
+        "score_detail_match",
+        "score_section_relevance",
+        "score_visual_evidence",
+        "score_contradictions",
+        "overall_score",
+        "final_verdict",
+        "processing_error",
+        "api_http_status",
+        "api_finish_reason",
+        "api_attempt",
+        "match_reasons",
+        "missing_evidence",
+    ]
+
+    with csv_output.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=fieldnames,
+            extrasaction="ignore",
+            restval="",
+        )
+        writer.writeheader()
+        writer.writerows(rows)
 
 
 def process_files(
@@ -914,70 +1063,82 @@ def process_files(
     workspace: Path,
     source_root: Optional[Path],
     client: ResponsesClient,
-    text_output: Path,
-    debug_output: Path,
     json_output: Path,
+    csv_output: Path,
     max_retries: int,
     request_delay: float,
     max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS,
 ) -> Tuple[int, int, int]:
     processed_files = 0
     flagged_files = 0
-    all_rows: List[Dict[str, Any]] = []
+    all_json_rows: List[Dict[str, Any]] = []
+    all_csv_rows: List[Dict[str, Any]] = []
 
-    with text_output.open("w", encoding="utf-8") as tout, debug_output.open("w", encoding="utf-8") as dout:
-        for rst_file in files:
-            row = process_file(
-                rst_file=rst_file,
-                workspace=workspace,
-                source_root=source_root,
-                client=client,
-                max_retries=max_retries,
-                request_delay=request_delay,
-                max_output_tokens=max_output_tokens,
-            )
-            if row is None:
-                continue
+    for rst_file in files:
+        row = process_file(
+            rst_file=rst_file,
+            workspace=workspace,
+            source_root=source_root,
+            client=client,
+            max_retries=max_retries,
+            request_delay=request_delay,
+            max_output_tokens=max_output_tokens,
+        )
+        if row is None:
+            continue
 
-            processed_files += 1
-            all_rows.append(asdict(row))
+        processed_files += 1
 
-            compact_block = format_compact_block(row)
-            if compact_block.strip():
-                tout.write(compact_block + "\n\n" + ("-" * 80) + "\n\n")
-                flagged_files += 1
+        json_row = build_json_row(row)
+        all_json_rows.append(json_row)
 
-            dout.write(format_debug_block(row) + "\n\n" + ("-" * 80) + "\n\n")
+        csv_rows = iter_csv_rows(row)
+        all_csv_rows.extend(csv_rows)
 
-    json_output.write_text(json.dumps(all_rows, indent=2, ensure_ascii=False), encoding="utf-8")
-    return processed_files, flagged_files, len(all_rows)
+        has_flagged_result = any(r.get("verdict") in {"partial", "fail"} for r in json_row.get("results", []))
+        has_errors = any(ref.get("error") == "kein valides Bild" for ref in row.image_refs) or row.result.get("error") in {
+            "kein valides Bild",
+            "backend_error",
+        }
+        if has_flagged_result or has_errors:
+            flagged_files += 1
+
+    json_output.write_text(json.dumps(all_json_rows, indent=2, ensure_ascii=False), encoding="utf-8")
+    write_csv(csv_output, all_csv_rows)
+    return processed_files, flagged_files, len(all_json_rows)
 
 
-def enforce_strict_mode(json_output: Path) -> None:
+def enforce_strict_mode(json_output: Path, fail_on_partial: bool = False) -> None:
     if not json_output.exists():
-        return
+        raise SystemExit(EXIT_STRICT_FAILURE)
 
     data = json.loads(json_output.read_text(encoding="utf-8"))
     for row in data:
         image_refs = row.get("image_refs", [])
         if any(ref.get("error") == "kein valides Bild" for ref in image_refs):
-            raise SystemExit(1)
+            raise SystemExit(EXIT_STRICT_FAILURE)
 
-        result = (row or {}).get("result") or {}
-        if result.get("error") in {"kein valides Bild", "backend_error"}:
-            raise SystemExit(1)
+        status = row.get("status") or {}
+        if status.get("error") in {"kein valides Bild", "backend_error"}:
+            raise SystemExit(EXIT_STRICT_FAILURE)
 
-        parsed = result.get("parsed_json") or {}
-        if not isinstance(parsed.get("results"), list):
-            raise SystemExit(1)
+        results = row.get("results")
+        if not isinstance(results, list):
+            raise SystemExit(EXIT_STRICT_FAILURE)
 
-        for item in parsed.get("results", []):
+        for item in results:
             if not _is_complete_result_item(item):
-                raise SystemExit(1)
-            criteria = item.get("criteria", {})
-            score = compute_overall_score(criteria)
-            if verdict_from_score(score) == "fail":
-                raise SystemExit(1)
+                raise SystemExit(EXIT_STRICT_FAILURE)
+
+            verdict = item.get("verdict")
+            if item.get("hard_fail") is True:
+                raise SystemExit(EXIT_STRICT_FAILURE)
+
+            if verdict == "fail":
+                raise SystemExit(EXIT_STRICT_FAILURE)
+
+            if fail_on_partial and verdict == "partial":
+                raise SystemExit(EXIT_STRICT_FAILURE)
 
 
 def parse_args() -> argparse.Namespace:
@@ -993,47 +1154,65 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--request-delay", type=float, default=DEFAULT_REQUEST_DELAY, help="Fixed delay before each API call.")
     parser.add_argument("--max-retries", type=int, default=DEFAULT_MAX_RETRIES, help="Number of attempts for backend/transient errors.")
     parser.add_argument("--max-output-tokens", type=int, default=DEFAULT_MAX_OUTPUT_TOKENS, help="Maximum output tokens for the API.")
-    parser.add_argument("--output-text", default="results_with_images.txt", help="Readable text output.")
     parser.add_argument("--output-json", default="results_with_images.json", help="Machine-readable JSON output.")
-    parser.add_argument("--output-debug", default="results_with_images.debug.txt", help="Debug output with raw model text.")
-    parser.add_argument("--strict", action="store_true", help="Exit with code 1 when score < 0.55, backend error, invalid image, or invalid parsed JSON.")
+    parser.add_argument("--output-csv", default="results_with_images.csv", help="Flat CSV output.")
+    parser.add_argument("--strict", action="store_true", help="Exit non-zero on strict validation failure.")
+    parser.add_argument("--fail-on-partial", action="store_true", help="In strict mode, also fail when verdict is partial.")
+    parser.add_argument("--log-level", default="INFO", help="Logging level: DEBUG, INFO, WARNING, ERROR.")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
+    configure_logging(args.log_level)
 
-    if not args.api_url:
-        raise SystemExit("Missing AI API URL. Use --api-url or set AI_API_URL.")
-    if not args.api_key:
-        raise SystemExit("Missing AI API key. Use --api-key or set AI_API_KEY.")
+    try:
+        if not args.api_url:
+            LOGGER.error("Missing AI API URL. Use --api-url or set AI_API_URL.")
+            raise SystemExit(EXIT_CONFIG_ERROR)
 
-    workspace = Path(args.workspace).expanduser().resolve()
-    source_root = Path(args.source_root).expanduser().resolve() if args.source_root else None
-    files = select_input_files(args, workspace)
+        if not args.api_key:
+            LOGGER.error("Missing AI API key. Use --api-key or set AI_API_KEY.")
+            raise SystemExit(EXIT_CONFIG_ERROR)
 
-    client = ResponsesClient(api_url=args.api_url, api_key=args.api_key, model=args.model)
+        workspace = Path(args.workspace).expanduser().resolve()
+        source_root = Path(args.source_root).expanduser().resolve() if args.source_root else None
+        files = select_input_files(args, workspace)
 
-    processed_files, flagged_files, row_count = process_files(
-        files=files,
-        workspace=workspace,
-        source_root=source_root,
-        client=client,
-        text_output=Path(args.output_text),
-        debug_output=Path(args.output_debug),
-        json_output=Path(args.output_json),
-        max_retries=args.max_retries,
-        request_delay=args.request_delay,
-        max_output_tokens=args.max_output_tokens,
-    )
+        LOGGER.info("Selected %d rst files", len(files))
 
-    if args.strict:
-        enforce_strict_mode(Path(args.output_json))
+        client = ResponsesClient(api_url=args.api_url, api_key=args.api_key, model=args.model)
 
-    print(
-        f"Done. Processed {processed_files} rst files, wrote {row_count} rows to {args.output_json}, "
-        f"and found {flagged_files} rst files with failed or partial image matches in {args.output_text}."
-    )
+        processed_files, flagged_files, row_count = process_files(
+            files=files,
+            workspace=workspace,
+            source_root=source_root,
+            client=client,
+            json_output=Path(args.output_json),
+            csv_output=Path(args.output_csv),
+            max_retries=args.max_retries,
+            request_delay=args.request_delay,
+            max_output_tokens=args.max_output_tokens,
+        )
+
+        if args.strict:
+            enforce_strict_mode(Path(args.output_json), fail_on_partial=args.fail_on_partial)
+
+        LOGGER.info(
+            "Done. Processed %d rst files, wrote %d rows to %s, flagged %d files, csv=%s",
+            processed_files,
+            row_count,
+            args.output_json,
+            flagged_files,
+            args.output_csv,
+        )
+        raise SystemExit(EXIT_OK)
+
+    except SystemExit:
+        raise
+    except Exception:
+        LOGGER.exception("Unhandled runtime error")
+        raise SystemExit(EXIT_RUNTIME_ERROR)
 
 
 if __name__ == "__main__":
