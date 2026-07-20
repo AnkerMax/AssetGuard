@@ -22,8 +22,8 @@ WEIGHTS = {
     "contradictions": 0.15,
 }
 
-REQUEST_CONNECT_TIMEOUT = 5
-REQUEST_READ_TIMEOUT = 60
+REQUEST_CONNECT_TIMEOUT = 10
+REQUEST_READ_TIMEOUT = 180
 DEFAULT_MAX_RETRIES = 2
 DEFAULT_REQUEST_DELAY = 1
 DEFAULT_MAX_OUTPUT_TOKENS = 8000
@@ -564,28 +564,63 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
 
     candidates: List[Dict[str, Any]] = []
 
+    def add_candidate(obj: Any) -> None:
+        if isinstance(obj, dict):
+            candidates.append(obj)
+        elif isinstance(obj, list):
+            candidates.append({"results": obj})
+
+    def scan_text(text: str) -> None:
+        decoder = JSONDecoder()
+        i = 0
+        while i < len(text):
+            if text[i] not in "{[":
+                i += 1
+                continue
+            try:
+                obj, end = decoder.raw_decode(text, i)
+                add_candidate(obj)
+                i = max(i + 1, end)
+            except JSONDecodeError:
+                i += 1
+
+    def walk_output(container: Any) -> None:
+        if not isinstance(container, list):
+            return
+        for item in container:
+            if not isinstance(item, dict):
+                continue
+            content = item.get("content")
+            if not isinstance(content, list):
+                continue
+            for part in content:
+                if not isinstance(part, dict):
+                    continue
+                ptype = part.get("type")
+                if ptype in {"output_json", "json"}:
+                    add_candidate(part.get("json"))
+                elif ptype in {"output_text", "text"} and isinstance(part.get("text"), str):
+                    scan_text(part["text"])
+
     for key in ("output_parsed", "parsed", "response_parsed"):
-        normalized = _normalize_candidate(data.get(key))
-        if normalized is not None:
-            candidates.append(normalized)
+        add_candidate(data.get(key))
 
-    output_text = data.get("output_text")
-    if isinstance(output_text, str) and output_text.strip():
-        candidates.extend(_extract_json_candidates_from_text(output_text))
+    if isinstance(data.get("output_text"), str):
+        scan_text(data["output_text"])
 
-    _append_candidates_from_output_container(data.get("output"), candidates)
+    walk_output(data.get("output"))
 
     response_obj = data.get("response")
     if isinstance(response_obj, dict):
-        nested_output_text = response_obj.get("output_text")
-        if isinstance(nested_output_text, str) and nested_output_text.strip():
-            candidates.extend(_extract_json_candidates_from_text(nested_output_text))
-        _append_candidates_from_output_container(response_obj.get("output"), candidates)
+        if isinstance(response_obj.get("output_text"), str):
+            scan_text(response_obj["output_text"])
+        walk_output(response_obj.get("output"))
 
-    # letzten validen Kandidaten zurückgeben
     for candidate in reversed(candidates):
+        if not isinstance(candidate, dict):
+            continue
         results = candidate.get("results")
-        if isinstance(results, list) and all(_is_complete_result_item(x) for x in results):
+        if isinstance(results, list) and len(results) > 0 and all(_is_complete_result_item(x) for x in results):
             return candidate
 
     return None
