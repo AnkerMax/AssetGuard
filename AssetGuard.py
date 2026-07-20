@@ -8,6 +8,7 @@ import os
 import re
 import time
 from dataclasses import dataclass, asdict
+from json import JSONDecoder, JSONDecodeError
 from pathlib import Path, PurePosixPath
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -21,11 +22,12 @@ WEIGHTS = {
     "contradictions": 0.15,
 }
 
-REQUEST_CONNECT_TIMEOUT = 10
-REQUEST_READ_TIMEOUT = 180
+REQUEST_CONNECT_TIMEOUT = 5
+REQUEST_READ_TIMEOUT = 60
 DEFAULT_MAX_RETRIES = 2
 DEFAULT_REQUEST_DELAY = 1
 DEFAULT_MAX_OUTPUT_TOKENS = 8000
+MAX_RESPONSE_EXCERPT_CHARS = 4000
 
 VALID_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg"}
 MEDIA_TYPES_BY_SUFFIX = {
@@ -357,18 +359,13 @@ def make_prompt(job: Dict[str, Any]) -> str:
         "Scoring rules:\n"
         "- criteria scores still need to be filled for every image.\n"
         "- But if hard_fail=true, the final judgment must ignore the score.\n\n"
-        "- criteria.topic_match: score from 0 to 3 for whether the main topic in the image matches the relevant rst content.\n"
-        "- criteria.detail_match: score from 0 to 3 for whether important visual details match the rst content.\n"
-        "- criteria.section_relevance: score from 0 to 3 for whether the image matches the most relevant section or context in the rst file.\n"
-        "- criteria.visual_evidence: score from 0 to 3 for how clearly the image provides enough visible evidence for a reliable judgment.\n"
-        "- criteria.contradictions: score from 0 to 3, where 3 means no clear contradiction (none) and 0 means strong contradiction with the rst content.\n"
+        "- criteria.topic_match: score from 0 to 3.\n"
+        "- criteria.detail_match: score from 0 to 3.\n"
+        "- criteria.section_relevance: score from 0 to 3.\n"
+        "- criteria.visual_evidence: score from 0 to 3.\n"
+        "- criteria.contradictions: score from 0 to 3, where 3 means no clear contradiction.\n"
         "- reasons: short bullet-style statements explaining the judgment.\n"
-        "- missing_evidence: short bullet-style statements listing relevant information that is missing, unclear, or not visible enough for a stronger judgment.\n\n"
-        "Scoring guidance:\n"
-        "- 3 means strong / clear / fully supported.\n"
-        "- 2 means mostly supported.\n"
-        "- 1 means weakly supported or doubtful.\n"
-        "- 0 means absent, not supported, or clearly contradictory.\n\n"
+        "- missing_evidence: short bullet-style statements listing missing or unclear information.\n\n"
 
         "Output rules:\n"
         "- Return JSON only.\n"
@@ -394,41 +391,6 @@ def make_prompt(job: Dict[str, Any]) -> str:
     )
 
 
-def extract_response_text(data: Dict[str, Any]) -> str:
-    parts: List[str] = []
-
-    output_text = data.get("output_text")
-    if isinstance(output_text, str) and output_text.strip():
-        parts.append(output_text.strip())
-
-    output = data.get("output")
-    if isinstance(output, list):
-        for item in output:
-            if not isinstance(item, dict):
-                continue
-            content = item.get("content")
-            if not isinstance(content, list):
-                continue
-            for part in content:
-                if (
-                    isinstance(part, dict)
-                    and part.get("type") in {"output_text", "text"}
-                    and isinstance(part.get("text"), str)
-                ):
-                    txt = part["text"].strip()
-                    if txt:
-                        parts.append(txt)
-
-    seen = set()
-    deduped = []
-    for p in parts:
-        if p not in seen:
-            seen.add(p)
-            deduped.append(p)
-
-    return "\n".join(deduped).strip()
-
-
 def extract_finish_reason(data: Dict[str, Any]) -> Optional[str]:
     if isinstance(data.get("status"), str):
         return data["status"]
@@ -436,41 +398,6 @@ def extract_finish_reason(data: Dict[str, Any]) -> Optional[str]:
         if isinstance(item, dict) and item.get("finish_reason"):
             return item["finish_reason"]
     return None
-
-
-def collect_json_blocks(text: str, open_char: str, close_char: str) -> List[str]:
-    blocks: List[str] = []
-    start_positions = [m.start() for m in re.finditer(r"[\{\[]", text)]
-
-    for start in start_positions:
-        open_ch = text[start]
-        close_ch = "}" if open_ch == "{" else "]"
-        depth = 0
-        in_string = False
-        escape = False
-
-        for i in range(start, len(text)):
-            ch = text[i]
-            if in_string:
-                if escape:
-                    escape = False
-                elif ch == "\\":
-                    escape = True
-                elif ch == '"':
-                    in_string = False
-                continue
-
-            if ch == '"':
-                in_string = True
-            elif ch == open_ch:
-                depth += 1
-            elif ch == close_ch:
-                depth -= 1
-                if depth == 0:
-                    blocks.append(text[start:i + 1])
-                    break
-
-    return blocks
 
 
 def _is_complete_result_item(item: Any) -> bool:
@@ -533,35 +460,34 @@ def _is_complete_result_item(item: Any) -> bool:
     return True
 
 
+def _normalize_candidate(obj: Any) -> Optional[Dict[str, Any]]:
+    if isinstance(obj, dict):
+        return obj
+    if isinstance(obj, list):
+        return {"results": obj}
+    return None
+
+
 def _extract_json_candidates_from_text(text: str) -> List[Dict[str, Any]]:
     candidates: List[Dict[str, Any]] = []
+    decoder = JSONDecoder()
+    i = 0
+    n = len(text)
 
-    stripped = text.strip()
-    if stripped:
-        try:
-            obj = json.loads(stripped)
-            if isinstance(obj, dict):
-                candidates.append(obj)
-            elif isinstance(obj, list):
-                candidates.append({"results": obj})
-        except Exception:
-            pass
+    while i < n:
+        ch = text[i]
+        if ch not in "{[":
+            i += 1
+            continue
 
-    for raw in collect_json_blocks(text, "{", "}"):
         try:
-            obj = json.loads(raw)
-            if isinstance(obj, dict):
-                candidates.append(obj)
-        except Exception:
-            pass
-
-    for raw in collect_json_blocks(text, "[", "]"):
-        try:
-            obj = json.loads(raw)
-            if isinstance(obj, list):
-                candidates.append({"results": obj})
-        except Exception:
-            pass
+            obj, end = decoder.raw_decode(text, i)
+            normalized = _normalize_candidate(obj)
+            if normalized is not None:
+                candidates.append(normalized)
+            i = max(i + 1, end)
+        except JSONDecodeError:
+            i += 1
 
     return candidates
 
@@ -575,22 +501,61 @@ def _append_candidates_from_output_container(container: Any, candidates: List[Di
             continue
 
         content = item.get("content")
-        if isinstance(content, list):
+        if not isinstance(content, list):
+            continue
+
+        for part in content:
+            if not isinstance(part, dict):
+                continue
+
+            part_type = part.get("type")
+
+            if part_type in {"output_json", "json"}:
+                json_obj = part.get("json")
+                normalized = _normalize_candidate(json_obj)
+                if normalized is not None:
+                    candidates.append(normalized)
+
+            elif part_type in {"output_text", "text"} and isinstance(part.get("text"), str):
+                candidates.extend(_extract_json_candidates_from_text(part["text"]))
+
+
+def extract_response_text(data: Dict[str, Any]) -> str:
+    parts: List[str] = []
+
+    output_text = data.get("output_text")
+    if isinstance(output_text, str) and output_text.strip():
+        parts.append(output_text.strip())
+
+    output = data.get("output")
+    if isinstance(output, list):
+        for item in output:
+            if not isinstance(item, dict):
+                continue
+            content = item.get("content")
+            if not isinstance(content, list):
+                continue
             for part in content:
-                if not isinstance(part, dict):
-                    continue
+                if (
+                    isinstance(part, dict)
+                    and part.get("type") in {"output_text", "text"}
+                    and isinstance(part.get("text"), str)
+                ):
+                    txt = part["text"].strip()
+                    if txt:
+                        parts.append(txt)
 
-                part_type = part.get("type")
+    # nur eindeutige, nicht-triviale Teile behalten
+    seen = set()
+    deduped = []
+    for p in parts:
+        key = p[:500]
+        if key not in seen:
+            seen.add(key)
+            deduped.append(p)
 
-                if part_type in {"output_text", "text"} and isinstance(part.get("text"), str):
-                    candidates.extend(_extract_json_candidates_from_text(part["text"]))
-
-                if part_type in {"output_json", "json"}:
-                    json_obj = part.get("json")
-                    if isinstance(json_obj, dict):
-                        candidates.append(json_obj)
-                    elif isinstance(json_obj, list):
-                        candidates.append({"results": json_obj})
+    combined = "\n".join(deduped).strip()
+    return combined
 
 
 def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
@@ -600,9 +565,9 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     candidates: List[Dict[str, Any]] = []
 
     for key in ("output_parsed", "parsed", "response_parsed"):
-        candidate = data.get(key)
-        if isinstance(candidate, dict):
-            candidates.append(candidate)
+        normalized = _normalize_candidate(data.get(key))
+        if normalized is not None:
+            candidates.append(normalized)
 
     output_text = data.get("output_text")
     if isinstance(output_text, str) and output_text.strip():
@@ -617,12 +582,24 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             candidates.extend(_extract_json_candidates_from_text(nested_output_text))
         _append_candidates_from_output_container(response_obj.get("output"), candidates)
 
+    # letzten validen Kandidaten zurückgeben
     for candidate in reversed(candidates):
         results = candidate.get("results")
         if isinstance(results, list) and all(_is_complete_result_item(x) for x in results):
             return candidate
 
     return None
+
+
+def make_response_excerpt(raw_text: str, parsed_json: Optional[Dict[str, Any]]) -> str:
+    if parsed_json is not None:
+        excerpt = json.dumps(parsed_json, ensure_ascii=False)
+        return excerpt[:MAX_RESPONSE_EXCERPT_CHARS]
+
+    raw_text = (raw_text or "").strip()
+    if len(raw_text) <= MAX_RESPONSE_EXCERPT_CHARS:
+        return raw_text
+    return raw_text[:MAX_RESPONSE_EXCERPT_CHARS] + "...<truncated>"
 
 
 class ResponsesClient:
@@ -1003,7 +980,10 @@ def build_json_row(row: AuditRow) -> Dict[str, Any]:
         },
         "summary": summary,
         "results": enriched_results,
-        "response_excerpt": row.result.get("raw_text"),
+        "response_excerpt": make_response_excerpt(
+            row.result.get("raw_text", ""),
+            row.result.get("parsed_json"),
+        ),
         "raw_response": row.result.get("raw_response"),
     }
 
