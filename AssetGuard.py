@@ -21,8 +21,8 @@ WEIGHTS = {
     "contradictions": 0.15,
 }
 
-REQUEST_CONNECT_TIMEOUT = 10
-REQUEST_READ_TIMEOUT = 180
+REQUEST_CONNECT_TIMEOUT = 5
+REQUEST_READ_TIMEOUT = 60
 DEFAULT_MAX_RETRIES = 2
 DEFAULT_REQUEST_DELAY = 1
 DEFAULT_MAX_OUTPUT_TOKENS = 8000
@@ -236,8 +236,7 @@ def get_image_suffix(path: str) -> str:
 
 
 def is_valid_image_path(path: str) -> bool:
-    suffix = get_image_suffix(path)
-    return suffix in VALID_IMAGE_SUFFIXES
+    return get_image_suffix(path) in VALID_IMAGE_SUFFIXES
 
 
 def get_media_type_for_path(path: Path) -> str:
@@ -293,28 +292,43 @@ def build_image_candidates(
     candidates: List[ImageReference] = []
 
     for ref in refs:
-        resolved = resolve_local_path(rst_path, ref.target, workspace, source_root)
-        valid = is_valid_image_path(ref.target)
-        exists = resolved.exists()
+        try:
+            resolved = resolve_local_path(rst_path, ref.target, workspace, source_root)
+            valid = is_valid_image_path(ref.target)
+            exists = resolved.exists()
+            error = None
+            if not valid or not exists:
+                error = "kein valides Bild"
 
-        error = None
-        if not valid or not exists:
-            error = "kein valides Bild"
-
-        candidates.append(
-            ImageReference(
-                kind=ref.kind,
-                name=ref.name,
-                target=ref.target,
-                line=ref.line,
-                original_target=ref.target,
-                original_resolved_path=str(resolved),
-                resolved_path=str(resolved),
-                exists=exists,
-                is_valid_image=valid,
-                error=error,
+            candidates.append(
+                ImageReference(
+                    kind=ref.kind,
+                    name=ref.name,
+                    target=ref.target,
+                    line=ref.line,
+                    original_target=ref.target,
+                    original_resolved_path=str(resolved),
+                    resolved_path=str(resolved),
+                    exists=exists,
+                    is_valid_image=valid,
+                    error=error,
+                )
             )
-        )
+        except ValueError:
+            candidates.append(
+                ImageReference(
+                    kind=ref.kind,
+                    name=ref.name,
+                    target=ref.target,
+                    line=ref.line,
+                    original_target=ref.target,
+                    original_resolved_path=None,
+                    resolved_path=None,
+                    exists=False,
+                    is_valid_image=False,
+                    error="kein valides Bild",
+                )
+            )
 
     return candidates
 
@@ -381,22 +395,38 @@ def make_prompt(job: Dict[str, Any]) -> str:
 
 
 def extract_response_text(data: Dict[str, Any]) -> str:
+    parts: List[str] = []
+
     output_text = data.get("output_text")
     if isinstance(output_text, str) and output_text.strip():
-        return output_text.strip()
+        parts.append(output_text.strip())
 
-    parts: List[str] = []
-    for item in data.get("output", []):
-        if not isinstance(item, dict):
-            continue
-        for part in item.get("content", []):
-            if (
-                isinstance(part, dict)
-                and part.get("type") in {"output_text", "text"}
-                and isinstance(part.get("text"), str)
-            ):
-                parts.append(part["text"])
-    return "\n".join(p for p in parts if p).strip()
+    output = data.get("output")
+    if isinstance(output, list):
+        for item in output:
+            if not isinstance(item, dict):
+                continue
+            content = item.get("content")
+            if not isinstance(content, list):
+                continue
+            for part in content:
+                if (
+                    isinstance(part, dict)
+                    and part.get("type") in {"output_text", "text"}
+                    and isinstance(part.get("text"), str)
+                ):
+                    txt = part["text"].strip()
+                    if txt:
+                        parts.append(txt)
+
+    seen = set()
+    deduped = []
+    for p in parts:
+        if p not in seen:
+            seen.add(p)
+            deduped.append(p)
+
+    return "\n".join(deduped).strip()
 
 
 def extract_finish_reason(data: Dict[str, Any]) -> Optional[str]:
@@ -501,6 +531,17 @@ def _is_complete_result_item(item: Any) -> bool:
 def _extract_json_candidates_from_text(text: str) -> List[Dict[str, Any]]:
     candidates: List[Dict[str, Any]] = []
 
+    stripped = text.strip()
+    if stripped:
+        try:
+            obj = json.loads(stripped)
+            if isinstance(obj, dict):
+                candidates.append(obj)
+            elif isinstance(obj, list):
+                candidates.append({"results": obj})
+        except Exception:
+            pass
+
     for raw in collect_json_blocks(text, "{", "}"):
         try:
             obj = json.loads(raw)
@@ -520,6 +561,33 @@ def _extract_json_candidates_from_text(text: str) -> List[Dict[str, Any]]:
     return candidates
 
 
+def _append_candidates_from_output_container(container: Any, candidates: List[Dict[str, Any]]) -> None:
+    if not isinstance(container, list):
+        return
+
+    for item in container:
+        if not isinstance(item, dict):
+            continue
+
+        content = item.get("content")
+        if isinstance(content, list):
+            for part in content:
+                if not isinstance(part, dict):
+                    continue
+
+                part_type = part.get("type")
+
+                if part_type in {"output_text", "text"} and isinstance(part.get("text"), str):
+                    candidates.extend(_extract_json_candidates_from_text(part["text"]))
+
+                if part_type in {"output_json", "json"}:
+                    json_obj = part.get("json")
+                    if isinstance(json_obj, dict):
+                        candidates.append(json_obj)
+                    elif isinstance(json_obj, list):
+                        candidates.append({"results": json_obj})
+
+
 def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if not isinstance(data, dict):
         return None
@@ -535,28 +603,17 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if isinstance(output_text, str) and output_text.strip():
         candidates.extend(_extract_json_candidates_from_text(output_text))
 
-    output = data.get("output")
-    if isinstance(output, list):
-        for item in output:
-            if not isinstance(item, dict):
-                continue
+    _append_candidates_from_output_container(data.get("output"), candidates)
 
-            content = item.get("content")
-            if not isinstance(content, list):
-                continue
+    # zusätzlicher Fallback für verschachtelte Strukturen
+    response_obj = data.get("response")
+    if isinstance(response_obj, dict):
+        nested_output_text = response_obj.get("output_text")
+        if isinstance(nested_output_text, str) and nested_output_text.strip():
+            candidates.extend(_extract_json_candidates_from_text(nested_output_text))
+        _append_candidates_from_output_container(response_obj.get("output"), candidates)
 
-            for part in content:
-                if not isinstance(part, dict):
-                    continue
-
-                part_type = part.get("type")
-
-                if part_type in {"output_text", "text"} and isinstance(part.get("text"), str):
-                    candidates.extend(_extract_json_candidates_from_text(part["text"]))
-
-                if part_type in {"output_json", "json"} and isinstance(part.get("json"), dict):
-                    candidates.append(part["json"])
-
+    # Letzten validen Kandidaten nehmen
     for candidate in reversed(candidates):
         results = candidate.get("results")
         if isinstance(results, list) and all(_is_complete_result_item(x) for x in results):
@@ -667,9 +724,12 @@ class ResponsesClient:
                 except Exception:
                     data = {"_non_json_response_text": response_text}
 
+                parsed_json = extract_response_json(data) if isinstance(data, dict) else None
+                raw_text = extract_response_text(data) if isinstance(data, dict) else ""
+
                 return ApiResult(
-                    raw_text=extract_response_text(data) if isinstance(data, dict) else "",
-                    parsed_json=extract_response_json(data) if isinstance(data, dict) else None,
+                    raw_text=raw_text,
+                    parsed_json=parsed_json,
                     attached_image_count=len(attached_images),
                     attached_images=attached_images,
                     raw_response=data if isinstance(data, dict) else None,
