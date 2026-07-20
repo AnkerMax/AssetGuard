@@ -626,6 +626,11 @@ class ResponsesClient:
                 raw_text = extract_response_text(data) if isinstance(data, dict) else ""
                 parsed_json = extract_response_json(data) if isinstance(data, dict) else None
 
+                if raw_text:
+                    LOGGER.info("Raw model response text (first 4000 chars):\n%s", raw_text[:4000])
+                else:
+                    LOGGER.warning("Model response contained no raw text.")
+
                 return ApiResult(
                     raw_text=raw_text,
                     parsed_json=parsed_json,
@@ -930,6 +935,48 @@ def iter_csv_rows(row: AuditRow) -> List[Dict[str, Any]]:
     return output_rows
 
 
+def write_csv(csv_output: Path, rows: List[Dict[str, Any]]) -> None:
+    fieldnames = [
+        "document_file",
+        "document_title",
+        "image_file",
+        "image_reference_type",
+        "image_reference_line",
+        "detected_image_type",
+        "has_interactive_buttons",
+        "interactive_buttons_magenta",
+        "hard_fail_triggered",
+        "hard_fail_reason",
+        "score_topic_match",
+        "score_detail_match",
+        "score_section_relevance",
+        "score_visual_evidence",
+        "score_contradictions",
+        "overall_score",
+        "final_verdict",
+        "processing_error",
+        "api_http_status",
+        "api_finish_reason",
+        "api_attempt",
+        "match_reasons",
+        "missing_evidence",
+    ]
+
+    with csv_output.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=fieldnames,
+            extrasaction="ignore",
+            restval="",
+        )
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def filter_failed_csv_rows(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    return [row for row in rows if row.get("final_verdict") == "fail"]
+
+
 def process_file(
     rst_file: Path,
     workspace: Path,
@@ -1020,44 +1067,6 @@ def process_file(
     return make_row(rst_file, workspace, job["title"], image_refs, result)
 
 
-def write_csv(csv_output: Path, rows: List[Dict[str, Any]]) -> None:
-    fieldnames = [
-        "document_file",
-        "document_title",
-        "image_file",
-        "image_reference_type",
-        "image_reference_line",
-        "detected_image_type",
-        "has_interactive_buttons",
-        "interactive_buttons_magenta",
-        "hard_fail_triggered",
-        "hard_fail_reason",
-        "score_topic_match",
-        "score_detail_match",
-        "score_section_relevance",
-        "score_visual_evidence",
-        "score_contradictions",
-        "overall_score",
-        "final_verdict",
-        "processing_error",
-        "api_http_status",
-        "api_finish_reason",
-        "api_attempt",
-        "match_reasons",
-        "missing_evidence",
-    ]
-
-    with csv_output.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(
-            f,
-            fieldnames=fieldnames,
-            extrasaction="ignore",
-            restval="",
-        )
-        writer.writeheader()
-        writer.writerows(rows)
-
-
 def process_files(
     files: List[Path],
     workspace: Path,
@@ -1065,6 +1074,7 @@ def process_files(
     client: ResponsesClient,
     json_output: Path,
     csv_output: Path,
+    failed_csv_output: Path,
     max_retries: int,
     request_delay: float,
     max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS,
@@ -1105,6 +1115,10 @@ def process_files(
 
     json_output.write_text(json.dumps(all_json_rows, indent=2, ensure_ascii=False), encoding="utf-8")
     write_csv(csv_output, all_csv_rows)
+
+    failed_csv_rows = filter_failed_csv_rows(all_csv_rows)
+    write_csv(failed_csv_output, failed_csv_rows)
+
     return processed_files, flagged_files, len(all_json_rows)
 
 
@@ -1156,6 +1170,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-output-tokens", type=int, default=DEFAULT_MAX_OUTPUT_TOKENS, help="Maximum output tokens for the API.")
     parser.add_argument("--output-json", default="results_with_images.json", help="Machine-readable JSON output.")
     parser.add_argument("--output-csv", default="results_with_images.csv", help="Flat CSV output.")
+    parser.add_argument(
+        "--output-failed-csv",
+        default="results_with_images.failed_only.csv",
+        help="CSV output containing only failed results."
+    )
     parser.add_argument("--strict", action="store_true", help="Exit non-zero on strict validation failure.")
     parser.add_argument("--fail-on-partial", action="store_true", help="In strict mode, also fail when verdict is partial.")
     parser.add_argument("--log-level", default="INFO", help="Logging level: DEBUG, INFO, WARNING, ERROR.")
@@ -1190,6 +1209,7 @@ def main() -> None:
             client=client,
             json_output=Path(args.output_json),
             csv_output=Path(args.output_csv),
+            failed_csv_output=Path(args.output_failed_csv),
             max_retries=args.max_retries,
             request_delay=args.request_delay,
             max_output_tokens=args.max_output_tokens,
@@ -1199,12 +1219,13 @@ def main() -> None:
             enforce_strict_mode(Path(args.output_json), fail_on_partial=args.fail_on_partial)
 
         LOGGER.info(
-            "Done. Processed %d rst files, wrote %d rows to %s, flagged %d files, csv=%s",
+            "Done. Processed %d rst files, wrote %d rows to %s, flagged %d files, csv=%s, failed_csv=%s",
             processed_files,
             row_count,
             args.output_json,
             flagged_files,
             args.output_csv,
+            args.output_failed_csv,
         )
         raise SystemExit(EXIT_OK)
 
