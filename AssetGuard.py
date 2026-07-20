@@ -1015,11 +1015,6 @@ def build_json_row(row: AuditRow) -> Dict[str, Any]:
         },
         "summary": summary,
         "results": enriched_results,
-        "response_excerpt": make_response_excerpt(
-            row.result.get("raw_text", ""),
-            row.result.get("parsed_json"),
-        ),
-        "raw_response": row.result.get("raw_response"),
     }
 
 
