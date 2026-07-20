@@ -1051,7 +1051,7 @@ def build_csv_rows(row: AuditRow) -> List[Dict[str, Any]]:
             "score_section_relevance": criteria.get("section_relevance", ""),
             "score_visual_evidence": criteria.get("visual_evidence", ""),
             "score_contradictions": criteria.get("contradictions", ""),
-            "overall_score": score,
+            "overall_score": f"{score:.2f}",
             "final_verdict": verdict,
             "processing_error": row.result.get("error", "") or "",
             "api_http_status": row.result.get("http_status", ""),
@@ -1245,6 +1245,11 @@ def main() -> None:
     source_root = Path(args.source_root).expanduser().resolve() if args.source_root else None
     files = select_input_files(args, workspace)
 
+    logger.info("Starting AssetGuard")
+    logger.info("Workspace: %s", workspace)
+    logger.info("Found RST-Dateien: %d", len(files))
+    logger.info("Sending files to backend and awaiting response..")
+    
     client = ResponsesClient(api_url=args.api_url, api_key=args.api_key, model=args.model)
 
     processed_files, flagged_files, row_count = process_files(
