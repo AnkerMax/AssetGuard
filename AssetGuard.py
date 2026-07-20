@@ -57,7 +57,6 @@ BACKEND_REQUIRED_TOOL = {
     }
 }
 
-# WICHTIG: JSON-Schema unverändert gelassen
 RESPONSE_SCHEMA = {
     "type": "json_schema",
     "json_schema": {
