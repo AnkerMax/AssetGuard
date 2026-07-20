@@ -440,11 +440,15 @@ def extract_finish_reason(data: Dict[str, Any]) -> Optional[str]:
 
 def collect_json_blocks(text: str, open_char: str, close_char: str) -> List[str]:
     blocks: List[str] = []
-    start = text.find(open_char)
-    while start != -1:
+    start_positions = [m.start() for m in re.finditer(r"[\{\[]", text)]
+
+    for start in start_positions:
+        open_ch = text[start]
+        close_ch = "}" if open_ch == "{" else "]"
         depth = 0
         in_string = False
         escape = False
+
         for i in range(start, len(text)):
             ch = text[i]
             if in_string:
@@ -455,16 +459,17 @@ def collect_json_blocks(text: str, open_char: str, close_char: str) -> List[str]
                 elif ch == '"':
                     in_string = False
                 continue
+
             if ch == '"':
                 in_string = True
-            elif ch == open_char:
+            elif ch == open_ch:
                 depth += 1
-            elif ch == close_char:
+            elif ch == close_ch:
                 depth -= 1
                 if depth == 0:
                     blocks.append(text[start:i + 1])
                     break
-        start = text.find(open_char, start + 1)
+
     return blocks
 
 
@@ -605,7 +610,6 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
 
     _append_candidates_from_output_container(data.get("output"), candidates)
 
-    # zusätzlicher Fallback für verschachtelte Strukturen
     response_obj = data.get("response")
     if isinstance(response_obj, dict):
         nested_output_text = response_obj.get("output_text")
@@ -613,7 +617,6 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             candidates.extend(_extract_json_candidates_from_text(nested_output_text))
         _append_candidates_from_output_container(response_obj.get("output"), candidates)
 
-    # Letzten validen Kandidaten nehmen
     for candidate in reversed(candidates):
         results = candidate.get("results")
         if isinstance(results, list) and all(_is_complete_result_item(x) for x in results):
