@@ -351,7 +351,7 @@ def make_prompt(job: Dict[str, Any]) -> str:
         "Then apply this mandatory rule before contextual scoring:\n"
         "- If the image is a screenshot, check whether visible user-interactive buttons are magenta or plain white.\n"
         "- User-interactive buttons include clearly clickable UI controls such as buttons, CTA elements, or obvious interactive controls.\n"
-        "- If the image is a screenshot and contains interactive buttons and those buttons are not magenta or plain white, set hard_fail=true.\n"
+        "- If the image is a screenshot and contains interactive buttons and those buttons are not magenta or plain white and has no other magenta buttons or text, set hard_fail=true.\n"
         "- In that case set hard_fail_reason to a short explanation.\n"
         "- In that case the image must be treated as failed regardless of the criteria scores.\n"
         "- If there are no visible interactive buttons, set contains_interactive_buttons=false and do not hard-fail for color.\n\n"
