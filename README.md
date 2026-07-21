@@ -157,7 +157,7 @@ In addition to normal scoring, the prompt applies a special hard-fail rule for s
 
 - If an image is classified as a screenshot
 - and it contains visible interactive buttons
-- and those buttons are neither magenta nor plain white
+- and those buttons are neither magenta nor plain white and the `.rst` contains no other magenta buttons/text, this is done to ensure that e.g. blue links (in buttons) do not get ruled as a hard fail
 
 then the model is instructed to set:
 
