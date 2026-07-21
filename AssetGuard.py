@@ -1248,7 +1248,7 @@ def main() -> None:
     logger.info("Starting AssetGuard")
     logger.info("Workspace: %s", workspace)
     logger.info("Found RST-Dateien: %d", len(files))
-    logger.info("Sending files to backend and awaiting response..")
+    logger.info("Sending files to backend and waiting for response..")
     
     client = ResponsesClient(api_url=args.api_url, api_key=args.api_key, model=args.model)
 
