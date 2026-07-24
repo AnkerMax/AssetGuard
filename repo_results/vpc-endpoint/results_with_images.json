@@ -1,0 +1,2870 @@
+[
+  {
+    "file_path": "api-ref/source/appendix/obtaining_a_project_id.rst",
+    "title": "Obtaining a Project ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002392005504.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002392005504.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002392005504.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/overview.rst",
+    "title": "Overview",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001980011633.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001980011633.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001980011633.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891761.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891761.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891761.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "other",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram accurately illustrates the network architecture described in the text.",
+          "It correctly shows the VPC, subnets, VPC endpoints, DNS/OBS services, VPN/Direct Connect, and IDC components."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001980011633.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "other",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The flowchart correctly outlines the configuration steps mentioned in the document.",
+          "It matches the 'Configuration flowchart' caption and visually represents the process from start to end."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891761.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/step_1_create_a_vpc_endpoint_for_connecting_to_dns.rst",
+    "title": "Step 1: Create a VPC Endpoint for Connecting to DNS",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002185000233.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002185000233.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002185000233.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002184964665.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184964665.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184964665.png",
+        "kind": "figure",
+        "line": 138,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 143,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/step_1_create_a_vpc_endpoint_for_connecting_to_dns.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002185000233.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the 'Create VPC Endpoint' form page as described in step 4.",
+          "Visible interactive buttons such as 'Create Now' and 'Cloud service' are magenta, satisfying the color rule.",
+          "Directly corresponds to Figure 1 and the parameter table in the RST."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/step_1_create_a_vpc_endpoint_for_connecting_to_dns.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184964665.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Summary' tab of a VPC endpoint, matching Figure 2.",
+          "Displays endpoint details like Status (Accepted) and Type (Interface) as described in step 8.",
+          "Clear UI screenshot illustrating the post-creation state."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/step_1_create_a_vpc_endpoint_for_connecting_to_dns.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin icon used for region selection.",
+          "Corresponds to the |image1| reference in step 2 for selecting the region and project.",
+          "Small symbolic graphic consistent with UI navigation elements."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/step_2_create_a_vpc_endpoint_for_connecting_to_obs.rst",
+    "title": "Step 2: Create a VPC Endpoint for Connecting to OBS",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002185004557.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002185004557.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002185004557.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002149740152.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149740152.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149740152.png",
+        "kind": "figure",
+        "line": 114,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 119,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/step_2_create_a_vpc_endpoint_for_connecting_to_obs.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002185004557.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 1 in the RST document, illustrating the 'Create VPC Endpoint' page.",
+          "The 'Create Now' button is magenta, adhering to the UI style rule.",
+          "Clearly displays the form fields and parameters described in the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/step_2_create_a_vpc_endpoint_for_connecting_to_obs.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149740152.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 2 in the RST document, showing the 'Summary of the VPC endpoint' page.",
+          "Displays the 'Accepted' status and 'Gateway' type as described in the text.",
+          "Clearly illustrates the final step of viewing endpoint details after creation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/step_2_create_a_vpc_endpoint_for_connecting_to_obs.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the region selector icon referenced in step 2 of the RST document.",
+          "Visually represents the location pin used to select the region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/step_3_access_obs.rst",
+    "title": "Step 3: Access OBS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002149659408.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149659408.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149659408.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_private_ip_address_of_obs_over_private_networks/step_3_access_obs.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149659408.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Summary' tab of a VPC endpoint, directly matching the figure caption and Step 1 context.",
+          "The active 'Summary' tab text is magenta, satisfying the mandatory button color rule.",
+          "UI fields like ID, VPC, Status, and IPv4 Address clearly illustrate the endpoint details view described in the text."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_public_ip_address_of_obs_over_public_networks/overview.rst",
+    "title": "Overview",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001949612340.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612340.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612340.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001949612332.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612332.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612332.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a network architecture diagram that visually represents the scenario described in the text: connecting an IDC to a VPC via VPN or Direct Connect to access OBS through a VPC endpoint."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_public_ip_address_of_obs_over_public_networks/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612340.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart outlining the configuration process steps mentioned in the text: creating a VPC endpoint and accessing OBS."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_public_ip_address_of_obs_over_public_networks/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612332.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_accessing_the_public_ip_address_of_obs_over_public_networks/step_1_create_a_vpc_endpoint_for_accessing_obs.rst",
+    "title": "Step 1: Create a VPC Endpoint for Accessing OBS",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002185218293.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002185218293.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002185218293.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002185096105.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002185096105.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002185096105.png",
+        "kind": "figure",
+        "line": 111,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 116,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/overview.rst",
+    "title": "Overview",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001949612412.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612412.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612412.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891873.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891873.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891873.png",
+        "kind": "figure",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612412.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram accurately illustrates the cross-VPC communication architecture described in the text.",
+          "It correctly shows VPC 1 containing an ECS instance and a VPC endpoint, connecting to VPC 2 which hosts the VPC endpoint service and Load Balancer."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891873.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The flowchart correctly outlines the sequential steps for configuring cross-VPC communications between different accounts.",
+          "It matches the documentation's instructions to create a VPC endpoint service, add the account ID to the whitelist, and then create the VPC endpoint."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/step_1_create_a_vpc_endpoint_service.rst",
+    "title": "Step 1: Create a VPC Endpoint Service",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002183621541.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183621541.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183621541.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002148325420.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148325420.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148325420.png",
+        "kind": "figure",
+        "line": 138,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 143,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/step_1_create_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183621541.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the 'Create VPC Endpoint Service' form, directly matching the RST description in step 5.",
+          "Visible interactive controls like the 'Create Now' button and selected options are magenta, satisfying the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/step_1_create_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148325420.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the summary page of the VPC endpoint service, aligning with Figure 2 in the RST document.",
+          "Interactive navigation tabs are magenta, complying with the mandatory color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/step_1_create_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, which corresponds to the region selection button referenced in step 2 of the RST.",
+          "No interactive buttons are visible, so the color constraint does not apply."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/step_2_add_a_whitelist_record.rst",
+    "title": "Step 2: Add a Whitelist Record",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002000196417.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002000196417.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002000196417.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002000378297.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002000378297.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002000378297.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002184446549.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184446549.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184446549.png",
+        "kind": "figure",
+        "line": 63,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/step_2_add_a_whitelist_record.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002000196417.png",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the account dropdown menu with 'My Credentials' visible, directly matching the RST instruction to click it."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/step_2_add_a_whitelist_record.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002000378297.png",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the 'API Credentials' page under 'My Credentials', showing the Account ID field as described in the RST."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/step_2_add_a_whitelist_record.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184446549.png",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Add to Whitelist' dialog with the input field for Authorized Domain ID and a magenta 'OK' button, matching the RST steps."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/step_2_add_a_whitelist_record.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, which corresponds to the region selector button mentioned in step 1 of the RST."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_different_accounts/step_3_create_a_vpc_endpoint.rst",
+    "title": "Step 3: Create a VPC Endpoint",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002184469493.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184469493.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184469493.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002149315270.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149315270.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149315270.png",
+        "kind": "figure",
+        "line": 147,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 154,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/overview.rst",
+    "title": "Overview",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001949612412.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612412.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612412.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001949612308.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612308.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612308.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612412.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram accurately illustrates the cross-VPC communication architecture described in the text.",
+          "It correctly shows ECS in VPC 1 connecting via a VPC endpoint to the VPC endpoint service and Load Balancer in VPC 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612308.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The flowchart correctly outlines the configuration process described in the document.",
+          "It clearly shows the two required steps: creating a VPC endpoint service followed by creating a VPC endpoint."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/step_1_create_a_vpc_endpoint_service.rst",
+    "title": "Step 1: Create a VPC Endpoint Service",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002183621541.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183621541.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183621541.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002148325420.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148325420.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148325420.png",
+        "kind": "figure",
+        "line": 142,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 147,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/step_1_create_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183621541.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 1 'Create VPC Endpoint Service' described in the RST.",
+          "Shows the configuration form with fields like Region, VPC, Service Type, and Port Mapping as detailed in step 5.",
+          "Interactive buttons such as 'Create Now' are magenta, satisfying the mandatory color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/step_1_create_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148325420.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 2 'Summary of the VPC endpoint service' described in the RST.",
+          "Displays the summary tab with resource details like Name, ID, and Backend Resource Type.",
+          "Interactive navigation tabs are magenta, satisfying the mandatory color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/step_1_create_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the icon referenced as |image1| in step 2 for selecting the region and project.",
+          "Visually represents a location pin, consistent with a region selector UI element."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/step_2_create_a_vpc_endpoint.rst",
+    "title": "Step 2: Create a VPC Endpoint",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002184469493.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184469493.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184469493.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002149315270.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149315270.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149315270.png",
+        "kind": "figure",
+        "line": 151,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891885.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891885.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891885.png",
+        "kind": "figure",
+        "line": 164,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 169,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image accurately depicts the 'Create VPC Endpoint' form described in the RST.",
+          "Interactive buttons such as 'Find a service by name' and 'Create Now' are magenta, complying with the mandatory rule."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/step_2_create_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184469493.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the summary details of the created VPC endpoint, matching Figure 2 in the documentation.",
+          "No interactive buttons are present, so the color rule does not apply."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/step_2_create_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149315270.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a terminal session attempting to SSH into the VPC endpoint's IP address.",
+          "It directly illustrates the 'Configuration Verification' step described in the RST."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/step_2_create_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891885.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is the location pin icon referenced in the RST for selecting the region and project.",
+          "It matches the inline image directive |image1| in step 2."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/getting_started/configuring_a_vpc_endpoint_for_communications_across_vpcs_of_the_same_account/step_2_create_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/permissions_management/creating_a_user_and_granting_vpc_endpoint_permissions.rst",
+    "title": "Creating a User and Granting VPC Endpoint Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001949612456.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612456.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612456.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/quotas.rst",
+    "title": "Quotas",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0275513364.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0275513364.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0275513364.png",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0152727234.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0152727234.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0152727234.png",
+        "kind": "substitution_image",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/quotas.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0275513364.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which semantically aligns with the RST instruction to 'select the desired region and project'."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/quotas.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0152727234.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a bar chart icon, which matches the context of accessing the 'Quotas' page to view resource usage."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001949612416.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612416.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612416.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001949612412.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612412.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612412.png",
+        "kind": "figure",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612416.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram accurately illustrates the 'High-Speed Access to Cloud Services' scenario described in the text.",
+          "It correctly shows the IDC connecting to VPC 1 via VPN or Direct Connect, and VPC endpoints facilitating access to cloud services (OBS/DNS) and private resources (ECS)."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001949612412.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram correctly depicts the 'Cross-VPC Connection' scenario.",
+          "It shows an ECS in VPC 1 using a VPC endpoint to communicate with a load balancer in VPC 2 over a private network, matching the textual description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/product_concepts/region_and_az.rst",
+    "title": "Region and AZ",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0184026531.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0184026531.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0184026531.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_vpc_endpoint.rst",
+    "title": "What Is VPC Endpoint?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001980011813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001980011813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001980011813.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/vpc_endpoint_services/creating_a_vpc_endpoint_service.rst",
+    "title": "Creating a VPC Endpoint Service",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002183621541.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183621541.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183621541.png",
+        "kind": "figure",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002183560857.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183560857.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183560857.png",
+        "kind": "figure",
+        "line": 168,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 173,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/vpc_endpoint_services/creating_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183621541.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Create VPC Endpoint Service' form as described in the RST.",
+          "All fields mentioned in the procedure and table are visible.",
+          "Interactive buttons are magenta, complying with the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/vpc_endpoint_services/creating_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183560857.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons (Delete) are blue, not magenta or plain white, and no other magenta elements are present.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the VPC endpoint service list as described in the RST.",
+          "The table structure and content match the expected output after creation.",
+          "Hard fail triggered due to non-magenta interactive buttons."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/vpc_endpoint_services/creating_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is the location pin icon referenced in the RST for selecting the region.",
+          "It matches the visual cue described in step 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/vpc_endpoint_services/deleting_a_vpc_endpoint_service.rst",
+    "title": "Deleting a VPC Endpoint Service",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002183863757.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183863757.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183863757.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the 'Delete This VPC Endpoint Service' confirmation dialog, directly illustrating step 6 of the procedure.",
+          "The 'OK' button is clearly visible and magenta, matching the instruction to click 'OK' to confirm deletion."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "document_path": "umn/source/vpc_endpoint_services/deleting_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183863757.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a small location pin icon, which corresponds to the |image1| placeholder used in step 2 for selecting the region and project.",
+          "It aligns with the description of an upper-left corner UI element in the management console."
+        ],
+        "missing_evidence": [
+          "The icon is low-resolution and blurry, limiting the ability to verify specific UI context or surrounding interface elements."
+        ],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "document_path": "umn/source/vpc_endpoint_services/deleting_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "overall_score": 0.67,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/vpc_endpoint_services/managing_connections_of_a_vpc_endpoint_service.rst",
+    "title": "Managing Connections of a VPC Endpoint Service",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002183865529.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183865529.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183865529.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/vpc_endpoint_services/managing_tags_of_a_vpc_endpoint_service.rst",
+    "title": "Managing Tags of a VPC Endpoint Service",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 104,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 105,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/vpc_endpoint_services/managing_whitelist_records_of_a_vpc_endpoint_service.rst",
+    "title": "Managing Whitelist Records of a VPC Endpoint Service",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002184446549.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184446549.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184446549.png",
+        "kind": "figure",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/vpc_endpoint_services/viewing_a_vpc_endpoint_service.rst",
+    "title": "Viewing a VPC Endpoint Service",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002148468896.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148468896.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148468896.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002148474476.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148474476.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148474476.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002148477032.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148477032.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148477032.png",
+        "kind": "figure",
+        "line": 54,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002183680605.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183680605.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002183680605.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002149488390.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149488390.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149488390.png",
+        "kind": "figure",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002148325420.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148325420.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002148325420.png",
+        "kind": "figure",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 150,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/vpc_endpoint_services/viewing_port_mappings_of_a_vpc_endpoint_service.rst",
+    "title": "Viewing Port Mappings of a VPC Endpoint Service",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002184495069.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184495069.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184495069.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/vpc_endpoint_services/viewing_port_mappings_of_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184495069.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Port Mapping tab highlighted in magenta, directly matching step 6 of the procedure.",
+          "Table headers Protocol, Service Port, and Terminal Port align with the text description of port mappings."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/vpc_endpoint_services/viewing_port_mappings_of_a_vpc_endpoint_service.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin icon used for selecting region and project as described in step 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/vpc_endpoints/configuring_access_control_for_a_vpc_endpoint.rst",
+    "title": "Configuring Access Control for a VPC Endpoint",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002184649877.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184649877.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184649877.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/vpc_endpoints/configuring_access_control_for_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184649877.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Add to Whitelist' dialog box.",
+          "It contains the 'IP Address or CIDR Block' input field and the magenta 'OK' button.",
+          "This directly illustrates the steps for adding a whitelist record as described in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/vpc_endpoints/configuring_access_control_for_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon.",
+          "This icon corresponds to the region selector mentioned in the text for selecting the required region and project."
+        ],
+        "missing_evidence": [
+          "The image does not show the dropdown menu or the list of regions to select from."
+        ],
+        "overall_score": 0.65,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/vpc_endpoints/creating_a_vpc_endpoint.rst",
+    "title": "Creating a VPC Endpoint",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002184506357.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184506357.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184506357.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002184469493.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184469493.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184469493.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002149218350.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149218350.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149218350.png",
+        "kind": "figure",
+        "line": 161,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002149376822.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149376822.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149376822.png",
+        "kind": "figure",
+        "line": 167,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 241,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 242,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/vpc_endpoints/creating_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184506357.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Create VPC Endpoint' page with 'Service Category' set to 'Cloud service', matching Figure 1 in the documentation.",
+          "Interactive buttons such as 'Cloud service' and 'Create Now' are magenta, complying with the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/vpc_endpoints/creating_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184469493.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Create VPC Endpoint' page with 'Service Category' set to 'Find a service by name', matching Figure 2 in the documentation.",
+          "Interactive buttons such as 'Find a service by name' and 'Create Now' are magenta, complying with the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/vpc_endpoints/creating_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149218350.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Create VPC Endpoint' page for Gateway service with 'Service Category' set to 'Cloud service', matching Figure 3 in the documentation.",
+          "Interactive buttons such as 'Cloud service' and 'Create Now' are magenta, complying with the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/vpc_endpoints/creating_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149376822.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Create VPC Endpoint' page for Gateway service with 'Service Category' set to 'Find a service by name', matching Figure 4 in the documentation.",
+          "Interactive buttons such as 'Find a service by name' and 'Create Now' are magenta, complying with the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/vpc_endpoints/creating_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin icon used in the documentation to represent region selection.",
+          "Matches the context of selecting a region in the management console as described in the steps."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/vpc_endpoints/deleting_a_vpc_endpoint.rst",
+    "title": "Deleting a VPC Endpoint",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002149328946.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149328946.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149328946.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/vpc_endpoints/managing_tags_of_a_vpc_endpoint.rst",
+    "title": "Managing Tags of a VPC Endpoint",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 99,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 100,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/vpc_endpoints/querying_and_accessing_a_vpc_endpoint.rst",
+    "title": "Querying and Accessing a VPC Endpoint",
+    "image_count": 8,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002184555045.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184555045.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184555045.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002149398074.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149398074.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149398074.png",
+        "kind": "figure",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002184558693.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184558693.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184558693.png",
+        "kind": "figure",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002149399690.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149399690.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149399690.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002149315270.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149315270.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149315270.png",
+        "kind": "figure",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002184637917.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184637917.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184637917.png",
+        "kind": "figure",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891945.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891945.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891945.png",
+        "kind": "figure",
+        "line": 196,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001979891813.png",
+        "original_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "used_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "kind": "substitution_image",
+        "line": 213,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 8
+    },
+    "summary": {
+      "pass": 8,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 1 description showing the filter dropdown for VPC endpoints.",
+          "UI elements align with the 'Searching by ID or VPC endpoint service name' step."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "document_path": "umn/source/vpc_endpoints/querying_and_accessing_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184555045.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 2 description showing keyword entry in the search box.",
+          "UI state corresponds to the 'Entering a keyword for search' step."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "document_path": "umn/source/vpc_endpoints/querying_and_accessing_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149398074.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 3 description showing the tag key selection dropdown.",
+          "UI elements align with the 'Selecting tag keys' step."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "document_path": "umn/source/vpc_endpoints/querying_and_accessing_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184558693.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 4 description showing tag value selection.",
+          "UI state corresponds to the 'Selecting tag values' step."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "document_path": "umn/source/vpc_endpoints/querying_and_accessing_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149399690.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 5 description showing the Summary tab for an interface VPC endpoint.",
+          "UI fields and tabs align with the documented parameters."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "document_path": "umn/source/vpc_endpoints/querying_and_accessing_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002149315270.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 6 description showing the Summary tab for a gateway VPC endpoint.",
+          "UI fields and tabs align with the documented parameters."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "document_path": "umn/source/vpc_endpoints/querying_and_accessing_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000002184637917.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 7 description showing the record set list.",
+          "UI displays the A record set highlighted, consistent with the documentation."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "document_path": "umn/source/vpc_endpoints/querying_and_accessing_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891945.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches |image1| reference in the RST.",
+          "Shows the region selection icon used in the management console."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "document_path": "umn/source/vpc_endpoints/querying_and_accessing_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/vpc-endpoint/umn/source/_static/images/en-us_image_0000001979891813.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

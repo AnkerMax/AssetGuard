@@ -1,0 +1,1872 @@
+[
+  {
+    "file_path": "doc/best-practice/source/best_practices/migrating_container_images/migrating_images_to_swr_using_image-syncer.rst",
+    "title": "Migrating Images to SWR Using image-syncer",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001400827629.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001400827629.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001400827629.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/best_practices/migrating_container_images/synchronizing_images_across_clouds_from_harbor_to_swr.rst",
+    "title": "Synchronizing Images Across Clouds from Harbor to SWR",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001469005545.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001469005545.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001469005545.png",
+        "kind": "substitution_image",
+        "line": 85,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001418569120.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001418569120.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001418569120.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001468885853.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001468885853.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001468885853.png",
+        "kind": "substitution_image",
+        "line": 87,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001418729104.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001418729104.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001418729104.png",
+        "kind": "substitution_image",
+        "line": 88,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/faqs/general_faqs/about_swr.rst",
+    "title": "About SWR",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001539405909.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539405909.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539405909.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/faqs/general_faqs/how_do_i_create_a_container_image.rst",
+    "title": "How Do I Create a Container Image?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0165153802.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153802.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153802.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0165153805.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153805.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153805.png",
+        "kind": "figure",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "doc/best-practice/source/faqs/general_faqs/how_do_i_create_a_container_image.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153802.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image illustrates the step-by-step process of creating a container snapshot as described in Approach 1.",
+          "It clearly shows starting a base container, installing software, and creating a snapshot."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "doc/best-practice/source/faqs/general_faqs/how_do_i_create_a_container_image.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153805.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image visually contrasts the manual snapshot approach with the automated Dockerfile build approach.",
+          "It shows the transition from manual installation to using a Dockerfile for building images."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "doc/best-practice/source/faqs/troubleshooting/why_does_the_login_command_fail_to_be_executed.rst",
+    "title": "Why Does the Login Command Fail to Be Executed?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0168961239.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0168961239.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0168961239.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/image_management/obtaining_a_long-term_valid_login_command.rst",
+    "title": "Obtaining a Long-Term Valid Login Command",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001539605245.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539605245.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539605245.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0165729699.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165729699.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165729699.png",
+        "kind": "figure",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001507688112.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001507688112.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001507688112.png",
+        "kind": "substitution_image",
+        "line": 94,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001558527697.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001558527697.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001558527697.png",
+        "kind": "substitution_image",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001507528236.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001507528236.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001507528236.png",
+        "kind": "substitution_image",
+        "line": 96,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "doc/best-practice/source/image_management/obtaining_a_long-term_valid_login_command.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539605245.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart that accurately depicts the five-step process outlined in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "doc/best-practice/source/image_management/obtaining_a_long-term_valid_login_command.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165729699.png",
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a terminal command and its output, directly matching the example provided in step 4."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "doc/best-practice/source/image_management/obtaining_a_long-term_valid_login_command.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001507688112.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a blurry icon referenced in step 1a for selecting a region and project."
+        ],
+        "missing_evidence": [
+          "The icon's specific function is unclear due to low resolution."
+        ],
+        "overall_score": 0.67,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "doc/best-practice/source/image_management/obtaining_a_long-term_valid_login_command.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001558527697.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, consistent with the navigation instruction in step 1c."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "doc/best-practice/source/image_management/pulling_an_image.rst",
+    "title": "Pulling an Image",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001154597496.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154597496.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154597496.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0282767856.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0282767856.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0282767856.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/image_management/setting_image_attributes.rst",
+    "title": "Setting Image Attributes",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001154760600.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154760600.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154760600.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/image_management/sharing_private_images.rst",
+    "title": "Sharing Private Images",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001200681339.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200681339.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200681339.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/image_management/uploading_an_image_through_the_client.rst",
+    "title": "Uploading an Image Through the Client",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001201043047.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001201043047.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001201043047.png",
+        "kind": "figure",
+        "line": 38,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001200577091.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200577091.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200577091.png",
+        "kind": "figure",
+        "line": 77,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0143894038.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0143894038.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0143894038.png",
+        "kind": "substitution_image",
+        "line": 125,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/organization_management.rst",
+    "title": "Organization Management",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001154801774.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154801774.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154801774.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001361665969.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001361665969.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001361665969.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001154966988.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154966988.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154966988.png",
+        "kind": "figure",
+        "line": 56,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001200587685.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200587685.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200587685.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/permissions_management/creating_a_user_and_granting_swr_permissions.rst",
+    "title": "Creating a User and Granting SWR Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001127297210.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001127297210.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001127297210.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "doc/best-practice/source/permissions_management/creating_a_user_and_granting_swr_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001127297210.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart illustrating the process for granting SWR permissions.",
+          "The steps in the flowchart correspond directly to the numbered list in the RST document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "doc/best-practice/source/service_overview/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0294353976.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0294353976.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0294353976.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/service_overview/basic_concepts.rst",
+    "title": "Basic Concepts",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0195122694.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0195122694.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0195122694.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/service_overview/introduction.rst",
+    "title": "Introduction",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001200534503.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200534503.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200534503.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/service_overview/related_services.rst",
+    "title": "Related Services",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0196304259.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0196304259.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0196304259.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "doc/best-practice/source/user_permissions.rst",
+    "title": "User Permissions",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001200802327.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200802327.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200802327.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001154645118.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154645118.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154645118.png",
+        "kind": "figure",
+        "line": 57,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
+    "title": "Viewing CTS Traces in the Trace List",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001744598325.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001696838310.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001696838310.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001696838310.png",
+        "kind": "substitution_image",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001696678850.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001744678489.jpg",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "kind": "substitution_image",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001942942816.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001942942816.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001942942816.png",
+        "kind": "substitution_image",
+        "line": 61,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001758618249.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the 'Trace List' page showing the filter options.",
+          "It directly corresponds to 'Figure 1' in the RST document which illustrates the available filters.",
+          "The 'Query' button is magenta, satisfying the color rule for interactive buttons."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001696838310.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon.",
+          "It matches the description of '|image1|' used to navigate to the Cloud Trace Service.",
+          "The icon is clearly visible and relevant to the navigation step."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a refresh icon.",
+          "It matches the description of '|image2|' used to view the latest information about traces.",
+          "The icon is clearly visible and relevant to the refresh action."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a downward-pointing chevron icon.",
+          "It matches the description of '|image3|' used to expand trace details.",
+          "The icon is clearly visible and relevant to the expand action."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001942942816.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot showing an expanded trace row with detailed fields.",
+          "It matches the description of '|image4|' which appears after clicking the expand icon.",
+          "The screenshot clearly displays the trace structure details mentioned in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot showing the 'View Trace' modal with JSON details.",
+          "It matches the description of '|image5|' which appears after clicking 'View Trace'.",
+          "The screenshot clearly displays the trace structure details mentioned in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/general_faqs/about_swr.rst",
+    "title": "About SWR",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001539405909.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539405909.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539405909.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/general_faqs/how_do_i_create_a_container_image.rst",
+    "title": "How Do I Create a Container Image?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0165153802.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153802.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153802.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0165153805.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153805.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153805.png",
+        "kind": "figure",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/general_faqs/how_do_i_create_a_container_image.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153802.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram accurately illustrates the manual snapshot creation process described in Approach 1.",
+          "It correctly depicts the sequence of starting a base container, entering it, installing software, and creating a snapshot."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/general_faqs/how_do_i_create_a_container_image.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153805.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram effectively contrasts the manual snapshot method with the automated Dockerfile build method.",
+          "It correctly shows how the Dockerfile automates the installation steps previously performed manually inside the container."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/troubleshooting/why_does_the_login_command_fail_to_be_executed.rst",
+    "title": "Why Does the Login Command Fail to Be Executed?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0168961239.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0168961239.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0168961239.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/image_management/obtaining_a_long-term_docker_login_command.rst",
+    "title": "Obtaining a Long-Term Docker Login Command",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001539605245.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539605245.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539605245.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0165729699.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165729699.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165729699.png",
+        "kind": "figure",
+        "line": 83,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001507688112.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001507688112.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001507688112.png",
+        "kind": "substitution_image",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001558527697.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001558527697.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001558527697.png",
+        "kind": "substitution_image",
+        "line": 102,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/image_management/obtaining_a_long-term_docker_login_command.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539605245.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart that exactly matches the five-step process described in the document.",
+          "Each step in the diagram corresponds directly to the numbered steps in the RST text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/image_management/obtaining_a_long-term_docker_login_command.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165729699.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a terminal window executing the exact command specified in step 6.",
+          "The sample output displayed matches the context of generating a login key."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/image_management/obtaining_a_long-term_docker_login_command.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001507688112.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a small UI icon, likely representing the region/project selector mentioned in step 1b.",
+          "The icon's placement and context align with the navigation instructions."
+        ],
+        "missing_evidence": [
+          "The image resolution is low, making it difficult to verify specific UI labels or exact functionality."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/image_management/obtaining_a_long-term_docker_login_command.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001558527697.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, which corresponds to the navigation pane toggle in step 1c.",
+          "It is a standard UI symbol for opening a menu."
+        ],
+        "missing_evidence": [
+          "The image resolution is low, limiting detailed verification of the menu contents."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/image_management/pulling_an_image.rst",
+    "title": "Pulling an Image",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002319087477.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002319087477.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002319087477.png",
+        "kind": "substitution_image",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002000854844.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002000854844.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002000854844.png",
+        "kind": "substitution_image",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002037053129.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002037053129.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002037053129.png",
+        "kind": "substitution_image",
+        "line": 83,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002001013122.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002001013122.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002001013122.png",
+        "kind": "substitution_image",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002037094013.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002037094013.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002037094013.png",
+        "kind": "substitution_image",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/image_management/uploading_an_image_through_a_container_engine_client.rst",
+    "title": "Uploading an Image Through a Container Engine Client",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002319267849.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002319267849.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002319267849.png",
+        "kind": "substitution_image",
+        "line": 137,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002037092213.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002037092213.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002037092213.png",
+        "kind": "substitution_image",
+        "line": 138,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/organization_management.rst",
+    "title": "Organization Management",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001154801774.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154801774.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154801774.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002319439097.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002319439097.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000002319439097.png",
+        "kind": "substitution_image",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001200587685.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200587685.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200587685.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/permissions_management/configuring_iam_permissions.rst",
+    "title": "Configuring IAM Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001127297210.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001127297210.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001127297210.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/permissions_management/configuring_iam_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001127297210.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart that visually represents the process described in the RST text.",
+          "The steps in the flowchart (Create user group, Create IAM user, Log in and verify) correspond directly to the numbered list in the document.",
+          "The image serves as a high-level summary of the IAM permission configuration process."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/permissions_management/configuring_image_permissions.rst",
+    "title": "Configuring Image Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001200802327.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200802327.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200802327.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0294353976.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0294353976.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0294353976.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/basic_concepts.rst",
+    "title": "Basic Concepts",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0195122694.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0195122694.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0195122694.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/basic_concepts.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0195122694.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a conceptual diagram illustrating the 'Organization' section.",
+          "It visually depicts how organizations isolate image repositories and users, directly supporting the text's explanation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/introduction.rst",
+    "title": "Introduction",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001200534503.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200534503.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200534503.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/introduction.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200534503.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons/links are blue, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a three-step workflow diagram for SWR, aligning with the figure caption 'How SWR works'.",
+          "The image contains blue interactive links, which violates the mandatory rule requiring magenta or plain white buttons for screenshots."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/related_services.rst",
+    "title": "Related Services",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0196304259.png",
+        "original_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0196304259.png",
+        "used_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0196304259.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]

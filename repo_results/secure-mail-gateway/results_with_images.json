@@ -1,0 +1,34 @@
+[
+  {
+    "file_path": "umn/source/intro.rst",
+    "title": "Introduction Secure Mail Gateway",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "_static/images/image1.png",
+        "original_path": "/home/ubuntu/repotesting/secure-mail-gateway/umn/source/_static/images/image1.png",
+        "used_path": "/home/ubuntu/repotesting/secure-mail-gateway/umn/source/_static/images/image1.png",
+        "kind": "image",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]

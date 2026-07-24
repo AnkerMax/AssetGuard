@@ -1,0 +1,899 @@
+[
+  {
+    "file_path": "umn/source/auditing/viewing_cts_traces.rst",
+    "title": "Viewing CTS Traces",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0110310841.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110310841.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110310841.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0110311573.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110311573.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110311573.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210486176.jpg",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210486176.jpg",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210486176.jpg",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive button 'View Trace' is blue, not magenta or plain white, and no other magenta elements are present.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches step 6 description of expanded trace details.",
+          "Shows table with trace information and expanded fields."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/auditing/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110310841.png",
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive close button is gray, not magenta or plain white, and no other magenta elements are present.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches step 7 description of the 'View Trace' dialog.",
+          "Shows JSON structure of trace details."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/auditing/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110311573.png",
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches |image1| reference in step 2 for selecting a region.",
+          "Shows a location pin icon."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/auditing/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches |image2| reference in step 6 for expanding trace details.",
+          "Shows a downward chevron icon."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/auditing/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210486176.jpg",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faq/how_to_obtain_the_flavor_value_of_resource_oserdsinstance.rst",
+    "title": "How to Obtain the flavor Value of Resource OSE::RDS::Instance?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0128465684.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0128465684.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0128465684.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/creating_resources_using_a_template_using_the_console.rst",
+    "title": "Creating Resources Using a Template (Using the Console)",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0162741682.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0162741682.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0162741682.png",
+        "kind": "figure",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0129631902.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129631902.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129631902.png",
+        "kind": "figure",
+        "line": 150,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 161,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 162,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/creating_resources_using_a_template_using_the_console.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0162741682.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Create Stack' UI with 'Manually specify' selected.",
+          "Matches the RST instruction to select 'Manually specify' and enter template content.",
+          "Includes the 'Next' button as described in the workflow."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/creating_resources_using_a_template_using_the_console.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129631902.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays the form for specifying stack details.",
+          "Fields match the RST description: ECS Name, Image, Key Pair, Flavor, Network, AZ.",
+          "Aligns with step 7 of the 'Create an ECS Stack' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/creating_resources_using_a_template_using_the_console.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Identifies the location pin icon used in the RST.",
+          "Corresponds to the UI element for selecting region and project.",
+          "Matches the image definition for |image1| and |image2|."
+        ],
+        "missing_evidence": [
+          "Does not show the dropdown or selection interface, only the icon."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/rts.rst",
+    "title": "RTS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0162983502.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0162983502.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0162983502.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/stack_management/creating_a_stack.rst",
+    "title": "Creating a stack",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0165712169.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0165712169.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0165712169.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 83,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238393889.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0238393889.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0238393889.png",
+        "kind": "substitution_image",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/stack_management/creating_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0165712169.png",
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Template' configuration UI for uploading a template file.",
+          "Matches Figure 1 description in the RST document.",
+          "Contains magenta 'Upload template' button and white 'Manually specify' button.",
+          "Directly illustrates step 5 of the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/stack_management/creating_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a location pin icon.",
+          "Matches the description of |image1| for selecting region and project.",
+          "Illustrates step 2 of the procedure."
+        ],
+        "missing_evidence": [
+          "Low resolution makes fine details unclear."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/stack_management/creating_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0238393889.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows an ellipsis (...) icon.",
+          "Matches the description of |image2| for selecting a template package.",
+          "Illustrates step 5b of the procedure."
+        ],
+        "missing_evidence": [
+          "Low resolution makes fine details unclear."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/stack_management/deleting_a_stack.rst",
+    "title": "Deleting a Stack",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_file_packaging.rst",
+    "title": "Template File Packaging",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0093846144.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846144.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846144.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0093846364.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846364.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846364.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0078602155.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0078602155.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0078602155.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_file_packaging.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846144.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a file explorer context menu with 'Add to archive...' highlighted, directly illustrating step 1 of the RST instructions."
+        ],
+        "missing_evidence": [
+          "None"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_file_packaging.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846364.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the 'Archive name and parameters' dialog with the ZIP format selected, matching step 2 of the RST instructions."
+        ],
+        "missing_evidence": [
+          "None"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_file_packaging.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0078602155.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the generated 'random.zip' file in the directory, illustrating the completion of step 3."
+        ],
+        "missing_evidence": [
+          "None"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_package_structure.rst",
+    "title": "Template Package Structure",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0076468668.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0076468668.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0076468668.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0106214513.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0106214513.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0106214513.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the exact file structure described in the document for the template package root directory.",
+          "Shows the Resources folder and the mandatory/example files: logo.png, manifest.yaml, random.yaml, template.yaml."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_package_structure.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0076468668.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image accurately depicts the nested directory structure under Resources/HotFiles as described in the text.",
+          "Shows the random1.yaml file inside the HotFiles directory, matching the example given in the document."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_package_structure.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0106214513.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/stack_management/updating_a_stack.rst",
+    "title": "Updating a Stack",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/stack_management/updating_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a location pin icon, which matches the RST instruction to click the icon to select a region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/stack_management/viewing_details_of_a_stack.rst",
+    "title": "Viewing Details of a Stack",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0165732878.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0165732878.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0165732878.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238393888.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0238393888.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0238393888.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/template_syntax/parameters.rst",
+    "title": "Parameters",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0129684031.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129684031.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129684031.png",
+        "kind": "figure",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/template_syntax/parameters.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129684031.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the 'Specify Details' page UI.",
+          "It directly illustrates the 'Parameter Groups' feature described in the RST.",
+          "The sections 'length Parameters' and 'Other Parameters' match the RST example exactly.",
+          "The parameter names (length, length2, length1, name) correspond to the template configuration shown in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

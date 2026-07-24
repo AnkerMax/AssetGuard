@@ -1,0 +1,4597 @@
+[
+  {
+    "file_path": "umn/source/ansible/connection.rst",
+    "title": "How to configure a connection between two ansible components",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/8-Ansible-tasks-relation.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-tasks-relation.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-tasks-relation.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/8-Ansible-tasks-relation-env.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-tasks-relation-env.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-tasks-relation-env.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/8-Ansible-tasks-post-configure.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-tasks-post-configure.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-tasks-post-configure.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/ansible/galaxy.rst",
+    "title": "Ansible Galaxy",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/8-Ansible-galaxy.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy.png",
+        "kind": "figure",
+        "line": 7,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/8-Ansible-galaxy-compute.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy-compute.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy-compute.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/8-Ansible-galaxy-property.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy-property.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy-property.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/8-Ansible-galaxy-variables.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy-variables.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy-variables.png",
+        "kind": "figure",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/8-Ansible-geturl.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-geturl.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-geturl.png",
+        "kind": "figure",
+        "line": 107,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/8-Ansible-galaxy-output.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy-output.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy-output.png",
+        "kind": "figure",
+        "line": 117,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/8-Ansible-galaxy-sample-app.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy-sample-app.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-galaxy-sample-app.png",
+        "kind": "figure",
+        "line": 127,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/ansible/role.rst",
+    "title": "Ansible role",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/8-Ansible-role-zip.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-role-zip.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-role-zip.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/8-Ansible-role-configure.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-role-configure.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-role-configure.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/ansible/tasks.rst",
+    "title": "Ansible tasks",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/8-Ansible-tasks-configure.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-tasks-configure.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-tasks-configure.png",
+        "kind": "figure",
+        "line": 10,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/8-Ansible-tasks.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-tasks.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-tasks.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/bash/bash_create.rst",
+    "title": "How to execute a Bash script on a compute",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/7-Bash-properties.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-properties.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-properties.png",
+        "kind": "figure",
+        "line": 10,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-configure.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-configure.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-configure.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-configure-upload.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-configure-upload.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-configure-upload.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-archive-content.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-archive-content.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-archive-content.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/bash/env_vars.rst",
+    "title": "Environment variables for Bash script",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/7-Bash-properties-env.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-properties-env.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-properties-env.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-env.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-env.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-env.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/bash/env_vars_config.rst",
+    "title": "Environment variables for a connection",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/7-Bash-env-relationship.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-env-relationship.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-env-relationship.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/bash/index.rst",
+    "title": "How to use Bash",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/7-Bash-connect-to.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-connect-to.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-connect-to.png",
+        "kind": "figure",
+        "line": 7,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/bash/relationship.rst",
+    "title": "How to configure a connection between two Bash components",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/7-Bash-connect-to.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-connect-to.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-connect-to.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-pre-configure.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-pre-configure.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-pre-configure.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-add_source.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-add_source.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-add_source.png",
+        "kind": "figure",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-workflow.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-workflow.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-workflow.png",
+        "kind": "figure",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/bash/upload.rst",
+    "title": "How to upload a file to a compute",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/7-Bash-write-script-upload-local.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-write-script-upload-local.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-write-script-upload-local.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-write-script-upload-remote.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-write-script-upload-remote.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-write-script-upload-remote.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-write-script-upload-configure.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-write-script-upload-configure.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-write-script-upload-configure.png",
+        "kind": "figure",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-write-script-upload-result.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-write-script-upload-result.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-write-script-upload-result.png",
+        "kind": "figure",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/bastion_host/admin_network.rst",
+    "title": "How to define an admin network",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/4-BastionHost-AdminNetwork.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost-AdminNetwork.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost-AdminNetwork.png",
+        "kind": "figure",
+        "line": 7,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/4-BastionHost-AdminNetwork-auto.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost-AdminNetwork-auto.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost-AdminNetwork-auto.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/bastion_host/bastion_host.rst",
+    "title": "How to define a bastion host",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/4-BastionHost-AdminNetwork-SSHBastionHost.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost-AdminNetwork-SSHBastionHost.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost-AdminNetwork-SSHBastionHost.png",
+        "kind": "figure",
+        "line": 9,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/4-BastionHost-Full-Flow.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost-Full-Flow.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost-Full-Flow.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/5-BastionHost-auto-add-message.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/5-BastionHost-auto-add-message.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/5-BastionHost-auto-add-message.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/bastion_host/bastion_host_scenarios.rst",
+    "title": "Usecases of a bastion host",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/4-NoBastionHost-3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-NoBastionHost-3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-NoBastionHost-3.png",
+        "kind": "figure",
+        "line": 10,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/4-NoBastionHost.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-NoBastionHost.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-NoBastionHost.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/4-NoBastionHost-2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-NoBastionHost-2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-NoBastionHost-2.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/bastion_host/index.rst",
+    "title": "How to use Bastion host",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/4-BastionHost.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost.png",
+        "kind": "figure",
+        "line": 9,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/connect_private_network.rst",
+    "title": "How to connect a compute to a network",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/0-new-application-compute.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/0-new-application-compute.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/0-new-application-compute.png",
+        "kind": "figure",
+        "line": 10,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/2-network-private.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-private.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-private.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/2-network-public.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-public.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-public.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/create_new_app.rst",
+    "title": "How to create a new application",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/0-new-application-steps.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/0-new-application-steps.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/0-new-application-steps.png",
+        "kind": "image",
+        "line": 10,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/deploy_app.rst",
+    "title": "How to choose a cloud provider to deploy",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/2-compute-choose-env.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-choose-env.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-choose-env.png",
+        "kind": "figure",
+        "line": 8,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/2-compute-deploy-otc.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-otc.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-otc.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/deploy_soft_comp.rst",
+    "title": "How to deploy a service catalog on a compute",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/2-helloworld-drag.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-helloworld-drag.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-helloworld-drag.png",
+        "kind": "figure",
+        "line": 7,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/index.rst",
+    "title": "Getting started",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/2-helloworld.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-helloworld.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-helloworld.png",
+        "kind": "image",
+        "line": 7,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/specify_compute_params.rst",
+    "title": "How to specify CPU, RAM, and an operating system for a compute",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/2-compute-properties.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-properties.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-properties.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/specify_image_flavor.rst",
+    "title": "How to specify a flavor, image, keypair, and availability zone for a compute",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/2-compute-deploy-matching.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-matching.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-matching.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/2-compute-deploy-matching-keypair.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-matching-keypair.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-matching-keypair.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/start_deploy.rst",
+    "title": "How to deploy & debug",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/2-compute-deploy-review.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-review.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-review.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/2-compute-deploy-review-2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-review-2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-review-2.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/2-compute-deploy-result.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-result.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-result.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/2-compute-deploy-result-helloworld.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-result-helloworld.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-result-helloworld.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/2-compute-deploy-result-secrule-bastion-host.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-result-secrule-bastion-host.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-deploy-result-secrule-bastion-host.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/debug-see-error.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/debug-see-error.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/debug-see-error.png",
+        "kind": "figure",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/start_undeploy.rst",
+    "title": "How to undeploy & purge",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/2-compute-undeploy.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-undeploy.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-undeploy.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/2-compute-undeploy-resume.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-undeploy-resume.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-compute-undeploy-resume.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/google/auto_created_subnets.rst",
+    "title": "Design your application with dynamic subnets",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/google/auto-subnets.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/auto-subnets.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/auto-subnets.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/auto-subnets2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/auto-subnets2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/auto-subnets2.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/auto-subnets-result1b.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/auto-subnets-result1b.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/auto-subnets-result1b.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/auto-subnets-result2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/auto-subnets-result2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/auto-subnets-result2.png",
+        "kind": "figure",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/auto-subnets-result2b.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/auto-subnets-result2b.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/auto-subnets-result2b.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/google/how_to_deploy.rst",
+    "title": "How to deploy your application on Google Cloud",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/google/set-roles.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/set-roles.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/set-roles.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/enable-api.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/enable-api.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/enable-api.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/deploy-step1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/deploy-step1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/deploy-step1.png",
+        "kind": "figure",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/deploy-step2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/deploy-step2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/deploy-step2.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/deploy-step3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/deploy-step3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/deploy-step3.png",
+        "kind": "figure",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/deploy-step4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/deploy-step4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/deploy-step4.png",
+        "kind": "figure",
+        "line": 104,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/deploy-revoke.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/deploy-revoke.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/deploy-revoke.png",
+        "kind": "figure",
+        "line": 128,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/google/index.rst",
+    "title": "Google Cloud",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/google/multi-regions.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/multi-regions.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/multi-regions.png",
+        "kind": "figure",
+        "line": 9,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/google/multi_regions.rst",
+    "title": "Design your application with static subnets in multiple regions",
+    "image_count": 11,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/google/multi-regions.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/multi-regions.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/multi-regions.png",
+        "kind": "figure",
+        "line": 9,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/subnet-step1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step1.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/subnet-step2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step2.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/subnet-step3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step3.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/subnet-step4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step4.png",
+        "kind": "figure",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/subnet-step5.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step5.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step5.png",
+        "kind": "figure",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/subnet-step6.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step6.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step6.png",
+        "kind": "figure",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/subnet-step7.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step7.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step7.png",
+        "kind": "figure",
+        "line": 94,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/subnet-step7b.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step7b.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/subnet-step7b.png",
+        "kind": "figure",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/multi-regions-result2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/multi-regions-result2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/multi-regions-result2.png",
+        "kind": "figure",
+        "line": 111,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/google/multi-regions-result1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/multi-regions-result1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/google/multi-regions-result1.png",
+        "kind": "figure",
+        "line": 119,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 11
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/index.rst",
+    "title": "Quick introduction",
+    "image_count": 9,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/features/overview1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview1.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/overview.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview.png",
+        "kind": "figure",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/overview-templates.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview-templates.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview-templates.png",
+        "kind": "figure",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/overview-templates2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview-templates2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview-templates2.png",
+        "kind": "figure",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/overview-design2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview-design2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview-design2.png",
+        "kind": "figure",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/overview-deploy.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview-deploy.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview-deploy.png",
+        "kind": "figure",
+        "line": 109,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/deployment_logs.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/deployment_logs.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/deployment_logs.png",
+        "kind": "figure",
+        "line": 118,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/export.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/export.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/export.png",
+        "kind": "figure",
+        "line": 142,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/ask-question.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/ask-question.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/ask-question.png",
+        "kind": "figure",
+        "line": 206,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 9
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/network/dns.rst",
+    "title": "How to create a DNS",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/service-catalogs/dns1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns1.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/dns1b.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns1b.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns1b.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/dns2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns2.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/dns3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns3.png",
+        "kind": "figure",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/dns4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns4.png",
+        "kind": "figure",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/network/fixed_ip.rst",
+    "title": "How to specify a fixed IP for a compute",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/2-network-port-properties.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-port-properties.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-port-properties.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/network/ip_ranges.rst",
+    "title": "How to create or reuse a private network",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/2-network-private-properties.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-private-properties.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-private-properties.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/2-network-private-properties-existing.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-private-properties-existing.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-private-properties-existing.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/2-network-private-cidr-error.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-private-cidr-error.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/2-network-private-cidr-error.png",
+        "kind": "figure",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/orchestration_workflow.rst",
+    "title": "How the orchestration engine works",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/4-heat_vs_ctd.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-heat_vs_ctd.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-heat_vs_ctd.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/4-BastionHost-Workflow.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost-Workflow.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/4-BastionHost-Workflow.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/register.rst",
+    "title": "How to create a user account & login",
+    "image_count": 10,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/register-login.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-login.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-login.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/register-iam-button.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-iam-button.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-iam-button.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/register-create-project.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-create-project.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-create-project.png",
+        "kind": "figure",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/register-create-group.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-create-group.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-create-group.png",
+        "kind": "figure",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/register-modify-group.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-modify-group.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-modify-group.png",
+        "kind": "figure",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/register-modify-group2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-modify-group2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-modify-group2.png",
+        "kind": "figure",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/register-modify-group3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-modify-group3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-modify-group3.png",
+        "kind": "figure",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/register-create-user1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-create-user1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-create-user1.png",
+        "kind": "figure",
+        "line": 107,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/register-create-user2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-create-user2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-create-user2.png",
+        "kind": "figure",
+        "line": 114,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/register-choose-projects.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-choose-projects.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/register-choose-projects.png",
+        "kind": "figure",
+        "line": 126,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 10
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/releases.rst",
+    "title": "Release notes",
+    "image_count": 9,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/service-catalogs/argocd0.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd0.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd0.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce1.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/private_template1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/private_template1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/private_template1.png",
+        "kind": "figure",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/v2.16-netherlands.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/v2.16-netherlands.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/v2.16-netherlands.png",
+        "kind": "figure",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/v2.16-setup-logs.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/v2.16-setup-logs.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/v2.16-setup-logs.png",
+        "kind": "figure",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/v2.15-login-swiss-otc.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/v2.15-login-swiss-otc.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/v2.15-login-swiss-otc.png",
+        "kind": "figure",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/overview-templates.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview-templates.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/overview-templates.png",
+        "kind": "figure",
+        "line": 136,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/openshift.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/openshift.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/openshift.png",
+        "kind": "figure",
+        "line": 149,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/deployment_history.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/deployment_history.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/deployment_history.png",
+        "kind": "figure",
+        "line": 162,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 9
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/save_template.rst",
+    "title": "How to save a design as a template",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/private_template1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/private_template1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/private_template1.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/private_template2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/private_template2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/private_template2.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/private_template3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/private_template3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/private_template3.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/private_template4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/private_template4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/private_template4.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/public-template.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/public-template.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/public-template.png",
+        "kind": "figure",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/secrets.rst",
+    "title": "How to define secrets for your application",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/secrets1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/secrets1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/secrets1.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/secrets2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/secrets2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/secrets2.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/secrets3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/secrets3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/secrets3.png",
+        "kind": "figure",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/security_group/auto_generate.rst",
+    "title": "How to auto-generate security group",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/7-Bash-auto-secgroup.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-auto-secgroup.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-auto-secgroup.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-auto-secgroup-otc.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-auto-secgroup-otc.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-auto-secgroup-otc.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/security_group/define_explicitly.rst",
+    "title": "How to define the security group explicitly",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/7-Bash-secgroup-explicit.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-secgroup-explicit.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-secgroup-explicit.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/7-Bash-secgroup-rule-explicit.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-secgroup-rule-explicit.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/7-Bash-secgroup-rule-explicit.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_catalogs/apache.rst",
+    "title": "Apache Webserver",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/service-catalogs/apache1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache1.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/apache2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache2.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/apache3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache3.png",
+        "kind": "figure",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/apache4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache4.png",
+        "kind": "figure",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/dns2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/dns2.png",
+        "kind": "figure",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/apache5.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache5.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache5.png",
+        "kind": "figure",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/apache6.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache6.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/apache6.png",
+        "kind": "figure",
+        "line": 94,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_catalogs/argocd.rst",
+    "title": "Argo CD template",
+    "image_count": 11,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/service-catalogs/argocd.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd.png",
+        "kind": "figure",
+        "line": 10,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/argocd0.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd0.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd0.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce_enable.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_enable.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_enable.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/argocd1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd1.png",
+        "kind": "figure",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/argocd2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd2.png",
+        "kind": "figure",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/argocd3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd3.png",
+        "kind": "figure",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/argocd4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd4.png",
+        "kind": "figure",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/argocd5.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd5.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd5.png",
+        "kind": "figure",
+        "line": 130,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/argocd6.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd6.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd6.png",
+        "kind": "figure",
+        "line": 143,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/argocd7.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd7.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd7.png",
+        "kind": "figure",
+        "line": 150,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/argocd8.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd8.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/argocd8.png",
+        "kind": "figure",
+        "line": 162,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 11
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_catalogs/cce.rst",
+    "title": "Cloud Container Engine template",
+    "image_count": 17,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/service-catalogs/cce1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce1.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce_enable.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_enable.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_enable.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce2.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce8.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce8.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce8.png",
+        "kind": "figure",
+        "line": 83,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce9.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce9.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce9.png",
+        "kind": "figure",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce-eip.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce-eip.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce-eip.png",
+        "kind": "figure",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce-eip2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce-eip2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce-eip2.png",
+        "kind": "figure",
+        "line": 112,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce3.png",
+        "kind": "figure",
+        "line": 125,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce4.png",
+        "kind": "figure",
+        "line": 134,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce5.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce5.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce5.png",
+        "kind": "figure",
+        "line": 147,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce6.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce6.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce6.png",
+        "kind": "figure",
+        "line": 164,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce7.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce7.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce7.png",
+        "kind": "figure",
+        "line": 176,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce7b.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce7b.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce7b.png",
+        "kind": "figure",
+        "line": 185,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce_update1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_update1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_update1.png",
+        "kind": "figure",
+        "line": 214,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce_update2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_update2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_update2.png",
+        "kind": "figure",
+        "line": 221,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce_update3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_update3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_update3.png",
+        "kind": "figure",
+        "line": 230,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/cce_update4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_update4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/cce_update4.png",
+        "kind": "figure",
+        "line": 237,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 17
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_catalogs/mysql.rst",
+    "title": "MySQL server",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/service-catalogs/mysql1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/mysql1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/mysql1.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/mysql2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/mysql2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/mysql2.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_catalogs/mysql.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/mysql1.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the MySQLServer component placed on a Compute node, directly illustrating the deployment step."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/mysql.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/mysql2.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the MySQLDatabase component connected to MySQLServer, with the name, user, and password fields highlighted, matching the database creation instructions."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_catalogs/nextcloud.rst",
+    "title": "Nextcloud",
+    "image_count": 10,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/service-catalogs/nextcloud.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/nextcloud1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud1.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/nextcloud2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/nextcloud2v3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2v3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2v3.png",
+        "kind": "figure",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/nextcloud2v4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2v4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2v4.png",
+        "kind": "figure",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/nextcloud3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud3.png",
+        "kind": "figure",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/nextcloud3b.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud3b.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud3b.png",
+        "kind": "figure",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/nextcloud4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud4.png",
+        "kind": "figure",
+        "line": 94,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/nextcloud5.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud5.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud5.png",
+        "kind": "figure",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/nextcloud4b.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud4b.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud4b.png",
+        "kind": "figure",
+        "line": 110,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 10
+    },
+    "summary": {
+      "pass": 9,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_catalogs/nextcloud.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches RST description of selecting the Nextcloud template.",
+          "Shows version dropdown as expected."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/nextcloud.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud1.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches RST description of v1 template architecture.",
+          "Shows single VM deployment with all components."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/nextcloud.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches RST description of v2 template architecture.",
+          "Shows two VMs: Compute for app, Compute_2 for database."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/nextcloud.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2v3.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches RST description of v3 template architecture.",
+          "Shows RDSMySQL service connected to the application VM."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/nextcloud.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2v4.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches RST description of v4 template architecture.",
+          "Shows ObjectStorage and RDSMySQL services connected."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/nextcloud.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud3.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches RST description of app configuration.",
+          "Shows download_url, datadir, and password fields."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/nextcloud.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud3b.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches RST description of DNS configuration.",
+          "Shows dns_name field with example domain."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/nextcloud.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud4.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches RST description of deployment outputs.",
+          "Shows admin user, password, and app URL."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/nextcloud.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud5.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive 'Log in' button is blue, not magenta or plain white, and no other magenta buttons or text are present.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches RST description of accessing Nextcloud via floating IP.",
+          "Shows login page with admin credentials."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/nextcloud.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud4b.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches RST description of DNS zone creation.",
+          "Shows A records pointing to the floating IP."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_catalogs/openshift.rst",
+    "title": "OpenShift template",
+    "image_count": 23,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_select_template.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_select_template.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_select_template.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_config1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_config1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_config1.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_redhat_console.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_redhat_console.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_redhat_console.png",
+        "kind": "figure",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_pull_secrect.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_pull_secrect.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_pull_secrect.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_config2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_config2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_config2.png",
+        "kind": "figure",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_config3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_config3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_config3.png",
+        "kind": "figure",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_check_result.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_check_result.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_check_result.png",
+        "kind": "figure",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_result1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_result1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_result1.png",
+        "kind": "figure",
+        "line": 120,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift-dns.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-dns.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-dns.png",
+        "kind": "figure",
+        "line": 140,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift-dns2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-dns2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-dns2.png",
+        "kind": "figure",
+        "line": 150,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_result2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_result2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_result2.png",
+        "kind": "figure",
+        "line": 162,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_result3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_result3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_result3.png",
+        "kind": "figure",
+        "line": 174,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift-delete-bootstrap.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-delete-bootstrap.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-delete-bootstrap.png",
+        "kind": "figure",
+        "line": 258,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift-update-os-password.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-update-os-password.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-update-os-password.png",
+        "kind": "figure",
+        "line": 278,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift-update-password.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-update-password.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-update-password.png",
+        "kind": "figure",
+        "line": 292,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_pod.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_pod.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_pod.png",
+        "kind": "figure",
+        "line": 397,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_evs.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_evs.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_evs.png",
+        "kind": "figure",
+        "line": 403,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_sfs.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_sfs.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_sfs.png",
+        "kind": "figure",
+        "line": 418,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_sfs_security_group.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_sfs_security_group.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_sfs_security_group.png",
+        "kind": "figure",
+        "line": 425,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_sfs2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_sfs2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_sfs2.png",
+        "kind": "figure",
+        "line": 432,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_machinset1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_machinset1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_machinset1.png",
+        "kind": "figure",
+        "line": 510,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_machinset2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_machinset2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_machinset2.png",
+        "kind": "figure",
+        "line": 517,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/openshift_tear_down.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_tear_down.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_tear_down.png",
+        "kind": "figure",
+        "line": 600,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 23
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_catalogs/prometheus.rst",
+    "title": "Prometheus monitoring",
+    "image_count": 16,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus11.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus11.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus11.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus1.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus3.png",
+        "kind": "figure",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus2.png",
+        "kind": "figure",
+        "line": 53,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus7.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus7.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus7.png",
+        "kind": "figure",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus8.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus8.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus8.png",
+        "kind": "figure",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus9.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus9.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus9.png",
+        "kind": "figure",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus10.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus10.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus10.png",
+        "kind": "figure",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus4.png",
+        "kind": "figure",
+        "line": 113,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus5.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus5.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus5.png",
+        "kind": "figure",
+        "line": 123,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus6.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus6.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus6.png",
+        "kind": "figure",
+        "line": 134,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus12.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus12.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus12.png",
+        "kind": "figure",
+        "line": 144,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus13.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus13.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus13.png",
+        "kind": "figure",
+        "line": 157,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus14.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus14.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus14.png",
+        "kind": "figure",
+        "line": 164,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus15.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus15.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus15.png",
+        "kind": "figure",
+        "line": 174,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/prometheus16.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus16.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/prometheus16.png",
+        "kind": "figure",
+        "line": 186,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 16
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_catalogs/rds.rst",
+    "title": "Relational Database Service",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/service-catalogs/rds1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds1.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/rds3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds3.png",
+        "kind": "figure",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/service-catalogs/rds2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds2.png",
+        "kind": "figure",
+        "line": 64,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Perfectly matches section 2.1 'How to deploy a MySQL server'.",
+          "Annotated numbers 1-10 and 4a/4b correspond exactly to the step-by-step instructions for dropping the component, connecting networks, and setting properties like version, password, size, volume, backup, HA mode, and availability zone."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "document_path": "umn/source/service_catalogs/rds.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds1.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Directly illustrates section 2.3 'How to get the IP address of RDS'.",
+          "Shows the RDSMySQL component selected, the Attributes panel highlighting 'private_address', and the context menu with the 'Set output properties' toggle enabled, matching the instructions."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "document_path": "umn/source/service_catalogs/rds.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds3.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Accurately depicts section 2.4 'How to create MySQL database and user'.",
+          "Shows the MySQLDatabaseConnector component placed on Compute, connected to RDSMySQL via the 'connect_to_mysql_server' port, and the properties panel displaying name, encoding, user, and password fields as instructed."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "document_path": "umn/source/service_catalogs/rds.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds2.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/storage/elastic_volume.rst",
+    "title": "How to attach and format an Elastic Volume",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/3-storage.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/3-storage.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/3-storage.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/3-storage-properties.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/3-storage-properties.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/3-storage-properties.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/3-storage-format-disk.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/3-storage-format-disk.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/3-storage-format-disk.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/storage/elastic_volume.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/3-storage.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image clearly shows the UI for dragging the BlockStorage component onto the Compute component under the Infrastructure tab, directly matching the first step of the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/storage/elastic_volume.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/3-storage-properties.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the BlockStorage properties panel with the size explicitly set to 10 GB, which aligns perfectly with the second step in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/storage/elastic_volume.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/3-storage-format-disk.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the LinuxFileSystem properties configured with fs_type ext4 and location /mnt, along with the connection to BlockStorage, matching the formatting and mounting instructions."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/storage/obs.rst",
+    "title": "How to create an Object Storage",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/obs1.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs1.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs1.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/obs2.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs2.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs2.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/obs3.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs3.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs3.png",
+        "kind": "figure",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/obs4.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs4.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs4.png",
+        "kind": "figure",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/obs5.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs5.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs5.png",
+        "kind": "figure",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/obs6.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs6.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs6.png",
+        "kind": "figure",
+        "line": 136,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/obs7.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs7.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs7.png",
+        "kind": "figure",
+        "line": 146,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 7,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs1.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Directly illustrates the ObjectStorage component properties panel described in section 3.1.",
+          "Shows all specified fields: storage_class, bucket_policy, access_key, secret_key, versioning, and force_destroy."
+        ],
+        "missing_evidence": [
+          "None"
+        ],
+        "document_path": "umn/source/storage/obs.rst",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs2.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Clearly shows the auto_create_access_key toggle enabled, matching section 3.2 instructions.",
+          "Visual evidence aligns perfectly with the step to enable automatic access key creation."
+        ],
+        "missing_evidence": [
+          "None"
+        ],
+        "document_path": "umn/source/storage/obs.rst",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs3.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays the deployment confirmation message indicating an access key was auto-created, as stated in section 3.2.",
+          "Matches the expected result text regarding intrinsic functions get_secret."
+        ],
+        "missing_evidence": [
+          "None"
+        ],
+        "document_path": "umn/source/storage/obs.rst",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs4.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the T-Cloud Public console Access Keys page, verifying the newly created key per section 3.2.",
+          "Visuals confirm the presence of the access key in the credentials section."
+        ],
+        "missing_evidence": [
+          "None"
+        ],
+        "document_path": "umn/source/storage/obs.rst",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs5.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Illustrates the Edit object_user modal for configuring another user to upload objects, matching section 3.3.",
+          "Shows the username and domain_id input fields as described in the steps."
+        ],
+        "missing_evidence": [
+          "None"
+        ],
+        "document_path": "umn/source/storage/obs.rst",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs6.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays the Attributes panel for setting bucket_id and bucket_domain_name as output properties per section 3.4.",
+          "Directly corresponds to the configuration steps outlined in the document."
+        ],
+        "missing_evidence": [
+          "None"
+        ],
+        "document_path": "umn/source/storage/obs.rst",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs7.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the deployment output properties containing the bucket_id and bucket_domain_name, matching section 3.4 expected result.",
+          "Visual evidence confirms the successful output of the configured attributes."
+        ],
+        "missing_evidence": [
+          "None"
+        ],
+        "document_path": "umn/source/storage/obs.rst",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/swiss_otc.rst",
+    "title": "Swiss T-Cloud Public",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/swiss-otc-01.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-01.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-01.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/swiss-otc-02.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-02.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-02.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/swiss-otc-03.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-03.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-03.png",
+        "kind": "figure",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/swiss-otc-04.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-04.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-04.png",
+        "kind": "figure",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/swiss-otc-05.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-05.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-05.png",
+        "kind": "figure",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/swiss-otc-06.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-06.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-06.png",
+        "kind": "figure",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/swiss_otc.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-01.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a Compute component with 1 CPU and 1GB RAM, matching the RST description for Figure 1."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/swiss_otc.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-02.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the Compute component configured with flavor s3.medium.1 on Swiss Open Telekom Cloud, matching the RST description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/swiss_otc.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-03.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the Compute component configured with availability zone eu-ch2a, matching the RST description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/swiss_otc.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-04.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the BootVolume component with volume_type set to SSD, matching the RST description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/swiss_otc.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-05.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the NATGateway component with spec set to Small, matching the RST description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/swiss_otc.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-06.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows an error message when setting NATGateway spec to 'Micro' on Swiss T-Cloud Public, matching the RST description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/tosca_tutorials/ansible.rst",
+    "title": "How to define a service catalog using an ansible playbook",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/tosca-tutorial/tosca-apache.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-apache.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-apache.png",
+        "kind": "figure",
+        "line": 7,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/tosca-tutorial/compute_attributes.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/compute_attributes.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/compute_attributes.png",
+        "kind": "figure",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/tosca-tutorial/apache_ansible_directory.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/apache_ansible_directory.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/apache_ansible_directory.png",
+        "kind": "figure",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 3
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Screenshot contains visible interactive UI buttons that are neither magenta nor plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a UI diagram with an Apache node, matching the 'Apache example' figure in the RST.",
+          "The UI properties panel displays Apache configuration details."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/tosca_tutorials/ansible.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-apache.png",
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Screenshot contains visible interactive UI buttons that are neither magenta nor plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays a list of runtime attributes for a compute node, matching Figure 2 in the RST.",
+          "The 'Compute' node icon is visible alongside the attribute list."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/tosca_tutorials/ansible.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/compute_attributes.png",
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Screenshot contains visible interactive UI buttons that are neither magenta nor plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a directory structure containing 'playbooks/roles/geerlingguy.apache', matching Figure 3 in the RST.",
+          "The file tree includes 'apache-create.yaml' and role directories as described."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/tosca_tutorials/ansible.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/apache_ansible_directory.png",
+        "overall_score": 1.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/tosca_tutorials/custom_capability.rst",
+    "title": "How to define a custom capability",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/tosca-tutorial/database_capability.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/database_capability.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/database_capability.png",
+        "kind": "figure",
+        "line": 7,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/tosca_tutorials/define.rst",
+    "title": "How to define a service catalog",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/tosca-tutorial/tosca-helloworld.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-helloworld.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-helloworld.png",
+        "kind": "figure",
+        "line": 9,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/tosca-tutorial/1_python.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/1_python.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/1_python.png",
+        "kind": "figure",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/tosca-tutorial/tosca-package.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-package.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-package.png",
+        "kind": "figure",
+        "line": 165,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/tosca-tutorial/2_python.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/2_python.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/2_python.png",
+        "kind": "figure",
+        "line": 176,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/tosca_tutorials/define.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-helloworld.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the introductory Figure 1 for the HelloWorld example.",
+          "Visually depicts the Compute node hosting the HelloWorld Python component."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tosca_tutorials/define.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/1_python.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Corresponds to Figure 2, illustrating Python hosted on a compute node.",
+          "Shows the SoftwareComponent properties panel, including the inherited component_version property mentioned in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tosca_tutorials/define.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-package.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Aligns with Step 6 on packaging and uploading the TOSCA component.",
+          "Displays the Catalog / Manage archives interface with upload options as described."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tosca_tutorials/define.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/2_python.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the Expected result section, showing the configured HelloWorld component.",
+          "Visually confirms the presence of the hello_message property and resolvedOutput1 attribute defined in the tutorial."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/tosca_tutorials/deploy.rst",
+    "title": "How to deploy a file or a folder to a compute",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/tosca-tutorial/artifacts.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/artifacts.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/artifacts.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/tosca_tutorials/relationship.rst",
+    "title": "How to define a ConnectsTo relationship between service catalogs",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/tosca-tutorial/relationship_lifecycle.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/relationship_lifecycle.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/relationship_lifecycle.png",
+        "kind": "figure",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/tutorial_videos.rst",
+    "title": "Tutorial videos",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/features/openshift-tutorial.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/openshift-tutorial.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/openshift-tutorial.png",
+        "kind": "image",
+        "line": 10,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/features/webinar.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/webinar.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/features/webinar.png",
+        "kind": "image",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]

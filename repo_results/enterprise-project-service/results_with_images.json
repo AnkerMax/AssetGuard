@@ -1,0 +1,1008 @@
+[
+  {
+    "file_path": "api-ref/source/appendix/obtaining_a_project_id.rst",
+    "title": "Obtaining a Project ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001647330778.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001647330778.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001647330778.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/accessing_the_project_management_page.rst",
+    "title": "Accessing the Project Management Page",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001963209421.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963209421.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963209421.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/accessing_the_project_management_page.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963209421.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a dropdown menu containing the 'Enterprise Management' option, which directly matches the text instruction.",
+          "Visual evidence clearly illustrates the specific UI element and step described in the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0243252592.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252592.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252592.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0243252599.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252599.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252599.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0243252575.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252575.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252575.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001541547957.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001541547957.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001541547957.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_personnel_management/authorizing_a_user_group_to_manage_an_enterprise_project.rst",
+    "title": "Authorizing a User Group to Manage an Enterprise Project",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001964079921.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964079921.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964079921.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_personnel_management/authorizing_a_user_to_manage_an_enterprise_project.rst",
+    "title": "Authorizing a User to Manage an Enterprise Project",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001937385958.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937385958.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937385958.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_personnel_management/removing_a_user_group_from_an_enterprise_project.rst",
+    "title": "Removing a User Group from an Enterprise Project",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001964080645.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964080645.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964080645.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964301309.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964301309.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964301309.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001937383758.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937383758.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937383758.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_personnel_management/removing_users_from_an_enterprise_project.rst",
+    "title": "Removing Users from an Enterprise Project",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001964308565.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964308565.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964308565.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964314613.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964314613.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964314613.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964318045.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964318045.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964318045.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_personnel_management/viewing_enterprise_project_authorization_records.rst",
+    "title": "Viewing Enterprise Project Authorization Records",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936960228.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936960228.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936960228.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_project_management/creating_an_enterprise_project.rst",
+    "title": "Creating an Enterprise Project",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001213644769.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001213644769.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001213644769.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936655078.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936655078.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936655078.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_project_management/modifying_enabling_or_disabling_an_enterprise_project.rst",
+    "title": "Modifying, Enabling, or Disabling an Enterprise Project",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936823890.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936823890.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936823890.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963828029.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963828029.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963828029.png",
+        "kind": "figure",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963830609.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963830609.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963830609.png",
+        "kind": "figure",
+        "line": 94,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_project_management/selecting_an_enterprise_project_for_a_new_cloud_resource.rst",
+    "title": "Selecting an Enterprise Project for a New Cloud Resource",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001963832989.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963832989.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963832989.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001080662358.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001080662358.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001080662358.png",
+        "kind": "figure",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001080533890.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001080533890.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001080533890.png",
+        "kind": "substitution_image",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964330921.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964330921.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964330921.png",
+        "kind": "substitution_image",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_project_resource_management/adding_resources_to_an_enterprise_project.rst",
+    "title": "Adding Resources to an Enterprise Project",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936865004.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964490709.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964490709.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964490709.png",
+        "kind": "figure",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_project_resource_management/removing_resources_from_an_enterprise_project.rst",
+    "title": "Removing Resources from an Enterprise Project",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936865004.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936952008.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936952008.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936952008.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_project_resource_management/viewing_migration_events.rst",
+    "title": "Viewing Migration Events",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936955232.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936955232.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936955232.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_project_resource_management/viewing_resources_in_an_enterprise_project.rst",
+    "title": "Viewing Resources in an Enterprise Project",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936865004.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/how_do_i_obtain_an_enterprise_project_id.rst",
+    "title": "How Do I Obtain an Enterprise Project ID?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001937406302.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937406302.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937406302.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/what_are_the_differences_between_iam_and_enterprise_management.rst",
+    "title": "What Are the Differences Between IAM and Enterprise Management",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001088335405.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088335405.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088335405.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/what_are_the_differences_between_iam_projects_and_enterprise_projects.rst",
+    "title": "What Are the Differences Between IAM Projects and Enterprise Projects?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001088191991.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088191991.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088191991.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001088335419.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088335419.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088335419.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/multi-project_management/procedure.rst",
+    "title": "Procedure",
+    "image_count": 11,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001183142611.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001183142611.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001183142611.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936354110.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936354110.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936354110.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936407072.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936407072.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936407072.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963826009.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963826009.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963826009.png",
+        "kind": "figure",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936576762.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936576762.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936576762.png",
+        "kind": "figure",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936741978.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936741978.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936741978.png",
+        "kind": "figure",
+        "line": 105,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963867729.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963867729.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963867729.png",
+        "kind": "figure",
+        "line": 130,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936593554.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936593554.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936593554.png",
+        "kind": "figure",
+        "line": 149,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963887181.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963887181.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963887181.png",
+        "kind": "figure",
+        "line": 157,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963826005.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963826005.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963826005.png",
+        "kind": "substitution_image",
+        "line": 187,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001182942651.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001182942651.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001182942651.png",
+        "kind": "substitution_image",
+        "line": 188,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 11
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/multi-project_management/scenario.rst",
+    "title": "Scenario",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001137022630.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001137022630.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001137022630.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/recording_tms_operations_using_cts/viewing_cts_traces_in_the_trace_list.rst",
+    "title": "Viewing CTS Traces in the Trace List",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001744598325.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002359774578.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000002359774578.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000002359774578.png",
+        "kind": "substitution_image",
+        "line": 99,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001696678850.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "kind": "substitution_image",
+        "line": 100,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001744678489.jpg",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "kind": "substitution_image",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001942942816.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001942942816.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001942942816.png",
+        "kind": "substitution_image",
+        "line": 102,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001758618249.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "kind": "substitution_image",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]

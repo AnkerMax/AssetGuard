@@ -1,0 +1,1061 @@
+[
+  {
+    "file_path": "umn/source/cloud_eye_monitoring/viewing_metrics.rst",
+    "title": "Viewing Metrics",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002384432926.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002384432926.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002384432926.png",
+        "kind": "substitution_image",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001820780384.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001820780384.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001820780384.png",
+        "kind": "substitution_image",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a location pin icon, which directly corresponds to the instruction to select a region and project."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/cloud_eye_monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002384432926.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, which is a standard UI symbol for opening a service list or navigation menu as described in the procedure."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/cloud_eye_monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001820780384.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_switches/creating_an_enterprise_switch.rst",
+    "title": "Creating an Enterprise Switch",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002516958061.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168470.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
+        "kind": "substitution_image",
+        "line": 132,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555557291.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
+        "kind": "substitution_image",
+        "line": 133,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_switch/creating_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the 'Create Enterprise Switch' form, directly illustrating the parameters listed in Table 1 and the figure caption."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_switch/creating_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the location pin icon referenced in step 2 for selecting the region."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_switch/creating_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the hamburger menu icon referenced in step 3 to open the service list."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_switches/deleting_an_enterprise_switch.rst",
+    "title": "Deleting an Enterprise Switch",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002007326742.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326742.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326742.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002524317986.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317986.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317986.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_switches/deleting_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326742.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which aligns with the RST instruction to select a region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_switches/deleting_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317986.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, which aligns with the RST instruction to open the service list."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_switches/modifying_an_enterprise_switch.rst",
+    "title": "Modifying an Enterprise Switch",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168466.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168466.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168466.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555437385.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437385.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437385.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002533128107.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002533128107.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002533128107.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001261580447.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261580447.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261580447.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enterprise_switches/viewing_details_of_an_enterprise_switch.rst",
+    "title": "Viewing Details of an Enterprise Switch",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002515334080.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002515334080.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002515334080.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007326746.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326746.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326746.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555437361.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437361.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437361.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/quick_start.rst",
+    "title": "Quick Start",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001355402245.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355402245.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355402245.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/step_2_create_an_enterprise_switch.rst",
+    "title": "Step 2: Create an Enterprise Switch",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002516958061.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168470.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
+        "kind": "substitution_image",
+        "line": 132,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555557291.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
+        "kind": "substitution_image",
+        "line": 133,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/step_3_create_a_layer_2_connection.rst",
+    "title": "Step 3: Create a Layer 2 Connection",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002516237194.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516237194.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516237194.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168462.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168462.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168462.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555557853.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557853.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557853.png",
+        "kind": "substitution_image",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/step_4_configure_a_tunnel_gateway_in_your_data_center.rst",
+    "title": "Step 4: Configure a Tunnel Gateway in Your Data Center",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001325432441.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001325432441.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001325432441.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001275071870.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001275071870.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001275071870.png",
+        "kind": "figure",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/step_5_verify_network_connectivity.rst",
+    "title": "Step 5: Verify Network Connectivity",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002515685622.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002515685622.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002515685622.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/layer_2_connections/creating_a_layer_2_connection.rst",
+    "title": "Creating a Layer 2 Connection",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002516237194.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516237194.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516237194.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168462.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168462.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168462.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555557853.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557853.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557853.png",
+        "kind": "substitution_image",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/layer_2_connections/deleting_a_layer_2_connection.rst",
+    "title": "Deleting a Layer 2 Connection",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002007326734.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326734.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326734.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002524317984.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317984.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317984.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/layer_2_connections/modifying_a_layer_2_connection_name.rst",
+    "title": "Modifying a Layer 2 Connection Name",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168458.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168458.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168458.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555437887.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437887.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437887.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001261674917.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261674917.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261674917.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001261474973.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261474973.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261474973.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/layer_2_connections/viewing_details_of_a_layer_2_connection.rst",
+    "title": "Viewing Details of a Layer 2 Connection",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002516227978.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516227978.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516227978.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007326738.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326738.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326738.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002524477976.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524477976.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524477976.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/permissions_management/creating_an_iam_user_and_granting_enterprise_switch_permissions.rst",
+    "title": "Creating an IAM User and Granting Enterprise Switch Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001217250348.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001217250348.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001217250348.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/enterprise_switch_advantages.rst",
+    "title": "Enterprise Switch Advantages",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001355941949.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355941949.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355941949.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002424302708.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002424302708.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002424302708.png",
+        "kind": "figure",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/functions.rst",
+    "title": "Functions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001355818125.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355818125.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355818125.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/how_enterprise_switches_work.rst",
+    "title": "How Enterprise Switches Work",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001303019660.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001303019660.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001303019660.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/region_and_az.rst",
+    "title": "Region and AZ",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0184026531.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0184026531.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0184026531.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_an_enterprise_switch.rst",
+    "title": "What Is an Enterprise Switch?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001355818125.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355818125.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355818125.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/working_with_other_services.rst",
+    "title": "Working with Other Services",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001302704672.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001302704672.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001302704672.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]

@@ -1,0 +1,3131 @@
+[
+  {
+    "file_path": "api-ref/source/appendix/obtaining_a_project_id.rst",
+    "title": "Obtaining a Project ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0218728478.jpg",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0218728478.jpg",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0218728478.jpg",
+        "kind": "figure",
+        "line": 20,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/auditing_logs/viewing_cts_traces_in_the_trace_list.rst",
+    "title": "Viewing CTS Traces in the Trace List",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002503983905.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002503983905.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002503983905.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002504103827.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002504103827.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002504103827.png",
+        "kind": "substitution_image",
+        "line": 99,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002470943984.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002470943984.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002470943984.png",
+        "kind": "substitution_image",
+        "line": 100,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002471103956.jpg",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002471103956.jpg",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002471103956.jpg",
+        "kind": "substitution_image",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002503983907.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002503983907.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002503983907.png",
+        "kind": "substitution_image",
+        "line": 102,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002504103831.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002504103831.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002504103831.png",
+        "kind": "substitution_image",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/auditing_logs/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002503983905.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays the Trace List page with filter controls exactly as described in step 4.",
+          "Includes Query, Reset, and Export buttons; Query is magenta, satisfying the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing_logs/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002504103827.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon matches the navigation menu (hamburger) referenced in step 1.",
+          "Correctly illustrates the starting point for accessing Cloud Trace Service."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing_logs/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002470943984.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon matches the refresh symbol referenced in step 7.",
+          "Visually represents the action to view the latest trace information."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing_logs/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002471103956.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon matches the expand arrow referenced in step 8.",
+          "Clearly indicates the control to expand trace details."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing_logs/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002503983907.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the expanded trace details row as described in step 8.",
+          "Displays fields like trace_id, code, and trace_name matching the context."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing_logs/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002504103831.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the detailed JSON view of a trace as described in step 9.",
+          "Matches the 'View Trace' output mentioned in the documentation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/how_do_cloud_services_use_kms_to_encrypt_data.rst",
+    "title": "How Do Cloud Services Use KMS to Encrypt Data?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0232858228.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858228.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858228.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0232858842.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858842.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858842.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/how_do_cloud_services_use_kms_to_encrypt_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858228.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a technical flowchart illustrating the envelope encryption process.",
+          "It accurately depicts the four steps outlined in the text: creating a CMK, creating a DEK, encrypting the file, and storing the results."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/how_do_cloud_services_use_kms_to_encrypt_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858842.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a technical flowchart illustrating the envelope decryption process.",
+          "It accurately depicts the three steps outlined in the text: obtaining ciphertext, decrypting the DEK, and decrypting the file."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/how_do_i_use_the_online_tool_to_encrypt_or_decrypt_small_volumes_of_data.rst",
+    "title": "How Do I Use the Online Tool to Encrypt or Decrypt Small Volumes of Data?",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001629601212.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629601212.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629601212.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001629122164.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629122164.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629122164.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511598247.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511598247.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511598247.png",
+        "kind": "substitution_image",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511605033.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511605033.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511605033.png",
+        "kind": "substitution_image",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 1,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/how_do_i_use_the_online_tool_to_encrypt_or_decrypt_small_volumes_of_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629601212.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons are red, not magenta or plain white, and no magenta elements are present.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the encrypting data interface as described in the RST.",
+          "The 'Execute' button is red, violating the magenta/white button rule."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/faqs/how_do_i_use_the_online_tool_to_encrypt_or_decrypt_small_volumes_of_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629122164.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image correctly depicts the decrypting data interface with magenta 'Decrypt' tab and magenta 'Execute' button, matching Figure 2 in the RST."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/how_do_i_use_the_online_tool_to_encrypt_or_decrypt_small_volumes_of_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a very blurry blue icon referenced in the RST for console navigation.",
+          "Low resolution limits detail verification, but aligns with the RST's reference to a console navigation element."
+        ],
+        "missing_evidence": [
+          "Image quality is too low to confirm specific icon details."
+        ],
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/faqs/how_do_i_use_the_online_tool_to_encrypt_or_decrypt_small_volumes_of_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511598247.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Clear hamburger menu icon, consistent with RST instructions to access the left-side navigation menu."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/how_do_i_use_the_online_tool_to_encrypt_or_decrypt_small_volumes_of_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511605033.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Identical hamburger menu icon to Image 4, correctly referenced in RST for accessing Key Management Service."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/configuring_smn.rst",
+    "title": "Configuring SMN",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002172662606.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002172662606.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002172662606.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002172663278.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002172663278.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002172663278.png",
+        "kind": "figure",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002208150489.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002208150489.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002208150489.png",
+        "kind": "figure",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002208065393.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002208065393.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002208065393.png",
+        "kind": "figure",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237800345.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0237800345.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0237800345.png",
+        "kind": "substitution_image",
+        "line": 104,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/configuring_smn.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002172662606.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Basic Information' section with a notification name input field, directly matching Figure 1 in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/key_management_service/configuring_smn.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002172663278.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Operation' section with operation type selection buttons and checkboxes, matching Figure 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/key_management_service/configuring_smn.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002208150489.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'User' section with user type selection buttons, matching Figure 3."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/key_management_service/configuring_smn.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002208065393.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Topic' section with notification toggle and topic selection, matching Figure 4."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/key_management_service/configuring_smn.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0237800345.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 3,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the small icon referenced in step 2 for selecting a region or project.",
+          "The icon is low-resolution and blurry, limiting visual detail assessment."
+        ],
+        "missing_evidence": [
+          "Low resolution makes it difficult to verify specific UI details beyond a generic location pin shape."
+        ],
+        "overall_score": 0.67,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/creating_a_key.rst",
+    "title": "Creating a Key",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002278002189.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002278002189.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002278002189.png",
+        "kind": "figure",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 100,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511593267.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511593267.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511593267.png",
+        "kind": "substitution_image",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/key_management_service/creating_cmks_using_imported_key_materials/deleting_key_materials.rst",
+    "title": "Deleting Key Materials",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479477326.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479477326.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479477326.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 1,
+          "detail_match": 1,
+          "section_relevance": 1,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a blurry icon/logo, not a UI screenshot.",
+          "Does not show the management console interface or context."
+        ],
+        "missing_evidence": [
+          "UI context",
+          "Visible buttons or text"
+        ],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "document_path": "umn/source/key_management_service/creating_cmks_using_imported_key_materials/deleting_key_materials.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "overall_score": 0.43,
+        "verdict": "fail"
+      },
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 1,
+          "detail_match": 1,
+          "section_relevance": 1,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon, not a UI screenshot.",
+          "Does not show the navigation menu or KMS console."
+        ],
+        "missing_evidence": [
+          "UI context",
+          "Visible buttons or text"
+        ],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "document_path": "umn/source/key_management_service/creating_cmks_using_imported_key_materials/deleting_key_materials.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479477326.png",
+        "overall_score": 0.43,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/creating_cmks_using_imported_key_materials/importing_key_materials.rst",
+    "title": "Importing Key Materials",
+    "image_count": 11,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002277965541.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002277965541.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002277965541.png",
+        "kind": "figure",
+        "line": 114,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002141499297.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002141499297.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002141499297.png",
+        "kind": "figure",
+        "line": 137,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002277965541.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002277965541.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002277965541.png",
+        "kind": "figure",
+        "line": 275,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002243177908.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002243177908.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002243177908.png",
+        "kind": "figure",
+        "line": 295,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002243177908.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002243177908.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002243177908.png",
+        "kind": "figure",
+        "line": 351,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 396,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511514115.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511514115.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511514115.png",
+        "kind": "substitution_image",
+        "line": 397,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 398,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479477424.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479477424.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479477424.png",
+        "kind": "substitution_image",
+        "line": 399,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 400,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479637434.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479637434.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479637434.png",
+        "kind": "substitution_image",
+        "line": 401,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/key_management_service/key_alias.rst",
+    "title": "Key Alias",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511598459.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511598459.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511598459.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479645998.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479645998.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479645998.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 3,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a blurry blue circular icon, consistent with a console logo or menu button mentioned in the text.",
+          "Visual quality is low, making precise identification difficult."
+        ],
+        "missing_evidence": [
+          "Clearer resolution or contextual UI elements would improve verification."
+        ],
+        "document_path": "umn/source/key_management_service/key_alias.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "overall_score": 0.67,
+        "verdict": "partial"
+      },
+      {
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a standard hamburger menu icon (three horizontal lines), matching the instruction to click on the left side of the console.",
+          "Clearly represents the UI element described for navigation."
+        ],
+        "missing_evidence": [
+          "No context of the menu expanding is provided."
+        ],
+        "document_path": "umn/source/key_management_service/key_alias.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511598459.png",
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, aligning with the deletion section's instruction to click the menu on the left.",
+          "Visually matches the expected navigation control."
+        ],
+        "missing_evidence": [
+          "Context of the menu expanding is not shown."
+        ],
+        "document_path": "umn/source/key_management_service/key_alias.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479645998.png",
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/managing_a_grant/creating_a_grant.rst",
+    "title": "Creating a Grant",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002278357089.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002278357089.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002278357089.png",
+        "kind": "figure",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479480874.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479480874.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479480874.png",
+        "kind": "substitution_image",
+        "line": 104,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/managing_a_grant/creating_a_grant.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002278357089.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the 'Create Grant' dialog box exactly as described in step 6 of the procedure.",
+          "It shows the User/Account selection tabs, grant name input field, and the list of granted operations matching the RST table."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/key_management_service/managing_a_grant/creating_a_grant.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small, blurry icon referenced in step 2 for selecting a region or project.",
+          "It aligns with the context of a console navigation or menu icon."
+        ],
+        "missing_evidence": [
+          "The image quality is low, making it difficult to verify specific UI details."
+        ],
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/key_management_service/managing_a_grant/creating_a_grant.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479480874.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon.",
+          "It corresponds to the navigation menu referenced in step 3 to access Security and Key Management Service."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.6,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/managing_a_grant/querying_a_grant.rst",
+    "title": "Querying a Grant",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511520841.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511520841.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511520841.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/managing_a_grant/querying_a_grant.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 1,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 0,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is extremely blurry and low resolution, making specific identification difficult.",
+          "It appears to be a generic UI icon or button, which aligns with the procedural step of clicking an element to select a region or project."
+        ],
+        "missing_evidence": [
+          "Clear visual details of the icon are obscured by significant blurriness."
+        ],
+        "overall_score": 0.45,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/key_management_service/managing_a_grant/querying_a_grant.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511520841.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 1,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image clearly displays a standard hamburger menu icon (three horizontal lines).",
+          "This matches the context of the procedure step, which instructs the user to click an icon to open a navigation menu to find the Key Management Service."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.62,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/managing_a_grant/revoking_a_grant.rst",
+    "title": "Revoking a Grant",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479481472.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479481472.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479481472.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/managing_a_grant/revoking_a_grant.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Blurry blue circular icon, likely representing the region or project selector button mentioned in step 2."
+        ],
+        "missing_evidence": [
+          "Low image quality obscures specific details of the UI element."
+        ],
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/key_management_service/managing_a_grant/revoking_a_grant.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479481472.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Clear hamburger menu icon, which corresponds to the navigation menu used to access Security and Key Management Service."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/managing_cmks/canceling_the_scheduled_deletion_of_one_or_more_cmks.rst",
+    "title": "Canceling the Scheduled Deletion of One or More CMKs",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511597849.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511597849.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511597849.png",
+        "kind": "substitution_image",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon corresponds to a UI element mentioned in the procedure.",
+          "Low resolution limits detailed verification."
+        ],
+        "missing_evidence": [
+          "Clearer image required to confirm exact icon design."
+        ],
+        "document_path": "umn/source/key_management_service/managing_cmks/canceling_the_scheduled_deletion_of_one_or_more_cmks.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon matches the navigation step description.",
+          "Icon is clearly recognizable as a standard UI control."
+        ],
+        "missing_evidence": [
+          "Surrounding UI context is not visible in the isolated icon."
+        ],
+        "document_path": "umn/source/key_management_service/managing_cmks/canceling_the_scheduled_deletion_of_one_or_more_cmks.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511597849.png",
+        "overall_score": 0.67,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/managing_cmks/deleting_a_key.rst",
+    "title": "Deleting a Key",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002278274229.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002278274229.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002278274229.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479637892.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479637892.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479637892.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/key_management_service/managing_cmks/disabling_a_key.rst",
+    "title": "Disabling a Key",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511517795.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511517795.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511517795.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/managing_cmks/disabling_a_key.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Referenced in step 2 as the element to click in the upper left corner.",
+          "Image is extremely blurry and low resolution."
+        ],
+        "missing_evidence": [
+          "Low resolution obscures specific details of the icon."
+        ],
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/key_management_service/managing_cmks/disabling_a_key.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511517795.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Referenced in step 3 as the menu icon to click on the left.",
+          "Clearly shows a standard hamburger menu icon."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/managing_cmks/enabling_a_key.rst",
+    "title": "Enabling a Key",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511517555.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511517555.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511517555.png",
+        "kind": "substitution_image",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/managing_cmks/enabling_a_key.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a highly blurred blue circular icon, likely representing a region or project selector in the console UI as described in the procedure."
+        ],
+        "missing_evidence": [
+          "Image resolution is too low to clearly identify specific details or confirm the exact UI element."
+        ],
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/key_management_service/managing_cmks/enabling_a_key.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511517555.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a clear hamburger menu icon (three horizontal lines), which matches the instruction to click a navigation element on the left to access services."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/managing_cmks/viewing_a_key.rst",
+    "title": "Viewing a Key",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479637644.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479637644.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479637644.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0231665754.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0231665754.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0231665754.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/managing_cmks/viewing_a_key.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a blurry blue icon, likely representing a UI element in the console."
+        ],
+        "missing_evidence": [
+          "Image resolution is too low to clearly identify the specific icon or its exact function."
+        ],
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/key_management_service/managing_cmks/viewing_a_key.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479637644.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Clear hamburger menu icon consistent with opening a navigation panel to select services."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/key_management_service/managing_cmks/viewing_a_key.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0231665754.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Pencil icon clearly indicates an edit function, matching the instruction to change alias or description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/managing_tags/adding_a_tag.rst",
+    "title": "Adding a Tag",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001677882901.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001677882901.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001677882901.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479639400.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479639400.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479639400.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image clearly shows the 'Add Tag' dialog box referenced in step 6 of the procedure.",
+          "Input fields for 'Tag key' and 'Tag value' are visible and match the RST description.",
+          "The 'OK' button is magenta and 'Cancel' is plain white, satisfying the interactive button color rule."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/key_management_service/managing_tags/adding_a_tag.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001677882901.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a blurry blue icon referenced in step 2 for selecting a region or project.",
+          "It aligns with the context of a management console navigation element, though low resolution limits precise identification."
+        ],
+        "missing_evidence": [
+          "Clear visual details of the icon are obscured by significant blurriness."
+        ],
+        "document_path": "umn/source/key_management_service/managing_tags/adding_a_tag.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "image_kind": "icon",
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, consistent with step 3's instruction to click an element on the left to open navigation.",
+          "Matches standard UI patterns for expanding side menus in management consoles."
+        ],
+        "missing_evidence": [
+          "Icon is low resolution, limiting detailed verification of specific branding or exact shape."
+        ],
+        "document_path": "umn/source/key_management_service/managing_tags/adding_a_tag.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479639400.png",
+        "overall_score": 0.6,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/managing_tags/deleting_tags.rst",
+    "title": "Deleting Tags",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511600539.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511600539.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511600539.png",
+        "kind": "substitution_image",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/managing_tags/deleting_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small, blurry icon, likely representing a region or location selector as described in the text.",
+          "Low resolution and blurriness limit the visual evidence and detail match."
+        ],
+        "missing_evidence": [
+          "Clear UI context or surrounding interface elements are not visible due to the isolated icon crop and low quality."
+        ],
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/key_management_service/managing_tags/deleting_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511600539.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a standard hamburger menu icon, which aligns with the instruction to click an element on the left to access navigation options.",
+          "The icon is clear and directly relevant to the step of opening the service menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/managing_tags/modifying_tag_values.rst",
+    "title": "Modifying Tag Values",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479480574.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479480574.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479480574.png",
+        "kind": "substitution_image",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/managing_tags/modifying_tag_values.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon used for region/project selection.",
+          "Image is significantly blurry."
+        ],
+        "missing_evidence": [
+          "Specific details of the icon are not visible."
+        ],
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/key_management_service/managing_tags/modifying_tag_values.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479480574.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Clear hamburger menu icon.",
+          "Matches the instruction to click on the left to access the Security menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/rotating_cmks/about_key_rotation.rst",
+    "title": "About Key Rotation",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001357411985.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001357411985.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001357411985.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001357372181.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001357372181.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001357372181.png",
+        "kind": "figure",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/rotating_cmks/about_key_rotation.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001357411985.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram clearly illustrates the manual key rotation process described in the text.",
+          "It shows replacing Key A with Key B in the encryption application, matching the manual rotation method."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/key_management_service/rotating_cmks/about_key_rotation.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001357372181.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram accurately depicts automatic key rotation where key material changes but the CMK ID remains the same.",
+          "It shows the old key material backed up by KMS, aligning with the documentation note about retaining all versions."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/rotating_cmks/disabling_key_rotation.rst",
+    "title": "Disabling Key Rotation",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479640808.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479640808.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479640808.png",
+        "kind": "substitution_image",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001678672365.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001678672365.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001678672365.png",
+        "kind": "substitution_image",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/rotating_cmks/disabling_key_rotation.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a blurry blue circular graphic, consistent with a UI icon for region or project selection."
+        ],
+        "missing_evidence": [
+          "Low resolution and blurriness prevent clear identification of specific interface details or text."
+        ],
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/key_management_service/rotating_cmks/disabling_key_rotation.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479640808.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Clearly depicts a hamburger menu icon, which aligns with the instruction to click it on the left to access the navigation menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/key_management_service/rotating_cmks/disabling_key_rotation.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001678672365.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a magenta toggle switch, which matches the UI element described for enabling or disabling key rotation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_management_service/rotating_cmks/enabling_key_rotation.rst",
+    "title": "Enabling Key Rotation",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001678663053.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001678663053.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001678663053.png",
+        "kind": "figure",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002479480792.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479480792.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002479480792.png",
+        "kind": "substitution_image",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001348333869.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001348333869.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001348333869.png",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001295496116.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001295496116.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001295496116.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002078468957.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002078468957.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002078468957.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/key_management_service/using_the_online_tool_to_encrypt_and_decrypt_small-size_data.rst",
+    "title": "Using the Online Tool to Encrypt and Decrypt Small-Size Data",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001629601212.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629601212.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629601212.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001629122164.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629122164.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629122164.png",
+        "kind": "figure",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511598247.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511598247.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511598247.png",
+        "kind": "substitution_image",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001284811084.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "kind": "substitution_image",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002511605033.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511605033.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511605033.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 3,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_management_service/using_the_online_tool_to_encrypt_and_decrypt_small-size_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629601212.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons like 'Execute' (red) and 'Encrypt' (blue) are not magenta or plain white, and no magenta elements are present.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the 'Encrypting Data' section description.",
+          "Shows the online tool interface with Encrypt tab selected.",
+          "Displays input/output text boxes and action buttons as described."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/key_management_service/using_the_online_tool_to_encrypt_and_decrypt_small-size_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001629122164.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the 'Decrypting Data' section description.",
+          "Shows the online tool interface with Decrypt tab selected.",
+          "Displays ciphertext input, plaintext output, and magenta action buttons."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/key_management_service/using_the_online_tool_to_encrypt_and_decrypt_small-size_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Corresponds to the upper-left corner menu icon mentioned in the RST.",
+          "Visual is blurry but matches the context of a navigation/menu icon."
+        ],
+        "missing_evidence": [
+          "Image is too blurry to confirm exact UI element details."
+        ],
+        "overall_score": 0.67,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/key_management_service/using_the_online_tool_to_encrypt_and_decrypt_small-size_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511598247.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Corresponds to the left-side menu icon for selecting Security > Key Management Service.",
+          "Shows a standard hamburger menu icon."
+        ],
+        "missing_evidence": [
+          "Image is a generic icon, lacks specific UI context."
+        ],
+        "overall_score": 0.67,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/key_management_service/using_the_online_tool_to_encrypt_and_decrypt_small-size_data.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511605033.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Corresponds to the left-side menu icon for selecting Security > Key Management Service.",
+          "Shows a standard hamburger menu icon."
+        ],
+        "missing_evidence": [
+          "Image is a generic icon, lacks specific UI context."
+        ],
+        "overall_score": 0.67,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/permission_control/creating_a_user_and_authorizing_the_user_the_permission_to_access_dew.rst",
+    "title": "Creating a User and Authorizing the User the Permission to Access DEW",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0220982951.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0220982951.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0220982951.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/kms/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0232856156.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232856156.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232856156.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0232858228.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858228.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858228.png",
+        "kind": "figure",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0232858842.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858842.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858842.png",
+        "kind": "figure",
+        "line": 54,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/kms/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232856156.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart diagram illustrating the process of encrypting and decrypting an HTTPS certificate.",
+          "It accurately reflects the four steps described in the text for Figure 1."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/kms/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858228.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart diagram illustrating the envelope encryption process for a local file.",
+          "It matches the four steps outlined in the document for Figure 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/kms/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0232858842.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart diagram illustrating the decryption process for a local file.",
+          "It correctly depicts the three steps described in the text for Figure 3."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/kms/cloud_services_with_kms_integrated/encrypting_data_in_dds.rst",
+    "title": "Encrypting Data in DDS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002248488576.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248488576.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248488576.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/kms/cloud_services_with_kms_integrated/encrypting_data_in_dds.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248488576.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the DDS console UI showing the Disk Encryption toggle and KMS key selection.",
+          "It directly illustrates the RST description of selecting disk encryption and using a KMS key.",
+          "The interactive 'Enabled' button is magenta, satisfying the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/kms/cloud_services_with_kms_integrated/encrypting_data_in_evs.rst",
+    "title": "Encrypting Data in EVS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002283527325.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002283527325.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002283527325.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/kms/cloud_services_with_kms_integrated/encrypting_data_in_ims.rst",
+    "title": "Encrypting Data in IMS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002248488512.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248488512.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248488512.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/kms/cloud_services_with_kms_integrated/encrypting_data_in_obs.rst",
+    "title": "Encrypting Data in OBS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002248488504.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248488504.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248488504.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/kms/cloud_services_with_kms_integrated/encrypting_data_in_obs.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248488504.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the OBS upload interface, directly illustrating the document's topic.",
+          "It shows the SSE-KMS encryption option and Custom key selection, matching the RST description.",
+          "Interactive buttons are magenta and white, complying with the mandatory color rule.",
+          "No contradictions found between the visual evidence and the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/kms/cloud_services_with_kms_integrated/encrypting_data_in_rds.rst",
+    "title": "Encrypting Data in RDS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002248648336.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248648336.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248648336.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/kms/cloud_services_with_kms_integrated/encrypting_data_in_sfs.rst",
+    "title": "Encrypting Data in SFS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002248648328.png",
+        "original_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248648328.png",
+        "used_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248648328.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/kms/cloud_services_with_kms_integrated/encrypting_data_in_sfs.rst",
+        "image_path": "/home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002248648328.png",
+        "image_kind": "screenshot",
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the SFS encryption configuration UI, directly illustrating the process of enabling KMS encryption as described in the document.",
+          "Visible elements like the 'KMS encryption' checkbox, 'KMS key name' dropdown, and 'KMS key ID' field align perfectly with the textual instructions.",
+          "The screenshot provides clear visual evidence for the section on encrypting data in SFS."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

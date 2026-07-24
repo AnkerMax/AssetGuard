@@ -1,0 +1,846 @@
+[
+  {
+    "file_path": "umn/source/faqs/is_there_a_quota_limit_on_the_number_of_backups.rst",
+    "title": "Is There a Quota Limit on the Number of Backups?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0275513364.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0275513364.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0275513364.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0152727234.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152727234.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152727234.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/creating_a_vbs_backup.rst",
+    "title": "Creating a VBS Backup",
+    "image_count": 12,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0152878917.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152878917.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152878917.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0152879159.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152879159.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152879159.png",
+        "kind": "figure",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0152878946.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152878946.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152878946.png",
+        "kind": "figure",
+        "line": 126,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0152879164.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152879164.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152879164.png",
+        "kind": "figure",
+        "line": 141,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0128947790.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "kind": "substitution_image",
+        "line": 169,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148548673.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "kind": "substitution_image",
+        "line": 170,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148405304.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148405304.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148405304.png",
+        "kind": "substitution_image",
+        "line": 171,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148405236.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148405236.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148405236.png",
+        "kind": "substitution_image",
+        "line": 172,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0123883658.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0123883658.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0123883658.png",
+        "kind": "substitution_image",
+        "line": 173,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148548842.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548842.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548842.png",
+        "kind": "substitution_image",
+        "line": 174,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148405304.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148405304.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148405304.png",
+        "kind": "substitution_image",
+        "line": 175,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148405236.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148405236.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148405236.png",
+        "kind": "substitution_image",
+        "line": 176,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 10
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/operation_procedure.rst",
+    "title": "Operation Procedure",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0162814404.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0162814404.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0162814404.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/data_backup_using_a_backup_policy/associating_evs_disks_with_a_backup_policy_or_disassociating_them_from_a_backup_policy.rst",
+    "title": "Associating EVS Disks with a Backup Policy or Disassociating Them from a Backup Policy",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0152879230.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152879230.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152879230.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148548673.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0128947790.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148563132.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/data_backup_using_a_backup_policy/creating_a_backup_policy.rst",
+    "title": "Creating a Backup Policy",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0152879222.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152879222.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152879222.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148548673.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "kind": "substitution_image",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0128947790.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "kind": "substitution_image",
+        "line": 104,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0112805744.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0112805744.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0112805744.png",
+        "kind": "substitution_image",
+        "line": 105,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148568289.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148568289.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148568289.png",
+        "kind": "substitution_image",
+        "line": 106,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148568289.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148568289.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148568289.png",
+        "kind": "substitution_image",
+        "line": 107,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0112805763.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0112805763.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0112805763.png",
+        "kind": "substitution_image",
+        "line": 108,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/data_backup_using_a_backup_policy/optional_other_operations_with_backup_policies.rst",
+    "title": "(Optional) Other Operations with Backup Policies",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0152879311.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152879311.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152879311.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0112807393.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0112807393.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0112807393.png",
+        "kind": "figure",
+        "line": 54,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0112807405.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0112807405.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0112807405.png",
+        "kind": "figure",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148548673.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "kind": "substitution_image",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0128947790.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "kind": "substitution_image",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148568289.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148568289.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148568289.png",
+        "kind": "substitution_image",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/data_backup_using_a_backup_policy/searching_for_associated_evs_disks.rst",
+    "title": "Searching for Associated EVS Disks",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0148548673.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0128947790.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148563132.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148561644.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148561644.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148561644.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0142058549.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0142058549.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0142058549.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/data_restoration_using_a_vbs_backup.rst",
+    "title": "Data Restoration Using a VBS Backup",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0087010200.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0087010200.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0087010200.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148548673.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "kind": "substitution_image",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0128947790.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "kind": "substitution_image",
+        "line": 93,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148548673.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "kind": "substitution_image",
+        "line": 94,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0128947790.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "kind": "substitution_image",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/quotas.rst",
+    "title": "Quotas",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0275513364.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0275513364.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0275513364.png",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0152727234.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152727234.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0152727234.png",
+        "kind": "substitution_image",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/vbs_backup_management.rst",
+    "title": "VBS Backup Management",
+    "image_count": 11,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0075595478.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0075595478.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0075595478.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0086680618.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0086680618.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0086680618.png",
+        "kind": "figure",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148548673.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0128947790.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "kind": "substitution_image",
+        "line": 90,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148561644.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148561644.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148561644.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148562574.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148562574.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148562574.png",
+        "kind": "substitution_image",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148562574.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148562574.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148562574.png",
+        "kind": "substitution_image",
+        "line": 93,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148563132.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "kind": "substitution_image",
+        "line": 94,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148548673.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148548673.png",
+        "kind": "substitution_image",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0128947790.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0128947790.png",
+        "kind": "substitution_image",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148405304.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148405304.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148405304.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 8
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/viewing_vbs_traces.rst",
+    "title": "Viewing VBS Traces",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/region_and_az.rst",
+    "title": "Region and AZ",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0184026531.png",
+        "original_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0184026531.png",
+        "used_path": "/home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0184026531.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]

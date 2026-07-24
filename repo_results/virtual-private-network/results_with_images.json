@@ -1,0 +1,3982 @@
+[
+  {
+    "file_path": "api-ref/source/api_reference_enterprise_edition_vpn/before_you_start.rst",
+    "title": "Before You Start",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001594352997.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001594352997.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001594352997.png",
+        "kind": "figure",
+        "line": 65,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "api-ref/source/api_reference_enterprise_edition_vpn/calling_apis/response.rst",
+    "title": "Response",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001594578277.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001594578277.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001594578277.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/administrator_guide/configuring_vpn_when_fortinet_fortigate_firewall_is_used.rst",
+    "title": "Configuring VPN When Fortinet FortiGate Firewall Is Used",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001970660305.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001970660305.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001970660305.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542493866.jpg",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542493866.jpg",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542493866.jpg",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/administrator_guide/configuring_vpn_when_fortinet_fortigate_firewall_is_used.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001970660305.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a topology diagram illustrating the multi-egress setup described in the document.",
+          "It correctly shows the local data center, internet egresses, VPN gateway IP 22.22.22.22, and VPC subnet 172.16.0.0/24."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/administrator_guide/configuring_vpn_when_fortinet_fortigate_firewall_is_used.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542493866.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive button is red, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays policy details matching the CLI configuration (SHA1, AES-128, Group 5, ESP, lifecycle 3600).",
+          "Contains a red interactive button which violates the mandatory color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/s2c_classic_vpn/what_are_the_differences_between_the_application_scenarios_and_connection_modes_of_ipsec_and_ssl_vpns.rst",
+    "title": "What Are the Differences Between the Application Scenarios and Connection Modes of IPsec and SSL VPNs?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001542174462.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542174462.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542174462.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/s2c_classic_vpn/what_is_the_vpn_quota.rst",
+    "title": "What Is the VPN Quota?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001542334238.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542334238.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542334238.png",
+        "kind": "substitution_image",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001592574041.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592574041.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592574041.png",
+        "kind": "substitution_image",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/s2c_classic_vpn/creating_a_vpn.rst",
+    "title": "Creating a VPN",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001592573989.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592573989.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592573989.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542334190.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542334190.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542334190.png",
+        "kind": "figure",
+        "line": 225,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001592773969.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592773969.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592773969.png",
+        "kind": "substitution_image",
+        "line": 238,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002376415194.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002376415194.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002376415194.png",
+        "kind": "substitution_image",
+        "line": 239,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/s2c_enterprise_edition_vpn/overview.rst",
+    "title": "Overview",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001651244201.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001651244201.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001651244201.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001609202724.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001609202724.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001609202724.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001592879305.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592879305.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592879305.png",
+        "kind": "figure",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/s2c_enterprise_edition_vpn/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001651244201.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a network diagram illustrating the active-active mode VPN connection as described in the text.",
+          "It accurately depicts the on-premises data center, customer gateway, two active connections, and the VPC."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/s2c_enterprise_edition_vpn/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001609202724.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image illustrates the active/standby mode VPN networking scenario described in the text.",
+          "It correctly shows the customer gateway with two IPs, one active and one standby connection, linking to the VPN gateway and VPC."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/s2c_enterprise_edition_vpn/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592879305.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart showing the five-step operation process for setting up the VPN connection.",
+          "It directly corresponds to Table 2 and the referenced Figure 3 in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/s2c_enterprise_edition_vpn/step_1_creating_a_vpn_gateway.rst",
+    "title": "Step 1: Creating a VPN Gateway",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 83,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/s2c_enterprise_edition_vpn/step_4_configuring_the_customer_gateway_device.rst",
+    "title": "Step 4: Configuring the Customer Gateway Device",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 200,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/s2c_enterprise_edition_vpn/step_4_configuring_the_customer_gateway_device.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which directly corresponds to the instruction to click the menu icon in the upper left corner of the management console."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/s2c_enterprise_edition_vpn/step_5_verifying_network_connectivity.rst",
+    "title": "Step 5: Verifying Network Connectivity",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002410094213.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410094213.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410094213.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/monitoring/creating_a_monitoring_alarm_rule.rst",
+    "title": "Creating a Monitoring Alarm Rule",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429419085.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002429419085.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002429419085.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/monitoring/creating_a_monitoring_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which semantically matches the instruction to select a region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/monitoring/creating_a_monitoring_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002429419085.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which aligns with the step of opening a navigation menu to select Management & Deployment."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/monitoring/viewing_metrics.rst",
+    "title": "Viewing Metrics",
+    "image_count": 10,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 83,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002088746373.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002088746373.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002088746373.png",
+        "kind": "substitution_image",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002381773998.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002381773998.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002381773998.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002361571346.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002361571346.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002361571346.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 90,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002381774546.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002381774546.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002381774546.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Icon matches the action of selecting a region/project.",
+          "Clearly depicts a location pin used for region selection."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Icon matches the navigation menu action.",
+          "Hamburger menu icon is standard for opening service catalogs."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Icon represents monitoring/metrics, matching the context of viewing VPN gateway metrics.",
+          "Graph on screen aligns with metric visualization."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002088746373.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Icon matches the navigation menu action for Cloud Eye console.",
+          "Hamburger menu icon is standard."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002381773998.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Icon represents monitoring/metrics, matching the context of viewing metrics on Cloud Eye.",
+          "Graph on screen aligns with metric visualization."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002361571346.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Icon matches the navigation menu action for region/project selection.",
+          "Hamburger menu icon is standard."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002381774546.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/permissions_management/creating_a_user_and_granting_vpn_permissions.rst",
+    "title": "Creating a User and Granting VPN Permissions",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001976650417.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001976650417.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001976650417.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002410097665.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410097665.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410097665.png",
+        "kind": "substitution_image",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002410097729.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410097729.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410097729.png",
+        "kind": "substitution_image",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002410017965.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410017965.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410017965.png",
+        "kind": "substitution_image",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/quotas.rst",
+    "title": "Quotas",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002373659800.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002373659800.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002373659800.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542334238.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542334238.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542334238.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001592574041.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592574041.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592574041.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/quotas.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002373659800.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays the Service Quota page with a table of used and total quotas.",
+          "Directly corresponds to Figure 1 and step 4 describing how to view quotas."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/quotas.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542334238.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon shows a location pin, which aligns with selecting a region and project.",
+          "Matches the referenced image1 for the upper left corner control."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/quotas.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592574041.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon depicts a bar chart, consistent with the concept of viewing quotas.",
+          "Matches the referenced image2 for the My Quotas control in the upper right corner."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/s2c_classic_vpn/classic_vpn_management/creating_a_vpn.rst",
+    "title": "Creating a VPN",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001592573989.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592573989.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592573989.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542334190.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542334190.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542334190.png",
+        "kind": "figure",
+        "line": 223,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001592773969.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592773969.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592773969.png",
+        "kind": "substitution_image",
+        "line": 236,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002376415194.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002376415194.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002376415194.png",
+        "kind": "substitution_image",
+        "line": 237,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/s2c_classic_vpn/classic_vpn_management/deleting_a_vpn.rst",
+    "title": "Deleting a VPN",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001592879265.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592879265.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592879265.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002410094757.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410094757.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410094757.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/s2c_classic_vpn/classic_vpn_management/deleting_a_vpn.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592879265.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a location pin icon, which aligns with the instruction to select a region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_classic_vpn/classic_vpn_management/deleting_a_vpn.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410094757.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, consistent with the step to click it to access the Network menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/s2c_classic_vpn/classic_vpn_management/modifying_a_created_vpn.rst",
+    "title": "Modifying a Created VPN",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001835660000.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001835660000.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001835660000.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001592879209.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592879209.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592879209.png",
+        "kind": "substitution_image",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002410094757.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410094757.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410094757.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/s2c_classic_vpn/classic_vpn_management/viewing_created_vpns.rst",
+    "title": "Viewing Created VPNs",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001841947198.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001841947198.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001841947198.png",
+        "kind": "figure",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542015046.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542015046.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542015046.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002410094757.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410094757.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002410094757.png",
+        "kind": "substitution_image",
+        "line": 63,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001842101730.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001842101730.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001842101730.png",
+        "kind": "substitution_image",
+        "line": 64,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/customer_gateway_management_of_enterprise_edition_vpn/creating_a_customer_gateway.rst",
+    "title": "Creating a Customer Gateway",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001867256192.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001867256192.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001867256192.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 63,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 64,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI screenshot of the 'Create Customer Gateway' form.",
+          "It clearly shows the fields mentioned in the documentation (Name, Identifier, BGP ASN, Tags).",
+          "The 'Create Now' button is magenta, complying with the UI guidelines."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/customer_gateway_management_of_enterprise_edition_vpn/creating_a_customer_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001867256192.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small, low-resolution icon used in the procedure.",
+          "It corresponds to the region/project selector icon mentioned in step 2.",
+          "The icon is isolated and lacks surrounding UI context."
+        ],
+        "missing_evidence": [
+          "The exact UI context or label associated with the icon is not visible."
+        ],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/customer_gateway_management_of_enterprise_edition_vpn/creating_a_customer_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "overall_score": 0.67,
+        "verdict": "partial"
+      },
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small, low-resolution hamburger menu icon.",
+          "It corresponds to the menu icon mentioned in step 3 to access Network settings.",
+          "The icon is isolated and lacks surrounding UI context."
+        ],
+        "missing_evidence": [
+          "The exact UI context or menu options are not visible."
+        ],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/customer_gateway_management_of_enterprise_edition_vpn/creating_a_customer_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "overall_score": 0.67,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/customer_gateway_management_of_enterprise_edition_vpn/deleting_a_customer_gateway.rst",
+    "title": "Deleting a Customer Gateway",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/customer_gateway_management_of_enterprise_edition_vpn/modifying_a_customer_gateway.rst",
+    "title": "Modifying a Customer Gateway",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542494178.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542494178.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542494178.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/customer_gateway_management_of_enterprise_edition_vpn/viewing_a_customer_gateway.rst",
+    "title": "Viewing a Customer Gateway",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001888117061.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001888117061.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001888117061.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001841927836.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001841927836.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001841927836.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002392771165.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002392771165.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002392771165.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/configuring_health_check.rst",
+    "title": "Configuring Health Check",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/creating_vpn_connections.rst",
+    "title": "Creating VPN Connections",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001888091881.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001888091881.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001888091881.png",
+        "kind": "figure",
+        "line": 385,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 390,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 391,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/creating_vpn_connections.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001888091881.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the 'Create VPN Connection' form.",
+          "It matches the procedure described in the document for creating VPN connections.",
+          "The 'Create Now' button is magenta, complying with the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/creating_vpn_connections.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is an icon resembling a location pin.",
+          "It corresponds to the icon used in step 2 to select the region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/creating_vpn_connections.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is an icon resembling a hamburger menu.",
+          "It corresponds to the icon used in step 3 to access the main menu and choose Network."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/deleting_a_vpn_connection.rst",
+    "title": "Deleting a VPN Connection",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/deleting_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which semantically matches the instruction to select a region."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/deleting_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which corresponds to the step of opening a navigation menu to access the Network section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/modifying_a_vpn_connection.rst",
+    "title": "Modifying a VPN Connection",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001888093441.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001888093441.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001888093441.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 121,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 122,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/modifying_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001888093441.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Directly illustrates the 'Modify VPN Connection' dialog box described in the procedure.",
+          "Shows all relevant input fields including Name, IP addresses, and Customer Gateway.",
+          "Contains a magenta 'OK' button and a white 'Cancel' button, satisfying the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/modifying_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays a location pin icon.",
+          "Corresponds to the region selector icon referenced in step 2 of the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/modifying_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays a hamburger menu icon.",
+          "Corresponds to the navigation menu icon referenced in step 3 of the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_a_vpn_connection.rst",
+    "title": "Viewing a VPN Connection",
+    "image_count": 8,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001888252021.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001888252021.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001888252021.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001841932888.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001841932888.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001841932888.png",
+        "kind": "substitution_image",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002212546056.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002212546056.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002212546056.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002247558165.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002247558165.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002247558165.png",
+        "kind": "substitution_image",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002277248177.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002277248177.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002277248177.png",
+        "kind": "substitution_image",
+        "line": 61,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002392771213.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002392771213.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002392771213.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 8
+    },
+    "summary": {
+      "pass": 8,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001888252021.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the VPN Connection page with the list and details, matching the procedure.",
+          "The 'Create VPN Connection' button is magenta, complying with the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon represents the region/project selector mentioned in step 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon represents the menu button mentioned in step 3."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001841932888.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the basic information page for a VPN connection, matching the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002212546056.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon represents the dual-connection identifier mentioned in the note."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002247558165.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon represents the dual-connection identifier."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002277248177.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon represents the dual-connection identifier."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_a_vpn_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002392771213.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon represents the settings button for column configuration mentioned in the note."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_vpn_connection_logs.rst",
+    "title": "Viewing VPN Connection Logs",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_vpn_connection_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a location pin icon, which semantically aligns with the instruction to select a region."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_connection_management/viewing_vpn_connection_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, consistent with the instruction to open a menu to select Network options."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/binding_an_eip_to_a_vpn_gateway.rst",
+    "title": "Binding an EIP to a VPN Gateway",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001852883004.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001852883004.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001852883004.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001899247569.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001899247569.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001899247569.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001987358196.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001987358196.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001987358196.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002023918497.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002023918497.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002023918497.png",
+        "kind": "figure",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/binding_an_eip_to_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001852883004.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Bind EIP' dialog with 'Active EIP' selected, matching Figure 1 description.",
+          "UI elements like the magenta 'OK' button are visible and consistent with standard UI patterns."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/binding_an_eip_to_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001899247569.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Bind EIP' dialog with 'Active EIP 2' selected, matching Figure 2 description.",
+          "Consistent with the active-active mode scenario described in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/binding_an_eip_to_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001987358196.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Bind EIP' dialog with 'Active EIP' selected, matching Figure 3 description.",
+          "Illustrates the active/standby mode binding process."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/binding_an_eip_to_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002023918497.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Bind EIP' dialog with 'Standby EIP' selected, matching Figure 4 description.",
+          "Clearly depicts the standby EIP binding option."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/binding_an_eip_to_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin icon, likely representing the region selector mentioned in step 2.",
+          "Consistent with the instruction to select a region and project."
+        ],
+        "missing_evidence": [
+          "Icon is generic; specific UI context is inferred from the text."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/binding_an_eip_to_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon, likely representing the navigation menu mentioned in step 3.",
+          "Consistent with the instruction to click the icon to choose Network > Virtual Private Network."
+        ],
+        "missing_evidence": [
+          "Icon is generic; specific UI context is inferred from the text."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/changing_the_specification_of_a_vpn_gateway.rst",
+    "title": "Changing the Specification of a VPN Gateway",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/creating_a_vpn_gateway.rst",
+    "title": "Creating a VPN Gateway",
+    "image_count": 10,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001903603225.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001903603225.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001903603225.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001883323518.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001883323518.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001883323518.png",
+        "kind": "figure",
+        "line": 220,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001929162353.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001929162353.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001929162353.png",
+        "kind": "figure",
+        "line": 227,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001883151862.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001883151862.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001883151862.png",
+        "kind": "figure",
+        "line": 234,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002249347865.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002249347865.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002249347865.png",
+        "kind": "substitution_image",
+        "line": 241,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002214428194.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002214428194.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002214428194.png",
+        "kind": "substitution_image",
+        "line": 242,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002249347865.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002249347865.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002249347865.png",
+        "kind": "substitution_image",
+        "line": 243,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002214428194.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002214428194.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002214428194.png",
+        "kind": "substitution_image",
+        "line": 244,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 245,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 246,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 8
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/deleting_a_vpn_gateway.rst",
+    "title": "Deleting a VPN Gateway",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/deleting_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a location pin icon, which aligns with the instruction to select a region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/deleting_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, consistent with the instruction to click it to access the Network menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/modifying_a_vpn_gateway.rst",
+    "title": "Modifying a VPN Gateway",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001842114970.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001842114970.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001842114970.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542334214.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542334214.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542334214.png",
+        "kind": "substitution_image",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/unbinding_an_eip_from_a_vpn_gateway.rst",
+    "title": "Unbinding an EIP from a VPN Gateway",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001852886952.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001852886952.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001852886952.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/unbinding_an_eip_from_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001852886952.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The screenshot displays the 'EIPs' tab with 'Unbind' links for Active EIP and Active EIP 2, directly illustrating the procedure step for unbinding EIPs from a VPN gateway."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/unbinding_an_eip_from_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The icon matches the UI element described in step 2 for selecting the region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/unbinding_an_eip_from_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The icon matches the menu button described in step 3 for accessing the Network service."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/viewing_a_vpn_gateway.rst",
+    "title": "Viewing a VPN Gateway",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001842113950.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001842113950.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001842113950.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001841955326.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001841955326.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001841955326.png",
+        "kind": "figure",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001911324937.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001911324937.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001911324937.png",
+        "kind": "substitution_image",
+        "line": 53,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002392770557.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002392770557.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002392770557.png",
+        "kind": "substitution_image",
+        "line": 54,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image clearly displays the S2C VPN Gateways list page, directly illustrating the procedure step for viewing the gateway list."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/viewing_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001842113950.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the detailed view of a VPN gateway, matching the procedure step for viewing gateway details."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/viewing_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001841955326.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The location pin icon represents the region and project selector, consistent with the instruction to click it for selection."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/viewing_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The hamburger menu icon is standard for opening navigation menus, aligning with the instruction to access Network settings."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/viewing_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The computer screen with a graph icon depicts metrics, matching the instruction to check EIP metrics."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/viewing_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001911324937.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The settings gear icon corresponds to the instruction for configuring displayed columns."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/management/s2c_enterprise_edition_vpn/enterprise_edition_vpn_gateway_management/viewing_a_vpn_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002392770557.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/tag_management/managing_tags.rst",
+    "title": "Managing Tags",
+    "image_count": 8,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 116,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 117,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 118,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 119,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 120,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 121,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 122,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 123,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/tag_management/managing_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which semantically matches the instruction to select a region."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/tag_management/managing_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which aligns with the step to open the menu and select Network."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/tag_management/searching_for_resources_by_tag.rst",
+    "title": "Searching for Resources by Tag",
+    "image_count": 8,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 83,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/overview/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002158491797.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002158491797.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002158491797.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002123278924.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002123278924.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002123278924.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002123092558.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002123092558.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002123092558.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002123092694.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002123092694.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002123092694.png",
+        "kind": "figure",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram accurately illustrates the hybrid cloud deployment scenario described in the text.",
+          "It clearly shows the connection between the on-premises data center and the cloud VPC via IPsec VPN."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002158491797.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram correctly depicts inter-region interconnection between VPCs.",
+          "It shows two distinct cloud regions connected via IPsec VPN, matching the section description."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002123278924.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram accurately represents the enterprise branch interconnection scenario.",
+          "It shows a central cloud VPC connecting to multiple branch data centers via IPsec VPN, eliminating the need for pairwise connections."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002123092558.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram correctly illustrates the backup scenario between VPN and Direct Connect.",
+          "It shows both IPsec VPN and Cloud Connect paths active between the cloud and on-premises data center for high reliability."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002123092694.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/overview/basic_concepts/ipsec_vpn.rst",
+    "title": "IPsec VPN",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001960951864.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001960951864.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001960951864.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/overview/basic_concepts/ipsec_vpn.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001960951864.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram clearly illustrates the IPsec VPN architecture connecting a cloud VPC to an on-premises data center.",
+          "The subnet IP addresses shown in the image exactly match the example configuration described in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/overview/basic_concepts/region_and_az.rst",
+    "title": "Region and AZ",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001542015014.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542015014.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542015014.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/overview/basic_concepts/region_and_az.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001542015014.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a schematic diagram illustrating the relationship between Regions and Availability Zones (AZs).",
+          "It visually represents the concept described in the text, showing multiple AZs within a single Region.",
+          "The diagram aligns perfectly with the textual explanation of regions being independent locations containing multiple physically isolated AZs."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/overview/security/audit_and_logs.rst",
+    "title": "Audit and Logs",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001592774029.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592774029.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592774029.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/overview/security/audit_and_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001592774029.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image illustrates the audit log flow from VPN to CTS and Console, directly aligning with the section's topic.",
+          "It visually represents the event reporting and audit query steps described in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/overview/security/service_resilience.rst",
+    "title": "Service Resilience",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002402149549.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002402149549.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002402149549.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002402109921.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002402109921.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002402109921.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/overview/security/service_resilience.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002402149549.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Diagram clearly depicts the dual-AZ VPN gateway setup with two active connections as described in the text.",
+          "Visualizes the 'Scenario where services are running properly'."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/overview/security/service_resilience.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002402109921.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Diagram illustrates the failover scenario with one connection and AZ highlighted in red to indicate a fault.",
+          "Matches the textual description of traffic switching when an AZ or connection is faulty."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/overview/what_is_vpn.rst",
+    "title": "What Is VPN?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002280894042.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002280894042.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002280894042.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/troubleshooting/the_state_of_a_vpn_connection_is_not_connected.rst",
+    "title": "The State of a VPN Connection Is **Not connected**",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628070572.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000001628070572.png",
+        "kind": "substitution_image",
+        "line": 259,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002394353329.png",
+        "original_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "used_path": "/home/ubuntu/repotesting/virtual-private-network/umn/source/_static/images/en-us_image_0000002394353329.png",
+        "kind": "substitution_image",
+        "line": 260,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]

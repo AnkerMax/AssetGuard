@@ -1,0 +1,1198 @@
+[
+  {
+    "file_path": "umn/source/faqs/connection_management_development_tool/mysql/self-built_databases_on_ecss.rst",
+    "title": "Self-Built Databases on ECSs",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337431632.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337431632.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337431632.png",
+        "kind": "substitution_image",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/connection_management_development_tool/reference/modifying_ecs_security_group_rules.rst",
+    "title": "Modifying ECS Security Group Rules",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001387792145.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387792145.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387792145.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001388031793.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001388031793.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001388031793.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001337591748.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591748.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591748.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/connection_management_development_tool/reference/modifying_ecs_security_group_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387792145.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Security Groups tab on the ECS details page.",
+          "Displays the list of security group rules as instructed in step 1."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/connection_management_development_tool/reference/modifying_ecs_security_group_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001388031793.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "The 'OK' button is red, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Add Inbound Rule' dialog.",
+          "Contains configuration fields for TCP port 3306 and source IP as recommended."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/faqs/connection_management_development_tool/reference/modifying_ecs_security_group_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591748.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "The 'OK' button is red, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Add Outbound Rule' dialog.",
+          "Contains configuration fields for outbound traffic as described in step 3."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/connection_management_development_tool/reference/modifying_firewall_rules.rst",
+    "title": "Modifying Firewall Rules",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001387792089.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387792089.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387792089.png",
+        "kind": "substitution_image",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/connection_management_development_tool/reference/modifying_firewall_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387792089.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the terminal output of the `iptables -S` command referenced in the text.",
+          "It shows a specific firewall rule allowing TCP traffic on port 49537, directly illustrating the configuration check described in the section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/product_consulting/how_are_the_sql_statements_classified.rst",
+    "title": "How Are the SQL Statements Classified?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001388031477.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001388031477.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001388031477.png",
+        "kind": "figure",
+        "line": 9,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/product_consulting/how_are_the_sql_statements_classified.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001388031477.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a table classifying SQL statements into five categories, directly supporting the document's title and content."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/data_management/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001387791961.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387791961.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387791961.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/data_management/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387791961.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The flowchart accurately depicts the four procedural steps outlined in the RST document.",
+          "The sequence matches the document's instructions exactly."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/data_management/step_1_log_in_to_das.rst",
+    "title": "Step 1: Log In to DAS",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337591560.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591560.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591560.png",
+        "kind": "substitution_image",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001387911537.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387911537.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387911537.png",
+        "kind": "substitution_image",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/data_management/step_1_log_in_to_das.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591560.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which directly corresponds to the RST instruction to select a region.",
+          "The visual evidence clearly matches the described UI element for region selection."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/data_management/step_1_log_in_to_das.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387911537.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, which aligns with the RST instruction to click a menu in the upper left corner.",
+          "The visual evidence clearly matches the described UI element for accessing navigation options."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/intelligent_o&m/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001388191653.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001388191653.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001388191653.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/intelligent_o&m/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001388191653.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart illustrating the Intelligent O&M process.",
+          "It directly corresponds to the RST text steps: 'Log in to DAS' and 'Access Intelligent O&M'.",
+          "The visual content accurately reflects the section's overview of monitoring databases."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/intelligent_o&m/step_1_log_in_to_das.rst",
+    "title": "Step 1: Log In to DAS",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001387911589.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387911589.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387911589.png",
+        "kind": "substitution_image",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001337591616.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591616.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591616.png",
+        "kind": "substitution_image",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which directly corresponds to the instruction to select a region and project."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/getting_started/intelligent_o&m/step_1_log_in_to_das.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387911589.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which aligns with the instruction to access the Database section."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/getting_started/intelligent_o&m/step_1_log_in_to_das.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591616.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/gaussdb_for_opengauss_db_instance_management_development_tool/database_management/index.rst",
+    "title": "Database Management",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337271948.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337271948.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337271948.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/gaussdb_for_opengauss_db_instance_management_development_tool/homepage/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337271928.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337271928.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337271928.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/gaussdb_for_opengauss_db_instance_management_development_tool/sql_operations/sql_history.rst",
+    "title": "SQL History",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337271828.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337271828.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337271828.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/gaussdbfor_mysql_db_instance_management_development_tool/database_management/index.rst",
+    "title": "Database Management",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337271904.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337271904.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337271904.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/gaussdbfor_mysql_db_instance_management_development_tool/database_management/index.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337271904.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a direct screenshot of the Database Management page, corresponding to Figure 1 in the RST.",
+          "It visually confirms all items listed in Table 1, including the database name, connection details, and functional tabs.",
+          "The three modules (Objects, SQL Tuning, Metadata Collection) are clearly visible as navigation tabs.",
+          "Interactive controls such as 'SQL Window', 'Data Dictionary', and 'Create Table' are present and correctly styled in magenta."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/gaussdbfor_mysql_db_instance_management_development_tool/homepage/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337272024.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337272024.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337272024.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/gaussdbfor_mysql_db_instance_management_development_tool/intelligent_o&m/innodb_lock_query.rst",
+    "title": "InnoDB Lock Query",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001387791881.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387791881.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387791881.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001337271924.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337271924.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337271924.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001388191393.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001388191393.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001388191393.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/intelligent_o&m/gaussdbfor_opengauss_db_instances/function_overview.rst",
+    "title": "Function Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337431528.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337431528.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337431528.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/intelligent_o&m/gaussdbfor_opengauss_db_instances/function_overview.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337431528.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Instance Overview' page, matching the RST description.",
+          "Visible buttons like 'Synchronize Instances', 'Set Displayed Metrics', 'Sorting', 'List View', and 'Refresh' correspond to the table in the RST.",
+          "The 'Details' button is visible, matching step 2 of the procedure.",
+          "The metrics cards and synchronization information are clearly displayed."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/logging_in_to_a_database.rst",
+    "title": "Logging In to a Database",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337591416.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591416.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591416.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/logging_in_to_the_das_console.rst",
+    "title": "Logging In to the DAS Console",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337431664.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337431664.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337431664.png",
+        "kind": "substitution_image",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001337751544.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337751544.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337751544.png",
+        "kind": "substitution_image",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/logging_in_to_the_das_console.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337431664.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which aligns with the RST instruction to 'select the desired region and project'.",
+          "The icon is a standard pictogram for location or region selection, providing clear visual evidence for the step."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/logging_in_to_the_das_console.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337751544.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, corresponding to the RST instruction to click a menu to navigate to 'Database' and 'Data Admin Service'.",
+          "The icon is a widely recognized symbol for a navigation menu, directly supporting the described UI interaction."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/modifying_login_information.rst",
+    "title": "Modifying Login Information",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001387791885.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387791885.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387791885.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001337751452.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337751452.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337751452.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/modifying_login_information.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387791885.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the login list interface with the 'Modify' button highlighted, directly corresponding to step 1."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/modifying_login_information.rst",
+        "image_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337751452.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Modify Login Information' dialog with all relevant fields and the magenta 'OK' button, matching step 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/mysql_db_instance_management_development_tool/database_management/index.rst",
+    "title": "Database Management",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001387791909.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387791909.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387791909.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/mysql_db_instance_management_development_tool/homepage/overview.rst",
+    "title": "Overview",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337591424.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591424.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591424.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001337431516.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337431516.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337431516.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/mysql_db_instance_management_development_tool/import_and_export/data_export.rst",
+    "title": "Data Export",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001387911349.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387911349.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001387911349.png",
+        "kind": "substitution_image",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/mysql_db_instance_management_development_tool/sql_operations/sql_history.rst",
+    "title": "SQL History",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001337591520.png",
+        "original_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591520.png",
+        "used_path": "/home/ubuntu/repotesting/data-admin-service/umn/source/_static/images/en-us_image_0000001337591520.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]

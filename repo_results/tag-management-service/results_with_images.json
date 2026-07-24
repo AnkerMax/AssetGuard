@@ -1,0 +1,1381 @@
+[
+  {
+    "file_path": "api-ref/source/appendix/obtaining_a_project_id.rst",
+    "title": "Obtaining a Project ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001884958205.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001884958205.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001884958205.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/how_do_i_start_the_activex_plug-in_when_using_internet_explorer_9_to_import_files.rst",
+    "title": "How Do I Start the ActiveX Plug-in When Using Internet Explorer 9 to Import Files?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0141727097.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0141727097.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0141727097.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/how_do_i_start_the_activex_plug-in_when_using_internet_explorer_9_to_import_files.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0141727097.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a gear icon, which is the universal symbol for settings or options, perfectly aligning with the procedure step to click it to access Internet Options."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/adding_tags_to_cloud_resources.rst",
+    "title": "Adding Tags to Cloud Resources",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001982445689.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001982445689.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001982445689.png",
+        "kind": "substitution_image",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/adding_tags_to_cloud_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image clearly shows a hamburger menu icon, which directly matches the RST instruction to click the icon in the upper left corner of the console."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/adding_tags_to_cloud_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001982445689.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the same hamburger menu icon referenced in the second procedure for accessing the Tag Management Service."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/index.rst",
+    "title": "Getting Started",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002285916460.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002285916460.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002285916460.png",
+        "kind": "substitution_image",
+        "line": 100,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002320589057.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002320589057.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002320589057.png",
+        "kind": "substitution_image",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/index.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002285916460.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a standard hamburger menu icon, which aligns with the RST instruction to click a menu in the upper left corner.",
+          "The visual content directly matches the |image1| placeholder referenced in the 'Adding Tags on the TMS Console' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/index.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002320589057.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a standard hamburger menu icon, matching the RST instruction to click a menu in the upper left corner.",
+          "The visual content directly matches the |image2| placeholder referenced in the 'Checking Whether a Tag Takes Effect' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/permissions_management/creating_a_user_and_granting_permissions.rst",
+    "title": "Creating a User and Granting Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001700714200.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001700714200.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001700714200.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/quotas.rst",
+    "title": "Quotas",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001701522432.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001701522432.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001701522432.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0174331264.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0174331264.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0174331264.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001079874496.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001079874496.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001079874496.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0174331264.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Diagram illustrates central management of resources by editing and filtering tags, directly supporting the section text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001079874496.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Diagram illustrates the resource migration process with predefined tags, including export, import, and association steps described in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/logging_in_to_tms.rst",
+    "title": "Logging In to TMS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002473916720.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002473916720.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002473916720.png",
+        "kind": "substitution_image",
+        "line": 18,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/logging_in_to_tms.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002473916720.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which aligns with the text instruction to click it for navigation within the management console."
+        ],
+        "missing_evidence": [
+          "The image is a standalone icon without surrounding UI context, so specific console layout details are not visible."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/region_and_az.rst",
+    "title": "Region and AZ",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0184026531.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0184026531.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0184026531.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_tag_management_service.rst",
+    "title": "What Is Tag Management Service?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0174330474.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0174330474.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0174330474.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/tag_management/predefined_tags/creating_predefined_tags.rst",
+    "title": "Creating Predefined Tags",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/tag_management/predefined_tags/creating_predefined_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, which directly corresponds to the |image1| reference in the navigation instructions.",
+          "It is a standard symbolic graphic used to open the main application menu, aligning with the step to access Management & Deployment."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/tag_management/predefined_tags/deleting_predefined_tags.rst",
+    "title": "Deleting Predefined Tags",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/tag_management/predefined_tags/importing_and_exporting_predefined_tags.rst",
+    "title": "Importing and Exporting Predefined Tags",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/tag_management/predefined_tags/searching_for_predefined_tags.rst",
+    "title": "Searching for Predefined Tags",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0141727063.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0141727063.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0141727063.png",
+        "kind": "substitution_image",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/tag_management/resource_tags/adding_a_tag_to_multiple_resources.rst",
+    "title": "Adding a Tag to Multiple Resources",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/tag_management/resource_tags/adding_resource_tags.rst",
+    "title": "Adding Resource Tags",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002469652388.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002469652388.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002469652388.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001980527349.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001980527349.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001980527349.png",
+        "kind": "substitution_image",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001702823502.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001702823502.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001702823502.png",
+        "kind": "substitution_image",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001702996730.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001702996730.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001702996730.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001750583273.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001750583273.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001750583273.png",
+        "kind": "substitution_image",
+        "line": 90,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/tag_management/resource_tags/adding_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002469652388.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a standard hamburger menu icon, which aligns with the RST instruction to click it in the upper left corner to access navigation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/adding_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001980527349.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a gear/settings icon, matching the RST step to click it for configuring tag key display options."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/adding_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001702823502.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a plus sign icon, consistent with the RST instruction to click it in the tag key column to add or modify tags."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/adding_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001702996730.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a plus sign icon, which matches the RST description of the indicator shown for resources that have not been tagged."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/adding_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001750583273.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a checkmark icon, aligning with the RST step to click it to confirm and save the added tag values."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/adding_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, matching the RST instruction to click it in the upper left corner when adding tags to multiple resources."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/tag_management/resource_tags/creating_a_key.rst",
+    "title": "Creating a Key",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001615025889.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001615025889.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001615025889.png",
+        "kind": "substitution_image",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/tag_management/resource_tags/deleting_resource_tags.rst",
+    "title": "Deleting Resource Tags",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 76,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001949896556.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001949896556.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001949896556.png",
+        "kind": "substitution_image",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001980537901.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001980537901.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001980537901.png",
+        "kind": "substitution_image",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/tag_management/resource_tags/deleting_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which matches the instruction to click the menu in the upper left corner of the page."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/deleting_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001949896556.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a settings gear icon, corresponding to the step to click an icon in the search result area to adjust the key display list."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/deleting_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001980537901.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows an 'X' icon, which is a standard symbol for deletion, aligning with the instruction to click it to remove a resource tag."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/tag_management/resource_tags/modifying_resource_tags.rst",
+    "title": "Modifying Resource Tags",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001980456121.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001980456121.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001980456121.png",
+        "kind": "substitution_image",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0153920847.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0153920847.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0153920847.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0153921664.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0153921664.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0153921664.png",
+        "kind": "substitution_image",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/tag_management/resource_tags/modifying_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, which aligns with the instruction to click the menu in the upper left corner.",
+          "Standard UI symbol for navigation menus."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/modifying_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001980456121.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a gear/settings icon, matching the step to configure the key display list.",
+          "Consistent with standard UI conventions for settings or options."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/modifying_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0153920847.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image depicts a pencil icon, which universally represents editing functionality.",
+          "Directly corresponds to the instruction to click the edit button for a specific resource row."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/modifying_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0153921664.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a checkmark icon, indicating confirmation or completion.",
+          "Matches the final step to confirm the modified tag value."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/tag_management/resource_tags/searching_for_resources.rst",
+    "title": "Searching for Resources",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002502623003.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001756448773.png",
+        "original_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001756448773.png",
+        "used_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001756448773.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/tag_management/resource_tags/searching_for_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Standard hamburger menu icon representing the navigation menu.",
+          "Directly matches the RST instruction to click the icon in the upper left corner to access the Management & Deployment section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/searching_for_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001756448773.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Standard circular arrow icon representing a refresh action.",
+          "Directly matches the RST instruction to click the icon to refresh the resource list."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

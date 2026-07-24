@@ -1,0 +1,2152 @@
+[
+  {
+    "file_path": "umn/source/best_practices/how_do_i_create_a_service_mesh_with_ipv4_ipv6_dual_stack_enabled.rst",
+    "title": "How Do I Create a Service Mesh with IPv4/IPv6 Dual Stack Enabled",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001741270036.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001741270036.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001741270036.png",
+        "kind": "substitution_image",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001786644069.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001786644069.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001786644069.png",
+        "kind": "substitution_image",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/best_practices/service_governance_for_dubbo-based_applications/sdk_adaptation_mode/passthrough_solution.rst",
+    "title": "PASSTHROUGH Solution",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001181766534.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181766534.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181766534.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181766534.png",
+        "document_path": "umn/source/best_practices/service_governance_for_dubbo-based_applications/sdk_adaptation_mode/passthrough_solution.rst",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a technical flowchart diagram illustrating the SDK's internal request routing.",
+          "It directly visualizes the introduction's statement that the client accesses the service name via the Dubbo interface.",
+          "The components (SDK, Dubbo Interface, Service Name, Envoy) align semantically with the document's description of the Passthrough solution."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/best_practices/service_governance_for_dubbo-based_applications/service_discovery_model.rst",
+    "title": "Service Discovery Model",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001181759886.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181759886.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181759886.png",
+        "kind": "substitution_image",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001227360319.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001227360319.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001227360319.png",
+        "kind": "substitution_image",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/best_practices/service_governance_for_dubbo-based_applications/service_discovery_model.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181759886.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram clearly illustrates the existing Dubbo service model where a single interface directly connects to multiple instances, matching the RST text description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/best_practices/service_governance_for_dubbo-based_applications/service_discovery_model.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001227360319.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram visualizes the Dubbo Cloud Native model by showing an intermediate 'App' layer between the interface and instances, directly supporting the RST explanation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+    "title": "Upgrading Data Plane Sidecars Without Service Interruption",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001145684268.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001145684268.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001145684268.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001191764069.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191764069.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191764069.png",
+        "kind": "substitution_image",
+        "line": 90,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001191923931.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923931.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923931.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001191923929.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923929.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923929.png",
+        "kind": "substitution_image",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001493677652.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001493677652.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001493677652.png",
+        "kind": "substitution_image",
+        "line": 93,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Code snippet directly matches the RST section on configuring service pods and rolling update strategy.",
+          "Shows replicas set to 2 and strategy type as RollingUpdate, aligning perfectly with the documentation."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001145684268.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Code snippet displays readinessProbe configuration as described in the RST.",
+          "Includes httpGet, initialDelaySeconds, and periodSeconds, matching the documentation's explanation of readiness probes."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191764069.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Code snippet shows the minReadySeconds parameter set to 2, directly supporting the RST section on service ready time.",
+          "Visual evidence clearly aligns with the configuration description provided in the text."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923931.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Code snippet displays terminationGracePeriodSeconds set to 30, matching the RST explanation for graceful shutdown time.",
+          "Directly corresponds to the configuration description in the document."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923929.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Code snippet illustrates the lifecycle.preStop.exec.command configuration described in the RST.",
+          "Shows the exact nginx -s quit; sleep 10 command mentioned in the documentation for graceful shutdown."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001493677652.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/mesh_management/how_do_i_disable_sidecar_injection_for_workloads.rst",
+    "title": "How Do I Disable Sidecar Injection for Workloads?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001223579300.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001223579300.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001223579300.png",
+        "kind": "substitution_image",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002373720729.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002373720729.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002373720729.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/mesh_management/how_do_i_disable_sidecar_injection_for_workloads.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001223579300.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays a code editor showing a YAML configuration snippet.",
+          "It highlights the 'annotations' field containing 'sidecar.istio.io/inject: false', which directly corresponds to the documentation instructions for service meshes earlier than 1.13."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/mesh_management/how_do_i_disable_sidecar_injection_for_workloads.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002373720729.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays a code editor showing a YAML configuration snippet.",
+          "It highlights the 'sidecar.istio.io/inject: false' entry under the 'labels' field, which directly corresponds to the documentation instructions for service meshes 1.13 or later."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/mesh_management/how_do_i_enable_namespace_injection_for_a_cluster.rst",
+    "title": "How Do I Enable Namespace Injection for a Cluster?",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001270399104.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001270399104.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001270399104.png",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001321081541.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001321081541.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001321081541.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002241895141.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002241895141.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002241895141.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002242015001.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002242015001.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002242015001.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/mesh_management/what_can_i_do_if_a_pod_cannot_be_started_due_to_unready_sidecar.rst",
+    "title": "What Can I Do If a Pod Cannot Be Started Due to Unready Sidecar?",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002339842264.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002339842264.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002339842264.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002241895141.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002241895141.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002241895141.png",
+        "kind": "substitution_image",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002242015001.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002242015001.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002242015001.png",
+        "kind": "substitution_image",
+        "line": 99,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001416224808.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416224808.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416224808.png",
+        "kind": "substitution_image",
+        "line": 100,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001416065480.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416065480.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416065480.png",
+        "kind": "substitution_image",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002373730569.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002373730569.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002373730569.png",
+        "kind": "substitution_image",
+        "line": 102,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001416387696.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416387696.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416387696.png",
+        "kind": "substitution_image",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/configurable_grayscale_release/grayscale_release.rst",
+    "title": "Grayscale Release",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001247200741.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001247200741.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001247200741.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/configurable_grayscale_release/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001202040720.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202040720.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202040720.png",
+        "kind": "figure",
+        "line": 18,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/enabling_istio_for_a_cluster/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001255345827.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001255345827.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001255345827.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/enabling_istio_for_a_cluster/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001255345827.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart that visually represents the step-by-step process of enabling Istio for a cluster.",
+          "It directly corresponds to the 'Process Description' section in the RST document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+    "title": "Grayscale Release Practices of Bookinfo",
+    "image_count": 8,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001202041610.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202041610.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202041610.png",
+        "kind": "figure",
+        "line": 18,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001440024745.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001440024745.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001440024745.png",
+        "kind": "figure",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001389665636.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001389665636.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001389665636.png",
+        "kind": "figure",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001202053160.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202053160.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202053160.png",
+        "kind": "figure",
+        "line": 287,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001247893125.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001247893125.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001247893125.png",
+        "kind": "figure",
+        "line": 299,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001203053124.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203053124.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203053124.png",
+        "kind": "figure",
+        "line": 305,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001203333110.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203333110.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203333110.png",
+        "kind": "figure",
+        "line": 317,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001203040696.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203040696.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203040696.png",
+        "kind": "figure",
+        "line": 334,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 8
+    },
+    "summary": {
+      "pass": 8,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202041610.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a flowchart that exactly matches the grayscale release process steps described in the RST text and Figure 1 caption."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001440024745.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is an architecture diagram showing the four Bookinfo services and their dependencies, matching Figure 2 and the RST description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001389665636.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Bookinfo architecture with Envoy sidecars injected into each service, aligning with Figure 3 and the RST text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202053160.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a UI screenshot showing the traffic ratio configuration (80% v1, 20% v3), matching Figure 4 and the RST instructions for configuring a traffic policy."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001247893125.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Bookinfo page with black stars in the reviews section, matching Figure 5 (v1 page) and the RST description of v1 behavior."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203053124.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Bookinfo page with red stars in the reviews section, matching Figure 6 (v3 page) and the RST description of v3 behavior."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203333110.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays traffic monitoring graphs (RPS, Success Rate, Latency) for v1 and v3, matching Figure 7 and the RST text about monitoring traffic data."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203040696.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Bookinfo page with red stars after traffic switch, matching Figure 8 (v3 page) and the RST description of taking over all traffic."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/product_bulletin/vulnerability_notices/http_2_bomb_remote_dos_vulnerability_cve-2026-47774.rst",
+    "title": "HTTP/2 Bomb Remote DoS Vulnerability (CVE-2026-47774)",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002631470410.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002631470410.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002631470410.png",
+        "kind": "substitution_image",
+        "line": 117,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/product_bulletin/vulnerability_notices/http_2_bomb_remote_dos_vulnerability_cve-2026-47774.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002631470410.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons are gray, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the 'Upgrade Workload' UI, specifically highlighting the 'Image Tag' field.",
+          "The value '1.18.7-r8-20260611204441' shown in the image exactly matches the RST Table 4 for mesh version 1.18."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/related_services.rst",
+    "title": "Related Services",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001303344393.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001303344393.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001303344393.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/creating_a_service_mesh/creating_a_service_mesh.rst",
+    "title": "Creating a Service Mesh",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001920032153.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001920032153.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001920032153.png",
+        "kind": "substitution_image",
+        "line": 143,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001494249996.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001494249996.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001494249996.png",
+        "kind": "substitution_image",
+        "line": 144,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/creating_a_service_mesh/creating_a_service_mesh.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001920032153.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a magenta toggle switch in the ON position, directly illustrating the enabled state of the 'Restart Existing Services' option described in the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/creating_a_service_mesh/creating_a_service_mesh.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001494249996.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a gray toggle switch in the OFF position, corresponding to the disabled state of the 'Restart Existing Services' option mentioned in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/gateway_management/adding_a_gateway.rst",
+    "title": "Adding a Gateway",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001209954130.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001209954130.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001209954130.png",
+        "kind": "substitution_image",
+        "line": 109,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/grayscale_release/basic_operations_on_a_grayscale_task.rst",
+    "title": "Basic Operations on a Grayscale Task",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001209978068.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001209978068.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001209978068.png",
+        "kind": "substitution_image",
+        "line": 108,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/grayscale_release/creating_a_grayscale_release_task.rst",
+    "title": "Creating a Grayscale Release Task",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001210438852.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210438852.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210438852.png",
+        "kind": "figure",
+        "line": 93,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001210119300.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210119300.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210119300.png",
+        "kind": "figure",
+        "line": 105,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001254994843.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254994843.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254994843.png",
+        "kind": "substitution_image",
+        "line": 148,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/grayscale_release/creating_a_grayscale_release_task.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210438852.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a diagram illustrating traffic splitting for grayscale releases.",
+          "It directly corresponds to the 'Based on traffic ratio' section in the RST.",
+          "The 75% and 25% split matches the example text exactly."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/grayscale_release/creating_a_grayscale_release_task.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210119300.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a diagram illustrating request content-based traffic routing.",
+          "It matches the 'Based on request content' section describing cookie-based filtering.",
+          "The 'Cookie: User=Internal' rule aligns with the RST example."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/grayscale_release/creating_a_grayscale_release_task.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254994843.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a paper airplane icon used as a UI shortcut.",
+          "It corresponds to the |image1| reference in the 'Creating a Grayscale Release Task' section.",
+          "The icon represents the action to create a grayscale release task as described."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/grayscale_release/grayscale_release_overview.rst",
+    "title": "Grayscale Release Overview",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001254994475.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254994475.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254994475.png",
+        "kind": "figure",
+        "line": 18,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001210274518.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210274518.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210274518.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/mesh_configuration/sidecar_management.rst",
+    "title": "Sidecar Management",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001930216052.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001930216052.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001930216052.png",
+        "kind": "substitution_image",
+        "line": 131,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001256463368.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001256463368.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001256463368.png",
+        "kind": "substitution_image",
+        "line": 132,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001200574170.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001200574170.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001200574170.png",
+        "kind": "substitution_image",
+        "line": 133,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/mesh_configuration/sidecar_management.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001930216052.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a magenta toggle switch in the active state, directly corresponding to the 'Restart Existing Services' parameter being enabled as described in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/mesh_configuration/sidecar_management.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001256463368.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a gray toggle switch in the inactive state, matching the description for when 'Restart Existing Services' is disabled."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/mesh_configuration/sidecar_management.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001200574170.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a downward-pointing chevron icon, which aligns with the instruction to click this element to view workload sidecar details."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/mesh_management/service_mesh_events.rst",
+    "title": "Service Mesh Events",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001698197390.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001698197390.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001698197390.png",
+        "kind": "substitution_image",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/mesh_management/service_mesh_events.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001698197390.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a generic list/document icon, which semantically matches the action of viewing a list of events.",
+          "The icon is explicitly referenced in the procedure to access the service mesh events window."
+        ],
+        "missing_evidence": [
+          "The icon is purely symbolic and does not contain explicit text labels like 'events' or specific UI details."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/mesh_management/uninstalling_a_service_mesh.rst",
+    "title": "Uninstalling a Service Mesh",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001255111219.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001255111219.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001255111219.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/security/authenticating_jwt_requests_on_the_ingress_gateway_using_asm.rst",
+    "title": "Authenticating JWT Requests on the Ingress Gateway Using ASM",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001476967692.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001476967692.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001476967692.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001477287480.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001477287480.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001477287480.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001528087425.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001528087425.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001528087425.png",
+        "kind": "figure",
+        "line": 61,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001527927469.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001527927469.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001527927469.png",
+        "kind": "figure",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/security/authenticating_jwt_requests_on_the_ingress_gateway_using_asm.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001476967692.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the JWT tool website with the Algorithm set to RS512, matching step 1.a.",
+          "Image shows the public key in the Verify Signature area, which is required for obtaining the public key."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/security/authenticating_jwt_requests_on_the_ingress_gateway_using_asm.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001477287480.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "The 'submit' button is blue, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the JWK to PEM Convertor tool with PEM-to-JWK (RSA Only) selected.",
+          "Image shows the public key input and the submit button, matching step 1.b."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/user_guide/security/authenticating_jwt_requests_on_the_ingress_gateway_using_asm.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001528087425.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "The 'OK' button is red, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the JWT Authentication configuration form in the ASM console.",
+          "Image shows the Issuer, Audiences, and JWKS fields, matching step 2.c."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/user_guide/security/authenticating_jwt_requests_on_the_ingress_gateway_using_asm.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001527927469.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the JWT tool with Header alg set to RS512, Payload iss set to test, and aud set to ASM.",
+          "Image matches the configuration described in step 1 of Checking Whether JWT Authentication Takes Effect."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/security/configuring_a_security_policy.rst",
+    "title": "Configuring a Security Policy",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001374968509.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001374968509.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001374968509.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/security/jwt_authentication_principles.rst",
+    "title": "JWT Authentication Principles",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001477127516.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001477127516.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001477127516.png",
+        "kind": "figure",
+        "line": 18,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/service_management/fixing_items_automatically/the_service_is_configured_with_a_default-version_route_and_the_route_configuration_is_correct.rst",
+    "title": "The Service Is Configured with a Default-Version Route and the Route Configuration Is Correct",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001201436796.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001201436796.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001201436796.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001246196675.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001246196675.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001246196675.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001201276836.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001201276836.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001201276836.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/service_management/fixing_items_automatically/the_service_port_name_complies_with_the_istio_specifications.rst",
+    "title": "The Service Port Name Complies with the Istio Specifications",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001254992703.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254992703.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254992703.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/service_management/fixing_items_automatically/the_service_selector_cannot_contain_version_labels.rst",
+    "title": "The Service Selector Cannot Contain version Labels",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001254992865.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254992865.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254992865.png",
+        "kind": "substitution_image",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/service_management/fixing_items_manually/all_pods_have_sidecars_injected.rst",
+    "title": "All Pods Have Sidecars Injected",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002086005592.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002086005592.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002086005592.png",
+        "kind": "substitution_image",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001344069664.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001344069664.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001344069664.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/user_guide/traffic_management/configuring_a_traffic_policy.rst",
+    "title": "Configuring a Traffic Policy",
+    "image_count": 12,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001234454572.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234454572.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234454572.png",
+        "kind": "substitution_image",
+        "line": 193,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234773776.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234773776.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234773776.png",
+        "kind": "substitution_image",
+        "line": 194,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001278854949.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001278854949.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001278854949.png",
+        "kind": "substitution_image",
+        "line": 195,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234454572.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234454572.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234454572.png",
+        "kind": "substitution_image",
+        "line": 196,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234773776.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234773776.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234773776.png",
+        "kind": "substitution_image",
+        "line": 197,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001278854949.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001278854949.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001278854949.png",
+        "kind": "substitution_image",
+        "line": 198,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001279134173.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001279134173.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001279134173.png",
+        "kind": "substitution_image",
+        "line": 199,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234614480.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234614480.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234614480.png",
+        "kind": "substitution_image",
+        "line": 200,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234294620.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234294620.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234294620.png",
+        "kind": "substitution_image",
+        "line": 201,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001279134173.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001279134173.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001279134173.png",
+        "kind": "substitution_image",
+        "line": 202,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234614480.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234614480.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234614480.png",
+        "kind": "substitution_image",
+        "line": 203,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234294620.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234294620.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234294620.png",
+        "kind": "substitution_image",
+        "line": 204,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]

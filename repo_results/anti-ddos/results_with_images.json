@@ -1,0 +1,794 @@
+[
+  {
+    "file_path": "umn/source/introduction/accessing_and_using_anti-ddos/how_to_access_anti-ddos.rst",
+    "title": "How to Access Anti-DDoS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0237050217.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "kind": "substitution_image",
+        "line": 18,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/introduction/accessing_and_using_anti-ddos/how_to_use_anti-ddos.rst",
+    "title": "How to Use Anti-DDoS",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0258870399.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258870399.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258870399.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0258875446.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258875446.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258875446.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/introduction/accessing_and_using_anti-ddos/how_to_use_anti-ddos.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258870399.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Set Default Protection Policy' dialog, directly matching Figure 1 in the RST.",
+          "UI elements like Traffic Cleaning Threshold and CC Defense settings align with the documentation context."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/introduction/accessing_and_using_anti-ddos/how_to_use_anti-ddos.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258875446.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the 'Set Protection' dialog with 'Default' mode selected, matching Figure 2.",
+          "The highlighted tooltip explicitly shows the 300 Mbps (UDP) and 90,000 pps (TCP) thresholds mentioned in the RST note."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/introduction/accessing_and_using_anti-ddos/related_services.rst",
+    "title": "Related Services",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0237050217.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0204851462.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0204851462.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0204851462.png",
+        "kind": "substitution_image",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/introduction/accessing_and_using_anti-ddos/related_services.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which semantically matches the RST instruction to click an icon for selecting a region or project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/introduction/accessing_and_using_anti-ddos/related_services.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0204851462.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a downward-pointing chevron, which aligns with the RST description of an icon used to expand record details."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/introduction/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0204851523.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0204851523.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0204851523.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/introduction/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0204851523.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a network topology diagram that directly illustrates the Anti-DDoS deployment architecture described in the text.",
+          "It accurately depicts the data center, internet, detection center, and cleaning center, along with the labeled traffic flows (normal, abnormal, detection) that match the RST description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/operation_guide/adjusting_security_settings.rst",
+    "title": "Adjusting Security Settings",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0217719114.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217719114.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217719114.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0248191753.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0248191753.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0248191753.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237050217.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/enabling_alarm_notification.rst",
+    "title": "Enabling Alarm Notification",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0217501082.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217501082.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217501082.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237050217.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "kind": "substitution_image",
+        "line": 54,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237055345.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237055345.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237055345.png",
+        "kind": "substitution_image",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237055521.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237055521.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237055521.png",
+        "kind": "substitution_image",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237055521.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237055521.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237055521.png",
+        "kind": "substitution_image",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237055345.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237055345.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237055345.png",
+        "kind": "substitution_image",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237055345.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237055345.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237055345.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/enabling_anti-ddos.rst",
+    "title": "Enabling Anti-DDoS",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0217500718.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217500718.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217500718.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0217500934.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217500934.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217500934.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237050217.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/setting_a_default_protection_policy_for_newly_purchased_public_ip_addresses.rst",
+    "title": "Setting a Default Protection Policy for Newly Purchased Public IP Addresses",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0258795362.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258795362.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258795362.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0258829059.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258829059.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258829059.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0258575568.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258575568.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258575568.png",
+        "kind": "substitution_image",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/operation_guide/viewing_a_monitoring_report.rst",
+    "title": "Viewing a Monitoring Report",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0217719594.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217719594.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217719594.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0217782662.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217782662.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217782662.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237050217.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "kind": "substitution_image",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237052378.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237052378.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237052378.png",
+        "kind": "substitution_image",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "document_path": "umn/source/operation_guide/viewing_a_monitoring_report.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217719594.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive button \"View Monitoring Report\" is blue, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the Public IP Addresses tab with the \"View Monitoring Report\" button highlighted, directly matching step 4 of the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/operation_guide/viewing_a_monitoring_report.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217782662.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons and links are blue, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the Monitoring Report page with traffic charts and protection details, matching step 5 of the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/operation_guide/viewing_a_monitoring_report.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a blurry blue location pin icon, which corresponds to the region selector mentioned in step 2."
+        ],
+        "missing_evidence": [
+          "The icon is low resolution and blurry, making precise visual identification slightly difficult without context."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/operation_guide/viewing_a_monitoring_report.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237052378.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a download icon, matching the note in step 5 instructing users to click the icon to download the monitoring report."
+        ],
+        "missing_evidence": [
+          "The icon is low resolution and blurry, but the downward arrow clearly indicates a download function."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/operation_guide/viewing_an_interception_report.rst",
+    "title": "Viewing an Interception Report",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0217727368.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217727368.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217727368.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237050217.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "kind": "substitution_image",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0237052378.png",
+        "original_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237052378.png",
+        "used_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237052378.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/operation_guide/viewing_an_interception_report.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217727368.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot clearly shows the Statistics tab with a magenta underline.",
+          "Displays all mentioned metrics: Traffic Cleaning Frequency, Cleaned Traffic Amount, and Top 10 Attacked Public IP Addresses.",
+          "Directly illustrates the interception report figure referenced in the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/operation_guide/viewing_an_interception_report.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon depicts a location pin, consistent with region or project selection.",
+          "Matches the procedural step to select a desired region or project."
+        ],
+        "missing_evidence": [
+          "Image is blurry, limiting detailed visual confirmation, but context clarifies its purpose."
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/operation_guide/viewing_an_interception_report.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237052378.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon clearly shows a downward arrow into a tray, representing a download action.",
+          "Directly corresponds to the instruction to download monitoring reports."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

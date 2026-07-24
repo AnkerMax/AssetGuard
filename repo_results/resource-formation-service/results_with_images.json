@@ -1,0 +1,2406 @@
+[
+  {
+    "file_path": "api-ref/source/before_you_start/concepts.rst",
+    "title": "Concepts",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001893402049.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001893402049.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001893402049.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "api-ref/source/resource_formation_service/index.rst",
+    "title": "Resource Formation Service",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001893402017.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001893402017.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001893402017.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/iam_agency.rst",
+    "title": "IAM Agency",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001955571530.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001955571530.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001955571530.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002202025297.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002202025297.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002202025297.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001955571534.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001955571534.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001955571534.png",
+        "kind": "figure",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001991890873.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001991890873.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001991890873.png",
+        "kind": "figure",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001991770693.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001991770693.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001991770693.png",
+        "kind": "substitution_image",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays the IAM Agencies page with a clearly visible magenta 'Create Agency' button, directly matching step 2 of the procedure."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/iam_agency.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001955571530.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the agency creation form with fields for name, type, and validity, along with a magenta 'Next' button, aligning with step 3."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/iam_agency.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002202025297.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot illustrates the policy selection interface with a magenta 'Create Policy' link, corresponding to step 4 where permissions are granted."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/iam_agency.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001955571534.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays the authorization scope selection page with radio buttons for 'All resources' and 'Region-specific projects', matching step 5."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/iam_agency.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001991890873.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the bottom of the scope selection page with a magenta 'OK' button, directly illustrating the final action in step 6."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/iam_agency.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001991770693.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/managing_stacks/creating_a_stack.rst",
+    "title": "Creating a Stack",
+    "image_count": 24,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002160009781.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009781.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009781.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194226997.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194226997.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194226997.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194091653.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194091653.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194091653.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194180509.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194180509.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194180509.png",
+        "kind": "figure",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002120705156.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120705156.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120705156.png",
+        "kind": "figure",
+        "line": 227,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002156056533.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156056533.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156056533.png",
+        "kind": "figure",
+        "line": 238,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001991770641.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001991770641.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001991770641.png",
+        "kind": "figure",
+        "line": 247,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158816238.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158816238.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158816238.png",
+        "kind": "figure",
+        "line": 261,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158975806.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158975806.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158975806.png",
+        "kind": "figure",
+        "line": 277,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002156063229.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156063229.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156063229.png",
+        "kind": "figure",
+        "line": 292,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002120746402.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120746402.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120746402.png",
+        "kind": "figure",
+        "line": 307,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158816218.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158816218.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158816218.png",
+        "kind": "figure",
+        "line": 323,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002120743398.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120743398.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120743398.png",
+        "kind": "figure",
+        "line": 358,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002156141613.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156141613.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156141613.png",
+        "kind": "figure",
+        "line": 367,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002120901494.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120901494.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120901494.png",
+        "kind": "figure",
+        "line": 384,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002120901474.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120901474.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120901474.png",
+        "kind": "figure",
+        "line": 401,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194091645.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194091645.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194091645.png",
+        "kind": "substitution_image",
+        "line": 406,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158650788.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158650788.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158650788.png",
+        "kind": "substitution_image",
+        "line": 407,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002120901486.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120901486.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120901486.png",
+        "kind": "substitution_image",
+        "line": 408,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002120743394.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120743394.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120743394.png",
+        "kind": "substitution_image",
+        "line": 409,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002156064705.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156064705.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156064705.png",
+        "kind": "substitution_image",
+        "line": 410,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158975566.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158975566.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158975566.png",
+        "kind": "substitution_image",
+        "line": 411,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002156063237.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156063237.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156063237.png",
+        "kind": "substitution_image",
+        "line": 412,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002120743374.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120743374.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120743374.png",
+        "kind": "substitution_image",
+        "line": 413,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 24
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/creating_an_execution_plan.rst",
+    "title": "Creating an Execution Plan",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002160009821.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009821.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009821.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002159891457.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891457.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891457.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002124769894.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769894.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769894.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158976894.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158976894.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158976894.png",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002124611738.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611738.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611738.png",
+        "kind": "substitution_image",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deleting_an_execution_plan.rst",
+    "title": "Deleting an Execution Plan",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002159891445.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891445.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891445.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002124611726.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611726.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611726.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002124769902.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769902.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769902.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194183665.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194183665.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194183665.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002160009817.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009817.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009817.png",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deleting_an_execution_plan.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891445.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the RFS Dashboard page.",
+          "Matches the description in step 2 of the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deleting_an_execution_plan.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611726.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the RFS Stacks page.",
+          "Matches the description in step 3 of the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deleting_an_execution_plan.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769902.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Delete Execution Plan dialog.",
+          "Matches the description in step 5 of the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deleting_an_execution_plan.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194183665.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the hamburger menu icon.",
+          "Matches the reference |image1| in step 2 of the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deleting_an_execution_plan.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009817.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Screenshot contains interactive buttons (Deploy, Delete) that are not magenta or plain white, and no other magenta buttons or text are visible.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Execution Plans tab.",
+          "Matches the description in step 4 of the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deploying_an_execution_plan.rst",
+    "title": "Deploying an Execution Plan",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002159891453.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891453.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891453.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002124611734.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611734.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611734.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194218013.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194218013.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194218013.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002124769898.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769898.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769898.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_stacks/deleting_a_stack.rst",
+    "title": "Deleting a Stack",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002157142509.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157142509.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157142509.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121742716.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121742716.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121742716.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121667372.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121667372.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121667372.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002156909017.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156909017.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156909017.png",
+        "kind": "figure",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121663600.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121663600.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121663600.png",
+        "kind": "figure",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002166698096.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002166698096.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002166698096.png",
+        "kind": "figure",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158817102.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158817102.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158817102.png",
+        "kind": "substitution_image",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_stacks/modifying_the_basic_parameters_of_a_stack.rst",
+    "title": "Modifying the basic parameters of a Stack",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002160009777.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009777.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009777.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158978150.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158978150.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158978150.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002160693600.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160693600.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160693600.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002124769866.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769866.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769866.png",
+        "kind": "substitution_image",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_stacks/updating_the_stack_template_or_its_parameters.rst",
+    "title": "Updating the Stack Template or its Parameters",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002124769858.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769858.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769858.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002124611694.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611694.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611694.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002124769882.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769882.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769882.png",
+        "kind": "figure",
+        "line": 53,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002160009809.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009809.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009809.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158817118.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158817118.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158817118.png",
+        "kind": "substitution_image",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002159891413.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891413.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891413.png",
+        "kind": "substitution_image",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_stacks/viewing_stack_details.rst",
+    "title": "Viewing Stack Details",
+    "image_count": 12,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002121673112.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121673112.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121673112.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002156993381.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156993381.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156993381.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121519232.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121519232.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121519232.png",
+        "kind": "figure",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121681612.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121681612.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121681612.png",
+        "kind": "figure",
+        "line": 100,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158817114.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158817114.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158817114.png",
+        "kind": "substitution_image",
+        "line": 131,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002120707020.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120707020.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120707020.png",
+        "kind": "substitution_image",
+        "line": 132,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002155947169.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002155947169.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002155947169.png",
+        "kind": "substitution_image",
+        "line": 133,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002120549060.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120549060.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002120549060.png",
+        "kind": "substitution_image",
+        "line": 134,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002155947473.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002155947473.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002155947473.png",
+        "kind": "substitution_image",
+        "line": 135,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002156029369.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156029369.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002156029369.png",
+        "kind": "substitution_image",
+        "line": 136,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002155948217.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002155948217.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002155948217.png",
+        "kind": "substitution_image",
+        "line": 137,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121525200.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121525200.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121525200.png",
+        "kind": "substitution_image",
+        "line": 138,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 12
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_stacks/viewing_stacks.rst",
+    "title": "Viewing Stacks",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002124611690.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611690.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611690.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194183289.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194183289.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194183289.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002159891417.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891417.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891417.png",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/managing_stacks/viewing_stacks.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611690.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the RFS Dashboard page, which matches the RST description 'The Dashboard page is displayed.'",
+          "The sidebar shows 'Dashboard' highlighted, consistent with being on the Dashboard page.",
+          "The 'Guide to Create a Stack' section is visible, which is part of the dashboard content."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_stacks/viewing_stacks.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194183289.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon, which corresponds to the |image1| reference in the RST used to open the navigation menu.",
+          "The RST instructs to 'click |image1|' to access the menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_stacks/viewing_stacks.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891417.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Stacks' page with a list of stacks, matching the RST description 'you can see all the stacks created under the current account'.",
+          "The sidebar highlights 'Stacks', confirming the current page.",
+          "The table columns (Stack Name/ID, Status, etc.) match the expected view for managing stacks."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/managing_templates/creating_a_stack_from_a_template.rst",
+    "title": "Creating a Stack from a Template",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002157215021.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157215021.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157215021.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158983306.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158983306.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158983306.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002200348205.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002200348205.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002200348205.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158979842.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158979842.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158979842.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_templates/creating_a_template.rst",
+    "title": "Creating a Template",
+    "image_count": 9,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002121900840.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121900840.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121900840.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158823486.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823486.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823486.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158820394.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158820394.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158820394.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194187417.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194187417.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194187417.png",
+        "kind": "figure",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002157144325.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157144325.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157144325.png",
+        "kind": "figure",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158823498.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823498.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823498.png",
+        "kind": "figure",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194220973.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194220973.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194220973.png",
+        "kind": "substitution_image",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002157056257.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157056257.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157056257.png",
+        "kind": "substitution_image",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121739696.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121739696.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121739696.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 9
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_templates/deleting_a_template.rst",
+    "title": "Deleting a Template",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002157215029.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157215029.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157215029.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158823542.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823542.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823542.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158983474.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158983474.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158983474.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194191125.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194191125.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194191125.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002166704124.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002166704124.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002166704124.png",
+        "kind": "figure",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194186605.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194186605.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194186605.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157215029.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the RFS Dashboard page, which is the starting point mentioned in step 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823542.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Private Templates page as described in step 3."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158983474.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Illustrates the 'More' -> 'Delete' option for deleting a single template."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194191125.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Illustrates selecting multiple templates and the 'Delete' button for batch deletion."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002166704124.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the confirmation dialog box for deleting a template."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194186605.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the hamburger menu icon used to access the navigation menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/managing_templates/exporting_a_template.rst",
+    "title": "Exporting a Template",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002121776834.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121776834.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121776834.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194189973.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194189973.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194189973.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158823458.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823458.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823458.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158820094.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158820094.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158820094.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_templates/modifying_a_template.rst",
+    "title": "Modifying a Template",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002121754732.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121754732.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121754732.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194190061.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194190061.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194190061.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194186609.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194186609.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194186609.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121909700.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121909700.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121909700.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/managing_templates/modifying_a_template.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121754732.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the RFS Dashboard page as described in step 2.",
+          "Visible elements like 'Create Stack' and 'Create Template' match the UI context."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_templates/modifying_a_template.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194190061.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Private Templates' page with a list of templates, matching step 3.",
+          "The 'Create Template' button is magenta, adhering to the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_templates/modifying_a_template.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194186609.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the hamburger menu icon referenced in step 2.",
+          "It is the correct icon to click to access the Management & Deployment menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_templates/modifying_a_template.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121909700.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the template content editor as described in step 4.",
+          "The 'Save Template' button is visible in the upper right corner and is magenta."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/managing_templates/replicating_a_template.rst",
+    "title": "Replicating a Template",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002121934994.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121934994.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121934994.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194224409.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194224409.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194224409.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158983366.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158983366.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158983366.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002166544344.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002166544344.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002166544344.png",
+        "kind": "figure",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194220969.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194220969.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194220969.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121776826.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121776826.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121776826.png",
+        "kind": "substitution_image",
+        "line": 63,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_templates/viewing_template_details.rst",
+    "title": "Viewing Template Details",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002157147725.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157147725.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157147725.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158823546.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823546.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823546.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158983038.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158983038.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158983038.png",
+        "kind": "figure",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158979846.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158979846.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158979846.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_templates/viewing_templates.rst",
+    "title": "Viewing Templates",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002121906076.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121906076.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121906076.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002194190049.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194190049.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194190049.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158820098.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158820098.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158820098.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/permission_management/creating_a_user_and_granting_permissions.rst",
+    "title": "Creating a User and Granting Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002159668284.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159668284.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159668284.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/accessing_rfs.rst",
+    "title": "Accessing RFS",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002158978858.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158978858.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158978858.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002158819098.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158819098.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158819098.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/accessing_rfs.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158978858.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the RFS Dashboard interface.",
+          "It matches the figure caption 'RFS Dashboard' and the section topic on accessing RFS."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/accessing_rfs.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158819098.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon.",
+          "It corresponds to the `|image1|` reference in the RST document for accessing the service."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002119222466.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002119222466.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002119222466.png",
+        "kind": "substitution_image",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002119380574.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002119380574.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002119380574.png",
+        "kind": "substitution_image",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002119222466.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram accurately depicts the 'Migrating applications to the cloud' scenario described in the text.",
+          "It shows the user designing a template within RFS and subsequently creating stacks for various resources (CCE, RDS, ECS, VPC).",
+          "The visual flow aligns perfectly with the solution and advantages outlined in the section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002119380574.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram accurately depicts the 'ISV Resource Provisioning' scenario described in the text.",
+          "It illustrates the workflow where an ISV uploads a template, a client applies for the service, and the service stack is created and accessed.",
+          "The visual representation matches the standard delivery process and stack deployment capabilities mentioned in the section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/region_and_az.rst",
+    "title": "Region and AZ",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002158802688.png",
+        "original_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158802688.png",
+        "used_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158802688.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/region_and_az.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158802688.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a schematic diagram illustrating the relationship between regions and availability zones.",
+          "It visually represents the concept that a region contains multiple AZs interconnected through internal networks.",
+          "The diagram aligns perfectly with the textual description in the 'Concept' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

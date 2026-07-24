@@ -1,0 +1,2403 @@
+[
+  {
+    "file_path": "api-ref/source/before_you_start/concepts.rst",
+    "title": "Concepts",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001466731780.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001466731780.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001466731780.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/advanced_queries/creating_a_custom_query.rst",
+    "title": "Creating a Custom Query",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001924943432.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924943432.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924943432.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001924872408.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924872408.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924872408.png",
+        "kind": "figure",
+        "line": 54,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001952151661.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952151661.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952151661.png",
+        "kind": "figure",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001925032772.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925032772.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925032772.png",
+        "kind": "figure",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 230,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/advanced_queries/creating_a_custom_query.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924943432.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Create Query' button in the 'Custom Queries' tab, matching the documentation step 4."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/advanced_queries/creating_a_custom_query.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924872408.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Save Query' dialog and the 'OK' button, matching the documentation steps 6 and 7."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/advanced_queries/creating_a_custom_query.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952151661.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Default Queries' list and the 'Query' button, matching the documentation step 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/advanced_queries/creating_a_custom_query.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925032772.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Save As' dialog and the 'OK' button, matching the documentation steps 13 and 14."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/advanced_queries/creating_a_custom_query.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the hamburger menu icon referenced in the documentation step 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/advanced_queries/deleting_a_query.rst",
+    "title": "Deleting a Query",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001925034256.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925034256.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925034256.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the 'Custom Queries' tab, the 'Delete' button in the Operation column, and the confirmation dialog with the 'OK' button, matching the procedure exactly."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "document_path": "umn/source/advanced_queries/deleting_a_query.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925034256.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon matches the reference `|image1|` used in step 2 to access the management console menu."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "document_path": "umn/source/advanced_queries/deleting_a_query.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/advanced_queries/modifying_a_custom_query.rst",
+    "title": "Modifying a Custom Query",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001952313421.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952313421.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952313421.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/advanced_queries/viewing_a_query.rst",
+    "title": "Viewing a Query",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001952312665.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952312665.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952312665.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/advanced_queries/viewing_a_query.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952312665.png",
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the Advanced Queries interface with a selected query and its SQL details displayed on the right panel.",
+          "It directly corresponds to the procedure step for viewing query details."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/advanced_queries/viewing_a_query.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a three-line menu icon.",
+          "It matches the UI element referenced in step 2 of the procedure to be clicked in the upper left corner."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/appendix/supported_services_and_regions.rst",
+    "title": "Supported Services and Regions",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001792864500.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001792864500.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001792864500.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001978887360.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001978887360.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001978887360.png",
+        "kind": "substitution_image",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/resource_compliance.rst",
+    "title": "Resource Compliance",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001967928392.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001967928392.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001967928392.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002004649109.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000002004649109.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000002004649109.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/resource_compliance.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001967928392.png",
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the 'Configure Rule Parameters' section for a predefined policy.",
+          "Shows the predefined parameters 'specifiedTagKey' and 'specifiedTagValue' as described in the text.",
+          "Directly corresponds to Figure 1 in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/resource_compliance.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000002004649109.png",
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the 'Configure Rule Parameters' section for a custom policy.",
+          "Shows the interface to add custom parameters and notes the maximum of 10 parameters.",
+          "Directly corresponds to Figure 2 in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/resource_list.rst",
+    "title": "Resource List",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001952314057.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952314057.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952314057.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/resource_list.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952314057.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Resource List' page interface, matching the document title and context.",
+          "It clearly displays the 'Operation' column with the 'View Details' element, which aligns with the RST instruction to click it to go to the service page.",
+          "Magenta interactive filter buttons are visible, so the hard-fail color rule does not apply."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/resource_recorder.rst",
+    "title": "Resource Recorder",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002001635001.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000002001635001.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000002001635001.png",
+        "kind": "figure",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964993150.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001964993150.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001964993150.png",
+        "kind": "figure",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001978727588.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001978727588.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001978727588.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000002001635001.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image clearly shows the 'Advanced Queries' navigation item and the 'Query' button in the Operation column, directly matching the RST instructions for opening the Query Editor."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001964993150.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the Query Editor interface with the resource type list on the left side, which aligns with the RST description for viewing resource attributes."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001978727588.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the hamburger menu icon referenced in the RST text as the clickable element to access the service list."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/permissions_management/creating_an_iam_user_and_granting_permissions_to_access_config.rst",
+    "title": "Creating an IAM User and Granting Permissions to Access Config",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001842296713.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001842296713.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001842296713.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/resource_compliance/rules/adding_a_custom_rule.rst",
+    "title": "Adding a Custom Rule",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001925028472.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925028472.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925028472.png",
+        "kind": "figure",
+        "line": 136,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002015407113.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000002015407113.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000002015407113.png",
+        "kind": "substitution_image",
+        "line": 193,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 194,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_compliance/rules/adding_a_custom_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925028472.png",
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Basic Configurations' page for adding a custom rule, matching the RST description.",
+          "The 'Next' button is magenta, complying with the UI color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_compliance/rules/adding_a_custom_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000002015407113.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the hamburger menu icon referenced in the RST.",
+          "It correctly illustrates the step to open the service list in the FunctionGraph console."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_compliance/rules/adding_a_custom_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the hamburger menu icon referenced in the RST.",
+          "It correctly illustrates the step to open the service list in the Config console."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/resource_compliance/rules/adding_a_rule_with_a_predefined_policy.rst",
+    "title": "Adding a Rule with a Predefined Policy",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001924293592.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924293592.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924293592.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001924867752.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924867752.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924867752.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001952307129.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952307129.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952307129.png",
+        "kind": "figure",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001925027932.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925027932.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925027932.png",
+        "kind": "figure",
+        "line": 135,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 144,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/resource_compliance/rules/editing_a_rule.rst",
+    "title": "Editing a Rule",
+    "image_count": 8,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001952149449.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952149449.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952149449.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001925030152.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925030152.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925030152.png",
+        "kind": "figure",
+        "line": 61,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001924870980.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924870980.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924870980.png",
+        "kind": "figure",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001952150149.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952150149.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952150149.png",
+        "kind": "figure",
+        "line": 119,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 126,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 127,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 128,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 129,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_compliance/rules/editing_a_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952149449.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Disable Rule' confirmation dialog with a magenta 'OK' button.",
+          "Matches the 'Disabling a Rule' section steps 4 and 5."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_compliance/rules/editing_a_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925030152.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Enable Rule' confirmation dialog with a magenta 'OK' button.",
+          "Matches the 'Enabling a Rule' section steps 4 and 5."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_compliance/rules/editing_a_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924870980.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'More' dropdown menu with 'Modify' highlighted.",
+          "Matches the 'Modifying a Rule' section step 4."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_compliance/rules/editing_a_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952150149.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'More' dropdown menu with 'Delete' highlighted.",
+          "Matches the 'Deleting a Rule' section step 4."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_compliance/rules/editing_a_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the hamburger menu icon.",
+          "Matches the icon referenced in steps 2, 4, 6, and 8 to open the navigation pane."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/resource_compliance/rules/triggering_a_rule.rst",
+    "title": "Triggering a Rule",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001952149149.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952149149.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952149149.png",
+        "kind": "figure",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_compliance/rules/triggering_a_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952149149.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Evaluate Resources' dialog box described in step 5 of the procedure.",
+          "The 'OK' button is magenta, which aligns with the UI conventions and avoids hard failure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_compliance/rules/triggering_a_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the hamburger menu icon referenced in step 2.",
+          "It correctly illustrates the icon to click in the upper left corner to access the menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/resource_compliance/rules/viewing_a_rule.rst",
+    "title": "Viewing a Rule",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001924869504.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924869504.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924869504.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_compliance/rules/viewing_a_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924869504.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays the Rule Details page as described in the RST.",
+          "Shows evaluation results, rule status, and configuration details accurately.",
+          "Contains interactive buttons including magenta 'Export' and white 'Evaluate'/'Modify' buttons."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_compliance/rules/viewing_a_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon matches the hamburger menu reference in the RST procedure.",
+          "Clearly depicts the three-line menu icon used to access the management console."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/resource_compliance/viewing_noncompliant_resources.rst",
+    "title": "Viewing Noncompliant Resources",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001952310561.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952310561.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952310561.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_compliance/viewing_noncompliant_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952310561.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The screenshot clearly shows the Resource Compliance page with the Non-Compliant Resources tab selected.",
+          "It displays the list of non-compliant resources and the detailed overview of a selected resource, matching the procedure steps exactly."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_compliance/viewing_noncompliant_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which corresponds to the instruction to click the menu icon in the upper left corner."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/resource_list/viewing_resource_changes.rst",
+    "title": "Viewing Resource Changes",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001925023720.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925023720.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925023720.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_list/viewing_resource_changes.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925023720.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the Resource Timeline tab, directly matching step 4 of the procedure.",
+          "It clearly shows the time range filter and the View JSON File link as described in step 5.",
+          "The presence of magenta text ('Resource Timeline') satisfies the color rule, preventing a hard fail."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_list/viewing_resource_changes.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the hamburger menu icon referenced in step 2.",
+          "It accurately illustrates the UI element to be clicked in the upper left corner."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/resource_list/viewing_resource_compliance_data.rst",
+    "title": "Viewing Resource Compliance Data",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001925022092.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925022092.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925022092.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/resource_list/viewing_resource_relationships.rst",
+    "title": "Viewing Resource Relationships",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001925023084.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925023084.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925023084.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_list/viewing_resource_relationships.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925023084.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The screenshot shows the 'Associated Resources' tab highlighted in magenta, directly matching the RST instruction.",
+          "A tooltip is visible displaying details for an associated resource, illustrating the hover action described in the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_list/viewing_resource_relationships.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a three-line hamburger menu icon, which corresponds to the `|image1|` reference in the RST document.",
+          "This icon is used in the procedure to access the Config service from the management console."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/resource_list/viewing_resources/exporting_the_resource_list.rst",
+    "title": "Exporting the Resource List",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001924998978.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924998978.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924998978.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/resource_list/viewing_resources/filtering_resources.rst",
+    "title": "Filtering Resources",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001924839358.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924839358.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924839358.png",
+        "kind": "figure",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_list/viewing_resources/filtering_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924839358.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot of the Resource List page showing the filtering interface.",
+          "Clearly displays the filter options (Service, Region, Name, Resource ID, etc.) mentioned in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_list/viewing_resources/filtering_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon representing the hamburger menu referenced as |image1| in the procedure.",
+          "Used to access the Management & Deployment menu to reach the Config page."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/resource_list/viewing_resources/querying_all_resources.rst",
+    "title": "Querying All Resources",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001951956737.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001951956737.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001951956737.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001951957393.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001951957393.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001951957393.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001501756588.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001501756588.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001501756588.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_list/viewing_resources/querying_all_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001951956737.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the 'Resource List' page, matching the caption for Figure 1 in the document.",
+          "It shows the default state of the page with the toggle enabled and service filters visible, consistent with the procedure context."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_list/viewing_resources/querying_all_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001951957393.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Resource List' page with the toggle disabled and the 'More' button highlighted, matching Figure 2 and step 3 of the procedure.",
+          "It visually demonstrates the action of viewing all supported services as described in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_list/viewing_resources/querying_all_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001501756588.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is the hamburger menu icon referenced as `|image1|` in step 2 of the procedure.",
+          "It is the correct UI element used to access the navigation menu to select 'Config'."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/resource_list/viewing_resources/querying_details_about_a_resource.rst",
+    "title": "Querying Details About a Resource",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001951957637.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001951957637.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001951957637.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001924998378.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924998378.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924998378.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_list/viewing_resources/querying_details_about_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001951957637.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the Resource List page exactly as described in the RST.",
+          "Contains interactive 'View Details' links and magenta filter/toggle buttons."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_list/viewing_resources/querying_details_about_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924998378.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Resource Overview details page as described in the RST.",
+          "Contains interactive 'View Details' link and magenta UI elements."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_list/viewing_resources/querying_details_about_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the hamburger menu icon referenced in the procedure.",
+          "Matches the RST reference for the upper left corner icon."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/resource_recorder/configuring_the_resource_recorder.rst",
+    "title": "Configuring the Resource Recorder",
+    "image_count": 9,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001925023920.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925023920.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925023920.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001952303569.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952303569.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952303569.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001952304017.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952304017.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952304017.png",
+        "kind": "figure",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001925024776.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925024776.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925024776.png",
+        "kind": "figure",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001924866316.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924866316.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924866316.png",
+        "kind": "figure",
+        "line": 115,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001952145493.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952145493.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952145493.png",
+        "kind": "figure",
+        "line": 129,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001952305721.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952305721.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952305721.png",
+        "kind": "figure",
+        "line": 150,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001924867128.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924867128.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924867128.png",
+        "kind": "figure",
+        "line": 175,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001711484518.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "kind": "substitution_image",
+        "line": 248,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 9
+    },
+    "summary": {
+      "pass": 9,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_recorder/configuring_the_resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925023920.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Shows the confirmation dialog for enabling the resource recorder.",
+          "RST text instructs to click 'Yes', but the image shows an 'OK' button, indicating a minor label mismatch."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_recorder/configuring_the_resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952303569.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays the monitoring scope selection interface with resource checkboxes.",
+          "Matches the step for selecting the monitoring scope in the RST."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_recorder/configuring_the_resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952304017.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the OBS bucket configuration options including radio buttons and input fields.",
+          "Aligns with the step to specify an OBS bucket."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_recorder/configuring_the_resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001925024776.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays the data retention period configuration with radio buttons and a custom period input.",
+          "Matches the RST instruction to specify a data retention period."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_recorder/configuring_the_resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924866316.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the SMN topic configuration toggle and dropdown menus.",
+          "Corresponds to the optional step for configuring an SMN topic."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_recorder/configuring_the_resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952145493.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays the permission granting options with radio buttons for quick and custom granting.",
+          "Matches the step for granting permissions to the resource recorder."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_recorder/configuring_the_resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001952305721.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Modify Resource Recorder' link/button next to the toggle switch.",
+          "Aligns with the instruction to click 'Modify Resource Recorder' in the modification section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_recorder/configuring_the_resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001924867128.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays the warning dialog for disabling the resource recorder with 'Cancel' and 'OK' buttons.",
+          "Matches the step to click 'OK' in the confirmation dialog when disabling."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_recorder/configuring_the_resource_recorder.rst",
+        "image_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001711484518.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the hamburger menu icon referenced in the RST text.",
+          "Matches the instruction to click the menu icon in the upper left corner."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_config.rst",
+    "title": "What Is Config?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001524289093.png",
+        "original_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001524289093.png",
+        "used_path": "/home/ubuntu/repotesting/config/umn/source/_static/images/en-us_image_0000001524289093.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]

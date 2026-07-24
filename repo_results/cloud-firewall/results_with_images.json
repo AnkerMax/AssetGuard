@@ -1,0 +1,2500 @@
+[
+  {
+    "file_path": "api-ref/source/appendix/obtaining_a_project_id.rst",
+    "title": "Obtaining a Project ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0277985093.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0277985093.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0277985093.jpg",
+        "kind": "figure",
+        "line": 20,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/attack_defense/blocking_network_attacks.rst",
+    "title": "Blocking Network Attacks",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 94,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001969790077.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969790077.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969790077.png",
+        "kind": "substitution_image",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001969671085.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969671085.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969671085.png",
+        "kind": "substitution_image",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 3,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/attack_defense/blocking_network_attacks.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which aligns with the RST instruction to click the navigation menu to access the Cloud Firewall dashboard."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/attack_defense/blocking_network_attacks.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969790077.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a toggle switch, matching the UI element referenced in the RST for enabling Sensitive Directory Scan Defense."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/attack_defense/blocking_network_attacks.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969671085.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a toggle switch, matching the UI element referenced in the RST for enabling Reverse Shell Defense."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/attack_defense/blocking_virus-infected_files.rst",
+    "title": "Blocking Virus-infected Files",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001617930157.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001617930157.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001617930157.png",
+        "kind": "substitution_image",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/attack_defense/blocking_virus-infected_files.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, which aligns with the RST instruction to click it in the navigation pane."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/attack_defense/blocking_virus-infected_files.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001617930157.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a toggle switch, matching the RST instruction to click it to enable antivirus."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/attack_defense/ips_rule_management/customizing_ips_signatures.rst",
+    "title": "Customizing IPS Signatures",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 154,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/attack_defense/ips_rule_management/modifying_the_protection_action_of_an_intrusion_prevention_rule.rst",
+    "title": "Modifying the Protection Action of an Intrusion Prevention Rule",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/attack_defense/viewing_attack_defense_information_on_the_dashboard.rst",
+    "title": "Viewing Attack Defense Information on the Dashboard",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/checking_the_dashboard.rst",
+    "title": "Checking the Dashboard",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 121,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001986387925.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001986387925.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001986387925.png",
+        "kind": "substitution_image",
+        "line": 122,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/adding_blacklist_or_whitelist_items_to_block_or_allow_traffic.rst",
+    "title": "Adding Blacklist or Whitelist Items to Block or Allow Traffic",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+    "title": "Adding Protection Rules to Block or Allow Traffic",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001532325404.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532325404.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532325404.png",
+        "kind": "substitution_image",
+        "line": 444,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001582605405.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001582605405.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001582605405.png",
+        "kind": "substitution_image",
+        "line": 445,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001532202610.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532202610.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532202610.png",
+        "kind": "substitution_image",
+        "line": 446,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001532362570.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532362570.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532362570.png",
+        "kind": "substitution_image",
+        "line": 447,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001937115664.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001937115664.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001937115664.png",
+        "kind": "substitution_image",
+        "line": 448,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964194709.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964194709.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964194709.png",
+        "kind": "substitution_image",
+        "line": 449,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532325404.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a blue toggle switch icon in the 'on' position.",
+          "It directly corresponds to the |image1| reference illustrating the 'enabled' status in the RST table."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001582605405.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a gray toggle switch icon in the 'off' position.",
+          "It directly corresponds to the |image2| reference illustrating the 'disabled' status in the RST table."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532202610.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a blue toggle switch icon in the 'on' position.",
+          "It directly corresponds to the |image3| reference illustrating the 'enabled' status in the RST table."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532362570.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a gray toggle switch icon in the 'off' position.",
+          "It directly corresponds to the |image4| reference illustrating the 'disabled' status in the RST table."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001937115664.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a blue toggle switch icon in the 'on' position.",
+          "It directly corresponds to the |image5| reference illustrating the 'enabled' status in the RST table."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964194709.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a gray toggle switch icon in the 'off' position.",
+          "It directly corresponds to the |image6| reference illustrating the 'disabled' status in the RST table."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_1_allowing_the_inbound_traffic_from_a_specified_ip_address.rst",
+    "title": "Example 1: Allowing the Inbound Traffic from a Specified IP Address",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936832142.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936832146.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832146.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832146.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_1_allowing_the_inbound_traffic_from_a_specified_ip_address.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the UI configuration for blocking all traffic, directly corresponding to Figure 1.",
+          "Source, Destination, and Service parameters are all set to 'Any'.",
+          "The Protection Action is explicitly set to 'Block'."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_1_allowing_the_inbound_traffic_from_a_specified_ip_address.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832146.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the UI configuration for allowing traffic from a specified IP address, directly corresponding to Figure 2.",
+          "Source is set to 'IP Address' with an input field visible.",
+          "The Protection Action is explicitly set to 'Allow'."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_2_blocking_access_from_a_region.rst",
+    "title": "Example 2: Blocking Access from a Region",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001964045585.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964045585.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964045585.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_2_blocking_access_from_a_region.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964045585.png",
+        "image_kind": "screenshot",
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a firewall rule configuration interface that directly corresponds to the document's topic of blocking access from a region.",
+          "The 'Source' field explicitly shows 'Germany' selected under 'Countries and regions'.",
+          "The 'Action' is set to 'Block', which is highlighted in magenta, aligning perfectly with the document's description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/adding_a_domain_name_group.rst",
+    "title": "Adding a Domain Name Group",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 114,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 115,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/adding_a_domain_name_group.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, which directly corresponds to the |image1| reference in the documentation.",
+          "It accurately represents the UI element users are instructed to click to access the navigation pane."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/deleting_a_domain_name_group.rst",
+    "title": "Deleting a Domain Name Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/deleting_a_domain_name_group.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which aligns with the instruction to click it to access the Security menu.",
+          "It accurately represents the UI element referenced in the step."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/adjusting_the_priority_of_a_protection_rule.rst",
+    "title": "Adjusting the Priority of a Protection Rule",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/adjusting_the_priority_of_a_protection_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which directly corresponds to the navigation element referenced in the RST instructions."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/importing_and_exporting_protection_policies.rst",
+    "title": "Importing and Exporting Protection Policies",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 254,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 255,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/managing_protection_rules.rst",
+    "title": "Managing Protection Rules",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 99,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/managing_the_blacklist_and_the_whitelist.rst",
+    "title": "Managing the Blacklist and the Whitelist",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 76,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_ip_address_groups/adding_user-defined_ip_addresses_and_address_groups.rst",
+    "title": "Adding User-defined IP Addresses and Address Groups",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_ip_address_groups/deleting_ip_address_groups.rst",
+    "title": "Deleting IP Address Groups",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_ip_address_groups/viewing_a_predefined_address_group.rst",
+    "title": "Viewing a Predefined Address Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/service_group_management/adding_a_user-defined_service_group.rst",
+    "title": "Adding a User-defined Service Group",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 90,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/service_group_management/deleting_a_user-defined_service_group.rst",
+    "title": "Deleting a User-defined Service Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/service_group_management/viewing_a_predefined_service_group.rst",
+    "title": "Viewing a Predefined Service Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/viewing_protection_information_using_the_policy_assistant.rst",
+    "title": "Viewing Protection Information Using the Policy Assistant",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/creating_a_pay-per-use_cfw.rst",
+    "title": "Creating a Pay-per-Use CFW",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enabling_internet_border_traffic_protection.rst",
+    "title": "Enabling Internet Border Traffic Protection",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/configuring_an_enterprise_router.rst",
+    "title": "Configuring an Enterprise Router",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001636363317.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001636363317.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001636363317.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 208,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/creating_a_vpc_border_firewall.rst",
+    "title": "Creating a VPC Border Firewall",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/enabling_or_disabling_a_vpc_border_firewall.rst",
+    "title": "Enabling or Disabling a VPC Border Firewall",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/purchasing_an_enterprise_router.rst",
+    "title": "Purchasing an Enterprise Router",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_border_firewall_overview.rst",
+    "title": "VPC Border Firewall Overview",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001690646797.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001690646797.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001690646797.png",
+        "kind": "figure",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001525350932.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001525350932.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001525350932.png",
+        "kind": "figure",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/configuring_vpc_route.rst",
+    "title": "Configuring VPC Route",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001625319329.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001625319329.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001625319329.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/creating_a_firewall_vpc_mode.rst",
+    "title": "Creating a Firewall (VPC Mode)",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/enabling_or_disabling_a_vpc_border_firewall.rst",
+    "title": "Enabling or Disabling a VPC Border Firewall",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/managing_protected_vpcs.rst",
+    "title": "Managing Protected VPCs",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001625198857.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001625198857.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001625198857.png",
+        "kind": "substitution_image",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/about_the_product/what_are_the_priorities_of_the_protection_settings_in_cfw.rst",
+    "title": "What Are the Priorities of the Protection Settings in CFW?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001722053142.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001722053142.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001722053142.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_ips_blocks_normal_services.rst",
+    "title": "What Do I Do If IPS Blocks Normal Services?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001707369821.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001707369821.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001707369821.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_service_traffic_is_abnormal.rst",
+    "title": "What Do I Do If Service Traffic is Abnormal?",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001922057320.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922057320.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922057320.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001922291358.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922291358.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922291358.png",
+        "kind": "figure",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001950170221.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001950170221.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001950170221.png",
+        "kind": "figure",
+        "line": 104,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001922451014.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922451014.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922451014.png",
+        "kind": "figure",
+        "line": 115,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001922291366.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922291366.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922291366.png",
+        "kind": "figure",
+        "line": 162,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001950170229.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001950170229.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001950170229.png",
+        "kind": "figure",
+        "line": 170,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/troubleshooting/why_does_a_protection_rule_not_take_effect.rst",
+    "title": "Why Does a Protection Rule Not Take Effect?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936832142.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/system_management/alarm_notification.rst",
+    "title": "Alarm Notification",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 136,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001443711605.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443711605.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443711605.png",
+        "kind": "substitution_image",
+        "line": 137,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 138,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001443792005.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443792005.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443792005.png",
+        "kind": "substitution_image",
+        "line": 139,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 140,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001673130380.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001673130380.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001673130380.png",
+        "kind": "substitution_image",
+        "line": 141,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/system_management/configuring_a_dns_server.rst",
+    "title": "Configuring a DNS Server",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/system_management/security_report_management/creating_a_security_report.rst",
+    "title": "Creating a Security Report",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/system_management/security_report_management/managing_security_reports.rst",
+    "title": "Managing Security Reports",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001790475961.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001790475961.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001790475961.png",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001743556254.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001743556254.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001743556254.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/system_management/security_report_management/viewing_downloading_a_security_report.rst",
+    "title": "Viewing/Downloading a Security Report",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/using_cloud_eye_to_monitor_cfw/configuring_alarm_monitoring_rules.rst",
+    "title": "Configuring Alarm Monitoring Rules",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001293893596.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001293893596.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001293893596.png",
+        "kind": "substitution_image",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/viewing_cfw_protection_logs/log_management/changing_the_log_storage_duration.rst",
+    "title": "Changing the Log Storage Duration",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/viewing_cfw_protection_logs/log_management/configuring_logs.rst",
+    "title": "Configuring Logs",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001349643997.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001349643997.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001349643997.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/viewing_cfw_protection_logs/querying_logs.rst",
+    "title": "Querying Logs",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 185,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 186,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 187,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001889194328.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001889194328.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001889194328.png",
+        "kind": "substitution_image",
+        "line": 188,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/viewing_traffic_statistics/viewing_inbound_traffic.rst",
+    "title": "Viewing Inbound Traffic",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 64,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/viewing_traffic_statistics/viewing_inter-vpc_traffic.rst",
+    "title": "Viewing Inter-VPC Traffic",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/viewing_traffic_statistics/viewing_outbound_traffic.rst",
+    "title": "Viewing Outbound Traffic",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]

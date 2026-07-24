@@ -1,0 +1,4403 @@
+[
+  {
+    "file_path": "umn/source/alarm_management/alarm_action_rules/creating_a_message_template.rst",
+    "title": "Creating a Message Template",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001411990512.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411990512.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411990512.png",
+        "kind": "substitution_image",
+        "line": 123,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_action_rules/creating_an_alarm_action_rule.rst",
+    "title": "Creating an Alarm Action Rule",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001462367929.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462367929.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462367929.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001410807236.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410807236.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410807236.png",
+        "kind": "substitution_image",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_grouping_rule.rst",
+    "title": "Creating a Grouping Rule",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001404765705.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001404765705.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001404765705.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001412095554.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412095554.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412095554.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001261759895.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001261759895.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001261759895.png",
+        "kind": "substitution_image",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_grouping_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001404765705.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Flowchart illustrating the alarm grouping process described in the text.",
+          "Shows filtering by severity, combining by source, and triggering an action rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_grouping_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412095554.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons are not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "UI screenshot for creating a grouping rule matches the text description.",
+          "Fails mandatory color rule for interactive buttons."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_grouping_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001261759895.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Magnifying glass icon used for searching, as described in Table 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_silence_rule.rst",
+    "title": "Creating a Silence Rule",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001472254649.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001472254649.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001472254649.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001261759905.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001261759905.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001261759905.png",
+        "kind": "substitution_image",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_silence_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001472254649.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the 'Creating a Silence Rule' UI form.",
+          "It clearly displays the parameters described in the text, such as Rule Name, Silence Condition, and Silence Time.",
+          "The 'Fixed time' button is magenta, satisfying the interactive button color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_silence_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001261759905.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a magnifying glass icon.",
+          "It corresponds to the search icon referenced in Table 2 for searching silence rules."
+        ],
+        "missing_evidence": [
+          "The image is an isolated icon and does not show the surrounding search box or UI context."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_suppression_rule.rst",
+    "title": "Creating a Suppression Rule",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001461819281.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461819281.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461819281.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001261639913.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001261639913.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001261639913.png",
+        "kind": "substitution_image",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_noise_reduction/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001353985836.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001353985836.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001353985836.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_rules/creating_a_static_threshold_template.rst",
+    "title": "Creating a Static Threshold Template",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001410881540.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410881540.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410881540.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893524.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893524.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893524.png",
+        "kind": "substitution_image",
+        "line": 64,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+    "title": "Creating a Threshold Rule",
+    "image_count": 14,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001462529481.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462529481.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462529481.png",
+        "kind": "figure",
+        "line": 94,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411933048.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411933048.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411933048.png",
+        "kind": "figure",
+        "line": 111,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001413081586.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001413081586.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001413081586.png",
+        "kind": "figure",
+        "line": 121,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001582213732.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001582213732.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001582213732.png",
+        "kind": "figure",
+        "line": 131,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001412105490.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412105490.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412105490.png",
+        "kind": "figure",
+        "line": 159,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001412589150.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412589150.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412589150.png",
+        "kind": "figure",
+        "line": 194,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001413081586.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001413081586.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001413081586.png",
+        "kind": "figure",
+        "line": 204,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001582213732.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001582213732.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001582213732.png",
+        "kind": "figure",
+        "line": 214,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461193229.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461193229.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461193229.png",
+        "kind": "substitution_image",
+        "line": 253,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001213679034.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001213679034.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001213679034.png",
+        "kind": "substitution_image",
+        "line": 254,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001216318386.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001216318386.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001216318386.png",
+        "kind": "substitution_image",
+        "line": 255,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001238513507.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001238513507.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001238513507.png",
+        "kind": "substitution_image",
+        "line": 256,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001238513507.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001238513507.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001238513507.png",
+        "kind": "substitution_image",
+        "line": 257,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893650.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893650.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893650.png",
+        "kind": "substitution_image",
+        "line": 258,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 11
+    },
+    "summary": {
+      "pass": 11,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462529481.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 1 in the documentation.",
+          "Shows the 'Custom' tab and alarm condition parameters as described in the text."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411933048.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 2 in the documentation.",
+          "Illustrates the 'Direct Alarm Reporting' mode selection with action rule and notification toggles."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001413081586.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 3 in the documentation.",
+          "Illustrates the 'Alarm Noise Reduction' mode selection with grouping rule."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001582213732.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 4 in the documentation.",
+          "Shows the created threshold rule in the list with operation buttons and expanded resource details."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412105490.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 5 in the documentation.",
+          "Shows the 'Template' tab and pre-filled trigger conditions for template-based rule creation."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412589150.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 6 in the documentation.",
+          "Illustrates the 'Direct Alarm Reporting' mode selection for the template method."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461193229.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches |image1| reference in the text.",
+          "Depicts the toggle switch representing the 'Apply to All' option."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001213679034.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches |image2| reference in the text.",
+          "Depicts the help icon next to the search box for Prometheus commands."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001216318386.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches |image3| reference in the text.",
+          "Depicts the operation icon in the metric monitoring table to switch to threshold rule creation."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001238513507.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches |image4| and |image5| references in the text.",
+          "Depicts the expand/collapse icon for monitoring the same metric of multiple resources."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893650.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches |image6| reference in the text.",
+          "Depicts the search icon in the upper right corner for searching threshold rules."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
+    "title": "Creating an Event Alarm Rule",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001461323461.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461323461.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461323461.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001410883828.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410883828.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410883828.png",
+        "kind": "figure",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001462893469.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462893469.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462893469.png",
+        "kind": "figure",
+        "line": 64,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001413081586.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001413081586.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001413081586.png",
+        "kind": "figure",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001462896701.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462896701.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462896701.png",
+        "kind": "figure",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001233445193.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001233445193.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001233445193.png",
+        "kind": "substitution_image",
+        "line": 111,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461323461.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the 'Setting basic information' step in the procedure.",
+          "Clearly shows the 'Rule Name' and 'Description' input fields as described."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410883828.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the 'Setting an alarm rule' step.",
+          "Shows 'Rule Type' set to 'Event alarm' (magenta), along with 'Alarm Source', 'Select Object', and 'Triggering Policy' sections."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462893469.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the 'Selecting the direct alarm reporting mode' step.",
+          "Clearly shows 'Direct Alarm Reporting' selected in magenta, with 'Action Rule' configuration visible."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001413081586.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the 'Selecting the alarm noise reduction mode' step.",
+          "Clearly shows 'Alarm Noise Reduction' selected in magenta, with 'Grouping Rule' configuration visible."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462896701.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive controls (dropdowns, links) are blue, not magenta or plain white, and no other magenta elements are present.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the final created event alarm rule list view.",
+          "Shows the 'AOM_services' rule with status 'Enabled' and 'Started', along with operation links."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001233445193.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the search icon referenced in Table 2 for searching event alarm rules.",
+          "Clearly depicts a magnifying glass symbol used for search functionality."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/alarm_management/viewing_alarms.rst",
+    "title": "Viewing Alarms",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001242972085.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001242972085.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001242972085.png",
+        "kind": "substitution_image",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001163490512.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163490512.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163490512.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a magnifying glass icon.",
+          "This symbol corresponds to the 'view' or 'search' action described in the RST for filtering and viewing alarms."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/alarm_management/viewing_alarms.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001242972085.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a trash can icon.",
+          "This symbol aligns with the 'Clearing alarms' operation in the RST document."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/alarm_management/viewing_alarms.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163490512.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/alarm_management/viewing_events.rst",
+    "title": "Viewing Events",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001242972215.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001242972215.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001242972215.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/auditing/querying_real-time_traces.rst",
+    "title": "Querying Real-Time Traces",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001744598325.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001696838310.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001696838310.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001696838310.png",
+        "kind": "substitution_image",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001696678850.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "kind": "substitution_image",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001744678489.jpg",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001696838318.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001696838318.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001696838318.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001758618249.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuration_management/data_subscription.rst",
+    "title": "Data Subscription",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001208742219.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001208742219.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001208742219.png",
+        "kind": "substitution_image",
+        "line": 236,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001163348542.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163348542.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163348542.png",
+        "kind": "substitution_image",
+        "line": 237,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuration_management/log_configuration/configuring_delimiters.rst",
+    "title": "Configuring Delimiters",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001461515245.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461515245.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461515245.png",
+        "kind": "figure",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893660.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893660.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893660.png",
+        "kind": "substitution_image",
+        "line": 128,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893576.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893576.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893576.png",
+        "kind": "substitution_image",
+        "line": 129,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893576.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893576.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893576.png",
+        "kind": "substitution_image",
+        "line": 130,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuration_management/log_configuration/setting_log_collection.rst",
+    "title": "Setting Log Collection",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001462420845.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462420845.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462420845.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuration_management/log_configuration/setting_log_collection.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462420845.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive toggle switch is blue, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the Log Collection toggle switch as described in the documentation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuration_management/log_configuration/setting_the_log_quota.rst",
+    "title": "Setting the Log Quota",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001464256522.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001464256522.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001464256522.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuration_management/metric_configuration.rst",
+    "title": "Metric Configuration",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001461635045.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461635045.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461635045.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuration_management/metric_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461635045.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the 'Metric Collection' toggle switch, directly corresponding to the document's section.",
+          "The toggle switch is magenta, adhering to the UI color rule for interactive elements.",
+          "The descriptive text below the toggle matches the document's explanation of the feature."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuration_management/quota_configuration.rst",
+    "title": "Quota Configuration",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001461515217.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461515217.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461515217.png",
+        "kind": "figure",
+        "line": 9,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuration_management/quota_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461515217.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a UI element titled 'Metric' detailing the 'Metric Storage Quota' as 7 days.",
+          "The text explains that metrics older than the retention period will be deleted, which directly corresponds to the RST statement about earlier metrics being deleted when the quota is exceeded."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/connecting_resources_to_aom/configuring_application_discovery_rules.rst",
+    "title": "Configuring Application Discovery Rules",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0227418464.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0227418464.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0227418464.png",
+        "kind": "substitution_image",
+        "line": 201,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/connecting_resources_to_aom/configuring_vm_log_collection_paths.rst",
+    "title": "Configuring VM Log Collection Paths",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001410647264.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410647264.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410647264.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001410327528.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410327528.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410327528.png",
+        "kind": "figure",
+        "line": 53,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001412205042.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412205042.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412205042.png",
+        "kind": "figure",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893495.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893495.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893495.png",
+        "kind": "substitution_image",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893495.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893495.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893495.png",
+        "kind": "substitution_image",
+        "line": 99,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893507.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893507.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893507.png",
+        "kind": "substitution_image",
+        "line": 100,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 3
+    },
+    "results": [
+      {
+        "document_path": "umn/source/connecting_resources_to_aom/configuring_vm_log_collection_paths.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410647264.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons/icons are gray, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the UI for automatically identified log paths.",
+          "Matches the RST description for configuring paths using the ICAgent."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/connecting_resources_to_aom/configuring_vm_log_collection_paths.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410327528.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons/icons are gray, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the UI for manually configuring log collection paths.",
+          "Matches the RST description for entering paths manually."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/connecting_resources_to_aom/configuring_vm_log_collection_paths.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412205042.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons/icons are gray, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the batch configuration interface for log collection paths.",
+          "Matches the RST description for configuring paths for multiple VMs."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/connecting_resources_to_aom/configuring_vm_log_collection_paths.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893495.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon matches the RST reference |image1| and |image2| used for adding paths.",
+          "Visually represents the action of adding a log collection path."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/connecting_resources_to_aom/configuring_vm_log_collection_paths.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893507.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon matches the RST reference |image3| used for viewing configured paths.",
+          "Visually represents the action of searching or viewing log collection paths."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/consultation_faqs/what_are_the_usage_restrictions_of_aom.rst",
+    "title": "What Are the Usage Restrictions of AOM?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001167553061.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001167553061.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001167553061.png",
+        "kind": "figure",
+        "line": 129,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/consultation_faqs/what_are_the_usage_restrictions_of_aom.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001167553061.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the 'Interpolation Mode' dropdown menu on the Metric Monitoring page.",
+          "It directly illustrates the RST instruction to set the interpolation mode to '0' or 'average' to avoid metric data breakpoints.",
+          "The visible dropdown options ('null', '0', 'average') align perfectly with the documented values."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/usage_faqs/how_do_i_set_the_full-screen_online_duration.rst",
+    "title": "How Do I Set the Full-Screen Online Duration?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001598820253.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001598820253.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001598820253.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/usage_faqs/why_is_no_crontab_for_root_displayed_during_icagent_installation.rst",
+    "title": "Why Is \"no crontab for root\" Displayed During ICAgent Installation?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001759018189.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001759018189.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001759018189.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/usage_faqs/why_is_the_status_of_an_alarm_rule_displayed_as_insufficient.rst",
+    "title": "Why Is the Status of an Alarm Rule Displayed as \"Insufficient\"?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001412030430.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412030430.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412030430.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/process_of_using_aom.rst",
+    "title": "Process of Using AOM",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001199786128.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001199786128.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001199786128.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/process_of_using_aom.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001199786128.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart that directly illustrates the 'Process of Using AOM' section.",
+          "The steps in the flowchart match the ordered list in the RST document exactly."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/log_management/adding_log_buckets.rst",
+    "title": "Adding Log Buckets",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001479016049.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001479016049.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001479016049.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/log_management/searching_for_logs.rst",
+    "title": "Searching for Logs",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001461829881.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461829881.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461829881.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893562.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893562.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893562.png",
+        "kind": "figure",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001163330328.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163330328.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163330328.png",
+        "kind": "substitution_image",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411430140.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411430140.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411430140.png",
+        "kind": "substitution_image",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411270156.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411270156.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411270156.png",
+        "kind": "substitution_image",
+        "line": 76,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893649.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893649.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893649.png",
+        "kind": "substitution_image",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001163171568.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163171568.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163171568.png",
+        "kind": "substitution_image",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/log_management/searching_for_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461829881.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a CSV export table with columns like Host IP Address and Source, matching the RST description for Figure 1."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/searching_for_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893562.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays plain text log entries, consistent with the RST description of TXT format export in Figure 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/searching_for_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163330328.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon shows a downward arrow with lines, representing the descending sort order mentioned in the RST for |image3|."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/searching_for_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411430140.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon matches the RST reference for |image2|, which indicates ascending sort order."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/searching_for_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411270156.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon matches the RST reference for |image3|, indicating descending sort order."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/searching_for_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893649.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a blurry icon referenced as |image4| for viewing log details. Visual clarity is low."
+        ],
+        "missing_evidence": [
+          "Image quality is too low to confirm exact icon details."
+        ],
+        "overall_score": 0.73,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/log_management/searching_for_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163171568.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon clearly shows an export button with a dropdown, matching the RST description for |image5| used to export logs."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/log_management/viewing_bucket_logs.rst",
+    "title": "Viewing Bucket Logs",
+    "image_count": 8,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001479138361.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001479138361.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001479138361.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001479298177.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001479298177.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001479298177.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001429259356.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001429259356.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001429259356.png",
+        "kind": "figure",
+        "line": 63,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893614.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893614.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893614.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893584.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893584.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893584.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001562424626.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001562424626.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001562424626.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001562264710.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001562264710.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001562264710.png",
+        "kind": "substitution_image",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001612744525.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001612744525.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001612744525.png",
+        "kind": "substitution_image",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 8
+    },
+    "summary": {
+      "pass": 7,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001479138361.png",
+        "image_kind": "screenshot",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "reasons": [
+          "Screenshot clearly displays the bar chart interface described in the document.",
+          "UI elements such as tabs and dropdowns match the navigation and filtering steps outlined in the text.",
+          "Magenta accents on the active tab and dropdown border comply with the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001479298177.png",
+        "image_kind": "screenshot",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons (links) are blue, and no magenta elements are present in the UI.",
+        "buttons_magenta": false,
+        "contains_interactive_buttons": true,
+        "reasons": [
+          "Screenshot displays the log details list table as described in the section.",
+          "Contains interactive links that do not follow the required magenta or plain white color scheme.",
+          "No other magenta buttons or text are visible to satisfy the hard-fail exception."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001429259356.png",
+        "image_kind": "screenshot",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Screenshot shows the log context view with surrounding entries numbered around the selected log.",
+          "Directly illustrates the 'View Context' feature described in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893614.png",
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Icon depicts a circular refresh/reset arrow.",
+          "Matches the instruction to click this icon to deselect a bar chart block."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893584.png",
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Icon appears to be an expand/collapse chevron, matching the 'view details' instruction.",
+          "Contextually aligns with expanding log entries in the list."
+        ],
+        "missing_evidence": [
+          "Image resolution is low and blurry, making precise symbol identification slightly difficult."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001562424626.png",
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Icon shows a downward arrow alongside horizontal lines, indicating a descending sort order.",
+          "Matches the instruction for sorting logs by collection time."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001562264710.png",
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Icon is colored magenta/pink, consistent with the UI theme.",
+          "Represents the sorting action described in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001612744525.png",
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "reasons": [
+          "Icon is colored magenta/pink, consistent with the UI theme.",
+          "Represents the sorting action described in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/log_management/viewing_log_files.rst",
+    "title": "Viewing Log Files",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001461631457.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461631457.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461631457.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001561946430.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001561946430.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001561946430.png",
+        "kind": "figure",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411431544.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411431544.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411431544.png",
+        "kind": "substitution_image",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/log_management/viewing_log_files.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461631457.png",
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows log file details with time range selector and action buttons, matching Figure 1 description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/viewing_log_files.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001561946430.png",
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows log file details with time information highlighted, matching Figure 2 description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/log_management/viewing_log_files.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411431544.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the date picker element referenced in the table for setting a time range."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/monitoring_overview/dashboard.rst",
+    "title": "Dashboard",
+    "image_count": 10,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001411325438.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411325438.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411325438.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461164845.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461164845.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461164845.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411006006.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411006006.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411006006.png",
+        "kind": "figure",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461046213.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461046213.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461046213.png",
+        "kind": "figure",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411326706.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411326706.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411326706.png",
+        "kind": "figure",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461287489.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461287489.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461287489.png",
+        "kind": "figure",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411328114.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411328114.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411328114.png",
+        "kind": "figure",
+        "line": 118,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411422764.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411422764.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411422764.png",
+        "kind": "substitution_image",
+        "line": 202,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001599019641.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001599019641.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001599019641.png",
+        "kind": "substitution_image",
+        "line": 203,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893612.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893612.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893612.png",
+        "kind": "substitution_image",
+        "line": 204,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "incomplete",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 10
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 6
+    },
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "hard_fail": true,
+        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays a line graph matching the 'Metric Data Graphs' section description.",
+          "Visual content aligns with Figure 1 reference in the RST."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/monitoring_overview/dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411325438.png",
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": true,
+        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays a digit graph showing a single real-time metric value, matching the 'Digit graph' description.",
+          "Visual content aligns with Figure 2 reference in the RST."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/monitoring_overview/dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461164845.png",
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": true,
+        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays a table showing threshold rules and their statuses (e.g., Exceeded, Insufficient), matching the 'Threshold-crossing status graph' description.",
+          "Visual content aligns with Figure 3 reference in the RST."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/monitoring_overview/dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411006006.png",
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": true,
+        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays a table showing host names and their health statuses (Normal, Abnormal), matching the 'Host status graph' description.",
+          "Visual content aligns with Figure 4 reference in the RST."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/monitoring_overview/dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461046213.png",
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": true,
+        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays a table showing component names and their health statuses (Normal), matching the 'Component status graph' description.",
+          "Visual content aligns with Figure 5 reference in the RST."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/monitoring_overview/dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411326706.png",
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": true,
+        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays a list of top hosts by CPU usage alongside a small trend graph, matching the 'Top N Resource Graphs' description.",
+          "Visual content aligns with Figure 6 reference in the RST."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/monitoring_overview/dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461287489.png",
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the 'Add Metric Graph' dialog box with resource selection, metric configuration, and a preview graph.",
+          "Contains a magenta 'OK' button, satisfying the color rule.",
+          "Visual content aligns with Figure 7 reference in the RST."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/monitoring_overview/dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411328114.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon depicts a toggle switch in the 'ON' position, matching the 'Auto Refresh' feature description.",
+          "Visual content aligns with |image1| reference in the RST."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/monitoring_overview/dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411422764.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon shows a magenta square with diagonal arrows, representing the full-screen function.",
+          "Visual content aligns with |image2| reference in the RST."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/monitoring_overview/dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001599019641.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon shows a double-headed arrow cursor, representing the resize function.",
+          "Visual content aligns with |image3| reference in the RST."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/monitoring_overview/dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893612.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/monitoring_overview/o_and_m.rst",
+    "title": "O&M",
+    "image_count": 16,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001471047065.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001471047065.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001471047065.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001420570268.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001420570268.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001420570268.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001462784353.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462784353.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462784353.png",
+        "kind": "figure",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461502857.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461502857.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461502857.png",
+        "kind": "figure",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411262784.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411262784.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411262784.png",
+        "kind": "figure",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461281269.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461281269.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461281269.png",
+        "kind": "figure",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461822513.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461822513.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461822513.png",
+        "kind": "figure",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461862497.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461862497.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461862497.png",
+        "kind": "figure",
+        "line": 113,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411102964.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411102964.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411102964.png",
+        "kind": "figure",
+        "line": 128,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001410943068.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410943068.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410943068.png",
+        "kind": "figure",
+        "line": 143,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893663.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893663.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893663.png",
+        "kind": "substitution_image",
+        "line": 175,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893651.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893651.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893651.png",
+        "kind": "substitution_image",
+        "line": 176,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893592.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893592.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893592.png",
+        "kind": "substitution_image",
+        "line": 177,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893663.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893663.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893663.png",
+        "kind": "substitution_image",
+        "line": 178,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893651.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893651.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893651.png",
+        "kind": "substitution_image",
+        "line": 179,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263893592.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893592.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893592.png",
+        "kind": "substitution_image",
+        "line": 180,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 13
+    },
+    "summary": {
+      "pass": 13,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001471047065.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the 'Infrastructure Monitoring' card exactly as described in the RST document.",
+          "Visible metrics such as Host status, CPU/Memory usage, and network traffic graphs match the textual description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001420570268.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Application Monitoring' card, aligning with the RST description.",
+          "It correctly displays application status, components, containers, instances, and corresponding trend graphs."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462784353.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image depicts the 'Alarm Statistics' card as detailed in the RST.",
+          "It includes alarm counts, log quota usage gauge, and trend charts for alarms and hosts."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461502857.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Component Monitoring (CPU and Memory)' card.",
+          "It lists top components and includes the 'Hide system components' checkbox, which is magenta as per the UI theme."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411262784.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the 'Cluster Monitoring (Disk)' card.",
+          "It shows disk usage metrics and cluster details consistent with the RST description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461281269.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Container Instance Monitoring (CPU and Memory)' card.",
+          "It lists container instances and includes the magenta 'Hide system instances' checkbox."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461822513.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image depicts the 'Host Monitoring (Disk)' card.",
+          "It correctly displays disk read/write rates and host details as described."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461862497.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Host Monitoring (Network)' card.",
+          "It displays network traffic metrics (downlink/uplink) and host information matching the RST."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411102964.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the 'Host Monitoring (CPU and Memory)' card.",
+          "It shows CPU and memory usage metrics for hosts, consistent with the documentation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410943068.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Cluster Monitoring (CPU and Memory)' card.",
+          "It presents cluster CPU and memory usage data as described in the RST."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893663.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the vertical ellipsis icon referenced in the 'More Operations' table.",
+          "It corresponds to the 'Adding a card to favorites' and 'Adding a card to dashboard' operations."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893651.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the vertical ellipsis icon referenced in the 'More Operations' table.",
+          "It is used for the 'Adding a card to dashboard' operation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/monitoring_overview/o_and_m.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893592.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the zoom/fullscreen icon referenced in the 'More Operations' table.",
+          "It corresponds to the 'Zooming in a metric graph' operation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/permissions_management/creating_a_user_and_granting_permissions.rst",
+    "title": "Creating a User and Granting Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0263893658.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893658.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893658.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/resource_monitoring/application_monitoring.rst",
+    "title": "Application Monitoring",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0269669240.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669240.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669240.png",
+        "kind": "substitution_image",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0269669241.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669241.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669241.png",
+        "kind": "substitution_image",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_monitoring/application_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669240.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is an icon depicting a line graph, which directly corresponds to the text instruction for adding a line graph.",
+          "The visual symbol matches the described UI element perfectly."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_monitoring/application_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669241.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is an icon depicting a digit/graph, which directly corresponds to the text instruction for adding a digit graph.",
+          "The visual symbol matches the described UI element perfectly."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/resource_monitoring/component_monitoring.rst",
+    "title": "Component Monitoring",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001163172426.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163172426.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163172426.png",
+        "kind": "substitution_image",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001163172776.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163172776.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163172776.png",
+        "kind": "substitution_image",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001240568411.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001240568411.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001240568411.png",
+        "kind": "substitution_image",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461510225.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461510225.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461510225.png",
+        "kind": "substitution_image",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0269669234.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669234.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669234.png",
+        "kind": "substitution_image",
+        "line": 76,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0269669235.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669235.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669235.png",
+        "kind": "substitution_image",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/resource_monitoring/host_monitoring.rst",
+    "title": "Host Monitoring",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001163172900.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163172900.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163172900.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001195728488.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001195728488.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001195728488.png",
+        "kind": "substitution_image",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461829877.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461829877.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461829877.png",
+        "kind": "substitution_image",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0269669237.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669237.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669237.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0269669238.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669238.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669238.png",
+        "kind": "substitution_image",
+        "line": 90,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/resource_monitoring/metric_monitoring.rst",
+    "title": "Metric Monitoring",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001410950444.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410950444.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410950444.png",
+        "kind": "substitution_image",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461628997.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461628997.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461628997.png",
+        "kind": "substitution_image",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411110332.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411110332.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411110332.png",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461509173.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461509173.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461509173.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461868817.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461868817.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461868817.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001411429104.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411429104.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411429104.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001461509265.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461509265.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461509265.png",
+        "kind": "substitution_image",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 7,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410950444.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small symbolic icon representing the 'hide metric data' action described in the RST table.",
+          "The visual symbol aligns with standard UI conventions for hiding or disabling data display.",
+          "Directly corresponds to the 'More Operations' section of the document."
+        ],
+        "missing_evidence": [
+          "Image resolution is low, obscuring fine details of the icon.",
+          "Isolated view lacks surrounding UI context to confirm exact placement."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461628997.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small symbolic icon representing the 'show metric data' action described in the RST table.",
+          "The visual symbol aligns with standard UI conventions for revealing or enabling data display.",
+          "Directly corresponds to the 'More Operations' section of the document."
+        ],
+        "missing_evidence": [
+          "Image resolution is low, obscuring fine details of the icon.",
+          "Isolated view lacks surrounding UI context to confirm exact placement."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411110332.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small symbolic icon indicating a metric data status, as described in the RST table.",
+          "Matches the visual representation for metric status indicators.",
+          "Directly corresponds to the 'More Operations' section of the document."
+        ],
+        "missing_evidence": [
+          "Image resolution is low, obscuring fine details of the icon.",
+          "Isolated view lacks surrounding UI context to confirm exact placement."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461509173.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small symbolic icon indicating a metric data status, as described in the RST table.",
+          "Matches the visual representation for metric status indicators.",
+          "Directly corresponds to the 'More Operations' section of the document."
+        ],
+        "missing_evidence": [
+          "Image resolution is low, obscuring fine details of the icon.",
+          "Isolated view lacks surrounding UI context to confirm exact placement."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461868817.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a bell icon, which semantically matches the 'create an alarm rule' action described in the RST table.",
+          "Standard UI convention for alarms/notifications aligns with the documentation.",
+          "Directly corresponds to the 'More Operations' section of the document."
+        ],
+        "missing_evidence": [
+          "Image resolution is low, obscuring fine details of the icon.",
+          "Isolated view lacks surrounding UI context to confirm exact placement."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411429104.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a copy icon (overlapping squares), which semantically matches the 'copy the metric data' action described in the RST table.",
+          "Standard UI convention for copying aligns with the documentation.",
+          "Directly corresponds to the 'More Operations' section of the document."
+        ],
+        "missing_evidence": [
+          "Image resolution is low, obscuring fine details of the icon.",
+          "Isolated view lacks surrounding UI context to confirm exact placement."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461509265.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a trash can icon, which semantically matches the 'delete a metric' action described in the RST table.",
+          "Standard UI convention for deletion aligns with the documentation.",
+          "Directly corresponds to the 'More Operations' section of the document."
+        ],
+        "missing_evidence": [
+          "Image resolution is low, obscuring fine details of the icon.",
+          "Isolated view lacks surrounding UI context to confirm exact placement."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0270729777.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0270729777.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0270729777.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263897772.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897772.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897772.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/basic_concepts.rst",
+    "title": "Basic Concepts",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0263897774.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897774.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897774.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/basic_concepts.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897774.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a diagram illustrating a cluster metric namespace, its dimensions, and specific metrics, which directly corresponds to the 'Metrics' section text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/restrictions.rst",
+    "title": "Restrictions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001167553061.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001167553061.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001167553061.png",
+        "kind": "figure",
+        "line": 129,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/restrictions.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001167553061.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Interpolation Mode' dropdown menu exactly as described in the text.",
+          "The visible options 'null', '0', and 'average' match the documentation's instruction to set the mode to '0' or 'average'.",
+          "The screenshot directly supports the section on Service Usage Restrictions regarding metric data breakpoints."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_aom.rst",
+    "title": "What Is AOM?",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0263897681.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897681.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897681.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263897780.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897780.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897780.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001459663365.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001459663365.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001459663365.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0263897677.png",
+        "original_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897677.png",
+        "used_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897677.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/what_is_aom.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897681.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Illustration accurately depicts O&M challenges mentioned in the text, such as high costs and difficult problem analysis.",
+          "Visual elements like rising cost graphs and error screens directly correspond to the 'Challenges' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/what_is_aom.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897780.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Diagram visually represents AOM as a one-stop platform managing resources, apps, services, and middleware.",
+          "Aligns perfectly with the 'Introduction to AOM' section describing it as a multi-dimensional O&M management platform."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/what_is_aom.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001459663365.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Illustration highlights the 'Multi-Dimensional O&M' advantage, listing supported targets like mobile apps, networks, etc.",
+          "Matches the text's description of a multi-dimensional platform covering various cloud resources and services."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/what_is_aom.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897677.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Illustrations detail specific advantages like Health Check and Ease of Use.",
+          "Directly corresponds to the benefits described in the 'Advantages' section, such as real-time monitoring and non-intrusive data collection."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]
