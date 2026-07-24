@@ -1493,6 +1493,7 @@ def run_full_repo_test(args: argparse.Namespace) -> None:
 
     repos = list_repos_with_gh(args.org, args.repo_limit, env)
     logger.info("Gefundene Repos: %d", len(repos))
+    logger.info("Starte Verarbeitung von %d Repos", len(repos))
 
     worker_payloads: List[Dict[str, Any]] = []
     for full_repo in repos:
@@ -1520,21 +1521,38 @@ def run_full_repo_test(args: argparse.Namespace) -> None:
                 time.sleep(args.worker_start_delay)
             futures.append(executor.submit(_repo_worker, payload))
 
-        for future in as_completed(futures):
+        total_repos = len(futures)
+        success_count = 0
+        failure_count = 0
+
+        for completed_count, future in enumerate(as_completed(futures), start=1):
             result = future.result()
             repo_name = result["repo_name"]
             duration = int(result.get("duration_seconds") or 0)
             total_duration += duration
+            percent = (completed_count / total_repos) * 100
 
             if result["success"]:
+                success_count += 1
                 logger.info(
-                    "OK: %s abgeschlossen in %s",
+                    "[%d/%d | %.1f%% | OK=%d | FEHLER=%d] OK: %s abgeschlossen in %s",
+                    completed_count,
+                    total_repos,
+                    percent,
+                    success_count,
+                    failure_count,
                     repo_name,
                     result["duration_human"],
                 )
             else:
+                failure_count += 1
                 logger.error(
-                    "FEHLER: %s fehlgeschlagen in %s: %s",
+                    "[%d/%d | %.1f%% | OK=%d | FEHLER=%d] FEHLER: %s fehlgeschlagen in %s: %s",
+                    completed_count,
+                    total_repos,
+                    percent,
+                    success_count,
+                    failure_count,
                     repo_name,
                     result["duration_human"],
                     result["failure_reason"],
@@ -1544,7 +1562,13 @@ def run_full_repo_test(args: argparse.Namespace) -> None:
                 append_text(failed_file, f"{repo_name} duration_human={result['duration_human']}\n")
 
     total_human = human_total_duration(total_duration)
-    logger.info("Gesamtlaufzeit aller Repos: %s", total_human)
+    logger.info(
+        "Fertig. Repos gesamt=%d, OK=%d, FEHLER=%d, Gesamtlaufzeit aller Repos: %s",
+        len(repos),
+        success_count,
+        failure_count,
+        total_human,
+    )
     append_text(failed_file, f"Gesamtlaufzeit aller Repos: {total_human}\n")
 
 
