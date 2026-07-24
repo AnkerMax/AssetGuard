@@ -6,13 +6,18 @@ import json
 import logging
 import os
 import re
+import shlex
+import subprocess
+import sys
 import time
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from dataclasses import dataclass, asdict
 from json import JSONDecoder, JSONDecodeError
 from pathlib import Path, PurePosixPath
 from typing import Any, Dict, List, Optional, Tuple
 
 import requests
+
 
 WEIGHTS = {
     "topic_match": 0.30,
@@ -28,6 +33,11 @@ DEFAULT_MAX_RETRIES = 2
 DEFAULT_REQUEST_DELAY = 1
 DEFAULT_MAX_OUTPUT_TOKENS = 8000
 MAX_RESPONSE_EXCERPT_CHARS = 4000
+
+DEFAULT_ORG = "opentelekomcloud-docs"
+DEFAULT_REPO_LIMIT = 105
+DEFAULT_MAX_WORKERS = 8
+DEFAULT_WORKER_START_DELAY = 0.5
 
 VALID_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg"}
 MEDIA_TYPES_BY_SUFFIX = {
@@ -341,13 +351,11 @@ def make_prompt(job: Dict[str, Any]) -> str:
         "Analyze the reStructuredText document and all attached images.\n"
         "Evaluate every attached image separately.\n"
         "Return one object in results for each attached image.\n\n"
-
         "First classify the image:\n"
         "- image_kind must be one of: screenshot, icon, other.\n"
         "- screenshot = UI/application/page screenshot with visible interface.\n"
         "- icon = small symbolic graphic, logo, pictogram, or isolated UI symbol.\n"
         "- other = anything else.\n\n"
-
         "Then apply this mandatory rule before contextual scoring:\n"
         "- If the image is a screenshot, check whether visible user-interactive buttons are magenta or plain white.\n"
         "- User-interactive buttons include clearly clickable UI controls such as buttons, CTA elements, or obvious interactive controls.\n"
@@ -355,7 +363,6 @@ def make_prompt(job: Dict[str, Any]) -> str:
         "- In that case set hard_fail_reason to a short explanation.\n"
         "- In that case the image must be treated as failed regardless of the criteria scores.\n"
         "- If there are no visible interactive buttons, set contains_interactive_buttons=false and do not hard-fail for color.\n\n"
-
         "Scoring rules:\n"
         "- criteria scores still need to be filled for every image.\n"
         "- But if hard_fail=true, the final judgment must ignore the score.\n\n"
@@ -366,7 +373,6 @@ def make_prompt(job: Dict[str, Any]) -> str:
         "- criteria.contradictions: score from 0 to 3, where 3 means no clear contradiction.\n"
         "- reasons: short bullet-style statements explaining the judgment.\n"
         "- missing_evidence: short bullet-style statements listing missing or unclear information.\n\n"
-
         "Output rules:\n"
         "- Return JSON only.\n"
         "- Use exactly the schema fields.\n"
@@ -376,12 +382,10 @@ def make_prompt(job: Dict[str, Any]) -> str:
         "- If no interactive buttons are visible, set buttons_magenta=false.\n"
         "- Do not add markdown fences.\n"
         "- Do not add analysis text before or after the JSON.\n\n"
-
         "Evidence rules:\n"
         "- Use only the rst content and the attached image.\n"
         "- Do not guess facts that are not visible in the image or not stated in the rst.\n"
         "- Base the judgment on semantic relevance, not only keyword overlap.\n\n"
-
         f"FILE: {job['file_path']}\n"
         f"TITLE: {job.get('title') or ''}\n"
         f"ATTACHED_IMAGE_RELATIONS_IN_RST: {image_count}\n\n"
@@ -396,7 +400,7 @@ def extract_finish_reason(data: Dict[str, Any]) -> Optional[str]:
         return data["status"]
     for item in data.get("output", []):
         if isinstance(item, dict) and item.get("finish_reason"):
-            return item["finish_reason"]
+            return item.get("finish_reason")
     return None
 
 
@@ -492,34 +496,6 @@ def _extract_json_candidates_from_text(text: str) -> List[Dict[str, Any]]:
     return candidates
 
 
-def _append_candidates_from_output_container(container: Any, candidates: List[Dict[str, Any]]) -> None:
-    if not isinstance(container, list):
-        return
-
-    for item in container:
-        if not isinstance(item, dict):
-            continue
-
-        content = item.get("content")
-        if not isinstance(content, list):
-            continue
-
-        for part in content:
-            if not isinstance(part, dict):
-                continue
-
-            part_type = part.get("type")
-
-            if part_type in {"output_json", "json"}:
-                json_obj = part.get("json")
-                normalized = _normalize_candidate(json_obj)
-                if normalized is not None:
-                    candidates.append(normalized)
-
-            elif part_type in {"output_text", "text"} and isinstance(part.get("text"), str):
-                candidates.extend(_extract_json_candidates_from_text(part["text"]))
-
-
 def extract_response_text(data: Dict[str, Any]) -> str:
     parts: List[str] = []
 
@@ -545,7 +521,6 @@ def extract_response_text(data: Dict[str, Any]) -> str:
                     if txt:
                         parts.append(txt)
 
-    # nur eindeutige, nicht-triviale Teile behalten
     seen = set()
     deduped = []
     for p in parts:
@@ -554,8 +529,7 @@ def extract_response_text(data: Dict[str, Any]) -> str:
             seen.add(key)
             deduped.append(p)
 
-    combined = "\n".join(deduped).strip()
-    return combined
+    return "\n".join(deduped).strip()
 
 
 def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
@@ -565,10 +539,9 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     candidates: List[Dict[str, Any]] = []
 
     def add_candidate(obj: Any) -> None:
-        if isinstance(obj, dict):
-            candidates.append(obj)
-        elif isinstance(obj, list):
-            candidates.append({"results": obj})
+        normalized = _normalize_candidate(obj)
+        if normalized is not None:
+            candidates.append(normalized)
 
     def scan_text(text: str) -> None:
         decoder = JSONDecoder()
@@ -617,24 +590,11 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         walk_output(response_obj.get("output"))
 
     for candidate in reversed(candidates):
-        if not isinstance(candidate, dict):
-            continue
         results = candidate.get("results")
         if isinstance(results, list) and len(results) > 0 and all(_is_complete_result_item(x) for x in results):
             return candidate
 
     return None
-
-
-def make_response_excerpt(raw_text: str, parsed_json: Optional[Dict[str, Any]]) -> str:
-    if parsed_json is not None:
-        excerpt = json.dumps(parsed_json, ensure_ascii=False)
-        return excerpt[:MAX_RESPONSE_EXCERPT_CHARS]
-
-    raw_text = (raw_text or "").strip()
-    if len(raw_text) <= MAX_RESPONSE_EXCERPT_CHARS:
-        return raw_text
-    return raw_text[:MAX_RESPONSE_EXCERPT_CHARS] + "...<truncated>"
 
 
 class ResponsesClient:
@@ -1080,7 +1040,7 @@ def build_csv_rows(row: AuditRow) -> List[Dict[str, Any]]:
             "score_contradictions": "",
             "overall_score": "",
             "final_verdict": "fail",
-            "processing_error": row.result.get("error", ""),
+            "processing_error": row.result.get("error", "") or "",
             "api_http_status": row.result.get("http_status", ""),
             "api_finish_reason": row.result.get("finish_reason", "") or "",
             "api_attempt": row.result.get("attempt", ""),
@@ -1206,30 +1166,111 @@ def enforce_strict_mode(json_output: Path) -> None:
                 raise SystemExit(1)
 
 
-def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Audit .rst image references with structured model output.")
-    parser.add_argument("--workspace", default=".", help="Local repo/workspace path. Defaults to current directory.")
-    parser.add_argument("--source-root", default=None, help="Documentation source root for leading-slash image paths.")
-    parser.add_argument("--file-list", default=None, help="Text file with one repo-relative .rst path per line.")
-    parser.add_argument("--rst-file", action="append", default=[], help="Single .rst file to process. Can be used multiple times.")
-    parser.add_argument("--path-prefix", action="append", default=[], help="Only process .rst files whose path starts with this prefix.")
-    parser.add_argument("--api-url", default=os.getenv("AI_API_URL"), help="Responses endpoint, e.g. .../v1/responses")
-    parser.add_argument("--api-key", default=os.getenv("AI_API_KEY"), help="AI API key.")
-    parser.add_argument("--model", default=os.getenv("AI_MODEL", "qwen3.6-35b"), help="Model name.")
-    parser.add_argument("--request-delay", type=float, default=DEFAULT_REQUEST_DELAY, help="Fixed delay before each API call.")
-    parser.add_argument("--max-retries", type=int, default=DEFAULT_MAX_RETRIES, help="Number of attempts for backend/transient errors.")
-    parser.add_argument("--max-output-tokens", type=int, default=DEFAULT_MAX_OUTPUT_TOKENS, help="Maximum output tokens for the API.")
-    parser.add_argument("--output-json", default="results_with_images.json", help="Machine-readable JSON output.")
-    parser.add_argument("--output-csv", default="results_with_images.csv", help="Flat CSV output.")
-    parser.add_argument("--output-failed-csv", default="results_with_images.failed_only.csv", help="Only failed rows as CSV.")
-    parser.add_argument("--strict", action="store_true", help="Exit with code 1 when score < 0.55, hard fail, backend error, invalid image, or invalid parsed JSON.")
-    parser.add_argument("--log-level", default="INFO", help="Logging level, e.g. DEBUG, INFO, WARNING.")
-    return parser.parse_args()
+def ensure_parent_dir(path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
 
 
-def main() -> None:
-    args = parse_args()
+def human_duration(seconds: int) -> str:
+    minutes = seconds // 60
+    sec = seconds % 60
+    return f"{minutes}m {sec}s"
 
+
+def human_total_duration(seconds: int) -> str:
+    hours = seconds // 3600
+    minutes = (seconds % 3600) // 60
+    sec = seconds % 60
+    return f"{hours}h {minutes}m {sec}s"
+
+
+def run_command(
+    cmd: List[str],
+    cwd: Optional[Path] = None,
+    env: Optional[Dict[str, str]] = None,
+    capture_output: bool = True,
+    check: bool = False,
+) -> subprocess.CompletedProcess:
+    return subprocess.run(
+        cmd,
+        cwd=str(cwd) if cwd else None,
+        env=env,
+        text=True,
+        capture_output=capture_output,
+        check=check,
+    )
+
+
+def load_bash_env(env_file: Path, base_env: Optional[Dict[str, str]] = None) -> Dict[str, str]:
+    if not env_file.exists():
+        raise SystemExit(f"Env-Datei nicht gefunden: {env_file}")
+
+    seed_env = dict(base_env or os.environ)
+    quoted = shlex.quote(str(env_file))
+    cmd = f"set -a && source {quoted} && env -0"
+
+    proc = subprocess.run(
+        ["/bin/bash", "-c", cmd],
+        text=False,
+        capture_output=True,
+        env=seed_env,
+    )
+
+    if proc.returncode != 0:
+        stderr = proc.stderr.decode("utf-8", errors="replace")
+        raise SystemExit(f"Fehler beim Laden der Env-Datei {env_file}: {stderr}")
+
+    env: Dict[str, str] = {}
+    for chunk in proc.stdout.split(b"\x00"):
+        if not chunk or b"=" not in chunk:
+            continue
+        key, value = chunk.split(b"=", 1)
+        env[key.decode("utf-8", errors="replace")] = value.decode("utf-8", errors="replace")
+
+    return env
+
+
+def list_repos_with_gh(org: str, limit: int, env: Dict[str, str]) -> List[str]:
+    proc = run_command(
+        [
+            "gh", "repo", "list", org,
+            "--visibility=public",
+            "--limit", str(limit),
+            "--json", "nameWithOwner",
+            "--jq", ".[].nameWithOwner",
+        ],
+        env=env,
+    )
+    if proc.returncode != 0:
+        raise SystemExit(f"gh repo list fehlgeschlagen:\n{proc.stderr}")
+
+    repos = [line.strip() for line in proc.stdout.splitlines() if line.strip()]
+    return repos
+
+
+def append_text(path: Path, text: str) -> None:
+    ensure_parent_dir(path)
+    with path.open("a", encoding="utf-8") as f:
+        f.write(text)
+
+
+def clone_or_pull_repo(
+    full_repo: str,
+    working_dir: Path,
+    env: Dict[str, str],
+) -> Tuple[bool, Optional[str], str]:
+    if (working_dir / ".git").is_dir():
+        proc = run_command(["git", "-C", str(working_dir), "pull", "--ff-only"], env=env)
+        if proc.returncode != 0:
+            return False, "git pull fehlgeschlagen", (proc.stdout or "") + "\n" + (proc.stderr or "")
+        return True, None, (proc.stdout or "") + "\n" + (proc.stderr or "")
+    else:
+        proc = run_command(["git", "clone", f"https://github.com/{full_repo}.git", str(working_dir)], env=env)
+        if proc.returncode != 0:
+            return False, "clone fehlgeschlagen", (proc.stdout or "") + "\n" + (proc.stderr or "")
+        return True, None, (proc.stdout or "") + "\n" + (proc.stderr or "")
+
+
+def run_single_workspace_mode(args: argparse.Namespace) -> None:
     logging.basicConfig(
         level=getattr(logging, args.log_level.upper(), logging.INFO),
         format="%(asctime)s %(levelname)s %(name)s - %(message)s",
@@ -1249,7 +1290,7 @@ def main() -> None:
     logger.info("Workspace: %s", workspace)
     logger.info("Found RST-Dateien: %d", len(files))
     logger.info("Sending files to backend and waiting for response..")
-    
+
     client = ResponsesClient(api_url=args.api_url, api_key=args.api_key, model=args.model)
 
     processed_files, flagged_files, row_count = process_files(
@@ -1277,6 +1318,274 @@ def main() -> None:
         args.output_csv,
         args.output_failed_csv,
     )
+
+
+def _repo_worker(worker_args: Dict[str, Any]) -> Dict[str, Any]:
+    repo_logger = logging.getLogger(__name__)
+
+    full_repo = worker_args["full_repo"]
+    repo_name = full_repo.split("/", 1)[1]
+
+    clone_base = Path(worker_args["clone_base"]).expanduser().resolve()
+    result_base = Path(worker_args["result_base"]).expanduser().resolve()
+    env = dict(worker_args["env"])
+
+    working_dir = clone_base / repo_name
+    source_root = working_dir / "umn" / "source"
+    result_dir = result_base / repo_name
+    result_dir.mkdir(parents=True, exist_ok=True)
+
+    run_log = result_dir / "run.log"
+    duration_file = result_dir / "duration_seconds.txt"
+    output_json = result_dir / "results_with_images.json"
+    output_csv = result_dir / "results_with_images.csv"
+    output_failed_csv = result_dir / "results_with_images.failed_only.csv"
+
+    started = int(time.time())
+
+    log_lines = [f"==> Bearbeite {repo_name}\n"]
+
+    ok, git_error, git_output = clone_or_pull_repo(full_repo, working_dir, env)
+    log_lines.append(git_output.strip() + "\n")
+
+    if not ok:
+        duration = int(time.time()) - started
+        duration_file.write_text(str(duration), encoding="utf-8")
+        log_lines.append(f"{repo_name}: {git_error}\n")
+        log_lines.append(f"duration_seconds={duration}\n")
+        log_lines.append(f"duration_human={human_duration(duration)}\n")
+        run_log.write_text("".join(log_lines), encoding="utf-8")
+        return {
+            "repo_name": repo_name,
+            "success": False,
+            "failure_reason": git_error,
+            "duration_seconds": duration,
+            "duration_human": human_duration(duration),
+            "result_dir": str(result_dir),
+        }
+
+    if not source_root.is_dir():
+        duration = int(time.time()) - started
+        duration_file.write_text(str(duration), encoding="utf-8")
+        msg = f"source root fehlt ({source_root})"
+        log_lines.append(f"{repo_name}: {msg}\n")
+        log_lines.append(f"duration_seconds={duration}\n")
+        log_lines.append(f"duration_human={human_duration(duration)}\n")
+        run_log.write_text("".join(log_lines), encoding="utf-8")
+        return {
+            "repo_name": repo_name,
+            "success": False,
+            "failure_reason": msg,
+            "duration_seconds": duration,
+            "duration_human": human_duration(duration),
+            "result_dir": str(result_dir),
+        }
+
+    try:
+        client = ResponsesClient(
+            api_url=worker_args["api_url"],
+            api_key=worker_args["api_key"],
+            model=worker_args["model"],
+        )
+
+        files = find_rst_files(working_dir, [])
+        processed_files, flagged_files, row_count = process_files(
+            files=files,
+            workspace=working_dir,
+            source_root=source_root,
+            client=client,
+            json_output=output_json,
+            csv_output=output_csv,
+            failed_csv_output=output_failed_csv,
+            max_retries=worker_args["max_retries"],
+            request_delay=worker_args["request_delay"],
+            max_output_tokens=worker_args["max_output_tokens"],
+        )
+
+        if worker_args["strict"]:
+            enforce_strict_mode(output_json)
+
+        duration = int(time.time()) - started
+        duration_file.write_text(str(duration), encoding="utf-8")
+
+        log_lines.append(
+            f"OK: speichere Ergebnis von {repo_name} in {result_dir} "
+            f"(Dauer: {human_duration(duration)})\n"
+        )
+        log_lines.append(f"processed_files={processed_files}\n")
+        log_lines.append(f"flagged_files={flagged_files}\n")
+        log_lines.append(f"row_count={row_count}\n")
+        log_lines.append(f"duration_seconds={duration}\n")
+        log_lines.append(f"duration_human={human_duration(duration)}\n")
+        run_log.write_text("".join(log_lines), encoding="utf-8")
+
+        return {
+            "repo_name": repo_name,
+            "success": True,
+            "failure_reason": None,
+            "duration_seconds": duration,
+            "duration_human": human_duration(duration),
+            "result_dir": str(result_dir),
+        }
+
+    except Exception as exc:
+        duration = int(time.time()) - started
+        duration_file.write_text(str(duration), encoding="utf-8")
+        log_lines.append(
+            f"FEHLER: Python-Skript für {repo_name} fehlgeschlagen "
+            f"(Dauer: {human_duration(duration)})\n"
+        )
+        log_lines.append(f"exception={exc}\n")
+        log_lines.append(f"duration_seconds={duration}\n")
+        log_lines.append(f"duration_human={human_duration(duration)}\n")
+        run_log.write_text("".join(log_lines), encoding="utf-8")
+
+        return {
+            "repo_name": repo_name,
+            "success": False,
+            "failure_reason": str(exc),
+            "duration_seconds": duration,
+            "duration_human": human_duration(duration),
+            "result_dir": str(result_dir),
+        }
+
+
+def run_full_repo_test(args: argparse.Namespace) -> None:
+    logging.basicConfig(
+        level=getattr(logging, args.log_level.upper(), logging.INFO),
+        format="%(asctime)s %(levelname)s %(name)s - %(message)s",
+    )
+    logger = logging.getLogger(__name__)
+
+    clone_base = Path(args.clone_base).expanduser().resolve()
+    script_base = Path(args.script_base).expanduser().resolve()
+    result_base = Path(args.result_base).expanduser().resolve()
+    env_file = Path(args.env_file).expanduser().resolve()
+
+    clone_base.mkdir(parents=True, exist_ok=True)
+    result_base.mkdir(parents=True, exist_ok=True)
+
+    failed_file = result_base / "failed_repos.txt"
+    failed_file.write_text("", encoding="utf-8")
+
+    env = load_bash_env(env_file, os.environ)
+    env.setdefault("HOME", os.environ.get("HOME", str(Path.home())))
+
+    if not args.api_url:
+        args.api_url = env.get("AI_API_URL") or os.getenv("AI_API_URL")
+    if not args.api_key:
+        args.api_key = env.get("AI_API_KEY") or os.getenv("AI_API_KEY")
+    if not args.model:
+        args.model = env.get("AI_MODEL") or os.getenv("AI_MODEL", "qwen3.6-35b")
+
+    if not args.api_url:
+        raise SystemExit("Missing AI API URL. Use --api-url or set AI_API_URL.")
+    if not args.api_key:
+        raise SystemExit("Missing AI API key. Use --api-key or set AI_API_KEY.")
+
+    logger.info("Full repo test gestartet")
+    logger.info("Org: %s", args.org)
+    logger.info("Clone base: %s", clone_base)
+    logger.info("Result base: %s", result_base)
+    logger.info("Env file: %s", env_file)
+    logger.info("Workers: %d", args.max_workers)
+    logger.info("Worker start delay: %.2fs", args.worker_start_delay)
+
+    repos = list_repos_with_gh(args.org, args.repo_limit, env)
+    logger.info("Gefundene Repos: %d", len(repos))
+
+    worker_payloads: List[Dict[str, Any]] = []
+    for full_repo in repos:
+        worker_payloads.append({
+            "full_repo": full_repo,
+            "clone_base": str(clone_base),
+            "script_base": str(script_base),
+            "result_base": str(result_base),
+            "env": env,
+            "api_url": args.api_url,
+            "api_key": args.api_key,
+            "model": args.model,
+            "max_retries": args.max_retries,
+            "request_delay": args.request_delay,
+            "max_output_tokens": args.max_output_tokens,
+            "strict": args.strict,
+        })
+
+    total_duration = 0
+    futures = []
+
+    with ProcessPoolExecutor(max_workers=args.max_workers) as executor:
+        for idx, payload in enumerate(worker_payloads):
+            if idx > 0 and args.worker_start_delay > 0:
+                time.sleep(args.worker_start_delay)
+            futures.append(executor.submit(_repo_worker, payload))
+
+        for future in as_completed(futures):
+            result = future.result()
+            repo_name = result["repo_name"]
+            duration = int(result.get("duration_seconds") or 0)
+            total_duration += duration
+
+            if result["success"]:
+                logger.info(
+                    "OK: %s abgeschlossen in %s",
+                    repo_name,
+                    result["duration_human"],
+                )
+            else:
+                logger.error(
+                    "FEHLER: %s fehlgeschlagen in %s: %s",
+                    repo_name,
+                    result["duration_human"],
+                    result["failure_reason"],
+                )
+                append_text(failed_file, f"{repo_name}: {result['failure_reason']}\n")
+                append_text(failed_file, f"{repo_name} duration_seconds={duration}\n")
+                append_text(failed_file, f"{repo_name} duration_human={result['duration_human']}\n")
+
+    total_human = human_total_duration(total_duration)
+    logger.info("Gesamtlaufzeit aller Repos: %s", total_human)
+    append_text(failed_file, f"Gesamtlaufzeit aller Repos: {total_human}\n")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Audit .rst image references with structured model output.")
+    parser.add_argument("--workspace", default=".", help="Local repo/workspace path. Defaults to current directory.")
+    parser.add_argument("--source-root", default=None, help="Documentation source root for leading-slash image paths.")
+    parser.add_argument("--file-list", default=None, help="Text file with one repo-relative .rst path per line.")
+    parser.add_argument("--rst-file", action="append", default=[], help="Single .rst file to process. Can be used multiple times.")
+    parser.add_argument("--path-prefix", action="append", default=[], help="Only process .rst files whose path starts with this prefix.")
+    parser.add_argument("--api-url", default=os.getenv("AI_API_URL"), help="Responses endpoint, e.g. .../v1/responses")
+    parser.add_argument("--api-key", default=os.getenv("AI_API_KEY"), help="AI API key.")
+    parser.add_argument("--model", default=os.getenv("AI_MODEL", "qwen3.6-35b"), help="Model name.")
+    parser.add_argument("--request-delay", type=float, default=DEFAULT_REQUEST_DELAY, help="Fixed delay before each API call.")
+    parser.add_argument("--max-retries", type=int, default=DEFAULT_MAX_RETRIES, help="Number of attempts for backend/transient errors.")
+    parser.add_argument("--max-output-tokens", type=int, default=DEFAULT_MAX_OUTPUT_TOKENS, help="Maximum output tokens for the API.")
+    parser.add_argument("--output-json", default="results_with_images.json", help="Machine-readable JSON output.")
+    parser.add_argument("--output-csv", default="results_with_images.csv", help="Flat CSV output.")
+    parser.add_argument("--output-failed-csv", default="results_with_images.failed_only.csv", help="Only failed rows as CSV.")
+    parser.add_argument("--strict", action="store_true", help="Exit with code 1 when score < 0.55, hard fail, backend error, invalid image, or invalid parsed JSON.")
+    parser.add_argument("--log-level", default="INFO", help="Logging level, e.g. DEBUG, INFO, WARNING.")
+
+    parser.add_argument("--full-repo-test", action="store_true", help="Run the full multi-repo test workflow and replace the old bash orchestration.")
+    parser.add_argument("--org", default=DEFAULT_ORG, help="GitHub organization name for --full-repo-test.")
+    parser.add_argument("--repo-limit", type=int, default=DEFAULT_REPO_LIMIT, help="Maximum number of repos to fetch for --full-repo-test.")
+    parser.add_argument("--clone-base", default="~/repotesting", help="Clone directory base for --full-repo-test.")
+    parser.add_argument("--script-base", default="~/AssetGuard", help="Script base directory for --full-repo-test.")
+    parser.add_argument("--result-base", default="~/AssetGuard/repo_results", help="Result directory base for --full-repo-test.")
+    parser.add_argument("--env-file", default=".rst_checker__env", help="Bash env file to source for --full-repo-test.")
+    parser.add_argument("--max-workers", type=int, default=DEFAULT_MAX_WORKERS, help="Parallel workers for --full-repo-test.")
+    parser.add_argument("--worker-start-delay", type=float, default=DEFAULT_WORKER_START_DELAY, help="Delay in seconds between scheduling worker starts for --full-repo-test.")
+
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+    if args.full_repo_test:
+        run_full_repo_test(args)
+    else:
+        run_single_workspace_mode(args)
 
 
 if __name__ == "__main__":
