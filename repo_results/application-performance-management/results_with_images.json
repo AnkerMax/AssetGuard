@@ -1,0 +1,2332 @@
+[
+  {
+    "file_path": "umn/source/agent_management/performing_operations_on_agents.rst",
+    "title": "Performing Operations on Agents",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001677017637.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001677017637.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001677017637.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628418878.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628418878.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628418878.png",
+        "kind": "figure",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628420042.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628420042.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628420042.png",
+        "kind": "figure",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628420554.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628420554.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628420554.png",
+        "kind": "figure",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542497618.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542497618.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542497618.png",
+        "kind": "substitution_image",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001277861629.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001277861629.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001277861629.png",
+        "kind": "substitution_image",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_list.rst",
+    "title": "Alarm List",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001213058152.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001213058152.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001213058152.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001676789233.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676789233.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676789233.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001479891701.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001479891701.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001479891701.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001204273024.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001204273024.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001204273024.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001600839770.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001600839770.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001600839770.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001650281081.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001650281081.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001650281081.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001737857810.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001737857810.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001737857810.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_notification.rst",
+    "title": "Alarm Notification",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001677135825.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001677135825.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001677135825.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542186458.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542186458.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542186458.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_policies/configuring_an_alarm_template.rst",
+    "title": "Configuring an Alarm Template",
+    "image_count": 12,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628230484.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628230484.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628230484.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002202697592.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002202697592.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002202697592.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002237780613.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002237780613.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002237780613.png",
+        "kind": "figure",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001627913704.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627913704.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627913704.png",
+        "kind": "figure",
+        "line": 121,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628081584.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628081584.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628081584.png",
+        "kind": "figure",
+        "line": 147,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542018454.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542018454.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542018454.png",
+        "kind": "substitution_image",
+        "line": 193,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002202858124.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002202858124.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002202858124.png",
+        "kind": "substitution_image",
+        "line": 194,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002237779669.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002237779669.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002237779669.png",
+        "kind": "substitution_image",
+        "line": 195,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001517956762.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001517956762.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001517956762.png",
+        "kind": "substitution_image",
+        "line": 196,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001568954813.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001568954813.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001568954813.png",
+        "kind": "substitution_image",
+        "line": 197,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002202703580.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002202703580.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002202703580.png",
+        "kind": "substitution_image",
+        "line": 198,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002202703580.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002202703580.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002202703580.png",
+        "kind": "substitution_image",
+        "line": 199,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 11
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_policies/creating_a_custom_alarm_policy.rst",
+    "title": "Creating a Custom Alarm Policy",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001788084553.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001788084553.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001788084553.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542177914.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542177914.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542177914.png",
+        "kind": "substitution_image",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001946108913.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946108913.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946108913.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001946108901.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946108901.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946108901.png",
+        "kind": "substitution_image",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002237705905.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002237705905.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002237705905.png",
+        "kind": "substitution_image",
+        "line": 61,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002237705905.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002237705905.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002237705905.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/alarm_management/alarm_policies/recommended_alarm_templates.rst",
+    "title": "Recommended Alarm Templates",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001677005969.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001677005969.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001677005969.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628411172.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628411172.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628411172.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001676892669.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676892669.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676892669.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001676894365.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676894365.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676894365.png",
+        "kind": "figure",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001592697669.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001592697669.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001592697669.png",
+        "kind": "substitution_image",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_list.rst",
+    "title": "Application List",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001627342908.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627342908.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627342908.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001579294510.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001579294510.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001579294510.png",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuration_details.rst",
+    "title": "Configuration Details",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001627759792.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627759792.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627759792.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001627280752.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627280752.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627280752.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001675961513.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675961513.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675961513.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001541509380.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001541509380.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001541509380.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001914229912.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914229912.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914229912.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001541988552.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001541988552.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001541988552.png",
+        "kind": "substitution_image",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001278182205.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278182205.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278182205.png",
+        "kind": "substitution_image",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuring_the_exception_monitoring_item.rst",
+    "title": "Configuring the Exception Monitoring Item",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002195699309.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002195699309.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002195699309.png",
+        "kind": "substitution_image",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuring_the_httpclient_monitoring_item.rst",
+    "title": "Configuring the HttpClient Monitoring Item",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001676203089.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676203089.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676203089.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuring_the_javamethod_monitoring_item.rst",
+    "title": "Configuring the JavaMethod Monitoring Item",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001675971141.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675971141.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675971141.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuring_the_mysql_monitoring_item.rst",
+    "title": "Configuring the MySQL Monitoring Item",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001676082137.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676082137.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676082137.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuring_the_url_monitoring_item.rst",
+    "title": "Configuring the URL Monitoring Item",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001675969617.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675969617.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675969617.png",
+        "kind": "figure",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_details/call.rst",
+    "title": "Call",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001620923917.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001620923917.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001620923917.png",
+        "kind": "substitution_image",
+        "line": 180,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001913972698.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913972698.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913972698.png",
+        "kind": "substitution_image",
+        "line": 181,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001914229964.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914229964.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914229964.png",
+        "kind": "substitution_image",
+        "line": 182,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001946109021.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946109021.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946109021.png",
+        "kind": "substitution_image",
+        "line": 183,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_details/exception.rst",
+    "title": "Exception",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001621004377.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001621004377.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001621004377.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001946011777.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946011777.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946011777.png",
+        "kind": "substitution_image",
+        "line": 63,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001914389884.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914389884.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914389884.png",
+        "kind": "substitution_image",
+        "line": 64,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_details/jvm.rst",
+    "title": "JVM",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001570285326.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001570285326.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001570285326.png",
+        "kind": "substitution_image",
+        "line": 215,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001914132626.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914132626.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914132626.png",
+        "kind": "substitution_image",
+        "line": 216,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_details/sql.rst",
+    "title": "SQL",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001602510794.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001602510794.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001602510794.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001569846696.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001569846696.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001569846696.png",
+        "kind": "substitution_image",
+        "line": 344,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001946011757.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946011757.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946011757.png",
+        "kind": "substitution_image",
+        "line": 345,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001914229952.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914229952.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914229952.png",
+        "kind": "substitution_image",
+        "line": 346,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001278062153.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278062153.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278062153.png",
+        "kind": "substitution_image",
+        "line": 347,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001471158206.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001471158206.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001471158206.png",
+        "kind": "substitution_image",
+        "line": 348,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001946109009.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946109009.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946109009.png",
+        "kind": "substitution_image",
+        "line": 349,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_details/topology.rst",
+    "title": "Topology",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001651367393.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001651367393.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001651367393.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001913838480.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913838480.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913838480.png",
+        "kind": "substitution_image",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001651699845.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001651699845.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001651699845.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002169235581.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002169235581.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002169235581.png",
+        "kind": "substitution_image",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_details/url.rst",
+    "title": "URL",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001570589062.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001570589062.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001570589062.png",
+        "kind": "substitution_image",
+        "line": 139,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001913972714.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913972714.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913972714.png",
+        "kind": "substitution_image",
+        "line": 140,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001914347410.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914347410.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914347410.png",
+        "kind": "substitution_image",
+        "line": 141,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_metric_monitoring/application_monitoring_details/web_container.rst",
+    "title": "Web Container",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001602670490.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001602670490.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001602670490.png",
+        "kind": "figure",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001620725989.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001620725989.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001620725989.png",
+        "kind": "substitution_image",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001913972674.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913972674.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913972674.png",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001914389852.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914389852.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914389852.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_topology.rst",
+    "title": "Application Topology",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001676682349.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676682349.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676682349.png",
+        "kind": "figure",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001541828576.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001541828576.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001541828576.png",
+        "kind": "substitution_image",
+        "line": 61,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001914132538.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914132538.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914132538.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/cmdb_management/configuring_an_application_and_sub-application.rst",
+    "title": "Configuring an Application and Sub-application",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001735611972.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001735611972.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001735611972.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001629016313.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629016313.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629016313.png",
+        "kind": "substitution_image",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001913980264.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913980264.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913980264.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/cmdb_management/creating_a_sub-application.rst",
+    "title": "Creating a Sub-application",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001782570313.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001782570313.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001782570313.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001629297117.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629297117.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629297117.png",
+        "kind": "substitution_image",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001629417037.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629417037.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629417037.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/cmdb_management/creating_an_application.rst",
+    "title": "Creating an Application",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001675830381.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675830381.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675830381.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001579455730.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001579455730.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001579455730.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001629294721.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629294721.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629294721.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/cmdb_management/introduction.rst",
+    "title": "Introduction",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001934305448.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001934305448.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001934305448.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001961504785.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001961504785.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001961504785.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001934305460.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001934305460.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001934305460.png",
+        "kind": "figure",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuration_management/collection_center.rst",
+    "title": "Collection Center",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001943060445.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060445.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060445.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001908301196.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301196.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301196.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/configuration_management/data_masking.rst",
+    "title": "Data Masking",
+    "image_count": 11,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001908141568.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908141568.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908141568.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001908141536.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908141536.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908141536.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001908301536.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301536.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301536.png",
+        "kind": "figure",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001908301484.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301484.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301484.png",
+        "kind": "figure",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001943060809.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060809.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060809.png",
+        "kind": "figure",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001943060729.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060729.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060729.png",
+        "kind": "figure",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001908301500.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301500.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301500.png",
+        "kind": "figure",
+        "line": 102,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001908141492.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908141492.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908141492.png",
+        "kind": "figure",
+        "line": 117,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001943060789.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060789.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060789.png",
+        "kind": "figure",
+        "line": 125,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001943060829.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060829.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060829.png",
+        "kind": "substitution_image",
+        "line": 130,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001908141452.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908141452.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908141452.png",
+        "kind": "substitution_image",
+        "line": 131,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 11
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/installing_agents_for_the_java_applications_deployed_in_cce_containers.rst",
+    "title": "Installing Agents for the Java Applications Deployed in CCE Containers",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002188473004.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002188473004.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002188473004.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/enabling_apm.rst",
+    "title": "Enabling APM",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001240715511.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001240715511.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001240715511.png",
+        "kind": "substitution_image",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/monitoring_java_applications/connecting_agents.rst",
+    "title": "Connecting Agents",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001675786929.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675786929.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675786929.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001627467410.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627467410.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627467410.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001881092662.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001881092662.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001881092662.png",
+        "kind": "figure",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001627469086.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627469086.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627469086.png",
+        "kind": "figure",
+        "line": 54,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001737607793.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001737607793.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001737607793.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/monitoring_java_applications/manually_installing_agents_for_java_applications.rst",
+    "title": "Manually Installing Agents for Java Applications",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001627629722.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627629722.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627629722.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001196275562.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001196275562.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001196275562.png",
+        "kind": "figure",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/managing_tags.rst",
+    "title": "Managing Tags",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001676779877.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676779877.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676779877.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001676862057.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676862057.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676862057.png",
+        "kind": "figure",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001676864041.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676864041.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676864041.png",
+        "kind": "figure",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628065096.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628065096.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628065096.png",
+        "kind": "figure",
+        "line": 106,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001592577449.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001592577449.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001592577449.png",
+        "kind": "substitution_image",
+        "line": 113,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/permissions_management/creating_a_user_and_granting_permissions.rst",
+    "title": "Creating a User and Granting Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001218178520.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001218178520.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001218178520.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/basic_concepts.rst",
+    "title": "Basic Concepts",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001196297610.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001196297610.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001196297610.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001470571029.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001470571029.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001470571029.png",
+        "kind": "substitution_image",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_apm.rst",
+    "title": "What Is APM",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001278522953.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278522953.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278522953.png",
+        "kind": "substitution_image",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001278405305.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278405305.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278405305.png",
+        "kind": "substitution_image",
+        "line": 76,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234565280.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001234565280.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001234565280.png",
+        "kind": "substitution_image",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001278805009.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278805009.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278805009.png",
+        "kind": "substitution_image",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/system_management/access_keys.rst",
+    "title": "Access Keys",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001943060937.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060937.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060937.png",
+        "kind": "figure",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001908301692.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301692.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301692.png",
+        "kind": "substitution_image",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/system_management/agent_count.rst",
+    "title": "Agent Count",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001774640433.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001774640433.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001774640433.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001628429290.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628429290.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628429290.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001592942865.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001592942865.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001592942865.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/system_management/general_configuration.rst",
+    "title": "General Configuration",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001628908238.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628908238.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628908238.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001542557752.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542557752.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542557752.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/tracing.rst",
+    "title": "Tracing",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001627775070.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627775070.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627775070.png",
+        "kind": "figure",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001627936294.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627936294.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627936294.png",
+        "kind": "figure",
+        "line": 120,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002202489184.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002202489184.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002202489184.png",
+        "kind": "figure",
+        "line": 144,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001570694488.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001570694488.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001570694488.png",
+        "kind": "substitution_image",
+        "line": 149,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001262928973.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001262928973.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001262928973.png",
+        "kind": "substitution_image",
+        "line": 150,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002096110598.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002096110598.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002096110598.png",
+        "kind": "substitution_image",
+        "line": 151,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002096273458.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002096273458.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002096273458.png",
+        "kind": "substitution_image",
+        "line": 152,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/url_tracing.rst",
+    "title": "URL Tracing",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001570166220.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001570166220.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001570166220.png",
+        "kind": "substitution_image",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001277858573.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001277858573.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001277858573.png",
+        "kind": "substitution_image",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001233739060.png",
+        "original_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001233739060.png",
+        "used_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001233739060.png",
+        "kind": "substitution_image",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 403,
+      "finish_reason": null,
+      "attempt": 1,
+      "max_retries": 2,
+      "error": "backend_error",
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  }
+]
