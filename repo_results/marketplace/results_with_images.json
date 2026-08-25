@@ -436,11 +436,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 38
     },
@@ -968,11 +968,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 33
     },

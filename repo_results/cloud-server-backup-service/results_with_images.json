@@ -182,7 +182,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -430,7 +430,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1038,7 +1038,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,

@@ -2002,20 +2002,45 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/obs_browser_operation_guide/cors/configuring_cors.rst",
+        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129834236.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the 'Add CORS Rule' dialog box exactly as described in the RST procedure.",
+          "All parameters listed in Table 1 (Allowed Origin, Allowed Method, Allowed Header, Exposed Header, Cache Duration) are clearly visible in the UI.",
+          "The screenshot provides direct visual evidence for the step of configuring CORS rules."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/external_buckets/adding_external_buckets.rst",
@@ -2034,11 +2059,11 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
@@ -2076,11 +2101,11 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 2
     },
@@ -2108,11 +2133,11 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
@@ -2140,11 +2165,11 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
@@ -2184,7 +2209,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -2255,11 +2280,34 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/obs_browser_operation_guide/introduction_to_obs_browser/obs_browser_overview.rst",
+        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237530299.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a white gear icon on a magenta background, directly corresponding to the `|image1|` reference in the text describing a clickable UI element at the upper right corner."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/lifecycle_management/configuring_a_lifecycle_rule.rst",
@@ -2308,14 +2356,14 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays the 'Create Lifecycle Rule' dialog box, directly corresponding to the RST procedure.",
-          "It shows the 'Basic Information' and 'Current Version' sections with fields like Status, Rule Name, Prefix, and transition options, matching the configuration steps.",
-          "The UI layout and interactive controls align with the document's instructions."
+          "The image displays the 'Create Lifecycle Rule' dialog box, directly corresponding to the procedure in the RST.",
+          "Key fields such as Status, Rule Name, and Prefix are visible and match the RST description.",
+          "The UI layout and interactive elements align with the step-by-step instructions."
         ],
         "missing_evidence": [
-          "The 'Tag' field mentioned in the RST is not visible.",
-          "The 'Delete Fragments After' option and 'Historical Version' section are not shown.",
-          "The RST specifies 'Delete Objects After (Days)', while the image shows 'Expiration Time', indicating a minor UI text variation."
+          "The 'Tag' configuration field mentioned in the RST is not visible in the screenshot.",
+          "The 'Historical Version' option is not shown, only 'Current Version' is visible.",
+          "The 'Delete Fragments After (Days)' field is not present in the image."
         ],
         "overall_score": 0.93,
         "verdict": "pass"
@@ -2339,11 +2387,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2371,45 +2419,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/logging/configuring_logging.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129837880.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'Configure Logging' dialog box, which directly corresponds to the procedure steps in the RST document.",
-          "It shows the 'Enable' option selected, the 'Target Bucket' and 'Target Prefix' fields, and the 'OK' and 'Cancel' buttons as instructed.",
-          "The visual layout and UI elements match the textual description of configuring logging for a bucket."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/managing_buckets/adding_a_bucket.rst",
@@ -2438,11 +2461,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -2490,11 +2513,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -2522,44 +2545,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/managing_buckets/managing_fragments.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237534487.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a trash can icon, which is a standard symbol for deletion.",
-          "The RST explicitly instructs users to click this image to delete a selected fragment in the Manage Fragment dialog."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/managing_buckets/searching_for_a_bucket.rst",
@@ -2608,87 +2607,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/managing_buckets/searching_for_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237535268.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a magnifying glass icon, which directly corresponds to the search functionality described in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/managing_buckets/searching_for_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237531620.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays an 'X' icon, matching the instruction to delete the search keyword."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/managing_buckets/searching_for_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237531612.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a list/menu icon, aligning with the instruction to expand the hidden bucket list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/managing_buckets/viewing_basic_information_of_a_bucket.rst",
@@ -2707,11 +2639,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2749,69 +2681,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 1,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/managing_objects/accessing_an_object_using_its_object_url.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129829000.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'Properties' dialog box with fields for Name, URL, and Encrypted status.",
-          "It clearly shows the magenta 'Copy' button, which aligns with the procedure step to copy the URL."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/managing_objects/accessing_an_object_using_its_object_url.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237534488.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 1,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a generic list or document icon used in the OBS Browser interface.",
-          "It corresponds to the clickable element mentioned in the procedure to view object properties."
-        ],
-        "missing_evidence": [
-          "The surrounding UI context is not visible, making it difficult to see exactly where it appears next to an object."
-        ],
-        "overall_score": 0.65,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/managing_objects/object_management_methods.rst",
@@ -2850,11 +2733,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -2892,69 +2775,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 1,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/managing_objects/restoring_a_cold_file_in_obs.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129830942.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot of the Properties dialog box described in the RST.",
-          "Clearly displays the 'Restore' status as 'Restored', aligning with the procedure steps."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/managing_objects/restoring_a_cold_file_in_obs.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237534488.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 1,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Small gray icon depicting a document or list.",
-          "Referenced in the RST procedure to indicate a clickable UI element."
-        ],
-        "missing_evidence": [
-          "The exact action triggered by the icon is not visually explicit."
-        ],
-        "overall_score": 0.65,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/managing_objects/searching_for_a_file_or_folder.rst",
@@ -2973,11 +2807,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3005,45 +2839,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/managing_objects/uploading_a_file_or_folder.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0150044268.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Upload Object' dialog box, which directly corresponds to the document's topic of uploading files or folders.",
-          "The UI elements visible in the screenshot, such as '+ Select File', '+ Select Folder', 'Storage Class' options, and 'OK'/'Cancel' buttons, perfectly match the procedural steps described in the RST text.",
-          "The image is explicitly referenced in step 3 of the Procedure section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/permission_control/configuring_a_bucket_acl.rst",
@@ -3062,11 +2871,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3144,136 +2953,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/related_operations/configuring_the_system.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129866628.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays the 'General' tab of the System Configuration dialog.",
-          "Parameters such as Enable HTTPS, Multipart Upload Part Size, and Max Number of Tasks exactly match Table 1 in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/related_operations/configuring_the_system.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129866667.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays the 'Network' tab of the System Configuration dialog.",
-          "Proxy settings including Address, Port, and Authentication exactly match Table 2 in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/related_operations/configuring_the_system.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129867351.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays the 'Other' tab of the System Configuration dialog.",
-          "Parameters like Enable automatic update check and Number of Objects Displayed on Each Page exactly match Table 3 in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/related_operations/configuring_the_system.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237530299.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon is a white gear on a magenta background.",
-          "Matches the |image1| reference used in the procedure to access System Configuration."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/related_operations/configuring_the_system.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0148639825.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon is a gray circular arrow (refresh symbol).",
-          "Matches the |image3| reference used in the procedure to apply the 'Number of Objects Displayed on Each Page' setting."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/related_operations/managing_accounts.rst",
@@ -3312,87 +3005,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/related_operations/managing_accounts.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129866022.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Add Account' dialog box with the Service dropdown set to 'OBS', directly matching the RST description for Figure 1."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/related_operations/managing_accounts.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129867278.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'Add Account' dialog with 'Other object storage services' selected and a 'Server Address' field, aligning with the RST text for Figure 2."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/related_operations/managing_accounts.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237530299.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a white gear icon on a magenta background, which corresponds to the |image1| reference in the RST used to access System Configuration."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/related_operations/updating_obs_browser.rst",
@@ -3431,11 +3057,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3493,117 +3119,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/server-side_encryption/uploading_a_file_with_server-side_encryption.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129858302.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the System Configuration dialog, directly illustrating step 3 of the procedure.",
-          "It clearly shows the 'General' tab with the 'Enable HTTPS' and 'Enable KMS encryption' checkboxes as instructed.",
-          "The visual evidence fully supports the textual description of configuring encryption settings."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/server-side_encryption/uploading_a_file_with_server-side_encryption.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129858610.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the Properties dialog box, aligning with step 6 for verifying encryption status.",
-          "It explicitly highlights the 'Encrypted' field set to 'Yes', matching the expected outcome described in the text.",
-          "The screenshot provides clear visual confirmation of the encryption status verification step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/server-side_encryption/uploading_a_file_with_server-side_encryption.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237530299.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a settings gear icon, corresponding to |image1| referenced in step 2.",
-          "It visually represents the control users must click in the upper right corner to access System Configuration.",
-          "The icon perfectly matches the procedural instruction for navigating to the configuration menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/server-side_encryption/uploading_a_file_with_server-side_encryption.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129858610.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a list/document icon, corresponding to |image2| referenced in step 6.",
-          "It represents the control to click on the right of the object list to view object properties.",
-          "The icon aligns with the verification step instructions for checking encryption status."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/task_management.rst",
@@ -3682,131 +3211,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/task_management.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237531615.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a cloud with up/down arrows, a standard icon for upload/download tasks, directly matching the task management context."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/task_management.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237531617.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a pause symbol, which aligns perfectly with the instruction to suspend a running task."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/task_management.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237531618.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a play triangle, which matches the instruction to continue a paused task."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/task_management.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237534487.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a trash can icon, which corresponds to the instruction to delete a task."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_browser_operation_guide/task_management.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0237531619.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays an ellipsis inside a circle, a common UI symbol for additional options or details, matching the instruction to view failure causes."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_browser_operation_guide/troubleshooting/blue_or_black_screen_of_death_occurs_during_file_upload_on_obs_browser.rst",
@@ -3825,11 +3243,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3867,11 +3285,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -3899,11 +3317,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3933,44 +3351,18 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/cross-origin_resource_sharing/configuring_cors.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0145420855.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Create CORS Rule' dialog box, which directly corresponds to the procedure described in the RST document.",
-          "All configuration fields mentioned in the text (Allowed Origin, Allowed Method, Allowed Header, Exposed Header, Cache Duration) are clearly visible in the screenshot.",
-          "The 'OK' and 'Cancel' buttons match the steps for creating and confirming the CORS rule.",
-          "The visual evidence perfectly aligns with the textual description of the UI workflow."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/cross-region_replication/cross-region_replication_overview.rst",
@@ -3998,37 +3390,11 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/cross-region_replication/cross-region_replication_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0136493204.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a conceptual diagram illustrating cross-region replication between two cloud regions.",
-          "It clearly shows a source bucket (S) and a destination bucket (D) in different regions (Region 1 and Region 2) under the same account (Account A), directly matching the text's definition.",
-          "The figure is placed immediately after the overview paragraph, providing clear visual context for the section.",
-          "No contradictions or missing visual evidence are present."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/event_notifications/application_example_configuring_smn-enabled_event_notification.rst",
@@ -4106,144 +3472,11 @@
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 6,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Create Bucket' page, which matches the UI described in step 2 of the procedure."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "document_path": "umn/source/obs_console_operation_guide/event_notifications/application_example_configuring_smn-enabled_event_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129426050.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'Create Folder' dialog box with the folder name 'SMN', corresponding to step 3."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "document_path": "umn/source/obs_console_operation_guide/event_notifications/application_example_configuring_smn-enabled_event_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000001180502786.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Create Event Notification' dialog with parameters like 'ObjectCreated', 'ObjectRemoved', and 'SMN topic', matching step 6."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "document_path": "umn/source/obs_console_operation_guide/event_notifications/application_example_configuring_smn-enabled_event_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0145403235.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows an email notification with 'eventName': 'ObjectCreated:Post', which aligns with the verification step for uploading a file."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "document_path": "umn/source/obs_console_operation_guide/event_notifications/application_example_configuring_smn-enabled_event_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129289372.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows an email notification with 'eventName': 'ObjectRemoved:Delete', which aligns with the verification step for deleting a file."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "document_path": "umn/source/obs_console_operation_guide/event_notifications/application_example_configuring_smn-enabled_event_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129289481.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the hamburger menu icon referenced in step 4 to access the Simple Message Notification page."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "document_path": "umn/source/obs_console_operation_guide/event_notifications/application_example_configuring_smn-enabled_event_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000001196392484.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/event_notifications/configuring_smn-enabled_event_notification.rst",
@@ -4262,11 +3495,11 @@
       }
     ],
     "status": {
-      "http_status": 500,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
@@ -4303,11 +3536,35 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/obs_console_operation_guide/event_notifications/smn-enabled_event_notifications.rst",
+        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0136295107.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart that visually represents the SMN-enabled event notification process described in the document.",
+          "It correctly depicts the flow from OBS bucket operations (Upload, Download, Delete) to SMN, and then to notification endpoints (Mobile phone, Email)."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/getting_started/configuring_user_permissions.rst",
@@ -4335,11 +3592,36 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/obs_console_operation_guide/getting_started/configuring_user_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0170301902.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart that visually summarizes the process described in the section.",
+          "The steps in the flowchart (Create user group, Create user, Verify permissions) directly correspond to the procedure steps in the text.",
+          "The image is explicitly referenced as Figure 1 in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/getting_started/creating_a_bucket.rst",
@@ -4360,7 +3642,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -4388,10 +3670,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a screenshot of the 'Create Bucket' page, matching the document title and content.",
-          "The form fields (Region, Bucket Name, Default Storage Class, etc.) correspond to the parameters listed in the document.",
-          "The 'Create Now' button is visible and magenta, consistent with the document's instruction and the color rule.",
-          "Selected options like 'Private' and 'Disable' are highlighted in magenta, matching the UI state described."
+          "The image is a screenshot of the 'Create Bucket' page in the OBS Console, directly matching the document's topic.",
+          "It displays the form fields and options (Region, Bucket Name, Default Storage Class, Bucket Policies, Server-Side Encryption, WORM) described in the procedure and table.",
+          "The 'Create Now' button is visible in the bottom right corner and is magenta, consistent with the UI style."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -4478,10 +3759,10 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a screenshot of the OBS Console 'Upload Object' dialog, specifically showing the advanced settings step.",
-          "It visually confirms the metadata, retention (WORM), and tags configuration options described in step 6 of the procedure.",
+          "The image is a screenshot of the 'Upload Object' dialog showing the advanced settings configuration step.",
+          "It accurately depicts the metadata, retention (WORM), and tags sections described in the RST procedure.",
           "Interactive buttons like 'Upload', 'Configure', and 'Compliance' are magenta, satisfying the color rule.",
-          "The image directly corresponds to the referenced Figure 1 and its caption in the document."
+          "The UI layout and labels directly correspond to the documentation steps without contradiction."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -4506,48 +3787,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/lifecycle_management/configuring_a_lifecycle_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002134300396.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create Lifecycle Rule' dialog, directly matching the RST description.",
-          "It displays the 'Basic Information' section with fields for Status, Rule Name, Prefix, and Tag as outlined in the procedure.",
-          "The magenta 'OK' button is visible, corresponding to the final step to complete the configuration.",
-          "The UI elements and layout align with the documented steps for configuring a lifecycle rule."
-        ],
-        "missing_evidence": [
-          "The image does not show the 'Current Version' or 'Historical Version' settings, which are mentioned in the RST but likely appear further down the form."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/lifecycle_management/lifecycle_management_overview.rst",
@@ -4566,11 +3819,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4598,48 +3851,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/logging/configuring_access_logging_for_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000001226260767.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Logging' dialog box with 'Enable' selected, matching the procedure steps.",
-          "Fields for 'Save Logs To' and 'Log File Name Prefix' are visible, corresponding to steps 5 and 6.",
-          "The 'OK' button is present and magenta, matching step 7.",
-          "The text under 'Enable' in the image matches the RST description about granting permissions."
-        ],
-        "missing_evidence": [
-          "The 'IAM Agency' field is visible in the image but not explicitly detailed in the provided RST steps."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/managing_buckets/creating_a_bucket.rst",
@@ -4658,7 +3883,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -4710,87 +3935,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_buckets/searching_for_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002148384433.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the search box and filter drop-down menu as described in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_buckets/searching_for_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002112749382.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image demonstrates entering a keyword in the search box and displaying matching buckets, as described in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_buckets/searching_for_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002112750646.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the sort icon referenced in the Related Operations section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/managing_buckets/viewing_basic_information_of_a_bucket.rst",
@@ -4859,153 +4017,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_buckets/viewing_basic_information_of_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002112645856.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the bucket overview page with name, storage class, region, and creation time as described in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_buckets/viewing_basic_information_of_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002112647992.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the Basic Information area with objects, capacity, version, and account ID matching the documentation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_buckets/viewing_basic_information_of_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002148131281.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons ('Bind User Domain Name', 'Configure') are blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Domain Name Details table with operation buttons as described."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_buckets/viewing_basic_information_of_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002148261453.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Basic Configurations area with cards for logging, encryption, etc., as described."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_buckets/viewing_basic_information_of_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002112504678.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Export button in the upper left corner of the bucket list as described."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_buckets/viewing_basic_information_of_a_bucket.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002112506422.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows a selected bucket and the Export button, matching the export process described."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/managing_objects/accessing_an_object_using_its_url.rst",
@@ -5024,11 +4049,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -5066,69 +4091,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_objects/restoring_an_object_from_cold_storage.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129533894.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Restore Object' dialog box.",
-          "It directly illustrates Figure 1 from the RST, showing the validity period spinner and speed radio buttons.",
-          "The 'OK' button is magenta, satisfying the interactive button color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_objects/restoring_an_object_from_cold_storage.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0148639825.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a refresh icon (circular arrow).",
-          "It matches the `|image1|` reference in the RST used for manually refreshing the restore status.",
-          "No interactive buttons are present, so color rules do not apply."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/managing_objects/searching_for_an_object_or_folder.rst",
@@ -5197,11 +4173,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
@@ -5229,46 +4205,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_objects/sharing_an_object.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000001523534634.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Share File' dialog box, which directly corresponds to the procedure for sharing an object.",
-          "It displays the 'File Name', 'URL Validity Period', and 'Link Info' fields as described in the text.",
-          "The interactive buttons ('Open in Browser', 'Copy Link', 'Copy Path', 'Close') are clearly visible and use the magenta color scheme.",
-          "The visual content perfectly aligns with the documentation's description of the sharing process."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/managing_objects/uploading_an_object.rst",
@@ -5287,45 +4237,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/managing_objects/uploading_an_object.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002235397602.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Upload Object' dialog's advanced settings step, directly matching step 6 in the RST.",
-          "It visually confirms the metadata, WORM retention (Inherit from bucket/Configure), and tags configuration options described in the text.",
-          "Interactive buttons like 'Upload', 'Configure', and 'Compliance' are magenta, adhering to the UI color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/monitoring/monitoring_obs.rst",
@@ -5344,47 +4269,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/monitoring/monitoring_obs.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0198863546.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a conceptual diagram illustrating the Cloud Eye monitoring workflow for OBS.",
-          "It accurately depicts the relationship between OBS reporting metrics, user-configured alarm rules, and the Cloud Eye console features (Overview, Alarm rules, Cloud service monitoring).",
-          "The content directly supports the document's section on Monitoring OBS and Cloud Eye integration."
-        ],
-        "missing_evidence": [
-          "The image is a high-level architectural diagram and does not show specific UI steps or console screenshots for configuring alarms or viewing metrics."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/object_metadata/configuring_object_metadata.rst",
@@ -5403,45 +4301,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/object_metadata/configuring_object_metadata.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129757763.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Add Metadata' dialog box referenced in the procedure.",
-          "It displays input fields for Name and Value, which aligns with adding metadata.",
-          "The 'OK' button is magenta, satisfying the color requirement for interactive buttons."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/permissions_control/bucket_policy_parameters/effect.rst",
@@ -5460,11 +4333,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -5492,11 +4365,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -5594,213 +4467,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 8
     },
     "summary": {
-      "pass": 8,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/configuring_a_bucket_policy/configuring_a_standard_bucket_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002149754337.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create Bucket Policy' UI.",
-          "It matches Figure 1 in the document, showing the 'Public Read' template selected.",
-          "The selected template button is magenta, and the 'Create' button is magenta, satisfying the color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/configuring_a_bucket_policy/configuring_a_standard_bucket_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002269450037.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create Bucket Policy' UI.",
-          "It matches Figure 2 in the document, showing the 'Public Read/Write' template selected.",
-          "The selected template button is magenta, and the 'Create' button is magenta, satisfying the color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/configuring_a_bucket_policy/configuring_a_standard_bucket_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002234450870.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create Bucket Policy' UI.",
-          "It matches Figure 3 in the document, showing the 'Bucket Read-Only' template selected.",
-          "The selected template button is magenta, and the 'Create' button is magenta, satisfying the color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/configuring_a_bucket_policy/configuring_a_standard_bucket_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002149763349.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create Bucket Policy' UI.",
-          "It matches Figure 4 in the document, showing the 'Bucket Read/Write' template selected.",
-          "The selected template button is magenta, and the 'Create' button is magenta, satisfying the color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/configuring_a_bucket_policy/configuring_a_standard_bucket_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002149764793.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create Bucket Policy' UI.",
-          "It matches Figure 5 in the document, showing the 'Directory Read-Only' template selected.",
-          "The selected template button is magenta, and the 'Create' button is magenta, satisfying the color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/configuring_a_bucket_policy/configuring_a_standard_bucket_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002149728845.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create Bucket Policy' UI.",
-          "It matches Figure 6 in the document, showing the 'Directory Read/Write' template selected.",
-          "The selected template button is magenta, and the 'Create' button is magenta, satisfying the color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/configuring_a_bucket_policy/configuring_a_standard_bucket_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002114091864.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create Bucket Policy' UI.",
-          "It matches Figure 7 in the document, showing the 'Object Read-Only' template selected.",
-          "The selected template button is magenta, and the 'Create' button is magenta, satisfying the color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/configuring_a_bucket_policy/configuring_a_standard_bucket_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0000002149771037.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create Bucket Policy' UI.",
-          "It matches Figure 8 in the document, showing the 'Object Read/Write' template selected.",
-          "The selected template button is magenta, and the 'Create' button is magenta, satisfying the color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/permissions_control/configuring_iam_policies/creating_an_iam_user_and_granting_obs_permissions.rst",
@@ -5819,11 +4499,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -5861,67 +4541,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/permission_control_mechanisms/iam_policies.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0209418410.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image accurately depicts the IAM policy structure described in the text.",
-          "It clearly shows the 'Version' and multiple 'Statement' components, along with the individual statement parameters (Effect, Action, Resource, Condition)."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/permission_control_mechanisms/iam_policies.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0170555653.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The flowchart correctly visualizes the authentication logic for IAM policies outlined in the document.",
-          "It matches the step-by-step evaluation process: checking for explicit deny first, then explicit allow, and defaulting to deny."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/permissions_control/permission_control_mechanisms/which_access_control_policies_apply_when_they_conflict.rst",
@@ -5950,67 +4583,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The flowchart accurately visualizes the authorization process described in the text.",
-          "It correctly depicts the default DENY state and the explicit precedence of DENY over ALLOW."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/permission_control_mechanisms/which_access_control_policies_apply_when_they_conflict.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0168203499.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The matrix correctly illustrates the conflict resolution logic between Bucket Policies, IAM Policies, and ACLs.",
-          "It aligns perfectly with the text's description of how deny statements take precedence over allow statements."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/obs_console_operation_guide/permissions_control/permission_control_mechanisms/which_access_control_policies_apply_when_they_conflict.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0168203521.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/related_operations/creating_an_iam_agency.rst",
@@ -6029,11 +4615,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -6061,11 +4647,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -6093,11 +4679,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -6125,11 +4711,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -6157,45 +4743,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/static_website_hosting/configuring_static_website_hosting.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0145846197.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Configure Static Website Hosting' dialog box.",
-          "It accurately depicts the UI elements described in the RST document, including Hosting Type, Homepage, 404 Error Page, and Redirection Rule fields.",
-          "The interactive buttons (OK, Cancel) are magenta and plain white, satisfying the mandatory rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/static_website_hosting/static_website_hosting_overview.rst",
@@ -6214,11 +4775,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -6296,11 +4857,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
@@ -6328,11 +4889,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -6360,45 +4921,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/troubleshooting/obs_console_couldnt_be_opened_in_internet_explorer_9.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0129288861.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "The visible interactive buttons (OK, Cancel, Apply) are gray, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Internet Options' window with the 'Advanced' tab selected.",
-          "It correctly highlights the SSL and TLS checkboxes as described in the text.",
-          "The interactive buttons are standard gray, which triggers the hard fail rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/url_validation/configuring_url_validation.rst",
@@ -6427,65 +4963,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a pencil icon, which directly corresponds to the instruction to click it to enter referers."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/obs_console_operation_guide/url_validation/configuring_url_validation.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0217211682.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a checkmark icon, which directly corresponds to the instruction to click it to save settings."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/obs_console_operation_guide/url_validation/configuring_url_validation.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0148639851.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/versioning/versioning_overview.rst",
@@ -6544,141 +5035,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/obs_console_operation_guide/versioning/versioning_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0135709734.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram accurately illustrates the RST description of enabling versioning on an existing object.",
-          "It correctly shows the original object with a null version ID and the newly uploaded object with a specific version ID.",
-          "Visual elements align perfectly with the 'Enabling Versioning' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/versioning/versioning_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0135263079.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image correctly depicts the RST explanation that OBS allocates unique version IDs to newly uploaded objects.",
-          "It shows multiple versions of the same object name stored with different IDs, matching the text exactly.",
-          "Directly supports the 'Enabling Versioning' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/versioning/versioning_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0135698309.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram visually represents the creation of a delete marker upon object deletion as described in the RST.",
-          "The top layer clearly labels the delete marker, aligning with the text's explanation of the deletion process.",
-          "Consistent with the 'Enabling Versioning' section details."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/versioning/versioning_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0135706002.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image accurately illustrates uploading a namesake object after the original has been deleted.",
-          "It shows the new object receiving a fresh version ID while the deleted object remains as a delete marker, matching the RST example.",
-          "Directly supports the scenario described in the 'Enabling Versioning' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/obs_console_operation_guide/versioning/versioning_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/object-storage-service/umn/source/_static/images/en-us_image_0135715557.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram correctly depicts the transition from enabled/disabled to suspended versioning.",
-          "It shows that after suspension, a newly uploaded namesake object receives a null version ID and overwrites the existing null version, exactly as stated in the RST.",
-          "Aligns perfectly with the 'Suspending Versioning' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/obs_console_operation_guide/worm/configuring_worm_retention.rst",
@@ -6717,11 +5087,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -6749,11 +5119,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -6781,11 +5151,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },

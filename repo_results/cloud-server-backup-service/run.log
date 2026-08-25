@@ -1,7 +1,8 @@
-2026-07-22 17:00:22,133 INFO __main__ - Starting AssetGuard
-2026-07-22 17:00:22,133 INFO __main__ - Workspace: /home/ubuntu/repotesting/cloud-server-backup-service
-2026-07-22 17:00:22,133 INFO __main__ - Found RST-Dateien: 104
-2026-07-22 17:00:22,133 INFO __main__ - Sending files to backend and waiting for response..
-2026-07-22 17:01:11,479 INFO __main__ - Done. Processed 22 rst files, wrote 22 rows to results_with_images.json, flagged 22 files, csv=results_with_images.csv, failed_csv=results_with_images.failed_only.csv
-duration_seconds=50
-duration_human=0m 50s
+==> Bearbeite cloud-server-backup-service
+Already up to date.
+OK: speichere Ergebnis von cloud-server-backup-service in /home/ubuntu/AssetGuard/repo_results/cloud-server-backup-service (Dauer: 1m 12s)
+processed_files=22
+flagged_files=22
+row_count=22
+duration_seconds=72
+duration_human=1m 12s

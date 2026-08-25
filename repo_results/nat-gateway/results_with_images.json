@@ -158,7 +158,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -190,7 +190,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -616,7 +616,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -678,7 +678,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1214,7 +1214,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1618,7 +1618,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1712,20 +1712,65 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/private_nat_gateways/managing_transit_ip_addresses/releasing_a_transit_ip_address.rst",
+        "image_path": "/home/ubuntu/repotesting/nat-gateway/umn/source/_static/images/en-us_image_0000002118113858.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which semantically matches the instruction to select a region."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/private_nat_gateways/managing_transit_ip_addresses/releasing_a_transit_ip_address.rst",
+        "image_path": "/home/ubuntu/repotesting/nat-gateway/umn/source/_static/images/en-us_image_0000002015300802.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which is the standard graphical symbol for expanding a service list or navigation menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/private_nat_gateways/managing_transit_ip_addresses/viewing_a_transit_ip_address.rst",
@@ -1764,20 +1809,87 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 0,
+      "pass": 3,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/private_nat_gateways/managing_transit_ip_addresses/viewing_a_transit_ip_address.rst",
+        "image_path": "/home/ubuntu/repotesting/nat-gateway/umn/source/_static/images/en-us_image_0000002120571897.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the details page for a transit IP address, directly matching the figure caption and step 6 of the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/private_nat_gateways/managing_transit_ip_addresses/viewing_a_transit_ip_address.rst",
+        "image_path": "/home/ubuntu/repotesting/nat-gateway/umn/source/_static/images/en-us_image_0000002118113858.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a location pin icon, which aligns with the instruction to select a region and project in step 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/private_nat_gateways/managing_transit_ip_addresses/viewing_a_transit_ip_address.rst",
+        "image_path": "/home/ubuntu/repotesting/nat-gateway/umn/source/_static/images/en-us_image_0000002015300802.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, consistent with expanding the service list to navigate to NAT Gateway in step 3."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/private_nat_gateways/overview_of_private_nat_gateways.rst",
@@ -1826,7 +1938,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1972,7 +2084,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2014,7 +2126,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2076,7 +2188,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2366,7 +2478,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,

@@ -80,11 +80,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -112,11 +112,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -144,11 +144,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -176,44 +176,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001126336076.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart illustrating the steps to get started with Log Tank Service, which matches the document's overview.",
-          "It visually depicts the process of creating log groups, installing ICAgent, and ingesting logs as described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/granting_lts_permissions_to_iam_users.rst",
@@ -232,11 +208,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -324,11 +300,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 7
     },
@@ -376,11 +352,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -418,65 +394,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_alarms/configuring_log_alarm_rules.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002190046046.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard copy icon (overlapping documents), which aligns with the RST instruction to copy an alarm rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_alarms/configuring_log_alarm_rules.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002225246441.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard trash can icon, which aligns with the RST instruction to delete an alarm rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_alarms/viewing_alarms_in_lts.rst",
@@ -495,11 +426,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -527,11 +458,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -579,90 +510,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_ingestion/using_icagent_to_collect_host_logs/ingesting_cce_application_logs_to_lts.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001992588517.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the LTS console UI for Step 1, showing the 'Custom log stream' selection tab highlighted in magenta.",
-          "It directly corresponds to the RST description of selecting a collection mode between Fixed and Custom log streams."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_ingestion/using_icagent_to_collect_host_logs/ingesting_cce_application_logs_to_lts.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002224771849.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon representing two overlapping documents.",
-          "It matches the RST instruction to click this icon to copy an ingestion configuration in the batch setup section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_ingestion/using_icagent_to_collect_host_logs/ingesting_cce_application_logs_to_lts.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002189491442.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon of a trash can.",
-          "It matches the RST instruction to click this icon to delete an ingestion configuration in the batch setup section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_ingestion/using_icagent_to_collect_host_logs/ingesting_ecs_text_logs_to_lts.rst",
@@ -691,65 +552,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_ingestion/using_icagent_to_collect_host_logs/ingesting_ecs_text_logs_to_lts.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002224771849.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard copy icon, which aligns with the RST instruction to click this icon to copy an ingestion configuration."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_ingestion/using_icagent_to_collect_host_logs/ingesting_ecs_text_logs_to_lts.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002189491442.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard trash can icon, which aligns with the RST instruction to click this icon to delete an ingestion configuration."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_management/managing_log_groups.rst",
@@ -798,113 +614,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_management/managing_log_groups.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001748544704.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a tooltip that appears when hovering over a log group name.",
-          "It matches the description in the 'Modifying a Log Group' section, clearly showing the name, original name, and ID."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/managing_log_groups.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002178924481.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Delete Log Group' confirmation dialog.",
-          "It includes the warning message, log group details, the 'DELETE' text input field, and the magenta 'OK' button as described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/managing_log_groups.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001748704148.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a dropdown menu for search filters.",
-          "It lists the exact filter criteria mentioned in the 'Searching Log Groups/Streams' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/managing_log_groups.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002444585646.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a download icon.",
-          "It corresponds to the |image1| reference in the 'Other Operations' section for downloading log group information."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_management/managing_log_streams.rst",
@@ -953,115 +676,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 2,
-      "partial": 1,
-      "fail": 1
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_management/managing_log_streams.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002009165089.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive controls are blue links, not magenta or plain white, and no magenta elements are present.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Clearly shows the 'Create Log Stream' form with all fields mentioned in Table 1.",
-          "Directly illustrates step 3 of the 'Creating a Log Stream' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/log_management/managing_log_streams.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002178926601.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows a tooltip displaying the log stream name, original name, and ID.",
-          "Matches the description in step 4 of the 'Modifying a Log Stream' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/managing_log_streams.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002143725958.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Displays the 'Delete Log Stream' confirmation dialog.",
-          "Illustrates the warning message, stream details table, and the text input field requiring 'DELETE' as described in step 2 of 'Deleting a Log Stream'."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/managing_log_streams.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001217758588.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows a downward-pointing chevron icon.",
-          "Corresponds to the `|image1|` reference in step 2, used to expand the log group list."
-        ],
-        "missing_evidence": [
-          "Lacks surrounding UI context to show the full navigation path or log group list."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_management/managing_tags.rst",
@@ -1120,136 +748,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_management/managing_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002143569266.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the RST description of the tag editing interface for log groups.",
-          "Shows the correct UI elements including the magenta OK button and white Cancel button."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/managing_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002143569402.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the RST description of the tag editing interface for log streams.",
-          "Shows the correct UI elements including the magenta OK button and white Cancel button."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/managing_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001658469148.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Correctly represents the edit/pencil icon referenced in the RST for clicking to edit tags.",
-          "Matches the visual style of UI icons in the management console."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/managing_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001706749901.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Correctly represents the expand/collapse chevron icon referenced in the RST.",
-          "Matches the visual style of UI icons in the management console."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/managing_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001706710657.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Correctly represents the edit/pencil icon referenced in the RST for clicking to edit tags on a log stream.",
-          "Matches the visual style of UI icons in the management console."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_management/viewing_log_management.rst",
@@ -1288,87 +800,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_management/viewing_log_management.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001924750594.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image clearly shows the 'Recently Visited' UI section with two log stream entries, directly matching the RST description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/viewing_log_management.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002444746482.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a download icon, which corresponds to the RST instruction to click the icon to download resource statistics."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/viewing_log_management.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001924750582.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a downward chevron icon, matching the RST instruction to click the icon next to a log group in the Log Groups list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_search_and_analysis/configuring_log_indexing.rst",
@@ -1397,65 +842,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_search_and_analysis/configuring_log_indexing.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001955235130.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a gear/cog icon, which visually represents the 'settings' function mentioned in the text for accessing the Index Settings tab page."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/configuring_log_indexing.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001991154261.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a trash can icon, which visually represents the 'delete' action described in the text for removing a target field."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_search_and_analysis/searching_logs/creating_a_quick_analysis_task.rst",
@@ -1514,11 +914,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
@@ -1566,90 +966,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/saving_search_and_analysis_statements.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001612861593.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a floppy disk icon, which is the universal symbol for saving.",
-          "This directly corresponds to the RST instruction to save a quick search statement."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/saving_search_and_analysis_statements.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002282520389.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a pencil icon, which is the standard symbol for editing or modifying content.",
-          "This aligns perfectly with the RST context of modifying a quick search statement."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/saving_search_and_analysis_statements.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002282400489.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image features a trash can icon, universally recognized as the symbol for deletion.",
-          "This matches the RST instruction for deleting a quick search statement."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
@@ -1848,439 +1178,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 19
     },
     "summary": {
-      "pass": 19,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002411002378.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a pencil icon, which matches the RST description for editing a layout's display name."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002411162230.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a trash can icon, which matches the RST description for deleting a layout."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001561940610.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a box/document icon, which matches the RST description for creating a quick search."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001421609924.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a share icon, which matches the RST description for sharing logs by copying a link."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001481236306.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a refresh icon with a dropdown, which matches the RST description for refreshing logs."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001262546024.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a copy icon, which matches the RST description for copying log content."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001262546228.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a document with a magnifying glass, which matches the RST description for viewing log context."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000002018849674.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is an ellipsis icon, which matches the RST description for accessing more operations."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001611940613.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is an unfold/expand icon, which matches the RST description for displaying all log content."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001612061257.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a fold/collapse icon, which matches the RST description for folding log content."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001474530441.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a download icon, which matches the RST description for downloading logs."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001612024421.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows up/down arrows with lines, which matches the RST description for setting the number of displayed log lines."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001611907193.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hide icon with a dropdown, which matches the RST description for hiding log content."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001410398388.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a gear/settings icon, which matches the RST description for accessing JSON formatting options."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001608069337.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a gear/settings icon, which matches the RST description for accessing collapse configuration options."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001674961080.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a gear/settings icon, which matches the RST description for accessing log time display settings."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001809715517.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a gear/settings icon, which matches the RST description for accessing virtual scrolling settings."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001316788136.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is an eye-off icon, which matches the RST description for the invisible fields list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/searching_for_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001320576858.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is an eye-off icon, which matches the RST description for the invisible fields button."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_search_and_analysis/searching_logs/using_search_syntax.rst",
@@ -2299,45 +1210,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_search_and_analysis/searching_logs/using_search_syntax.rst",
-        "image_path": "/home/ubuntu/repotesting/log-tank-service/umn/source/_static/images/en-us_image_0000001580789472.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a JSON-formatted log sample containing fields like request_method, status, and request_time.",
-          "It directly corresponds to the 'Log sample' figure referenced in the 'Search Statement Examples' section.",
-          "The data in the image aligns with the search examples provided in Table 4."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_search_and_analysis/setting_cloud_structuring_parsing/setting_cloud_structuring_parsing.rst",
@@ -2386,11 +1272,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -2418,11 +1304,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2450,11 +1336,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },

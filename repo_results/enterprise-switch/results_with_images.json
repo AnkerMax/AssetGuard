@@ -26,65 +26,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly corresponds to the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/cloud_eye_monitoring/viewing_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002384432926.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which is a standard UI symbol for opening a service list or navigation menu as described in the procedure."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/cloud_eye_monitoring/viewing_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001820780384.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/enterprise_switches/creating_an_enterprise_switch.rst",
@@ -123,87 +78,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/enterprise_switch/creating_an_enterprise_switch.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create Enterprise Switch' form, directly illustrating the parameters listed in Table 1 and the figure caption."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/enterprise_switch/creating_an_enterprise_switch.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the location pin icon referenced in step 2 for selecting the region."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/enterprise_switch/creating_an_enterprise_switch.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the hamburger menu icon referenced in step 3 to open the service list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/enterprise_switches/deleting_an_enterprise_switch.rst",
@@ -232,65 +120,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/enterprise_switches/deleting_an_enterprise_switch.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326742.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/enterprise_switches/deleting_an_enterprise_switch.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317986.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which aligns with the RST instruction to open the service list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/enterprise_switches/modifying_an_enterprise_switch.rst",
@@ -569,7 +412,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -947,7 +790,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -979,7 +822,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,

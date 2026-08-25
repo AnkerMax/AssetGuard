@@ -68,7 +68,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -434,7 +434,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -476,7 +476,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1152,7 +1152,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": null,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1204,7 +1204,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": null,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1256,7 +1256,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": null,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1318,7 +1318,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1402,7 +1402,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2270,11 +2270,11 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 3
     },
@@ -2322,20 +2322,93 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 0,
+      "pass": 3,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_2_create_a_subnet_for_the_vpc.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002029182980.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the 'Create Subnet' page, directly matching the figure reference and step 6 in the document.",
+          "It clearly displays all the parameters listed in Table 1, such as Region, VPC, Subnet Name, and CIDR blocks.",
+          "The UI layout and fields align perfectly with the procedural instructions."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_2_create_a_subnet_for_the_vpc.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a location pin icon, which corresponds to |image1| used in step 2.",
+          "It correctly illustrates the UI element for selecting the region and project as described in the procedure.",
+          "The icon is standard and clearly matches the context of region selection."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_2_create_a_subnet_for_the_vpc.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983298.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, matching |image2| referenced in step 3.",
+          "It accurately represents the navigation menu icon used to access the Network and Virtual Private Cloud services.",
+          "The visual matches the procedural step for opening the service catalog."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_3_assign_an_eip_and_bind_it_to_an_ecs.rst",
@@ -2384,20 +2457,115 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 0,
+      "pass": 4,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_3_assign_an_eip_and_bind_it_to_an_ecs.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823034.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the 'Assign EIP' form, directly matching the documentation's Step 3 instructions.",
+          "All form fields (Region, EIP Type, Billed By, Bandwidth, etc.) correspond to the parameter table in the text.",
+          "The 'Create Now' button is magenta, complying with the UI color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_3_assign_an_eip_and_bind_it_to_an_ecs.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002065116093.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Bind EIP' dialog, matching the 'Binding an EIP' section of the document.",
+          "It displays the instance selection table and the 'OK' button, which aligns with the instructions to select an instance and click OK.",
+          "The 'OK' button is magenta, satisfying the interactive button color requirement."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_3_assign_an_eip_and_bind_it_to_an_ecs.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, which corresponds to |image1| used in step 2 to select the region.",
+          "It visually represents the UI element referenced in the instructions."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_3_assign_an_eip_and_bind_it_to_an_ecs.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982822.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon, corresponding to |image2| used in step 3 to open the service menu.",
+          "It matches the visual cue described for accessing the Network > Elastic IP path."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_4_create_a_security_group.rst",
@@ -2436,20 +2604,94 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 0,
-      "partial": 0,
+      "pass": 1,
+      "partial": 2,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_4_create_a_security_group.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002065211017.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Create Security Group' form matching the RST figure and description.",
+          "The 'OK' button is magenta, satisfying the UI color rule for interactive elements."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_4_create_a_security_group.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin icon used in step 2 to select region and project.",
+          "Matches the procedural instruction to click an icon in the upper left corner."
+        ],
+        "missing_evidence": [
+          "Full UI context is not visible, only the isolated icon."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_4_create_a_security_group.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865582681.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon used in step 3 to open the navigation pane.",
+          "Matches the procedural instruction to click an icon to choose Network > Virtual Private Cloud."
+        ],
+        "missing_evidence": [
+          "Full UI context is not visible, only the isolated icon."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
   },
   {
     "file_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_5_add_a_security_group_rule.rst",
@@ -2498,20 +2740,111 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 0,
+      "pass": 4,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_5_add_a_security_group_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002065205609.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Add Inbound Rule' dialog box as described in the RST document.",
+          "It contains the expected fields and a magenta 'OK' button."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_5_add_a_security_group_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002065206257.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Add Outbound Rule' dialog box as described in the RST document.",
+          "It contains the expected fields and a magenta 'OK' button."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_5_add_a_security_group_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the location pin icon referenced in the RST for selecting the region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_access_the_internet_using_eips/step_5_add_a_security_group_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823082.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the hamburger menu icon referenced in the RST for accessing the Network > Virtual Private Cloud menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/getting_started/configuring_a_vpc_for_ecss_that_do_not_require_internet_access/overview.rst",
@@ -2530,7 +2863,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2686,7 +3019,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2748,7 +3081,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2780,7 +3113,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2822,7 +3155,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2864,7 +3197,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -3480,7 +3813,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -3532,7 +3865,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -4160,90 +4493,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Directly corresponds to Figure 1, illustrating the Shared SNAT architecture.",
-          "Clearly depicts the SNAT device, VPCs, subnets, and ECS instances with their connection to the Internet."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/service_overview/basic_concepts/shared_snat.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983170.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 2, showing the UI for managing security group outbound rules.",
-          "Visually confirms the default outbound rule with destination 0.0.0.0/0 that needs to be deleted as described in the text."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/service_overview/basic_concepts/shared_snat.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865663121.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 3, illustrating the configuration of a new outbound rule.",
-          "Clearly shows the specific rule allowing TCP traffic on port 22 to the 192.168.10.0/24 CIDR block as instructed."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/service_overview/basic_concepts/shared_snat.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823386.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/basic_concepts/virtual_ip_address.rst",
@@ -4272,11 +4535,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -4304,46 +4567,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/basic_concepts/vpc_peering_connection.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983018.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a network diagram that accurately illustrates the VPC peering connection concept described in the text.",
-          "It correctly shows VPC-A and VPC-B in the same region connected by a peering link, along with the specified ECS and RDS instances.",
-          "The route tables and subnet configurations in the diagram match the details provided in the document.",
-          "There are no contradictions or missing visual elements relative to the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/document_usage_instructions.rst",
@@ -4362,11 +4599,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4394,45 +4631,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/product_advantages.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983218.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a network architecture diagram that visually represents the logical isolation of VPCs.",
-          "It explicitly shows security components like Network ACLs and Security Groups, aligning with the 'Secure and Reliable' section.",
-          "The text 'VPCs are isolated from each other by default' in the diagram directly matches the document's description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/region_and_az.rst",
@@ -4451,11 +4663,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4483,11 +4695,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4560,13 +4772,31 @@
     },
     "results": [
       {
+        "image_kind": "screenshot",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Figure 1 in the RST document for adding an EIP.",
+          "Clearly shows the 'EIP' tab selected and the list of available Elastic IP addresses.",
+          "Contains interactive buttons ('OK' and 'Cancel') that are magenta and plain white respectively."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
         "document_path": "umn/source/shared_bandwidth/adding_eips_to_a_shared_bandwidth.rst",
         "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002065101369.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
         "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -4575,21 +4805,22 @@
           "contradictions": 3
         },
         "reasons": [
-          "Screenshot shows the 'Add Public IP Address' dialog for selecting EIPs.",
-          "Directly illustrates step 5 of the procedure for adding EIPs to a shared bandwidth."
+          "Matches Figure 2 in the RST document for adding an IPv6 address.",
+          "Clearly shows the 'IPv6 Address' tab selected and the VPC/Subnet selection fields.",
+          "Contains interactive buttons ('OK' and 'Cancel') that are magenta and plain white respectively."
         ],
         "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
         "document_path": "umn/source/shared_bandwidth/adding_eips_to_a_shared_bandwidth.rst",
         "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002065187445.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -4598,44 +4829,21 @@
           "contradictions": 3
         },
         "reasons": [
-          "Screenshot shows the 'Add Public IP Address' dialog for selecting IPv6 addresses.",
-          "Directly illustrates Figure 2 and step 5 of the procedure for adding IPv6 addresses."
+          "Matches the region selection icon described in step 2 of the procedure.",
+          "Correctly depicts the location pin symbol used to select region and project."
         ],
         "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
         "document_path": "umn/source/shared_bandwidth/adding_eips_to_a_shared_bandwidth.rst",
         "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon represents the region selector mentioned in step 2.",
-          "Visually matches the UI element for selecting region and project."
-        ],
-        "missing_evidence": [],
         "overall_score": 1.0,
         "verdict": "pass"
       },
       {
-        "document_path": "umn/source/shared_bandwidth/adding_eips_to_a_shared_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982822.png",
         "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -4644,10 +4852,16 @@
           "contradictions": 3
         },
         "reasons": [
-          "Icon represents the navigation menu mentioned in step 3.",
-          "Visually matches the UI element for opening the service menu."
+          "Matches the menu icon described in step 3 of the procedure.",
+          "Correctly depicts the hamburger menu symbol used to access the Network > Elastic IP path."
         ],
         "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "document_path": "umn/source/shared_bandwidth/adding_eips_to_a_shared_bandwidth.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982822.png",
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -4692,91 +4906,18 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 1,
-      "partial": 2,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/shared_bandwidth/assigning_a_shared_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865582577.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Assign Shared Bandwidth' page, directly corresponding to step 5.",
-          "It displays all parameters mentioned in Table 1: Region, Bandwidth, Name, and Enterprise Project.",
-          "The 'Assign Now' button is magenta, consistent with the UI style."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/shared_bandwidth/assigning_a_shared_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a location pin icon, used in step 2 to select the region and project.",
-          "The icon is small and low-resolution, limiting detail visibility.",
-          "It semantically matches the action of selecting a geographic region."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/shared_bandwidth/assigning_a_shared_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982822.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a hamburger menu icon, used in step 3 to open the navigation menu.",
-          "The icon is small and low-resolution.",
-          "It semantically matches the action of accessing the menu to choose 'Network' > 'Elastic IP'."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/shared_bandwidth/deleting_a_shared_bandwidth.rst",
@@ -4807,7 +4948,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -4829,16 +4970,16 @@
         "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
-          "detail_match": 2,
+          "detail_match": 3,
           "section_relevance": 3,
           "visual_evidence": 3,
           "contradictions": 3
         },
         "reasons": [
-          "The image shows a location pin icon, which aligns with the instruction to select a region and project."
+          "The image shows a location pin icon, which semantically matches the instruction to select a region and project."
         ],
         "missing_evidence": [],
-        "overall_score": 0.93,
+        "overall_score": 1.0,
         "verdict": "pass"
       },
       {
@@ -4851,16 +4992,16 @@
         "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
-          "detail_match": 2,
+          "detail_match": 3,
           "section_relevance": 3,
           "visual_evidence": 3,
           "contradictions": 3
         },
         "reasons": [
-          "The image shows a hamburger menu icon, which aligns with the instruction to open the main menu and choose Network."
+          "The image displays a hamburger menu icon, which is a standard UI symbol for opening a navigation menu to select services like Network."
         ],
         "missing_evidence": [],
-        "overall_score": 0.93,
+        "overall_score": 1.0,
         "verdict": "pass"
       }
     ]
@@ -4901,58 +5042,11 @@
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/shared_bandwidth/exporting_shared_bandwidths.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly corresponds to the RST instruction to select a region and project.",
-          "The symbol is a standard UI pictogram for location/region selection, perfectly matching the documented step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/shared_bandwidth/exporting_shared_bandwidths.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982822.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which aligns with the RST step of opening a navigation menu to choose Network.",
-          "The graphic is a standard UI symbol for accessing side menus, directly supporting the procedure described in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/shared_bandwidth/modifying_a_shared_bandwidth.rst",
@@ -5043,90 +5137,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 502,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/shared_bandwidth/removing_eips_from_a_shared_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002065190509.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'Remove Public IP Address' dialog box mentioned in step 5.",
-          "The 'OK' button is magenta, satisfying the interactive button color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/shared_bandwidth/removing_eips_from_a_shared_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon.",
-          "This aligns with step 2, which instructs the user to click this icon to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/shared_bandwidth/removing_eips_from_a_shared_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982822.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon.",
-          "This matches step 3, where the user clicks this icon to access the service menu (Network > Elastic IP)."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/virtual_ip_address/assigning_a_virtual_ip_address.rst",
@@ -5165,90 +5189,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 1,
-      "partial": 2,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/virtual_ip_address/assigning_a_virtual_ip_address.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002029118468.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'Assign Virtual IP Address' dialog, directly illustrating step 6 of the procedure.",
-          "Visible fields for IP Address Version and Assignment Mode match the configuration options described in steps 7-9."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/assigning_a_virtual_ip_address.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which is the standard symbol for region selection in cloud management consoles.",
-          "It corresponds to step 2, where the user is instructed to click this icon to select the desired region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/assigning_a_virtual_ip_address.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865663157.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a hamburger menu icon, typically used to open the main service catalog or navigation menu.",
-          "It aligns with step 3, instructing the user to click this icon to navigate to Network > Virtual Private Cloud."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/virtual_ip_address/binding_a_virtual_ip_address_to_an_eip.rst",
@@ -5277,71 +5231,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
       "pass": 0,
-      "partial": 2,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/virtual_ip_address/binding_a_virtual_ip_address_to_an_eip.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the instruction to select a region and project in step 2.",
-          "The icon is a standard UI symbol for location or region selection."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/binding_a_virtual_ip_address_to_an_eip.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865582665.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the instruction to click the menu in the upper left corner in step 3.",
-          "The icon is a standard UI symbol for opening a navigation menu."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/virtual_ip_address/binding_a_virtual_ip_address_to_an_eip_or_ecs.rst",
@@ -5420,184 +5323,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 7
     },
     "summary": {
-      "pass": 3,
-      "partial": 2,
-      "fail": 2
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/virtual_ip_address/binding_a_virtual_ip_address_to_an_eip_or_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823142.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (OK, Cancel) are blue/gray, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 1 in RST for configuring private IP address on Windows.",
-          "Shows standard Windows IPv4 properties dialog."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/binding_a_virtual_ip_address_to_an_eip_or_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982934.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (Add, OK, Cancel) are blue/gray, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 2 in RST for configuring virtual IP address on Windows.",
-          "Shows advanced TCP/IP settings dialog."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/binding_a_virtual_ip_address_to_an_eip_or_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 1,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches |image1| reference in RST step 2.",
-          "Icon likely represents region/project selector or menu."
-        ],
-        "missing_evidence": [
-          "Icon is generic, exact UI context not fully visible."
-        ],
-        "overall_score": 0.65,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/binding_a_virtual_ip_address_to_an_eip_or_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865582673.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches |image2| reference in RST step 3.",
-          "Hamburger menu icon used to access Network > VPC."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/binding_a_virtual_ip_address_to_an_eip_or_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982930.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches |image3| reference in RST step 1.",
-          "Shows terminal output of 'nmcli connection' command."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/binding_a_virtual_ip_address_to_an_eip_or_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865582677.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches |image4| reference in RST step 3.",
-          "Shows terminal output confirming 'nmcli connection up' success."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/binding_a_virtual_ip_address_to_an_eip_or_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823138.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches |image5| reference in RST step 4.",
-          "Shows terminal output of 'ip a' with virtual IP bound to eth0."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/virtual_ip_address/disabling_source_and_destination_check_ha_load_balancing_cluster_scenario.rst",
@@ -5626,11 +5365,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -5668,65 +5407,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/virtual_ip_address/releasing_a_virtual_ip_address.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which corresponds to the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/releasing_a_virtual_ip_address.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983414.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which corresponds to the instruction to open the main navigation menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/virtual_ip_address/unbinding_a_virtual_ip_address_from_an_eip.rst",
@@ -5755,65 +5449,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the RST instruction to click it for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/virtual_ip_address/unbinding_a_virtual_ip_address_from_an_eip.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the RST step to click it in the upper left corner to access the Network and Virtual Private Cloud options."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/virtual_ip_address/unbinding_a_virtual_ip_address_from_an_eip.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823302.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/virtual_ip_address/unbinding_a_virtual_ip_address_from_an_instance.rst",
@@ -5852,91 +5501,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 1,
-      "partial": 2,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/virtual_ip_address/unbinding_a_virtual_ip_address_from_an_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982758.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'IP Addresses' tab and the 'Unbind from Server' option in the Operation column, which directly corresponds to steps 6 and 7 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/unbinding_a_virtual_ip_address_from_an_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The icon resembles a location pin, which semantically aligns with the instruction to select a region and project."
-        ],
-        "missing_evidence": [
-          "The icon is low resolution and generic."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/unbinding_a_virtual_ip_address_from_an_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002456862761.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The hamburger menu icon is a standard UI element for accessing main navigation, consistent with the instruction to choose Network > Virtual Private Cloud."
-        ],
-        "missing_evidence": [
-          "The icon is low resolution."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/virtual_ip_address/virtual_ip_address_overview.rst",
@@ -5965,67 +5543,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/virtual_ip_address/virtual_ip_address_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865663033.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram accurately depicts the active/standby HA mode with Keepalived as described in the text.",
-          "Clearly shows the VIP bound to two ECSs in the same subnet."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/virtual_ip_address/virtual_ip_address_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865663537.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram correctly illustrates the HA load balancing cluster with LVS nodes and backend servers as described.",
-          "Shows client traffic routing through VIP to active/standby LVS nodes and backend servers."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/subnet/creating_a_subnet_for_the_vpc.rst",
@@ -6064,11 +5595,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -6106,11 +5637,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -6158,11 +5689,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -6200,65 +5731,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/exporting_subnets.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which semantically aligns with the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/exporting_subnets.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865583297.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which matches the instruction to click it to access the Network menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/subnet/managing_subnet_tags.rst",
@@ -6307,93 +5793,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/managing_subnet_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which corresponds to the step of selecting a region and project in the management console."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/managing_subnet_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983406.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, standard for opening navigation menus in cloud consoles, matching the step to choose Network > VPC."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/managing_subnet_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865583165.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon used for navigation, consistent with the procedure step for selecting region and project."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/subnet/modifying_a_subnet.rst",
@@ -6432,87 +5845,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/modifying_a_subnet.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/modifying_a_subnet.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823766.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which aligns with the RST step to open a navigation menu to access Network settings."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/modifying_a_subnet.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865583301.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image features a pencil/edit icon, which directly corresponds to the RST instruction to modify a parameter on the Summary tab."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/subnet/viewing_and_deleting_resources_in_a_subnet.rst",
@@ -6561,114 +5907,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/viewing_and_deleting_resources_in_a_subnet.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823010.png",
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the subnet details page.",
-          "It clearly displays the 'Resources' and 'Networking Components' areas described in step 6.",
-          "Matches the figure caption 'Viewing resources in a subnet'."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/viewing_and_deleting_resources_in_a_subnet.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a location pin icon.",
-          "It corresponds to |image1| used in step 2 for selecting the region and project."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/viewing_and_deleting_resources_in_a_subnet.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865662745.png",
-        "image_kind": "icon",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a hamburger menu icon.",
-          "It corresponds to |image2| used in step 3 to open the service catalog for selecting Network > VPC."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/viewing_and_deleting_resources_in_a_subnet.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982794.png",
-        "image_kind": "icon",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a left-pointing arrow icon.",
-          "It corresponds to |image3| used in step 7.b to return to the NAT gateway list."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/subnet/viewing_ip_addresses_in_a_subnet.rst",
@@ -6697,69 +5949,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/viewing_ip_addresses_in_a_subnet.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the RST instruction to click it for region selection."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/subnet/viewing_ip_addresses_in_a_subnet.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983610.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the RST instruction to click it to access the navigation menu."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/vpc/adding_a_secondary_ipv4_cidr_block_to_a_vpc.rst",
@@ -6788,65 +5991,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/adding_a_secondary_ipv4_cidr_block_to_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983054.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a location pin icon, which aligns with the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/adding_a_secondary_ipv4_cidr_block_to_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865663001.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a hamburger menu icon, which matches the RST instruction to open a navigation menu to select Network > Virtual Private Cloud."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/vpc/creating_a_vpc_with_a_subnet.rst",
@@ -6885,11 +6043,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -6927,67 +6085,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/deleting_a_secondary_ipv4_cidr_block_from_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823194.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the RST instruction to click an icon to select a region and project.",
-          "The visual is a clear, isolated symbolic graphic suitable for a UI icon."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/deleting_a_secondary_ipv4_cidr_block_from_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865582729.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the RST description of clicking an icon to open a navigation menu.",
-          "The icon is clearly visible and semantically relevant to the step of choosing Network > Virtual Private Cloud."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/vpc/deleting_a_vpc.rst",
@@ -7016,65 +6127,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/deleting_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically aligns with the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/deleting_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865663509.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which corresponds to the step of opening a navigation menu to select Network."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/vpc/exporting_vpcs.rst",
@@ -7103,11 +6169,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -7165,93 +6231,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/managing_vpc_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the instruction to select a region and project."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/managing_vpc_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865583185.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, corresponding to the instruction to open the menu and navigate to Network > Virtual Private Cloud."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/managing_vpc_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983426.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which aligns with the instruction to click the menu in the upper left corner to select a region and project."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/vpc/modifying_a_vpc.rst",
@@ -7330,175 +6323,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 7,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/modifying_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/modifying_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823402.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the RST step to open the main menu and navigate to Network."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/modifying_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823394.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pencil/edit icon, which aligns with the RST instruction to click the edit button next to a VPC name."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/modifying_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865663133.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a pencil/edit icon, consistent with the RST context of editing VPC name or description fields."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/modifying_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983186.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a checkmark icon, matching the RST instruction to click the confirmation/OK button after entering information."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/modifying_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, correctly representing the region selection step in the CIDR block modification section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/modifying_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865663129.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the RST instruction to open the menu and navigate to Virtual Private Cloud."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/vpc/obtaining_a_vpc_id.rst",
@@ -7537,93 +6375,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/obtaining_a_vpc_id.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865582937.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/obtaining_a_vpc_id.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983198.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the RST step to open the main navigation menu."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/obtaining_a_vpc_id.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983194.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image depicts a copy icon, which corresponds to the RST instruction to copy the VPC ID."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_and_subnet/vpc/viewing_a_vpc_topology.rst",
@@ -7652,65 +6417,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/viewing_a_vpc_topology.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865662737.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_and_subnet/vpc/viewing_a_vpc_topology.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982798.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which aligns with the RST instruction to open a menu to select Network."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_flow_log/creating_a_vpc_flow_log.rst",
@@ -7749,90 +6469,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_flow_log/creating_a_vpc_flow_log.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002028956040.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the 'Create VPC Flow Log' form described in step 5.",
-          "Shows the UI for configuring VPC flow log parameters."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_flow_log/creating_a_vpc_flow_log.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the icon used in step 2 for selecting region and project.",
-          "Clearly depicts the location pin symbol."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_flow_log/creating_a_vpc_flow_log.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865663109.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the icon used in step 3 for opening the main navigation menu.",
-          "Clearly depicts the hamburger menu symbol."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_flow_log/deleting_a_vpc_flow_log.rst",
@@ -7871,11 +6521,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -7913,20 +6563,65 @@
       }
     ],
     "status": {
-      "http_status": 500,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
       "pass": 0,
-      "partial": 0,
+      "partial": 2,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/vpc_flow_log/enabling_or_disabling_vpc_flow_log.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which semantically matches the procedure step for selecting a region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/vpc_flow_log/enabling_or_disabling_vpc_flow_log.rst",
+        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983174.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, consistent with the instruction to click it to access the Network and Virtual Private Cloud navigation options."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
   },
   {
     "file_path": "umn/source/vpc_flow_log/viewing_a_vpc_flow_log.rst",
@@ -7977,7 +6672,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -8005,8 +6700,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Shows the VPC Flow Logs console page matching the procedure.",
-          "Contains a magenta 'Create VPC Flow Log' button, satisfying the color rule."
+          "The image displays the VPC Flow Logs list page, matching the procedure step to locate the target flow log.",
+          "The prominent 'Create VPC Flow Log' button is magenta, satisfying the color rule for interactive elements."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -8019,7 +6714,7 @@
         "contains_interactive_buttons": true,
         "buttons_magenta": false,
         "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are gray and no magenta buttons or text are visible.",
+        "hard_fail_reason": "Interactive buttons (e.g., Save as Quick Search, Execute Quick Search) are not magenta or plain white, and no other magenta buttons or text are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -8028,8 +6723,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Displays the detailed log record view as described in the text.",
-          "Fails mandatory color rule: buttons are gray and no magenta elements are present."
+          "The image shows the detailed flow log record view, aligning with Figure 2 and the described log format.",
+          "Hard fail triggered due to non-compliant button colors."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -8051,7 +6746,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Location pin icon correctly represents the region selector mentioned in step 2."
+          "The icon depicts a location pin, which corresponds to the region selector mentioned in procedure step 2.",
+          "Visual evidence directly supports the textual instruction to select a region and project."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -8073,7 +6769,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Hamburger menu icon correctly represents the navigation menu mentioned in step 3."
+          "The icon shows a hamburger menu, matching the service navigation menu referenced in procedure step 3.",
+          "Visual evidence aligns with the instruction to click the menu to choose Network > Virtual Private Cloud."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -8100,7 +6797,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -8272,131 +6969,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 3,
-      "partial": 2,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_peering_connection/creating_a_vpc_peering_connection_to_connect_two_vpcs_in_the_same_account.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865663449.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a networking diagram that accurately depicts the VPC peering connection scenario described in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/creating_a_vpc_peering_connection_to_connect_two_vpcs_in_the_same_account.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002029083886.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The screenshot shows the 'Create VPC Peering Connection' dialog box, matching Step 1 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/creating_a_vpc_peering_connection_to_connect_two_vpcs_in_the_same_account.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000002029103832.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The screenshot shows the 'Add Route' dialog box, matching Step 2 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/creating_a_vpc_peering_connection_to_connect_two_vpcs_in_the_same_account.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a location pin icon used in the management console to select the region, as described in Step 1."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/creating_a_vpc_peering_connection_to_connect_two_vpcs_in_the_same_account.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983506.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a hamburger menu icon used to open the navigation menu in the management console, as described in Step 1."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_peering_connection/deleting_a_vpc_peering_connection.rst",
@@ -8425,11 +7011,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -8487,87 +7073,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/vpc_peering_connection/deleting_routes_configured_for_a_vpc_peering_connection.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, consistent with the navigation step to access the Network section."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/vpc_peering_connection/deleting_routes_configured_for_a_vpc_peering_connection.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823058.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which supports the navigation instructions in the document."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/vpc_peering_connection/deleting_routes_configured_for_a_vpc_peering_connection.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865582593.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_peering_connection/modifying_a_vpc_peering_connection.rst",
@@ -8596,65 +7115,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_peering_connection/modifying_a_vpc_peering_connection.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly corresponds to the instruction for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/modifying_a_vpc_peering_connection.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865582893.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard hamburger menu icon, matching the step to open a navigation menu to select Network."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_peering_connection/modifying_routes_configured_for_a_vpc_peering_connection.rst",
@@ -8703,11 +7177,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -8795,7 +7269,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -8847,95 +7321,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 1,
-      "partial": 2,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_peering_connection/viewing_vpc_peering_connections.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865884494.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the VPC peering connection details page as described in the procedure.",
-          "Displays local and peer VPC information, status, and associated routes.",
-          "Matches the figure caption and step 5 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/viewing_vpc_peering_connections.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Small icon used in step 2 to select the region and project.",
-          "Low resolution but clearly a UI element."
-        ],
-        "missing_evidence": [
-          "Context of the icon within the full UI is not visible."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/viewing_vpc_peering_connections.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865663213.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Small icon used in step 3 to open the main navigation menu.",
-          "Low resolution but clearly a UI element."
-        ],
-        "missing_evidence": [
-          "Context of the icon within the full UI is not visible."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_peering_connection/vpc_peering_connection_overview.rst",
@@ -8974,95 +7373,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_peering_connection/vpc_peering_connection_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818983018.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a network diagram that exactly matches the description of Figure 1 in the RST document.",
-          "It correctly depicts VPC-A and VPC-B in Region A connected via peering-AB.",
-          "It shows the ECS instances in VPC-A and RDS instances in VPC-B as described.",
-          "Route tables for both VPCs are correctly illustrated with the peering connection as the next hop."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/vpc_peering_connection_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823678.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that matches the description of Figure 2 in the RST document.",
-          "It illustrates the process of creating a VPC peering connection between VPCs in the same account.",
-          "The steps correctly show selecting VPCs, creating the connection, adding routes to both local and peer route tables, and verifying connectivity."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/vpc_peering_connection_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865583217.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that matches the description of Figure 3 in the RST document.",
-          "It illustrates the process of creating a VPC peering connection between VPCs in different accounts.",
-          "The flow correctly includes the decision step for the peer account accepting the request.",
-          "It shows that both the local and peer accounts add routes to their respective route tables."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/vpc_peering_connection/vpc_peering_connection_usage_examples.rst",
@@ -9131,176 +7455,19 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 6,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/vpc_peering_connection/vpc_peering_connection_usage_examples.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865662841.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a networking diagram corresponding to Figure 1 in the RST.",
-          "Correctly depicts VPC-A and VPC-B with non-overlapping CIDR blocks connected via a peering link.",
-          "Subnet and ECS identifiers match the RST text exactly."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/vpc_peering_connection_usage_examples.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982906.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a networking diagram corresponding to Figure 2 in the RST.",
-          "Correctly shows VPC-A, VPC-B, and VPC-C interconnected with non-overlapping CIDR blocks.",
-          "Peering relationships and subnet labels align perfectly with the RST description."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/vpc_peering_connection_usage_examples.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823110.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a networking diagram corresponding to Figure 3 in the RST.",
-          "Correctly illustrates a central VPC-A peered with multiple peripheral VPCs (B through G).",
-          "CIDR blocks and peering connection labels match the RST text exactly."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/vpc_peering_connection_usage_examples.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001865662833.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a networking diagram corresponding to Figure 4 in the RST.",
-          "Correctly depicts VPC-A and VPC-B with overlapping CIDR blocks (10.0.0.0/16).",
-          "Shows peering connection established only between non-overlapping subnets (A02 and B02), matching the RST scenario."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/vpc_peering_connection_usage_examples.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818823118.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a networking diagram corresponding to Figure 5 in the RST.",
-          "Correctly shows peering connections established between specific ECSs in overlapping VPCs.",
-          "ECS labels, subnet names, and private IP addresses match the RST description exactly."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/vpc_peering_connection/vpc_peering_connection_usage_examples.rst",
-        "image_path": "/home/ubuntu/repotesting/virtual-private-cloud/umn/source/_static/images/en-us_image_0000001818982898.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a networking diagram corresponding to Figure 6 in the RST.",
-          "Correctly depicts VPC-A and VPC-B with fully overlapping CIDR blocks and subnets.",
-          "The red 'X' over the peering link accurately represents the 'Invalid VPC Peering Connections' scenario described in the RST."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   }
 ]

@@ -184,65 +184,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 1,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cluster_federation/adding_labels_and_taints_to_a_cluster.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001568318244.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a tag icon, which semantically aligns with the 'Labels' functionality described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/cluster_federation/adding_labels_and_taints_to_a_cluster.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001568637180.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The plus icon visually represents the 'add' action specified in the instructions for adding labels or taints."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cluster_federation/configmaps_and_secrets/configmaps.rst",
@@ -261,43 +216,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cluster_federation/configmaps_and_secrets/configmaps.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001503824204.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a plus icon, which aligns with the instruction to add key-value pairs for ConfigMap data in the Creating a ConfigMap section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cluster_federation/enabling_cluster_federation.rst",
@@ -316,11 +248,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -358,65 +290,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cluster_federation/mci/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001756494569.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram accurately depicts the traffic flow from the internet through MCI to specific domains and clusters as described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/cluster_federation/mci/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001772226485.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram correctly illustrates the control plane and data plane components involved in the MCI Controller's working principle."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cluster_federation/mcs/north-south_mcs/overview.rst",
@@ -435,11 +322,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -477,69 +364,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cluster_federation/mcs/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001801477477.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram accurately illustrates the working principle of MCS as described in the text.",
-          "It correctly depicts the Control Plane, Cluster A, and Cluster B components, including the karmada-controller-manager, Service foo, and Endpoint Slice foo.",
-          "The data flow arrows align with the four-step process outlined in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/cluster_federation/mcs/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001749257256.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The flowchart precisely matches the four-step process of using MCS described in the document.",
-          "It correctly lists configuring networking, deploying workloads/services, creating an MCS object, and simulating cross-cluster access.",
-          "Sub-steps for networking and deployment align with the text's details."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cluster_federation/multi-cluster_workload_scaling/creating_an_hpa_policy_with_custom_metrics.rst",
@@ -568,69 +406,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cluster_federation/multi-cluster_workload_scaling/creating_an_hpa_policy_with_custom_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002527868302.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart illustrating the architecture for custom metrics in Kubernetes.",
-          "It accurately depicts the flow from Service Pod/Exporter to Prometheus, custom-metrics-apiserver, and finally to the HPA controller, matching the document's topic.",
-          "The components shown align with the steps described in the text (installing monitoring, registering API, modifying config, HPA policy)."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/cluster_federation/multi-cluster_workload_scaling/creating_an_hpa_policy_with_custom_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002558988139.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a JSON output snippet from the kubectl command described in Step 3.",
-          "It directly corresponds to the verification step, showing the expected result for the custom metric 'container_cpu_usage_core_per_second'.",
-          "It confirms the successful configuration of the custom metrics API as described in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cluster_federation/multi-cluster_workload_scaling/cronfederatedhpa/how_cronfederatedhpa_works.rst",
@@ -679,11 +468,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -711,11 +500,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -743,11 +532,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -795,90 +584,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cluster_federation/multi-cluster_workload_scaling/using_scaling_policies.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001770812128.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The flowchart accurately depicts the process for using FederatedHPA as outlined in the RST.",
-          "It correctly shows the sequence: preparation, installing metrics add-on, creating FederatedHPA, configuring scaling rate, and managing it."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/cluster_federation/multi-cluster_workload_scaling/using_scaling_policies.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001770629424.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The flowchart matches the RST description for using CronFederatedHPA separately.",
-          "It correctly omits the metrics add-on and scaling rate steps, focusing only on creation and management of the CronFederatedHPA."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/cluster_federation/multi-cluster_workload_scaling/using_scaling_policies.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001770644580.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The flowchart aligns with the RST section on using CronFederatedHPA and FederatedHPA together.",
-          "It correctly includes steps for both policies, metrics add-on installation, and managing both scaling policies."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cluster_federation/overview.rst",
@@ -897,7 +616,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -929,48 +648,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cluster_federation/services_and_ingresses/ingresses.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001834789605.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a toggle switch, which corresponds to the UI control for enabling 'Interconnect with Nginx'.",
-          "It is an isolated UI symbol rather than a full application screenshot.",
-          "It accurately represents the interactive element described in the documentation step."
-        ],
-        "missing_evidence": [
-          "The image does not show the surrounding interface context or labels.",
-          "The 'on' state of the toggle is not depicted."
-        ],
-        "overall_score": 0.93,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cluster_federation/services_and_ingresses/services/clusterip.rst",
@@ -999,65 +690,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a plus sign icon, matching the RST instruction to click it for configuring the service."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/cluster_federation/services_and_ingresses/services/clusterip.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001503984840.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a circular arrow icon, which aligns with the RST text instructing the user to click it to refresh the workload list."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/cluster_federation/services_and_ingresses/services/clusterip.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001554906629.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cluster_federation/services_and_ingresses/services/loadbalancer.rst",
@@ -1076,44 +722,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cluster_federation/services_and_ingresses/services/loadbalancer.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001554906629.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard blue circular arrow icon, which universally represents a refresh action.",
-          "This perfectly matches the RST instruction 'click |image1| to refresh it' located in the workload selection step of the 'Creating a Service' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cluster_federation/services_and_ingresses/services/nodeport.rst",
@@ -1142,65 +764,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a plus icon, which aligns with the RST instruction to click it to configure a service during workload creation."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/cluster_federation/services_and_ingresses/services/nodeport.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001554793633.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a refresh icon, which matches the RST instruction to click it to refresh the workload list when creating a service."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/cluster_federation/services_and_ingresses/services/nodeport.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001554906629.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cluster_federation/storage/creating_a_pvc.rst",
@@ -1219,11 +796,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1281,11 +858,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1315,7 +892,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -1357,7 +934,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -1373,10 +950,10 @@
         "document_path": "umn/source/cluster_federation/workloads/container_settings/configuring_a_scheduling_policy_affinity_anti-affinity.rst",
         "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001503659388.png",
         "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
         "hard_fail": false,
         "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -1385,8 +962,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Diagram illustrates node scheduling priority based on DISK=SSD and gpu=true labels.",
-          "Matches the 'Node Preference Rule' section description exactly."
+          "Illustrates node scheduling priority based on DISK=SSD and gpu=true labels.",
+          "Directly corresponds to Figure 1 and the Node Preference Rule section description."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1396,10 +973,10 @@
         "document_path": "umn/source/cluster_federation/workloads/container_settings/configuring_a_scheduling_policy_affinity_anti-affinity.rst",
         "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001554898973.png",
         "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
         "hard_fail": false,
         "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -1408,8 +985,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Plus sign icon represents the 'add' action for scheduling policies.",
-          "Consistent with the RST instruction to click the icon to add policies."
+          "Depicts a plus sign symbol.",
+          "Matches the UI element referenced in the text for adding scheduling policies."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1459,8 +1036,6 @@
     },
     "results": [
       {
-        "document_path": "umn/source/cluster_federation/workloads/workload_creation/daemonsets.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001554286565.png",
         "image_kind": "icon",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -1474,15 +1049,15 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a plus sign icon, which semantically matches the instruction to click it to configure a Service in the Service Settings area."
+          "The image shows a plus sign icon, which aligns with the RST instruction to click an icon to add a service configuration."
         ],
         "missing_evidence": [],
+        "document_path": "umn/source/cluster_federation/workloads/workload_creation/daemonsets.rst",
+        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001554286565.png",
         "overall_score": 1.0,
         "verdict": "pass"
       },
       {
-        "document_path": "umn/source/cluster_federation/workloads/workload_creation/daemonsets.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001503446844.png",
         "image_kind": "icon",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -1496,9 +1071,11 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows a toggle switch icon, which aligns with the instruction to click it to specify differentiated settings for a cluster."
+          "The image displays a toggle switch icon, matching the RST context of clicking an icon to configure differentiated settings."
         ],
         "missing_evidence": [],
+        "document_path": "umn/source/cluster_federation/workloads/workload_creation/daemonsets.rst",
+        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001503446844.png",
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -1540,11 +1117,56 @@
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/cluster_federation/workloads/workload_creation/deployments.rst",
+        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001554286565.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a plus sign icon, which aligns with the instruction to click it in the Service Settings area to configure a Service."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/cluster_federation/workloads/workload_creation/deployments.rst",
+        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001503446844.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a toggle switch icon, matching the instruction to click it in the upper right corner to specify differentiated settings."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/cluster_federation/workloads/workload_creation/statefulsets.rst",
@@ -1582,11 +1204,58 @@
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/cluster_federation/workloads/workload_creation/statefulsets.rst",
+        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001554286565.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a plus sign icon, which is a standard UI symbol for adding or creating items.",
+          "It directly corresponds to the RST instruction to click this icon to configure a Service."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/cluster_federation/workloads/workload_creation/statefulsets.rst",
+        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001503446844.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a toggle switch icon, commonly used for enabling or configuring settings.",
+          "It aligns with the RST text instructing users to click this icon to specify differentiated settings."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/fleets/managing_clusters_not_in_the_fleet.rst",
@@ -1624,11 +1293,58 @@
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/fleets/managing_clusters_not_in_the_fleet.rst",
+        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002306426742.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a folder with a downward arrow, which semantically matches the action of adding or registering a cluster to a fleet.",
+          "It is directly referenced in the 'Registering Clusters to a Fleet' section as the clickable element on the cluster card."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/fleets/managing_clusters_not_in_the_fleet.rst",
+        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001461556069.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a trash can icon, which universally represents deletion or unregistration.",
+          "It corresponds exactly to the instruction in the 'Unregistering a Cluster' section to remove a cluster from the fleet."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/fleets/managing_fleets.rst",
@@ -1687,131 +1403,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/fleets/managing_fleets.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002240667777.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Visible interactive buttons are blue and gray, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The screenshot displays the 'Add Permission' UI, directly matching the section instructions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/fleets/managing_fleets.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001277812325.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The icon matches the 'Add Cluster' action described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/fleets/managing_fleets.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001411282188.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The icon matches the 'Remove Cluster' action described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/fleets/managing_fleets.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001875972418.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The icon matches the 'Unregister Cluster' action described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/fleets/managing_fleets.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001875805610.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The icon matches the 'Delete Fleet' action described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/permissions/kubernetes_resource_permissions_in_a_cluster_kubernetes_rbac-based.rst",
@@ -1910,228 +1515,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 9
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
-      "fail": 7
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/permissions/kubernetes_resource_permissions_in_a_cluster_kubernetes_rbac-based.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002228613109.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram accurately illustrates the RBAC objects (Role, ClusterRole, RoleBinding, ClusterRoleBinding) and their relationships as described in the text.",
-          "Visually maps User/ServiceAccount to Roles/ClusterRoles and then to namespace-level and cluster-level resources."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/permissions/kubernetes_resource_permissions_in_a_cluster_kubernetes_rbac-based.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0262051194.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram matches the RoleBinding example provided in the text, showing user-example and sa-example bound to a Role.",
-          "Clearly depicts allowed operations (GET and LIST on Pod) and denied operations (GET on Deployment) within the default namespace."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/permissions/kubernetes_resource_permissions_in_a_cluster_kubernetes_rbac-based.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002216023866.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive button 'Administrator' is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "UI screenshot shows the 'Add Permission' dialog for granting cluster-admin permissions.",
-          "Matches the section describing how to grant cluster administrator permissions on the UCS console."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/permissions/kubernetes_resource_permissions_in_a_cluster_kubernetes_rbac-based.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002250985213.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive button 'Administrator' is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "UI screenshot shows the 'Add Permission' dialog for granting fleet administrator permissions.",
-          "Aligns with the text section on granting cluster-admin permissions to a fleet."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/permissions/kubernetes_resource_permissions_in_a_cluster_kubernetes_rbac-based.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002251339337.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive button 'O&M' is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "UI screenshot shows the 'Add Permission' dialog with the O&M role selected for a cluster.",
-          "Corresponds to the section on granting namespace O&M permissions on all namespaces of a cluster."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/permissions/kubernetes_resource_permissions_in_a_cluster_kubernetes_rbac-based.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002216024982.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive button 'O&M' is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "UI screenshot shows the 'Add Permission' dialog with the O&M role selected for a fleet.",
-          "Matches the section on granting O&M permissions on all namespaces of a fleet."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/permissions/kubernetes_resource_permissions_in_a_cluster_kubernetes_rbac-based.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002251004289.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive button 'Developer' is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "UI screenshot shows the 'Add Permission' dialog with the Developer role selected for the default namespace.",
-          "Aligns with the section on granting namespace developer permissions on a fleet."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/permissions/kubernetes_resource_permissions_in_a_cluster_kubernetes_rbac-based.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002251008065.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive button 'Viewer' is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "UI screenshot shows the 'Add Permission' dialog with the Viewer role selected for multiple namespaces.",
-          "Matches the section on granting read-only namespace permissions on a cluster."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/permissions/kubernetes_resource_permissions_in_a_cluster_kubernetes_rbac-based.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002304604953.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive elements (dropdown, checkboxes) are not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "UI screenshot shows the namespace selection dropdown with an error message regarding namespace selection rules.",
-          "Directly illustrates the precaution note about not being able to select other namespaces when 'All namespaces' is chosen."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/permissions/ucs_permissions.rst",
@@ -2180,11 +1577,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -2212,45 +1609,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/permissions/ucs_resource_permissions_iam-based/identity_policy-based_authorization_new_iam_version.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000002524559447.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart diagram illustrating the process of granting UCS permissions.",
-          "It directly corresponds to the 'Process Flow' section in the RST document.",
-          "The steps listed in the diagram match the numbered list in the text exactly."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/permissions/ucs_resource_permissions_iam-based/role_policy-based_authorization_old_iam_version.rst",
@@ -2269,11 +1641,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2301,11 +1673,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2363,121 +1735,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 1,
-      "partial": 3,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/ucs_clusters/attached_clusters/registering_an_attached_cluster_private_network_access.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001293009114.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon depicts a magnifying glass over a document, aligning with the 'details' or 'view' action referenced in Step 2.",
-          "Relevant to the network connection process context described in the document."
-        ],
-        "missing_evidence": [
-          "Exact UI label or tooltip for the icon is not visible."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/ucs_clusters/attached_clusters/registering_an_attached_cluster_private_network_access.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001345751013.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon shows a refresh/retry symbol, matching the 'register it again' instruction in Step 2.",
-          "Consistent with the context of handling registration failures or timeouts."
-        ],
-        "missing_evidence": [
-          "Button label is not visible, only the symbolic graphic."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/ucs_clusters/attached_clusters/registering_an_attached_cluster_private_network_access.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001853742645.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon depicts overlapping squares, commonly used for copying or viewing details in Step 3.",
-          "Relevant to recording the service name during VPC endpoint creation."
-        ],
-        "missing_evidence": [
-          "Specific function of the icon is inferred from the surrounding text rather than explicit labels."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/ucs_clusters/attached_clusters/registering_an_attached_cluster_private_network_access.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001645555145.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon clearly represents the 'copy' action explicitly mentioned in Step 4.",
-          "Perfectly matches the instruction to copy commands for cluster access configuration."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/ucs_clusters/attached_clusters/registering_an_attached_cluster_public_network_access.rst",
@@ -2506,67 +1777,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/ucs_clusters/attached_clusters/registering_an_attached_cluster_public_network_access.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001293009114.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a document icon with a checkmark and magnifying glass, which semantically aligns with the RST reference to 'details about the network connection process'.",
-          "The visual is a standard symbolic graphic used for help or information, matching the context."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/ucs_clusters/attached_clusters/registering_an_attached_cluster_public_network_access.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001345751013.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a circular arrows symbol, representing refresh or reload, which directly corresponds to the RST instruction to 'register it again'.",
-          "The visual is a standard symbolic graphic for refreshing, matching the context of retrying an action."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/ucs_clusters/single-cluster_management/configmaps_and_secrets/creating_a_configmap.rst",
@@ -2585,11 +1809,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2617,11 +1841,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2659,67 +1883,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/ucs_clusters/single-cluster_management/workload_management/daemonsets.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001317957925.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a plus sign icon, which directly corresponds to the RST instruction to click it to configure a Service.",
-          "The visual matches the standard UI convention for adding new items or settings."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/ucs_clusters/single-cluster_management/workload_management/daemonsets.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001851134021.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a plus sign icon, aligning with the RST text instructing the user to click it to add a toleration policy.",
-          "The visual clearly represents an 'add' action as described in the documentation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/ucs_clusters/single-cluster_management/workload_management/deployments.rst",
@@ -2758,90 +1935,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/ucs_clusters/single-cluster_management/workload_management/deployments.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001317877889.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a diagram illustrating the relationship between workloads, pods, containers, and images.",
-          "It directly corresponds to Figure 1 and the 'Relationship Between Workloads and Containers' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/ucs_clusters/single-cluster_management/workload_management/deployments.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001317957925.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a plus sign icon.",
-          "It matches the |image1| reference used in the 'Creating a Deployment' section to add a Service."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/ucs_clusters/single-cluster_management/workload_management/deployments.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001620130045.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a plus sign icon.",
-          "It matches the |image2| reference used in the 'Creating a Deployment' section to add a Taints and Tolerations policy."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/ucs_clusters/single-cluster_management/workload_management/scheduling_policy_affinity_anti-affinity.rst",
@@ -2870,67 +1977,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/ucs_clusters/single-cluster_management/workload_management/scheduling_policy_affinity_anti-affinity.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001322427538.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a conceptual diagram illustrating node scheduling priorities based on label combinations.",
-          "It directly visualizes the text's explanation of preferred scheduling rules and priority levels."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/ucs_clusters/single-cluster_management/workload_management/scheduling_policy_affinity_anti-affinity.rst",
-        "image_path": "/home/ubuntu/repotesting/ubiquitous-cloud-native-service/umn/source/_static/images/en-us_image_0000001322267590.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a plus sign icon.",
-          "It corresponds to the UI element used to add scheduling policies as described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/ucs_clusters/single-cluster_management/workload_management/statefulsets.rst",
@@ -2959,11 +2019,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },

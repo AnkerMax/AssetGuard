@@ -536,96 +536,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backup_and_restore/setting_automated_backup_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001142893879.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays a grey toggle switch in the off position.",
-          "Directly corresponds to the instruction to enable the automated backup policy."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backup_and_restore/setting_automated_backup_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096133892.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows a standard circular refresh arrow icon.",
-          "Matches the instruction to refresh the backup list in the upper right corner."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backup_and_restore/setting_automated_backup_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096453870.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays a blue toggle switch in the on position.",
-          "Consistent with the instruction to click the toggle to disable the policy, as toggling an ON switch turns it OFF."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/connection_management/changing_a_security_group.rst",
@@ -674,109 +598,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/connection_management/changing_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001280327773.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pencil icon, which semantically corresponds to the action of selecting or editing a security group as instructed in step 3."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/connection_management/changing_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001236447314.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pencil icon, matching the alternative navigation method for selecting a security group described in step 3."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/connection_management/changing_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143053837.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a green checkmark, which aligns with the standard UI convention for submitting or confirming a change as described in step 3."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/connection_management/changing_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001142773933.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a magenta 'X' icon, which aligns with the standard UI convention for canceling an action as described in step 3."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/connection_management/changing_the_database_port.rst",
@@ -825,117 +660,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/connection_management/changing_the_database_port.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001193610755.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a pencil icon, which correctly corresponds to the RST instruction to click the edit icon next to the Database Port field."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/connection_management/changing_the_database_port.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143053853.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a pencil icon, matching the RST instruction to click the edit icon next to the Database Port field."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/connection_management/changing_the_database_port.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096133910.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a green checkmark icon, which aligns with the RST instruction to click the submit button."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/connection_management/changing_the_database_port.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096133912.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a magenta X icon, which correctly represents the cancel action described in the RST."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/connection_management/enabling_or_disabling_ssl.rst",
@@ -984,113 +722,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/connection_management/enabling_or_disabling_ssl.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001142893907.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a gray toggle switch in the off position, corresponding to the SSL field control mentioned in the document.",
-          "Visually matches the expected UI element for the initial or disabled SSL state."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/connection_management/enabling_or_disabling_ssl.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143133859.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a gray toggle switch in the off position, matching the SSL control described in the RST.",
-          "Clearly depicts the referenced UI element."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/connection_management/enabling_or_disabling_ssl.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001142773959.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a blue toggle switch in the on position, corresponding to the SSL field control for enabling SSL.",
-          "Visually matches the expected UI element referenced in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/connection_management/enabling_or_disabling_ssl.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143053861.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a blue toggle switch in the on position, matching the SSL control described for enabling SSL.",
-          "Clearly depicts the referenced UI element."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/database_connection/how_can_i_install_a_mongodb_client.rst",
@@ -1118,11 +763,36 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/faqs/database_connection/how_can_i_install_a_mongodb_client.rst",
+        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002529818314.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the MongoDB download page for the specified platform (RedHat/CentOS 8.0 x64).",
+          "It highlights the 'Archive' package with the exact filename mentioned in the text (mongodb-linux-x86_64-rhel80-4.2.25.tgz).",
+          "Directly illustrates step 1b of the installation procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/faqs/database_connection/how_do_i_install_robo_3t.rst",
@@ -1170,9 +840,9 @@
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
-      "fail": 3
+      "fail": 1
     },
     "results": [
       {
@@ -1182,7 +852,7 @@
         "contains_interactive_buttons": true,
         "buttons_magenta": false,
         "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (e.g., 'Download Robo 3T') are green, not magenta or plain white.",
+        "hard_fail_reason": "Interactive button 'Download Robo 3T' is green, not magenta or plain white.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -1191,8 +861,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image shows the Robo 3T download page.",
-          "Highlights the 'Download Robo 3T' button as described in step 1."
+          "Image shows the Robo 3T download page as described in step 1."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1204,8 +873,8 @@
         "image_kind": "screenshot",
         "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive elements (download links, 'Close' button) are not magenta or plain white.",
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -1214,12 +883,11 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image shows the download dialog for Robo 3T 1.3.",
-          "Highlights the specific installer file mentioned in step 2."
+          "Image shows the download dialog with the exact installer filename specified in step 2."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
-        "verdict": "fail"
+        "verdict": "pass"
       },
       {
         "document_path": "umn/source/faqs/database_connection/how_do_i_install_robo_3t.rst",
@@ -1227,8 +895,8 @@
         "image_kind": "screenshot",
         "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons ('Connect', 'Cancel') are grey, not magenta or plain white.",
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -1237,12 +905,11 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image shows the main window of Robo 3T.",
-          "Displays the MongoDB Connections dialog as described in step 4."
+          "Image shows the main Robo 3T window with the MongoDB Connections dialog, matching the post-installation step."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
-        "verdict": "fail"
+        "verdict": "pass"
       }
     ]
   },
@@ -1263,11 +930,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 500,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1295,47 +962,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_private_networks/creating_a_cluster_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096453892.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a small UI icon directly referenced in the RST text.",
-          "It corresponds to the clickable element for accessing the Service Quota page in the management console.",
-          "The visual content aligns with the described UI interaction."
-        ],
-        "missing_evidence": [
-          "The exact function or tooltip text of the icon is not visible, only its graphical representation."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_private_networks/overview.rst",
@@ -1354,44 +994,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_private_networks/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143053843.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that visually represents the exact process described in the RST text: creating a DDS instance, configuring a security group, and connecting to the instance.",
-          "The details in the diagram (confirming specs, setting security group rules, using a client tool on an ECS) align perfectly with the textual description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
@@ -1530,320 +1146,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 13
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
-      "fail": 9
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001095974050.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are light gray/blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the MongoDB Connections dialog as described in the RST.",
-          "Buttons are not magenta or plain white, triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143133815.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are light gray/blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the Connection Settings dialog matching the RST steps.",
-          "Buttons are not magenta or plain white, triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001142773917.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are light gray/blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the Authentication tab settings as described.",
-          "Buttons are not magenta or plain white, triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001142773909.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are light gray/blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the SSL tab settings with certificate path and hostname options.",
-          "Buttons are not magenta or plain white, triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096453848.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are light gray/blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the configured connection ready to connect.",
-          "Buttons are not magenta or plain white, triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096293856.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the successful connection state in Robo 3T.",
-          "No obvious interactive buttons triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143053817.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are light gray/blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the MongoDB Connections dialog for non-SSL setup.",
-          "Buttons are not magenta or plain white, triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001142773911.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are light gray/blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the Connection Settings dialog for non-SSL setup.",
-          "Buttons are not magenta or plain white, triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143053819.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are light gray/blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the Authentication tab settings for non-SSL setup.",
-          "Buttons are not magenta or plain white, triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143053813.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are light gray/blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the configured connection ready to connect for non-SSL setup.",
-          "Buttons are not magenta or plain white, triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001142893865.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the successful connection state in Robo 3T for non-SSL setup.",
-          "No obvious interactive buttons triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143133809.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the download icon for the SSL certificate.",
-          "Matches the RST instruction to download the certificate."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/connecting_to_a_cluster_instance_over_public_networks.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096453856.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the download icon for the SSL certificate.",
-          "Matches the RST instruction to download the certificate."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/creating_a_cluster_instance.rst",
@@ -1862,48 +1178,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/creating_a_cluster_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096453892.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the exact icon referenced in the text for navigating to the Service Quota page.",
-          "It directly supports the procedural step for creating additional cluster instances beyond the default limit.",
-          "The visual is a clear, isolated UI symbol consistent with the documentation's description."
-        ],
-        "missing_evidence": [
-          "The surrounding console interface and the specified 'upper right corner' location are not visible.",
-          "The actual Service Quota page interface or the 'Increase Quota' button is not depicted."
-        ],
-        "overall_score": 0.93,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/overview.rst",
@@ -1922,45 +1210,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started_with_clusters/connecting_to_a_cluster_instance_over_public_networks/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001142773901.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that visually represents the exact process described in the RST text.",
-          "It illustrates the four steps: creating a DB instance, applying for an EIP, configuring a security group, and connecting to the instance.",
-          "The content aligns perfectly with the section's overview of accessing DB instances over public networks."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started_with_replica_sets/connecting_to_a_replica_set_instance_over_private_networks/connecting_to_a_replica_set_instance_over_private_networks.rst",
@@ -1979,11 +1242,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2011,46 +1274,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started_with_replica_sets/connecting_to_a_replica_set_instance_over_private_networks/creating_a_replica_set_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096293848.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a small bar-chart-like icon, which corresponds to the 'Service Quota' icon referenced in the RST text.",
-          "The icon is used to navigate to the quota management page, directly supporting the procedure step for increasing instance limits."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started_with_replica_sets/connecting_to_a_replica_set_instance_over_private_networks/overview.rst",
@@ -2069,11 +1306,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2221,11 +1458,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 13
     },
@@ -2253,11 +1490,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2285,7 +1522,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2317,11 +1554,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2349,11 +1586,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2381,11 +1618,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2533,11 +1770,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 13
     },
@@ -2565,11 +1802,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2597,11 +1834,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2639,11 +1876,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2701,11 +1938,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -2743,11 +1980,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2775,11 +2012,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2807,11 +2044,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2849,65 +2086,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/instance_management/exporting_db_instance_information.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143053849.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard export icon, which directly corresponds to the RST instruction to click the export button in the instance list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/instance_management/exporting_db_instance_information.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096133908.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows an export icon, matching the RST step for exporting a specified instance."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/instance_management/scaling_up_storage_space.rst",
@@ -2946,11 +2138,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -2978,45 +2170,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/introduction/basic_concepts/cluster.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001845343652.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram accurately depicts the DDS cluster architecture described in the text.",
-          "It correctly identifies dds mongos as routers and config/shards as replica sets.",
-          "The visual representation of node quantities (2 or more) aligns with the documentation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/introduction/mapping_between_dds_versions_and_community_versions.rst",
@@ -3035,11 +2202,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3067,45 +2234,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/introduction/system_architecture/cluster.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001891581965.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a technical architecture diagram that visually represents the DDS cluster structure described in the text.",
-          "It accurately depicts the components mentioned: Application, Driver, config node, multiple dds mongos nodes, and shard replica sets.",
-          "The connections and data flow shown in the diagram align perfectly with the textual explanation of request forwarding and high availability."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/introduction/system_architecture/replica_set.rst",
@@ -3124,11 +2266,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3156,11 +2298,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3208,11 +2350,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -3250,45 +2392,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_management/audit_logs/viewing_audit_logs_on_the_dds_console.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001641173852.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the RST instruction to click an icon to select a region and project.",
-          "The icon is directly referenced in the step-by-step navigation instructions for the DDS console.",
-          "The visual evidence clearly matches the textual description without any contradictions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.9,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_management/audit_logs/viewing_audit_logs_on_the_lts_console.rst",
@@ -3327,96 +2444,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_management/audit_logs/viewing_audit_logs_on_the_lts_console.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002207066513.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which aligns with the instruction to click an icon in the upper left corner to access the Management & Governance menu.",
-          "The visual symbol is a standard UI element for navigation menus."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/audit_logs/viewing_audit_logs_on_the_lts_console.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002171625922.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, consistent with the step to access the Log Tank Service via the upper left corner menu.",
-          "The icon matches the textual description of a navigation control."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/audit_logs/viewing_audit_logs_on_the_lts_console.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002207066521.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image depicts a download icon (arrow pointing down into a tray), which directly corresponds to the action of downloading audit logs.",
-          "The visual symbol is a standard representation for the download function described in the text."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_management/log_reporting.rst",
@@ -3545,321 +2586,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 12
     },
     "summary": {
-      "pass": 12,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002142796009.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (location pin for region selection)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002107237174.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (hamburger menu for navigation)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002142716389.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (toggle switch in off state)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002107237190.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (location pin for region selection)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002142716401.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (hamburger menu for navigation)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002107077414.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (location pin for region selection)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002142796029.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (hamburger menu for navigation)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002107237198.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (toggle switch in on state)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002142796045.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (location pin for region selection)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002107237210.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (hamburger menu for navigation)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002107077430.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (location pin for region selection)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/log_reporting.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002142796049.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon referenced in the documentation steps.",
-          "It visually corresponds to the UI element described (hamburger menu for navigation)."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/logging_in_to_the_dds_console.rst",
@@ -3878,43 +2618,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/logging_in_to_the_dds_console.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001096133926.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly corresponds to the text instruction to click it for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.93,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/monitoring_and_alarm_reporting/setting_alarm_rules.rst",
@@ -3943,65 +2660,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/monitoring_and_alarm_reporting/setting_alarm_rules.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143133823.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a grey toggle switch in the off position, which directly corresponds to the UI element described for enabling alarm reporting."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/monitoring_and_alarm_reporting/setting_alarm_rules.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001143053823.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a blue toggle switch in the on position, which directly corresponds to the UI element described for disabling alarm reporting."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/monitoring_and_alarm_reporting/viewing_dds_metrics.rst",
@@ -4030,11 +2702,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -4062,11 +2734,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4094,11 +2766,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4146,11 +2818,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4178,11 +2850,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4210,11 +2882,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4252,11 +2924,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4314,109 +2986,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/parameter_template_management/modifying_the_description_of_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001268771757.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which semantically matches the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/parameter_template_management/modifying_the_description_of_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001224531664.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pencil icon, which is a standard symbol for editing and aligns with modifying the description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/parameter_template_management/modifying_the_description_of_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001224411716.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a green checkmark icon, which universally represents confirmation and matches the submit action."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/parameter_template_management/modifying_the_description_of_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001269051821.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a red X icon, which is a standard symbol for cancellation and matches the cancel action."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/parameter_template_management/replicating_a_parameter_template.rst",
@@ -4435,45 +3018,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
-      "partial": 1,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/parameter_template_management/replicating_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001268771757.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the RST instruction to click an icon in the upper left corner to select a region and project."
-        ],
-        "missing_evidence": [
-          "The image is isolated and low-resolution, lacking the surrounding management console interface context described in the procedure."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/parameter_template_management/resetting_a_parameter_template.rst",
@@ -4492,43 +3050,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/parameter_template_management/resetting_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001268771757.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the instruction to click it to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/parameter_template_management/viewing_application_records_of_a_parameter_template.rst",
@@ -4547,11 +3082,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4589,11 +3124,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4621,44 +3156,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/permissions_management/creating_a_user_and_granting_permissions.rst",
-        "image_path": "/home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000001490031014.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that visually represents the process described in the RST document.",
-          "The steps in the flowchart (Create a user group and grant permissions, Create a user, Log in as the user and verify permissions) align perfectly with the numbered list in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/sql_execution_control.rst",
@@ -4717,11 +3228,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },

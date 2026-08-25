@@ -240,7 +240,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -512,136 +512,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 3,
-      "partial": 2,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/connecting_to_a_db_instance_over_a_public_network/step_4_connect_to_a_db_instance_over_a_public_network.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219136.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the MySQL-Front 'Open Session' dialog.",
-          "Matches the RST description for starting the client and managing connections."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/connecting_to_a_db_instance_over_a_public_network/step_4_connect_to_a_db_instance_over_a_public_network.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352379040.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the 'Add Account' dialog in MySQL-Front.",
-          "Aligns with the RST instructions and Table 1 parameter descriptions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/connecting_to_a_db_instance_over_a_public_network/step_4_connect_to_a_db_instance_over_a_public_network.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001402858861.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Depicts the session list after adding an account.",
-          "Corresponds to Figure 3 in the RST for opening a session."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/connecting_to_a_db_instance_over_a_public_network/step_4_connect_to_a_db_instance_over_a_public_network.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Location pin icon used in the management console section.",
-          "Matches the |image1| reference for selecting a region."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.77,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/getting_started/connecting_to_a_db_instance_over_a_public_network/step_4_connect_to_a_db_instance_over_a_public_network.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352538904.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Download arrow icon.",
-          "Matches the |image2| reference for downloading SSL certificates."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.77,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/account_management_non-administrator/changing_permissions_for_a_database_account.rst",
@@ -660,11 +544,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -692,44 +576,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/account_management_non-administrator/creating_a_database_account.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the instruction to click it for selecting a region and project.",
-          "The graphic is a standard symbolic icon used for location/region selection in cloud management consoles."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.93,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/account_management_non-administrator/deleting_a_database_account.rst",
@@ -748,11 +608,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -780,11 +640,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -812,11 +672,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -854,44 +714,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/backups_and_restorations/creating_a_manual_backup.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the text instruction to click an icon to select a region and project.",
-          "The visual is a standard UI symbol for location/region selection, fitting the cloud console context perfectly."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/backups_and_restorations/deleting_a_manual_backup.rst",
@@ -910,43 +746,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/backups_and_restorations/deleting_a_manual_backup.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly matches the RST instruction to click it for region selection."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/backups_and_restorations/restoring_data_from_a_backup.rst",
@@ -965,11 +778,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -997,11 +810,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1059,109 +872,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/connection_management/changing_a_database_port.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a pencil/edit icon, which correctly represents the action of modifying the database port field."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/connection_management/changing_a_database_port.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352378996.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image depicts a green checkmark, which aligns with the instruction to submit or confirm the change."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/connection_management/changing_a_database_port.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352538852.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a magenta 'X' icon, which correctly represents the action to cancel the change."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/connection_management/changing_a_database_port.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001403138693.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/data_security/changing_a_security_group.rst",
@@ -1220,131 +944,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/data_security/changing_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the RST instruction for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/data_security/changing_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001403138685.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a pencil icon, matching the RST description for editing the Security Group field."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/data_security/changing_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001403138681.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a green checkmark icon, which aligns with the RST instruction to submit the change."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/data_security/changing_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001403218681.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a magenta X icon, corresponding to the RST instruction to cancel the change."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/data_security/changing_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001402979141.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a circular arrow icon, matching the RST instruction to refresh and view the result of the change."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/data_security/resetting_the_administrator_password.rst",
@@ -1373,43 +986,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/data_security/resetting_the_administrator_password.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the RST instruction to click it in the upper left corner to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/database_management/creating_a_database.rst",
@@ -1428,44 +1018,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
-      "partial": 1,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/database_management/creating_a_database.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the instruction to click an icon to select a region and project.",
-          "The visual representation matches the procedural step described in the documentation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.78,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/database_management/deleting_a_database.rst",
@@ -1484,44 +1050,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/database_management/deleting_a_database.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the instruction to 'select a region and a project'.",
-          "The icon is correctly referenced in step 2 of the procedure for region selection."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/database_management/granting_database_permissions.rst",
@@ -1540,43 +1082,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
-      "partial": 1,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/database_management/granting_database_permissions.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the procedure step instructing the user to click it to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/database_management/modifying_database_remarks.rst",
@@ -1605,65 +1124,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/database_management/modifying_database_remarks.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the instruction to 'select a region and a project'."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/database_management/modifying_database_remarks.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001977885398.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pencil/edit icon, which semantically matches the instruction to click in the 'Remarks' column to modify remarks."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/database_proxy_read_write_splitting/assigning_read_weights.rst",
@@ -1692,11 +1166,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -1724,11 +1198,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1756,48 +1230,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/database_proxy_read_write_splitting/creating_a_proxy_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the RST instruction to 'select a region and a project'.",
-          "It serves as a standard UI symbol for region selection in cloud management consoles.",
-          "Directly corresponds to step 2 of the procedure."
-        ],
-        "missing_evidence": [
-          "The icon is low-resolution, limiting visibility of fine UI details.",
-          "No accompanying text or dropdown menu is visible in the isolated icon image."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/database_proxy_read_write_splitting/deleting_a_proxy_instance.rst",
@@ -1816,11 +1262,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1878,90 +1324,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/database_proxy_read_write_splitting/enabling_or_disabling_access_control.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the RST instruction to click an icon to select a region and project.",
-          "The visual element is semantically accurate for the region selection step described in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/database_proxy_read_write_splitting/enabling_or_disabling_access_control.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001405277053.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a toggle switch icon in the off position, matching the RST reference for the Access Control area.",
-          "It accurately depicts the UI control used to enable access control as described in the instructions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/database_proxy_read_write_splitting/enabling_or_disabling_access_control.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001405262769.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a toggle switch icon in the on position, aligning with the RST reference for disabling access control.",
-          "The visual correctly represents the interactive toggle element associated with the Access Control feature."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/database_proxy_read_write_splitting/introducing_read_write_splitting.rst",
@@ -1980,11 +1356,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2012,11 +1388,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2054,11 +1430,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -2126,11 +1502,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -2158,43 +1534,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/instance_modifications/changing_vcpus_and_memory_of_an_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which matches the RST description of the UI element used to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.9,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/instance_modifications/deleting_a_db_instance.rst",
@@ -2213,46 +1566,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/instance_modifications/deleting_a_db_instance.rst",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the instruction to select a region and project.",
-          "It functions as a standard UI symbol for geographic or regional selection in cloud management consoles."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/instance_modifications/exporting_db_instance_information.rst",
@@ -2301,11 +1628,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -2333,43 +1660,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/instance_modifications/rebooting_a_db_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly corresponds to the RST instruction to click it to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/instance_modifications/upgrading_the_minor_version_of_a_db_instance.rst",
@@ -2388,45 +1692,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/instance_modifications/upgrading_the_minor_version_of_a_db_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the RST instruction to click an icon to select a region and project.",
-          "The icon is directly relevant to the 'Procedure' section detailing UI navigation steps.",
-          "No contradictions are present between the image and the RST description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.9,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/interconnection_with_cts/viewing_tracing_events.rst",
@@ -2445,11 +1724,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2537,160 +1816,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 6,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/logs/enabling_or_disabling_sql_explorer.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001446730040.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the Data Security Protocol dialog box mentioned in the enabling steps.",
-          "Contains the agreement checkbox and OK/Cancel buttons as described.",
-          "The OK button is magenta, satisfying the color rule for interactive elements."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/logs/enabling_or_disabling_sql_explorer.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Depicts a location pin icon.",
-          "Used in the text to represent selecting a region and project in the console."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/logs/enabling_or_disabling_sql_explorer.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001496610421.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows a toggle switch in the off position.",
-          "Corresponds to the initial state of SQL Explorer before enabling."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/logs/enabling_or_disabling_sql_explorer.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001497009921.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows a toggle switch in the on position.",
-          "Represents the action of enabling SQL Explorer as described in the steps."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/logs/enabling_or_disabling_sql_explorer.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001496889725.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows a toggle switch in the on position.",
-          "Used in the Disabling SQL Explorer section to toggle the feature off."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/logs/enabling_or_disabling_sql_explorer.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001497009925.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows a toggle switch in the off position.",
-          "Represents the final state after disabling SQL Explorer."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/logs/viewing_error_logs.rst",
@@ -2709,11 +1848,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2741,11 +1880,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2773,11 +1912,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2805,44 +1944,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/monitoring/viewing_monitoring_metrics.rst",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the RST instruction to click it for selecting a region and project.",
-          "The icon is a standard UI symbol for location/region selection, matching the procedural step described in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/parameter_template_management/applying_a_parameter_template.rst",
@@ -2861,43 +1976,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/parameter_template_management/applying_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the RST instruction to click it to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/parameter_template_management/comparing_a_parameter_template.rst",
@@ -2926,45 +2018,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/parameter_template_management/comparing_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pin icon, which is a standard symbol for location or region selection.",
-          "The text instructs the user to click this icon in the upper left corner to select a region and project.",
-          "The icon visually matches the functional description provided in the documentation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.93,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/parameter_template_management/creating_a_parameter_template.rst",
@@ -2983,11 +2050,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3015,11 +2082,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3047,43 +2114,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
-      "partial": 1,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/parameter_template_management/exporting_parameters.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which corresponds to the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/parameter_template_management/modifying_a_parameter_template.rst",
@@ -3112,43 +2156,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_mysql/parameter_template_management/modifying_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly corresponds to the RST instruction to click the icon to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_mysql/parameter_template_management/modifying_a_parameter_template_description.rst",
@@ -3197,7 +2218,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -3409,7 +2430,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -3441,11 +2462,11 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
@@ -3473,7 +2494,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -3505,7 +2526,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 502,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,

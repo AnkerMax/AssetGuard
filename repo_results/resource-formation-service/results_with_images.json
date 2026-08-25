@@ -120,131 +120,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays the IAM Agencies page with a clearly visible magenta 'Create Agency' button, directly matching step 2 of the procedure."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/iam_agency.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001955571530.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the agency creation form with fields for name, type, and validity, along with a magenta 'Next' button, aligning with step 3."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/iam_agency.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002202025297.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot illustrates the policy selection interface with a magenta 'Create Policy' link, corresponding to step 4 where permissions are granted."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/iam_agency.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001955571534.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays the authorization scope selection page with radio buttons for 'All resources' and 'Region-specific projects', matching step 5."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/iam_agency.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001991890873.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the bottom of the scope selection page with a magenta 'OK' button, directly illustrating the final action in step 6."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/iam_agency.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000001991770693.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_stacks/creating_a_stack.rst",
@@ -493,11 +382,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 24
     },
@@ -565,11 +454,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
@@ -637,136 +526,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deleting_an_execution_plan.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891445.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the RFS Dashboard page.",
-          "Matches the description in step 2 of the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deleting_an_execution_plan.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611726.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the RFS Stacks page.",
-          "Matches the description in step 3 of the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deleting_an_execution_plan.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124769902.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Delete Execution Plan dialog.",
-          "Matches the description in step 5 of the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deleting_an_execution_plan.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194183665.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the hamburger menu icon.",
-          "Matches the reference |image1| in step 2 of the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deleting_an_execution_plan.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002160009817.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Screenshot contains interactive buttons (Deploy, Delete) that are not magenta or plain white, and no other magenta buttons or text are visible.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Execution Plans tab.",
-          "Matches the description in step 4 of the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_stacks/creating_deploying_and_deleting_an_execution_plan/deploying_an_execution_plan.rst",
@@ -815,11 +588,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -907,11 +680,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 7
     },
@@ -969,11 +742,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -1051,11 +824,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
@@ -1193,11 +966,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 12
     },
@@ -1245,92 +1018,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_stacks/viewing_stacks.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002124611690.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the RFS Dashboard page, which matches the RST description 'The Dashboard page is displayed.'",
-          "The sidebar shows 'Dashboard' highlighted, consistent with being on the Dashboard page.",
-          "The 'Guide to Create a Stack' section is visible, which is part of the dashboard content."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_stacks/viewing_stacks.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194183289.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a hamburger menu icon, which corresponds to the |image1| reference in the RST used to open the navigation menu.",
-          "The RST instructs to 'click |image1|' to access the menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_stacks/viewing_stacks.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002159891417.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Stacks' page with a list of stacks, matching the RST description 'you can see all the stacks created under the current account'.",
-          "The sidebar highlights 'Stacks', confirming the current page.",
-          "The table columns (Stack Name/ID, Status, etc.) match the expected view for managing stacks."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_templates/creating_a_stack_from_a_template.rst",
@@ -1379,11 +1080,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -1491,11 +1192,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 9
     },
@@ -1573,153 +1274,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 5,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002157215029.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the RFS Dashboard page, which is the starting point mentioned in step 2."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.77,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158823542.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the Private Templates page as described in step 3."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158983474.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Illustrates the 'More' -> 'Delete' option for deleting a single template."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194191125.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Illustrates selecting multiple templates and the 'Delete' button for batch deletion."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002166704124.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the confirmation dialog box for deleting a template."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_templates/deleting_a_template.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194186605.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 3,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the hamburger menu icon used to access the navigation menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_templates/exporting_a_template.rst",
@@ -1768,11 +1336,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -1830,113 +1398,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_templates/modifying_a_template.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121754732.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the RFS Dashboard page as described in step 2.",
-          "Visible elements like 'Create Stack' and 'Create Template' match the UI context."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_templates/modifying_a_template.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194190061.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the 'Private Templates' page with a list of templates, matching step 3.",
-          "The 'Create Template' button is magenta, adhering to the color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_templates/modifying_a_template.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002194186609.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the hamburger menu icon referenced in step 2.",
-          "It is the correct icon to click to access the Management & Deployment menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_templates/modifying_a_template.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002121909700.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the template content editor as described in step 4.",
-          "The 'Save Template' button is visible in the upper right corner and is magenta."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_templates/replicating_a_template.rst",
@@ -2005,11 +1480,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
@@ -2067,11 +1542,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -2119,11 +1594,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -2151,11 +1626,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2193,67 +1668,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/accessing_rfs.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158978858.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the RFS Dashboard interface.",
-          "It matches the figure caption 'RFS Dashboard' and the section topic on accessing RFS."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_overview/accessing_rfs.rst",
-        "image_path": "/home/ubuntu/repotesting/resource-formation-service/umn/source/_static/images/en-us_image_0000002158819098.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon.",
-          "It corresponds to the `|image1|` reference in the RST document for accessing the service."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/application_scenarios.rst",
@@ -2312,9 +1740,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "The diagram accurately depicts the 'Migrating applications to the cloud' scenario described in the text.",
-          "It shows the user designing a template within RFS and subsequently creating stacks for various resources (CCE, RDS, ECS, VPC).",
-          "The visual flow aligns perfectly with the solution and advantages outlined in the section."
+          "Diagram clearly illustrates the 'Migrating Applications to the Cloud' scenario described in the text.",
+          "Shows the flow from user designing a template in RFS to creating stacks with specific resources (CCE, RDS, ECS, VPC).",
+          "Accurately reflects the solution of using templates for automatic deployment and resource management."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -2336,9 +1764,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "The diagram accurately depicts the 'ISV Resource Provisioning' scenario described in the text.",
-          "It illustrates the workflow where an ISV uploads a template, a client applies for the service, and the service stack is created and accessed.",
-          "The visual representation matches the standard delivery process and stack deployment capabilities mentioned in the section."
+          "Diagram accurately depicts the 'ISV Resource Provisioning' scenario.",
+          "Shows the interaction between ISV uploading a template, client applying for the service, and accessing the service stack.",
+          "Matches the text's description of standardizing delivery through templates and stacks."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -2393,9 +1821,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a schematic diagram illustrating the relationship between regions and availability zones.",
-          "It visually represents the concept that a region contains multiple AZs interconnected through internal networks.",
-          "The diagram aligns perfectly with the textual description in the 'Concept' section."
+          "The image is a diagram illustrating the relationship between regions and availability zones.",
+          "It visually represents the concept described in the text, showing multiple AZs within a region.",
+          "The diagram directly supports the 'Concept' section of the document."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,

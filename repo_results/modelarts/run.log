@@ -1,7 +1,8 @@
-2026-07-22 18:31:12,363 INFO __main__ - Starting AssetGuard
-2026-07-22 18:31:12,364 INFO __main__ - Workspace: /home/ubuntu/repotesting/modelarts
-2026-07-22 18:31:12,364 INFO __main__ - Found RST-Dateien: 930
-2026-07-22 18:31:12,364 INFO __main__ - Sending files to backend and waiting for response..
-2026-07-22 19:35:24,861 INFO __main__ - Done. Processed 150 rst files, wrote 150 rows to results_with_images.json, flagged 22 files, csv=results_with_images.csv, failed_csv=results_with_images.failed_only.csv
-duration_seconds=3852
-duration_human=64m 12s
+==> Bearbeite modelarts
+Already up to date.
+OK: speichere Ergebnis von modelarts in /home/ubuntu/AssetGuard/repo_results/modelarts (Dauer: 39m 51s)
+processed_files=150
+flagged_files=130
+row_count=150
+duration_seconds=2391
+duration_human=39m 51s

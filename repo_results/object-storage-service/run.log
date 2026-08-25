@@ -1,7 +1,21 @@
-2026-07-22 17:03:22,797 INFO __main__ - Starting AssetGuard
-2026-07-22 17:03:22,797 INFO __main__ - Workspace: /home/ubuntu/repotesting/object-storage-service
-2026-07-22 17:03:22,797 INFO __main__ - Found RST-Dateien: 780
-2026-07-22 17:03:22,797 INFO __main__ - Sending files to backend and waiting for response..
-2026-07-22 17:30:38,577 INFO __main__ - Done. Processed 120 rst files, wrote 120 rows to results_with_images.json, flagged 59 files, csv=results_with_images.csv, failed_csv=results_with_images.failed_only.csv
-duration_seconds=1636
-duration_human=27m 16s
+==> Bearbeite object-storage-service
+Updating b9835f8..bb2f4fb
+Fast-forward
+ doc/parallel-file-system/source/change_history.rst |  40 +-
+ ..._between_obs_apis_and_parallel_file_systems.rst |   4 +-
+ doc/s3api/source/access_control/bucket_policy.rst  |   2 +-
+ doc/s3api/source/change_history.rst                |   4 +
+ .../compatibility_of_obs_rest_apis.rst             |   4 +-
+ .../authenticating_a_request/v4_common_request.rst |   2 +-
+ .../operations_on_buckets/get_bucket_lifecycle.rst | 190 +++++---
+ .../operations_on_buckets/put_bucket_lifecycle.rst | 518 ++++++++++++---------
+ 8 files changed, 449 insertions(+), 315 deletions(-)
+
+From https://github.com/opentelekomcloud-docs/object-storage-service
+   b9835f8..bb2f4fb  main       -> origin/main
+OK: speichere Ergebnis von object-storage-service in /home/ubuntu/AssetGuard/repo_results/object-storage-service (Dauer: 18m 0s)
+processed_files=120
+flagged_files=102
+row_count=120
+duration_seconds=1080
+duration_human=18m 0s

@@ -112,11 +112,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -144,43 +144,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started_with_gaussdbfor_cassandra/connecting_to_a_gaussdbfor_cassandra_instance_over_private_networks/creating_a_gaussdbfor_cassandra_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0000001139224537.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a refresh icon, which directly matches the textual instruction to click the icon to refresh DB instance statuses."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started_with_gaussdbfor_cassandra/connecting_to_a_gaussdbfor_cassandra_instance_over_public_networks/configuring_security_group_rules.rst",
@@ -199,43 +176,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started_with_gaussdbfor_cassandra/connecting_to_a_gaussdbfor_cassandra_instance_over_public_networks/configuring_security_group_rules.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0000001139129187.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly corresponds to the instruction to click it to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started_with_gaussdbfor_cassandra/connecting_to_a_gaussdbfor_cassandra_instance_over_public_networks/creating_a_gaussdbfor_cassandra_instance.rst",
@@ -254,11 +208,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -286,43 +240,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/logging_in_to_the_gaussdb_nosql_console.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0000001092187390.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the RST instruction to select a region."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_cassandra/auditing/querying_traces.rst",
@@ -351,65 +282,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the instruction in step 2 to click it for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/working_with_gaussdbfor_cassandra/auditing/querying_traces.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0160430768.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a downward-pointing chevron, a standard UI symbol for expanding or revealing details, matching the instruction in step 6."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/working_with_gaussdbfor_cassandra/auditing/querying_traces.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0108820738.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_cassandra/backups_and_restorations/managing_automated_backups.rst",
@@ -428,11 +314,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -490,109 +376,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_cassandra/db_instance_management/changing_a_db_instance_name.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0000001139129107.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pencil icon, which is a standard symbol for editing, aligning with the RST instruction to change the instance name."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_cassandra/db_instance_management/changing_a_db_instance_name.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0000001139224555.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a pencil icon, consistent with the RST description of clicking to edit the DB Instance Name field."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_cassandra/db_instance_management/changing_a_db_instance_name.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0000001092187298.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a green checkmark icon, which semantically represents confirmation or submission, matching the RST instruction to submit the change."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_cassandra/db_instance_management/changing_a_db_instance_name.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0000001092058816.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a magenta 'X' icon, which is a standard symbol for canceling or closing, aligning with the RST instruction to cancel the change."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_gaussdbfor_cassandra/monitoring_and_alarm_reporting/viewing_metrics.rst",
@@ -611,11 +408,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -663,86 +460,19 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_cassandra/parameter_template_management/modifying_a_parameter_template_description.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0000001139224635.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The pencil icon visually represents the 'edit' or 'modify' action referenced in step 3 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_cassandra/parameter_template_management/modifying_a_parameter_template_description.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0000001092347040.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The checkmark icon visually represents the 'submit' action referenced in step 4 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_gaussdbfor_cassandra/parameter_template_management/modifying_a_parameter_template_description.rst",
-        "image_path": "/home/ubuntu/repotesting/gaussdb-nosql/umn/source/_static/images/en-us_image_0000001138926357.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The 'X' icon visually represents the 'cancel' action referenced in step 4 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   }
 ]

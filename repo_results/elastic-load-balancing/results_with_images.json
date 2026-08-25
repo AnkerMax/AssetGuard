@@ -526,11 +526,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -568,65 +568,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/access_control/managing_ip_address_groups/creating_an_ip_address_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/access_control/managing_ip_address_groups/creating_an_ip_address_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, consistent with the RST instruction to click it to display the Service List."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/access_control/managing_ip_address_groups/deleting_an_ip_address_group.rst",
@@ -655,65 +610,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
       "pass": 0,
-      "partial": 2,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/access_control/managing_ip_address_groups/deleting_an_ip_address_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which corresponds to the step instructing the user to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/access_control/managing_ip_address_groups/deleting_an_ip_address_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the instruction to click it to display the Service List."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/access_control/managing_ip_address_groups/managing_ip_addresses_in_an_ip_address_group.rst",
@@ -782,69 +692,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/access_control/managing_ip_address_groups/managing_ip_addresses_in_an_ip_address_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the RST context of selecting a region and project.",
-          "The visual is blurry but clearly represents a standard region selector symbol."
-        ],
-        "missing_evidence": [
-          "Image resolution is low, obscuring fine details."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/access_control/managing_ip_address_groups/managing_ip_addresses_in_an_ip_address_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, matching the RST instruction to click an icon to display the Service List.",
-          "The symbol is a standard UI representation for a menu or service list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/access_control/managing_ip_address_groups/viewing_the_details_of_an_ip_address_group.rst",
@@ -873,65 +734,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/access_control/managing_ip_address_groups/viewing_the_details_of_an_ip_address_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the RST instruction to click it for region and project selection."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/access_control/managing_ip_address_groups/viewing_the_details_of_an_ip_address_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which aligns with the RST context of hovering to open the Service List."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/access_logging.rst",
@@ -1021,7 +837,7 @@
     ],
     "status": {
       "http_status": 200,
-      "finish_reason": "incomplete",
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
       "error": null,
@@ -1029,8 +845,8 @@
       "attached_image_count": 8
     },
     "summary": {
-      "pass": 8,
-      "partial": 0,
+      "pass": 4,
+      "partial": 4,
       "fail": 0
     },
     "results": [
@@ -1050,10 +866,12 @@
           "contradictions": 3
         },
         "reasons": [
-          "Flowchart matches the 'Flowchart' section describing the process for locating an unhealthy backend server.",
-          "Visual elements clearly depict the sequential steps outlined in the documentation."
+          "Flowchart matches the 'Flowchart' section in the RST document.",
+          "Steps align exactly with the procedural overview provided in the text."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None."
+        ],
         "overall_score": 1.0,
         "verdict": "pass"
       },
@@ -1073,10 +891,12 @@
           "contradictions": 3
         },
         "reasons": [
-          "Screenshot shows the 'Create Log Group' dialog matching the 'Creating a Log Group' section.",
-          "UI fields for Log Group Name and Retention Duration align with the documentation steps."
+          "UI dialog matches the 'Creating a Log Group' section.",
+          "Fields and labels correspond directly to the RST instructions."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None."
+        ],
         "overall_score": 1.0,
         "verdict": "pass"
       },
@@ -1096,10 +916,12 @@
           "contradictions": 3
         },
         "reasons": [
-          "Screenshot displays the 'Create Log Stream' dialog corresponding to the 'Creating a Log Stream' section.",
-          "Input fields for Log Group and Stream names match the described configuration process."
+          "UI dialog matches the 'Creating a Log Stream' section.",
+          "Input fields and layout align with the documented steps."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None."
+        ],
         "overall_score": 1.0,
         "verdict": "pass"
       },
@@ -1119,10 +941,13 @@
           "contradictions": 3
         },
         "reasons": [
-          "Screenshot shows the 'Configure Access Logging' dialog matching the relevant section.",
-          "Interactive buttons (OK/Cancel) and toggle switch are visible and correctly styled (magenta OK button)."
+          "UI dialog matches the 'Configuring Access Logging' section.",
+          "Interactive buttons are magenta (OK) and plain white (Cancel), complying with UI standards.",
+          "Toggle and dropdown fields align with RST instructions."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None."
+        ],
         "overall_score": 1.0,
         "verdict": "pass"
       },
@@ -1135,19 +960,21 @@
         "hard_fail": false,
         "hard_fail_reason": null,
         "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
           "contradictions": 3
         },
         "reasons": [
-          "Icon is a location pin, matching the |image1| reference for selecting region and project.",
-          "Visual symbol aligns with the UI navigation step described in the text."
+          "Location pin icon corresponds to the region selection step in the RST.",
+          "Symbolic graphic matches the UI context described."
         ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
       },
       {
         "document_path": "umn/source/access_logging.rst",
@@ -1158,19 +985,21 @@
         "hard_fail": false,
         "hard_fail_reason": null,
         "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
           "contradictions": 3
         },
         "reasons": [
-          "Icon is a hamburger menu, matching the |image2| reference for opening the service list.",
-          "Visual symbol corresponds to the navigation step described in the documentation."
+          "Hamburger menu icon matches the navigation step for selecting Log Tank Service.",
+          "Standard UI pictogram aligns with RST context."
         ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
       },
       {
         "document_path": "umn/source/access_logging.rst",
@@ -1181,19 +1010,21 @@
         "hard_fail": false,
         "hard_fail_reason": null,
         "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
           "contradictions": 3
         },
         "reasons": [
-          "Icon is a downward chevron, matching the |image3| reference for expanding a log group.",
-          "Visual symbol aligns with the UI interaction step described in the text."
+          "Downward chevron icon matches the expand/collapse action for log groups.",
+          "UI symbol aligns with the procedural step in the RST."
         ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
       },
       {
         "document_path": "umn/source/access_logging.rst",
@@ -1204,19 +1035,21 @@
         "hard_fail": false,
         "hard_fail_reason": null,
         "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
           "contradictions": 3
         },
         "reasons": [
-          "Icon is a hamburger menu, matching the |image4| reference for displaying the Service List.",
-          "Visual symbol corresponds to the navigation step described in the documentation."
+          "Hamburger menu icon matches the Service List navigation step.",
+          "Standard UI pictogram aligns with RST context."
         ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
       }
     ]
   },
@@ -1376,11 +1209,162 @@
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 0,
-      "partial": 0,
+      "pass": 5,
+      "partial": 1,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/advanced_features_of_http_https_listeners/advanced_forwarding_dedicated_load_balancers/configuring_advanced_forwarding.rst",
+        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon depicts a location pin, aligning with the text instruction to select a region and project.",
+          "Low resolution limits detailed visual confirmation."
+        ],
+        "missing_evidence": [
+          "Clearer image resolution to verify exact UI placement."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/advanced_features_of_http_https_listeners/advanced_forwarding_dedicated_load_balancers/configuring_advanced_forwarding.rst",
+        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon matches the instruction to open the Service List.",
+          "Low resolution limits detailed visual confirmation."
+        ],
+        "missing_evidence": [
+          "Clearer image resolution to verify exact UI placement."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/advanced_features_of_http_https_listeners/advanced_forwarding_dedicated_load_balancers/configuring_advanced_forwarding.rst",
+        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739992.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Icon is a hamburger menu, while the text instructs to select a region and project, suggesting a potential mismatch or generic menu icon.",
+          "Low resolution limits detailed visual confirmation."
+        ],
+        "missing_evidence": [
+          "Clearer image resolution to verify exact UI placement."
+        ],
+        "overall_score": 0.73,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/advanced_features_of_http_https_listeners/advanced_forwarding_dedicated_load_balancers/configuring_advanced_forwarding.rst",
+        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739984.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon matches the instruction to open the Service List.",
+          "Low resolution limits detailed visual confirmation."
+        ],
+        "missing_evidence": [
+          "Clearer image resolution to verify exact UI placement."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/advanced_features_of_http_https_listeners/advanced_forwarding_dedicated_load_balancers/configuring_advanced_forwarding.rst",
+        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747381100.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon aligns with the instruction to access forwarding policy options.",
+          "Low resolution limits detailed visual confirmation."
+        ],
+        "missing_evidence": [
+          "Clearer image resolution to verify exact UI placement."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/advanced_features_of_http_https_listeners/advanced_forwarding_dedicated_load_balancers/configuring_advanced_forwarding.rst",
+        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660837.png",
+        "image_kind": "icon",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon aligns with the instruction to access forwarding policy options.",
+          "Low resolution limits detailed visual confirmation."
+        ],
+        "missing_evidence": [
+          "Clearer image resolution to verify exact UI placement."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/advanced_features_of_http_https_listeners/advanced_forwarding_dedicated_load_balancers/overview.rst",
@@ -1408,36 +1392,11 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/advanced_forwarding_dedicated_load_balancers/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660773.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a technical diagram illustrating the advanced forwarding process described in the text.",
-          "It accurately depicts the flow from clients to the ELB, the matching of forwarding rules, the actions taken, and the response back to clients.",
-          "The diagram matches the textual description of forwarding rules and actions perfectly."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_dedicated_load_balancers.rst",
@@ -1546,153 +1505,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 6,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_dedicated_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794819773.jpg",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram accurately illustrates the URL matching and request forwarding process described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_dedicated_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the region selector button referenced in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_dedicated_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the service list menu button referenced in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_dedicated_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747380940.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the action menu button for listeners referenced in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_dedicated_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660677.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the action menu button for listeners referenced in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_dedicated_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739820.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the action menu button for listeners referenced in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_shared_load_balancers.rst",
@@ -1801,153 +1627,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 6,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_shared_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747740012.jpg",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram clearly illustrates the URL matching rules (exact, prefix, regular expression) and the forwarding process to backend server groups as described in the 'URL Matching Example' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_shared_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The purple location pin icon matches the region selector button described in the steps for adding, modifying, and deleting forwarding policies."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_shared_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The hamburger menu icon corresponds to the 'Service List' button mentioned in the initial navigation steps."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_shared_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660873.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The hamburger menu icon matches the control used to access the 'Configure Forwarding Policy' option during the addition process."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_shared_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794819961.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The hamburger menu icon matches the control used to access the 'Configure Forwarding Policy' option during the modification process."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/forwarding_policy_shared_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794819965.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The hamburger menu icon matches the control used to access the 'Configure Forwarding Policy' option during the deletion process."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/advanced_features_of_http_https_listeners/http_2.rst",
@@ -2006,93 +1699,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/http_2.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [
-          "The image is blurry, making fine details unclear."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/http_2.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, matching the RST description for opening the Service List."
-        ],
-        "missing_evidence": [
-          "The image is blurry, limiting visual clarity."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/http_2.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794819893.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a menu icon (three lines), consistent with the RST instruction to click an action menu next to a listener name."
-        ],
-        "missing_evidence": [
-          "The image is blurry, reducing visual detail."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/advanced_features_of_http_https_listeners/http_redirection_to_https.rst",
@@ -2161,11 +1781,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -2293,263 +1913,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 11
     },
     "summary": {
-      "pass": 11,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/mutual_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747381096.jpg",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Terminal screenshot shows the exact command `openssl genrsa -out ca.key 2048` described in step 4 of the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/mutual_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739988.jpg",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Terminal screenshot shows the exact command `openssl x509 -req -in ca.csr -out ca.crt -sha1 -days 5000 -signkey ca.key` described in step 6 of the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/mutual_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660833.jpg",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Terminal screenshot shows the exact command `openssl x509 -req -in server.csr -out server.crt -sha1 -CAcreateserial -days 5000 -CA ../ca/ca.crt -CAkey ../ca/ca.key` described in step 6 of the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/mutual_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739980.jpg",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Terminal screenshot shows the exact command `openssl genrsa -out client.key 2048` described in step 4 of the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/mutual_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739976.jpg",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Terminal screenshot shows the exact command `openssl req -out client.csr -key client.key -new -config ./client_cert.conf` described in step 5 of the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/mutual_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739964.jpg",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Terminal screenshot shows the exact command `openssl x509 -req -in client.csr -out client.crt -sha1 -CAcreateserial -days 5000 -CA ../ca/ca.crt -CAkey ../ca/ca.key` described in step 6 of the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/mutual_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739968.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "UI screenshot shows the 'Create Certificate' dialog with 'CA certificate' selected and 'OK' button highlighted in magenta, matching step 3 of the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/mutual_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739972.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "UI screenshot shows the 'Add Listener' dialog with 'HTTPS' and 'Mutual authentication' selected in magenta, matching step 3 of the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/mutual_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660809.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Browser screenshot shows the 'Internet Options' > 'Content' > 'Certificates' dialog with 'Import...' highlighted, matching step 1c of the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/mutual_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747381076.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Browser screenshot shows a successful HTTPS page load ('hello world'), matching step 2 of the RST verification process."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/mutual_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660817.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Terminal screenshot shows the `curl` command execution returning `HTTP/1.1 200 OK`, matching step 2 of Method 2 in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/advanced_features_of_http_https_listeners/sni_certificate_for_https_listeners.rst",
@@ -2578,11 +1955,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -2710,93 +2087,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the region selector context described in the document."
-        ],
-        "missing_evidence": [
-          "Image resolution is low, limiting detailed verification of UI elements."
-        ],
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/tls_security_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the service list menu context described in the document."
-        ],
-        "missing_evidence": [
-          "Image resolution is low, limiting detailed verification of UI elements."
-        ],
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/tls_security_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the actions menu context described in the document."
-        ],
-        "missing_evidence": [
-          "Image resolution is low, limiting detailed verification of UI elements."
-        ],
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/tls_security_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747380864.png",
-        "overall_score": 0.88,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/advanced_features_of_http_https_listeners/transferring_the_load_balancer_eip_to_backend_servers.rst",
@@ -2855,87 +2159,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/transferring_the_load_balancer_eip_to_backend_servers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the RST instruction to click it for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/transferring_the_load_balancer_eip_to_backend_servers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, consistent with the RST step to open the Service List."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/advanced_features_of_http_https_listeners/transferring_the_load_balancer_eip_to_backend_servers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794820001.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a menu/options icon, matching the RST reference for clicking next to a listener name to modify it."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_dedicated_load_balancers/configuring_security_group_and_firewall_rules.rst",
@@ -2984,11 +2221,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -3026,11 +2263,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -3068,11 +2305,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -3110,11 +2347,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -3142,45 +2379,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backend_server_dedicated_load_balancers/ip_addresses_as_backend_servers/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794819821.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a network architecture diagram illustrating hybrid load balancing.",
-          "It accurately depicts routing traffic to on-premises servers via Direct Connect/VPN, to servers in the same VPC, and to servers in a peered VPC.",
-          "Matches the text description of adding backend servers in different VPCs or on-premises data centers."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_dedicated_load_balancers/ip_addresses_as_backend_servers/removing_backend_servers.rst",
@@ -3209,65 +2421,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backend_server_dedicated_load_balancers/ip_addresses_as_backend_servers/removing_backend_servers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the procedure step for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backend_server_dedicated_load_balancers/ip_addresses_as_backend_servers/removing_backend_servers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which aligns with the procedure step for opening the Service List menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_dedicated_load_balancers/ip_addresses_as_backend_servers/viewing_backend_servers.rst",
@@ -3296,67 +2463,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 1,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backend_server_dedicated_load_balancers/ip_addresses_as_backend_servers/viewing_backend_servers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the instruction to select a region.",
-          "The icon is somewhat blurry but clearly represents a map marker consistent with the context."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/backend_server_dedicated_load_balancers/ip_addresses_as_backend_servers/viewing_backend_servers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which is standard for opening a service list or navigation menu.",
-          "It directly matches the procedural step to click the icon to display the Service List."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_dedicated_load_balancers/managing_backend_servers/adding_backend_servers.rst",
@@ -3385,69 +2505,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backend_server_dedicated_load_balancers/managing_backend_servers/adding_backend_servers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the RST instruction to select a region."
-        ],
-        "missing_evidence": [
-          "The image is blurry, limiting precise UI context verification."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backend_server_dedicated_load_balancers/managing_backend_servers/adding_backend_servers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, consistent with the RST instruction to open the Service List."
-        ],
-        "missing_evidence": [
-          "Low resolution makes it difficult to confirm exact UI placement or surrounding elements."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_dedicated_load_balancers/managing_backend_servers/changing_backend_server_weights.rst",
@@ -3476,69 +2547,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the instruction to select a region in step 2."
-        ],
-        "missing_evidence": [
-          "The image is slightly blurry, but the location pin symbol is clearly identifiable."
-        ],
-        "document_path": "umn/source/backend_server_dedicated_load_balancers/managing_backend_servers/changing_backend_server_weights.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which corresponds to the action of opening the Service List in step 3."
-        ],
-        "missing_evidence": [
-          "The image is low resolution, but the standard menu icon is recognizable."
-        ],
-        "document_path": "umn/source/backend_server_dedicated_load_balancers/managing_backend_servers/changing_backend_server_weights.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "overall_score": 0.95,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_dedicated_load_balancers/managing_backend_servers/removing_backend_servers.rst",
@@ -3567,11 +2589,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -3609,67 +2631,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backend_server_dedicated_load_balancers/managing_backend_servers/viewing_backend_servers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the RST instruction to select a region and project.",
-          "The image is blurry but clearly represents a standard geographic or region selector symbol."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backend_server_dedicated_load_balancers/managing_backend_servers/viewing_backend_servers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, matching the RST context of clicking to display the Service List.",
-          "The icon is a standard UI symbol for opening a navigation or service menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_group/changing_a_backend_server_group.rst",
@@ -3698,65 +2673,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backend_server_group/changing_a_backend_server_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660553.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically aligns with the RST instruction to click it for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backend_server_group/changing_a_backend_server_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747380852.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which matches the RST description of the control used to open the Service List."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_group/creating_a_backend_server_group_dedicated_load_balancers.rst",
@@ -3795,87 +2725,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the RST instruction to click an icon for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/backend_server_group/creating_a_backend_server_group_dedicated_load_balancers.rst",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739748.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, consistent with the RST step instructing the user to click it to display the Service List."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/backend_server_group/creating_a_backend_server_group_dedicated_load_balancers.rst",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660865.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image depicts an edit/pencil icon, which aligns with the RST instruction to click it next to Advanced Settings to configure health check parameters."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/backend_server_group/creating_a_backend_server_group_dedicated_load_balancers.rst",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_group/creating_a_backend_server_group_shared_load_balancers.rst",
@@ -3914,89 +2777,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the instruction in step 2 to select a region and project."
-        ],
-        "missing_evidence": [
-          "The image is low resolution and blurry, but the general shape corresponds to a region or location selector."
-        ],
-        "document_path": "umn/source/backend_server_group/creating_a_backend_server_group_shared_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a standard hamburger menu icon, which aligns with step 3's instruction to click it to display the Service List."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/backend_server_group/creating_a_backend_server_group_shared_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739748.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image depicts a pencil/edit icon, which matches the instruction in step 7 to click it next to Advanced Settings to configure parameters."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/backend_server_group/creating_a_backend_server_group_shared_load_balancers.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739800.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_group/deleting_a_backend_server_group.rst",
@@ -4025,69 +2819,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "document_path": "umn/source/backend_server_group/deleting_a_backend_server_group.rst",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon represents a location pin, matching the context of selecting a region.",
-          "Directly supports the procedure step for region selection."
-        ],
-        "missing_evidence": [
-          "Image is blurry, limiting visibility of specific UI details."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "document_path": "umn/source/backend_server_group/deleting_a_backend_server_group.rst",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon is a hamburger menu, matching the context of opening the service list.",
-          "Directly supports the procedure step for accessing the service list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_group/enabling_modification_protection.rst",
@@ -4116,65 +2861,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
       "pass": 0,
-      "partial": 2,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backend_server_group/enabling_modification_protection.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/backend_server_group/enabling_modification_protection.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which semantically matches the instruction to open the Service List."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_group/enabling_removal_protection_for_a_backend_server_group.rst",
@@ -4203,65 +2903,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backend_server_group/enabling_removal_protection_for_a_backend_server_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which semantically matches the procedure step for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backend_server_group/enabling_removal_protection_for_a_backend_server_group.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard hamburger menu icon, which aligns with the instruction to click and display the Service List."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_group/key_functions/health_check.rst",
@@ -4320,11 +2975,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
@@ -4382,117 +3037,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Illustrates the weighted round robin algorithm as described in the text.",
-          "Shows equal 50% traffic distribution to two backend servers.",
-          "Matches Figure 1 reference in the RST document."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/backend_server_group/key_functions/load_balancing_algorithms.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747381180.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Illustrates the weighted least connections algorithm.",
-          "Shows Server 01 with 100 connections and Server 02 with 50 connections, both weight 100.",
-          "New requests are routed to Server 02, matching the RST description for Figure 2."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/backend_server_group/key_functions/load_balancing_algorithms.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747740060.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Illustrates the source IP hash algorithm.",
-          "Shows new requests from IP address A being routed back to Backend server 01.",
-          "Matches Figure 3 reference in the RST document."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/backend_server_group/key_functions/load_balancing_algorithms.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794820009.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Illustrates the connection ID algorithm.",
-          "Shows new requests from client A being routed back to Backend server 01.",
-          "Matches Figure 4 reference in the RST document."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/backend_server_group/key_functions/load_balancing_algorithms.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794820013.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_group/modifying_a_backend_server_group/changing_the_load_balancing_algorithm.rst",
@@ -4521,65 +3079,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backend_server_group/modifying_a_backend_server_group/changing_the_load_balancing_algorithm.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backend_server_group/modifying_a_backend_server_group/changing_the_load_balancing_algorithm.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739748.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which is a standard UI symbol for opening a service list or navigation menu as described in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_group/modifying_a_backend_server_group/modifying_health_check_settings.rst",
@@ -4628,87 +3141,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backend_server_group/modifying_a_backend_server_group/modifying_health_check_settings.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backend_server_group/modifying_a_backend_server_group/modifying_health_check_settings.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, consistent with the step to click it to display the Service List."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backend_server_group/modifying_a_backend_server_group/modifying_health_check_settings.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739748.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, matching the instruction for accessing the Service List in the disabling procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_group/modifying_a_backend_server_group/modifying_slow_start_settings_dedicated_load_balancers.rst",
@@ -4757,11 +3203,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -4819,67 +3265,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which semantically matches the instruction to select a region.",
-          "The icon is consistent with standard UI conventions for location or region selection."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/backend_server_group/modifying_a_backend_server_group/modifying_sticky_session_settings.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png",
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, aligning with the step to open the Service List.",
-          "The visual matches standard UI patterns for navigation or menu toggles."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/backend_server_group/modifying_a_backend_server_group/modifying_sticky_session_settings.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739748.png",
-        "overall_score": 0.88,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backend_server_group/viewing_a_backend_server_group.rst",
@@ -4908,11 +3307,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -4970,7 +3369,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -5012,7 +3411,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -5054,7 +3453,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -5096,7 +3495,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -6112,7 +4511,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -7328,7 +5727,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -7390,7 +5789,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -7432,7 +5831,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -7494,7 +5893,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -7536,7 +5935,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -8038,7 +6437,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -8154,7 +6553,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,

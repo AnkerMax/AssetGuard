@@ -112,43 +112,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started_with_geminidb_cassandra/connecting_to_a_geminidb_cassandra_instance_over_private_networks/configuring_security_group_rules.rst",
-        "image_path": "/home/ubuntu/repotesting/geminidb/umn/source/_static/images/en-us_image_0000001815205124.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly matches the RST instruction to click it to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started_with_geminidb_cassandra/connecting_to_a_geminidb_cassandra_instance_over_public_networks/configuring_security_group_rules.rst",
@@ -167,11 +144,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -199,44 +176,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started_with_geminidb_cassandra/creating_a_geminidb_cassandra_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/geminidb/umn/source/_static/images/en-us_image_0000001815204812.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a refresh icon, which matches the RST description of clicking an icon to refresh DB instance statuses.",
-          "The icon is a standard UI symbol for refreshing or reloading data."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/logging_in_to_the_geminidb_console.rst",
@@ -255,11 +208,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -297,11 +250,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -329,11 +282,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -371,11 +324,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -433,11 +386,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -495,113 +448,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
-      "fail": 2
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_geminidb_cassandra_api/db_instance_management/configuring_autoscaling.rst",
-        "image_path": "/home/ubuntu/repotesting/geminidb/umn/source/_static/images/en-us_image_0000002038307285.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Storage Space area with the Auto Scale button, matching Figure 1 in the RST.",
-          "UI elements and layout correspond directly to the single instance autoscaling configuration step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_geminidb_cassandra_api/db_instance_management/configuring_autoscaling.rst",
-        "image_path": "/home/ubuntu/repotesting/geminidb/umn/source/_static/images/en-us_image_0000002038188189.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": true,
-        "hard_fail_reason": "The interactive OK button is black, which is neither magenta nor plain white, triggering the hard fail condition.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the Auto Scale configuration dialog with toggle and parameter fields, matching Figure 2.",
-          "Parameters like Trigger If, Increase By, and Storage Limit are visible and align with the RST table."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/working_with_geminidb_cassandra_api/db_instance_management/configuring_autoscaling.rst",
-        "image_path": "/home/ubuntu/repotesting/geminidb/umn/source/_static/images/en-us_image_0000002038307289.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the instances list page with the Auto Scale button highlighted, matching Figure 3.",
-          "Visual evidence supports the batch autoscaling initiation step described in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_geminidb_cassandra_api/db_instance_management/configuring_autoscaling.rst",
-        "image_path": "/home/ubuntu/repotesting/geminidb/umn/source/_static/images/en-us_image_0000002038188193.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": true,
-        "hard_fail_reason": "The interactive OK button is black, which is neither magenta nor plain white, triggering the hard fail condition.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the Batch Auto Scale configuration dialog, matching Figure 4.",
-          "Storage Limit parameter shows 'Maximum storage supported by the current instance specifications', consistent with the RST table."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/working_with_geminidb_cassandra_api/monitoring_and_alarm_reporting/viewing_metrics.rst",
@@ -620,11 +480,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -672,86 +532,19 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/working_with_geminidb_cassandra_api/parameter_template_management/modifying_a_parameter_template_description.rst",
-        "image_path": "/home/ubuntu/repotesting/geminidb/umn/source/_static/images/en-us_image_0000001815204972.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pencil icon, which semantically corresponds to the instruction to modify or edit the description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_geminidb_cassandra_api/parameter_template_management/modifying_a_parameter_template_description.rst",
-        "image_path": "/home/ubuntu/repotesting/geminidb/umn/source/_static/images/en-us_image_0000001861924833.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a checkmark icon, which aligns with the 'submit' action described in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/working_with_geminidb_cassandra_api/parameter_template_management/modifying_a_parameter_template_description.rst",
-        "image_path": "/home/ubuntu/repotesting/geminidb/umn/source/_static/images/en-us_image_0000001815204976.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays an X icon, which aligns with the 'cancel' action described in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   }
 ]

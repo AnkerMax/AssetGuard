@@ -1,7 +1,8 @@
-2026-07-23 02:15:13,646 INFO __main__ - Starting AssetGuard
-2026-07-23 02:15:13,646 INFO __main__ - Workspace: /home/ubuntu/repotesting/host-security-service
-2026-07-23 02:15:13,646 INFO __main__ - Found RST-Dateien: 336
-2026-07-23 02:15:13,646 INFO __main__ - Sending files to backend and waiting for response..
-2026-07-23 03:12:26,333 INFO __main__ - Done. Processed 118 rst files, wrote 118 rows to results_with_images.json, flagged 15 files, csv=results_with_images.csv, failed_csv=results_with_images.failed_only.csv
-duration_seconds=3433
-duration_human=57m 13s
+==> Bearbeite host-security-service
+Already up to date.
+OK: speichere Ergebnis von host-security-service in /home/ubuntu/AssetGuard/repo_results/host-security-service (Dauer: 26m 9s)
+processed_files=118
+flagged_files=112
+row_count=118
+duration_seconds=1569
+duration_human=26m 9s

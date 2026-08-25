@@ -164,93 +164,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/dis_sdk_usage_guide/configuring_sample_projects.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0124306701.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image correctly displays the 'Import Projects' dialog box referenced in step 2c.",
-          "The UI layout, project list, and navigation buttons match the description of importing an existing project into the workspace."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/dis_sdk_usage_guide/configuring_sample_projects.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001499513972.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image correctly shows the 'Resource' properties page referenced in step 3a.",
-          "It clearly displays the 'Text file encoding' setting with 'UTF-8' selected, directly matching the configuration instruction."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/dis_sdk_usage_guide/configuring_sample_projects.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0124306705.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 1,
-          "detail_match": 0,
-          "section_relevance": 1,
-          "visual_evidence": 1,
-          "contradictions": 1
-        },
-        "reasons": [
-          "The image shows the 'Import Projects' dialog, which is identical to Figure 1.",
-          "The RST text references this image for step 3b, which describes opening the 'JAR Selection' dialog within the 'Java Build Path' properties.",
-          "The visual content does not match the described step or the expected figure caption."
-        ],
-        "missing_evidence": [
-          "The actual 'JAR Selection' or 'Java Build Path' dialog is not shown."
-        ],
-        "overall_score": 0.27,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/dump_questions/how_does_a_schema_support_default_fields_or_null_fields.rst",
@@ -279,71 +206,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 2
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/dump_questions/how_does_a_schema_support_default_fields_or_null_fields.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0200877126.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the 'Source Data Schema' UI.",
-          "Shows the JSON input and generated Avro schema with 'type': 'string'.",
-          "Illustrates the example of not supporting default fields as described in the text.",
-          "Hard fail triggered due to non-magenta/white interactive buttons."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/faqs/dump_questions/how_does_a_schema_support_default_fields_or_null_fields.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0200879188.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the 'Source Data Schema' UI with the 'Null' checkbox checked.",
-          "Shows the generated Avro schema with 'type': ['null', 'string'] and 'default': null.",
-          "Illustrates the example of supporting default fields as described in the text.",
-          "Hard fail triggered due to non-magenta/white interactive buttons."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/general_questions/what_is_dis.rst",
@@ -362,45 +238,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/general_questions/what_is_dis.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001199305476.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a diagram illustrating the data flow process described in the text.",
-          "It accurately depicts data sources sending records to DIS, which transforms them and forwards them to OBS.",
-          "The visual directly supports the 'Data Flows' section of the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started/creating_an_iam_agency.rst",
@@ -429,11 +280,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -471,67 +322,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/step_1_creating_a_dis_stream.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001788900822.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the DIS management console overview page, which aligns with the instruction to log in to the console.",
-          "A magenta 'Create' button is visible in the top right corner, consistent with the UI theme and the procedure to create a stream."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.93,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_1_creating_a_dis_stream.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0120206164.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a blue location pin icon.",
-          "This matches the reference to selecting a region and project in the procedure steps."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.93,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started/step_2_preparing_a_dis_application_development_environment.rst",
@@ -600,153 +404,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 6
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/step_2_preparing_a_dis_application_development_environment.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0120206057.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (OK, Cancel, Apply) are not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Eclipse Preferences dialog for Java settings, matching Figure 1 in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_2_preparing_a_dis_application_development_environment.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0120206033.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (Add, Edit, OK, Cancel) are not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Installed JREs page in Eclipse, matching Figure 2 in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_2_preparing_a_dis_application_development_environment.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0120206155.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (Next, Finish, Cancel) are not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the JRE Type selection dialog, matching Figure 3 in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_2_preparing_a_dis_application_development_environment.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0120206008.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (Next, Finish, Cancel, Directory) are not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the JRE Definition dialog, matching Figure 4 in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_2_preparing_a_dis_application_development_environment.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0151034370.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (Browse, Finish, Cancel) are not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Import Projects dialog with dis-sdk-demo selected, matching Figure 5 in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_2_preparing_a_dis_application_development_environment.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0086571410.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (Apply, Apply and Close, Cancel) are not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Java Build Path Libraries tab with JARs listed, matching Figure 6 in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started/step_3_sending_data_to_dis.rst",
@@ -765,11 +436,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -807,11 +478,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -859,11 +530,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -891,11 +562,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -953,109 +624,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_dis_streams/managing_applications.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0165229968.jpg",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive button 'Remove All Checkpoints' is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the Applications page table with app details and the 'Remove All Checkpoints' action, directly matching Figure 1 description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/managing_dis_streams/managing_applications.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0165286917.jpg",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows stream consumption details with partition status and checkpoint offsets, aligning with Figure 2 description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_dis_streams/managing_applications.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0165093532.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows a location pin icon, corresponding to the region and project selector mentioned in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_dis_streams/managing_applications.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0165094364.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows a location pin icon, corresponding to the region and project selector mentioned in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_dis_streams/scaling_up_down_a_stream.rst",
@@ -1114,140 +696,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 1,
-      "partial": 3,
-      "fail": 1
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_dis_streams/scaling_up_down_a_stream.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001671647961.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "The 'OK' button is red, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Dialog box matches the 'Edit Auto-Scaling Parameter' figure in the text.",
-          "Contains interactive buttons."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/managing_dis_streams/scaling_up_down_a_stream.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001623208020.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 1,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon appears to be a location or region selector, matching the context of selecting a region in the DIS console.",
-          "Image is low resolution."
-        ],
-        "missing_evidence": [
-          "Clearer view of the icon would help confirm exact function."
-        ],
-        "overall_score": 0.67,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/managing_dis_streams/scaling_up_down_a_stream.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001671447933.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 1,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Pencil icon matches the context of editing auto-scaling parameters.",
-          "Image is low resolution."
-        ],
-        "missing_evidence": [
-          "Clearer view needed."
-        ],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_dis_streams/scaling_up_down_a_stream.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0120206196.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 1,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the region selector context.",
-          "Low resolution."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.67,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/managing_dis_streams/scaling_up_down_a_stream.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0120396589.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 1,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the region selector context.",
-          "Low resolution."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.67,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_dis_streams/viewing_stream_monitoring_metrics.rst",
@@ -1286,94 +748,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_dis_streams/viewing_stream_monitoring_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001788903274.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot of the DIS console Monitoring page.",
-          "Shows stream details and the Monitoring tab with Streams/Partitions sub-tabs.",
-          "Displays time range selector buttons (1h, 3h, 12h, Custom) with 12h highlighted in magenta.",
-          "Directly illustrates the process of viewing stream monitoring metrics as described in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_dis_streams/viewing_stream_monitoring_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0120206196.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon of a location pin.",
-          "Corresponds to the region selector icon mentioned in step 2.",
-          "Used to select a region and project in the console."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_dis_streams/viewing_stream_monitoring_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0127307205.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon of a calendar.",
-          "Corresponds to the custom time range selector icon mentioned in Table 1.",
-          "Used to set start and end times for monitoring metrics."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/monitoring/querying_metrics.rst",
@@ -1412,90 +800,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/monitoring/querying_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001098956296.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (e.g., time range selectors) are blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the DIS monitoring metrics dashboard as described in the procedure.",
-          "Contains multiple metric graphs and UI controls matching the Cloud Eye console context."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/monitoring/querying_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0238223179.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the RST description of a region selection icon.",
-          "Visual matches the context of selecting a region and project in the upper left corner."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/monitoring/querying_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0216208311.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the RST description of a zoom-out icon.",
-          "Visual matches the context of zooming out graphs in the upper right corner."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/notifying_events/setting_notification.rst",
@@ -1554,141 +872,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/notifying_events/setting_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0130822560.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Delete Subscription' confirmation dialog, which directly corresponds to Step 4 in the 'Deleting the Subscription' section."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/notifying_events/setting_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001274606310.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a blue toggle switch in the ON position, which aligns with the RST description for |image1| indicating that notification is enabled."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/notifying_events/setting_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001325286261.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a grey toggle switch in the OFF position, corresponding to the RST text for |image2| indicating that notification is disabled."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/notifying_events/setting_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001325622881.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a blue toggle switch in the ON position, matching the RST description for |image3| indicating that subscription to alarms of a specified stream is enabled."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/notifying_events/setting_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0000001274783064.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a grey toggle switch in the OFF position, aligning with the RST text for |image4| indicating that subscription to alarms of a specified channel is disabled."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/notifying_events/viewing_events.rst",
@@ -1717,65 +914,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/notifying_events/viewing_events.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0109727712.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a magnifying glass icon, which aligns with the instruction to click it to display filtered event query results, indicating a search function."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/notifying_events/viewing_events.rst",
-        "image_path": "/home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0130854869.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a funnel icon, which corresponds to the instruction to click it to filter events by name."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/overview/what_is_dis.rst",
@@ -1794,11 +946,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },

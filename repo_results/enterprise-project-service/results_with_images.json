@@ -48,44 +48,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/accessing_the_project_management_page.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963209421.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a dropdown menu containing the 'Enterprise Management' option, which directly matches the text instruction.",
-          "Visual evidence clearly illustrates the specific UI element and step described in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/application_scenarios.rst",
@@ -134,7 +110,7 @@
       }
     ],
     "status": {
-      "http_status": null,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -166,7 +142,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -198,20 +174,45 @@
       }
     ],
     "status": {
-      "http_status": 500,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_personnel_management/authorizing_a_user_to_manage_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937385958.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the Enterprise Project details page, directly aligning with the document's topic.",
+          "It clearly shows the 'Permissions' tab selected and the 'Authorize User' button, matching the procedural step exactly.",
+          "The interactive buttons are magenta, satisfying the mandatory color constraint."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/enterprise_personnel_management/removing_a_user_group_from_an_enterprise_project.rst",
@@ -250,11 +251,11 @@
       }
     ],
     "status": {
-      "http_status": null,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 3
     },
@@ -302,20 +303,93 @@
       }
     ],
     "status": {
-      "http_status": null,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 0,
+      "pass": 3,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_personnel_management/removing_users_from_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964308565.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches step 3 of the procedure.",
+          "Shows the Enterprise Project details page with the Permissions tab selected.",
+          "Clearly displays the 'Authorize User' button as instructed."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_personnel_management/removing_users_from_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964314613.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches step 4 of the procedure.",
+          "Shows the IAM Users page.",
+          "Highlights a specific username to be clicked to access details."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_personnel_management/removing_users_from_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964318045.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches step 5 of the procedure.",
+          "Shows the Permissions tab for a user.",
+          "Highlights the 'By Enterprise Project' button and the 'Delete' action in the Operation column."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/enterprise_personnel_management/viewing_enterprise_project_authorization_records.rst",
@@ -334,11 +408,11 @@
       }
     ],
     "status": {
-      "http_status": 500,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
@@ -376,20 +450,65 @@
       }
     ],
     "status": {
-      "http_status": null,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_project_management/creating_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001213644769.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Create Enterprise Project' dialog with a magenta 'OK' button, matching the procedure steps."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_project_management/creating_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936655078.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Enterprise Project Management Service' page with the magenta 'Create Enterprise Project' button and the opened dialog."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/enterprise_project_management/modifying_enabling_or_disabling_an_enterprise_project.rst",
@@ -428,20 +547,87 @@
       }
     ],
     "status": {
-      "http_status": null,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 0,
+      "pass": 3,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_project_management/modifying_enabling_or_disabling_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936823890.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Enterprise Project Management page with the 'More' dropdown open for an enabled project, highlighting 'Modify', which matches the 'Modifying an Enterprise Project' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_project_management/modifying_enabling_or_disabling_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963828029.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Enterprise Project Management page with the 'More' dropdown open for a disabled project, highlighting 'Enable', which matches the 'Enabling an Enterprise Project' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_project_management/modifying_enabling_or_disabling_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963830609.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Enterprise Project Management page with the 'More' dropdown open for an enabled project, highlighting 'Disable', which matches the 'Disabling an Enterprise Project' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/enterprise_project_management/selecting_an_enterprise_project_for_a_new_cloud_resource.rst",
@@ -490,7 +676,7 @@
       }
     ],
     "status": {
-      "http_status": null,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -532,7 +718,7 @@
       }
     ],
     "status": {
-      "http_status": null,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -574,7 +760,7 @@
       }
     ],
     "status": {
-      "http_status": null,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -606,7 +792,7 @@
       }
     ],
     "status": {
-      "http_status": null,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -638,7 +824,7 @@
       }
     ],
     "status": {
-      "http_status": null,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -670,7 +856,7 @@
       }
     ],
     "status": {
-      "http_status": null,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -702,7 +888,7 @@
       }
     ],
     "status": {
-      "http_status": null,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -744,7 +930,7 @@
       }
     ],
     "status": {
-      "http_status": null,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -876,7 +1062,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -908,7 +1094,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -990,7 +1176,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,

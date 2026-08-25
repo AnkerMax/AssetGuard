@@ -16,45 +16,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335530225.png",
-        "document_path": "umn/source/appendix/evs_disk_status.rst",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart illustrating transitions between EVS disk statuses.",
-          "It directly supports the section's topic and aligns with the table listing disk statuses and their allowed operations.",
-          "The diagram accurately depicts the workflow from 'Creating' to 'Available', 'Attaching', 'In-use', 'Detaching', and 'Error', matching the document's description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/attaching_an_existing_evs_disk/attaching_an_existing_non-shared_disk.rst",
@@ -83,65 +58,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which semantically aligns with the procedure step to select a region and project."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/attaching_an_existing_evs_disk/attaching_an_existing_non-shared_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301563090.png",
-        "overall_score": 0.83,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which is the standard UI symbol for opening a navigation menu to access Storage and Elastic Volume Service."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/attaching_an_existing_evs_disk/attaching_an_existing_non-shared_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335522197.jpg",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/attaching_an_existing_evs_disk/attaching_an_existing_shared_disk.rst",
@@ -170,65 +100,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/attaching_an_existing_evs_disk/attaching_an_existing_shared_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301563098.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which corresponds to the RST instruction for selecting a region."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/attaching_an_existing_evs_disk/attaching_an_existing_shared_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335522209.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which corresponds to the RST instruction for opening the navigation menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/attaching_an_existing_evs_disk/attaching_an_existing_system_disk.rst",
@@ -257,65 +142,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/attaching_an_existing_evs_disk/attaching_an_existing_system_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335562397.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a map pin icon, which semantically matches the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/attaching_an_existing_evs_disk/attaching_an_existing_system_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301563082.jpg",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which semantically matches the RST instruction to open the navigation menu to select Storage > Elastic Volume Service."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/changing_the_evs_disk_type_beta.rst",
@@ -354,94 +194,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/changing_the_evs_disk_type_beta.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335563257.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the 'Modify Specifications' page described in step 5.",
-          "Clearly shows the disk type dropdown selection interface and current configuration details."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/changing_the_evs_disk_type_beta.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Represents the region/project selector icon referenced in step 2.",
-          "Low resolution but recognizable as a location pin."
-        ],
-        "missing_evidence": [
-          "Image is low resolution and blurry."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/changing_the_evs_disk_type_beta.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002493265210.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Represents the main navigation menu icon referenced in step 3.",
-          "Low resolution but recognizable as a hamburger menu."
-        ],
-        "missing_evidence": [
-          "Image is low resolution and blurry."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cloud_eye_monitoring/viewing_basic_evs_monitoring_data.rst",
@@ -460,11 +226,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -502,67 +268,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/creating_and_using_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002051547313.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart illustrating the high-level process of using an EVS disk.",
-          "It aligns with Figure 1's description, visually representing the steps: Create disks, Attach disks, and Initialize data disks."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/creating_and_using_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002015229526.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a step-by-step flowchart that matches the process described for Figure 2.",
-          "It accurately depicts the four numbered steps from the RST: Preparations, Create an EVS disk, Attach the disk, and Initialize the disk."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/detaching_and_deleting_an_evs_disk/deleting_an_evs_disk.rst",
@@ -601,90 +320,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/deleting_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which aligns with the instruction to select a region and project.",
-          "The icon clearly represents the UI element referenced in step 2 of the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/deleting_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the instruction to open the navigation menu.",
-          "The icon clearly represents the UI element referenced in step 3 of the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/deleting_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0238263087.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a checkbox icon, matching the instruction to select disks for batch deletion.",
-          "The icon clearly represents the UI element referenced in step 5 of the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/detaching_and_deleting_an_evs_disk/detaching_an_evs_disk.rst",
@@ -813,224 +462,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 9
     },
     "summary": {
-      "pass": 5,
-      "partial": 4,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/detaching_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313460881.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the 'Detach Disk' dialog for a system disk described in the RST.",
-          "Shows confirmation buttons 'Yes' and 'No' with the 'No' button in magenta."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/detaching_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313460909.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the 'Detach Disk' dialog for a non-shared data disk described in the RST.",
-          "Shows server attachment details and confirmation buttons."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/detaching_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313460937.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the 'Detach Disk' dialog triggered from the disk list operation column.",
-          "Shows confirmation buttons 'Yes' and 'No' with the 'No' button in magenta."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/detaching_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313461021.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the 'Detach Disk' dialog for a shared data disk described in the RST.",
-          "Shows server attachment details and confirmation buttons."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/detaching_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313461049.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the 'Detach Disk' dialog triggered from the disk list for a shared disk.",
-          "Shows confirmation buttons 'Yes' and 'No' with the 'No' button in magenta."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/detaching_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0238263087.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Represents a checkbox icon used for selecting servers in the batch detachment process."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/detaching_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Represents the navigation menu icon used to access the Storage > Elastic Volume Service section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/detaching_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002278804436.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Represents a checkbox icon used for selecting a server before detaching a non-shared data disk."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/detaching_and_deleting_an_evs_disk/detaching_an_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0238263087.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Represents a checkbox icon used for selecting servers in the batch detachment process."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/expanding_evs_disk_capacity/expanding_capacity_for_an_available_evs_disk.rst",
@@ -1049,43 +494,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/expanding_evs_disk_capacity/expanding_capacity_for_an_available_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which matches the UI element described in the procedure for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/expanding_evs_disk_capacity/expanding_capacity_for_an_in-use_evs_disk.rst",
@@ -1104,43 +526,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/expanding_evs_disk_capacity/expanding_capacity_for_an_in-use_evs_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which accurately represents the region selector referenced in the procedure step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/expanding_evs_disk_capacity/expansion_overview.rst",
@@ -1159,47 +558,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/expanding_evs_disk_capacity/expansion_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002146742298.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart titled 'Capacity expansion procedure', which directly corresponds to the document's main topic.",
-          "The diagram accurately visualizes the step-by-step process described in the RST for both 'In-use' and 'Available' disk states.",
-          "It correctly includes the decision points for detaching/attaching disks and the final partition extension step, matching the textual instructions.",
-          "The MBR/GPT note in the flowchart aligns with the constraints and recommendations provided in the RST table and notes.",
-          "No contradictions are present between the image and the document text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/expanding_evs_disk_capacity/extending_disk_partitions_and_file_systems_windows_server_2016.rst",
@@ -1458,11 +830,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 25
     },
@@ -1530,131 +902,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faq/attachment/how_do_i_obtain_my_disk_device_name_in_the_ecs_os_using_the_device_identifier_provided_on_the_console.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002278805652.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the Windows command prompt executing the exact commands mentioned in the text to retrieve the disk serial number."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faq/attachment/how_do_i_obtain_my_disk_device_name_in_the_ecs_os_using_the_device_identifier_provided_on_the_console.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313495165.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the command prompt output for checking the disk name and serial number, directly matching the text's instructions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faq/attachment/how_do_i_obtain_my_disk_device_name_in_the_ecs_os_using_the_device_identifier_provided_on_the_console.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313462137.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image accurately depicts the PowerShell commands and outputs for mapping logical disks to physical disks and verifying serial numbers as described."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faq/attachment/how_do_i_obtain_my_disk_device_name_in_the_ecs_os_using_the_device_identifier_provided_on_the_console.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002278862484.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the PowerShell output listing disk drives, highlighting the serial number ending in 206127, which matches the WWN conversion example in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faq/attachment/how_do_i_obtain_my_disk_device_name_in_the_ecs_os_using_the_device_identifier_provided_on_the_console.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002278862480.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is the downward chevron icon referenced in the instructions for expanding disk information on the console."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faq/attachment/why_cant_i_attach_my_disk_to_a_server.rst",
@@ -1683,67 +944,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faq/attachment/why_cant_i_attach_my_disk_to_a_server.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000001622372417.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the 'Disks' management page with the 'Create Backup' option highlighted in the dropdown menu.",
-          "Directly corresponds to the RST instruction 'Create a backup for the disk.'"
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faq/attachment/why_cant_i_attach_my_disk_to_a_server.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000001572095150.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the 'Create Disk' form with the 'Create from' dropdown set to 'Backup'.",
-          "Directly corresponds to the RST instruction 'Create a new disk from this backup.'"
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faq/attachment/why_cant_i_view_the_attached_data_disk_on_the_server.rst",
@@ -1762,11 +976,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1804,67 +1018,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 2
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faq/capacity/how_can_i_view_the_available_capacity_of_my_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313462141.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows Server Manager with Tools menu open.",
-          "Matches RST step 2 and 3."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/faq/capacity/how_can_i_view_the_available_capacity_of_my_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002278862488.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows Disk Management window.",
-          "Matches RST step 4."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faq/capacity/how_do_i_clean_up_my_disk_space_on_a_windows_server.rst",
@@ -1933,11 +1100,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
@@ -1985,93 +1152,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faq/capacity/why_the_space_of_my_new_disk_is_full_after_i_uploaded_only_500_mb_of_files_to_the_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002278805664.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the terminal output of the 'df -h' command, directly matching step 1 of the RST.",
-          "Clearly shows the /dev/vda1 partition at 100% usage, aligning with the RST example.",
-          "Provides clear visual evidence for checking partition usage."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faq/capacity/why_the_space_of_my_new_disk_is_full_after_i_uploaded_only_500_mb_of_files_to_the_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313495213.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the terminal output of the 'df -i' command, directly matching step 2 of the RST.",
-          "Clearly shows inode usage with /dev/vda1 at 3%, aligning with the RST example of low usage.",
-          "Provides clear visual evidence for checking disk space usage."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faq/capacity/why_the_space_of_my_new_disk_is_full_after_i_uploaded_only_500_mb_of_files_to_the_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313462189.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the terminal output of the 'lsof | grep deleted' command, directly matching step 3 of the RST.",
-          "Clearly shows numerous files marked as '(deleted)', aligning with the RST example.",
-          "Provides clear visual evidence for identifying deleted process files consuming space."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faq/capacity_expansion/how_do_i_extend_the_root_partition_of_a_quickly_provisioned_bms.rst",
@@ -2200,11 +1294,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 12
     },
@@ -2242,65 +1336,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faq/general/can_i_change_the_disk_type_device_type_or_sharing_attribute_of_my_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313462089.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Create Backup' option in the disk management interface, directly illustrating the first step of the workaround described in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faq/general/can_i_change_the_disk_type_device_type_or_sharing_attribute_of_my_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313462117.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'Create Disk' form with the 'Create from' dropdown set to 'Backup', matching the second step of the workaround."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faq/general/how_can_i_view_my_disk_details.rst",
@@ -2319,11 +1368,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2381,87 +1430,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faq/general/how_do_i_change_the_name_of_my_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which correctly corresponds to the step for selecting a region and project in the console."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faq/general/how_do_i_change_the_name_of_my_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313495109.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pencil icon, accurately representing the edit action for changing a disk name as described in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faq/general/how_do_i_change_the_name_of_my_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313462085.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a green checkmark icon, which correctly matches the confirmation/OK button step for finalizing the disk name change."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faq/general/why_do_some_of_my_evs_disks_not_have_wwn_information.rst",
@@ -2490,67 +1472,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Displays a valid WWN value, directly matching the description of Figure 1.",
-          "Illustrates the queried WWN information for a new SCSI EVS disk as stated in the document."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/faq/general/why_do_some_of_my_evs_disks_not_have_wwn_information.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002313462125.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Displays dashes indicating missing WWN, directly matching the description of Figure 2.",
-          "Illustrates the case where a disk created before the WWN feature rollout lacks WWN information."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/faq/general/why_do_some_of_my_evs_disks_not_have_wwn_information.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002278862472.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faq/performance/how_can_i_handle_a_slowdown_in_disk_read_write_speed_or_increased_i_os.rst",
@@ -2579,67 +1514,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faq/performance/how_can_i_handle_a_slowdown_in_disk_read_write_speed_or_increased_i_os.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002375826581.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'Disks' management UI with a context menu open, highlighting the 'Create Backup' option.",
-          "It directly illustrates the first step of Method 2 in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faq/performance/how_can_i_handle_a_slowdown_in_disk_read_write_speed_or_increased_i_os.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002342028550.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Create Disk' form with the 'Create from' dropdown menu expanded.",
-          "It highlights the 'Backup' option, matching the second step of Method 2 for creating a new disk from a backup."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faq/performance/how_do_i_test_my_disk_performance.rst",
@@ -2688,11 +1576,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -2720,11 +1608,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2792,136 +1680,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/attaching_an_evs_disk/attaching_a_non-shared_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002385812297.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the 'Attach Disk' dialog box mentioned in step 4.",
-          "UI elements like server list and 'ECSs' tab match the RST description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/attaching_an_evs_disk/attaching_a_non-shared_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002032981318.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the 'Attach Disk' page described in step 6.",
-          "UI matches the RST instruction to select a target disk and click OK."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/attaching_an_evs_disk/attaching_a_non-shared_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002341868762.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the 'Disks' tab on the ECS details page as noted in step 7.",
-          "UI matches the RST description of viewing the newly attached disk."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/attaching_an_evs_disk/attaching_a_non-shared_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002032822906.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a location pin icon used to select region and project.",
-          "Matches the RST instruction to click the icon in the upper left corner."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/attaching_an_evs_disk/attaching_a_non-shared_disk.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002068902269.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a location pin icon used to select region and project.",
-          "Matches the RST instruction to click the icon in the upper left corner."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started/attaching_an_evs_disk/attaching_a_shared_disk.rst",
@@ -2960,11 +1732,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -3022,11 +1794,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -3164,285 +1936,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 12
     },
     "summary": {
-      "pass": 12,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301562030.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Server Manager Dashboard, matching the step to open Server Manager."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721718.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the Computer Management console, corresponding to the Tools > Computer Management step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335561333.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Initialize Disk dialog with GPT selected, matching the initialization step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335521125.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the context menu on unallocated space with 'New Simple Volume', matching the procedure step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301562034.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the welcome page of the New Simple Volume Wizard, as described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721726.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Specify Volume Size page of the wizard, matching the step to set volume size."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335561341.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Assign Drive Letter or Path page, matching the procedure step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335521133.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the Format Partition page with NTFS selected, matching the format settings step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301562042.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Completing the New Simple Volume Wizard page, matching the final wizard step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721734.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows Disk Management with the new volume status as Healthy, confirming successful initialization."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335521137.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the This PC window with the new volume (D:) visible, matching the verification step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/initializing_an_evs_data_disk/initializing_a_windows_data_disk_windows_server_2019.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335561349.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is the This PC icon referenced in the text for opening the file explorer to check the new volume."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started/process_overview.rst",
@@ -3471,67 +1978,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/process_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002052020269.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram visually represents the EVS process overview described in the text.",
-          "It clearly shows the sequence of creating, attaching, and initializing disks as outlined in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/process_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002052179349.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The flowchart matches the numbered steps for purchasing and using a data disk.",
-          "It accurately depicts the sequential process from preparations to initialization without any deviations."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_evs_disk_backups.rst",
@@ -3570,87 +2030,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_evs_disk_backups.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301566422.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the disk selection interface, directly matching the RST figure 'Selecting disks' and step 3 instructions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_disk_backups.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0237893718.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which corresponds to the region selector referenced in step 3b of the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_disk_backups.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335565733.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the navigation menu referenced in step 3c of the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_evs_quotas/querying_evs_resource_quotas.rst",
@@ -3689,87 +2082,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_evs_quotas/querying_evs_resource_quotas.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335567601.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly matches the RST instruction to click it for selecting the desired region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_quotas/querying_evs_resource_quotas.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301568298.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, consistent with the RST step to open the navigation menu to choose Storage > Elastic Volume Service."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_quotas/querying_evs_resource_quotas.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335567609.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a bar chart icon, which aligns with the RST instruction to click it in the upper right corner to access the Service Quota page."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_evs_replication_deprecated/collecting_ecs_information_deprecated.rst",
@@ -3798,71 +2124,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_evs_replication_deprecated/collecting_ecs_information_deprecated.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301727406.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a right-pointing arrow icon, which corresponds to the clickable UI element described in the procedure to view disk details.",
-          "It accurately represents the visual cue for expanding or viewing details in the console interface."
-        ],
-        "missing_evidence": [
-          "The image is a low-resolution icon and does not show the actual details page that appears after clicking."
-        ],
-        "overall_score": 0.93,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_replication_deprecated/collecting_ecs_information_deprecated.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0238263421.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a right-pointing arrow icon, matching the UI element referenced in the procedure to view NIC details.",
-          "It accurately represents the visual cue for expanding or viewing details in the console interface."
-        ],
-        "missing_evidence": [
-          "The image is a low-resolution icon and does not show the actual details page that appears after clicking."
-        ],
-        "overall_score": 0.93,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_evs_replication_deprecated/configuring_a_virtual_ip_address_for_the_server_deprecated.rst",
@@ -3881,11 +2156,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3913,11 +2188,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3945,11 +2220,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3977,11 +2252,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4009,11 +2284,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4041,43 +2316,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/checking_evs_snapshot_details.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which matches the RST instruction to click it to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/creating_a_disk_from_a_snapshot.rst",
@@ -4106,65 +2358,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/creating_a_disk_from_a_snapshot.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the RST instruction to click it to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/creating_a_disk_from_a_snapshot.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, consistent with the step to open the navigation menu to choose Storage and Elastic Volume Service."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/creating_an_evs_snapshot.rst",
@@ -4243,148 +2450,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 3,
-      "partial": 2,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/creating_an_evs_snapshot.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002277640246.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Clearly shows the 'Create Snapshot' form for a specific disk.",
-          "Matches the RST description of configuring snapshot parameters on the Disks page.",
-          "Displays disk specifications and snapshot name input fields as expected."
-        ],
-        "missing_evidence": [
-          "The 'Create Now' button is not visible in this cropped view."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/creating_an_evs_snapshot.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002312239949.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the 'Create Snapshot' interface from the Snapshots page.",
-          "Includes region selection, snapshot name input, and disk selection table.",
-          "Features a magenta 'Create Now' button, aligning with the RST step to click it."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/creating_an_evs_snapshot.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Identifies as a location pin icon used for region/project selection.",
-          "Directly corresponds to the |image3| reference in the RST steps."
-        ],
-        "missing_evidence": [
-          "Low resolution makes it hard to see fine details, but context matches."
-        ],
-        "overall_score": 0.78,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/creating_an_evs_snapshot.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Identifies as a hamburger menu icon used to access the Storage > Elastic Volume Service path.",
-          "Matches the |image4| reference in the RST navigation steps."
-        ],
-        "missing_evidence": [
-          "Low resolution, but standard UI symbol matches documentation context."
-        ],
-        "overall_score": 0.78,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/creating_an_evs_snapshot.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002312239965.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows a snapshot list row with status 'Creating' and a progress bar.",
-          "Directly illustrates the RST instruction to view snapshot creation progress."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/deleting_an_evs_snapshot.rst",
@@ -4413,65 +2492,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/deleting_an_evs_snapshot.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly corresponds to the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/deleting_an_evs_snapshot.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, matching the RST description of opening a navigation menu to access Storage and Elastic Volume Service."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/rolling_back_disk_data_from_a_snapshot.rst",
@@ -4500,69 +2534,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/rolling_back_disk_data_from_a_snapshot.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which corresponds to the step instructing the user to select a region and project."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_snapshots/using_evs_snapshots/rolling_back_disk_data_from_a_snapshot.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, matching the instruction to click the menu to navigate to Storage and Elastic Volume Service."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_evs_tags/adding_a_tag.rst",
@@ -4591,11 +2576,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -4633,67 +2618,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_evs_tags/deleting_a_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, matching the instruction to select a region and project.",
-          "It serves as a navigational aid in the preliminary steps of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.9,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_tags/deleting_a_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, matching the instruction to open the navigation menu.",
-          "It is used to access the Storage section as described in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.9,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_evs_tags/modifying_a_tag.rst",
@@ -4712,11 +2650,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4754,69 +2692,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_evs_tags/searching_for_disks_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the instruction to select a region and project."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/managing_evs_tags/searching_for_disks_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which matches the instruction to click to open a navigation menu for Storage and Elastic Volume Service."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_evs_transfers.rst",
@@ -4835,11 +2724,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4867,46 +2756,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_shared_evs_disks.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301564522.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a schematic diagram illustrating the application scenario of shared EVS disks.",
-          "It accurately depicts a shared disk connected to a cluster management system containing multiple ECS instances, matching the text's description.",
-          "No interactive buttons are visible, so the hard-fail rule does not apply.",
-          "The diagram aligns perfectly with the section's explanation of disk sharing and cluster deployment."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/permissions_management/creating_a_user_and_granting_evs_permissions.rst",
@@ -4925,11 +2788,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4959,7 +2822,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -4975,8 +2838,8 @@
         "document_path": "umn/source/permissions_management/evs_custom_policies.rst",
         "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335562101.jpg",
         "image_kind": "screenshot",
-        "buttons_magenta": true,
         "contains_interactive_buttons": true,
+        "buttons_magenta": true,
         "hard_fail": false,
         "hard_fail_reason": null,
         "criteria": {
@@ -4987,7 +2850,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows the 'Create Custom Policy' interface with the 'Visual editor' tab selected for Elastic Volume Service, directly matching the RST description of the visual editor workflow."
+          "The image is a screenshot of the 'Create Custom Policy' UI, directly illustrating the 'Visual editor' method described in the document.",
+          "It shows the selection of EVS actions and resources, which matches the text's explanation of configuring custom policies visually.",
+          "The UI elements, including the 'Visual editor' tab and action lists, provide clear visual evidence for the policy creation process."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -5021,35 +2886,11 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/basic_concepts/region_and_az.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335559869.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a diagram that directly illustrates the relationship between regions and availability zones (AZs) as described in the text.",
-          "It visually represents the concept of a region containing multiple physically isolated AZs."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/disk_sharing.rst",
@@ -5077,34 +2918,11 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/disk_sharing.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002049223182.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image depicts a shared disk connected to multiple ECS instances within a cluster management system, accurately illustrating the application scenario described in the RST text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/disk_types_and_performance.rst",
@@ -5125,18 +2943,43 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/disk_types_and_performance.rst",
+        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301720190.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a chart illustrating the token consumption and reservation principles for EVS disk burst capability.",
+          "The legend in the image perfectly matches the RST description: blue bars for 'Actual IOPS' (disk IOPS usage), green dashed line for 'IOPS limit' (maximum IOPS), red dashed line for 'IOPS burst limit', and black curve for 'Number of tokens'.",
+          "The figure is correctly placed in the 'Disk Burst Capability and Principles' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/service_overview/evs_and_other_services.rst",
@@ -5164,36 +3007,11 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/evs_and_other_services.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301560510.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a diagram illustrating the relationships between EVS and other cloud services, directly matching the section's topic.",
-          "It accurately depicts all services mentioned in the RST table: ECS, BMS, CBR, KMS, Cloud Eye, CTS, and TMS.",
-          "The interactions shown (attaching disks, creating backups, encryption, monitoring, recording operations, identifying disks) align perfectly with the RST descriptions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/general_purpose_ssd_v2_disks.rst",
@@ -5214,7 +3032,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -5273,11 +3091,81 @@
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 0,
+      "pass": 3,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Illustrates the distribution of data blocks across multiple servers and disks as described in the text.",
+          "Clearly shows P1, P1', and P1'' on different physical disks, matching the three-copy redundancy example."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/service_overview/three-copy_redundancy.rst",
+        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335519625.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Flowchart accurately depicts the data rebuild process outlined in the document.",
+          "Steps from failure identification to concurrent restoration on multiple nodes align with the text."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/service_overview/three-copy_redundancy.rst",
+        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002335559841.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Diagram illustrates the data rebuild principle by marking Server F as faulty.",
+          "Shows how data blocks from the failed server are rebuilt on other servers' physical disks, matching the text example."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/service_overview/three-copy_redundancy.rst",
+        "image_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301720198.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/service_overview/what_is_evs.rst",
@@ -5298,7 +3186,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -5398,11 +3286,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 7
     },

@@ -184,11 +184,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -216,11 +216,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -248,11 +248,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -280,43 +280,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/ecs_management/managing_the_ecss_on_a_deh_in_batches.rst",
-        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the RST instruction to click it to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/ecs_management/migrating_ecss.rst",
@@ -335,43 +312,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/ecs_management/migrating_ecss.rst",
-        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the RST instruction to click the icon to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/ecs_management/modifying_the_specifications_of_an_ecs_on_a_deh.rst",
@@ -390,11 +344,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -422,44 +376,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
-      "partial": 1,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/ecs_management/viewing_the_details_of_ecss_on_a_deh.rst",
-        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which corresponds to the RST instruction for selecting a region and project.",
-          "The icon is a standard UI symbol used in cloud management consoles for region selection."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/deh_faqs/does_each_deh_have_a_unique_id.rst",
@@ -478,44 +408,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/deh_faqs/does_each_deh_have_a_unique_id.rst",
-        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540710213.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive UI controls (toggle switch, edit icon) are blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays a DeH details page with the ID field clearly visible and highlighted.",
-          "Directly supports the FAQ question about DeH unique IDs."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/deh_faqs/how_can_i_query_the_number_of_available_resources_on_a_deh.rst",
@@ -534,45 +440,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/deh_faqs/how_can_i_query_the_number_of_available_resources_on_a_deh.rst",
-        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540675997.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the DeH console interface.",
-          "It clearly shows the vCPUs and Memory columns, directly matching the text's description of viewing available resources.",
-          "The visible interactive buttons are magenta, satisfying the mandatory UI color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/deh_faqs/what_are_the_differences_between_dehs_and_bmss.rst",
@@ -591,45 +472,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/deh_faqs/what_are_the_differences_between_dehs_and_bmss.rst",
-        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001441682817.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image directly illustrates the section's topic by visually contrasting DeH and BMS architectures.",
-          "It accurately depicts DeH accommodating multiple ECS instances (User A) with visible unused resources, aligning with the text.",
-          "It shows BMS as a single dedicated block, matching the description of it being used as a whole server."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/ecs_faqs/can_i_create_ecss_of_different_flavors_on_a_deh.rst",
@@ -648,45 +504,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/ecs_faqs/can_i_create_ecss_of_different_flavors_on_a_deh.rst",
-        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540505321.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a UI screenshot of the DeH configuration interface.",
-          "It explicitly lists supported ECS flavors for the selected 'c4' DeH type, directly matching the text examples (c4.large.2, c4.xlarge.2).",
-          "Selected interactive buttons are magenta, satisfying the mandatory color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started/allocating_dehs.rst",
@@ -705,11 +536,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -737,11 +568,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -808,19 +639,19 @@
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 2,
+      "pass": 4,
       "partial": 0,
-      "fail": 2
+      "fail": 0
     },
     "results": [
       {
         "document_path": "umn/source/key_operations_recorded_by_cts/viewing_cts_traces.rst",
         "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0162743969.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive button 'View Trace' is blue, not magenta or plain white.",
+        "contains_interactive_buttons": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -829,20 +660,21 @@
           "contradictions": 3
         },
         "reasons": [
-          "Matches Figure 1 in the RST document showing the trace details table and expanded fields."
+          "Image shows the expanded trace details table, directly matching Figure 1 and step 6 in the RST.",
+          "Visible columns and data fields align with the described CTS trace structure."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
-        "verdict": "fail"
+        "verdict": "pass"
       },
       {
         "document_path": "umn/source/key_operations_recorded_by_cts/viewing_cts_traces.rst",
         "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0127704907.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive close button is not magenta or plain white.",
+        "contains_interactive_buttons": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -851,20 +683,21 @@
           "contradictions": 3
         },
         "reasons": [
-          "Matches Figure 2 in the RST document showing the View Trace JSON structure."
+          "Image displays the detailed JSON view of a trace, matching Figure 2 and step 7.",
+          "Content shows key fields like user, time, service_type, and request details as referenced in the guide."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
-        "verdict": "fail"
+        "verdict": "pass"
       },
       {
         "document_path": "umn/source/key_operations_recorded_by_cts/viewing_cts_traces.rst",
         "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
         "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
         "hard_fail": false,
         "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -873,7 +706,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Matches |image1| in the RST document, which is a location pin icon for selecting region and project."
+          "Image is the location pin icon referenced as |image1| in step 2.",
+          "Correctly represents the UI element used to select region and project."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -883,10 +717,10 @@
         "document_path": "umn/source/key_operations_recorded_by_cts/viewing_cts_traces.rst",
         "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210486176.jpg",
         "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
         "hard_fail": false,
         "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -895,7 +729,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Matches |image2| in the RST document, which is a downward chevron icon to extend trace details."
+          "Image is the downward chevron icon referenced as |image2| in step 6.",
+          "Correctly represents the UI element used to expand trace record details."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -920,44 +755,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/managing_enterprise_projects.rst",
-        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001248994857.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that directly illustrates the process described in the section 'Creating an Enterprise Project and Assigning Permissions'.",
-          "It accurately depicts the sequential steps: creating user groups, creating IAM users, adding users to groups, creating enterprise projects, and assigning permissions to the user groups."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/permission_management/creating_a_user_and_granting_permissions.rst",
@@ -976,11 +787,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1008,46 +819,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/product_introduction/dedicated_host.rst",
-        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0161118470.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a technical diagram comparing Common ECS and DeH environments, directly corresponding to the referenced Figure 1 in the text.",
-          "It visually demonstrates the multi-tenant nature of Common ECS versus the single-tenant isolation of DeH, aligning perfectly with the document's description of dedicated physical resources.",
-          "The diagram includes details like 'Unused resources (visible)' which supports the text's mention of obtaining detailed physical resource information on the DeH.",
-          "No interactive UI elements are present, so hard-fail conditions do not apply."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tag_management.rst",
@@ -1076,68 +861,19 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/tag_management.rst",
-        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0181721054.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays the 'Search by Tag' interface with tag key and value input fields.",
-          "Shows 'Search' and 'Reset' buttons consistent with the RST steps for searching DeHs.",
-          "Directly illustrates the UI state after clicking 'Search by Tag' as described in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tag_management.rst",
-        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0238393803.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon shows a plus sign (+) used to add a tag to the search criteria.",
-          "Matches the |image1| reference in the RST document exactly.",
-          "Visually supports the step to add multiple tags for searching DeHs."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   }
 ]

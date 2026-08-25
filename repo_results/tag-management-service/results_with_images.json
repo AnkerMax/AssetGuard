@@ -48,43 +48,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/how_do_i_start_the_activex_plug-in_when_using_internet_explorer_9_to_import_files.rst",
-        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0141727097.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a gear icon, which is the universal symbol for settings or options, perfectly aligning with the procedure step to click it to access Internet Options."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started/adding_tags_to_cloud_resources.rst",
@@ -113,65 +90,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 500,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/adding_tags_to_cloud_resources.rst",
-        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image clearly shows a hamburger menu icon, which directly matches the RST instruction to click the icon in the upper left corner of the console."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/adding_tags_to_cloud_resources.rst",
-        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001982445689.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the same hamburger menu icon referenced in the second procedure for accessing the Tag Management Service."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started/index.rst",
@@ -200,67 +132,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/index.rst",
-        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002285916460.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard hamburger menu icon, which aligns with the RST instruction to click a menu in the upper left corner.",
-          "The visual content directly matches the |image1| placeholder referenced in the 'Adding Tags on the TMS Console' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/index.rst",
-        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002320589057.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard hamburger menu icon, matching the RST instruction to click a menu in the upper left corner.",
-          "The visual content directly matches the |image2| placeholder referenced in the 'Checking Whether a Tag Takes Effect' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/permissions_management/creating_a_user_and_granting_permissions.rst",
@@ -279,11 +164,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -311,11 +196,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -353,65 +238,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/application_scenarios.rst",
-        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0174331264.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram illustrates central management of resources by editing and filtering tags, directly supporting the section text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_overview/application_scenarios.rst",
-        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001079874496.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram illustrates the resource migration process with predefined tags, including export, import, and association steps described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/logging_in_to_tms.rst",
@@ -430,45 +270,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
-      "partial": 1,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/logging_in_to_tms.rst",
-        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002473916720.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which aligns with the text instruction to click it for navigation within the management console."
-        ],
-        "missing_evidence": [
-          "The image is a standalone icon without surrounding UI context, so specific console layout details are not visible."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/region_and_az.rst",
@@ -487,11 +302,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -519,11 +334,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -551,44 +366,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/tag_management/predefined_tags/creating_predefined_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 3,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which directly corresponds to the |image1| reference in the navigation instructions.",
-          "It is a standard symbolic graphic used to open the main application menu, aligning with the step to access Management & Deployment."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tag_management/predefined_tags/deleting_predefined_tags.rst",
@@ -607,11 +398,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -649,11 +440,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -691,11 +482,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -723,11 +514,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -807,7 +598,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -835,7 +626,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a standard hamburger menu icon, which aligns with the RST instruction to click it in the upper left corner to access navigation."
+          "Icon matches the hamburger menu described in the navigation steps.",
+          "Clearly depicts the standard UI symbol for opening a menu."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -857,7 +649,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows a gear/settings icon, matching the RST step to click it for configuring tag key display options."
+          "Gear icon aligns with the instruction to click an options or settings control.",
+          "Visually represents configuration or additional actions as implied by the context."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -879,7 +672,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a plus sign icon, consistent with the RST instruction to click it in the tag key column to add or modify tags."
+          "Plus sign icon corresponds to the action of adding or editing a tag value.",
+          "Standard symbol for adding content, matching the step description."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -901,7 +695,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a plus sign icon, which matches the RST description of the indicator shown for resources that have not been tagged."
+          "Plus sign icon matches the visual cue for untagged resources.",
+          "Consistent with the instruction to display an icon alongside 'Not tagged' text."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -923,7 +718,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows a checkmark icon, aligning with the RST step to click it to confirm and save the added tag values."
+          "Checkmark icon aligns with the confirmation action described in the final step.",
+          "Commonly used to represent saving or applying changes."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -945,7 +741,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a hamburger menu icon, matching the RST instruction to click it in the upper left corner when adding tags to multiple resources."
+          "Icon matches the hamburger menu referenced in the second procedure.",
+          "Visually identical to the first image, correctly representing the navigation menu."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -989,11 +786,58 @@
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/tag_management/resource_tags/creating_a_key.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon (three horizontal lines), which corresponds to the navigation menu icon described in step 2 of the document.",
+          "The icon is consistent with the instruction to click it in the upper left corner to access the management console menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/creating_a_key.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001615025889.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a green checkmark icon, which typically represents a confirmation or 'OK' action.",
+          "This matches the context of step 4 in the Follow-up Procedure, where the user clicks this button after entering a tag value to save the changes."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/tag_management/resource_tags/deleting_resource_tags.rst",
@@ -1072,7 +916,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows a hamburger menu icon, which matches the instruction to click the menu in the upper left corner of the page."
+          "The image displays a standard hamburger menu icon (three horizontal lines), which aligns with the instruction to click it in the upper left corner to access the main navigation menu."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1094,7 +938,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a settings gear icon, corresponding to the step to click an icon in the search result area to adjust the key display list."
+          "The image shows a gear/cog icon, which is a standard symbol for settings or configuration, matching the step to set the key display list."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1116,7 +960,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows an 'X' icon, which is a standard symbol for deletion, aligning with the instruction to click it to remove a resource tag."
+          "The image displays an 'X' icon inside a circle, a common symbol for deletion or removal, which directly supports the instruction to delete a resource tag."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1190,7 +1034,7 @@
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 5,
       "partial": 0,
       "fail": 0
     },
@@ -1199,10 +1043,10 @@
         "document_path": "umn/source/tag_management/resource_tags/modifying_resource_tags.rst",
         "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
         "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -1211,8 +1055,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a hamburger menu icon, which aligns with the instruction to click the menu in the upper left corner.",
-          "Standard UI symbol for navigation menus."
+          "The image displays a standard hamburger menu icon (three horizontal lines).",
+          "This matches the RST instruction to click the icon in the upper left corner to access the main navigation menu."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1222,10 +1066,10 @@
         "document_path": "umn/source/tag_management/resource_tags/modifying_resource_tags.rst",
         "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000001980456121.png",
         "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -1234,8 +1078,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows a gear/settings icon, matching the step to configure the key display list.",
-          "Consistent with standard UI conventions for settings or options."
+          "The image shows a gear or settings icon.",
+          "This aligns with the RST instruction to click the icon in the right corner of the search result area to configure key display options."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1245,10 +1089,10 @@
         "document_path": "umn/source/tag_management/resource_tags/modifying_resource_tags.rst",
         "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0153920847.png",
         "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -1257,8 +1101,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image depicts a pencil icon, which universally represents editing functionality.",
-          "Directly corresponds to the instruction to click the edit button for a specific resource row."
+          "The image depicts a pencil icon.",
+          "This is a standard symbol for editing, matching the RST instruction to click it to modify a tag value for a specific resource."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1268,10 +1112,10 @@
         "document_path": "umn/source/tag_management/resource_tags/modifying_resource_tags.rst",
         "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0153921664.png",
         "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -1280,8 +1124,31 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a checkmark icon, indicating confirmation or completion.",
-          "Matches the final step to confirm the modified tag value."
+          "The image shows a green checkmark icon.",
+          "This matches the RST instruction to click it after modifying a tag value, serving as a confirmation or save action."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management/resource_tags/modifying_resource_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/tag-management-service/umn/source/_static/images/en-us_image_0000002502623003.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is identical to Image 1, showing a hamburger menu icon.",
+          "It corresponds to the RST instruction to click it in the upper left corner to navigate to the Tag Management Service."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1346,8 +1213,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "Standard hamburger menu icon representing the navigation menu.",
-          "Directly matches the RST instruction to click the icon in the upper left corner to access the Management & Deployment section."
+          "The image displays a hamburger menu icon, which matches the context of clicking a menu button in the upper left corner to access the navigation options."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1369,8 +1235,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "Standard circular arrow icon representing a refresh action.",
-          "Directly matches the RST instruction to click the icon to refresh the resource list."
+          "The image displays a refresh icon, which matches the context of clicking a button to refresh the resource list."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,

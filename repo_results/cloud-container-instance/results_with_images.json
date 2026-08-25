@@ -174,10 +174,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a diagram illustrating a Pod architecture, directly matching the document's topic.",
-          "It visually represents the Main container, Sidecar container, and Volume components described in the text.",
-          "The diagram aligns perfectly with the section explaining how pods encapsulate containers and share storage.",
-          "No contradictions or missing visual evidence are present."
+          "The image is a diagram illustrating a Pod structure containing a Main container, Sidecar container, and Volume.",
+          "This directly matches the text description of a pod running multiple containers that work together."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -220,10 +218,10 @@
         "document_path": "umn/source/namespaces/creating_a_namespace.rst",
         "image_path": "/home/ubuntu/repotesting/cloud-container-instance/umn/source/_static/images/en-us_image_0201693831.png",
         "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -232,9 +230,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a schematic diagram illustrating the hierarchical relationship between a VPC, Namespace, and Subnet.",
-          "It directly corresponds to Figure 1 and the 'Relationship Between Namespaces and Networks' section in the RST.",
-          "The visual layout accurately reflects the textual explanation that each namespace requires a separate subnet within a VPC."
+          "The image is a schematic diagram illustrating the relationship between VPC, Namespace, and Subnet.",
+          "It directly supports the 'Relationship Between Namespaces and Networks' section of the document.",
+          "The visual hierarchy correctly shows namespaces and subnets contained within a VPC, matching the textual description."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -271,7 +269,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -284,6 +282,8 @@
     },
     "results": [
       {
+        "document_path": "umn/source/service_overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-container-instance/umn/source/_static/images/en-us_image_0197840533.png",
         "image_kind": "other",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -297,16 +297,15 @@
           "contradictions": 3
         },
         "reasons": [
-          "Diagram accurately depicts the CI/CD pipeline and environment deployment described in the DevOps section.",
-          "Matches the RST description of automation and image-based delivery."
+          "The diagram clearly illustrates the CI/CD pipeline and deployment to CCI environments, directly matching the DevOps/Continuous Delivery section."
         ],
         "missing_evidence": [],
-        "document_path": "umn/source/service_overview/application_scenarios.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-container-instance/umn/source/_static/images/en-us_image_0197840533.png",
         "overall_score": 1.0,
         "verdict": "pass"
       },
       {
+        "document_path": "umn/source/service_overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-container-instance/umn/source/_static/images/en-us_image_0197840757.png",
         "image_kind": "other",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -320,12 +319,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "Diagram correctly shows how ELB routes daily traffic to CCE and peak traffic to CCI.",
-          "Aligns with the RST description of auto-scaling for fluctuating traffic."
+          "The diagram shows traffic routing via ELB to CCE for daily load and CCI for peak bursts, perfectly aligning with the Services with Fluctuating Traffic section."
         ],
         "missing_evidence": [],
-        "document_path": "umn/source/service_overview/application_scenarios.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-container-instance/umn/source/_static/images/en-us_image_0197840757.png",
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -367,11 +363,60 @@
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/basic_concepts.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-container-instance/umn/source/_static/images/en-us_image_0197841641.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a technical diagram illustrating a Pod structure with a main container and a sidecar container sharing a volume.",
+          "It directly corresponds to the 'Pod' section's description of pods running multiple containers that need to work together.",
+          "No contradictions found with the document text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/basic_concepts.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-container-instance/umn/source/_static/images/en-us_image_0197831172.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a technical diagram showing pods organized by labels (app, env) and grouped by color.",
+          "It directly illustrates the 'Label' section's explanation of using key-value pairs to group and select pods.",
+          "No contradictions found with the document text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/service_overview/region_and_az.rst",
@@ -399,34 +444,10 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/region_and_az.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-container-instance/umn/source/_static/images/en-us_image_0184026531.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a conceptual diagram illustrating the relationship between regions and availability zones.",
-          "It visually represents Region 1 and Region 2, each containing AZ 1, AZ 2, and AZ 3, directly supporting the RST description of regions containing multiple isolated AZs."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   }
 ]

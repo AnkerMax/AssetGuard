@@ -1,0 +1,1694 @@
+
+FILE: umn/source/configuration_management/data_subscription.rst
+TITLE: Data Subscription
+IMAGE COUNT: 2
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001208742219.png
+    CRITERIA: topic=1, detail=1, section=2, visual=2, contradictions=1
+    IMAGE CONTENT: The image displays a magnifying glass icon, which semantically represents a search function rather than enabling Kafka SASL_SSL security settings.
+    MISSING EVIDENCE:
+      - A screenshot of the actual AOM Rule Details page UI to verify the correct button or toggle icon used for enabling SASL_SSL.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/service_overview/what_is_aom.rst
+TITLE: What Is AOM?
+IMAGE COUNT: 4
+RESULTS:
+  - SCORE 0.72 | IMAGE 3: partial
+    PATH: /home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001459663365.png
+    CRITERIA: topic=2, detail=2, section=2, visual=3, contradictions=2
+    IMAGE CONTENT: Image text describes a 'Multi-Dimensional O&M' platform, which aligns well with the product introduction.
+    MISSING EVIDENCE:
+      - Visual or textual evidence linking the image directly to log management or the specific 'Advantage 1' bullet point.
+  - SCORE 0.38 | IMAGE 4: fail
+    PATH: /home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897677.png
+    CRITERIA: topic=1, detail=1, section=1, visual=3, contradictions=0
+    IMAGE CONTENT: Image lists 'Health Check' and 'Ease of Use' as features.
+    MISSING EVIDENCE:
+      - Information explaining why 'Health Check' and 'Ease of Use' are presented here instead of the listed advantages.
+      - Missing visual evidence for the actual advantages listed in the RST text.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/user_guide/dataarts_factory/el_expression_reference/expression_overview.rst
+TITLE: Expression Overview
+IMAGE COUNT: 6
+RESULTS:
+  - SCORE 0.43 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/data-arts-studio/umn/source/_static/images/en-us_image_0000002234085024.png
+    CRITERIA: topic=1, detail=1, section=1, visual=3, contradictions=1
+    IMAGE CONTENT: The image displays a Shell node configuration, but the RST places it under the Kafka Client node section.
+    MISSING EVIDENCE:
+      - Actual Kafka Client node interface or log is not visible.
+  - SCORE 0.43 | IMAGE 2: fail
+    PATH: /home/ubuntu/repotesting/data-arts-studio/umn/source/_static/images/en-us_image_0000002269204289.png
+    CRITERIA: topic=1, detail=1, section=1, visual=3, contradictions=1
+    IMAGE CONTENT: The image shows a log output, but it is placed under the Kafka Client node section.
+    MISSING EVIDENCE:
+      - Kafka Client specific log output is missing.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/user_guide/dataarts_factory/node_reference/mrs_mapreduce.rst
+TITLE: MRS MapReduce
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.32 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=1, visual=3, contradictions=0
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/user_guide/dataarts_factory/node_reference/mrs_spark.rst
+TITLE: MRS Spark
+IMAGE COUNT: 13
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/data-arts-studio/umn/source/_static/images/en-us_image_0000002234245684.png
+    CRITERIA: topic=1, detail=1, section=2, visual=2, contradictions=1
+    IMAGE CONTENT: Image displays an eye icon, which conventionally represents 'View' or 'Details'.
+    MISSING EVIDENCE:
+      - Clearer UI screenshot showing the actual button or navigation context for cluster creation.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/user_guide/dataarts_factory/o_and_m_and_scheduling/monitoring_a_job/monitoring_a_batch_job.rst
+TITLE: Monitoring a Batch Job
+IMAGE COUNT: 8
+RESULTS:
+  - SCORE 0.72 | IMAGE 5: partial
+    PATH: /home/ubuntu/repotesting/data-arts-studio/umn/source/_static/images/en-us_image_0000002234240480.png
+    CRITERIA: topic=2, detail=2, section=2, visual=3, contradictions=2
+    IMAGE CONTENT: Dialog shows 'Add Job Label' with Name and Mode (Append/Overwrite), which functionally matches the 'Add Job Tag' feature described, though the terminology differs slightly.
+    MISSING EVIDENCE:
+      - Clarification on whether 'Label' and 'Tag' are used interchangeably in this UI version.
+  - SCORE 0.38 | IMAGE 8: fail
+    PATH: /home/ubuntu/repotesting/data-arts-studio/umn/source/_static/images/en-us_image_0000002269119817.png
+    CRITERIA: topic=1, detail=1, section=1, visual=1, contradictions=2
+    IMAGE CONTENT: Image is a small, blurry chevron icon. It serves as a placeholder for an interactive element in a table row as described, but lacks sufficient visual detail to confirm specific UI behavior or context.
+    MISSING EVIDENCE:
+      - Clearer view of the icon in its actual UI context (e.g., next to a job name in a table) to verify its function.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/user_guide/dataarts_factory/script_development/developing_scripts/developing_a_python_script.rst
+TITLE: Developing a Python Script
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/dis_sdk_usage_guide/configuring_sample_projects.rst
+TITLE: Configuring Sample Projects
+IMAGE COUNT: 3
+RESULTS:
+  - SCORE 0.32 | IMAGE 3: fail
+    PATH: /home/ubuntu/repotesting/data-ingestion-service/umn/source/_static/images/en-us_image_0124306705.png
+    CRITERIA: topic=1, detail=0, section=1, visual=3, contradictions=0
+    IMAGE CONTENT: The RST references this image as Figure 3 for the 'Java Build Path' configuration step.
+    MISSING EVIDENCE:
+      - The correct screenshot demonstrating the 'Java Build Path' and 'Add External JARs' steps is missing.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: doc/dev-guide/source/spark_jar_jobs/using_spark_jar_jobs_to_read_and_query_obs_data.rst
+TITLE: Using Spark Jar Jobs to Read and Query OBS Data
+IMAGE COUNT: 8
+RESULTS:
+  - SCORE 0.00 | IMAGE 1: fail
+    PATH: /_static/images/en-us_image_0000001251908699.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: Image not provided in the prompt for analysis.
+    MISSING EVIDENCE:
+      - Visual content of the image is missing.
+      - Cannot confirm alignment with RST descriptions (e.g., Figure 1).
+  - SCORE 0.00 | IMAGE 2: fail
+    PATH: /_static/images/en-us_image_0000001252187705.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: Image not provided in the prompt for analysis.
+    MISSING EVIDENCE:
+      - Visual content of the image is missing.
+      - Cannot confirm alignment with RST descriptions (e.g., Figure 2).
+  - SCORE 0.00 | IMAGE 3: fail
+    PATH: /_static/images/en-us_image_0000001637557382.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: Image not provided in the prompt for analysis.
+    MISSING EVIDENCE:
+      - Visual content of the image is missing.
+      - Cannot confirm alignment with RST descriptions (e.g., Figure 3).
+  - SCORE 0.00 | IMAGE 4: fail
+    PATH: /_static/images/en-us_image_0000001637398494.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: Image not provided in the prompt for analysis.
+    MISSING EVIDENCE:
+      - Visual content of the image is missing.
+      - Cannot confirm alignment with RST descriptions (e.g., Figure 4).
+  - SCORE 0.00 | IMAGE 5: fail
+    PATH: /_static/images/en-us_image_0000001252053711.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: Image not provided in the prompt for analysis.
+    MISSING EVIDENCE:
+      - Visual content of the image is missing.
+      - Cannot confirm alignment with RST descriptions (e.g., Figure 5).
+  - SCORE 0.00 | IMAGE 6: fail
+    PATH: /_static/images/en-us_image_0000001637399398.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: Image not provided in the prompt for analysis.
+    MISSING EVIDENCE:
+      - Visual content of the image is missing.
+      - Cannot confirm alignment with RST descriptions (e.g., Figure 6).
+  - SCORE 0.00 | IMAGE 7: fail
+    PATH: /_static/images/en-us_image_0000001251907299.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: Image not provided in the prompt for analysis.
+    MISSING EVIDENCE:
+      - Visual content of the image is missing.
+      - Cannot confirm alignment with RST descriptions (e.g., Figure 7).
+  - SCORE 0.00 | IMAGE 8: fail
+    PATH: /_static/images/en-us_image_0000001686339805.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: Image not provided in the prompt for analysis.
+    MISSING EVIDENCE:
+      - Visual content of the image is missing.
+      - Cannot confirm alignment with RST descriptions (e.g., Figure 8).
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: doc/dev-guide/source/spark_jar_jobs/using_the_spark_job_to_access_dli_metadata.rst
+TITLE: Using the Spark Job to Access DLI Metadata
+IMAGE COUNT: 6
+RESULTS:
+  - SCORE 0.48 | IMAGE 1: fail
+    PATH: /_static/images/en-us_image_0000001208012082.png
+    CRITERIA: topic=2, detail=0, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: Path corresponds to Figure 1 (Development process) referenced in the RST.
+    MISSING EVIDENCE:
+      - Actual image content is missing from the input.
+  - SCORE 0.48 | IMAGE 2: fail
+    PATH: /_static/images/en-us_image_0000001208518262.png
+    CRITERIA: topic=2, detail=0, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: Path corresponds to Figure 2 (Creating a project) referenced in Step 3.
+    MISSING EVIDENCE:
+      - Actual image content is missing from the input.
+  - SCORE 0.48 | IMAGE 3: fail
+    PATH: /_static/images/en-us_image_0000001685849073.png
+    CRITERIA: topic=2, detail=0, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: Path corresponds to Figure 3 (Selecting an SDK) referenced in Step 3.
+    MISSING EVIDENCE:
+      - Actual image content is missing from the input.
+  - SCORE 0.48 | IMAGE 4: fail
+    PATH: /_static/images/en-us_image_0000001685690365.png
+    CRITERIA: topic=2, detail=0, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: Path corresponds to Figure 4 (Creating a project) referenced in Step 3.
+    MISSING EVIDENCE:
+      - Actual image content is missing from the input.
+  - SCORE 0.48 | IMAGE 5: fail
+    PATH: /_static/images/en-us_image_0000001252854995.png
+    CRITERIA: topic=2, detail=0, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: Path corresponds to Figure 5 (Modifying the pom.xml file) referenced in Step 3.
+    MISSING EVIDENCE:
+      - Actual image content is missing from the input.
+  - SCORE 0.48 | IMAGE 6: fail
+    PATH: /_static/images/en-us_image_0000001685850245.png
+    CRITERIA: topic=2, detail=0, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: Path corresponds to Figure 6 (Creating a package) referenced in Step 3.
+    MISSING EVIDENCE:
+      - Actual image content is missing from the input.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/creating_an_elastic_resource_pool_and_creating_queues_within_it/example_use_case_configuring_scaling_policies_for_queues_in_an_elastic_resource_pool.rst
+TITLE: Example Use Case: Configuring Scaling Policies for Queues in an Elastic Resource Pool
+IMAGE COUNT: 2
+RESULTS:
+  - SCORE 0.27 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/data-lake-insight/umn/source/_static/images/en-us_image_0000001309847549.png
+    CRITERIA: topic=1, detail=0, section=1, visual=0, contradictions=2
+    IMAGE CONTENT: The image shows a generic bar chart icon instead of the expected UI screenshot.
+    MISSING EVIDENCE:
+      - Actual screenshot of the Queue Management page.
+      - Visible configuration details and data points for queue test_a across time segments.
+  - SCORE 0.27 | IMAGE 2: fail
+    PATH: /home/ubuntu/repotesting/data-lake-insight/umn/source/_static/images/en-us_image_0000001262007480.png
+    CRITERIA: topic=1, detail=0, section=1, visual=0, contradictions=2
+    IMAGE CONTENT: The image shows a generic bar chart icon instead of the expected UI screenshot.
+    MISSING EVIDENCE:
+      - Actual screenshot of the Queue Management page.
+      - Visible configuration details and data points for both queues test_a and test_b across time segments.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/faq/sql_jobs/sql_job_development/how_do_i_troubleshoot_slow_sql_jobs.rst
+TITLE: How Do I Troubleshoot Slow SQL Jobs?
+IMAGE COUNT: 6
+RESULTS:
+  - SCORE 0.45 | IMAGE 3: fail
+    PATH: /home/ubuntu/repotesting/data-lake-insight/umn/source/_static/images/en-us_image_0000001299472334.png
+    CRITERIA: topic=2, detail=1, section=2, visual=1, contradictions=0
+    IMAGE CONTENT: The image is a very blurry, low-resolution icon of a downward arrow, likely representing a 'More' or dropdown menu button in the UI, but details are indiscernible.
+    MISSING EVIDENCE:
+      - A clearer image of the UI element to confirm its exact function and appearance.
+  - SCORE 0.45 | IMAGE 4: fail
+    PATH: /home/ubuntu/repotesting/data-lake-insight/umn/source/_static/images/en-us_image_0000001299478654.png
+    CRITERIA: topic=2, detail=1, section=2, visual=1, contradictions=0
+    IMAGE CONTENT: Similar to the previous image, this is a blurry downward arrow icon, likely a UI element, but lacks sufficient detail for a clear judgment.
+    MISSING EVIDENCE:
+      - A clearer image of the UI element.
+  - SCORE 0.67 | IMAGE 5: partial
+    PATH: /home/ubuntu/repotesting/data-lake-insight/umn/source/_static/images/en-us_image_0000001299475238.png
+    CRITERIA: topic=2, detail=2, section=2, visual=3, contradictions=1
+    IMAGE CONTENT: The image shows the 'Jobs' tab in the Spark UI, but the text instructs the user to 'choose SQL from the menu bar'. This is a mismatch between the visual evidence and the textual instruction.
+    MISSING EVIDENCE:
+      - An image showing the 'SQL' tab as described in the text.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/submitting_a_flink_job_on_the_dli_management_console/creating_a_flink_opensource_sql_job.rst
+TITLE: Creating a Flink OpenSource SQL Job
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.38 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/data-lake-insight/umn/source/_static/images/en-us_image_0000001078931615.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: The image is a highly pixelated, low-resolution graphic, likely representing a UI icon or button.
+    MISSING EVIDENCE:
+      - Higher resolution image to clearly identify the icon or UI element.
+      - A broader screenshot showing the job status column and error details context mentioned in the text.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/submitting_a_sql_job_on_the_dli_management_console/creating_and_submitting_a_sql_job.rst
+TITLE: Creating and Submitting a SQL Job
+IMAGE COUNT: 3
+RESULTS:
+  - SCORE 0.50 | IMAGE 2: fail
+    PATH: /home/ubuntu/repotesting/data-lake-insight/umn/source/_static/images/en-us_image_0000002031849645.png
+    CRITERIA: topic=1, detail=1, section=2, visual=3, contradictions=1
+    IMAGE CONTENT: The image shows a bar chart icon, identical to Image 1.
+    MISSING EVIDENCE:
+      - An icon representing a table or grid view should be provided instead of a chart icon to match the text.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/faqs/backup_migration/manual_configuration.rst
+TITLE: Manual Configuration
+IMAGE COUNT: 9
+RESULTS:
+  - SCORE 0.32 | IMAGE 5: fail
+    PATH: /home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710471040.jpg
+    CRITERIA: topic=1, detail=0, section=1, visual=3, contradictions=0
+    IMAGE CONTENT: The image shows a context menu for 'Script Linked Server as', but the RST context for Figure 5 is about creating a script for 'Agent Jobs'.
+    MISSING EVIDENCE:
+      - An image showing the context menu for 'Script Job as' would be appropriate for the 'Agent JOB' section.
+  - SCORE 0.77 | IMAGE 6: partial
+    PATH: /home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710471048.jpg
+    CRITERIA: topic=2, detail=2, section=2, visual=3, contradictions=3
+    IMAGE CONTENT: The image shows the 'Files' page of 'Database Properties', which is relevant to checking file configuration.
+    MISSING EVIDENCE:
+      - An image specifically showing 'tempdb' file properties would be more accurate.
+  - SCORE 0.15 | IMAGE 7: fail
+    PATH: /home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758430141.jpg
+    CRITERIA: topic=0, detail=0, section=0, visual=3, contradictions=0
+    IMAGE CONTENT: The RST context for Figure 7 is 'Max Degree of Parallelism', instructing to check the 'Advanced' node in server properties.
+    MISSING EVIDENCE:
+      - An image showing the 'Advanced' node in server properties with 'Max Degree of Parallelism' highlighted.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: doc/dev-guide/source/migrating_gaussdbdws_data/exporting_data/using_gds_to_export_data_to_a_remote_server/exporting_data_in_parallel_using_gds.rst
+TITLE: Exporting Data In Parallel Using GDS
+IMAGE COUNT: 2
+RESULTS:
+  - SCORE 0.00 | IMAGE 1: fail
+    PATH: /_static/images/en-us_image_0000001188163824.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: Image path corresponds to Figure 1 in the RST ('Exporting data using foreign tables').
+    MISSING EVIDENCE:
+      - Actual image file is missing from the input, making it impossible to assess topic, detail, or relevance scores.
+  - SCORE 0.00 | IMAGE 2: fail
+    PATH: /_static/images/en-us_image_0000001233563377.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: Image path corresponds to Figure 2 in the RST ('Concurrent data export').
+    MISSING EVIDENCE:
+      - Actual image file is missing from the input, making it impossible to assess topic, detail, or relevance scores.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/dws_cluster_management/managing_dws_logical_clusters/tutorial_dividing_a_new_physical_cluster_into_logical_clusters.rst
+TITLE: Tutorial: Dividing a New Physical Cluster into Logical Clusters
+IMAGE COUNT: 5
+RESULTS:
+  - SCORE 0.15 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/data-warehouse-service/umn/source/_static/images/en-us_image_0000002270494093.png
+    CRITERIA: topic=0, detail=0, section=0, visual=3, contradictions=0
+    IMAGE CONTENT: Image displays a table with 'id' and 'name' columns containing 'joy' and 'lily'.
+    MISSING EVIDENCE:
+      - The correct image showing the output of 'SELECT group_name FROM PGXC_GROUP;' is missing.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/viewing_the_instance_overview.rst
+TITLE: Viewing the Instance Overview
+IMAGE COUNT: 3
+RESULTS:
+  - SCORE 0.52 | IMAGE 2: fail
+    PATH: /home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001435874465.png
+    CRITERIA: topic=2, detail=2, section=2, visual=1, contradictions=0
+    IMAGE CONTENT: The image shows a pencil icon, which semantically matches the document's instruction to click it to change the instance 'Name'.
+    MISSING EVIDENCE:
+      - The image is highly pixelated and blurry, making it difficult to assess exact UI styling or context.
+      - Lacks surrounding interface elements to confirm its precise placement next to the 'Name' field.
+  - SCORE 0.52 | IMAGE 3: fail
+    PATH: /home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001385674488.png
+    CRITERIA: topic=2, detail=2, section=2, visual=1, contradictions=0
+    IMAGE CONTENT: The image displays a pencil icon, aligning with the document's description of modifying the 'Remarks' field.
+    MISSING EVIDENCE:
+      - The image is extremely blurry and pixelated, obscuring fine details.
+      - No contextual UI elements are visible to verify its exact location next to the 'Remarks' parameter.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/ecs_management/modifying_the_specifications_of_an_ecs_on_a_deh.rst
+TITLE: Modifying the Specifications of an ECS on a DeH
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.22 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=1, visual=0, contradictions=1
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/ecs_management/viewing_the_details_of_ecss_on_a_deh.rst
+TITLE: Viewing the Details of ECSs on a DeH
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.40 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+    IMAGE CONTENT: The image displays a blurry, standalone location pin icon.
+    MISSING EVIDENCE:
+      - A higher-resolution image showing the icon within the management console's upper left corner.
+      - Visual confirmation that this specific pin icon is used as the region/project selector in this system.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/getting_started/deploying_ecss_on_dehs.rst
+TITLE: Deploying ECSs on DeHs
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/getting_started/creating_an_instance/preparing_required_resources.rst
+TITLE: Preparing Required Resources
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.38 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=3
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/managing_instances/deleting_a_rocketmq_instance.rst
+TITLE: Deleting a RocketMQ Instance
+IMAGE COUNT: 3
+RESULTS:
+  - SCORE 0.38 | IMAGE 3: fail
+    PATH: /home/ubuntu/repotesting/distributed-message-service-rocketmq/umn/source/_static/images/en-us_image_0000002363466617.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: The image is intended to represent a UI element for the delete action menu, but it is too blurry and low-resolution to identify any specific icon or interface detail.
+    MISSING EVIDENCE:
+      - A clear, high-resolution screenshot of the actual 'More' or 'Actions' menu icon is required for reliable verification.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: doc/best-practice/source/from_ecs-hosted_mongodb_to_dds.rst
+TITLE: From ECS-hosted MongoDB to DDS
+IMAGE COUNT: 11
+RESULTS:
+  - SCORE 0.15 | IMAGE 1: fail
+    PATH: missing
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=3
+    IMAGE CONTENT: - No image was provided in the prompt to evaluate.
+    MISSING EVIDENCE:
+      - - The actual image file or its exact path is required to perform the analysis.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: doc/best-practice/source/from_other_cloud_mongodb_to_dds.rst
+TITLE: From Other Cloud MongoDB to DDS
+IMAGE COUNT: 13
+RESULTS:
+  - SCORE 0.00 | IMAGE 1: fail
+    PATH: not_provided
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: No image was provided in the prompt for evaluation.
+    MISSING EVIDENCE:
+      - The actual image file or path is missing from the input.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/log_management/audit_logs/audit_log_policy_management.rst
+TITLE: Audit Log Policy Management
+IMAGE COUNT: 3
+RESULTS:
+  - SCORE 0.67 | IMAGE 1: partial
+    PATH: /home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002207066505.png
+    CRITERIA: topic=2, detail=2, section=2, visual=2, contradictions=2
+    IMAGE CONTENT: Image shows a location pin icon, which conceptually aligns with the instruction to select a region and project.
+    MISSING EVIDENCE:
+      - Actual console UI or menu structure is not visible to verify standard navigation elements.
+  - SCORE 0.27 | IMAGE 2: fail
+    PATH: /home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002171625914.png
+    CRITERIA: topic=1, detail=0, section=1, visual=2, contradictions=0
+    IMAGE CONTENT: RST instructs to click this image to enable the audit policy.
+    MISSING EVIDENCE:
+      - The actual button or UI element referenced by the image is not visible, making it impossible to confirm intended functionality.
+  - SCORE 0.27 | IMAGE 3: fail
+    PATH: /home/ubuntu/repotesting/document-database-service/umn/source/_static/images/en-us_image_0000002171625918.png
+    CRITERIA: topic=1, detail=0, section=1, visual=2, contradictions=0
+    IMAGE CONTENT: RST instructs to click this image to disable the audit policy.
+    MISSING EVIDENCE:
+      - The actual button or UI element referenced by the image is not visible, making it impossible to confirm intended functionality.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/record_sets/adding_record_sets/adding_an_mx_record_set.rst
+TITLE: Adding an MX Record Set
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.38 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/domain-name-service/umn/source/_static/images/en-us_image_0000001906653140.png
+    CRITERIA: topic=1, detail=1, section=1, visual=1, contradictions=2
+    IMAGE CONTENT: - The image displays a blurry location pin icon, which loosely relates to 'region' selection but lacks specific UI context.
+    MISSING EVIDENCE:
+      - - A clear, high-resolution screenshot of the DNS console interface.
+      - - Visible UI elements showing the region and project selection controls.
+      - - Contextual layout to confirm the icon's exact placement and appearance within the management console.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/disks/detaching_an_evs_disk_from_a_running_ecs.rst
+TITLE: Detaching an EVS Disk from a Running ECS
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/passwords_and_key_pairs/password_reset/resetting_the_password_of_a_windows_ecs_by_attaching_a_system_disk_to_a_temporary_ecs.rst
+TITLE: Resetting the Password of a Windows ECS by Attaching a System Disk to a Temporary ECS
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.38 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=3
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/advanced_features_of_http_https_listeners/http_2.rst
+TITLE: HTTP/2
+IMAGE COUNT: 5
+RESULTS:
+  - SCORE 0.60 | IMAGE 1: partial
+    PATH: /home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747739624.png
+    CRITERIA: topic=2, detail=1, section=2, visual=1, contradictions=3
+    IMAGE CONTENT: The image displays a location pin icon, which conceptually aligns with the RST instruction to select a region and project.
+    MISSING EVIDENCE:
+      - A clearer view of the region/project selection dropdown would strengthen the match.
+  - SCORE 0.72 | IMAGE 2: partial
+    PATH: /home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794660485.png
+    CRITERIA: topic=2, detail=2, section=2, visual=2, contradictions=3
+    IMAGE CONTENT: The image shows a hamburger menu icon, which is commonly used to access service lists or application menus in cloud consoles.
+    MISSING EVIDENCE:
+      - Surrounding UI context is needed to definitively confirm this icon opens the 'Service List'.
+  - SCORE 0.38 | IMAGE 3: fail
+    PATH: /home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001794819893.png
+    CRITERIA: topic=1, detail=1, section=1, visual=2, contradictions=1
+    IMAGE CONTENT: The image displays a hamburger menu icon, but the RST describes clicking an icon next to a specific listener to trigger a 'Modify Listener' action.
+    MISSING EVIDENCE:
+      - Visual confirmation that this specific icon opens a dropdown containing 'Modify Listener' in this console.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/backend_server_dedicated_load_balancers/configuring_security_group_and_firewall_rules.rst
+TITLE: Configuring Security Group and Firewall Rules
+IMAGE COUNT: 4
+RESULTS:
+  - SCORE 0.43 | IMAGE 3: fail
+    PATH: /home/ubuntu/repotesting/elastic-load-balancing/umn/source/_static/images/en-us_image_0000001747381344.png
+    CRITERIA: topic=1, detail=1, section=1, visual=3, contradictions=1
+    IMAGE CONTENT: The image displays a hamburger menu icon, but the RST text referencing this image (as |image3|) instructs users to click it to select a region and project, which typically uses a pin or globe icon.
+    MISSING EVIDENCE:
+      - The correct region selection icon is missing for the |image3| context.
+      - The image provided matches the Service List context (|image4|) rather than the region selection context described in the text.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/enterprise_routers/deleting_an_enterprise_router.rst
+TITLE: Deleting an Enterprise Router
+IMAGE COUNT: 2
+RESULTS:
+  - SCORE 0.40 | IMAGE 2: fail
+    PATH: /home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+    IMAGE CONTENT: The image shows a location pin icon, which contradicts the expected hamburger menu or service list icon typically used to select regions in cloud consoles.
+    MISSING EVIDENCE:
+      - A clear, correct screenshot of the upper-left menu icon.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/working_with_gaussdbfor_mysql/backups_and_restorations/restoring_data_from_a_backup.rst
+TITLE: Restoring Data from a Backup
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.43 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/gaussdb-mysql/umn/source/_static/images/en-us_image_0000001352219100.png
+    CRITERIA: topic=1, detail=0, section=2, visual=1, contradictions=3
+    IMAGE CONTENT: The image displays a highly pixelated location pin icon, which could conceptually align with a region selector in a cloud console.
+    MISSING EVIDENCE:
+      - A clearer, higher-resolution image is required to confirm the exact UI element and verify its visual details against the console interface.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/working_with_gaussdbfor_mysql/instance_modifications/upgrading_the_minor_version_of_a_db_instance.rst
+TITLE: Upgrading the Minor Version of a DB Instance
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/faqs/image_creation/how_do_i_handle_the_startup_failure_of_a_windows_ecs_created_from_a_windows_image_generalized_by_sysprep.rst
+TITLE: How Do I Handle the Startup Failure of a Windows ECS Created from a Windows Image Generalized by Sysprep?
+IMAGE COUNT: 3
+RESULTS:
+  - SCORE 0.22 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0130934915.png
+    CRITERIA: topic=0, detail=0, section=1, visual=3, contradictions=0
+    IMAGE CONTENT: The image shows a command prompt with deprecation warnings for 'logdir', 'logfile', and 'verbose' options.
+    MISSING EVIDENCE:
+      - The actual error dialog box or log content mentioned in the symptom section.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/key_management_service/key_alias.rst
+TITLE: Key Alias
+IMAGE COUNT: 4
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: The image is extremely blurry and low resolution, making it difficult to identify specific UI elements.
+    MISSING EVIDENCE:
+      - Higher resolution image to verify the specific icon shape and design.
+      - Surrounding console interface to confirm its placement in the upper left corner as described.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/key_management_service/managing_a_grant/revoking_a_grant.rst
+TITLE: Revoking a Grant
+IMAGE COUNT: 2
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: The image is extremely blurry, making it difficult to identify the specific UI element.
+    MISSING EVIDENCE:
+      - A clearer, higher-resolution image is needed to verify the exact icon and its function.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/key_management_service/managing_cmks/disabling_a_key.rst
+TITLE: Disabling a Key
+IMAGE COUNT: 2
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image is extremely blurry and low resolution, making identification impossible.
+    MISSING EVIDENCE:
+      - High-resolution version of the image to confirm the UI element.
+      - Contextual screenshot showing the icon's exact location and appearance in the console.
+  - SCORE 0.72 | IMAGE 2: partial
+    PATH: /home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511517795.png
+    CRITERIA: topic=2, detail=2, section=2, visual=2, contradictions=3
+    IMAGE CONTENT: Clearly displays a hamburger menu icon, a standard UI element for opening navigation panels.
+    MISSING EVIDENCE:
+      - Image does not show the expanded menu or the "Security" > "Key Management Service" selection path.
+      - Lacks surrounding console interface context to fully verify the navigation step.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/key_management_service/managing_cmks/enabling_a_key.rst
+TITLE: Enabling a Key
+IMAGE COUNT: 2
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image is extremely blurry, obscuring any specific UI details.
+    MISSING EVIDENCE:
+      - A clearer, higher-resolution screenshot of the management console's upper-left corner is needed.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/key_management_service/managing_tags/deleting_tags.rst
+TITLE: Deleting Tags
+IMAGE COUNT: 2
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000001284811084.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image is extremely blurry and lacks recognizable features.
+    MISSING EVIDENCE:
+      - High-resolution image required to verify UI elements.
+      - Cannot confirm if it matches the actual console interface.
+  - SCORE 0.55 | IMAGE 2: partial
+    PATH: /home/ubuntu/repotesting/key-management-service/umn/source/_static/images/en-us_image_0000002511600539.png
+    CRITERIA: topic=2, detail=1, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: Shows a blurry three-line (hamburger) menu icon.
+    MISSING EVIDENCE:
+      - Poor image quality obscures surrounding context.
+      - Cannot verify exact placement or label visibility.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: doc/component-operation-guide/source/using_hue_mrs_3.x_or_later/accessing_the_hue_web_ui.rst
+TITLE: Accessing the Hue Web UI
+IMAGE COUNT: 8
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: /_static/images/en-us_image_0000001296250156.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image is not provided in the prompt, so visual verification is impossible.
+    MISSING EVIDENCE:
+      - Actual image content is missing.
+      - Cannot verify if the visual icon matches the described query execution function.
+  - SCORE 0.33 | IMAGE 2: fail
+    PATH: /_static/images/en-us_image_0000001349289833.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image is not provided in the prompt, so visual verification is impossible.
+    MISSING EVIDENCE:
+      - Actual image content is missing.
+      - Cannot verify if the visual icon matches the described task submission function.
+  - SCORE 0.33 | IMAGE 3: fail
+    PATH: /_static/images/en-us_image_0000001349090353.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image is not provided in the prompt, so visual verification is impossible.
+    MISSING EVIDENCE:
+      - Actual image content is missing.
+      - Cannot verify if the visual icon matches the described task management function.
+  - SCORE 0.33 | IMAGE 4: fail
+    PATH: /_static/images/en-us_image_0000001295770724.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image is not provided in the prompt, so visual verification is impossible.
+    MISSING EVIDENCE:
+      - Actual image content is missing.
+      - Cannot verify if the visual icon matches the described metadata management function.
+  - SCORE 0.33 | IMAGE 5: fail
+    PATH: /_static/images/en-us_image_0000001349289837.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image is not provided in the prompt, so visual verification is impossible.
+    MISSING EVIDENCE:
+      - Actual image content is missing.
+      - Cannot verify if the visual icon matches the described HDFS file browser function.
+  - SCORE 0.33 | IMAGE 6: fail
+    PATH: /_static/images/en-us_image_0000001295930684.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image is not provided in the prompt, so visual verification is impossible.
+    MISSING EVIDENCE:
+      - Actual image content is missing.
+      - Cannot verify if the visual icon matches the described job monitoring function.
+  - SCORE 0.33 | IMAGE 7: fail
+    PATH: /_static/images/en-us_image_0000001349170249.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image is not provided in the prompt, so visual verification is impossible.
+    MISSING EVIDENCE:
+      - Actual image content is missing.
+      - Cannot verify if the visual icon matches the described HBase table management function.
+  - SCORE 0.33 | IMAGE 8: fail
+    PATH: /_static/images/en-us_image_0000001348770541.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image is not provided in the prompt, so visual verification is impossible.
+    MISSING EVIDENCE:
+      - Actual image content is missing.
+      - Cannot verify if the visual icon matches the described data import function.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: doc/component-operation-guide-lts/source/using_loader/importing_data/typical_scenario_importing_data_from_a_relational_database_to_hive.rst
+TITLE: Typical Scenario: Importing Data from a Relational Database to Hive
+IMAGE COUNT: 4
+RESULTS:
+  - SCORE 0.50 | IMAGE 1: fail
+    PATH: not_provided
+    CRITERIA: topic=2, detail=1, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: The RST document describes a typical scenario for importing data from a relational database to Hive using the Loader web UI.
+    MISSING EVIDENCE:
+      - Actual image file or path is missing from the prompt.
+      - Cannot verify specific UI elements, button labels, parameter values, or status indicators.
+      - Unable to determine which of the four referenced figures (Loader UI, Basic Info, Operator procedure, or Job details) the image represents.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: doc/component-operation-guide-lts/source/using_loader/importing_data/typical_scenario_importing_data_from_a_relational_database_to_spark.rst
+TITLE: Typical Scenario: Importing Data from a Relational Database to Spark
+IMAGE COUNT: 4
+RESULTS:
+  - SCORE 0.00 | IMAGE 1: fail
+    PATH: N/A
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+    IMAGE CONTENT: No image path was provided in the prompt.
+    MISSING EVIDENCE:
+      - Attached image path is missing.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: doc/component-operation-guide-lts/source/using_loader/importing_data/typical_scenario_importing_data_from_hdfs_to_clickhouse.rst
+TITLE: Typical Scenario: Importing Data from HDFS to ClickHouse
+IMAGE COUNT: 4
+RESULTS:
+  - SCORE 0.00 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=0
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: doc/component-operation-guide-lts/source/using_oozie/using_hue_to_submit_an_oozie_job/submitting_a_workflow_job/submitting_a_loader_job_in_hue.rst
+TITLE: Submitting a Loader Job in Hue
+IMAGE COUNT: 3
+RESULTS:
+  - SCORE 0.38 | IMAGE 1: fail
+    PATH: /_static/images/en-us_image_0000001349259321.jpg
+    CRITERIA: topic=2, detail=0, section=2, visual=0, contradictions=1
+    IMAGE CONTENT: - Image path corresponds to step 2 (selecting the Loader icon), aligning with the document's topic.
+    MISSING EVIDENCE:
+      - - Actual image attachment is missing.
+      - - Cannot confirm UI layout, icon appearance, or drag-and-drop context described in step 2.
+  - SCORE 0.38 | IMAGE 2: fail
+    PATH: /_static/images/en-us_image_0000001295900184.png
+    CRITERIA: topic=2, detail=0, section=2, visual=0, contradictions=1
+    IMAGE CONTENT: - Image path corresponds to step 4 (upper right corner of the Oozie editor), matching the document context.
+    MISSING EVIDENCE:
+      - - Actual image attachment is missing.
+      - - Cannot confirm the specific button or icon location in the upper right corner as described.
+  - SCORE 0.38 | IMAGE 3: fail
+    PATH: /_static/images/en-us_image_0000001349059873.jpg
+    CRITERIA: topic=2, detail=0, section=2, visual=0, contradictions=1
+    IMAGE CONTENT: - Image path corresponds to step 5 (submitting the job), aligning with the document's topic.
+    MISSING EVIDENCE:
+      - - Actual image attachment is missing.
+      - - Cannot confirm the submit button or post-submission UI state described in step 5.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: doc/component-operation-guide-lts/source/using_ranger/adding_a_ranger_access_permission_policy_for_yarn.rst
+TITLE: Adding a Ranger Access Permission Policy for Yarn
+IMAGE COUNT: 7
+RESULTS:
+  - SCORE 0.15 | IMAGE 1: fail
+    PATH: /_static/images/en-us_image_0000001349259425.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=3
+    IMAGE CONTENT: Image not provided in the prompt, preventing visual evaluation.
+    MISSING EVIDENCE:
+      - Visual content of the image is required to confirm the described UI actions.
+  - SCORE 0.15 | IMAGE 2: fail
+    PATH: /_static/images/en-us_image_0000001349139845.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=3
+    IMAGE CONTENT: Image not provided in the prompt, preventing visual evaluation.
+    MISSING EVIDENCE:
+      - Visual content of the image is required to confirm the described UI actions.
+  - SCORE 0.15 | IMAGE 3: fail
+    PATH: /_static/images/en-us_image_0000001296060136.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=3
+    IMAGE CONTENT: Image not provided in the prompt, preventing visual evaluation.
+    MISSING EVIDENCE:
+      - Visual content of the image is required to confirm the described UI actions.
+  - SCORE 0.15 | IMAGE 4: fail
+    PATH: /_static/images/en-us_image_0000001295900292.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=3
+    IMAGE CONTENT: Image not provided in the prompt, preventing visual evaluation.
+    MISSING EVIDENCE:
+      - Visual content of the image is required to confirm the described UI actions.
+  - SCORE 0.15 | IMAGE 5: fail
+    PATH: /_static/images/en-us_image_0000001349139849.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=3
+    IMAGE CONTENT: Image not provided in the prompt, preventing visual evaluation.
+    MISSING EVIDENCE:
+      - Visual content of the image is required to confirm the described UI actions.
+  - SCORE 0.15 | IMAGE 6: fail
+    PATH: /_static/images/en-us_image_0000001296060132.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=3
+    IMAGE CONTENT: Image not provided in the prompt, preventing visual evaluation.
+    MISSING EVIDENCE:
+      - Visual content of the image is required to confirm the described UI actions.
+  - SCORE 0.15 | IMAGE 7: fail
+    PATH: /_static/images/en-us_image_0000001349059977.png
+    CRITERIA: topic=0, detail=0, section=0, visual=0, contradictions=3
+    IMAGE CONTENT: Image not provided in the prompt, preventing visual evaluation.
+    MISSING EVIDENCE:
+      - Visual content of the image is required to confirm the described UI actions.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_2.x_and_earlier_versions/alarm_reference_applicable_to_versions_earlier_than_mrs_3.x/alm-12034_periodic_backup_failure.rst
+TITLE: ALM-12034 Periodic Backup Failure
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-12004_oldap_resource_abnormal.rst
+TITLE: ALM-12004 OLdap Resource Abnormal
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.40 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-12016_cpu_usage_exceeds_the_threshold.rst
+TITLE: ALM-12016 CPU Usage Exceeds the Threshold
+IMAGE COUNT: 3
+RESULTS:
+  - SCORE 0.38 | IMAGE 3: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001582927773.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: The image is extremely blurry and low-resolution, making it impossible to identify the specific UI icon.
+    MISSING EVIDENCE:
+      - A clearer, higher-resolution version of the image is needed to verify the icon's appearance and function.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-12017_insufficient_disk_capacity.rst
+TITLE: ALM-12017 Insufficient Disk Capacity
+IMAGE COUNT: 3
+RESULTS:
+  - SCORE 0.45 | IMAGE 2: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001582807909.png
+    CRITERIA: topic=1, detail=1, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: Image is extremely blurry and low-resolution, making it impossible to clearly identify the icon.
+    MISSING EVIDENCE:
+      - Clearer, high-resolution version of the icon is needed to confirm it matches the 'view alarm details' action in the MRS Manager alarm list.
+  - SCORE 0.45 | IMAGE 3: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001583127613.png
+    CRITERIA: topic=1, detail=1, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: Image is extremely blurry and low-resolution.
+    MISSING EVIDENCE:
+      - High-resolution image required to confirm the icon's function and location in the MRS Manager log collection dialog.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-12040_insufficient_system_entropy.rst
+TITLE: ALM-12040 Insufficient System Entropy
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.50 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=3
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-12070_controller_resource_is_abnormal.rst
+TITLE: ALM-12070 Controller Resource Is Abnormal
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.40 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-12075_pms_resource_is_abnormal.rst
+TITLE: ALM-12075 PMS Resource Is Abnormal
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.40 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001532607658.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+    IMAGE CONTENT: The image shows a pencil icon, which typically signifies an 'Edit' or 'Modify' function, while the text describes opening a dialog to set date ranges and downloading logs.
+    MISSING EVIDENCE:
+      - A clear, high-resolution screenshot of the actual MRS Manager interface to confirm the icon's exact function and placement.
+      - Documentation or UI notes explaining the specific use of a pencil icon for this log collection dialog.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-12083_password_of_user_ommdba_is_about_to_expire.rst
+TITLE: ALM-12083 Password of User ommdba Is About to Expire
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.40 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-12102_az_ha_component_is_not_deployed_based_on_dr_requirements.rst
+TITLE: ALM-12102 AZ HA Component Is Not Deployed Based on DR Requirements
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-12110_failed_to_get_ecs_temporary_ak_sk.rst
+TITLE: ALM-12110 Failed to get ECS temporary AK/SK
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.50 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001582807757.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=3
+    IMAGE CONTENT: The image displays a highly pixelated blue chevron or arrow shape.
+    MISSING EVIDENCE:
+      - Clearer, higher-resolution image required to verify the exact UI element.
+      - RST lacks descriptive text about the icon's appearance for cross-verification.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-13010_znode_usage_of_a_directory_with_quota_configured_exceeds_the_threshold.rst
+TITLE: ALM-13010 Znode Usage of a Directory with Quota Configured Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001583087329.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: The image displays a pencil icon, which conventionally signifies an 'Edit' or 'Modify' function, whereas the RST context describes clicking an icon to collect or download logs.
+    MISSING EVIDENCE:
+      - A clearer, higher-resolution version of the icon to accurately identify its intended function.
+      - A screenshot of the actual MRS Manager UI showing the icon's placement and behavior during the log collection workflow.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-14017_namenode_direct_memory_usage_exceeds_the_threshold.rst
+TITLE: ALM-14017 NameNode Direct Memory Usage Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.40 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-16000_percentage_of_sessions_connected_to_the_hiveserver_to_maximum_number_allowed_exceeds_the_threshold.rst
+TITLE: ALM-16000 Percentage of Sessions Connected to the HiveServer to Maximum Number Allowed Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.28 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=1, contradictions=0
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-18008_heap_memory_usage_of_resourcemanager_exceeds_the_threshold.rst
+TITLE: ALM-18008 Heap Memory Usage of ResourceManager Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=2
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-19008_heap_memory_usage_of_the_hbase_process_exceeds_the_threshold.rst
+TITLE: ALM-19008 Heap Memory Usage of the HBase Process Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.52 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001532927606.png
+    CRITERIA: topic=1, detail=2, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: The image shows a pencil icon, which is a standard UI symbol for 'Edit' or 'Configure' actions.
+    MISSING EVIDENCE:
+      - The surrounding UI elements (menus, labels, or other buttons) are not visible to confirm the exact page or context.
+      - The RST text does not explicitly describe the icon's appearance, making it difficult to verify if it matches the intended MRS Manager portal button.
+      - It is unclear whether this specific pencil icon is the official 'Edit' button for the log collection feature in the MRS Manager interface.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-19009_direct_memory_usage_of_the_hbase_process_exceeds_the_threshold.rst
+TITLE: ALM-19009 Direct Memory Usage of the HBase Process Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001583087501.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: The image shows a blurry icon that likely corresponds to the UI button referenced in step 10 of the 'Collect fault information' procedure.
+    MISSING EVIDENCE:
+      - Higher resolution image to clearly identify the icon and its specific function.
+      - Surrounding UI context or a full screenshot to verify placement and relevance within the MRS Manager portal.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-24006_heap_memory_usage_of_flume_server_exceeds_the_threshold.rst
+TITLE: ALM-24006 Heap Memory Usage of Flume Server Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.40 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001532767398.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+    IMAGE CONTENT: The image displays a blurry pencil icon, which typically represents an edit or modify function rather than the log collection/download action described in the text.
+    MISSING EVIDENCE:
+      - A higher-resolution image showing the icon within its actual UI context (e.g., the Log Download page).
+      - Clearer visual indicators or labels confirming whether the icon is intended for downloading logs or editing configurations.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-24011_flume_certificate_file_is_about_to_expire.rst
+TITLE: ALM-24011 Flume Certificate File Is About to Expire
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001582807709.png
+    CRITERIA: topic=1, detail=1, section=2, visual=0, contradictions=3
+    IMAGE CONTENT: The image is extremely blurry and low-resolution, making it impossible to clearly identify the specific UI icon.
+    MISSING EVIDENCE:
+      - A higher-resolution screenshot of the MRS Manager UI log collection page.
+      - Clear visibility of the icon's shape and label to confirm it matches the 'Download' action described.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-24015_flume_monitorserver_certificate_file_has_expired.rst
+TITLE: ALM-24015 Flume MonitorServer Certificate File Has Expired
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.50 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001532448470.png
+    CRITERIA: topic=2, detail=1, section=2, visual=1, contradictions=1
+    IMAGE CONTENT: The image displays a blurry pencil icon, which is referenced in the procedure for collecting and downloading logs.
+    MISSING EVIDENCE:
+      - A higher-resolution version of the icon to confirm its exact design and function.
+      - A contextual screenshot showing the icon's placement in the MRS Manager UI to verify its role in the log collection workflow.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-25000_ldapserver_service_unavailable.rst
+TITLE: ALM-25000 LdapServer Service Unavailable
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.40 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001532448278.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+    IMAGE CONTENT: The image displays a blurry pencil icon, which conventionally indicates an 'Edit' or 'Modify' action rather than 'Download' or 'Log Collection'.
+    MISSING EVIDENCE:
+      - A clearer, higher-resolution screenshot of the MRS Manager interface showing the actual icon in the upper right corner during log collection.
+      - UI design specifications or documentation clarifying the exact icon used for log collection in this software version.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-43008_the_direct_memory_usage_of_the_jobhistory2x_process_exceeds_the_threshold.rst
+TITLE: ALM-43008 The Direct Memory Usage of the JobHistory2x Process Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.50 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=2, detail=1, section=2, visual=1, contradictions=1
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-43019_heap_memory_usage_of_the_indexserver2x_process_exceeds_the_threshold.rst
+TITLE: ALM-43019 Heap Memory Usage of the IndexServer2x Process Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.50 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=2, detail=1, section=2, visual=1, contradictions=1
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-43021_direct_memory_usage_of_the_indexserver2x_process_exceeds_the_threshold.rst
+TITLE: ALM-43021 Direct Memory Usage of the IndexServer2x Process Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.40 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-43023_indexserver2x_process_full_gc_number_exceeds_the_threshold.rst
+TITLE: ALM-43023 IndexServer2x Process Full GC Number Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.40 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-43028_jdbcserver_session_overflow.rst
+TITLE: ALM-43028 JDBCServer Session Overflow
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000002381622762.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: The image displays a blurry pencil icon referenced in the 'Handling Procedure' section for log collection.
+    MISSING EVIDENCE:
+      - Higher resolution image showing the icon within the MRS Manager interface.
+      - Visible UI labels, tooltips, or adjacent elements (e.g., date pickers, 'Download' button) to confirm the workflow.
+      - Clearer context linking the icon to the 'Collect fault information' procedure.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-45175_average_time_for_calling_obs_metadata_apis_is_greater_than_the_threshold.rst
+TITLE: ALM-45175 Average Time for Calling OBS Metadata APIs Is Greater than the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.35 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001582807905.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=0
+    IMAGE CONTENT: The image displays a pencil/edit icon, which contradicts the expected 'Download' button for log collection described in step 7.
+    MISSING EVIDENCE:
+      - A clearer, higher-resolution image of the UI element is needed.
+      - A full screenshot of the 'Log > Download' page would clarify the intended button.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-45178_success_rate_of_calling_obs_data_write_apis_is_lower_than_the_threshold.rst
+TITLE: ALM-45178 Success Rate of Calling OBS Data Write APIs Is Lower Than the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.28 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=1, contradictions=0
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-45276_abnormal_rangeradmin_status.rst
+TITLE: ALM-45276 Abnormal RangerAdmin Status
+IMAGE COUNT: 2
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001532927302.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: The image is extremely blurry, showing only a vague blue V-shape or checkmark.
+    MISSING EVIDENCE:
+      - Clearer resolution of the icon.
+      - Visible surrounding UI elements to confirm its function in the alarm list.
+  - SCORE 0.45 | IMAGE 2: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001583087289.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: The image is highly blurred, appearing as a pencil icon.
+    MISSING EVIDENCE:
+      - Higher resolution image to identify the icon accurately.
+      - Visible context of the 'Log Download' page to confirm the icon's actual function.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-45278_rangeradmin_direct_memory_usage_exceeds_the_threshold.rst
+TITLE: ALM-45278 RangerAdmin Direct Memory Usage Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.50 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001582807585.png
+    CRITERIA: topic=2, detail=1, section=2, visual=1, contradictions=1
+    IMAGE CONTENT: The image shows a highly pixelated icon resembling a pencil, which typically signifies an 'Edit' or 'Configure' function rather than 'Download'.
+    MISSING EVIDENCE:
+      - A higher-resolution version of the icon or a full UI screenshot to confirm its actual function in the MRS Manager interface.
+      - Clarification on whether the icon opens a configuration dialog (pencil) or directly triggers a download.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-45280_rangeradmin_gc_duration_exceeds_the_threshold.rst
+TITLE: ALM-45280 RangerAdmin GC Duration Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.40 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001532767378.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=1
+    IMAGE CONTENT: The image displays a blurry pencil icon, which conventionally signifies an 'Edit' function, whereas the RST context describes clicking an icon to configure and download logs.
+    MISSING EVIDENCE:
+      - A clearer screenshot of the MRS Manager UI showing the actual icon in the upper right corner during the log collection step.
+      - Confirmation of whether the pencil icon is used for editing log collection parameters or if it is a mismatched/incorrect asset in the documentation.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-45426_clickhouse_service_quantity_quota_usage_in_zookeeper_exceeds_the_threshold.rst
+TITLE: ALM-45426 ClickHouse Service Quantity Quota Usage in ZooKeeper Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.50 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001583127525.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=3
+    IMAGE CONTENT: The image shows a low-resolution pencil icon, typically representing an 'Edit' or 'Modify' action in a UI.
+    MISSING EVIDENCE:
+      - A clear, high-resolution screenshot of the MRS Manager interface showing the upper-right corner.
+      - Visual confirmation of the exact button or icon being clicked in the procedure.
+      - Surrounding UI context to verify the icon's function aligns with setting date ranges for log collection.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-45588_iotdbserver_direct_memory_usage_exceeds_the_threshold.rst
+TITLE: ALM-45588 IoTDBServer Direct Memory Usage Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001583087653.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: The image displays a blurry pencil icon, which typically signifies an 'Edit' function rather than a download or log collection action.
+    MISSING EVIDENCE:
+      - A clearer, higher-resolution image showing the icon within the actual MRS Manager UI context.
+      - Visual confirmation that this specific icon opens the log collection dialog or initiates the download process as described in the text.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-45640_flinkserver_heartbeat_interruption_between_the_active_and_standby_nodes.rst
+TITLE: ALM-45640 FlinkServer Heartbeat Interruption Between the Active and Standby Nodes
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.43 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=2, detail=0, section=2, visual=2, contradictions=0
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/alarm_reference_applicable_to_mrs_3.x/alm-45739_tokenserver_non-heap_memory_usage_exceeds_the_threshold.rst
+TITLE: ALM-45739 TokenServer Non-Heap Memory Usage Exceeds the Threshold
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001971622210.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: The image displays a blurry pencil icon, which typically represents an 'Edit' or 'Modify' function.
+    MISSING EVIDENCE:
+      - Higher resolution image to clearly identify the icon's exact function or associated UI text.
+      - Explicit visual confirmation of the date picker interface or 'Download' button mentioned in the procedure.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/cluster/managing_a_service/overview.rst
+TITLE: Overview
+IMAGE COUNT: 2
+RESULTS:
+  - SCORE 0.38 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=1, section=1, visual=1, contradictions=2
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/getting_started/querying_the_mrs_manager_version.rst
+TITLE: Querying the MRS Manager Version
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.22 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=1, visual=0, contradictions=1
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/o_and_m/log/log_download.rst
+TITLE: Log Download
+IMAGE COUNT: 3
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001392254938.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image corresponds to step 3a regarding service selection.
+    MISSING EVIDENCE:
+      - Higher resolution image showing the actual UI element.
+      - Visible service list or selection interface.
+  - SCORE 0.33 | IMAGE 2: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001392414466.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: Image corresponds to step 3b regarding host selection.
+    MISSING EVIDENCE:
+      - Higher resolution image showing the actual UI element.
+      - Visible host selection interface or IP input field.
+  - SCORE 0.55 | IMAGE 3: partial
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001392574062.png
+    CRITERIA: topic=2, detail=1, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: Image shows a pencil icon, which semantically aligns with an 'edit' or 'configure' action for time settings.
+    MISSING EVIDENCE:
+      - Visible Start Time and End Time fields.
+      - Confirmation of the icon's location in the upper right corner.
+      - Clearer UI context showing the time picker.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/mrs_manager_operation_guide_applicable_to_3.x/system_configuration/importing_a_certificate.rst
+TITLE: Importing a Certificate
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.45 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001392574046.png
+    CRITERIA: topic=1, detail=1, section=2, visual=1, contradictions=2
+    IMAGE CONTENT: - The image is extremely blurry and only displays three indistinct dots.
+    MISSING EVIDENCE:
+      - - A higher-resolution screenshot showing the 'Upload Certificate' button and the adjacent icon.
+      - - Clear visibility of the surrounding UI context to confirm the icon's exact function and appearance.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/overview/components/spark/relationship_among_spark_hdfs_and_yarn.rst
+TITLE: Relationship Among Spark, HDFS, and Yarn
+IMAGE COUNT: 4
+RESULTS:
+  - SCORE 0.32 | IMAGE 2: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001349390629.png
+    CRITERIA: topic=1, detail=0, section=1, visual=3, contradictions=0
+    IMAGE CONTENT: The image is referenced as Figure 2 in the RST but depicts a classic MapReduce workflow (Split, Map, Partition, Reduce, Merge) instead of the Spark file writing process described in the text.
+    MISSING EVIDENCE:
+      - The correct diagram illustrating the Spark file writing process (Driver creating directories, Executors writing RDD data) is missing.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/overview/components/spark2x/relationship_between_spark2x_and_other_components.rst
+TITLE: Relationship Between Spark2x and Other Components
+IMAGE COUNT: 4
+RESULTS:
+  - SCORE 0.38 | IMAGE 2: fail
+    PATH: /home/ubuntu/repotesting/mapreduce-service/umn/source/_static/images/en-us_image_0000001349309973.png
+    CRITERIA: topic=1, detail=1, section=1, visual=3, contradictions=0
+    IMAGE CONTENT: Image path corresponds to Figure 2, which the text explicitly labels as the 'file writing process'.
+    MISSING EVIDENCE:
+      - A diagram illustrating the actual file writing process (directory creation, RDD data writing to directory) is missing.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/faqs/database_connection/what_should_i_do_if_an_rds_microsoft_sql_server_db_instance_failed_to_be_connected.rst
+TITLE: What Should I Do If an RDS Microsoft SQL Server DB Instance Failed to Be Connected?
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.22 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/relational-database-service/umn/source/_static/images/en-us_image_0000001191211679.png
+    CRITERIA: topic=1, detail=0, section=1, visual=0, contradictions=1
+    IMAGE CONTENT: The image displays a blurry location pin icon, which does not align with the RST description of an icon used to select a region and project.
+    MISSING EVIDENCE:
+      - A clearer, higher-resolution version of the icon or console UI.
+      - A screenshot showing the actual region and project selection interface.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/working_with_rds_for_mysql/database_proxy_read_write_splitting/changing_the_read_write_splitting_address.rst
+TITLE: Changing the Read/Write Splitting Address
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.32 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=1, visual=0, contradictions=3
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/working_with_rds_for_mysql/parameter_template_management/creating_a_parameter_template.rst
+TITLE: Creating a Parameter Template
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/working_with_rds_for_postgresql/backups_and_restorations/restoring_from_backup_files_to_rds_for_postgresql.rst
+TITLE: Restoring from Backup Files to RDS for PostgreSQL
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.33 | IMAGE 1: fail
+    PATH: /home/ubuntu/repotesting/relational-database-service/umn/source/_static/images/en-us_image_0000001191211679.png
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: The image is extremely blurry and low-resolution, preventing clear identification of the UI element.
+    MISSING EVIDENCE:
+      - A higher-resolution, clear screenshot of the icon is needed to verify its exact appearance and function.
+      - Context from a standard RDS console login page would help confirm if this is the correct region selector icon.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: api-ref/source/classic/quota.rst
+TITLE: Querying Load Balancer or Listener Quotas
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.50 | IMAGE 1: fail
+    PATH: /media/image2.png
+    CRITERIA: topic=2, detail=1, section=2, visual=0, contradictions=2
+    IMAGE CONTENT: The image is referenced immediately after the example JSON response for the quota API.
+    MISSING EVIDENCE:
+      - Actual image content is required to assess visual details and relevance.
+      - Cannot determine if the image depicts a UI dashboard, API response screenshot, or architectural diagram.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/subscription_management/adding_a_subscription.rst
+TITLE: Adding a Subscription
+IMAGE COUNT: 4
+RESULTS:
+  - SCORE 0.32 | IMAGE 3: fail
+    PATH: /home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001495292001.png
+    CRITERIA: topic=1, detail=0, section=1, visual=3, contradictions=0
+    IMAGE CONTENT: The RST explicitly links this image to the 'FunctionGraph (function)' parameter.
+    MISSING EVIDENCE:
+      - The correct FunctionGraph icon is missing from the provided image.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/topic_management/adding_a_subscription_to_a_topic.rst
+TITLE: Adding a Subscription to a Topic
+IMAGE COUNT: 3
+RESULTS:
+  - SCORE 0.45 | IMAGE 3: fail
+    PATH: /home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001495292001.png
+    CRITERIA: topic=1, detail=1, section=2, visual=3, contradictions=0
+    IMAGE CONTENT: Document instructs to click this image to select a FunctionGraph function.
+    MISSING EVIDENCE:
+      - Correct image showing the function selection interface or appropriate button is missing.
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/faqs/troubleshooting/why_does_the_login_command_fail_to_be_executed.rst
+TITLE: Why Does the Login Command Fail to Be Executed?
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.38 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=2, visual=0, contradictions=3
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/getting_started/connecting_to_a_db_instance_over_a_public_network/step_1_create_a_db_instance.rst
+TITLE: Step 1: Create a DB Instance
+IMAGE COUNT: 1
+RESULTS:
+  - SCORE 0.27 | IMAGE 1: fail
+    PATH: 
+    CRITERIA: topic=1, detail=0, section=1, visual=0, contradictions=2
+
+
+--------------------------------------------------------------------------------
+
+
+FILE: umn/source/operation_guide/data_backup_using_a_backup_policy/optional_other_operations_with_backup_policies.rst
+TITLE: (Optional) Other Operations with Backup Policies
+IMAGE COUNT: 6
+RESULTS:
+  - SCORE 0.50 | IMAGE 6: fail
+    PATH: /home/ubuntu/repotesting/volume-backup-service/umn/source/_static/images/en-us_image_0148568289.png
+    CRITERIA: topic=1, detail=1, section=2, visual=3, contradictions=1
+    IMAGE CONTENT: The RST states this image is used to 'turn on this option' (enable a policy), but the image shows a magnifying glass icon.
+    MISSING EVIDENCE:
+      - The actual toggle switch UI element is not visible in the provided image.
+      - The icon does not clearly support the enabling action required by the RST context.

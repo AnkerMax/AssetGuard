@@ -142,8 +142,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a terminal screenshot demonstrating the `SHOW GRANTS` command and its variations, exactly as described in Example 1 of the `SHOW GRANTS` section.",
-          "The commands and output tables visually confirm the documentation's examples for querying user permissions."
+          "The image is a terminal screenshot displaying the output of SHOW GRANTS commands.",
+          "It directly illustrates the SHOW GRANTS section described in the RST document.",
+          "The commands and output format exactly match the examples provided in the documentation."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -177,8 +178,8 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
-      "partial": 1,
+      "pass": 1,
+      "partial": 0,
       "fail": 0
     },
     "results": [
@@ -186,26 +187,23 @@
         "document_path": "umn/source/auditing/querying_traces.rst",
         "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146333.png",
         "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
         "hard_fail": false,
         "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
         "criteria": {
           "topic_match": 2,
           "detail_match": 2,
           "section_relevance": 3,
-          "visual_evidence": 2,
+          "visual_evidence": 3,
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a downward-pointing chevron icon, a standard UI symbol for expanding or revealing details.",
-          "This matches the RST procedure instruction to click the icon on the left of a trace row to view details."
+          "The image displays a downward chevron icon, which aligns with the textual instruction to click an element on the left of a trace to view details."
         ],
-        "missing_evidence": [
-          "The image is an isolated graphic without surrounding console context, but it accurately represents the specific clickable element described."
-        ],
-        "overall_score": 0.78,
-        "verdict": "partial"
+        "missing_evidence": [],
+        "overall_score": 0.83,
+        "verdict": "pass"
       }
     ]
   },
@@ -280,7 +278,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -345,8 +343,29 @@
     },
     "results": [
       {
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a pencil icon, which is a standard UI symbol for editing.",
+          "It directly corresponds to the instruction to click the icon beside the Security Group field to change it."
+        ],
+        "missing_evidence": [],
         "document_path": "umn/source/connection_management/changing_the_security_group_of_a_ddm_instance.rst",
         "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147562.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
         "image_kind": "icon",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -360,37 +379,16 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows a pencil icon, which semantically matches the instruction to click an icon to edit or change the security group."
+          "The image displays a green checkmark icon, a standard symbol for confirmation or 'OK'.",
+          "It matches the procedure step to click after specifying a new security group."
         ],
         "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
         "document_path": "umn/source/connection_management/changing_the_security_group_of_a_ddm_instance.rst",
         "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146369.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a green checkmark, which aligns with the instruction to click it to confirm or apply the new security group selection."
-        ],
-        "missing_evidence": [],
         "overall_score": 1.0,
         "verdict": "pass"
       },
       {
-        "document_path": "umn/source/connection_management/changing_the_security_group_of_a_ddm_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307302.png",
         "image_kind": "icon",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -404,9 +402,12 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image features a magenta 'X' icon, which corresponds to the instruction to click it to cancel the change operation."
+          "The image displays a magenta 'X' icon, a standard symbol for canceling or closing.",
+          "It aligns with the instruction to click to cancel the security group change."
         ],
         "missing_evidence": [],
+        "document_path": "umn/source/connection_management/changing_the_security_group_of_a_ddm_instance.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307302.png",
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -468,11 +469,104 @@
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
-      "fail": 0
+      "fail": 2
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/connection_management/configuring_access_control.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307398.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive toggle button is gray, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot matches the 'single group' scenario description in the RST.",
+          "Clearly shows the 'Access Control' toggle in the 'Network Information' area."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/connection_management/configuring_access_control.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147654.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive toggle buttons are gray, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot matches the 'multiple groups' scenario description in the RST.",
+          "Shows the 'Access Control' column with toggles for each group."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/connection_management/configuring_access_control.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146461.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Inline icon representing the toggle button referenced in the text.",
+          "Used to indicate the clickable element for enabling access control."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/connection_management/configuring_access_control.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307394.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Inline icon representing the toggle button referenced in the text.",
+          "Used to indicate the clickable element for enabling access control."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/connection_management/enabling_and_disabling_ssl_for_a_db_instance.rst",
@@ -531,9 +625,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Shows the SSL toggle switch UI element referenced in the text.",
-          "Clearly depicts the control used to enable or disable SSL.",
-          "Directly supports the step-by-step instructions."
+          "The image displays a grey toggle switch icon, which corresponds to the SSL field control mentioned in the documentation.",
+          "It visually represents the UI element users interact with to enable SSL."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -555,9 +648,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Shows the SSL toggle switch UI element referenced in the text.",
-          "Clearly depicts the control used to enable or disable SSL.",
-          "Directly supports the step-by-step instructions."
+          "The image displays a blue toggle switch icon, corresponding to the SSL field control in the DDM console.",
+          "It visually represents the UI element users interact with to disable SSL."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -612,113 +704,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/general_questions/how_do_i_select_and_configure_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147478.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 1 description of ECS security group rules.",
-          "Clearly shows the sg-ECS inbound rules tab with TCP 22, ICMP, and All traffic from sg-ECS."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faqs/general_questions/how_do_i_select_and_configure_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733266413.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 2 description of DDM instance inbound rules.",
-          "Clearly shows the sg-DDM inbound rules tab with TCP 5066 from sg-ECS and All traffic from sg-DDM."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faqs/general_questions/how_do_i_select_and_configure_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146301.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 3 description of DDM instance outbound rules.",
-          "Clearly shows the sg-DDM outbound rules tab with TCP 3306 to sg-RDS and All traffic to 0.0.0.0/0."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faqs/general_questions/how_do_i_select_and_configure_a_security_group.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733266417.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 4 description of RDS instance security group rules.",
-          "Clearly shows the sg-RDS outbound rules tab with All traffic to sg-DDM and 0.0.0.0/0."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started/overview.rst",
@@ -737,11 +736,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -769,11 +768,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -831,109 +830,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/instance_management/administrator_account.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146449.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the RST instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/instance_management/administrator_account.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733266565.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the RST step to open the navigation menu for selecting Databases."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/instance_management/administrator_account.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147638.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, consistent with the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/instance_management/administrator_account.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733266553.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which corresponds to the RST instruction to open the navigation menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/instance_management/modifying_parameters_of_a_ddm_instance.rst",
@@ -962,71 +872,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/instance_management/modifying_parameters_of_a_ddm_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147610.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a terminal output showing a MySQL execution plan.",
-          "It corresponds to 'Figure 1 Result if bind_table is not used' in the RST document.",
-          "The execution plan shows a 'LookUpJoin', which is consistent with the parameter configuration example for when bind_table is not used.",
-          "The content is directly relevant to the 'Parameter configuration examples' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/instance_management/modifying_parameters_of_a_ddm_instance.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147602.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a terminal output showing a MySQL execution plan.",
-          "It corresponds to 'Figure 2 Result if bind_table is used' in the RST document.",
-          "The execution plan shows an 'ExtTableScan' with an 'INNER JOIN' in the pushdown SQL, contrasting with Figure 1, which is consistent with the parameter configuration example for when bind_table is used.",
-          "The content is directly relevant to the 'Parameter configuration examples' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/monitoring_management/viewing_metrics/viewing_instance_metrics.rst",
@@ -1045,11 +904,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1087,65 +946,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/parameter_template_management/applying_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147590.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/parameter_template_management/applying_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146405.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which semantically matches the instruction to open a navigation menu to choose Databases."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/parameter_template_management/comparing_two_parameter_templates.rst",
@@ -1174,11 +988,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -1216,11 +1030,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -1258,11 +1072,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -1300,65 +1114,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/parameter_template_management/editing_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307326.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly corresponds to the instruction to click it to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/parameter_template_management/editing_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146397.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which aligns with the step to click it to open the navigation menu for choosing Databases."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/parameter_template_management/modifying_the_description_of_a_parameter_template.rst",
@@ -1417,11 +1186,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
@@ -1459,11 +1228,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -1501,65 +1270,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/parameter_template_management/viewing_application_records_of_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307386.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the RST instruction to click it for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/parameter_template_management/viewing_application_records_of_a_parameter_template.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733266569.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which aligns with the RST instruction to click it to open the navigation menu for choosing Databases."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/parameter_template_management/viewing_parameter_change_history.rst",
@@ -1588,11 +1312,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -1620,45 +1344,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/core_functions.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001700277302.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a system architecture diagram illustrating the relationship among DDM, VPC, ECS, and data nodes.",
-          "It accurately depicts the data flow from users through ECS to the DDM instance and subsequently to multiple MySQL instances.",
-          "The visual content directly corresponds to the figure caption and the 'Related Services' section described in the RST document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/overview.rst",
@@ -1687,69 +1386,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733266537.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram directly corresponds to the 'Service Architecture' section.",
-          "Illustrates the console management interface and database routing components.",
-          "Shows interactions between administrators, developers, and end users."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_overview/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307354.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram directly corresponds to the 'How DDM Works' section.",
-          "Illustrates the data flow from business systems through ELB to DDM nodes and RDS instances.",
-          "Shows internal DDM components like SQL parser, optimizer, and executor."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/regions_and_azs.rst",
@@ -1768,44 +1418,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/regions_and_azs.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733266557.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a diagram illustrating two regions, each containing three interconnected availability zones (AZs).",
-          "This directly visualizes the RST text describing how a region contains multiple AZs that are interconnected through internal networks."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/shard_configuration/operation_guide.rst",
@@ -1824,11 +1450,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1876,99 +1502,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/shard_configuration/overview_and_application_scenarios.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147678.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image illustrates Method 1: Keep shards unchanged and increase data nodes.",
-          "It accurately depicts shards migrating from the original RDS instance to a new one without changing the total shard count.",
-          "The visual representation aligns perfectly with the textual description of rapid service growth."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/shard_configuration/overview_and_application_scenarios.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307426.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image corresponds to Method 2: Add shards with data nodes unchanged.",
-          "It shows the addition of new shards to the existing RDS instance while marking old tables for deletion.",
-          "The diagram correctly reflects the data redistribution and shard addition described in the text."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/shard_configuration/overview_and_application_scenarios.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733266613.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image illustrates Method 3: Add both shards and data nodes.",
-          "It clearly shows both a new RDS instance being added and new shards being distributed to it.",
-          "The visual flow matches the textual explanation of increasing both storage and query performance capacity."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/sql_syntax/functions.rst",
@@ -1997,11 +1544,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2038,36 +1585,11 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/sql_syntax/global_sequence/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307306.jpg",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a terminal console executing the 'show sequences' command.",
-          "It directly corresponds to the 'Querying an Auto-Increment Sequence' section in the RST document.",
-          "The output table clearly displays the sequence names and their properties, providing accurate visual evidence for the described command."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/sql_syntax/global_sequence/using_global_sequences_in_insert_or_replace_statements.rst",
@@ -2108,18 +1630,85 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 0,
+      "pass": 3,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a terminal screenshot showing the execution of 'use dml_test_1;', table creation, and sequence creation, which directly corresponds to step 2 of the procedure."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/sql_syntax/global_sequence/using_global_sequences_in_insert_or_replace_statements.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146257.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the INSERT statement using 'seq_test.nextval' and 'seq_test.currval' followed by a SELECT query verifying the inserted data, matching step 3 exactly."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/sql_syntax/global_sequence/using_global_sequences_in_insert_or_replace_statements.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147446.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows switching to 'dml_test_2', creating the table, and executing the INSERT statement with the fully qualified global sequence name 'dml_test_1.seq_test.nextval', aligning with step 4."
+        ],
+        "missing_evidence": [],
+        "document_path": "umn/source/sql_syntax/global_sequence/using_global_sequences_in_insert_or_replace_statements.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307194.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/sql_syntax/global_sequence/using_nextval_or_currval_to_query_global_sequence_numbers.rst",
@@ -2170,7 +1759,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -2183,31 +1772,8 @@
     },
     "results": [
       {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays a terminal session executing the exact command 'create sequence seq_test;' described in step 3.",
-          "Output 'Query OK' confirms successful sequence creation, directly supporting the procedure."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
         "document_path": "umn/source/sql_syntax/global_sequence/using_nextval_or_currval_to_query_global_sequence_numbers.rst",
         "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147566.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
         "image_kind": "screenshot",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -2221,18 +1787,16 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image shows multiple executions of 'select seq_test.nextval;' returning incrementing values (1, 2, 3).",
-          "This perfectly illustrates step 4's instruction to obtain the next sequence number."
+          "Matches the RST step 3 instruction to create a global sequence.",
+          "Shows the exact command 'create sequence seq_test;' and successful execution output."
         ],
-        "missing_evidence": [
-          "None."
-        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
         "document_path": "umn/source/sql_syntax/global_sequence/using_nextval_or_currval_to_query_global_sequence_numbers.rst",
         "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146373.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
         "image_kind": "screenshot",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -2246,18 +1810,16 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image displays terminal output for 'select seq_test.currval;' returning the current value (3).",
-          "Directly matches step 5's command and expected behavior for querying the current sequence number."
+          "Matches the RST step 4 instruction to obtain the next sequence number.",
+          "Demonstrates sequential increments of NEXTVAL as expected in a database session."
         ],
-        "missing_evidence": [
-          "None."
-        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
         "document_path": "umn/source/sql_syntax/global_sequence/using_nextval_or_currval_to_query_global_sequence_numbers.rst",
         "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147570.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
         "image_kind": "screenshot",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -2271,14 +1833,33 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image shows 'select seq_test.nextval(5);' executing and returning 5 rows of sequence numbers.",
-          "Accurately demonstrates step 6's batch retrieval functionality using the nextval(n) syntax."
+          "Matches the RST step 5 instruction to obtain the current sequence number.",
+          "Shows CURRVAL returning the last generated sequence number correctly."
         ],
-        "missing_evidence": [
-          "None."
-        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
         "document_path": "umn/source/sql_syntax/global_sequence/using_nextval_or_currval_to_query_global_sequence_numbers.rst",
         "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146381.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches the RST step 6 instruction to obtain sequence numbers in batches.",
+          "Demonstrates NEXTVAL(5) returning exactly 5 sequential numbers as specified."
+        ],
+        "missing_evidence": [],
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -2326,11 +1907,13 @@
     },
     "results": [
       {
+        "document_path": "umn/source/sql_syntax/supported_sql_statements/check_table/checking_ddl_consistency_of_physical_tables_in_all_logical_tables.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307210.png",
         "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
         "hard_fail": false,
         "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -2340,21 +1923,20 @@
         },
         "reasons": [
           "Terminal screenshot displays the output of the 'check table' command.",
-          "All rows show DDL_CONSISTENCY as 'Y' and INCONSISTENT_COUNT as '0', perfectly matching the RST description for consistent DDL check results.",
-          "Table structure and column names align exactly with the documented output details."
+          "Shows all logical tables with DDL_CONSISTENCY 'Y' and INCONSISTENT_COUNT 0, perfectly matching the RST description for consistent DDL results."
         ],
         "missing_evidence": [],
-        "document_path": "umn/source/sql_syntax/supported_sql_statements/check_table/checking_ddl_consistency_of_physical_tables_in_all_logical_tables.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307210.png",
         "overall_score": 1.0,
         "verdict": "pass"
       },
       {
+        "document_path": "umn/source/sql_syntax/supported_sql_statements/check_table/checking_ddl_consistency_of_physical_tables_in_all_logical_tables.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146277.png",
         "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
         "hard_fail": false,
         "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -2364,12 +1946,9 @@
         },
         "reasons": [
           "Terminal screenshot displays the output of the 'check table' command.",
-          "Row 1 shows DDL_CONSISTENCY as 'N' and INCONSISTENT_COUNT as '2', with DETAILS listing specific inconsistent physical tables, matching the RST description for inconsistent DDL check results.",
-          "Table structure and column names align exactly with the documented output details."
+          "Shows a logical table with DDL_CONSISTENCY 'N', INCONSISTENT_COUNT 2, and specific DETAILS, perfectly matching the RST description for inconsistent DDL results."
         ],
         "missing_evidence": [],
-        "document_path": "umn/source/sql_syntax/supported_sql_statements/check_table/checking_ddl_consistency_of_physical_tables_in_all_logical_tables.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733146277.png",
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -2417,13 +1996,11 @@
     },
     "results": [
       {
-        "document_path": "umn/source/sql_syntax/supported_sql_statements/check_table/checking_ddl_consistency_of_physical_tables_in_one_logical_table.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733266429.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
         "hard_fail": false,
         "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -2432,20 +2009,20 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image shows the 'check table p1;' command returning an empty set, which directly matches the RST description for consistent DDL results."
+          "Image shows the command 'check table p1;' returning an empty set, which directly matches the RST description for consistent DDL results."
         ],
         "missing_evidence": [],
+        "document_path": "umn/source/sql_syntax/supported_sql_statements/check_table/checking_ddl_consistency_of_physical_tables_in_one_logical_table.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733266429.png",
         "overall_score": 1.0,
         "verdict": "pass"
       },
       {
-        "document_path": "umn/source/sql_syntax/supported_sql_statements/check_table/checking_ddl_consistency_of_physical_tables_in_one_logical_table.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147494.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
         "hard_fail": false,
         "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -2454,9 +2031,11 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image shows the 'check table p2\\G' command returning two rows with detailed columns like DATABASE_NAME, TABLE_NAME, and EXTRA_INFO, matching the RST description for inconsistent DDL results."
+          "Image shows the command 'check table p2\\G' returning two rows with details like MISSING_COLUMNS and EXTRA_INFO, which directly matches the RST description for inconsistent DDL results."
         ],
         "missing_evidence": [],
+        "document_path": "umn/source/sql_syntax/supported_sql_statements/check_table/checking_ddl_consistency_of_physical_tables_in_one_logical_table.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147494.png",
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -2488,11 +2067,36 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/sql_syntax/supported_sql_statements/show_physical_processlist.rst",
+        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307362.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a table with columns (Ip, Port, Instance_id, Type, Physical_thread_id, User, Host, Db, Command, Time, State, Info) that exactly match the output description for the SHOW PHYSICAL PROCESSLIST command in the RST.",
+          "The visual content serves as a direct example of the command execution effect described in the document.",
+          "The data rows in the screenshot provide concrete evidence of the process information structure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/sql_syntax/supported_sql_statements/show_rule.rst",
@@ -2551,9 +2155,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a terminal screenshot displaying the output of the 'show rule;' command.",
-          "The table structure and column names (TABLE_NAME, BROADCAST, DB_PARTITION_KEY, etc.) directly match the 'Command output' and 'Output Details' sections in the RST.",
-          "The data rows correspond to the sharding rules for multiple logical tables as described."
+          "The image shows the terminal output for the 'show rule;' command, matching the first command format in the document.",
+          "The table columns and data structure align perfectly with the 'Output Details' section described in the RST."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -2575,9 +2178,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a terminal screenshot displaying the output of the 'show rule from range_id_yd_datetime_3_tpt_1;' command.",
-          "The table structure and column names match the expected output format for a specific table query described in the RST.",
-          "The single row of data correctly reflects the sharding configuration for the specified table."
+          "The image displays the terminal output for the 'show rule from <table_name>;' command, corresponding to the second command format.",
+          "The specific table name in the command matches the output row, and the column layout matches the documentation."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -2612,67 +2214,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/sql_syntax/supported_sql_statements/truncate_table/hint-table.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307430.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Terminal screenshot showing the database topology and the exact HINT command syntax for truncating a table.",
-          "Directly illustrates the example output described in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/sql_syntax/supported_sql_statements/truncate_table/hint-table.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001733266617.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Terminal screenshot displaying the database topology after the truncation command.",
-          "Clearly shows zero row counts across all shards, matching the 'after deletion' description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/task_center.rst",
@@ -2711,86 +2266,19 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/task_center.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685147662.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which semantically matches the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/task_center.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307410.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, consistent with the step to open a navigation panel for selecting Databases."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/task_center.rst",
-        "image_path": "/home/ubuntu/repotesting/distributed-database-middleware/umn/source/_static/images/en-us_image_0000001685307406.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a calendar icon, which aligns with the instruction to search for tasks within a specific time period."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   }
 ]

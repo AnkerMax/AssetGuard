@@ -1,7 +1,8 @@
-2026-07-23 09:54:59,355 INFO __main__ - Starting AssetGuard
-2026-07-23 09:54:59,355 INFO __main__ - Workspace: /home/ubuntu/repotesting/data-replication-service
-2026-07-23 09:54:59,355 INFO __main__ - Found RST-Dateien: 370
-2026-07-23 09:54:59,355 INFO __main__ - Sending files to backend and waiting for response..
-2026-07-23 10:27:30,351 INFO __main__ - Done. Processed 55 rst files, wrote 55 rows to results_with_images.json, flagged 8 files, csv=results_with_images.csv, failed_csv=results_with_images.failed_only.csv
-duration_seconds=1951
-duration_human=32m 31s
+==> Bearbeite data-replication-service
+Already up to date.
+OK: speichere Ergebnis von data-replication-service in /home/ubuntu/AssetGuard/repo_results/data-replication-service (Dauer: 15m 6s)
+processed_files=55
+flagged_files=47
+row_count=55
+duration_seconds=906
+duration_human=15m 6s

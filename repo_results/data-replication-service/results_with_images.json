@@ -154,7 +154,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -167,8 +167,28 @@
     },
     "results": [
       {
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a pencil icon, which semantically matches the instruction to click to modify information."
+        ],
+        "missing_evidence": [],
         "document_path": "umn/source/backup_migration/task_management/editing_migration_task_information.rst",
         "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470528.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
         "image_kind": "icon",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -182,39 +202,15 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a pencil icon, which is a standard UI symbol for editing.",
-          "It directly corresponds to the procedure step instructing users to click the icon next to information to modify it."
+          "The image shows a green checkmark, which aligns with the instruction to submit or confirm the change."
         ],
         "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
         "document_path": "umn/source/backup_migration/task_management/editing_migration_task_information.rst",
         "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710630012.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a green checkmark icon.",
-          "It matches the procedure step for submitting changes to the task information."
-        ],
-        "missing_evidence": [],
         "overall_score": 1.0,
         "verdict": "pass"
       },
       {
-        "document_path": "umn/source/backup_migration/task_management/editing_migration_task_information.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429613.png",
         "image_kind": "icon",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -228,10 +224,11 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a red 'X' icon.",
-          "It aligns with the instruction to cancel changes."
+          "The image displays a red 'X' icon, which corresponds to the instruction to cancel the change."
         ],
         "missing_evidence": [],
+        "document_path": "umn/source/backup_migration/task_management/editing_migration_task_information.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429613.png",
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -343,11 +340,222 @@
       "attached_image_count": 9
     },
     "summary": {
-      "pass": 0,
+      "pass": 8,
       "partial": 0,
-      "fail": 0
+      "fail": 1
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/faqs/backup_migration/manual_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710471044.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the SQL script output for creating login accounts, matching the RST Figure 1 description.",
+          "The script content aligns with the code block provided in the Login Account section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/backup_migration/manual_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710630532.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the Object Explorer in SQL Server Management Studio, highlighting 'Server Objects' and 'Linked Servers'.",
+          "This matches the RST Figure 2 caption 'Viewing database links' and the instructions in the Database Link section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/backup_migration/manual_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758430137.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the context menu for scripting a job in SQL Server Management Studio.",
+          "This corresponds to RST Figure 3 'Creating the script' in the Agent JOB section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/backup_migration/manual_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710630536.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the Object Explorer with 'SQL Server Agent' and 'Jobs' expanded.",
+          "This matches RST Figure 4 'Viewing Jobs' and the instructions in the Agent JOB section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/backup_migration/manual_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710471040.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the context menu for scripting a linked server in SQL Server Management Studio.",
+          "This corresponds to RST Figure 5 'Creating a script' in the Database Link section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/backup_migration/manual_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710471048.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the Database Properties window for 'drs_test_1' on the 'Files' tab.",
+          "This matches RST Figure 6 'Checking temporary files' and the instructions in the Key Configuration section regarding tempdb."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/backup_migration/manual_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758430141.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 1,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Image shows the 'Options' tab in Database Properties with 'Recovery model: Full'.",
+          "However, RST Figure 7 is captioned 'Max Degree of Parallelism', which contradicts the image content.",
+          "The image content actually matches the description for Figure 9 in the RST."
+        ],
+        "missing_evidence": [
+          "The actual 'Max Degree of Parallelism' setting is not visible in this image."
+        ],
+        "overall_score": 0.4,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/faqs/backup_migration/manual_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549965.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the RDS console 'Instance Management' page with the 'Parameters' tab open.",
+          "It shows the 'max degree of parallelism' parameter, matching RST Figure 8 and the Key Configuration section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/backup_migration/manual_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758430133.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the Database Properties window for 'drs_test_1' on the 'Options' tab.",
+          "It shows 'Recovery model: Full', matching RST Figure 9 'Checking the database recovery model' and the Key Configuration section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/faqs/general_operations/constraints_and_operation_suggestions_on_many-to-one_scenario.rst",
@@ -378,7 +586,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -406,8 +614,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The diagram accurately illustrates the many-to-one data migration concept described in the RST.",
-          "It clearly shows multiple source databases consolidating into a single destination database system, matching the text description."
+          "The diagram accurately illustrates the many-to-one data migration concept described in the text.",
+          "It clearly shows multiple source databases (A, B, C) being continuously migrated and combined into a single destination database system."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -429,8 +637,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The flowchart correctly visualizes the task creation sequence and timing constraints mentioned in the text.",
-          "It demonstrates that Task 2 should be initiated after Task 1 enters the full migration state, aligning with the RST instructions."
+          "The flowchart correctly visualizes the task creation sequence recommended to prevent synchronization blocking.",
+          "It explicitly shows Task 2 being created after Task 1 enters the full migration state, matching the document's instructions."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -457,7 +665,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -485,10 +693,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a diagram illustrating the relationship between regions and availability zones.",
-          "It visually represents Region 1 and Region 2, each containing three AZs (AZ 1, AZ 2, AZ 3).",
-          "The connections between AZs match the textual description of AZs being interconnected within a region.",
-          "Directly supports the 'Concept' section of the document."
+          "The image is a diagram illustrating the relationship between Regions and Availability Zones (AZs).",
+          "It visually depicts two distinct regions, each containing multiple AZs, which aligns with the text description.",
+          "The diagram supports the concept section explaining that a region contains multiple AZs."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -522,11 +729,36 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/faqs/real-time_migration/how_do_i_disable_the_balancer.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470892.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a terminal screenshot displaying the exact command and output referenced in the RST document.",
+          "It visually confirms the 'waiting...' output when the balancer is actively migrating chunks, as described in step 3.",
+          "Directly supports the procedural instruction to check balancer status before disabling it."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/faqs/real-time_migration/how_do_i_ensure_that_all_services_on_the_database_are_stopped.rst",
@@ -564,11 +796,60 @@
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/faqs/real-time_migration/how_do_i_ensure_that_all_services_on_the_database_are_stopped.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429757.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a terminal screenshot showing the output of the 'show processlist;' command.",
+          "It directly corresponds to Figure 1 in the document, which illustrates checking active connections.",
+          "The visual content matches the RST description and code block exactly."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/real-time_migration/how_do_i_ensure_that_all_services_on_the_database_are_stopped.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549585.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a terminal screenshot showing the output of the 'show master status;' command.",
+          "It directly corresponds to Figure 2 in the document, which illustrates viewing the binlog position.",
+          "The visual content matches the RST description and code block exactly."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/preparations/permissions_management/creating_a_user_and_granting_permissions.rst",
@@ -596,11 +877,36 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/preparations/permissions_management/creating_a_user_and_granting_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001358599932.jpg",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart that visually represents the process for granting DRS permissions described in the document.",
+          "The steps in the flowchart ('Create a user group and grant permissions', 'Create a user', 'Log in as the user and verify permissions') exactly match the numbered list in the 'Process Flow' section.",
+          "The image is correctly referenced as Figure 1 in the text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/real-time_disaster_recovery/dr_scenarios/from_mysql_to_mysql.rst",
@@ -621,18 +927,41 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/real-time_disaster_recovery/dr_scenarios/from_mysql_to_mysql.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710630300.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a refresh icon, which matches the RST instruction to click it in the upper-right corner to view the latest task status."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/real-time_disaster_recovery/dr_scenarios/from_mysql_to_taurusdb_cluster.rst",
@@ -661,10 +990,38 @@
     },
     "summary": {
       "pass": 0,
-      "partial": 0,
+      "partial": 1,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/real-time_disaster_recovery/dr_scenarios/from_mysql_to_taurusdb_cluster.rst",
+        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710630300.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a refresh/reload icon, which corresponds to the UI element described for viewing the latest task status.",
+          "It is directly referenced in the procedure section for managing disaster recovery tasks on the DRS console.",
+          "The icon aligns with the document's focus on monitoring and managing DR tasks."
+        ],
+        "missing_evidence": [
+          "The surrounding console interface or actual task status display is not visible.",
+          "No specific data or status details are shown in the isolated icon."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
   },
   {
     "file_path": "umn/source/real-time_disaster_recovery/task_management/step_1_create_a_dr_task.rst",
@@ -695,7 +1052,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -723,8 +1080,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a flowchart diagram illustrating the disaster recovery process.",
-          "It accurately depicts the four main steps mentioned in the RST: creating a DR task, checking progress, viewing logs, and comparing items."
+          "The image is a flowchart that accurately depicts the disaster recovery process steps outlined in the RST document."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -746,8 +1102,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a circular refresh icon.",
-          "This matches the UI element described in the RST for clicking to view the latest task status."
+          "The image shows the refresh icon referenced in the text for checking the latest task status."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -782,69 +1137,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_disaster_recovery/task_management/step_4_compare_dr_items.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549857.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a refresh icon, which aligns with the RST instruction in step 3a to click it to view comparison results."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_disaster_recovery/task_management/step_4_compare_dr_items.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758430021.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a refresh icon, matching the RST procedure in step 3c which instructs the user to click it to refresh the comparison list."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_disaster_recovery/task_management/task_life_cycle/editing_a_dr_task.rst",
@@ -863,43 +1169,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_disaster_recovery/task_management/task_life_cycle/editing_a_dr_task.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710630300.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a refresh icon, which aligns with the RST instruction to click it to view the latest task status."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_disaster_recovery/task_management/task_life_cycle/editing_subscription_task_information.rst",
@@ -938,87 +1221,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pencil icon, which semantically matches the instruction to modify task name and description."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/real-time_disaster_recovery/task_management/task_life_cycle/editing_subscription_task_information.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758430181.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a green checkmark icon, directly corresponding to the instruction to submit changes."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/real-time_disaster_recovery/task_management/task_life_cycle/editing_subscription_task_information.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710471092.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a red X icon, which aligns with the instruction to cancel changes."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/real-time_disaster_recovery/task_management/task_life_cycle/editing_subscription_task_information.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758430185.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_migration/between_self-built_databases/from_mysql_to_mysql.rst",
@@ -1047,71 +1263,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_migration/between_self-built_databases/from_mysql_to_mysql.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429581.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a refresh/reload icon referenced in the procedure to update the list of migration objects.",
-          "It aligns with the documentation's instruction to click the icon after changing the source database."
-        ],
-        "missing_evidence": [
-          "The image is low resolution, making it difficult to verify exact UI styling or accompanying text."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_migration/between_self-built_databases/from_mysql_to_mysql.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429809.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a refresh/reload icon referenced in the procedure to view the latest task status.",
-          "It matches the described UI action for checking migration progress."
-        ],
-        "missing_evidence": [
-          "Low resolution limits verification of specific UI context or accompanying text."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_migration/interconnecting_with_cloud_eye/viewing_monitoring_metrics.rst",
@@ -1130,11 +1295,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1172,69 +1337,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_migration/out_of_the_cloud/from_dds_to_mongodb.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549869.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a circular arrow icon, which semantically matches the RST description of a refresh/reload action for migration objects."
-        ],
-        "missing_evidence": [
-          "The image resolution is low, obscuring fine UI details, but the refresh symbol is recognizable."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_migration/out_of_the_cloud/from_dds_to_mongodb.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429809.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a circular arrow icon, consistent with the RST instruction to click it for refreshing the latest task status."
-        ],
-        "missing_evidence": [
-          "Low image quality limits visibility of surrounding UI context, but the symbol aligns with the described functionality."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_migration/out_of_the_cloud/from_mysql_to_mysql.rst",
@@ -1263,75 +1379,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_migration/out_of_the_cloud/from_mysql_to_mysql.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710630464.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a circular arrow icon, a standard UI symbol for refresh or reload.",
-          "This matches the RST instruction to click the icon to update the source database object list.",
-          "The visual symbol semantically aligns with the described functionality."
-        ],
-        "missing_evidence": [
-          "The image resolution is low, obscuring fine details or accompanying labels.",
-          "No surrounding interface context is visible to confirm exact placement or state."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_migration/out_of_the_cloud/from_mysql_to_mysql.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429809.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a circular arrow icon, consistent with a refresh action.",
-          "This aligns with the RST text describing the icon as a button to view the latest task status.",
-          "The icon's purpose is directly supported by the documentation's functional description."
-        ],
-        "missing_evidence": [
-          "Low resolution limits visibility of fine details or potential tooltips.",
-          "Lack of surrounding UI context restricts full verification of the button's placement."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_migration/task_management/step_1_create_a_migration_task.rst",
@@ -1370,90 +1431,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 1,
-      "partial": 2,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_migration/task_management/step_1_create_a_migration_task.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470900.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart diagram illustrating the migration process steps.",
-          "It directly corresponds to Figure 1 in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_migration/task_management/step_1_create_a_migration_task.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470728.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a refresh icon.",
-          "It is used in the document to represent clicking an icon to update migration objects."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.77,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/real-time_migration/task_management/step_1_create_a_migration_task.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429809.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a refresh icon.",
-          "It is used in the document to represent clicking an icon to refresh the task status."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.77,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_migration/task_management/step_4_compare_migration_items.rst",
@@ -1482,69 +1473,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_migration/task_management/step_4_compare_migration_items.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549373.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart diagram that directly illustrates the 'Comparison process' mentioned in the document title and text.",
-          "The four sequential steps shown (Validate Objects, Validate All Rows/Values, Double Check During Cutover, Stop Task) perfectly align with the procedural instructions in the 'Creating a comparison task' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_migration/task_management/step_4_compare_migration_items.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429533.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a circular arrow symbol, which is the standard icon for a refresh or reload action.",
-          "This matches the RST instruction to click the icon to refresh the comparison list after submitting a task."
-        ],
-        "missing_evidence": [
-          "The image is low resolution and blurry, which limits the visibility of fine details, though the symbol remains recognizable."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_migration/task_management/task_life_cycle/editing_a_migration_task.rst",
@@ -1573,67 +1515,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays a refresh icon, consistent with the text instruction to click it to refresh source database objects.",
-          "Visual representation matches the standard UI symbol for refreshing or reloading data."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/real-time_migration/task_management/task_life_cycle/editing_a_migration_task.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470728.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays a refresh icon, consistent with the text instruction to click it to view the latest task status.",
-          "Visual representation matches the standard UI symbol for refreshing or reloading data."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/real-time_migration/task_management/task_life_cycle/editing_a_migration_task.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429493.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_migration/task_management/task_life_cycle/editing_migration_task_information.rst",
@@ -1672,90 +1567,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_migration/task_management/task_life_cycle/editing_migration_task_information.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470540.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pencil icon, which semantically aligns with the RST instruction to modify task information.",
-          "The icon is a standard UI symbol for editing, directly supporting the procedural step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_migration/task_management/task_life_cycle/editing_migration_task_information.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710630012.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a green checkmark icon, which universally represents confirmation or submission.",
-          "It directly corresponds to the RST instruction to click this icon to submit changes."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_migration/task_management/task_life_cycle/editing_migration_task_information.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429613.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a red X icon, which universally represents cancellation or closing.",
-          "It accurately matches the RST instruction to click this icon to cancel changes."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_migration/to_the_cloud/from_mongodb_to_dds.rst",
@@ -1784,65 +1609,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_migration/to_the_cloud/from_mongodb_to_dds.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470416.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a refresh/reload icon, which aligns with the RST instruction to click it to update the source database object list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_migration/to_the_cloud/from_mongodb_to_dds.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429809.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a refresh/reload icon, matching the RST description of clicking it to view the latest task status."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_migration/to_the_cloud/from_mysql_to_ddm.rst",
@@ -1871,71 +1651,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_migration/to_the_cloud/from_mysql_to_ddm.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429473.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a refresh/reload icon, which matches the UI element described in the procedure for refreshing migration objects.",
-          "The icon is a generic UI symbol and does not depict specific database migration details, resulting in a moderate topic match score."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 0.9,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_migration/to_the_cloud/from_mysql_to_ddm.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429809.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a refresh/reload icon, matching the UI element described in the procedure for viewing the latest task status.",
-          "The icon is a generic UI symbol and does not depict specific database migration details, resulting in a moderate topic match score."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 0.9,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_migration/to_the_cloud/from_mysql_to_mysql.rst",
@@ -1964,71 +1693,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
       "pass": 0,
-      "partial": 2,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a refresh/reload icon referenced in the procedure for updating migration objects.",
-          "It aligns with the DRS console UI context described in the document."
-        ],
-        "missing_evidence": [
-          "The surrounding UI interface is not visible, only the isolated icon is shown."
-        ],
-        "document_path": "umn/source/real-time_migration/to_the_cloud/from_mysql_to_mysql.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470728.png",
-        "overall_score": 0.78,
-        "verdict": "partial"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a refresh icon used in the procedure to view the latest task status.",
-          "It matches the documented UI action for refreshing data in the DRS console."
-        ],
-        "missing_evidence": [
-          "Surrounding UI elements or task status details are not visible."
-        ],
-        "document_path": "umn/source/real-time_migration/to_the_cloud/from_mysql_to_mysql.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429809.png",
-        "overall_score": 0.78,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_migration/to_the_cloud/from_mysql_to_taurusdb_cluster.rst",
@@ -2057,71 +1735,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
       "pass": 0,
-      "partial": 2,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_migration/to_the_cloud/from_mysql_to_taurusdb_cluster.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549997.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a circular arrow symbol, a standard icon for refreshing or reloading content.",
-          "This aligns with the RST text instructing users to click it to refresh the source database object list."
-        ],
-        "missing_evidence": [
-          "Low image resolution obscures surrounding UI context and exact button labels."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/real-time_migration/to_the_cloud/from_mysql_to_taurusdb_cluster.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429809.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a refresh/reload icon.",
-          "The RST text associates this icon with refreshing the latest task status, matching its function."
-        ],
-        "missing_evidence": [
-          "Low resolution limits visibility of interface details and surrounding elements."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_synchronization/between_self-built_databases/from_mysql_to_mysql.rst",
@@ -2140,11 +1767,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2192,93 +1819,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_synchronization/data_synchronization_topologies.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710629888.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a technical diagram illustrating a one-to-one database synchronization flow.",
-          "It directly corresponds to the 'One-to-One Real-Time Synchronization' section in the RST document.",
-          "The visual elements (DB instance A, DB instance B, DRS synchronization task) match the textual description perfectly."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_synchronization/data_synchronization_topologies.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549321.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image depicts a one-to-many synchronization topology with one source instance and three destination instances.",
-          "It aligns exactly with the 'One-to-Many Real-Time Synchronization' section, showing three separate tasks from Instance A to B, C, and D.",
-          "No contradictions or missing visual information are present."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_synchronization/data_synchronization_topologies.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470404.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image illustrates a many-to-one synchronization topology, showing three source instances converging into one destination instance.",
-          "It perfectly matches the 'Many-to-One Real-Time Synchronization' section description and example.",
-          "Visual evidence clearly supports the textual explanation without any contradictions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_synchronization/interconnecting_with_cloud_eye/viewing_monitoring_metrics.rst",
@@ -2297,45 +1851,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_synchronization/interconnecting_with_cloud_eye/viewing_monitoring_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710471068.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a location pin icon, which semantically aligns with the instruction to 'select a region'.",
-          "It is correctly referenced in the 'Viewing Metrics' section as the clickable element for region selection.",
-          "No contradictions or missing context are observed."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_synchronization/operation_reference_in_synchronization_scenarios/kafka_authentication.rst",
@@ -2384,109 +1913,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_synchronization/operation_reference_in_synchronization_scenarios/kafka_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710630028.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the PLAINTEXT security protocol configuration UI, directly corresponding to Figure 1 and the PLAINTEXT section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_synchronization/operation_reference_in_synchronization_scenarios/kafka_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429637.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the SASL_PLAINTEXT configuration UI with SASL Mechanisms, Username, and Password fields, matching Figure 2 and the SASL_PLAINTEXT section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_synchronization/operation_reference_in_synchronization_scenarios/kafka_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549461.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the SSL configuration UI with truststore, keystore, and mutual authentication options, aligning with Figure 3 and the SSL section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_synchronization/operation_reference_in_synchronization_scenarios/kafka_authentication.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549465.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the SASL_SSL configuration UI combining SASL and SSL parameters, matching Figure 4 and the SASL_SSL section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_synchronization/out_of_the_cloud/from_ddm_to_mysql.rst",
@@ -2505,46 +1945,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
-      "partial": 1,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_synchronization/out_of_the_cloud/from_ddm_to_mysql.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000002199576769.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a refresh/reload icon, which corresponds to the text instruction to click it to view the latest task status.",
-          "The icon is a standard UI symbol for updating or refreshing information, matching the procedural step context."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_synchronization/out_of_the_cloud/from_dds_to_mongodb.rst",
@@ -2563,11 +1977,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2595,11 +2009,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2627,11 +2041,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2659,46 +2073,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_synchronization/out_of_the_cloud/from_gaussdb_distributed_to_oracle.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549405.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a circular arrow icon, which is a standard UI symbol for refreshing or reloading.",
-          "This aligns perfectly with the RST text instructing users to click the icon to view the latest task status."
-        ],
-        "missing_evidence": [
-          "The image resolution is very low and blurry, obscuring fine details, but the refresh icon shape is identifiable."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_synchronization/out_of_the_cloud/from_mysql_to_kafka.rst",
@@ -2717,11 +2105,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2749,11 +2137,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2781,11 +2169,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2833,11 +2221,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -2875,67 +2263,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_synchronization/task_management/step_1_create_a_synchronization_task.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758430177.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart illustrating the complete real-time synchronization process.",
-          "It directly matches the RST description of the steps: create task, check progress, view logs, compare items."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_synchronization/task_management/step_1_create_a_synchronization_task.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549405.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a circular refresh/reload icon.",
-          "It corresponds to the |image1| reference in the RST text used for viewing the latest task status."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_synchronization/task_management/step_4_compare_synchronization_items.rst",
@@ -2954,11 +2295,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3006,96 +2347,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_synchronization/task_management/task_life_cycle/modifying_task_information.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758430081.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a pencil icon, which is the standard symbol for editing or modifying content.",
-          "It directly corresponds to the RST instruction to click this icon to modify the task name and description."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_synchronization/task_management/task_life_cycle/modifying_task_information.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470992.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a green checkmark, universally recognized as a confirmation or submit action.",
-          "It aligns perfectly with the RST text instructing the user to click it to submit the change."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/real-time_synchronization/task_management/task_life_cycle/modifying_task_information.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470984.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a red X icon, which is the standard symbol for canceling or closing an action.",
-          "It matches the RST instruction to click this icon to cancel the change."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_synchronization/to_the_cloud/from_ddm_to_ddm.rst",
@@ -3114,11 +2379,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3146,11 +2411,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3178,11 +2443,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3210,11 +2475,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3242,44 +2507,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_synchronization/to_the_cloud/from_mysql_to_taurusdb_cluster.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549405.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a circular arrow icon, which is a standard UI symbol for refreshing or reloading.",
-          "The RST text explicitly states that clicking this icon allows the user to view the latest task status, perfectly matching the icon's intended function."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_synchronization/to_the_cloud/from_oracle_to_postgresql.rst",
@@ -3298,46 +2539,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
-      "partial": 1,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/real-time_synchronization/to_the_cloud/from_oracle_to_postgresql.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549405.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a circular arrow icon, which is a standard symbol for refreshing or reloading.",
-          "This aligns with the RST text stating the icon is used to view the latest task status."
-        ],
-        "missing_evidence": [
-          "The image is low-resolution and blurry, limiting detailed visual confirmation of the exact UI context."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/real-time_synchronization/to_the_cloud/from_postgresql_to_postgresql.rst",
@@ -3356,11 +2571,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3388,44 +2603,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/accessing_drs.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710630116.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the instruction to select a region and project.",
-          "The icon is used as a visual reference for the region selector in the management console interface."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.93,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/basic_concepts.rst",
@@ -3454,67 +2645,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/basic_concepts.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470628.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram clearly illustrates the hierarchical relationship between Regions and Availability Zones (AZs).",
-          "Visually matches the text description stating a region contains multiple AZs."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_overview/basic_concepts.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001815857830.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram accurately depicts the project isolating model within regions.",
-          "Shows parent projects and subprojects, aligning with the text's explanation of resource grouping and isolation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/troubleshooting/solutions_to_failed_check_items/database_parameters/checking_whether_the_source_and_destination_database_character_sets_are_consistent.rst",
@@ -3543,67 +2687,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/troubleshooting/solutions_to_failed_check_items/database_parameters/checking_whether_the_source_and_destination_database_character_sets_are_consistent.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549597.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a terminal output showing the execution of the 'show variables like \"character_set_server\"\\G;' command, which directly corresponds to step 1 in the RST document for checking database character sets.",
-          "The output clearly shows the variable name and its value 'utf8', providing direct visual evidence for the troubleshooting step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/troubleshooting/solutions_to_failed_check_items/database_parameters/checking_whether_the_source_and_destination_database_character_sets_are_consistent.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758429769.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a terminal output executing the 'set character_set_server='utf8';' command, matching step 2 in the RST document for modifying the source database character set.",
-          "The 'Query OK' response confirms the successful execution of the command as described in the troubleshooting guide."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/troubleshooting/solutions_to_failed_check_items/database_parameters/checking_whether_the_source_database_binlog_is_enabled.rst",
@@ -3642,86 +2739,19 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/troubleshooting/solutions_to_failed_check_items/database_parameters/checking_whether_the_source_database_binlog_is_enabled.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710629852.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the exact MySQL command and terminal output indicating binlog is OFF, perfectly matching the RST instruction to check binlog status."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/troubleshooting/solutions_to_failed_check_items/database_parameters/checking_whether_the_source_database_binlog_is_enabled.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001758549285.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the exact configuration snippet `[mysqld] log-bin = mysql-bin` as described in the RST for enabling binlog."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/troubleshooting/solutions_to_failed_check_items/database_parameters/checking_whether_the_source_database_binlog_is_enabled.rst",
-        "image_path": "/home/ubuntu/repotesting/data-replication-service/umn/source/_static/images/en-us_image_0000001710470364.jpg",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 2
-        },
-        "reasons": [
-          "Image shows the successful check result (`Value: ON`) after enabling binlog, but is placed immediately after the 'Restart the database' instruction in the RST, causing a mismatch between the text step and the visual evidence."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.82,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   }
 ]

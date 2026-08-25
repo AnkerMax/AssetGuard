@@ -36,11 +36,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -88,11 +88,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -160,87 +160,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backup_management/sharing_a_backup.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0159365094.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which corresponds to the region selection button mentioned in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backup_management/sharing_a_backup.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000001599534545.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, matching the navigation menu button described in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backup_management/sharing_a_backup.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000001953593985.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The screenshot shows the 'Share Backup' dialog with fields for backup details, project ID input, and a magenta 'OK' button, aligning perfectly with the RST procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/backup_management/viewing_a_backup.rst",
@@ -289,111 +222,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/backup_management/viewing_a_backup.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0159365094.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a location pin icon, which matches the RST context of selecting a region."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backup_management/viewing_a_backup.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000001599534545.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a hamburger menu icon, which matches the RST context of opening the navigation menu to choose Storage."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backup_management/viewing_a_backup.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000002118823934.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The screenshot shows the 'Backups' tab and the backup list interface, matching the RST description of viewing backups and setting filter criteria.",
-          "The interface includes the search bar and status filter mentioned in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/backup_management/viewing_a_backup.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000002118824430.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The screenshot shows the advanced search dropdown menu, which matches the RST description of searching by specifying various properties like name, ID, status, etc.",
-          "The highlighted dropdown lists the exact fields mentioned in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cloud_eye_monitoring/creating_an_alarm_rule.rst",
@@ -412,43 +254,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cloud_eye_monitoring/creating_an_alarm_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0297214500.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which directly corresponds to the 'select a region' action described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/concepts/what_are_full_backup_and_incremental_backup.rst",
@@ -467,11 +286,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -569,11 +388,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 8
     },
@@ -661,183 +480,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 7
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
-      "fail": 2
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/step_1_create_a_vault/creating_a_server_backup_vault.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0251430001.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows Auto Backup configuration options including Configure and Skip buttons.",
-          "Matches step 7 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_1_create_a_vault/creating_a_server_backup_vault.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0159365094.png",
-        "image_kind": "icon",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon represents region selection as mentioned in step 1b.",
-          "Image is blurry but clearly a location pin."
-        ],
-        "missing_evidence": [
-          "Image quality is low, making details hard to discern."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_1_create_a_vault/creating_a_server_backup_vault.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000001599534545.jpg",
-        "image_kind": "icon",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Hamburger menu icon for navigation as described in step 1c.",
-          "Standard UI symbol for menu access."
-        ],
-        "missing_evidence": [
-          "Image quality is low."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_1_create_a_vault/creating_a_server_backup_vault.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000002118794904.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive control (checkbox) is not magenta or plain white, and no other magenta elements are present.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows Backup Locking enable checkbox as described in step 4."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_1_create_a_vault/creating_a_server_backup_vault.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000001926206410.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive controls (checkboxes) are not magenta or plain white, and no other magenta elements are present.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows server list with selection checkboxes as described in step 5."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_1_create_a_vault/creating_a_server_backup_vault.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000002173190841.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows Vault Capacity settings and Auto Capacity Expansion options.",
-          "Matches step 6 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/step_1_create_a_vault/creating_a_server_backup_vault.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0251430145.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows Tag key and Tag value input fields as described in step 9."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started/step_1_create_a_vault/creating_an_sfs_turbo_backup_vault.rst",
@@ -906,7 +562,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -988,7 +644,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1788,7 +1444,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": null,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1830,20 +1486,65 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/restoring_data/creating_a_disk_from_a_cloud_disk_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0159365094.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which directly corresponds to the RST instruction to 'select a region'."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/restoring_data/creating_a_disk_from_a_cloud_disk_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000001599534545.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which matches the RST context of clicking an element to open a navigation menu for 'Storage'."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/restoring_data/creating_a_file_system_from_an_sfs_turbo_backup.rst",
@@ -1882,20 +1583,95 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 0,
+      "pass": 3,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/restoring_data/creating_a_file_system_from_an_sfs_turbo_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000001222800105.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays the 'Create File System' configuration form referenced in the document.",
+          "The 'Create Now' button is magenta, adhering to the UI guidelines.",
+          "Form fields like Region, AZ, and Capacity match the procedure steps."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/restoring_data/creating_a_file_system_from_an_sfs_turbo_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0159365094.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon is a location pin, corresponding to the region selector mentioned in step 1b.",
+          "Matches the visual cue for geographic selection in the console."
+        ],
+        "missing_evidence": [
+          "Icon is slightly blurry but clearly represents a location marker."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/restoring_data/creating_a_file_system_from_an_sfs_turbo_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-backup-recovery/umn/source/_static/images/en-us_image_0000001599534545.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon is a hamburger menu, corresponding to the navigation menu mentioned in step 1c.",
+          "Matches the visual cue for opening the service navigation pane."
+        ],
+        "missing_evidence": [
+          "Icon is slightly blurry but clearly represents a menu toggle."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/restoring_data/creating_an_image_from_a_cloud_server_backup.rst",
@@ -1934,7 +1710,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1986,7 +1762,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2444,7 +2220,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2526,7 +2302,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2578,7 +2354,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2630,7 +2406,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2682,7 +2458,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,

@@ -392,7 +392,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -434,7 +434,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -476,7 +476,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -508,7 +508,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -550,7 +550,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -582,20 +582,43 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
-      "partial": 0,
+      "partial": 1,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/creating_a_hosted_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which aligns with the procedural step to select a region."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
   },
   {
     "file_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/deleting_a_hosted_connection.rst",
@@ -614,11 +637,11 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
@@ -646,20 +669,43 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/modifying_a_hosted_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which directly corresponds to the RST instruction to click it to select a region."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/viewing_a_hosted_connection.rst",
@@ -688,20 +734,71 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/viewing_a_hosted_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which semantically matches the instruction to 'select a region and a project'.",
+          "The icon is a standard pictogram for location or region selection."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/viewing_a_hosted_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001560319725.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a downward-pointing chevron, which is a common UI symbol for expanding details or viewing settings.",
+          "The icon aligns with the procedural step to click an element to view connection settings."
+        ],
+        "missing_evidence": [
+          "None."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/management/managing_operations_or_hosted_connections/managing_operations_connections/modifying_an_operations_connection.rst",
@@ -720,20 +817,43 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
-      "partial": 0,
+      "partial": 1,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_operations_connections/modifying_an_operations_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which corresponds to the procedural instruction to select a region."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
   },
   {
     "file_path": "umn/source/management/managing_operations_or_hosted_connections/managing_operations_connections/viewing_an_operations_connection.rst",
@@ -752,20 +872,43 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_operations_connections/viewing_an_operations_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which aligns with the RST instruction to click it to select a region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/management/managing_virtual_gateways/deleting_a_virtual_gateway.rst",
@@ -794,20 +937,68 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
-      "partial": 0,
+      "pass": 1,
+      "partial": 1,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "image_kind": "screenshot",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the confirmation dialog for deleting a virtual gateway.",
+          "It directly corresponds to step 6 of the procedure ('Click OK').",
+          "The OK button is magenta and the Cancel button is plain white, complying with the UI color rule."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "document_path": "umn/source/management/managing_virtual_gateways/deleting_a_virtual_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525425808.png",
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "image_kind": "icon",
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon.",
+          "It corresponds to the region selection button mentioned in step 2 of the procedure."
+        ],
+        "missing_evidence": [],
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": false,
+        "document_path": "umn/source/management/managing_virtual_gateways/deleting_a_virtual_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
   },
   {
     "file_path": "umn/source/management/managing_virtual_gateways/managing_virtual_gateway_tags.rst",
@@ -1146,7 +1337,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1188,7 +1379,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,

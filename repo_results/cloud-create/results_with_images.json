@@ -170,20 +170,67 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 0
+      "fail": 2
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/ansible/role.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-role-zip.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons ('Create', 'Cancel') are green and grey, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Step 1 instructions for zipping the tasks folder.",
+          "Shows the 'Create Archive' dialog with 'configure.zip' as the name and '.zip' format selected."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/ansible/role.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/8-Ansible-role-configure.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons (upload icons) are grey, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Matches Step 2 instructions for uploading the configure artifact.",
+          "Shows the AnsibleRole configuration panel with 'configure.zip' referenced and the upload action highlighted."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      }
+    ]
   },
   {
     "file_path": "umn/source/ansible/tasks.rst",
@@ -212,7 +259,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -504,7 +551,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -946,7 +993,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1028,11 +1075,11 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 6
     },
@@ -1070,7 +1117,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1142,7 +1189,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1234,7 +1281,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1266,7 +1313,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1830,7 +1877,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2242,7 +2289,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 502,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2374,11 +2421,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 11
     },
@@ -2566,11 +2613,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 17
     },
@@ -2608,65 +2655,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_catalogs/mysql.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/mysql1.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the MySQLServer component placed on a Compute node, directly illustrating the deployment step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_catalogs/mysql.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/mysql2.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the MySQLDatabase component connected to MySQLServer, with the name, user, and password fields highlighted, matching the database creation instructions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_catalogs/nextcloud.rst",
@@ -2775,251 +2777,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 10
     },
     "summary": {
-      "pass": 9,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_catalogs/nextcloud.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches RST description of selecting the Nextcloud template.",
-          "Shows version dropdown as expected."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_catalogs/nextcloud.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud1.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches RST description of v1 template architecture.",
-          "Shows single VM deployment with all components."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_catalogs/nextcloud.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches RST description of v2 template architecture.",
-          "Shows two VMs: Compute for app, Compute_2 for database."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_catalogs/nextcloud.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2v3.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches RST description of v3 template architecture.",
-          "Shows RDSMySQL service connected to the application VM."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_catalogs/nextcloud.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud2v4.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches RST description of v4 template architecture.",
-          "Shows ObjectStorage and RDSMySQL services connected."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_catalogs/nextcloud.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud3.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches RST description of app configuration.",
-          "Shows download_url, datadir, and password fields."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_catalogs/nextcloud.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud3b.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches RST description of DNS configuration.",
-          "Shows dns_name field with example domain."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_catalogs/nextcloud.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud4.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches RST description of deployment outputs.",
-          "Shows admin user, password, and app URL."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_catalogs/nextcloud.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud5.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive 'Log in' button is blue, not magenta or plain white, and no other magenta buttons or text are present.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches RST description of accessing Nextcloud via floating IP.",
-          "Shows login page with admin credentials."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/service_catalogs/nextcloud.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/nextcloud4b.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches RST description of DNS zone creation.",
-          "Shows A records pointing to the floating IP."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_catalogs/openshift.rst",
@@ -3259,7 +3030,7 @@
     ],
     "status": {
       "http_status": 200,
-      "finish_reason": "incomplete",
+      "finish_reason": "completed",
       "attempt": 1,
       "max_retries": 2,
       "error": null,
@@ -3267,11 +3038,555 @@
       "attached_image_count": 23
     },
     "summary": {
-      "pass": 0,
+      "pass": 23,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_select_template.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the OpenShift template selection UI.",
+          "The 'Quick deploy' button is magenta, consistent with the UI theme.",
+          "Matches Figure 1 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_config1.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'base_domain' input field.",
+          "The 'Save' button is magenta.",
+          "Matches Figure 2 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_redhat_console.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Red Hat Console Downloads page.",
+          "The 'Pull secret' section is visible.",
+          "Matches Figure 3 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_pull_secrect.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'pull_secret' input field with a JSON value.",
+          "The 'Save' button is magenta.",
+          "Matches Figure 4 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_config2.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'ssh_public_key' input field.",
+          "The 'Save' button is magenta.",
+          "Matches Figure 5 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_config3.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'number_workers' input field.",
+          "The 'Save' button is magenta.",
+          "Matches Figure 6 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_check_result.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'CheckOpenShiftStatus' workflow and logs.",
+          "The logs indicate waiting for 1800 seconds.",
+          "Matches Figure 7 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_result1.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows deployment outputs including 'console_hostname', 'oauth_hostname', and 'INGRESS_VIP'.",
+          "Matches Figure 8 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-dns.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows DNS public zone records on T-Cloud Public.",
+          "The A record points to the ingress VIP.",
+          "Matches Figure 9 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-dns2.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows DNS records on ClouDNS.",
+          "The A record points to the ingress VIP.",
+          "Matches Figure 10 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_result2.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the OpenShift console overview.",
+          "Matches Figure 11 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_result3.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Bastionhost public address.",
+          "Matches Figure 12 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-delete-bootstrap.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Delete ECS' dialog.",
+          "The 'No' button is magenta.",
+          "Matches Figure 13 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-update-os-password.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Security Settings' page.",
+          "Matches Figure 14 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift-update-password.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the OpenShift Secrets page.",
+          "Matches Figure 15 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_pod.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Pod 'example' running.",
+          "Matches Figure 16 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_evs.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Disks list with 'Available' status.",
+          "The 'Create Disk' button is magenta.",
+          "Matches Figure 17 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_sfs.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the SFS creation form.",
+          "The 'Not required' button is magenta.",
+          "Matches Figure 18 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_sfs_security_group.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Security Group inbound rules.",
+          "Matches Figure 19 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_sfs2.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the SFS Turbo list with endpoint.",
+          "Matches Figure 20 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_machinset1.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the OpenShiftInstall topology and properties.",
+          "The 'Topology' tab is magenta.",
+          "Matches Figure 21 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_machinset2.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Private network properties and subnet_id.",
+          "The 'Topology' tab is magenta.",
+          "Matches Figure 22 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_catalogs/openshift.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/openshift_tear_down.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Disks list with 'Available' status.",
+          "Matches Figure 23 description in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/service_catalogs/prometheus.rst",
@@ -3507,30 +3822,13 @@
     },
     "results": [
       {
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Perfectly matches section 2.1 'How to deploy a MySQL server'.",
-          "Annotated numbers 1-10 and 4a/4b correspond exactly to the step-by-step instructions for dropping the component, connecting networks, and setting properties like version, password, size, volume, backup, HA mode, and availability zone."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
         "document_path": "umn/source/service_catalogs/rds.rst",
         "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds1.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
         "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3539,21 +3837,22 @@
           "contradictions": 3
         },
         "reasons": [
-          "Directly illustrates section 2.3 'How to get the IP address of RDS'.",
-          "Shows the RDSMySQL component selected, the Attributes panel highlighting 'private_address', and the context menu with the 'Set output properties' toggle enabled, matching the instructions."
+          "Image shows the RDSMySQL component properties and canvas layout.",
+          "Matches the 10 steps outlined in section 2.1 for deploying a MySQL server.",
+          "UI elements like component_version, instance_size, and volume_type correspond to the RST instructions."
         ],
         "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
         "document_path": "umn/source/service_catalogs/rds.rst",
         "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds3.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
         "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3562,16 +3861,35 @@
           "contradictions": 3
         },
         "reasons": [
-          "Accurately depicts section 2.4 'How to create MySQL database and user'.",
-          "Shows the MySQLDatabaseConnector component placed on Compute, connected to RDSMySQL via the 'connect_to_mysql_server' port, and the properties panel displaying name, encoding, user, and password fields as instructed."
+          "Image displays the RDSMySQL attributes panel and a popup for setting output properties.",
+          "Directly corresponds to section 2.3 step 2 regarding setting private_address as an output property.",
+          "Canvas shows the component connected to other services as expected."
         ],
         "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
         "document_path": "umn/source/service_catalogs/rds.rst",
         "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/service-catalogs/rds2.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the MySQLDatabaseConnector component properties and its connection to Compute and RDSMySQL.",
+          "Matches section 2.4 steps for creating a database and user using the connector.",
+          "Properties like name, user, and password are visible and align with the documentation."
+        ],
+        "missing_evidence": [],
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -3644,7 +3962,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image clearly shows the UI for dragging the BlockStorage component onto the Compute component under the Infrastructure tab, directly matching the first step of the document."
+          "Image shows the UI palette with BlockStorage under Infrastructure and a magenta arrow indicating it should be dropped onto the Compute component, matching the first step."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -3666,7 +3984,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays the BlockStorage properties panel with the size explicitly set to 10 GB, which aligns perfectly with the second step in the document."
+          "Image displays the BlockStorage properties panel with the size field set to 10 GB, directly illustrating the second step."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -3688,7 +4006,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows the LinuxFileSystem properties configured with fs_type ext4 and location /mnt, along with the connection to BlockStorage, matching the formatting and mounting instructions."
+          "Image shows the LinuxFileSystem properties configured with fs_type ext4 and location /mnt, alongside the connection to BlockStorage on the canvas, matching the formatting and mounting instructions."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -3782,187 +4100,11 @@
       "attached_image_count": 7
     },
     "summary": {
-      "pass": 7,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs1.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Directly illustrates the ObjectStorage component properties panel described in section 3.1.",
-          "Shows all specified fields: storage_class, bucket_policy, access_key, secret_key, versioning, and force_destroy."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "document_path": "umn/source/storage/obs.rst",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs2.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Clearly shows the auto_create_access_key toggle enabled, matching section 3.2 instructions.",
-          "Visual evidence aligns perfectly with the step to enable automatic access key creation."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "document_path": "umn/source/storage/obs.rst",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs3.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Displays the deployment confirmation message indicating an access key was auto-created, as stated in section 3.2.",
-          "Matches the expected result text regarding intrinsic functions get_secret."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "document_path": "umn/source/storage/obs.rst",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs4.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the T-Cloud Public console Access Keys page, verifying the newly created key per section 3.2.",
-          "Visuals confirm the presence of the access key in the credentials section."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "document_path": "umn/source/storage/obs.rst",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs5.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Illustrates the Edit object_user modal for configuring another user to upload objects, matching section 3.3.",
-          "Shows the username and domain_id input fields as described in the steps."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "document_path": "umn/source/storage/obs.rst",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs6.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Displays the Attributes panel for setting bucket_id and bucket_domain_name as output properties per section 3.4.",
-          "Directly corresponds to the configuration steps outlined in the document."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "document_path": "umn/source/storage/obs.rst",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/obs7.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the deployment output properties containing the bucket_id and bucket_domain_name, matching section 3.4 expected result.",
-          "Visual evidence confirms the successful output of the configured attributes."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "document_path": "umn/source/storage/obs.rst",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/swiss_otc.rst",
@@ -4040,144 +4182,11 @@
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 6,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/swiss_otc.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-01.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a Compute component with 1 CPU and 1GB RAM, matching the RST description for Figure 1."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/swiss_otc.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-02.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the Compute component configured with flavor s3.medium.1 on Swiss Open Telekom Cloud, matching the RST description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/swiss_otc.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-03.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the Compute component configured with availability zone eu-ch2a, matching the RST description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/swiss_otc.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-04.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the BootVolume component with volume_type set to SSD, matching the RST description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/swiss_otc.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-05.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the NATGateway component with spec set to Small, matching the RST description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/swiss_otc.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/swiss-otc-06.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows an error message when setting NATGateway spec to 'Micro' on Swiss T-Cloud Public, matching the RST description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tosca_tutorials/ansible.rst",
@@ -4225,63 +4234,44 @@
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
-      "fail": 3
+      "fail": 1
     },
     "results": [
       {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Screenshot contains visible interactive UI buttons that are neither magenta nor plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows a UI diagram with an Apache node, matching the 'Apache example' figure in the RST.",
-          "The UI properties panel displays Apache configuration details."
-        ],
-        "missing_evidence": [],
         "document_path": "umn/source/tosca_tutorials/ansible.rst",
         "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-apache.png",
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
         "image_kind": "screenshot",
         "contains_interactive_buttons": true,
         "buttons_magenta": false,
         "hard_fail": true,
-        "hard_fail_reason": "Screenshot contains visible interactive UI buttons that are neither magenta nor plain white.",
+        "hard_fail_reason": "Interactive UI buttons (X, ...) are not magenta or plain white.",
         "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
           "contradictions": 3
         },
         "reasons": [
-          "Image displays a list of runtime attributes for a compute node, matching Figure 2 in the RST.",
-          "The 'Compute' node icon is visible alongside the attribute list."
+          "Image shows a UI diagram with an Apache node and its properties panel.",
+          "Matches the document's context of defining an Apache service catalog."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
+        "overall_score": 0.72,
+        "verdict": "fail"
+      },
+      {
         "document_path": "umn/source/tosca_tutorials/ansible.rst",
         "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/compute_attributes.png",
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
         "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
+        "contains_interactive_buttons": false,
         "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Screenshot contains visible interactive UI buttons that are neither magenta nor plain white.",
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -4290,14 +4280,39 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image shows a directory structure containing 'playbooks/roles/geerlingguy.apache', matching Figure 3 in the RST.",
-          "The file tree includes 'apache-create.yaml' and role directories as described."
+          "Image displays a list of runtime attributes for a Compute node.",
+          "Directly matches the document's explanation of available runtime attributes like private_address and public_address."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
         "document_path": "umn/source/tosca_tutorials/ansible.rst",
         "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/apache_ansible_directory.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the directory structure for the Ansible playbook.",
+          "Matches the document's description of the playbook and role locations."
+        ],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "fail"
+        "verdict": "pass"
       }
     ]
   },
@@ -4327,11 +4342,37 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/tosca_tutorials/custom_capability.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/database_capability.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a UI configuration panel for a 'Database' capability, which aligns with the RST topic of defining custom capabilities.",
+          "The 'port' field in the image is set to '27017', matching the specific default value mentioned in the RST text for the custom capability.",
+          "The image displays 'protocol' and 'port' properties, which are the properties discussed in the RST section.",
+          "The visual evidence directly supports the textual description of the capability properties."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/tosca_tutorials/define.rst",
@@ -4380,113 +4421,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 502,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/tosca_tutorials/define.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-helloworld.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the introductory Figure 1 for the HelloWorld example.",
-          "Visually depicts the Compute node hosting the HelloWorld Python component."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tosca_tutorials/define.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/1_python.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Corresponds to Figure 2, illustrating Python hosted on a compute node.",
-          "Shows the SoftwareComponent properties panel, including the inherited component_version property mentioned in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tosca_tutorials/define.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/tosca-package.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Aligns with Step 6 on packaging and uploading the TOSCA component.",
-          "Displays the Catalog / Manage archives interface with upload options as described."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tosca_tutorials/define.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-create/umn/source/_static/images/tosca-tutorial/2_python.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the Expected result section, showing the configured HelloWorld component.",
-          "Visually confirms the presence of the hello_message property and resolvedOutput1 attribute defined in the tutorial."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tosca_tutorials/deploy.rst",
@@ -4505,11 +4453,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4537,11 +4485,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4579,11 +4527,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },

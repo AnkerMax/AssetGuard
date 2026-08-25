@@ -98,11 +98,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
@@ -150,90 +150,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_data_disk_image_from_an_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0254963039.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart diagram illustrating the 4-step process described in the Background section.",
-          "It directly corresponds to Figure 1 and its caption."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_data_disk_image_from_an_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0162743998.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a UI screenshot matching Figure 2 in the Procedure section.",
-          "It shows the 'Image Type and Source' configuration with 'Create Image' and 'Data disk image' selected, as described in steps 2a-2c."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_data_disk_image_from_an_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0186473007.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a UI screenshot matching Figure 3 in the Follow-up Procedure section.",
-          "It displays the 'Select Data Disk Image' dialog used to create a disk from the newly created image, as described in the follow-up steps."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/creating_a_private_image/creating_a_data_disk_image_from_an_external_image_file.rst",
@@ -272,92 +202,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram accurately depicts the 4-step process described in the Background section.",
-          "Matches the RST text exactly regarding the flow from external image file to data disk."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/creating_a_private_image/creating_a_data_disk_image_from_an_external_image_file.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0254985106.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the 'Image Type and Source' configuration panel.",
-          "Matches step 2 of the Procedure section, showing 'Import Image' and 'Data disk image' selected.",
-          "UI elements align with the RST instructions."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/creating_a_private_image/creating_a_data_disk_image_from_an_external_image_file.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0162744031.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the 'Select Data Disk Image' dialog.",
-          "Matches the Follow-up Procedure section where users select a data disk image to create a disk.",
-          "UI matches the described workflow."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/creating_a_private_image/creating_a_data_disk_image_from_an_external_image_file.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0186473007.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/creating_a_private_image/creating_a_full-ecs_image_from_a_cbr_backup.rst",
@@ -385,11 +243,36 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/creating_a_private_image/creating_a_full-ecs_image_from_a_cbr_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0000001744523069.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the Image Management Service console UI.",
+          "It visually demonstrates step 2c of the procedure, showing 'Create Image', 'Full-ECS image', and 'Cloud Server Backup' selected.",
+          "The UI elements and text match the documentation exactly, with magenta buttons indicating active selections."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/creating_a_private_image/creating_a_full-ecs_image_from_an_ecs.rst",
@@ -437,81 +320,11 @@
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram accurately illustrates the background process of creating a full-ECS image.",
-          "It visually represents the transition from ECS system/data disks to snapshots, then to backups, and finally to the full-ECS image."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/creating_a_private_image/creating_a_full-ecs_image_from_an_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0255035033.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The UI screenshot directly corresponds to the procedure steps for creating a full-ECS image.",
-          "It shows the 'Create Image' type and 'Full-ECS image' options selected, matching the documentation's instructions."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/creating_a_private_image/creating_a_full-ecs_image_from_an_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0162744204.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The table row screenshot matches the procedure step for viewing the newly created full-ECS image.",
-          "It displays the 'Normal' status with 'Available in AZ1', which aligns perfectly with the documented status descriptions."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/creating_a_private_image/creating_a_full-ecs_image_from_an_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0000001147047376.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_external_image_file/overview.rst",
@@ -585,19 +398,17 @@
         "hard_fail": false,
         "hard_fail_reason": null,
         "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
+          "topic_match": 2,
+          "detail_match": 2,
           "section_relevance": 3,
           "visual_evidence": 3,
           "contradictions": 3
         },
         "reasons": [
-          "The image is a plus sign icon, which visually represents the 'add' action described in the text.",
-          "It is explicitly referenced in the RST as |image1| to instruct users where to click to add data disks.",
-          "The icon aligns perfectly with the procedural step for configuring data disk parameters."
+          "The image displays a plus icon, which corresponds to the instruction to click it to add data disks in the procedure."
         ],
         "missing_evidence": [],
-        "overall_score": 1.0,
+        "overall_score": 0.83,
         "verdict": "pass"
       }
     ]
@@ -698,196 +509,11 @@
       "attached_image_count": 8
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
-      "fail": 3
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_iso_file/installing_a_linux_os.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0146486791.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "The 'Continue' button is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the CentOS 7 language selection screen as described in step 1.",
-          "The 'Continue' button is visible and matches the instruction."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_iso_file/installing_a_linux_os.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0146486793.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the INSTALLATION SUMMARY page as described in step 2.",
-          "SYSTEM > INSTALLATION DESTINATION is highlighted."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_iso_file/installing_a_linux_os.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0146486795.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "The 'Done' button is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the INSTALLATION DESTINATION page as described in step 3.",
-          "Target disk is selected and 'Done' button is visible."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_iso_file/installing_a_linux_os.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0146486797.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the INSTALLATION SUMMARY page ready to start, matching step 4.",
-          "'Begin Installation' button is visible."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_iso_file/installing_a_linux_os.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0160453774.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the configuration page with progress bar at 100%, matching step 5.",
-          "Text indicates successful installation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_iso_file/installing_a_linux_os.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0160457688.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "The 'Done' button is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the ROOT PASSWORD page as described in step 8.",
-          "Password fields are visible."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_iso_file/installing_a_linux_os.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0160459481.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows USER SETTINGS with root password set, matching step 9.",
-          "'Finish configuration' button is visible."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_iso_file/installing_a_linux_os.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0160468889.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the final configuration page ready to reboot, matching step 10.",
-          "'Reboot' button is visible."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_iso_file/overview.rst",
@@ -948,67 +574,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_iso_file/registering_an_iso_file_as_an_iso_image.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0000001817919181.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Create Image' UI, directly matching step 2b and 2c of the procedure.",
-          "It clearly displays the 'Import Image' and 'ISO image' options selected, aligning with the RST instructions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_linux_system_disk_image_from_an_iso_file/registering_an_iso_file_as_an_iso_image.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0000001771320182.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'Image Information' configuration panel, corresponding to step 2d.",
-          "It shows fields for Boot Mode, OS, System Disk, Name, Enterprise Project, Tag, and Description, exactly as described in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/creating_a_private_image/creating_a_system_disk_image_from_a_linux_ecs.rst",
@@ -1027,46 +606,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_system_disk_image_from_a_linux_ecs.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0254928267.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart diagram illustrating the process of creating a system disk image from an ECS and subsequently creating a new ECS from that image.",
-          "It directly corresponds to the document title and the 'Background' section which describes this exact workflow.",
-          "The diagram clearly shows the relationship between snapshots, ECS instances, and image creation steps.",
-          "No interactive UI elements are present, so color constraints for buttons do not apply."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/creating_a_private_image/creating_a_system_disk_image_from_a_windows_ecs.rst",
@@ -1085,11 +638,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1117,45 +670,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_windows_system_disk_image_from_an_external_image_file/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0208252825.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart diagram that directly illustrates the four-step creation process outlined in the RST text.",
-          "It accurately depicts each step: preparing the image file, uploading to an OBS bucket, registering as a private image, and creating ECSs.",
-          "There are no contradictions between the visual diagram and the textual description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/creating_a_private_image/creating_a_windows_system_disk_image_from_an_external_image_file/registering_an_external_image_file_as_a_private_image.rst",
@@ -1174,11 +702,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1346,11 +874,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 15
     },
@@ -1398,90 +926,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 3
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_windows_system_disk_image_from_an_iso_file/integrating_virtio_drivers_into_an_iso_file.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0000001493029617.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are gray, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the AnyBurn main interface with the 'Edit image file' button highlighted, directly illustrating step 3a of the documentation.",
-          "The UI buttons are gray, which triggers the mandatory hard fail rule for non-magenta/white interactive controls."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_windows_system_disk_image_from_an_iso_file/integrating_virtio_drivers_into_an_iso_file.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0000001443321198.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are gray, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the file selection dialog in AnyBurn, highlighting the ISO file path, which aligns with step 3b.",
-          "The UI buttons are gray, triggering the mandatory hard fail condition."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_windows_system_disk_image_from_an_iso_file/integrating_virtio_drivers_into_an_iso_file.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0000001493065701.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are gray, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the final configuration step in AnyBurn, highlighting the destination file name, type, and 'Create Now' button, matching step 4c.",
-          "The UI buttons are gray, triggering the mandatory hard fail condition."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/creating_a_private_image/creating_a_windows_system_disk_image_from_an_iso_file/overview.rst",
@@ -1500,44 +958,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_windows_system_disk_image_from_an_iso_file/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0000001926097585.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that visually represents the exact 5-step process described in the text for creating a Windows system disk image from an ISO file.",
-          "All steps and icons in the diagram correspond directly to the textual instructions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/creating_a_private_image/creating_a_windows_system_disk_image_from_an_iso_file/registering_an_iso_file_as_an_iso_image.rst",
@@ -1566,67 +1000,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_windows_system_disk_image_from_an_iso_file/registering_an_iso_file_as_an_iso_image.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0000001817919181.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Create Image' page with 'Import Image' and 'ISO image' selected.",
-          "Directly corresponds to step 2b in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/creating_a_private_image/creating_a_windows_system_disk_image_from_an_iso_file/registering_an_iso_file_as_an_iso_image.rst",
-        "image_path": "/home/ubuntu/repotesting/image-management-service/umn/source/_static/images/en-us_image_0000001771320182.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'Image Information' configuration form.",
-          "Matches step 2d, showing fields for Boot Mode, OS, System Disk, Name, Enterprise Project, Tag, and Description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/creating_a_private_image/fast_import_of_an_image_file/fast_import_in_linux.rst",
@@ -1645,7 +1032,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2473,7 +1860,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2975,7 +2362,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -3007,7 +2394,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -3071,7 +2458,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,

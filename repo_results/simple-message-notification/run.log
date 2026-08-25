@@ -1,7 +1,229 @@
-2026-07-22 12:04:03,765 INFO __main__ - Starting AssetGuard
-2026-07-22 12:04:03,765 INFO __main__ - Workspace: /home/ubuntu/repotesting/simple-message-notification
-2026-07-22 12:04:03,765 INFO __main__ - Found RST-Dateien: 113
-2026-07-22 12:04:03,765 INFO __main__ - Sending files to backend and waiting for response..
-2026-07-22 12:15:32,903 INFO __main__ - Done. Processed 19 rst files, wrote 19 rows to results_with_images.json, flagged 4 files, csv=results_with_images.csv, failed_csv=results_with_images.failed_only.csv
-duration_seconds=689
-duration_human=11m 29s
+==> Bearbeite simple-message-notification
+Updating 47f5cfc..92ef5c1
+Fast-forward
+ api-ref/source/apis/index.rst                      |   2 +
+ ...g_message_filter_policies_for_subscriptions.rst | 214 +++++++++++++
+ ...g_message_filter_policies_for_subscriptions.rst | 170 ++++++++++
+ .../index.rst                                      |  18 ++
+ ...g_message_filter_policies_for_subscriptions.rst | 214 +++++++++++++
+ .../publishing_messages_in_the_text_format.rst     | 134 ++++----
+ ...blishing_messages_using_a_message_structure.rst | 174 ++++++-----
+ .../publishing_messages_using_a_template.rst       | 174 ++++++-----
+ .../apis/resource_tag_operations/adding_a_tag.rst  |  92 +++---
+ .../adding_or_deleting_tags_in_batches.rst         |  88 +++---
+ .../resource_tag_operations/deleting_a_tag.rst     |  40 ++-
+ .../querying_tags_in_a_specified_project.rst       | 142 ++++-----
+ .../querying_tags_of_a_topic.rst                   | 114 +++----
+ .../querying_topics_by_tag.rst                     | 342 +++++++++++----------
+ .../adding_a_subscription.rst                      | 192 ++++++------
+ .../deleting_a_subscription.rst                    |  50 +--
+ .../querying_subscriptions.rst                     | 162 +++++-----
+ ...querying_subscriptions_of_a_specified_topic.rst | 162 +++++-----
+ .../creating_a_message_template.rst                |  94 +++---
+ .../deleting_a_message_template.rst                |  50 +--
+ .../modifying_a_message_template.rst               |  68 ++--
+ .../querying_message_templates.rst                 | 184 +++++------
+ .../querying_the_details_of_a_message_template.rst |  72 +++--
+ .../apis/topic_operations/creating_a_topic.rst     | 106 ++++---
+ .../deleting_a_specified_topic_policy.rst          |  50 +--
+ .../apis/topic_operations/deleting_a_topic.rst     |  50 +--
+ .../deleting_all_topic_policies.rst                |  50 +--
+ .../topic_operations/querying_a_topic_policy.rst   | 120 ++++----
+ .../querying_details_of_a_topic.rst                |  70 +++--
+ .../apis/topic_operations/querying_topics.rst      | 146 ++++-----
+ .../apis/topic_operations/updating_a_topic.rst     |  65 ++--
+ .../topic_operations/updating_a_topic_policy.rst   | 248 +++++++--------
+ .../listing_all_smn_api_versions.rst               | 150 ++++-----
+ .../querying_the_smn_api_v2_version.rst            | 162 +++++-----
+ api-ref/source/change_history.rst                  | 110 ++++---
+ .../images/en-us_image_0000001187715160.png        | Bin 13815 -> 0 bytes
+ .../images/en-us_image_0000001233034749.png        | Bin 17308 -> 0 bytes
+ .../images/en-us_image_0000001495292001.png        | Bin 918 -> 0 bytes
+ .../images/en-us_image_0000001798236268.png        | Bin 1004 -> 0 bytes
+ .../images/en-us_image_0000001889675317.png        | Bin 11978 -> 0 bytes
+ .../images/en-us_image_0000001973089658.png        | Bin 368 -> 0 bytes
+ .../images/en-us_image_0000001979886758.png        | Bin 24475 -> 0 bytes
+ .../images/en-us_image_0000002009490141.png        | Bin 368 -> 0 bytes
+ .../images/en-us_image_0000002009609645.png        | Bin 368 -> 0 bytes
+ .../images/en-us_image_0000002194988730.png        | Bin 20108 -> 0 bytes
+ .../images/en-us_image_0000002195142398.png        | Bin 18508 -> 0 bytes
+ .../images/en-us_image_0000002624784058.png        | Bin 0 -> 211070 bytes
+ .../images/en-us_image_0000002624786890.png        | Bin 0 -> 148988 bytes
+ .../images/en-us_image_0000002624796744.png        | Bin 0 -> 117798 bytes
+ .../images/en-us_image_0000002624797784.png        | Bin 0 -> 321596 bytes
+ .../images/en-us_image_0000002624798318.png        | Bin 0 -> 214306 bytes
+ .../images/en-us_image_0000002624799164.png        | Bin 0 -> 187169 bytes
+ .../images/en-us_image_0000002624799530.png        | Bin 0 -> 199339 bytes
+ .../images/en-us_image_0000002624942854.png        | Bin 0 -> 210146 bytes
+ .../images/en-us_image_0000002624951094.png        | Bin 0 -> 267280 bytes
+ .../images/en-us_image_0000002624956146.png        | Bin 0 -> 282510 bytes
+ .../images/en-us_image_0000002628919572.png        | Bin 0 -> 626 bytes
+ .../images/en-us_image_0000002655065061.png        | Bin 0 -> 283381 bytes
+ .../images/en-us_image_0000002655079145.png        | Bin 0 -> 313940 bytes
+ .../images/en-us_image_0000002655153713.png        | Bin 0 -> 127796 bytes
+ .../images/en-us_image_0000002655153933.png        | Bin 0 -> 127718 bytes
+ .../images/en-us_image_0000002655154231.png        | Bin 0 -> 97196 bytes
+ .../images/en-us_image_0000002655155639.png        | Bin 0 -> 303186 bytes
+ .../images/en-us_image_0000002659158837.png        | Bin 0 -> 626 bytes
+ .../images/en-us_image_0000002659277183.png        | Bin 0 -> 483049 bytes
+ .../images/en-us_image_0000002659278783.png        | Bin 0 -> 254078 bytes
+ .../images/en-us_image_0000002659278785.png        | Bin 0 -> 626 bytes
+ .../_static/images/en-us_image_0095665453.png      | Bin 9569 -> 0 bytes
+ .../_static/images/en-us_image_0095665587.png      | Bin 14754 -> 0 bytes
+ .../_static/images/en-us_image_0095665660.png      | Bin 20863 -> 0 bytes
+ .../_static/images/en-us_image_0095665678.png      | Bin 25956 -> 0 bytes
+ .../_static/images/en-us_image_0095665722.png      | Bin 25283 -> 0 bytes
+ .../_static/images/en-us_image_0095665783.png      | Bin 11775 -> 0 bytes
+ .../_static/images/en-us_image_0095667221.png      | Bin 10643 -> 0 bytes
+ .../_static/images/en-us_image_0148412674.png      | Bin 197 -> 0 bytes
+ .../_static/images/en-us_image_0152909747.png      | Bin 24023 -> 0 bytes
+ .../_static/images/en-us_image_0152909841.png      | Bin 16386 -> 0 bytes
+ .../_static/images/en-us_image_0259222474.png      | Bin 1004 -> 0 bytes
+ .../_static/images/en-us_image_0259222475.png      | Bin 1004 -> 0 bytes
+ .../_static/images/en-us_image_0259222476.png      | Bin 1004 -> 0 bytes
+ .../_static/images/en-us_image_0259222477.png      | Bin 1004 -> 0 bytes
+ .../_static/images/en-us_image_0259222478.png      | Bin 1004 -> 0 bytes
+ .../_static/images/en-us_image_0259222479.png      | Bin 1004 -> 0 bytes
+ .../_static/images/en-us_image_0259222502.png      | Bin 1004 -> 0 bytes
+ .../_static/images/en-us_image_0259222503.png      | Bin 1004 -> 0 bytes
+ .../http_or_https_message_format.rst               |  32 +-
+ umn/source/appendix/index.rst                      |   2 -
+ umn/source/appendix/json_message_format.rst        |   2 +-
+ umn/source/audit_using_cts.rst                     |  66 +++-
+ umn/source/change_history.rst                      | 155 +++++-----
+ umn/source/faqs/index.rst                          |  22 +-
+ ..._number_or_sender_name_to_send_sms_messages.rst |   0
+ ...ages_are_received_by_subscription_endpoints.rst |   0
+ umn/source/faqs/message_sending/index.rst          |  22 ++
+ ...strictions_and_limitations_on_sms_messaging.rst |   0
+ ...res_in_an_email_message_cannot_be_displayed.rst |   0
+ ...essages_after_i_publish_messages_to_a_topic.rst |   0
+ .../how_do_i_obtain_my_account_id.rst              |   0
+ umn/source/faqs/product_consulting/index.rst       |  20 ++
+ ...ublishing_and_subscribing_to_a_topic_in_smn.rst |   0
+ ..._are_the_requirements_for_an_smn_topic_name.rst |   0
+ .../what_protocols_does_smn_support.rst            |   0
+ umn/source/getting_started.rst                     | 195 ++++++++----
+ umn/source/index.rst                               |   4 +-
+ .../creating_a_message_template.rst}               | 107 +++----
+ .../deleting_a_message_template.rst                |  38 +++
+ umn/source/message_template_management/index.rst   |  20 ++
+ .../modifying_a_message_template.rst               |  32 ++
+ .../message_template_management/overview.rst       |  13 +
+ umn/source/overview/accessing_and_using_smn.rst    |   2 +-
+ umn/source/overview/concepts.rst                   |   2 +-
+ umn/source/overview/index.rst                      |   2 +-
+ umn/source/overview/permissions.rst                |  12 +-
+ umn/source/overview/smn_and_other_services.rst     |   2 +-
+ ...reating_a_user_and_granting_smn_permissions.rst |   2 +-
+ .../adding_a_subscription.rst                      |  54 +++-
+ .../canceling_a_subscription.rst                   |   9 +-
+ .../deleting_a_subscription.rst                    |  22 +-
+ .../editing_a_subscription.rst                     |  72 +++++
+ .../exporting_subscriptions.rst                    |  37 +++
+ umn/source/subscription_management/index.rst       |   8 +
+ .../requesting_subscription_confirmation.rst       |  11 +-
+ ...ffic_control_over_subscription_confirmation.rst |   0
+ .../using_a_subscription_filter_policy.rst         | 214 +++++++++++++
+ .../adding_a_subscription_to_a_topic.rst           |  45 ++-
+ .../adding_modifying_or_deleting_a_topic_tag.rst   |  28 +-
+ ...sic_mode.rst => configuring_a_topic_policy.rst} |  67 ++--
+ .../configuring_topic_policies/index.rst           |  14 -
+ umn/source/topic_management/creating_a_topic.rst   |  26 +-
+ umn/source/topic_management/deleting_a_topic.rst   |  26 +-
+ umn/source/topic_management/exporting_topics.rst   |  37 +++
+ umn/source/topic_management/index.rst              |   8 +-
+ .../modifying_the_display_name_of_a_topic.rst      |   9 +-
+ .../publishing_a_message/introduction.rst          |   8 +-
+ .../publishing_a_json_message.rst                  |  62 +++-
+ .../publishing_a_template_message.rst              |  66 ++--
+ .../publishing_a_text_message.rst                  |  88 ++++--
+ ...lishing_a_message_to_a_topic_granted_to_you.rst |  46 ---
+ 138 files changed, 3760 insertions(+), 2228 deletions(-)
+ create mode 100644 api-ref/source/apis/message_filter_policies_for_subscriptions/creating_message_filter_policies_for_subscriptions.rst
+ create mode 100644 api-ref/source/apis/message_filter_policies_for_subscriptions/deleting_message_filter_policies_for_subscriptions.rst
+ create mode 100644 api-ref/source/apis/message_filter_policies_for_subscriptions/index.rst
+ create mode 100644 api-ref/source/apis/message_filter_policies_for_subscriptions/updating_message_filter_policies_for_subscriptions.rst
+ delete mode 100644 umn/source/_static/images/en-us_image_0000001187715160.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0000001233034749.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0000001495292001.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0000001798236268.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0000001889675317.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0000001973089658.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0000001979886758.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0000002009490141.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0000002009609645.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0000002194988730.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0000002195142398.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002624784058.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002624786890.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002624796744.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002624797784.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002624798318.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002624799164.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002624799530.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002624942854.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002624951094.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002624956146.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002628919572.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002655065061.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002655079145.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002655153713.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002655153933.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002655154231.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002655155639.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002659158837.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002659277183.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002659278783.png
+ create mode 100644 umn/source/_static/images/en-us_image_0000002659278785.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0095665453.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0095665587.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0095665660.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0095665678.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0095665722.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0095665783.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0095667221.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0148412674.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0152909747.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0152909841.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0259222474.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0259222475.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0259222476.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0259222477.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0259222478.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0259222479.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0259222502.png
+ delete mode 100644 umn/source/_static/images/en-us_image_0259222503.png
+ rename umn/source/faqs/{ => message_sending}/does_smn_always_use_the_same_phone_number_or_sender_name_to_send_sms_messages.rst (100%)
+ rename umn/source/faqs/{ => message_sending}/does_smn_ensure_that_messages_are_received_by_subscription_endpoints.rst (100%)
+ create mode 100644 umn/source/faqs/message_sending/index.rst
+ rename umn/source/faqs/{ => message_sending}/what_are_the_restrictions_and_limitations_on_sms_messaging.rst (100%)
+ rename umn/source/faqs/{ => message_sending}/what_can_i_do_when_pictures_in_an_email_message_cannot_be_displayed.rst (100%)
+ rename umn/source/faqs/{ => message_sending}/why_do_subscribers_fail_to_receive_messages_after_i_publish_messages_to_a_topic.rst (100%)
+ rename umn/source/faqs/{ => product_consulting}/how_do_i_obtain_my_account_id.rst (100%)
+ create mode 100644 umn/source/faqs/product_consulting/index.rst
+ rename umn/source/faqs/{ => product_consulting}/what_are_most_frequently_asked_questions_about_creating_publishing_and_subscribing_to_a_topic_in_smn.rst (100%)
+ rename umn/source/faqs/{ => product_consulting}/what_are_the_requirements_for_an_smn_topic_name.rst (100%)
+ rename umn/source/faqs/{ => product_consulting}/what_protocols_does_smn_support.rst (100%)
+ rename umn/source/{message_template_management.rst => message_template_management/creating_a_message_template.rst} (68%)
+ create mode 100644 umn/source/message_template_management/deleting_a_message_template.rst
+ create mode 100644 umn/source/message_template_management/index.rst
+ create mode 100644 umn/source/message_template_management/modifying_a_message_template.rst
+ create mode 100644 umn/source/message_template_management/overview.rst
+ create mode 100644 umn/source/subscription_management/editing_a_subscription.rst
+ create mode 100644 umn/source/subscription_management/exporting_subscriptions.rst
+ rename umn/source/{appendix => subscription_management}/traffic_control_over_subscription_confirmation.rst (100%)
+ create mode 100644 umn/source/subscription_management/using_a_subscription_filter_policy.rst
+ rename umn/source/topic_management/{configuring_topic_policies/basic_mode.rst => configuring_a_topic_policy.rst} (67%)
+ delete mode 100644 umn/source/topic_management/configuring_topic_policies/index.rst
+ create mode 100644 umn/source/topic_management/exporting_topics.rst
+ delete mode 100644 umn/source/topic_management/publishing_a_message_to_a_topic_granted_to_you.rst
+
+From https://github.com/opentelekomcloud-docs/simple-message-notification
+   47f5cfc..92ef5c1  main       -> origin/main
+OK: speichere Ergebnis von simple-message-notification in /home/ubuntu/AssetGuard/repo_results/simple-message-notification (Dauer: 9m 42s)
+processed_files=23
+flagged_files=15
+row_count=23
+duration_seconds=582
+duration_human=9m 42s

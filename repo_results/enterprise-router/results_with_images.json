@@ -516,7 +516,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -568,7 +568,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -610,7 +610,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -652,7 +652,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -704,7 +704,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1038,7 +1038,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1980,7 +1980,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2042,20 +2042,117 @@
       }
     ],
     "status": {
-      "http_status": 500,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 0,
+      "pass": 4,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/routes/creating_a_static_route.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the Enterprise Router page, matching the context of searching for a router.",
+          "It clearly shows the search bar and the router details, aligning with step 4 of the procedure.",
+          "The magenta 'Create Enterprise Router' button is visible, satisfying the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/routes/creating_a_static_route.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001675304226.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the Route Tables page with the 'Routes' tab active, matching the context of creating a static route.",
+          "It displays the 'Create Route' button and the list of existing routes, aligning with step 6.",
+          "The 'Routes' tab is magenta, satisfying the color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/routes/creating_a_static_route.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, which corresponds to the region selector icon mentioned in step 2.",
+          "It is used as |image1| in the RST document.",
+          "No interactive buttons are visible, so the color rule does not apply."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/routes/creating_a_static_route.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001383934230.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a refresh icon, which corresponds to the icon mentioned in step 8 to refresh the route list.",
+          "It is used as |image2| in the RST document.",
+          "No interactive buttons are visible, so the color rule does not apply."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/routes/deleting_a_static_route.rst",
@@ -2106,15 +2203,15 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
-      "partial": 0,
+      "pass": 2,
+      "partial": 2,
       "fail": 0
     },
     "results": [
@@ -2134,7 +2231,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows the Enterprise Router details page, which aligns with the procedure steps for managing the router."
+          "The image is a screenshot of the Enterprise Router page, matching the context of searching for a router.",
+          "The UI clearly shows the search bar and router details as described in the procedure.",
+          "The magenta 'Create Enterprise Router' button satisfies the color rule."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -2145,7 +2244,7 @@
         "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001723184881.png",
         "image_kind": "screenshot",
         "contains_interactive_buttons": true,
-        "buttons_magenta": false,
+        "buttons_magenta": true,
         "hard_fail": false,
         "hard_fail_reason": null,
         "criteria": {
@@ -2156,7 +2255,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays the Route Table interface with the 'Routes' tab active, showing the 'Delete' option in the Operation column, which matches the instructions."
+          "The image shows the Route Tables page with the 'Routes' tab selected, matching the procedure step.",
+          "The table displays routes including a 'Static route' with a 'Delete' option, directly illustrating the topic.",
+          "The 'Routes' tab is magenta, satisfying the color rule for interactive elements."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -2171,18 +2272,21 @@
         "hard_fail": false,
         "hard_fail_reason": null,
         "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
           "contradictions": 3
         },
         "reasons": [
-          "The image is the location icon referenced in the procedure for selecting the region and project."
+          "The image is a small icon, likely representing the region/project selector mentioned in step 2.",
+          "As an icon, it lacks detailed context but is relevant to the UI element being clicked."
         ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
+        "missing_evidence": [
+          "The icon is low resolution and generic, making precise identification difficult without context."
+        ],
+        "overall_score": 0.6,
+        "verdict": "partial"
       },
       {
         "document_path": "umn/source/routes/deleting_a_static_route.rst",
@@ -2194,17 +2298,20 @@
         "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
-          "detail_match": 3,
+          "detail_match": 1,
           "section_relevance": 3,
-          "visual_evidence": 3,
+          "visual_evidence": 1,
           "contradictions": 3
         },
         "reasons": [
-          "The image is the refresh icon referenced in the procedure to update the route list."
+          "The image is a refresh icon, matching the instruction to click the refresh button in step 8.",
+          "The icon clearly depicts a circular arrow, standard for refresh actions."
         ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
+        "missing_evidence": [
+          "The icon is small and isolated, providing limited visual detail."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
       }
     ]
   },
@@ -2245,11 +2352,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -2277,45 +2384,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/routes/route_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001477172813.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a technical diagram illustrating propagated and static routes in an enterprise router, directly corresponding to Figure 1 referenced in the text.",
-          "It visually represents the default and custom route tables, along with various attachment types (VPC, VPN, Virtual Gateway, Direct Connect) and propagation methods (auto/manual), matching the document's description.",
-          "No contradictions found between the diagram and the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/routes/viewing_routes.rst",
@@ -2354,11 +2436,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -2396,67 +2478,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/how_enterprise_routers_work.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001586175602.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image accurately depicts the three-step process described in the text for Figure 1.",
-          "The flowchart matches the textual description of creating a router, adding attachments, and configuring routes."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_overview/how_enterprise_routers_work.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001529950265.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram comprehensively illustrates the enterprise router architecture, route tables, attachments, and traffic flows.",
-          "It aligns with the detailed explanations and tables provided in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/region_and_az.rst",
@@ -2475,43 +2510,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/region_and_az.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0184026531.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a diagram illustrating the relationship between regions and availability zones, directly supporting the document's topic and concept section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/what_is_an_enterprise_router.rst",
@@ -2540,67 +2552,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/what_is_an_enterprise_router.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001427301842.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a network topology diagram illustrating the architecture without an enterprise router.",
-          "It accurately depicts VPC peering connections and separate Direct Connect/VPN links to the IDC, aligning with the 'Without Enterprise Routers' description in the text and Table 1."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_overview/what_is_an_enterprise_router.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001559118632.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a network topology diagram illustrating the architecture with an enterprise router.",
-          "It accurately depicts VPCs and connections attached to a central enterprise router, simplifying the network layout as described in the 'With Enterprise Routers' section and Table 1."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/when_to_use_enterprise_routers.rst",
@@ -2639,11 +2604,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -2681,69 +2646,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
       "pass": 0,
-      "partial": 2,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/sharing/accepting_an_attachment_request.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 1,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 1
-        },
-        "reasons": [
-          "Image displays the Enterprise Router details page, not a search interface.",
-          "Alt text 'Searching for an enterprise router' contradicts the visual content."
-        ],
-        "missing_evidence": [
-          "Search bar or search results are not visible in the screenshot."
-        ],
-        "overall_score": 0.55,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/sharing/accepting_an_attachment_request.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 1,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays a location pin icon.",
-          "Consistent with the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.67,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/sharing/changing_the_name_of_a_sharing.rst",
@@ -2792,115 +2708,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 3,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 2
-        },
-        "reasons": [
-          "Shows the Enterprise Router detail page.",
-          "The alt text mentions searching, but the image displays the router details view, which is a logical progression."
-        ],
-        "missing_evidence": [
-          "The search bar or search action is not clearly visible in this specific screenshot."
-        ],
-        "document_path": "umn/source/sharing/changing_the_name_of_a_sharing.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "overall_score": 0.67,
-        "verdict": "partial"
-      },
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Displays the sharing list table.",
-          "Aligns with the section context of managing and editing sharing names."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/sharing/changing_the_name_of_a_sharing.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001723185861.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Depicts a location pin icon.",
-          "Consistent with the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/sharing/changing_the_name_of_a_sharing.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows a pencil icon.",
-          "Standard symbol for editing actions, matching the context of changing a sharing name."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/sharing/changing_the_name_of_a_sharing.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001894082625.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/sharing/creating_a_sharing.rst",
@@ -2939,87 +2760,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/sharing/creating_a_sharing.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the Enterprise Router details page, consistent with the procedure step for viewing the router after selection."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/sharing/creating_a_sharing.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001723065585.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the sharing list table with account IDs and the 'Share Enterprise Router' button, matching the sharing tab description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/sharing/creating_a_sharing.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which corresponds to the region selector mentioned in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/sharing/deleting_a_sharing.rst",
@@ -3058,90 +2812,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/sharing/deleting_a_sharing.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the Enterprise Router management page with a search bar, matching the instruction to search for the target router.",
-          "Contains a magenta 'Create Enterprise Router' button, satisfying the interactive button color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/sharing/deleting_a_sharing.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001723186137.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Displays the Sharing tab with a table of shared resources and a 'Delete' link in the Operation column.",
-          "Directly corresponds to the procedure step for locating and deleting a sharing."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/sharing/deleting_a_sharing.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows a location pin icon.",
-          "Matches the |image1| reference used in step 2 for selecting the region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/sharing/rejecting_an_attachment_request.rst",
@@ -3170,72 +2854,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/sharing/rejecting_an_attachment_request.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the Enterprise Router management console page, which aligns with the figure caption 'Searching for an enterprise router'.",
-          "Visible interactive buttons include a magenta 'Create Enterprise Router' button and white buttons like 'Manage Attachment', satisfying the mandatory color rule.",
-          "The UI layout and elements are consistent with the procedure steps for managing an enterprise router."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/sharing/rejecting_an_attachment_request.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly corresponds to the RST instruction to click an icon to select a region and project.",
-          "The icon visually represents location/region selection as described in the procedure step."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/sharing/sharing_overview.rst",
@@ -3274,96 +2906,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/sharing/sharing_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001399653186.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 2
-        },
-        "reasons": [
-          "Diagram accurately illustrates the networking concept of attaching VPCs from different accounts to a central enterprise router.",
-          "Minor detail mismatch: the image labels the VPC as VPC-C-02, whereas RST Table 1 lists it as VPC-C-01."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/sharing/sharing_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001213710098.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Flowchart correctly depicts the manual workflow for accepting or rejecting attachment requests when auto-accept is disabled.",
-          "Matches the steps and roles described in RST Table 3."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/sharing/sharing_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001213710140.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Flowchart accurately shows the automated acceptance process when the feature is enabled.",
-          "Aligns perfectly with the steps and states described in RST Table 4."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/sharing/viewing_sharing_details.rst",
@@ -3402,11 +2958,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -3454,11 +3010,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -3516,113 +3072,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/tags/adding_a_tag/adding_a_tag_to_an_attachment.rst",
-        "title": "Adding a Tag to an Attachment",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the Enterprise Router page with a search bar, matching the instruction to search for the target enterprise router."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/adding_a_tag/adding_a_tag_to_an_attachment.rst",
-        "title": "Adding a Tag to an Attachment",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001675151210.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Displays the attachment list table, matching the instruction to view attachments after clicking the Attachments tab."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/adding_a_tag/adding_a_tag_to_an_attachment.rst",
-        "title": "Adding a Tag to an Attachment",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001726061645.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the attachment details page with the 'Add Tag' button, matching the instruction to locate the attachment and prepare to add a tag."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/adding_a_tag/adding_a_tag_to_an_attachment.rst",
-        "title": "Adding a Tag to an Attachment",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the region selector icon mentioned in step 2."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tags/adding_a_tag/adding_a_tag_to_an_enterprise_router.rst",
@@ -3661,11 +3124,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -3713,11 +3176,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -3775,11 +3238,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -3827,11 +3290,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -3879,89 +3342,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 2,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/tags/editing_a_tag/editing_a_route_table_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the Enterprise Router management page with a search bar, aligning with the step to search for a router."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/editing_a_tag/editing_a_route_table_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001726066369.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Clearly displays the 'Tags' tab of a route table with key-value pairs, directly supporting the procedure to edit a tag."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/editing_a_tag/editing_a_route_table_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 1,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "A location pin icon used to represent region selection, as described in step 2."
-        ],
-        "missing_evidence": [
-          "Icon lacks surrounding UI context."
-        ],
-        "overall_score": 0.65,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tags/editing_a_tag/editing_an_attachment_tag.rst",
@@ -4010,11 +3404,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -4062,92 +3456,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/tags/editing_a_tag/editing_an_enterprise_router_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the Enterprise Router detail page, consistent with the procedure to locate the target router.",
-          "The magenta 'Create Enterprise Router' button confirms the correct console interface."
-        ],
-        "missing_evidence": [
-          "The image shows the detail view of a specific router rather than the search action or list view described in the step."
-        ],
-        "overall_score": 0.93,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/editing_a_tag/editing_an_enterprise_router_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001725946489.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the tag list interface with 'Edit' and 'Delete' operation links, directly matching the procedure for editing tags.",
-          "The 'Add Tag' button and table layout are clearly visible."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/editing_a_tag/editing_an_enterprise_router_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a location pin icon, which corresponds to the region and project selector mentioned in step 2.",
-          "Standard UI element for location/region selection."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tags/overview.rst",
@@ -4166,11 +3488,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -4238,136 +3560,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 4,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_a_route_table_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 1 context of searching for an enterprise router.",
-          "Shows the Enterprise Router page with search and tag options."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_a_route_table_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001723189849.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 2 context of searching for a route table by tag.",
-          "Shows the tag search interface with key/value fields and search/reset buttons."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_a_route_table_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 1,
-          "section_relevance": 2,
-          "visual_evidence": 1,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Identified as the icon referenced in step 2 for region/project selection.",
-          "Image is blurry but corresponds to a UI icon."
-        ],
-        "missing_evidence": [
-          "Image quality is low, making specific icon details hard to verify."
-        ],
-        "overall_score": 0.6,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_a_route_table_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001213604225.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the plus icon described in step 8 for adding multiple tags."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_a_route_table_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001435362757.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the X icon described in step 8 for deleting added tags."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_an_attachment_by_tag.rst",
@@ -4406,87 +3612,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_an_attachment_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the Enterprise Router page with a search bar, matching the instruction to search for an enterprise router by name."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_an_attachment_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001723068325.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the tag filtering dropdown with an OK button, aligning with the procedure to search by tag."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_an_attachment_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which corresponds to the region selector icon referenced in step 2 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_an_enterprise_router_by_tag.rst",
@@ -4545,131 +3684,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_an_enterprise_router_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the Enterprise Router page with the 'Search by Tag' button visible, matching step 4 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_an_enterprise_router_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001675307578.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays the tag input fields and 'Search'/'Reset' buttons as described in step 5."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_an_enterprise_router_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the region/project selector described in step 2."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_an_enterprise_router_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001213604225.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the 'add multiple tags' button described in step 5."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/searching_for_a_cloud_resource_by_tag/searching_for_an_enterprise_router_by_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001435362757.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the delete button described in step 5."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tags/viewing_a_tag/viewing_a_route_table_tag.rst",
@@ -4708,11 +3736,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -4770,109 +3798,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/tags/viewing_a_tag/viewing_an_attachment_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Enterprise Router page with the search bar, corresponding to the step for searching the router."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/viewing_a_tag/viewing_an_attachment_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001675151210.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the list of attachments as described in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/viewing_a_tag/viewing_an_attachment_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001725946485.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the attachment details page with the tag section visible, matching the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/viewing_a_tag/viewing_an_attachment_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is the location icon referenced in the procedure for selecting the region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tags/viewing_a_tag/viewing_an_enterprise_router_tag.rst",
@@ -4911,86 +3850,19 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/tags/viewing_a_tag/viewing_an_enterprise_router_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001674900098.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the Enterprise Router details page with a search bar at the top, aligning with the procedure step to search for and view the router."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/viewing_a_tag/viewing_an_enterprise_router_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001678187074.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image clearly displays the tag list interface with key-value pairs and operation links, directly matching the figure caption and procedure step for viewing tags."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/tags/viewing_a_tag/viewing_an_enterprise_router_tag.rst",
-        "image_path": "/home/ubuntu/repotesting/enterprise-router/umn/source/_static/images/en-us_image_0000001190483836.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which is the standard symbol for region selection as described in the procedure step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   }
 ]

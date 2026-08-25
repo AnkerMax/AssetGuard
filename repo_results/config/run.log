@@ -1,7 +1,16 @@
-2026-07-23 08:20:14,141 INFO __main__ - Starting AssetGuard
-2026-07-23 08:20:14,141 INFO __main__ - Workspace: /home/ubuntu/repotesting/config
-2026-07-23 08:20:14,141 INFO __main__ - Found RST-Dateien: 145
-2026-07-23 08:20:14,141 INFO __main__ - Sending files to backend and waiting for response..
-2026-07-23 08:35:04,056 INFO __main__ - Done. Processed 25 rst files, wrote 25 rows to results_with_images.json, flagged 3 files, csv=results_with_images.csv, failed_csv=results_with_images.failed_only.csv
-duration_seconds=891
-duration_human=14m 51s
+==> Bearbeite config
+Updating 86d51e0..11af477
+Fast-forward
+ .../relationships_with_supported_resources.rst     |  12 ++
+ umn/source/appendix/supported_resources.rst        | 210 +++++++++++----------
+ .../configuring_the_resource_recorder.rst          |   5 +-
+ 3 files changed, 124 insertions(+), 103 deletions(-)
+
+From https://github.com/opentelekomcloud-docs/config
+   86d51e0..11af477  main       -> origin/main
+OK: speichere Ergebnis von config in /home/ubuntu/AssetGuard/repo_results/config (Dauer: 9m 56s)
+processed_files=25
+flagged_files=19
+row_count=25
+duration_seconds=596
+duration_human=9m 56s

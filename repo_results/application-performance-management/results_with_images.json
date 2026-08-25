@@ -66,11 +66,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
@@ -160,7 +160,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -200,67 +200,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Notifications' tab highlighted in magenta and the 'Add' button, directly matching step 6 of the RST.",
-          "Clearly illustrates the interface for creating a notification object as described in the document."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/alarm_management/alarm_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001677135825.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Displays the hamburger menu icon referenced in step 2 of the RST.",
-          "Clearly shows the UI element used to open the navigation menu to access Application Performance Management."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/alarm_management/alarm_notification.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542186458.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/alarm_management/alarm_policies/configuring_an_alarm_template.rst",
@@ -389,11 +342,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 11
     },
@@ -471,131 +424,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/alarm_management/alarm_policies/creating_a_custom_alarm_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001788084553.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot clearly shows the 'Alarm Policy' tab and the 'Add Custom Alarm Policy' button, directly matching the procedure steps."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_policies/creating_a_custom_alarm_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542177914.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the menu button described in the procedure to be clicked on the left side."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_policies/creating_a_custom_alarm_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946108913.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the settings button next to the target environment in the tree as described."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_policies/creating_a_custom_alarm_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946108901.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the settings button next to the target environment in the tree as described."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_policies/creating_a_custom_alarm_policy.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002237705905.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the toggle switch for starting or stopping a policy as described in the table."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/alarm_management/alarm_policies/recommended_alarm_templates.rst",
@@ -654,136 +496,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/alarm_management/alarm_policies/recommended_alarm_templates.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001677005969.png",
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the 'Alarm Templates' tab selected and the 'Recommended Template' sub-tab, matching the RST description for viewing templates.",
-          "UI state aligns perfectly with step 5 instructions."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_policies/recommended_alarm_templates.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628411172.png",
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the recommended template list with 'View Details' and 'Copy' options, aligning with the RST instructions.",
-          "Matches the context of step 6 and Figure 2 caption."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_policies/recommended_alarm_templates.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676892669.png",
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the 'Copy Alarm Template' dialog with the 'Yes' button highlighted in magenta, matching the copy action described.",
-          "Directly illustrates step 7 and step 8 actions."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_policies/recommended_alarm_templates.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676894365.png",
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the copied template appearing in the list with a 'Creating' status, matching the post-copy state described.",
-          "Aligns with step 8 and Figure 4 caption."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_policies/recommended_alarm_templates.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001592697669.png",
-        "image_kind": "icon",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is the hamburger menu icon referenced in the first step of the instructions.",
-          "Clearly depicts the navigation toggle mentioned in step 2."
-        ],
-        "missing_evidence": [],
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/application_list.rst",
@@ -812,11 +538,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -904,182 +630,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 7
     },
     "summary": {
-      "pass": 7,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuration_details.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627759792.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot directly illustrates the 'Configuring a monitoring item' section.",
-          "Shows the 'Monitoring Item' tab and the 'Modify' action column as described in step 6."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuration_details.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627280752.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot matches the 'Editing the JVM monitoring configuration' section.",
-          "Displays the configuration form with collection interval and call chain stack settings."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuration_details.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675961513.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot corresponds to the 'Enabling or disabling a monitoring item' section.",
-          "Highlights the 'Enable/Disable Monitoring Item' toggle column as referenced in step 7."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuration_details.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001541509380.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon represents the navigation menu referenced in steps 2 and 3.",
-          "Matches the visual cue for clicking on the left side to access Application Performance Management."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuration_details.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914229912.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon represents the settings/configuration button referenced in step 4.",
-          "Matches the visual cue for clicking next to the target environment."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuration_details.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001541988552.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon represents the navigation menu referenced in steps 2 and 3.",
-          "Matches the visual cue for accessing the Application Performance Management section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuration_details.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278182205.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon represents the settings/configuration button referenced in step 4.",
-          "Matches the visual cue for clicking next to the target environment."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuring_the_exception_monitoring_item.rst",
@@ -1098,11 +662,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1130,11 +694,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1162,11 +726,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1194,11 +758,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1226,45 +790,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_configuration/configuring_the_url_monitoring_item.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675969617.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (Delete, Add) are not magenta or plain white, and no magenta buttons or text are present.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot clearly shows the 'Modify Url Monitoring Configuration' UI matching the RST title.",
-          "Tables for URL Collection, URL, and Blocklist configurations align with the RST parameter descriptions.",
-          "Interactive controls are visible but are blue, not magenta or plain white."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/application_metric_monitoring/application_monitoring_details/call.rst",
@@ -1313,113 +852,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard hamburger menu icon.",
-          "This matches the RST instruction to click a navigation element on the left side of the interface."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/call.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001620923917.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a monitor or screen icon containing a graph line.",
-          "This aligns with the RST context of selecting an environment or application node in a tree view."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/call.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913972698.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image depicts a gear or cog icon.",
-          "This corresponds to the RST step instructing the user to click an icon in the upper right corner to configure or select metric data."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/call.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914229964.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a gear or cog icon.",
-          "This matches the RST instruction to click an icon in the upper right corner to select metric data."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/call.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946109021.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/application_metric_monitoring/application_monitoring_details/exception.rst",
@@ -1458,87 +904,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/exception.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001621004377.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a standard hamburger menu icon, which aligns with the instruction to click an icon on the left to access the main navigation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/exception.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001946011777.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a monitor icon with a graph, consistent with an environment or application selector in a monitoring tree view."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/exception.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914389884.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a flower/gear-like icon, matching the instruction to click an icon in the upper right corner to select metric data views."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/application_metric_monitoring/application_monitoring_details/jvm.rst",
@@ -1567,7 +946,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1659,11 +1038,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 7
     },
@@ -1721,109 +1100,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/topology.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001651367393.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Hamburger menu icon matches the context of opening a navigation menu on the left."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/topology.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913838480.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Monitor/graph icon matches the context of a selectable item in a tree view."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/topology.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001651699845.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Toggle switch icon matches the description of a button that changes state (turns pink) when clicked."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/topology.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000002169235581.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Circular arrow icon matches the action of refreshing the topology view."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/application_metric_monitoring/application_monitoring_details/url.rst",
@@ -1864,7 +1154,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -1892,9 +1182,12 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a standard hamburger menu icon, which aligns with the instruction to click it on the left to access the navigation menu."
+          "- Icon clearly depicts a hamburger menu, matching the navigation context in the RST.",
+          "- Visual evidence directly supports the instruction to click a menu icon on the left."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "- None"
+        ],
         "overall_score": 1.0,
         "verdict": "pass"
       },
@@ -1914,9 +1207,12 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a screen with a graph, which is a standard icon for monitoring or metrics, matching the context of checking URL monitoring information."
+          "- Icon shows a monitor with a line graph, aligning with the monitoring/metrics section.",
+          "- Visual evidence matches the instruction to click an icon next to the target environment for URL monitoring."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "- None"
+        ],
         "overall_score": 1.0,
         "verdict": "pass"
       },
@@ -1936,9 +1232,12 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows an icon typically used for actions like settings or viewing options, which aligns with the instruction to click it to select metric data."
+          "- Icon resembles a settings or selector symbol, fitting the context of selecting metric data.",
+          "- Visual evidence supports the instruction to click an icon in the upper right corner to view metrics."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "- None"
+        ],
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -1991,113 +1290,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": null,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the RST description of the time range selection UI.",
-          "Shows all listed time range options exactly as described."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/web_container.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001602670490.png",
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the RST reference |image1| for the left navigation menu.",
-          "Clearly shows the hamburger menu icon."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/web_container.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001620725989.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the RST reference |image2| for the target environment.",
-          "Depicts a monitoring dashboard icon."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/web_container.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913972674.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the RST reference |image3| in the upper right corner.",
-          "Shows a settings/gear icon for metric selection."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/application_metric_monitoring/application_monitoring_details/web_container.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001914389852.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/application_topology.rst",
@@ -2197,11 +1403,81 @@
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 0,
-      "partial": 0,
-      "fail": 0
+      "pass": 1,
+      "partial": 1,
+      "fail": 1
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/cmdb_management/configuring_an_application_and_sub-application.rst",
+        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001735611972.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive button is not magenta or plain white.",
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot displays the Application Metric configuration interface.",
+          "Highlights the context menu button next to the application name."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/cmdb_management/configuring_an_application_and_sub-application.rst",
+        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629016313.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon represents a navigation menu.",
+          "Corresponds to the step clicking the menu on the left side."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/cmdb_management/configuring_an_application_and_sub-application.rst",
+        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001913980264.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Icon matches the '...' button highlighted in the screenshot.",
+          "Directly corresponds to the instruction to click the button next to the application name."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/cmdb_management/creating_a_sub-application.rst",
@@ -2240,90 +1516,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
       "pass": 0,
-      "partial": 2,
-      "fail": 1
+      "partial": 0,
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cmdb_management/creating_a_sub-application.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001782570313.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive button (plus icon) is gray, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the UI for creating a sub-application.",
-          "Interactive button is gray, triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/cmdb_management/creating_a_sub-application.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629297117.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows a hamburger menu icon.",
-          "Matches the instruction to click the menu on the left."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/cmdb_management/creating_a_sub-application.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629417037.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows a plus icon.",
-          "Matches the instruction to click the plus icon next to the application."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cmdb_management/creating_an_application.rst",
@@ -2362,88 +1568,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 1,
-      "partial": 1,
-      "fail": 1
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cmdb_management/creating_an_application.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001675830381.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive button is not magenta or plain white.",
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Shows the Application Metric panel as described in the text.",
-          "Interactive button is not magenta or plain white, triggering hard fail."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/cmdb_management/creating_an_application.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001579455730.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon represents a menu for navigation, relevant to step 2."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/cmdb_management/creating_an_application.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001629294721.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the action to create an application as described in step 4."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cmdb_management/introduction.rst",
@@ -2482,90 +1620,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cmdb_management/introduction.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001934305448.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the CMDB structure tree example mentioned in the text.",
-          "Shows application filters and hierarchical components matching the description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/cmdb_management/introduction.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001961504785.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image highlights the 'Hide' button as instructed in step 1.",
-          "Clearly demonstrates the UI control for hiding the CMDB structure tree."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/cmdb_management/introduction.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001934305460.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the 'Show' button and a node selection dropdown as described in step 2.",
-          "Red arrow points to the target node 'vmall-apigw-service', matching the instruction to select a node."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/configuration_management/collection_center.rst",
@@ -2594,68 +1662,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the Collection Center UI, directly matching the document's title and section.",
-          "It displays the list of collectors and the 'View Details' operation column as described in the text.",
-          "Magenta text is present in the UI ('Collection Center', 'Java'), so the hard-fail condition for non-magenta buttons is not triggered."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/configuration_management/collection_center.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060445.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which corresponds to the |image1| reference in the document for opening the navigation pane.",
-          "It is a standard UI symbol used for menu toggles and matches the contextual step of clicking it to access Application Performance Management."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/configuration_management/collection_center.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301196.png",
-        "overall_score": 0.93,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/configuration_management/data_masking.rst",
@@ -2774,11 +1794,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 11
     },
@@ -2806,11 +1826,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 500,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -2838,46 +1858,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
-      "partial": 1,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/enabling_apm.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001240715511.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which directly corresponds to the |image1| reference in the text.",
-          "The icon is used for UI navigation on the left side of the console, matching the step-by-step instructions."
-        ],
-        "missing_evidence": [
-          "None"
-        ],
-        "overall_score": 0.77,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/getting_started/monitoring_java_applications/connecting_agents.rst",
@@ -2936,11 +1930,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
@@ -2978,67 +1972,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/monitoring_java_applications/manually_installing_agents_for_java_applications.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001627629722.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays the APM console Access Keys page.",
-          "Directly corresponds to the RST instruction and figure caption for obtaining AK/SK."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/getting_started/monitoring_java_applications/manually_installing_agents_for_java_applications.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001196275562.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the apm.config file with access keys entered.",
-          "Matches the RST procedure step 4 and figure caption for adding AK/SK."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/managing_tags.rst",
@@ -3097,141 +2044,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a UI screenshot showing the 'Tags' tab and the 'Add Tag' button.",
-          "Directly corresponds to the 'Adding a Tag' section in the RST document.",
-          "Contains magenta 'Add Tag' button and white 'Set Global Collector' button, satisfying the interactive button color rule."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/managing_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676779877.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a UI screenshot showing the tag list and the 'Operation' column.",
-          "Matches the 'Modifying a Tag' section, displaying 'Collector Configuration', 'Change Environment', and 'Modify Tag' links.",
-          "Contains magenta 'Add Tag' button, satisfying the interactive button color rule."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/managing_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676862057.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a UI screenshot showing selected tags and the 'Delete' button.",
-          "Directly corresponds to the 'Deleting a Tag' section in the RST document.",
-          "Contains magenta 'Add Tag' button, satisfying the interactive button color rule."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/managing_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001676864041.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a UI screenshot showing the 'Set Global Collector' dialog and dropdown list.",
-          "Matches the 'Global Tag Collector Configuration' section in the RST document.",
-          "Contains magenta 'Add Tag' button, satisfying the interactive button color rule."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/managing_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628065096.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image is a hamburger menu icon.",
-          "Matches the RST reference '|image1|' used in step 2 to access the navigation menu.",
-          "Correctly represents the UI element described for opening the application menu."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/managing_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001592577449.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/permissions_management/creating_a_user_and_granting_permissions.rst",
@@ -3250,11 +2076,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -3292,67 +2118,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/basic_concepts.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001196297610.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays an application topology graph with nodes and directed edges, directly matching the section description.",
-          "Metrics such as response time, request count, and error count are shown on the connecting lines, aligning perfectly with the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_overview/basic_concepts.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001470571029.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram visually represents the Apdex threshold and response time states exactly as defined in the text.",
-          "It clearly delineates the Satisfied, Tolerable, and Frustrated ranges, supporting the Apdex explanation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/what_is_apm.rst",
@@ -3401,121 +2180,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
       "pass": 0,
-      "partial": 3,
-      "fail": 1
+      "partial": 0,
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/what_is_apm.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278522953.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 1,
-          "detail_match": 1,
-          "section_relevance": 2,
-          "visual_evidence": 1,
-          "contradictions": 2
-        },
-        "reasons": [
-          "Image label 'Ease of Use' does not directly align with the RST description of non-intrusive code modification.",
-          "Generic blue square icon lacks specific visual representation of agent deployment or code avoidance."
-        ],
-        "missing_evidence": [
-          "Visual depiction of application agents or code configuration parameters."
-        ],
-        "overall_score": 0.45,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/service_overview/what_is_apm.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278405305.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 1,
-          "section_relevance": 2,
-          "visual_evidence": 1,
-          "contradictions": 3
-        },
-        "reasons": [
-          "'High Performance' label semantically matches the RST claim of high throughput and premium experience.",
-          "Rocket icon symbolically represents speed and processing capacity."
-        ],
-        "missing_evidence": [
-          "Concrete metrics, graphs, or UI elements demonstrating throughput capacity."
-        ],
-        "overall_score": 0.6,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/service_overview/what_is_apm.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001234565280.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 1,
-          "section_relevance": 2,
-          "visual_evidence": 1,
-          "contradictions": 3
-        },
-        "reasons": [
-          "'Open Ecosystem' aligns well with the RST text regarding open APIs and independent development.",
-          "Network-style icon supports the conceptual idea of an interconnected ecosystem."
-        ],
-        "missing_evidence": [
-          "Visual representation of API endpoints, documentation, or third-party integration examples."
-        ],
-        "overall_score": 0.6,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/service_overview/what_is_apm.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001278805009.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 1,
-          "section_relevance": 2,
-          "visual_evidence": 1,
-          "contradictions": 3
-        },
-        "reasons": [
-          "'Intelligent Analysis' corresponds to the RST description of AI and machine learning for root cause analysis.",
-          "Gauge icon suggests monitoring, measurement, and analytical capabilities."
-        ],
-        "missing_evidence": [
-          "Visual evidence of AI algorithms, baseline data comparison, or alarm reporting interfaces."
-        ],
-        "overall_score": 0.6,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/system_management/access_keys.rst",
@@ -3544,65 +2222,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 1,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/system_management/access_keys.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001943060937.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the Access Keys management page, showing the list of keys and operation buttons exactly as described in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/system_management/access_keys.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001908301692.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the hamburger menu icon referenced in the document for navigation purposes."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.77,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/system_management/agent_count.rst",
@@ -3641,11 +2274,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -3683,67 +2316,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 1,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/system_management/general_configuration.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001628908238.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot of the General Configuration page matching the document section.",
-          "Clearly displays the three configuration options: Stop Collecting Data Through Bytecode Instrumentation, Slow Request Threshold, and Max. Collected Data Rows."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/system_management/general_configuration.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001542557752.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon used for navigation to the APM module as described in the text.",
-          "Does not show the configuration details but is relevant to the navigation steps."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/tracing.rst",
@@ -3822,11 +2408,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 7
     },
@@ -3874,86 +2460,19 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/url_tracing.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001570166220.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Hamburger menu icon correctly represents the left-side navigation menu referenced in the configuration steps."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/url_tracing.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001277858573.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Magnifying glass icon is used in the context of locating or tracing a URL, aligning with the step to add it for URL tracing."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/url_tracing.rst",
-        "image_path": "/home/ubuntu/repotesting/application-performance-management/umn/source/_static/images/en-us_image_0000001233739060.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Network topology icon directly corresponds to the instruction to view the call topology of a traced URL."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   }
 ]

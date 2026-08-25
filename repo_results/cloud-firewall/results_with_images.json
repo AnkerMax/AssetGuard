@@ -88,87 +88,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
       "pass": 0,
-      "partial": 3,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/attack_defense/blocking_network_attacks.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which aligns with the RST instruction to click the navigation menu to access the Cloud Firewall dashboard."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/attack_defense/blocking_network_attacks.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969790077.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a toggle switch, matching the UI element referenced in the RST for enabling Sensitive Directory Scan Defense."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/attack_defense/blocking_network_attacks.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969671085.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a toggle switch, matching the UI element referenced in the RST for enabling Reverse Shell Defense."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/attack_defense/blocking_virus-infected_files.rst",
@@ -207,65 +140,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/attack_defense/blocking_virus-infected_files.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which aligns with the RST instruction to click it in the navigation pane."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/attack_defense/blocking_virus-infected_files.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001617930157.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a toggle switch, matching the RST instruction to click it to enable antivirus."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/attack_defense/ips_rule_management/customizing_ips_signatures.rst",
@@ -284,11 +172,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -316,11 +204,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -348,11 +236,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -390,11 +278,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -422,11 +310,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -504,159 +392,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 6,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532325404.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a blue toggle switch icon in the 'on' position.",
-          "It directly corresponds to the |image1| reference illustrating the 'enabled' status in the RST table."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001582605405.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a gray toggle switch icon in the 'off' position.",
-          "It directly corresponds to the |image2| reference illustrating the 'disabled' status in the RST table."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532202610.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a blue toggle switch icon in the 'on' position.",
-          "It directly corresponds to the |image3| reference illustrating the 'enabled' status in the RST table."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532362570.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a gray toggle switch icon in the 'off' position.",
-          "It directly corresponds to the |image4| reference illustrating the 'disabled' status in the RST table."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001937115664.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a blue toggle switch icon in the 'on' position.",
-          "It directly corresponds to the |image5| reference illustrating the 'enabled' status in the RST table."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964194709.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a gray toggle switch icon in the 'off' position.",
-          "It directly corresponds to the |image6| reference illustrating the 'disabled' status in the RST table."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_1_allowing_the_inbound_traffic_from_a_specified_ip_address.rst",
@@ -685,69 +434,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_1_allowing_the_inbound_traffic_from_a_specified_ip_address.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the UI configuration for blocking all traffic, directly corresponding to Figure 1.",
-          "Source, Destination, and Service parameters are all set to 'Any'.",
-          "The Protection Action is explicitly set to 'Block'."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_1_allowing_the_inbound_traffic_from_a_specified_ip_address.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832146.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the UI configuration for allowing traffic from a specified IP address, directly corresponding to Figure 2.",
-          "Source is set to 'IP Address' with an input field visible.",
-          "The Protection Action is explicitly set to 'Allow'."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_2_blocking_access_from_a_region.rst",
@@ -766,45 +466,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_2_blocking_access_from_a_region.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964045585.png",
-        "image_kind": "screenshot",
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a firewall rule configuration interface that directly corresponds to the document's topic of blocking access from a region.",
-          "The 'Source' field explicitly shows 'Germany' selected under 'Countries and regions'.",
-          "The 'Action' is set to 'Block', which is highlighted in magenta, aligning perfectly with the document's description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/adding_a_domain_name_group.rst",
@@ -833,44 +508,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/adding_a_domain_name_group.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which directly corresponds to the |image1| reference in the documentation.",
-          "It accurately represents the UI element users are instructed to click to access the navigation pane."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/deleting_a_domain_name_group.rst",
@@ -889,44 +540,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/deleting_a_domain_name_group.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which aligns with the instruction to click it to access the Security menu.",
-          "It accurately represents the UI element referenced in the step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.9,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/adjusting_the_priority_of_a_protection_rule.rst",
@@ -945,43 +572,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/adjusting_the_priority_of_a_protection_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, which directly corresponds to the navigation element referenced in the RST instructions."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/importing_and_exporting_protection_policies.rst",
@@ -1010,11 +614,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1072,11 +676,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1114,11 +718,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1188,11 +792,11 @@
       }
     ],
     "status": {
-      "http_status": 500,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
@@ -1220,11 +824,11 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
@@ -1262,11 +866,11 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
@@ -1294,20 +898,45 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/service_group_management/deleting_a_user-defined_service_group.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, which corresponds to the navigation pane element described in step 2.",
+          "It accurately illustrates the UI control users must click to access the Security and Cloud Firewall options.",
+          "The visual content aligns perfectly with the instructional text without any discrepancies."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/service_group_management/viewing_a_predefined_service_group.rst",
@@ -1326,7 +955,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1666,7 +1295,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1834,20 +1463,67 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_ips_blocks_normal_services.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001707369821.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a table with a highlighted 'Rule ID' column, matching the instruction to record the Rule ID.",
+          "The visual content directly corresponds to the step describing how to find the Rule ID in the Attack Event Logs."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_ips_blocks_normal_services.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, which corresponds to the |image1| reference in the text.",
+          "The icon is used to open the navigation pane as described in the instructions."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_service_traffic_is_abnormal.rst",
@@ -1916,7 +1592,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": null,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -1958,20 +1634,65 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
-      "attempt": 2,
+      "http_status": 200,
+      "finish_reason": "completed",
+      "attempt": 1,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/faqs/troubleshooting/why_does_a_protection_rule_not_take_effect.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the Cloud Firewall configuration UI with the 'Block' action selected, directly illustrating Figure 1 for configuring a global blocking rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/why_does_a_protection_rule_not_take_effect.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a hamburger menu icon, which corresponds to the navigation element referenced in step 2 for accessing the Security and Cloud Firewall sections."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/system_management/alarm_notification.rst",
@@ -2040,20 +1761,109 @@
       }
     ],
     "status": {
-      "http_status": 429,
-      "finish_reason": null,
+      "http_status": 200,
+      "finish_reason": "completed",
       "attempt": 2,
       "max_retries": 2,
-      "error": "backend_error",
+      "error": null,
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 0,
+      "pass": 4,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/system_management/alarm_notification.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon, which matches the navigation pane icon described in the text for accessing the Cloud Firewall dashboard."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/system_management/alarm_notification.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443711605.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a toggle switch in the off position, matching the instruction to click the icon to enable the Attack alarm."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/system_management/alarm_notification.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443792005.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a toggle switch in the off position, matching the instruction to click the icon to enable the High Traffic Warning."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/system_management/alarm_notification.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001673130380.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a toggle switch in the off position, matching the instruction to click the icon to enable the EIP Not Protected alarm."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/system_management/configuring_a_dns_server.rst",
@@ -2324,7 +2134,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2386,7 +2196,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2418,7 +2228,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,

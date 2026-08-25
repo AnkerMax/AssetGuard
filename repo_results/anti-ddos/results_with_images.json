@@ -18,18 +18,41 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/introduction/accessing_and_using_anti-ddos/how_to_access_anti-ddos.rst",
+        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays a location pin icon, which semantically corresponds to the instruction to select a region in the management console."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/introduction/accessing_and_using_anti-ddos/how_to_use_anti-ddos.rst",
@@ -60,65 +83,18 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/introduction/accessing_and_using_anti-ddos/how_to_use_anti-ddos.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258870399.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the 'Set Default Protection Policy' dialog, directly matching Figure 1 in the RST.",
-          "UI elements like Traffic Cleaning Threshold and CC Defense settings align with the documentation context."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/introduction/accessing_and_using_anti-ddos/how_to_use_anti-ddos.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0258875446.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the 'Set Protection' dialog with 'Default' mode selected, matching Figure 2.",
-          "The highlighted tooltip explicitly shows the 300 Mbps (UDP) and 90,000 pps (TCP) thresholds mentioned in the RST note."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/introduction/accessing_and_using_anti-ddos/related_services.rst",
@@ -147,65 +123,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/introduction/accessing_and_using_anti-ddos/related_services.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which semantically matches the RST instruction to click an icon for selecting a region or project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/introduction/accessing_and_using_anti-ddos/related_services.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0204851462.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a downward-pointing chevron, which aligns with the RST description of an icon used to expand record details."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/introduction/application_scenarios.rst",
@@ -224,44 +155,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/introduction/application_scenarios.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0204851523.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a network topology diagram that directly illustrates the Anti-DDoS deployment architecture described in the text.",
-          "It accurately depicts the data center, internet, detection center, and cleaning center, along with the labeled traffic flows (normal, abnormal, detection) that match the RST description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/operation_guide/adjusting_security_settings.rst",
@@ -300,11 +207,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -392,11 +299,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -444,11 +351,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -496,11 +403,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -558,113 +465,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
-      "fail": 2
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/operation_guide/viewing_a_monitoring_report.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217719594.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive button \"View Monitoring Report\" is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the Public IP Addresses tab with the \"View Monitoring Report\" button highlighted, directly matching step 4 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/operation_guide/viewing_a_monitoring_report.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217782662.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons and links are blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the Monitoring Report page with traffic charts and protection details, matching step 5 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/operation_guide/viewing_a_monitoring_report.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a blurry blue location pin icon, which corresponds to the region selector mentioned in step 2."
-        ],
-        "missing_evidence": [
-          "The icon is low resolution and blurry, making precise visual identification slightly difficult without context."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/operation_guide/viewing_a_monitoring_report.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237052378.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a download icon, matching the note in step 5 instructing users to click the icon to download the monitoring report."
-        ],
-        "missing_evidence": [
-          "The icon is low resolution and blurry, but the downward arrow clearly indicates a download function."
-        ],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/operation_guide/viewing_an_interception_report.rst",
@@ -703,92 +517,19 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 2,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/operation_guide/viewing_an_interception_report.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0217727368.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot clearly shows the Statistics tab with a magenta underline.",
-          "Displays all mentioned metrics: Traffic Cleaning Frequency, Cleaned Traffic Amount, and Top 10 Attacked Public IP Addresses.",
-          "Directly illustrates the interception report figure referenced in the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/operation_guide/viewing_an_interception_report.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237050217.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon depicts a location pin, consistent with region or project selection.",
-          "Matches the procedural step to select a desired region or project."
-        ],
-        "missing_evidence": [
-          "Image is blurry, limiting detailed visual confirmation, but context clarifies its purpose."
-        ],
-        "overall_score": 0.78,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/operation_guide/viewing_an_interception_report.rst",
-        "image_path": "/home/ubuntu/repotesting/anti-ddos/umn/source/_static/images/en-us_image_0237052378.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon clearly shows a downward arrow into a tray, representing a download action.",
-          "Directly corresponds to the instruction to download monitoring reports."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   }
 ]

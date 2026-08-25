@@ -36,91 +36,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 1,
-      "partial": 2,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cloud_eye/creating_an_alarm_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000002389328437.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays the 'Create Alarm Rule' configuration form.",
-          "Directly corresponds to step 5 in the procedure.",
-          "Contains a magenta 'Create' button, complying with UI standards."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/cloud_eye/creating_an_alarm_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000002355688332.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon depicts a location pin.",
-          "Used in step 2 to represent selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/cloud_eye/creating_an_alarm_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000002389448333.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon depicts a hamburger menu.",
-          "Used in step 3 to represent opening the service list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cloud_eye/exporting_monitoring_data.rst",
@@ -139,43 +68,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cloud_eye/exporting_monitoring_data.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0141273034.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which corresponds to the RST instruction for selecting a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.83,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/cloud_eye/viewing_metrics.rst",
@@ -224,90 +130,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/cloud_eye/viewing_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon, which aligns with the RST instruction to click an icon for selecting a region and project.",
-          "The visual matches the described UI element for region selection."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/cloud_eye/viewing_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001865663457.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon, consistent with the RST step to click an icon to navigate to the Network section.",
-          "The icon is a standard UI symbol for opening a menu or service list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/cloud_eye/viewing_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001865663461.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, matching the RST description of clicking an icon to open the service list.",
-          "The visual evidence aligns with the procedural step for accessing Cloud Eye."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/elastic_ip/adding_eips_to_a_shared_bandwidth.rst",
@@ -346,90 +182,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/elastic_ip/adding_eips_to_a_shared_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001925251293.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a UI screenshot of the 'Add to Shared Bandwidth' dialog, directly corresponding to step 5 of the procedure.",
-          "The 'OK' button is magenta and the 'Cancel' button is plain white, complying with the interactive button color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/elastic_ip/adding_eips_to_a_shared_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001925410917.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a location pin icon representing the region and project selector mentioned in step 2.",
-          "It is a small symbolic graphic consistent with UI navigation icons."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/elastic_ip/adding_eips_to_a_shared_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001879491934.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a hamburger menu icon representing the main navigation toggle mentioned in step 3.",
-          "It is a standard UI icon used to open side menus or dropdowns."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.88,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/elastic_ip/assigning_an_eip_and_binding_it_to_an_ecs.rst",
@@ -478,11 +244,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
@@ -510,45 +276,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/elastic_ip/eip_overview.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001844364154.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a network architecture diagram illustrating how Elastic IPs (EIP) connect cloud resources to the Internet.",
-          "It accurately depicts the specific resources mentioned in the text (ECS, NAT gateway, Load balancer) bound to EIPs within a VPC and Subnet.",
-          "The diagram directly supports the section title 'EIP Overview' and the description of EIP functionality for internet access."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/elastic_ip/exporting_eips.rst",
@@ -577,11 +318,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -659,113 +400,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "screenshot": false,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the instruction to select a region and project."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/elastic_ip/managing_eip_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "screenshot": false,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Hamburger menu icon correctly represents the navigation menu to access Network > Elastic IP."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/elastic_ip/managing_eip_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001818982822.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "screenshot": false,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Plus sign icon aligns with the instruction to add a tag."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/elastic_ip/managing_eip_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000002555651817.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "screenshot": false,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "X icon matches the instruction to delete or modify a tag value."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/elastic_ip/managing_eip_tags.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000002555531839.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/elastic_ip/modifying_an_eip_bandwidth.rst",
@@ -804,93 +452,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/elastic_ip/modifying_an_eip_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001818983386.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Modify Bandwidth' configuration page.",
-          "It clearly shows the 'Current Configuration' and 'New Configuration' sections, matching step 5 of the procedure.",
-          "The 'Submit' button is magenta, complying with the UI color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/elastic_ip/modifying_an_eip_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a location pin icon.",
-          "This corresponds to the region selector icon referenced in step 2 of the procedure.",
-          "It is a standalone icon without surrounding UI context."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.87,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/elastic_ip/modifying_an_eip_bandwidth.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001818982822.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon (three horizontal lines).",
-          "This matches the service menu icon referenced in step 3 of the procedure.",
-          "It is a standalone icon used to access the Network > Elastic IP menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.87,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/elastic_ip/removing_eips_from_a_shared_bandwidth.rst",
@@ -931,7 +506,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -959,9 +534,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "Screenshot displays the 'Remove from Shared Bandwidth' dialog box.",
-          "Directly corresponds to step 6 of the procedure for setting EIP bandwidth after removal.",
-          "Shows the selectable bandwidth options and the magenta 'OK' button."
+          "Screenshot displays the 'Remove from Shared Bandwidth' dialog, directly matching step 6 of the procedure.",
+          "Shows the EIP bandwidth selection options and the magenta 'OK' button as described.",
+          "Interactive buttons are magenta, complying with the mandatory color rule."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -979,15 +554,15 @@
           "topic_match": 2,
           "detail_match": 2,
           "section_relevance": 2,
-          "visual_evidence": 3,
+          "visual_evidence": 2,
           "contradictions": 3
         },
         "reasons": [
-          "Icon represents the region and project selector.",
-          "Used in step 2 to select the desired region and project."
+          "Icon depicts a location pin, used in step 2 to select the desired region and project.",
+          "Matches standard cloud console UI for geographic selection."
         ],
         "missing_evidence": [],
-        "overall_score": 0.77,
+        "overall_score": 0.72,
         "verdict": "partial"
       },
       {
@@ -1002,15 +577,15 @@
           "topic_match": 2,
           "detail_match": 2,
           "section_relevance": 2,
-          "visual_evidence": 3,
+          "visual_evidence": 2,
           "contradictions": 3
         },
         "reasons": [
-          "Hamburger menu icon used to access the service catalog.",
-          "Used in step 3 to navigate to the Network service."
+          "Hamburger menu icon corresponds to the main navigation menu referenced in step 3.",
+          "Used to access the Network > Elastic IP path as described in the procedure."
         ],
         "missing_evidence": [],
-        "overall_score": 0.77,
+        "overall_score": 0.72,
         "verdict": "partial"
       }
     ]
@@ -1132,7 +707,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a location pin icon, which semantically matches the RST instruction to click it for selecting a region and project."
+          "The image shows a location pin icon, which semantically matches the instruction to click an icon to select the region."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1154,7 +729,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows a hamburger menu icon, which aligns with the RST step to click it to access the Network menu."
+          "The image displays a hamburger menu icon, which aligns with the instruction to click an icon to open the navigation menu for Network > Elastic IP."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -1179,11 +754,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1211,45 +786,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/connectivity/how_does_an_ipv6_client_on_the_internet_access_the_ecs_that_has_an_eip_bound_in_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0118499144.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a technical diagram illustrating the IPv6 data flow described in the document.",
-          "It accurately depicts the interaction between the IPv6 client, NAT64 gateway, router, and ECS within the VPC.",
-          "The steps in the diagram align with the RST description of packet translation and routing."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/connectivity/what_should_i_do_if_an_eip_cannot_be_pinged.rst",
@@ -1318,159 +868,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 5,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/connectivity/what_should_i_do_if_an_eip_cannot_be_pinged.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001223659800.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart summarizing the troubleshooting steps for an EIP that cannot be pinged.",
-          "It lists all 7 steps mentioned in the document, providing a clear overview of the fault locating process."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faqs/connectivity/what_should_i_do_if_an_eip_cannot_be_pinged.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0250117342.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the terminal output of the `iptables -L` command.",
-          "It verifies that ICMP rules are not blocking ping operations, matching the Linux firewall settings section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faqs/connectivity/what_should_i_do_if_an_eip_cannot_be_pinged.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0250182352.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the Windows Firewall Inbound Rules.",
-          "It highlights the ICMPv4 and ICMPv6 Echo Request rules that must be enabled to allow ping operations."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faqs/connectivity/what_should_i_do_if_an_eip_cannot_be_pinged.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0250182717.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the Windows Firewall Outbound Rules.",
-          "It highlights the ICMPv4 and ICMPv6 Echo Request rules that must be enabled to allow ping operations."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faqs/connectivity/what_should_i_do_if_an_eip_cannot_be_pinged.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0250105611.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the terminal output of the `ip route` command.",
-          "It verifies the default route configuration as described in the multiple NIC troubleshooting section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faqs/connectivity/what_should_i_do_if_an_eip_cannot_be_pinged.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000002188678994.png",
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a location pin icon.",
-          "It corresponds to the console logo/menu icon mentioned in the 'Checking Security Group Rules' section for navigating the management console."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.77,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/eip_binding_and_unbinding/how_do_i_access_the_internet_using_an_eip_bound_to_an_extended_network_interface.rst",
@@ -1499,67 +910,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows terminal output of the 'route -n' command.",
-          "Directly corresponds to Step 1 in the document."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/faqs/eip_binding_and_unbinding/how_do_i_access_the_internet_using_an_eip_bound_to_an_extended_network_interface.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001818823554.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows terminal output of the 'ifconfig' command.",
-          "Directly corresponds to Step 2 in the document."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/faqs/eip_binding_and_unbinding/how_do_i_access_the_internet_using_an_eip_bound_to_an_extended_network_interface.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001818983338.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/product_consultation/how_do_i_unbind_an_eip_from_an_instance_and_bind_a_new_eip_to_the_instance.rst",
@@ -1628,11 +992,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
@@ -1670,65 +1034,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/product_consultation/managing_quotas.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0275513364.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a location pin icon, which directly corresponds to the instruction to click an icon in the upper left corner to select a region and project."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faqs/product_consultation/managing_quotas.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0152727234.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a bar chart icon, which is a standard UI symbol for quotas or usage statistics, matching the instruction to click it in the upper right corner to view quotas."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/product_consultation/what_are_the_differences_between_eip_private_ip_address_and_virtual_ip_address.rst",
@@ -1747,11 +1066,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1779,43 +1098,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/product_consultation/why_cant_i_find_my_assigned_eip_on_the_management_console.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000002556425923.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a standard hamburger menu icon (three horizontal lines), which perfectly matches the RST description of the control used to expand the service list."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/permissions_management/creating_a_user_and_granting_eip_permissions.rst",
@@ -1834,45 +1130,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/permissions_management/creating_a_user_and_granting_eip_permissions.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001890445013.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that visually represents the process described in the document.",
-          "The steps in the flowchart exactly match the numbered list in the 'Process Flow' section.",
-          "The content is highly relevant to the document's title and main topic."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/quick_start/overview.rst",
@@ -1891,45 +1162,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/quick_start/overview.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001818823006.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that visually represents the exact network configuration procedure described in the RST text.",
-          "It accurately lists all mandatory and optional steps, including the specific details and parenthetical notes from Table 1.",
-          "The text inside the flowchart boxes matches the RST content precisely."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/quick_start/step_1_create_a_vpc.rst",
@@ -1998,165 +1244,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 6,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/quick_start/step_1_create_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000002555360481.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create VPC' page, matching Figure 1 in the document.",
-          "It shows the 'Basic Configuration' and 'Virtual Private Cloud' sections as described.",
-          "No magenta or plain white interactive buttons are visible."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/quick_start/step_1_create_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000002555242197.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Create VPC' page, specifically the 'Subnet 1' section, matching Figure 2.",
-          "It displays subnet configuration parameters like CIDR block, route table, and advanced settings.",
-          "No magenta or plain white interactive buttons are visible."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/quick_start/step_1_create_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001818982734.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a location pin icon.",
-          "It corresponds to |image1| used in step 2 to select the region and project.",
-          "The icon visually represents location/region selection."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/quick_start/step_1_create_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000001865663089.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a hamburger menu icon.",
-          "It corresponds to |image2| used in step 3 to open the navigation menu.",
-          "The icon is a standard symbol for a menu."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/quick_start/step_1_create_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000002524247358.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a downward chevron icon.",
-          "It corresponds to |image3| used in step 5 to expand the 'Tag' configuration area.",
-          "The icon visually indicates an expandable section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/quick_start/step_1_create_a_vpc.rst",
-        "image_path": "/home/ubuntu/repotesting/elastic-ip/umn/source/_static/images/en-us_image_0000002555247269.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a downward chevron icon.",
-          "It corresponds to |image4| used in step 5 to expand the 'Description' configuration area.",
-          "The icon visually indicates an expandable section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/quick_start/step_2_create_a_subnet_for_the_vpc.rst",
@@ -2195,7 +1296,7 @@
       }
     ],
     "status": {
-      "http_status": 502,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2423,7 +1524,7 @@
       }
     ],
     "status": {
-      "http_status": 429,
+      "http_status": 500,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2455,7 +1556,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2487,7 +1588,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -2549,7 +1650,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,

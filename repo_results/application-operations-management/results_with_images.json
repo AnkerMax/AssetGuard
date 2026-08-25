@@ -16,11 +16,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -58,11 +58,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -110,89 +110,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_grouping_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001404765705.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Flowchart illustrating the alarm grouping process described in the text.",
-          "Shows filtering by severity, combining by source, and triggering an action rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_grouping_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412095554.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons are not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "UI screenshot for creating a grouping rule matches the text description.",
-          "Fails mandatory color rule for interactive buttons."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_grouping_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001261759895.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Magnifying glass icon used for searching, as described in Table 2."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_silence_rule.rst",
@@ -221,70 +152,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 1,
-      "partial": 1,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_silence_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001472254649.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Creating a Silence Rule' UI form.",
-          "It clearly displays the parameters described in the text, such as Rule Name, Silence Condition, and Silence Time.",
-          "The 'Fixed time' button is magenta, satisfying the interactive button color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_silence_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001261759905.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a magnifying glass icon.",
-          "It corresponds to the search icon referenced in Table 2 for searching silence rules."
-        ],
-        "missing_evidence": [
-          "The image is an isolated icon and does not show the surrounding search box or UI context."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/alarm_management/alarm_noise_reduction/creating_a_suppression_rule.rst",
@@ -313,11 +194,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -345,11 +226,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -387,7 +268,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -549,296 +430,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 11
     },
     "summary": {
-      "pass": 11,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462529481.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 1 in the documentation.",
-          "Shows the 'Custom' tab and alarm condition parameters as described in the text."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411933048.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 2 in the documentation.",
-          "Illustrates the 'Direct Alarm Reporting' mode selection with action rule and notification toggles."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001413081586.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 3 in the documentation.",
-          "Illustrates the 'Alarm Noise Reduction' mode selection with grouping rule."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001582213732.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 4 in the documentation.",
-          "Shows the created threshold rule in the list with operation buttons and expanded resource details."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412105490.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 5 in the documentation.",
-          "Shows the 'Template' tab and pre-filled trigger conditions for template-based rule creation."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412589150.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches Figure 6 in the documentation.",
-          "Illustrates the 'Direct Alarm Reporting' mode selection for the template method."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461193229.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches |image1| reference in the text.",
-          "Depicts the toggle switch representing the 'Apply to All' option."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001213679034.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches |image2| reference in the text.",
-          "Depicts the help icon next to the search box for Prometheus commands."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001216318386.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches |image3| reference in the text.",
-          "Depicts the operation icon in the metric monitoring table to switch to threshold rule creation."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001238513507.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches |image4| and |image5| references in the text.",
-          "Depicts the expand/collapse icon for monitoring the same metric of multiple resources."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_a_threshold_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893650.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches |image6| reference in the text.",
-          "Depicts the search icon in the upper right corner for searching threshold rules."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
@@ -907,159 +512,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 5,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461323461.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the 'Setting basic information' step in the procedure.",
-          "Clearly shows the 'Rule Name' and 'Description' input fields as described."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410883828.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the 'Setting an alarm rule' step.",
-          "Shows 'Rule Type' set to 'Event alarm' (magenta), along with 'Alarm Source', 'Select Object', and 'Triggering Policy' sections."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462893469.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the 'Selecting the direct alarm reporting mode' step.",
-          "Clearly shows 'Direct Alarm Reporting' selected in magenta, with 'Action Rule' configuration visible."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001413081586.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the 'Selecting the alarm noise reduction mode' step.",
-          "Clearly shows 'Alarm Noise Reduction' selected in magenta, with 'Grouping Rule' configuration visible."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462896701.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive controls (dropdowns, links) are blue, not magenta or plain white, and no other magenta elements are present.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the final created event alarm rule list view.",
-          "Shows the 'AOM_services' rule with status 'Enabled' and 'Started', along with operation links."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/alarm_management/alarm_rules/creating_an_event_alarm_rule.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001233445193.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Matches the search icon referenced in Table 2 for searching event alarm rules.",
-          "Clearly depicts a magnifying glass symbol used for search functionality."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/alarm_management/viewing_alarms.rst",
@@ -1088,67 +554,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a magnifying glass icon.",
-          "This symbol corresponds to the 'view' or 'search' action described in the RST for filtering and viewing alarms."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/alarm_management/viewing_alarms.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001242972085.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a trash can icon.",
-          "This symbol aligns with the 'Clearing alarms' operation in the RST document."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/alarm_management/viewing_alarms.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001163490512.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/alarm_management/viewing_events.rst",
@@ -1167,11 +586,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1249,11 +668,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
@@ -1291,11 +710,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -1353,11 +772,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
@@ -1385,43 +804,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/configuration_management/log_configuration/setting_log_collection.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462420845.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive toggle switch is blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the Log Collection toggle switch as described in the documentation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/configuration_management/log_configuration/setting_the_log_quota.rst",
@@ -1440,11 +836,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1472,45 +868,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/configuration_management/metric_configuration.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461635045.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the 'Metric Collection' toggle switch, directly corresponding to the document's section.",
-          "The toggle switch is magenta, adhering to the UI color rule for interactive elements.",
-          "The descriptive text below the toggle matches the document's explanation of the feature."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/configuration_management/quota_configuration.rst",
@@ -1529,44 +900,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/configuration_management/quota_configuration.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461515217.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a UI element titled 'Metric' detailing the 'Metric Storage Quota' as 7 days.",
-          "The text explains that metrics older than the retention period will be deleted, which directly corresponds to the RST statement about earlier metrics being deleted when the quota is exceeded."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/connecting_resources_to_aom/configuring_application_discovery_rules.rst",
@@ -1585,11 +932,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1667,136 +1014,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
-      "fail": 3
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/connecting_resources_to_aom/configuring_vm_log_collection_paths.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410647264.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons/icons are gray, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the UI for automatically identified log paths.",
-          "Matches the RST description for configuring paths using the ICAgent."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/connecting_resources_to_aom/configuring_vm_log_collection_paths.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410327528.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons/icons are gray, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the UI for manually configuring log collection paths.",
-          "Matches the RST description for entering paths manually."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/connecting_resources_to_aom/configuring_vm_log_collection_paths.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412205042.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons/icons are gray, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the batch configuration interface for log collection paths.",
-          "Matches the RST description for configuring paths for multiple VMs."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/connecting_resources_to_aom/configuring_vm_log_collection_paths.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893495.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the RST reference |image1| and |image2| used for adding paths.",
-          "Visually represents the action of adding a log collection path."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/connecting_resources_to_aom/configuring_vm_log_collection_paths.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893507.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the RST reference |image3| used for viewing configured paths.",
-          "Visually represents the action of searching or viewing log collection paths."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/consultation_faqs/what_are_the_usage_restrictions_of_aom.rst",
@@ -1815,45 +1046,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/consultation_faqs/what_are_the_usage_restrictions_of_aom.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001167553061.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Interpolation Mode' dropdown menu on the Metric Monitoring page.",
-          "It directly illustrates the RST instruction to set the interpolation mode to '0' or 'average' to avoid metric data breakpoints.",
-          "The visible dropdown options ('null', '0', 'average') align perfectly with the documented values."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/usage_faqs/how_do_i_set_the_full-screen_online_duration.rst",
@@ -1872,11 +1078,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1904,11 +1110,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1938,7 +1144,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -1947,9 +1153,33 @@
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 0
+      "fail": 1
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/faqs/usage_faqs/why_is_the_status_of_an_alarm_rule_displayed_as_insufficient.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001412030430.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons are blue, not magenta or plain white, and no magenta elements are present.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the 'Threshold List' UI with an 'Insufficient' status, directly illustrating the FAQ topic.",
+          "Interactive buttons are blue, which violates the mandatory color rule."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      }
+    ]
   },
   {
     "file_path": "umn/source/getting_started/process_of_using_aom.rst",
@@ -1977,35 +1207,11 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/getting_started/process_of_using_aom.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001199786128.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that directly illustrates the 'Process of Using AOM' section.",
-          "The steps in the flowchart match the ordered list in the RST document exactly."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_management/adding_log_buckets.rst",
@@ -2033,11 +1239,39 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/log_management/adding_log_buckets.rst",
+        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001479016049.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI screenshot of the 'Add Log Bucket' dialog, directly illustrating the RST procedure.",
+          "It clearly shows the 'Basic Information' section with Name and Description fields.",
+          "It displays the 'Log Files' section with tabs and checkboxes for selecting log files, matching the text instructions.",
+          "Interactive elements such as tabs and checkboxes are highlighted in magenta, satisfying the color rule."
+        ],
+        "missing_evidence": [
+          "The 'OK' button mentioned in the text is not visible in the screenshot."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/log_management/searching_for_logs.rst",
@@ -2117,7 +1351,7 @@
     ],
     "status": {
       "http_status": 200,
-      "finish_reason": "incomplete",
+      "finish_reason": "completed",
       "attempt": 1,
       "max_retries": 2,
       "error": null,
@@ -2125,8 +1359,8 @@
       "attached_image_count": 7
     },
     "summary": {
-      "pass": 6,
-      "partial": 1,
+      "pass": 7,
+      "partial": 0,
       "fail": 0
     },
     "results": [
@@ -2146,7 +1380,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image shows a CSV export table with columns like Host IP Address and Source, matching the RST description for Figure 1."
+          "Matches Figure 1 description of exporting logs in CSV format.",
+          "Shows a table with columns like Time, Type, Host IP, and Description as expected for CSV export."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -2168,7 +1403,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image displays plain text log entries, consistent with the RST description of TXT format export in Figure 2."
+          "Matches Figure 2 description of exporting logs in TXT format.",
+          "Displays plain text log entries without additional metadata columns, as described."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -2183,17 +1419,20 @@
         "hard_fail": false,
         "hard_fail_reason": null,
         "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
+          "topic_match": 2,
+          "detail_match": 2,
           "section_relevance": 3,
-          "visual_evidence": 2,
+          "visual_evidence": 3,
           "contradictions": 3
         },
         "reasons": [
-          "Icon shows a downward arrow with lines, representing the descending sort order mentioned in the RST for |image3|."
+          "Represents the sorting control mentioned in the RST for switching log order.",
+          "Icon shows a downward arrow and list lines, consistent with sorting functionality."
         ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
+        "missing_evidence": [
+          "Image is too blurry to confirm exact UI state, but symbol matches context."
+        ],
+        "overall_score": 0.83,
         "verdict": "pass"
       },
       {
@@ -2205,17 +1444,20 @@
         "hard_fail": false,
         "hard_fail_reason": null,
         "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
+          "topic_match": 2,
+          "detail_match": 2,
           "section_relevance": 3,
-          "visual_evidence": 2,
+          "visual_evidence": 3,
           "contradictions": 3
         },
         "reasons": [
-          "Icon matches the RST reference for |image2|, which indicates ascending sort order."
+          "Corresponds to |image2| indicating ascending order by time.",
+          "Icon is magenta, which is acceptable for icons as the hard-fail rule applies to screenshots."
         ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
+        "missing_evidence": [
+          "Blurriness limits detail verification."
+        ],
+        "overall_score": 0.83,
         "verdict": "pass"
       },
       {
@@ -2227,17 +1469,20 @@
         "hard_fail": false,
         "hard_fail_reason": null,
         "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
+          "topic_match": 2,
+          "detail_match": 2,
           "section_relevance": 3,
-          "visual_evidence": 2,
+          "visual_evidence": 3,
           "contradictions": 3
         },
         "reasons": [
-          "Icon matches the RST reference for |image3|, indicating descending sort order."
+          "Corresponds to |image3| indicating descending order by time.",
+          "Icon matches the sorting symbol described in the text."
         ],
-        "missing_evidence": [],
-        "overall_score": 0.95,
+        "missing_evidence": [
+          "Blurriness limits detail verification."
+        ],
+        "overall_score": 0.83,
         "verdict": "pass"
       },
       {
@@ -2252,17 +1497,18 @@
           "topic_match": 2,
           "detail_match": 2,
           "section_relevance": 3,
-          "visual_evidence": 1,
+          "visual_evidence": 3,
           "contradictions": 3
         },
         "reasons": [
-          "Image is a blurry icon referenced as |image4| for viewing log details. Visual clarity is low."
+          "Matches |image4| used to view log details on the left of the log list.",
+          "Icon shape aligns with a detail/view action."
         ],
         "missing_evidence": [
-          "Image quality is too low to confirm exact icon details."
+          "Image is very blurry, making precise identification difficult."
         ],
-        "overall_score": 0.73,
-        "verdict": "partial"
+        "overall_score": 0.83,
+        "verdict": "pass"
       },
       {
         "document_path": "umn/source/log_management/searching_for_logs.rst",
@@ -2280,7 +1526,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Icon clearly shows an export button with a dropdown, matching the RST description for |image5| used to export logs."
+          "Matches |image5| for exporting search results in the upper right corner.",
+          "Clearly shows an export icon with a dropdown menu."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -2375,209 +1622,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 8
     },
     "summary": {
-      "pass": 7,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001479138361.png",
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": true,
-        "contains_interactive_buttons": true,
-        "reasons": [
-          "Screenshot clearly displays the bar chart interface described in the document.",
-          "UI elements such as tabs and dropdowns match the navigation and filtering steps outlined in the text.",
-          "Magenta accents on the active tab and dropdown border comply with the color rule."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001479298177.png",
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons (links) are blue, and no magenta elements are present in the UI.",
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "reasons": [
-          "Screenshot displays the log details list table as described in the section.",
-          "Contains interactive links that do not follow the required magenta or plain white color scheme.",
-          "No other magenta buttons or text are visible to satisfy the hard-fail exception."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001429259356.png",
-        "image_kind": "screenshot",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "reasons": [
-          "Screenshot shows the log context view with surrounding entries numbered around the selected log.",
-          "Directly illustrates the 'View Context' feature described in the document."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893614.png",
-        "image_kind": "icon",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "reasons": [
-          "Icon depicts a circular refresh/reset arrow.",
-          "Matches the instruction to click this icon to deselect a bar chart block."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893584.png",
-        "image_kind": "icon",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "reasons": [
-          "Icon appears to be an expand/collapse chevron, matching the 'view details' instruction.",
-          "Contextually aligns with expanding log entries in the list."
-        ],
-        "missing_evidence": [
-          "Image resolution is low and blurry, making precise symbol identification slightly difficult."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001562424626.png",
-        "image_kind": "icon",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "reasons": [
-          "Icon shows a downward arrow alongside horizontal lines, indicating a descending sort order.",
-          "Matches the instruction for sorting logs by collection time."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001562264710.png",
-        "image_kind": "icon",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "reasons": [
-          "Icon is colored magenta/pink, consistent with the UI theme.",
-          "Represents the sorting action described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/viewing_bucket_logs.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001612744525.png",
-        "image_kind": "icon",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "reasons": [
-          "Icon is colored magenta/pink, consistent with the UI theme.",
-          "Represents the sorting action described in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/log_management/viewing_log_files.rst",
@@ -2617,7 +1675,7 @@
     ],
     "status": {
       "http_status": 200,
-      "finish_reason": "completed",
+      "finish_reason": "incomplete",
       "attempt": 1,
       "max_retries": 2,
       "error": null,
@@ -2625,78 +1683,11 @@
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/log_management/viewing_log_files.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461631457.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows log file details with time range selector and action buttons, matching Figure 1 description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/viewing_log_files.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001561946430.png",
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows log file details with time information highlighted, matching Figure 2 description."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/log_management/viewing_log_files.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411431544.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the date picker element referenced in the table for setting a time range."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/monitoring_overview/dashboard.rst",
@@ -2805,252 +1796,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 10
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
-      "fail": 6
+      "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "screenshot",
-        "hard_fail": true,
-        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays a line graph matching the 'Metric Data Graphs' section description.",
-          "Visual content aligns with Figure 1 reference in the RST."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/monitoring_overview/dashboard.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411325438.png",
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": true,
-        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays a digit graph showing a single real-time metric value, matching the 'Digit graph' description.",
-          "Visual content aligns with Figure 2 reference in the RST."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/monitoring_overview/dashboard.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461164845.png",
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": true,
-        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays a table showing threshold rules and their statuses (e.g., Exceeded, Insufficient), matching the 'Threshold-crossing status graph' description.",
-          "Visual content aligns with Figure 3 reference in the RST."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/monitoring_overview/dashboard.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411006006.png",
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": true,
-        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays a table showing host names and their health statuses (Normal, Abnormal), matching the 'Host status graph' description.",
-          "Visual content aligns with Figure 4 reference in the RST."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/monitoring_overview/dashboard.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461046213.png",
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": true,
-        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays a table showing component names and their health statuses (Normal), matching the 'Component status graph' description.",
-          "Visual content aligns with Figure 5 reference in the RST."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/monitoring_overview/dashboard.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411326706.png",
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": true,
-        "hard_fail_reason": "Contains interactive dropdown 'Operation' which is blue, not magenta or plain white, and no other magenta buttons or text are present.",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot displays a list of top hosts by CPU usage alongside a small trend graph, matching the 'Top N Resource Graphs' description.",
-          "Visual content aligns with Figure 6 reference in the RST."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/monitoring_overview/dashboard.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461287489.png",
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the 'Add Metric Graph' dialog box with resource selection, metric configuration, and a preview graph.",
-          "Contains a magenta 'OK' button, satisfying the color rule.",
-          "Visual content aligns with Figure 7 reference in the RST."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/monitoring_overview/dashboard.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411328114.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon depicts a toggle switch in the 'ON' position, matching the 'Auto Refresh' feature description.",
-          "Visual content aligns with |image1| reference in the RST."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/monitoring_overview/dashboard.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411422764.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon shows a magenta square with diagonal arrows, representing the full-screen function.",
-          "Visual content aligns with |image2| reference in the RST."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/monitoring_overview/dashboard.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001599019641.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon shows a double-headed arrow cursor, representing the resize function.",
-          "Visual content aligns with |image3| reference in the RST."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/monitoring_overview/dashboard.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893612.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/monitoring_overview/o_and_m.rst",
@@ -3221,26 +1980,26 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
       "attached_image_count": 13
     },
     "summary": {
-      "pass": 13,
+      "pass": 0,
       "partial": 0,
-      "fail": 0
+      "fail": 13
     },
     "results": [
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001471047065.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (dropdowns, icons) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3249,21 +2008,23 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays the 'Infrastructure Monitoring' card exactly as described in the RST document.",
-          "Visible metrics such as Host status, CPU/Memory usage, and network traffic graphs match the textual description."
+          "Image matches the 'Infrastructure Monitoring Card' section.",
+          "Displays host status, CPU/memory usage, and network traffic trend graphs as described in the RST."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001420570268.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (dropdowns, icons) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3272,21 +2033,23 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows the 'Application Monitoring' card, aligning with the RST description.",
-          "It correctly displays application status, components, containers, instances, and corresponding trend graphs."
+          "Image matches the 'Application Monitoring Card' section.",
+          "Shows application, component, container, and instance status along with network and CPU/memory trend graphs."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001462784353.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (icons) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3295,21 +2058,23 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image depicts the 'Alarm Statistics' card as detailed in the RST.",
-          "It includes alarm counts, log quota usage gauge, and trend charts for alarms and hosts."
+          "Image matches the 'Alarm Statistics Card' section.",
+          "Displays alarm counts, log quota usage gauge, and trends for alarms and hosts."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461502857.png",
         "image_kind": "screenshot",
         "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (checkbox, icons) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3318,44 +2083,48 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows the 'Component Monitoring (CPU and Memory)' card.",
-          "It lists top components and includes the 'Hide system components' checkbox, which is magenta as per the UI theme."
+          "Image matches the 'Component Monitoring (CPU and Memory) Card' section.",
+          "Shows top components with CPU/memory usage and includes the 'Hide system components' checkbox."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411262784.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (icons) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
-          "detail_match": 3,
+          "detail_match": 2,
           "section_relevance": 3,
           "visual_evidence": 3,
           "contradictions": 3
         },
         "reasons": [
-          "The image displays the 'Cluster Monitoring (Disk)' card.",
-          "It shows disk usage metrics and cluster details consistent with the RST description."
+          "Image matches the 'Cluster Monitoring (Disk) Card' section.",
+          "Displays cluster disk usage metrics and a table of top clusters."
         ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
+        "missing_evidence": [
+          "RST lacks a detailed descriptive paragraph for this specific card, only providing the figure reference."
+        ],
+        "overall_score": 0.93,
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461281269.png",
         "image_kind": "screenshot",
         "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (checkbox, icons) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3364,21 +2133,23 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows the 'Container Instance Monitoring (CPU and Memory)' card.",
-          "It lists container instances and includes the magenta 'Hide system instances' checkbox."
+          "Image matches the 'Container Instance Monitoring (CPU and Memory) Card' section.",
+          "Shows top container instances with CPU/memory usage and includes the 'Hide system instances' checkbox."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461822513.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (icons) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3387,21 +2158,23 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image depicts the 'Host Monitoring (Disk)' card.",
-          "It correctly displays disk read/write rates and host details as described."
+          "Image matches the 'Host Monitoring (Disk) Card' section.",
+          "Displays disk read/write rates and a trend graph for the selected host."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461862497.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (icons) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3410,21 +2183,23 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows the 'Host Monitoring (Network)' card.",
-          "It displays network traffic metrics (downlink/uplink) and host information matching the RST."
+          "Image matches the 'Host Monitoring (Network) Card' section.",
+          "Displays network send/receive rates and a trend graph for the selected host."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411102964.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (icons) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3433,21 +2208,23 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays the 'Host Monitoring (CPU and Memory)' card.",
-          "It shows CPU and memory usage metrics for hosts, consistent with the documentation."
+          "Image matches the 'Host Monitoring (CPU and Memory) Card' section.",
+          "Shows host CPU and memory usage metrics and a trend graph."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410943068.png",
         "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (icons) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3456,21 +2233,23 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows the 'Cluster Monitoring (CPU and Memory)' card.",
-          "It presents cluster CPU and memory usage data as described in the RST."
+          "Image matches the 'Cluster Monitoring (CPU and Memory) Card' section.",
+          "Displays cluster CPU and memory usage metrics and a trend graph."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893663.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (icon) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3479,21 +2258,23 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows the vertical ellipsis icon referenced in the 'More Operations' table.",
-          "It corresponds to the 'Adding a card to favorites' and 'Adding a card to dashboard' operations."
+          "Image matches the 'More Operations' table reference for |image4|.",
+          "Shows the three-dot vertical menu icon used for 'Adding a card to favorites'."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893651.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (icon) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3502,21 +2283,23 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows the vertical ellipsis icon referenced in the 'More Operations' table.",
-          "It is used for the 'Adding a card to dashboard' operation."
+          "Image matches the 'More Operations' table reference for |image5|.",
+          "Shows the three-dot vertical menu icon used for 'Adding a card to dashboard'."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/monitoring_overview/o_and_m.rst",
         "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263893592.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive UI controls (icon) are present but are not magenta or plain white, and no magenta elements are visible.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -3525,12 +2308,14 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows the zoom/fullscreen icon referenced in the 'More Operations' table.",
-          "It corresponds to the 'Zooming in a metric graph' operation."
+          "Image matches the 'More Operations' table reference for |image6|.",
+          "Shows the expand/zoom icon used for 'Zooming in a metric graph'."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "None"
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       }
     ]
   },
@@ -3602,58 +2387,11 @@
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/resource_monitoring/application_monitoring.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669240.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is an icon depicting a line graph, which directly corresponds to the text instruction for adding a line graph.",
-          "The visual symbol matches the described UI element perfectly."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/resource_monitoring/application_monitoring.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0269669241.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is an icon depicting a digit/graph, which directly corresponds to the text instruction for adding a digit graph.",
-          "The visual symbol matches the described UI element perfectly."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/resource_monitoring/component_monitoring.rst",
@@ -3722,11 +2460,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 6
     },
@@ -3794,11 +2532,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
@@ -3886,210 +2624,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 7
     },
     "summary": {
-      "pass": 7,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001410950444.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon representing the 'hide metric data' action described in the RST table.",
-          "The visual symbol aligns with standard UI conventions for hiding or disabling data display.",
-          "Directly corresponds to the 'More Operations' section of the document."
-        ],
-        "missing_evidence": [
-          "Image resolution is low, obscuring fine details of the icon.",
-          "Isolated view lacks surrounding UI context to confirm exact placement."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461628997.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon representing the 'show metric data' action described in the RST table.",
-          "The visual symbol aligns with standard UI conventions for revealing or enabling data display.",
-          "Directly corresponds to the 'More Operations' section of the document."
-        ],
-        "missing_evidence": [
-          "Image resolution is low, obscuring fine details of the icon.",
-          "Isolated view lacks surrounding UI context to confirm exact placement."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411110332.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon indicating a metric data status, as described in the RST table.",
-          "Matches the visual representation for metric status indicators.",
-          "Directly corresponds to the 'More Operations' section of the document."
-        ],
-        "missing_evidence": [
-          "Image resolution is low, obscuring fine details of the icon.",
-          "Isolated view lacks surrounding UI context to confirm exact placement."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461509173.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small symbolic icon indicating a metric data status, as described in the RST table.",
-          "Matches the visual representation for metric status indicators.",
-          "Directly corresponds to the 'More Operations' section of the document."
-        ],
-        "missing_evidence": [
-          "Image resolution is low, obscuring fine details of the icon.",
-          "Isolated view lacks surrounding UI context to confirm exact placement."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461868817.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a bell icon, which semantically matches the 'create an alarm rule' action described in the RST table.",
-          "Standard UI convention for alarms/notifications aligns with the documentation.",
-          "Directly corresponds to the 'More Operations' section of the document."
-        ],
-        "missing_evidence": [
-          "Image resolution is low, obscuring fine details of the icon.",
-          "Isolated view lacks surrounding UI context to confirm exact placement."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001411429104.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a copy icon (overlapping squares), which semantically matches the 'copy the metric data' action described in the RST table.",
-          "Standard UI convention for copying aligns with the documentation.",
-          "Directly corresponds to the 'More Operations' section of the document."
-        ],
-        "missing_evidence": [
-          "Image resolution is low, obscuring fine details of the icon.",
-          "Isolated view lacks surrounding UI context to confirm exact placement."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/resource_monitoring/metric_monitoring.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001461509265.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a trash can icon, which semantically matches the 'delete a metric' action described in the RST table.",
-          "Standard UI convention for deletion aligns with the documentation.",
-          "Directly corresponds to the 'More Operations' section of the document."
-        ],
-        "missing_evidence": [
-          "Image resolution is low, obscuring fine details of the icon.",
-          "Isolated view lacks surrounding UI context to confirm exact placement."
-        ],
-        "overall_score": 0.95,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/application_scenarios.rst",
@@ -4118,7 +2666,7 @@
       }
     ],
     "status": {
-      "http_status": 500,
+      "http_status": 429,
       "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
@@ -4150,43 +2698,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/basic_concepts.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897774.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a diagram illustrating a cluster metric namespace, its dimensions, and specific metrics, which directly corresponds to the 'Metrics' section text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/restrictions.rst",
@@ -4205,45 +2730,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/restrictions.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001167553061.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows the 'Interpolation Mode' dropdown menu exactly as described in the text.",
-          "The visible options 'null', '0', and 'average' match the documentation's instruction to set the mode to '0' or 'average'.",
-          "The screenshot directly supports the section on Service Usage Restrictions regarding metric data breakpoints."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/what_is_aom.rst",
@@ -4292,112 +2792,19 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 4,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/what_is_aom.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897681.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Illustration accurately depicts O&M challenges mentioned in the text, such as high costs and difficult problem analysis.",
-          "Visual elements like rising cost graphs and error screens directly correspond to the 'Challenges' section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_overview/what_is_aom.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897780.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Diagram visually represents AOM as a one-stop platform managing resources, apps, services, and middleware.",
-          "Aligns perfectly with the 'Introduction to AOM' section describing it as a multi-dimensional O&M management platform."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_overview/what_is_aom.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0000001459663365.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Illustration highlights the 'Multi-Dimensional O&M' advantage, listing supported targets like mobile apps, networks, etc.",
-          "Matches the text's description of a multi-dimensional platform covering various cloud resources and services."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/service_overview/what_is_aom.rst",
-        "image_path": "/home/ubuntu/repotesting/application-operations-management/umn/source/_static/images/en-us_image_0263897677.png",
-        "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "buttons_magenta": false,
-        "contains_interactive_buttons": false,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Illustrations detail specific advantages like Health Check and Ease of Use.",
-          "Directly corresponds to the benefits described in the 'Advantages' section, such as real-time monitoring and non-intrusive data collection."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   }
 ]

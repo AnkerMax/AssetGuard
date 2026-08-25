@@ -60,7 +60,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -73,13 +73,11 @@
     },
     "results": [
       {
-        "document_path": "umn/source/cloud_service_monitoring/viewing_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001220595446.png",
         "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
         "hard_fail": false,
         "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -88,21 +86,21 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays an expand/enlarge icon (diagonal arrows), which directly corresponds to the RST instruction to click it for viewing details on an enlarged graph.",
-          "The visual symbol is a standard UI representation for expanding a view, matching the context perfectly."
+          "The image displays a square icon with two diagonal arrows pointing outward, which is a standard UI symbol for expanding or enlarging a view.",
+          "This aligns perfectly with the RST instruction in step 7 to click this icon to view monitoring details on an enlarged graph."
         ],
         "missing_evidence": [],
+        "document_path": "umn/source/cloud_service_monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001220595446.png",
         "overall_score": 1.0,
         "verdict": "pass"
       },
       {
-        "document_path": "umn/source/cloud_service_monitoring/viewing_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001264836141.png",
         "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
         "hard_fail": false,
         "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -111,10 +109,12 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a plus/add icon, which directly corresponds to the RST instruction to click it to create alarm rules for the metric.",
-          "The visual symbol is a standard UI representation for adding or creating new items, matching the context perfectly."
+          "The image displays a square icon with a plus sign, which is a standard UI symbol for adding or creating a new item.",
+          "This aligns perfectly with the RST instruction in step 8 to click this icon to create alarm rules for the metric."
         ],
         "missing_evidence": [],
+        "document_path": "umn/source/cloud_service_monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001264836141.png",
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -190,7 +190,7 @@
     ],
     "status": {
       "http_status": 200,
-      "finish_reason": "completed",
+      "finish_reason": "incomplete",
       "attempt": 1,
       "max_retries": 2,
       "error": null,
@@ -221,45 +221,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/server_monitoring/how_can_i_create_an_agency.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0110267213.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a small gray location pin icon, consistent with the RST description of an icon for selecting a region and project.",
-          "The icon is used in the procedure step to click in the upper left corner.",
-          "No contradictions or missing visual evidence."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/server_monitoring/how_can_i_fix_the_ssh_dial_error_during_batch_agent_installation.rst",
@@ -280,7 +255,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -312,7 +287,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -340,9 +315,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a terminal session showing the correct directory path and the content of custom_conf.json.",
-          "The JSON values (50 and 60) exactly match the RST example for updating 50 processes per minute.",
-          "It provides direct visual confirmation of the configuration step described in the Linux section."
+          "The image displays a terminal session showing the exact directory path and custom_conf.json content specified in the RST text for updating 50 processes per minute."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -392,6 +365,8 @@
     },
     "results": [
       {
+        "document_path": "umn/source/faqs/server_monitoring/how_do_i_enable_or_disable_metric_collection_by_modifying_the_configuration_file.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002461365577.png",
         "image_kind": "screenshot",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -405,16 +380,15 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image displays a terminal window showing the content of custom_conf.json with metric values set to \"true\".",
-          "This directly matches the RST example for enabling metric collection (Figure 1)."
+          "The image shows a terminal displaying the custom_conf.json file with metric collection enabled (values set to \"true\"), directly matching the RST example for enabling metric collection."
         ],
         "missing_evidence": [],
-        "document_path": "umn/source/faqs/server_monitoring/how_do_i_enable_or_disable_metric_collection_by_modifying_the_configuration_file.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002461365577.png",
         "overall_score": 1.0,
         "verdict": "pass"
       },
       {
+        "document_path": "umn/source/faqs/server_monitoring/how_do_i_enable_or_disable_metric_collection_by_modifying_the_configuration_file.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002462468769.png",
         "image_kind": "screenshot",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
@@ -428,12 +402,9 @@
           "contradictions": 3
         },
         "reasons": [
-          "Image displays a terminal window showing the content of custom_conf.json with metric values set to \"false\".",
-          "This directly matches the RST example for disabling metric collection (Figure 2)."
+          "The image shows a terminal displaying the custom_conf.json file with metric collection disabled (values set to \"false\"), directly matching the RST example for disabling metric collection."
         ],
         "missing_evidence": [],
-        "document_path": "umn/source/faqs/server_monitoring/how_do_i_enable_or_disable_metric_collection_by_modifying_the_configuration_file.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002462468769.png",
         "overall_score": 1.0,
         "verdict": "pass"
       }
@@ -485,9 +456,9 @@
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 2,
       "partial": 0,
-      "fail": 0
+      "fail": 1
     },
     "results": [
       {
@@ -496,8 +467,8 @@
         "image_kind": "screenshot",
         "contains_interactive_buttons": true,
         "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons (e.g., 'Select Metric', time range tabs) are not magenta or plain white.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -506,12 +477,12 @@
           "contradictions": 3
         },
         "reasons": [
-          "Screenshot of the Cloud Eye monitoring dashboard displaying multiple metric graphs.",
-          "Directly illustrates step 5 of the procedure for viewing graphs and monitoring data."
+          "The image shows the detailed monitoring page with graphs as described in step 5.",
+          "Hard fail triggered due to button colors not matching the required magenta or plain white."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       },
       {
         "document_path": "umn/source/getting_started/querying_metrics_of_a_cloud_service.rst",
@@ -529,8 +500,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Icon displaying diagonal arrows, which universally signifies expanding or enlarging a view.",
-          "Matches the instruction in step 7 to click this icon to view an enlarged graph."
+          "The image shows an expand/fullscreen icon.",
+          "This matches the description in step 7 for clicking to view an enlarged graph."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -552,8 +523,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "Icon displaying a plus sign, commonly used to represent adding or creating new items.",
-          "Matches the instruction in step 8 to click this icon to create an alarm rule."
+          "The image shows a plus icon.",
+          "This matches the description in step 8 for creating an alarm rule."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -578,11 +549,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -650,133 +621,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
-      "fail": 2
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/my_dashboards/configuring_a_graph.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001881909965.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons and menu items are black, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the graph management menu.",
-          "Matches the procedure for configuring line charts."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/my_dashboards/configuring_a_graph.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001835931196.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons and menu items are black, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Screenshot shows the metric sorting dialog.",
-          "Matches the procedure for configuring bar charts."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/my_dashboards/configuring_a_graph.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001967826817.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the three-dot menu button referenced in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/my_dashboards/configuring_a_graph.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001744042857.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the sorting button referenced in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/my_dashboards/configuring_a_graph.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002353540498.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Icon matches the three-dot menu button referenced in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/my_dashboards/deleting_a_dashboard.rst",
@@ -795,11 +653,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -847,88 +705,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/my_dashboards/deleting_a_graph.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002126246800.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive menu buttons are black, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the graph menu with the 'Delete' option, corresponding to step 6.",
-          "Hard fail triggered because interactive buttons are not magenta or plain white."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "fail"
-      },
-      {
-        "document_path": "umn/source/my_dashboards/deleting_a_graph.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002126246804.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the 'Delete Graph' dialog box with the magenta 'OK' button, matching step 7."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/my_dashboards/deleting_a_graph.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002387101041.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the three-dot menu icon referenced as |image1| in step 6."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/my_dashboards/viewing_a_graph.rst",
@@ -1137,11 +927,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 20
     },
@@ -1189,93 +979,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 3
     },
     "summary": {
-      "pass": 3,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/my_dashboards/viewing_my_dashboards.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002425844405.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a star outline icon, which directly corresponds to the RST instruction to click it in the 'Favorites' column."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/my_dashboards/viewing_my_dashboards.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002425764801.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a list icon (three horizontal lines), matching the RST description for switching the dashboard view to a list."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/my_dashboards/viewing_my_dashboards.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002425765261.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a grid icon (four squares), aligning with the RST instruction to switch the dashboard view to a grid layout."
-        ],
-        "missing_evidence": [
-          "None."
-        ],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/permissions_management/creating_a_user_and_granting_permissions.rst",
@@ -1294,11 +1011,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1326,47 +1043,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/product_introduction/region_and_az.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0184026531.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a conceptual diagram that directly illustrates the relationship between Regions and Availability Zones (AZs), perfectly matching the document's title and topic.",
-          "It visually depicts two distinct regions, each containing three interconnected AZs, which aligns with the textual explanation of physical isolation and internal networking.",
-          "The diagram is highly relevant to the 'Concept' section, providing a clear visual aid for the abstract definitions provided in the text.",
-          "Offers strong visual evidence of the hierarchical structure and connectivity described in the RST content.",
-          "No contradictions are present between the visual representation and the written documentation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/product_introduction/what_is_cloud_eye.rst",
@@ -1385,45 +1075,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/product_introduction/what_is_cloud_eye.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001089625394.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is an architecture diagram explicitly labeled 'Cloud Eye architecture', directly corresponding to Figure 1 referenced in the text.",
-          "It visually represents the core components described in the document, including Cloud Resources (VPC, EVS, ECS), Custom Monitoring, Metrics collection, Alarm data, and the Cloud Eye console.",
-          "The diagram accurately illustrates the data flow and notification outputs (AS, SMN) that align with the 'Real-time notifications' and 'Dashboard' features mentioned in the RST."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/quota_adjustment.rst",
@@ -1452,11 +1117,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -1494,67 +1159,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/resource_groups/creating_a_resource_group.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001902856296.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image shows the Resource Groups page with the 'Create Resource Group' button in the upper right corner.",
-          "Directly illustrates step 5 of the procedure."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/resource_groups/creating_a_resource_group.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001787894604.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Image displays the resource selection interface with service categories on the left and a resource list on the right.",
-          "Shows the Enterprise Project dropdown and 'Create' button, matching step 6."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/resource_groups/managing_resource_groups/deleting_a_resource_group.rst",
@@ -1573,11 +1191,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1605,11 +1223,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1637,11 +1255,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1679,65 +1297,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/server_monitoring/agent_installation_and_configuration/installing_and_configuring_the_agent_on_a_linux_ecs_or_bms/modifying_the_dns_server_address_and_adding_security_group_rules_linux.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0183510251.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a terminal window displaying the resolv.conf file content, including the nameserver 100.125.4.25 line as instructed in the command line modification section."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/server_monitoring/agent_installation_and_configuration/installing_and_configuring_the_agent_on_a_linux_ecs_or_bms/modifying_the_dns_server_address_and_adding_security_group_rules_linux.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001200355919.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "Displays a pencil icon, which corresponds to the edit button mentioned in the management console steps for modifying the DNS server address."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/server_monitoring/agent_installation_and_configuration/installing_and_configuring_the_agent_on_a_windows_ecs/modifying_the_dns_server_address_and_adding_security_group_rules_windows.rst",
@@ -1756,11 +1329,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1788,11 +1361,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1830,65 +1403,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a gear icon, which aligns with the document's description of the UI element used to access process monitoring features."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/server_monitoring/viewing_metrics/viewing_process_monitoring_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0146378778.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows diagonal arrows, matching the document's description of the icon used to enlarge the graph for detailed data viewing."
-        ],
-        "missing_evidence": [],
-        "document_path": "umn/source/server_monitoring/viewing_metrics/viewing_process_monitoring_metrics.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0239656150.png",
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/server_monitoring/viewing_metrics/viewing_server_monitoring_metrics.rst",
@@ -1907,11 +1435,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1979,11 +1507,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
@@ -2020,19 +1548,19 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
-      "fail": 0
+      "fail": 1
     },
     "results": [
       {
         "document_path": "umn/source/using_the_alarm_function/alarm_rule_management/viewing_details_of_an_alarm_rule.rst",
         "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001425588773.png",
         "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "contains_interactive_buttons": false,
+        "contains_interactive_buttons": true,
         "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive controls (search input, icons) are not magenta or plain white, and no magenta elements are present in the UI.",
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -2041,13 +1569,15 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a screenshot of the alarm rule details page, directly corresponding to the document title and procedure step 5.",
-          "It visually displays the 'Basic Information', 'Monitored Object', and 'Alarm Policy' sections described in the RST tables.",
-          "All UI elements and parameters shown in the screenshot match the descriptions provided in the documentation."
+          "The image is a screenshot of the alarm rule details page, matching the RST title and procedure.",
+          "It visually confirms the 'Basic Information', 'Monitored Object', and 'Alarm Policy' sections described in the documentation.",
+          "Hard fail triggered due to non-magenta/white interactive controls without any magenta UI elements."
         ],
-        "missing_evidence": [],
+        "missing_evidence": [
+          "The 'Alarm Notifications' section described in the RST is not visible in the screenshot."
+        ],
         "overall_score": 1.0,
-        "verdict": "pass"
+        "verdict": "fail"
       }
     ]
   },
@@ -2141,36 +1671,11 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/using_the_alarm_function/alarm_templates/importing_and_exporting_custom_metric_or_event_templates.rst",
-        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001789425696.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays the 'Import Template' dialog box, which directly corresponds to the section on importing custom templates.",
-          "It visually confirms the UI elements described in the text, including the 'Upload Template' field, 'Template Name' input, and the 'OK' button.",
-          "The screenshot provides clear visual evidence for the step-by-step instructions provided in the documentation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/using_the_alarm_function/alarm_templates/modifying_a_custom_metric_or_event_template.rst",
@@ -2198,11 +1703,39 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/using_the_alarm_function/alarm_templates/modifying_a_custom_metric_or_event_template.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001645095252.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image displays the 'Modify Custom Template' page, which directly corresponds to the RST section title and step 7.",
+          "Visible form fields such as 'Name', 'Description', 'Alarm Type', and 'Method' align with the instruction to modify configured parameters.",
+          "The UI layout shows a configuration table for alarm policies, consistent with the context of modifying a custom metric or event template."
+        ],
+        "missing_evidence": [
+          "The 'Modify' button mentioned in step 8 is not visible in the screenshot, likely cropped at the bottom.",
+          "Table 1 referenced in the RST for parameter details is not shown in the image."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/using_the_alarm_function/creating_alarm_rules/creating_an_alarm_rule.rst",
@@ -2240,11 +1773,60 @@
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 2,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/using_the_alarm_function/creating_alarm_rules/creating_an_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001940391649.png",
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": true,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the 'Alarm Notification' configuration UI, directly corresponding to section c.",
+          "Visible fields such as Notification Object, Window, and Trigger Condition align with Table 4.",
+          "Magenta toggle and checkbox indicate interactive elements consistent with the documentation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/using_the_alarm_function/creating_alarm_rules/creating_an_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001693213709.png",
+        "image_kind": "screenshot",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "buttons_magenta": false,
+        "contains_interactive_buttons": true,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Advanced Settings' section, specifically the Enterprise Project configuration.",
+          "Matches section d and Table 5 parameters for selecting an enterprise project.",
+          "UI elements like the dropdown and 'Create Enterprise Project' link are clearly visible."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/using_the_alarm_function/one-click_monitoring.rst",
@@ -2282,10 +1864,57 @@
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
-      "fail": 0
+      "fail": 1
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "umn/source/using_the_alarm_function/one-click_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000001693305821.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "The interactive toggle switch is grey, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the One-Click Monitoring toggle for API Gateway, matching the RST step to enable monitoring.",
+          "Red box highlights the toggle control as described in the instructions."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/using_the_alarm_function/one-click_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-eye/umn/source/_static/images/en-us_image_0000002410287150.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": true,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays the expanded alarm rules and policies under API Gateway with magenta toggles enabled.",
+          "Matches the RST description for viewing and managing alarm rules."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   }
 ]

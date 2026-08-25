@@ -1,3 +1,15 @@
 document_file,document_title,image_file,image_reference_type,image_reference_line,detected_image_type,has_interactive_buttons,interactive_buttons_magenta,hard_fail_triggered,hard_fail_reason,score_topic_match,score_detail_match,score_section_relevance,score_visual_evidence,score_contradictions,overall_score,final_verdict,processing_error,api_http_status,api_finish_reason,api_attempt,match_reasons,missing_evidence
 api-ref/source/public_parameters/obtaining_a_project_id.rst,Obtaining a Project ID,,,,,,,,,,,,,,,fail,kein valides Bild,,,0,,
-umn/source/subscription_management/adding_a_subscription.rst,Adding a Subscription,/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001495292001.png,substitution_image,118,icon,False,False,False,,1,1,2,2,1,0.45,fail,,200,completed,1,The image shows a button labeled 'Add Endpoint'. | The RST text instructs users to click this image to select a function for the FunctionGraph protocol. | There is a clear mismatch between the image label and the text instruction.,Clarification is needed on whether the image should depict function selection or endpoint addition.
+umn/source/subscription_management/editing_a_subscription.rst,Editing a Subscription,,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/subscription_management/exporting_subscriptions.rst,Exporting Subscriptions,,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/subscription_management/requesting_subscription_confirmation.rst,Requesting Subscription Confirmation,,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/topic_management/adding_a_subscription_to_a_topic.rst,Adding a Subscription to a Topic,,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/topic_management/adding_modifying_or_deleting_a_topic_tag.rst,"Adding, Modifying, or Deleting a Topic Tag",,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/topic_management/configuring_a_topic_policy.rst,Configuring a Topic Policy,,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/topic_management/creating_a_topic.rst,Creating a Topic,,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/topic_management/deleting_a_topic.rst,Deleting a Topic,,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/topic_management/exporting_topics.rst,Exporting Topics,,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/topic_management/modifying_the_display_name_of_a_topic.rst,Modifying the Display Name of a Topic,,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/topic_management/publishing_a_message/publishing_a_json_message.rst,Publishing a JSON Message,,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/topic_management/publishing_a_message/publishing_a_template_message.rst,Publishing a Template Message,,,,,,,,,,,,,,,fail,backend_error,429,,2,,
+umn/source/topic_management/publishing_a_message/publishing_a_text_message.rst,Publishing a Text Message,,,,,,,,,,,,,,,fail,backend_error,429,,2,,

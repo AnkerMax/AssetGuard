@@ -1,7 +1,11 @@
-2026-07-22 09:48:13,978 INFO __main__ - Starting AssetGuard
-2026-07-22 09:48:13,978 INFO __main__ - Workspace: /home/ubuntu/repotesting/cloud-eye
-2026-07-22 09:48:13,978 INFO __main__ - Found RST-Dateien: 236
-2026-07-22 09:48:13,978 INFO __main__ - Sending files to backend and waiting for response..
-2026-07-22 10:03:31,896 INFO __main__ - Done. Processed 36 rst files, wrote 36 rows to results_with_images.json, flagged 3 files, csv=results_with_images.csv, failed_csv=results_with_images.failed_only.csv
-duration_seconds=918
-duration_human=15m 18s
+==> Bearbeite cloud-eye
+Already up to date.
+
+From https://github.com/opentelekomcloud-docs/cloud-eye
+ * [new branch]      mrumpler3-patch-3 -> origin/mrumpler3-patch-3
+OK: speichere Ergebnis von cloud-eye in /home/ubuntu/AssetGuard/repo_results/cloud-eye (Dauer: 15m 47s)
+processed_files=36
+flagged_files=25
+row_count=36
+duration_seconds=947
+duration_human=15m 47s

@@ -1,7 +1,8 @@
-2026-07-23 13:43:25,348 INFO __main__ - Starting AssetGuard
-2026-07-23 13:43:25,348 INFO __main__ - Workspace: /home/ubuntu/repotesting/resource-template-service
-2026-07-23 13:43:25,348 INFO __main__ - Found RST-Dateien: 145
-2026-07-23 13:43:25,348 INFO __main__ - Sending files to backend and waiting for response..
-2026-07-23 13:49:24,232 INFO __main__ - Done. Processed 11 rst files, wrote 11 rows to results_with_images.json, flagged 2 files, csv=results_with_images.csv, failed_csv=results_with_images.failed_only.csv
-duration_seconds=359
-duration_human=5m 59s
+==> Bearbeite resource-template-service
+Already up to date.
+OK: speichere Ergebnis von resource-template-service in /home/ubuntu/AssetGuard/repo_results/resource-template-service (Dauer: 0m 24s)
+processed_files=11
+flagged_files=11
+row_count=11
+duration_seconds=24
+duration_human=0m 24s

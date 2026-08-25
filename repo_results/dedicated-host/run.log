@@ -1,7 +1,8 @@
-2026-07-23 12:07:46,215 INFO __main__ - Starting AssetGuard
-2026-07-23 12:07:46,215 INFO __main__ - Workspace: /home/ubuntu/repotesting/dedicated-host
-2026-07-23 12:07:46,215 INFO __main__ - Found RST-Dateien: 100
-2026-07-23 12:07:46,215 INFO __main__ - Sending files to backend and waiting for response..
-2026-07-23 12:16:42,313 INFO __main__ - Done. Processed 22 rst files, wrote 22 rows to results_with_images.json, flagged 7 files, csv=results_with_images.csv, failed_csv=results_with_images.failed_only.csv
-duration_seconds=536
-duration_human=8m 56s
+==> Bearbeite dedicated-host
+Already up to date.
+OK: speichere Ergebnis von dedicated-host in /home/ubuntu/AssetGuard/repo_results/dedicated-host (Dauer: 3m 13s)
+processed_files=22
+flagged_files=21
+row_count=22
+duration_seconds=193
+duration_human=3m 13s

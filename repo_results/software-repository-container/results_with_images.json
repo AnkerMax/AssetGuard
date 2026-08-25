@@ -119,11 +119,35 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "doc/best-practice/source/faqs/general_faqs/about_swr.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539405909.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a terminal output from the `docker inspect` command.",
+          "It clearly displays the `\"Architecture\": \"amd64\"` field, which directly matches the text's example for querying CPU architecture."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "doc/best-practice/source/faqs/general_faqs/how_do_i_create_a_container_image.rst",
@@ -169,7 +193,7 @@
       {
         "document_path": "doc/best-practice/source/faqs/general_faqs/how_do_i_create_a_container_image.rst",
         "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153802.png",
-        "image_kind": "other",
+        "image_kind": "screenshot",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
         "hard_fail": false,
@@ -182,8 +206,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image illustrates the step-by-step process of creating a container snapshot as described in Approach 1.",
-          "It clearly shows starting a base container, installing software, and creating a snapshot."
+          "The image clearly illustrates the steps for Approach 1: starting a base container, entering it to install software, and creating a snapshot.",
+          "The diagram matches the textual description of creating a container image snapshot."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -192,7 +216,7 @@
       {
         "document_path": "doc/best-practice/source/faqs/general_faqs/how_do_i_create_a_container_image.rst",
         "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153805.png",
-        "image_kind": "other",
+        "image_kind": "screenshot",
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
         "hard_fail": false,
@@ -205,8 +229,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image visually contrasts the manual snapshot approach with the automated Dockerfile build approach.",
-          "It shows the transition from manual installation to using a Dockerfile for building images."
+          "The image effectively contrasts Approach 1 with Approach 2, highlighting the use of a Dockerfile and the docker build command as described in the text.",
+          "The diagram accurately represents the automated image build process using a Dockerfile."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -240,11 +264,38 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "doc/best-practice/source/faqs/troubleshooting/why_does_the_login_command_fail_to_be_executed.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0168961239.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small symbolic icon depicting overlapping squares, which is the standard visual representation for a copy function.",
+          "This aligns perfectly with the RST text instruction to click the image to copy the login command.",
+          "The image is blurry and low-resolution, which limits the clarity of the visual details."
+        ],
+        "missing_evidence": [
+          "The poor image quality prevents confirmation of any specific labels or fine details within the icon."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "doc/best-practice/source/image_management/obtaining_a_long-term_valid_login_command.rst",
@@ -305,7 +356,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -321,10 +372,10 @@
         "document_path": "doc/best-practice/source/image_management/obtaining_a_long-term_valid_login_command.rst",
         "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539605245.png",
         "image_kind": "other",
-        "hard_fail": false,
-        "hard_fail_reason": null,
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -333,7 +384,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a flowchart that accurately depicts the five-step process outlined in the document."
+          "The image is a flowchart that exactly matches the 5-step process described in the RST document."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -343,10 +394,10 @@
         "document_path": "doc/best-practice/source/image_management/obtaining_a_long-term_valid_login_command.rst",
         "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165729699.png",
         "image_kind": "screenshot",
-        "hard_fail": false,
-        "hard_fail_reason": null,
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 3,
           "detail_match": 3,
@@ -355,7 +406,7 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image shows a terminal command and its output, directly matching the example provided in step 4."
+          "The image shows a terminal window executing the exact command specified in step 4 of the procedure."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -365,46 +416,48 @@
         "document_path": "doc/best-practice/source/image_management/obtaining_a_long-term_valid_login_command.rst",
         "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001507688112.png",
         "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 2,
           "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 1,
+          "section_relevance": 3,
+          "visual_evidence": 2,
           "contradictions": 3
         },
         "reasons": [
-          "The image is a blurry icon referenced in step 1a for selecting a region and project."
+          "The image is a small, blurry icon referenced in step 1a for selecting a region and project."
         ],
         "missing_evidence": [
-          "The icon's specific function is unclear due to low resolution."
+          "The icon is too low-resolution to clearly identify its specific function beyond being a UI element."
         ],
-        "overall_score": 0.67,
+        "overall_score": 0.78,
         "verdict": "partial"
       },
       {
         "document_path": "doc/best-practice/source/image_management/obtaining_a_long-term_valid_login_command.rst",
         "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001558527697.png",
         "image_kind": "icon",
-        "hard_fail": false,
-        "hard_fail_reason": null,
         "contains_interactive_buttons": false,
         "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
         "criteria": {
           "topic_match": 2,
           "detail_match": 2,
-          "section_relevance": 2,
+          "section_relevance": 3,
           "visual_evidence": 2,
           "contradictions": 3
         },
         "reasons": [
-          "The image displays a hamburger menu icon, consistent with the navigation instruction in step 1c."
+          "The image shows a hamburger menu icon, which corresponds to the navigation pane icon mentioned in step 1c."
         ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
+        "missing_evidence": [
+          "The icon is low resolution, but contextually matches the navigation menu description."
+        ],
+        "overall_score": 0.78,
         "verdict": "partial"
       }
     ]
@@ -613,11 +666,36 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "doc/best-practice/source/organization_management.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001154801774.png",
+        "image_kind": "other",
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a conceptual diagram that directly illustrates the 'Organization' concept described in the document.",
+          "It visually represents the isolation of image repositories across different organizations (A, B, C), matching the scenario explanation.",
+          "The diagram clearly shows how users can access multiple organizations, aligning perfectly with the text's description of user permissions and organization management."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "doc/best-practice/source/overview.rst",
@@ -698,8 +776,8 @@
           "contradictions": 3
         },
         "reasons": [
-          "The image is a flowchart illustrating the process for granting SWR permissions.",
-          "The steps in the flowchart correspond directly to the numbered list in the RST document."
+          "The image is a flowchart illustrating the process for granting SWR permissions, which matches the document title and content.",
+          "The steps in the flowchart correspond directly to the numbered list in the document's process flow section."
         ],
         "missing_evidence": [],
         "overall_score": 1.0,
@@ -726,7 +804,7 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
@@ -758,18 +836,43 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": null,
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "doc/best-practice/source/service_overview/basic_concepts.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0195122694.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a diagram illustrating the concept of 'Organization' as described in the text.",
+          "It shows multiple organizations (A, B, C) containing different images and users, visually representing the isolation and management concepts.",
+          "The image is directly referenced in the 'Organization' section of the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "doc/best-practice/source/service_overview/introduction.rst",
@@ -799,9 +902,33 @@
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 0
+      "fail": 1
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "doc/best-practice/source/service_overview/introduction.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200534503.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Interactive buttons/links are blue, not magenta or plain white.",
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image visually depicts the three-step SWR workflow referenced in the figure caption.",
+          "The content aligns with the Introduction section's overview of SWR functionality."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "fail"
+      }
+    ]
   },
   {
     "file_path": "doc/best-practice/source/service_overview/related_services.rst",
@@ -829,11 +956,39 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "doc/best-practice/source/service_overview/related_services.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0196304259.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image correctly depicts the relationship between SWR, CCE, and CTS as outlined in the document.",
+          "It visually represents deploying images to CCE and interacting with CTS, aligning with the section's focus.",
+          "The diagram serves as a clear visual aid for the described service integrations."
+        ],
+        "missing_evidence": [
+          "The image labels the CTS interaction as 'Obtain logs', whereas the text describes recording operations for 'query, audit, and backtrack'.",
+          "The specific mechanism or data type exchanged with CTS is simplified in the diagram compared to the detailed text description."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "doc/best-practice/source/user_permissions.rst",
@@ -871,11 +1026,36 @@
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 0,
+      "pass": 1,
       "partial": 0,
       "fail": 0
     },
-    "results": []
+    "results": [
+      {
+        "document_path": "doc/best-practice/source/user_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200802327.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a diagram illustrating the three permission levels (Read, Write, Manage) and their corresponding actions.",
+          "It perfectly aligns with the textual description of what each permission allows in the SWR documentation.",
+          "The visual evidence directly supports the section on authorization methods and permission types."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
   },
   {
     "file_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
@@ -946,163 +1126,18 @@
     "status": {
       "http_status": 200,
       "finish_reason": "completed",
-      "attempt": 1,
+      "attempt": 2,
       "max_retries": 2,
       "error": null,
       "warning": null,
       "attached_image_count": 6
     },
     "summary": {
-      "pass": 6,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001744598325.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": true,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot of the 'Trace List' page showing the filter options.",
-          "It directly corresponds to 'Figure 1' in the RST document which illustrates the available filters.",
-          "The 'Query' button is magenta, satisfying the color rule for interactive buttons."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001696838310.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a hamburger menu icon.",
-          "It matches the description of '|image1|' used to navigate to the Cloud Trace Service.",
-          "The icon is clearly visible and relevant to the navigation step."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001696678850.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a refresh icon.",
-          "It matches the description of '|image2|' used to view the latest information about traces.",
-          "The icon is clearly visible and relevant to the refresh action."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001744678489.jpg",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a downward-pointing chevron icon.",
-          "It matches the description of '|image3|' used to expand trace details.",
-          "The icon is clearly visible and relevant to the expand action."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001942942816.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot showing an expanded trace row with detailed fields.",
-          "It matches the description of '|image4|' which appears after clicking the expand icon.",
-          "The screenshot clearly displays the trace structure details mentioned in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/auditing/viewing_cts_traces_in_the_trace_list.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001758618249.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a screenshot showing the 'View Trace' modal with JSON details.",
-          "It matches the description of '|image5|' which appears after clicking 'View Trace'.",
-          "The screenshot clearly displays the trace structure details mentioned in the text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/general_faqs/about_swr.rst",
@@ -1121,11 +1156,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 500,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1163,67 +1198,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
     "summary": {
-      "pass": 2,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/faqs/general_faqs/how_do_i_create_a_container_image.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153802.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram accurately illustrates the manual snapshot creation process described in Approach 1.",
-          "It correctly depicts the sequence of starting a base container, entering it, installing software, and creating a snapshot."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/faqs/general_faqs/how_do_i_create_a_container_image.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165153805.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The diagram effectively contrasts the manual snapshot method with the automated Dockerfile build method.",
-          "It correctly shows how the Dockerfile automates the installation steps previously performed manually inside the container."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/faqs/troubleshooting/why_does_the_login_command_fail_to_be_executed.rst",
@@ -1242,11 +1230,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1304,117 +1292,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 4
     },
     "summary": {
-      "pass": 2,
-      "partial": 2,
+      "pass": 0,
+      "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/image_management/obtaining_a_long-term_docker_login_command.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001539605245.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that exactly matches the five-step process described in the document.",
-          "Each step in the diagram corresponds directly to the numbered steps in the RST text."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/image_management/obtaining_a_long-term_docker_login_command.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0165729699.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a terminal window executing the exact command specified in step 6.",
-          "The sample output displayed matches the context of generating a login key."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      },
-      {
-        "document_path": "umn/source/image_management/obtaining_a_long-term_docker_login_command.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001507688112.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image shows a small UI icon, likely representing the region/project selector mentioned in step 1b.",
-          "The icon's placement and context align with the navigation instructions."
-        ],
-        "missing_evidence": [
-          "The image resolution is low, making it difficult to verify specific UI labels or exact functionality."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      },
-      {
-        "document_path": "umn/source/image_management/obtaining_a_long-term_docker_login_command.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001558527697.png",
-        "image_kind": "icon",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a hamburger menu icon, which corresponds to the navigation pane toggle in step 1c.",
-          "It is a standard UI symbol for opening a menu."
-        ],
-        "missing_evidence": [
-          "The image resolution is low, limiting detailed verification of the menu contents."
-        ],
-        "overall_score": 0.72,
-        "verdict": "partial"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/image_management/pulling_an_image.rst",
@@ -1473,11 +1364,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "incomplete",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 5
     },
@@ -1515,11 +1406,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -1557,11 +1448,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 2
     },
@@ -1589,11 +1480,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1621,45 +1512,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/permissions_management/configuring_iam_permissions.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001127297210.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a flowchart that visually represents the process described in the RST text.",
-          "The steps in the flowchart (Create user group, Create IAM user, Log in and verify) correspond directly to the numbered list in the document.",
-          "The image serves as a high-level summary of the IAM permission configuration process."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/permissions_management/configuring_image_permissions.rst",
@@ -1678,11 +1544,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1710,11 +1576,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
@@ -1742,44 +1608,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
-      "pass": 1,
+      "pass": 0,
       "partial": 0,
       "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/basic_concepts.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0195122694.png",
-        "image_kind": "other",
-        "contains_interactive_buttons": false,
-        "buttons_magenta": false,
-        "hard_fail": false,
-        "hard_fail_reason": null,
-        "criteria": {
-          "topic_match": 3,
-          "detail_match": 3,
-          "section_relevance": 3,
-          "visual_evidence": 3,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image is a conceptual diagram illustrating the 'Organization' section.",
-          "It visually depicts how organizations isolate image repositories and users, directly supporting the text's explanation."
-        ],
-        "missing_evidence": [],
-        "overall_score": 1.0,
-        "verdict": "pass"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/introduction.rst",
@@ -1798,44 +1640,20 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
-      "attempt": 1,
+      "http_status": 429,
+      "finish_reason": null,
+      "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
     "summary": {
       "pass": 0,
       "partial": 0,
-      "fail": 1
+      "fail": 0
     },
-    "results": [
-      {
-        "document_path": "umn/source/service_overview/introduction.rst",
-        "image_path": "/home/ubuntu/repotesting/software-repository-container/umn/source/_static/images/en-us_image_0000001200534503.png",
-        "image_kind": "screenshot",
-        "contains_interactive_buttons": true,
-        "buttons_magenta": false,
-        "hard_fail": true,
-        "hard_fail_reason": "Interactive buttons/links are blue, not magenta or plain white.",
-        "criteria": {
-          "topic_match": 2,
-          "detail_match": 2,
-          "section_relevance": 2,
-          "visual_evidence": 2,
-          "contradictions": 3
-        },
-        "reasons": [
-          "The image displays a three-step workflow diagram for SWR, aligning with the figure caption 'How SWR works'.",
-          "The image contains blue interactive links, which violates the mandatory rule requiring magenta or plain white buttons for screenshots."
-        ],
-        "missing_evidence": [],
-        "overall_score": 0.72,
-        "verdict": "fail"
-      }
-    ]
+    "results": []
   },
   {
     "file_path": "umn/source/service_overview/related_services.rst",
@@ -1854,11 +1672,11 @@
       }
     ],
     "status": {
-      "http_status": 200,
-      "finish_reason": "completed",
+      "http_status": 429,
+      "finish_reason": null,
       "attempt": 2,
       "max_retries": 2,
-      "error": null,
+      "error": "backend_error",
       "warning": null,
       "attached_image_count": 1
     },
