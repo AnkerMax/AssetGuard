@@ -158,7 +158,7 @@
     "results": []
   },
   {
-    "file_path": "umn/source/changing_the_evs_disk_type_beta.rst",
+    "file_path": "umn/source/changing_the_evs_disk_type.rst",
     "title": "Changing the EVS Disk Type",
     "image_count": 3,
     "image_refs": [
@@ -1338,7 +1338,7 @@
     "status": {
       "http_status": 403,
       "finish_reason": null,
-      "attempt": 2,
+      "attempt": 1,
       "max_retries": 2,
       "error": "backend_error",
       "warning": null,
@@ -1777,7 +1777,7 @@
         "original_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
         "used_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
         "kind": "substitution_image",
-        "line": 249,
+        "line": 255,
         "exists": true,
         "is_valid_image": true,
         "error": null
@@ -1787,7 +1787,7 @@
         "original_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
         "used_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
         "kind": "substitution_image",
-        "line": 250,
+        "line": 256,
         "exists": true,
         "is_valid_image": true,
         "error": null
@@ -2383,7 +2383,7 @@
         "original_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002277640246.png",
         "used_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002277640246.png",
         "kind": "figure",
-        "line": 59,
+        "line": 60,
         "exists": true,
         "is_valid_image": true,
         "error": null
@@ -2393,7 +2393,7 @@
         "original_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002312239949.png",
         "used_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002312239949.png",
         "kind": "figure",
-        "line": 106,
+        "line": 107,
         "exists": true,
         "is_valid_image": true,
         "error": null
@@ -2402,16 +2402,6 @@
         "original_target": "/_static/images/en-us_image_0000002301561710.png",
         "original_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
         "used_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
-        "kind": "substitution_image",
-        "line": 119,
-        "exists": true,
-        "is_valid_image": true,
-        "error": null
-      },
-      {
-        "original_target": "/_static/images/en-us_image_0000002301721398.jpg",
-        "original_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
-        "used_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
         "kind": "substitution_image",
         "line": 120,
         "exists": true,
@@ -2419,11 +2409,21 @@
         "error": null
       },
       {
+        "original_target": "/_static/images/en-us_image_0000002301721398.jpg",
+        "original_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
+        "used_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
+        "kind": "substitution_image",
+        "line": 121,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
         "original_target": "/_static/images/en-us_image_0000002301561710.png",
         "original_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
         "used_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301561710.png",
         "kind": "substitution_image",
-        "line": 121,
+        "line": 122,
         "exists": true,
         "is_valid_image": true,
         "error": null
@@ -2433,7 +2433,7 @@
         "original_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
         "used_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002301721398.jpg",
         "kind": "substitution_image",
-        "line": 122,
+        "line": 123,
         "exists": true,
         "is_valid_image": true,
         "error": null
@@ -2443,7 +2443,7 @@
         "original_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002312239965.png",
         "used_path": "/home/ubuntu/repotesting/elastic-volume-service/umn/source/_static/images/en-us_image_0000002312239965.png",
         "kind": "substitution_image",
-        "line": 123,
+        "line": 124,
         "exists": true,
         "is_valid_image": true,
         "error": null

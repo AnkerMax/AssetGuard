@@ -1,8 +1,23 @@
 ==> Bearbeite elastic-volume-service
-Already up to date.
-OK: speichere Ergebnis von elastic-volume-service in /home/ubuntu/AssetGuard/repo_results/elastic-volume-service (Dauer: 2m 12s)
+Updating 28d0073..c8552e3
+Fast-forward
+ umn/source/change_history.rst                      |  4 ++++
+ ...ype_beta.rst => changing_the_evs_disk_type.rst} |  0
+ .../detaching_an_evs_disk.rst                      |  4 ++--
+ ...device_type_or_sharing_attribute_of_my_disk.rst | 28 +++++++++++-----------
+ .../getting_started/creating_an_evs_disk.rst       |  6 +++++
+ umn/source/index.rst                               |  2 +-
+ .../creating_a_disk_from_a_snapshot.rst            |  2 +-
+ .../creating_an_evs_snapshot.rst                   |  1 +
+ .../service_overview/notes_and_constraints.rst     | 20 ++++++++--------
+ 9 files changed, 39 insertions(+), 28 deletions(-)
+ rename umn/source/{changing_the_evs_disk_type_beta.rst => changing_the_evs_disk_type.rst} (100%)
+
+From https://github.com/opentelekomcloud-docs/elastic-volume-service
+   28d0073..c8552e3  main       -> origin/main
+OK: speichere Ergebnis von elastic-volume-service in /home/ubuntu/AssetGuard/repo_results/elastic-volume-service (Dauer: 1m 21s)
 processed_files=61
 flagged_files=61
 row_count=61
-duration_seconds=132
-duration_human=2m 12s
+duration_seconds=81
+duration_human=1m 21s
