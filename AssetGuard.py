@@ -38,7 +38,7 @@ DEFAULT_MAX_WORKERS = 8
 DEFAULT_WORKER_START_DELAY = 0.5
 
 # Change this to the exact color that must trigger a local hard fail.
-FORBIDDEN_COLOR_HEX = "#FF00FF"
+FORBIDDEN_COLOR_HEX = "#3298ff"
 # 0 = exact RGB match. Use a small value such as 5-10 for JPEG artifacts if needed.
 FORBIDDEN_COLOR_TOLERANCE = 0
 
