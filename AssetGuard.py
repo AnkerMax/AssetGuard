@@ -8,9 +8,10 @@ import os
 import re
 import shlex
 import subprocess
+import sys
 import time
 from concurrent.futures import ProcessPoolExecutor, as_completed
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass, asdict
 from json import JSONDecoder, JSONDecodeError
 from pathlib import Path, PurePosixPath
 from typing import Any, Dict, List, Optional, Tuple
@@ -31,15 +32,15 @@ REQUEST_READ_TIMEOUT = 240
 DEFAULT_MAX_RETRIES = 2
 DEFAULT_REQUEST_DELAY = 1
 DEFAULT_MAX_OUTPUT_TOKENS = 8000
+MAX_RESPONSE_EXCERPT_CHARS = 4000
 
 DEFAULT_ORG = "opentelekomcloud-docs"
 DEFAULT_REPO_LIMIT = 105
 DEFAULT_MAX_WORKERS = 8
 DEFAULT_WORKER_START_DELAY = 0.5
 
-# Change this to the exact color that must trigger a local hard fail.
+# Local color check configuration.
 FORBIDDEN_COLOR_HEX = "#3298ff"
-# 0 = exact RGB match. Use a small value such as 5-10 for JPEG artifacts if needed.
 FORBIDDEN_COLOR_TOLERANCE = 0
 
 VALID_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg"}
@@ -56,10 +57,12 @@ BACKEND_REQUIRED_TOOL = {
         "description": "Backend compatibility placeholder tool. Must remain present even when unused.",
         "parameters": {
             "type": "object",
-            "properties": {"location": {"type": "string"}},
-            "required": ["location"],
-        },
-    },
+            "properties": {
+                "location": {"type": "string"}
+            },
+            "required": ["location"]
+        }
+    }
 }
 
 RESPONSE_SCHEMA = {
@@ -81,13 +84,16 @@ RESPONSE_SCHEMA = {
                             "image_path": {"type": "string"},
                             "image_kind": {
                                 "type": "string",
-                                "enum": ["screenshot", "icon", "other"],
+                                "enum": ["screenshot", "icon", "other"]
                             },
                             "contains_interactive_buttons": {"type": "boolean"},
                             "buttons_magenta": {"type": "boolean"},
                             "hard_fail": {"type": "boolean"},
                             "hard_fail_reason": {
-                                "anyOf": [{"type": "string"}, {"type": "null"}]
+                                "anyOf": [
+                                    {"type": "string"},
+                                    {"type": "null"}
+                                ]
                             },
                             "criteria": {
                                 "type": "object",
@@ -178,8 +184,8 @@ class AuditRow:
 
 
 def compute_overall_score(criteria: Dict[str, int]) -> float:
-    weighted = sum(criteria.get(key, 0) * WEIGHTS[key] for key in WEIGHTS)
-    normalized = weighted / sum(3 * WEIGHTS[key] for key in WEIGHTS)
+    weighted = sum(criteria.get(k, 0) * WEIGHTS[k] for k in WEIGHTS)
+    normalized = weighted / sum(3 * WEIGHTS[k] for k in WEIGHTS)
     return round(normalized, 2)
 
 
@@ -194,7 +200,9 @@ def verdict_from_score(score: float) -> str:
 def final_verdict(item: Dict[str, Any]) -> str:
     if item.get("hard_fail") is True:
         return "fail"
-    return verdict_from_score(compute_overall_score(item.get("criteria", {})))
+    criteria = item.get("criteria", {})
+    score = compute_overall_score(criteria)
+    return verdict_from_score(score)
 
 
 def hex_to_rgb(hex_color: str) -> Tuple[int, int, int]:
@@ -204,7 +212,11 @@ def hex_to_rgb(hex_color: str) -> Tuple[int, int, int]:
     return int(value[0:2], 16), int(value[2:4], 16), int(value[4:6], 16)
 
 
-def image_contains_color(path: Path, target_rgb: Tuple[int, int, int], tolerance: int = 0) -> bool:
+def image_contains_color(
+    path: Path,
+    target_rgb: Tuple[int, int, int],
+    tolerance: int = 0,
+) -> bool:
     with Image.open(path) as image:
         rgb_image = image.convert("RGB")
         for pixel in rgb_image.getdata():
@@ -216,9 +228,9 @@ def image_contains_color(path: Path, target_rgb: Tuple[int, int, int], tolerance
 def extract_title(rst_raw: str) -> Optional[str]:
     lines = rst_raw.splitlines()
     adorn = set("=~-^\"'`:+*#<>")
-    for index in range(len(lines) - 1):
-        title = lines[index].strip()
-        underline = lines[index + 1].strip()
+    for i in range(len(lines) - 1):
+        title = lines[i].strip()
+        underline = lines[i + 1].strip()
         if title and underline and len(underline) >= len(title) and set(underline).issubset(adorn):
             return title
     return None
@@ -231,15 +243,23 @@ def extract_image_refs(rst_raw: str) -> List[ImageReference]:
         (r"^\s*\.\.\s+figure::\s+(.+?)\s*$", "figure"),
         (r"^\s*\.\.\s+\|([^|]+)\|\s+image::\s+(.+?)\s*$", "substitution_image"),
     ]
-    for line_number, line in enumerate(rst_raw.splitlines(), start=1):
+
+    for idx, line in enumerate(rst_raw.splitlines(), start=1):
         for pattern, kind in patterns:
             match = re.match(pattern, line)
             if not match:
                 continue
             if kind == "substitution_image":
-                refs.append(ImageReference(kind=kind, name=match.group(1).strip(), target=match.group(2).strip(), line=line_number))
+                refs.append(
+                    ImageReference(
+                        kind=kind,
+                        name=match.group(1).strip(),
+                        target=match.group(2).strip(),
+                        line=idx,
+                    )
+                )
             else:
-                refs.append(ImageReference(kind=kind, target=match.group(1).strip(), line=line_number))
+                refs.append(ImageReference(kind=kind, target=match.group(1).strip(), line=idx))
     return refs
 
 
@@ -256,13 +276,19 @@ def is_valid_image_path(path: str) -> bool:
 
 
 def get_media_type_for_path(path: Path) -> str:
-    media_type = MEDIA_TYPES_BY_SUFFIX.get(path.suffix.lower())
+    suffix = path.suffix.lower()
+    media_type = MEDIA_TYPES_BY_SUFFIX.get(suffix)
     if not media_type:
-        raise ValueError("invalid image")
+        raise ValueError("kein valides Bild")
     return media_type
 
 
-def resolve_local_path(rst_file: Path, target: str, workspace: Path, source_root: Optional[Path] = None) -> Path:
+def resolve_local_path(
+    rst_file: Path,
+    target: str,
+    workspace: Path,
+    source_root: Optional[Path] = None,
+) -> Path:
     target = normalize_target(target)
     if target.startswith(("http://", "https://", "data:")):
         raise ValueError(f"Non-local image target found in RST: {target}")
@@ -273,49 +299,74 @@ def resolve_local_path(rst_file: Path, target: str, workspace: Path, source_root
 
 
 def load_local_image_content(path: Path) -> LoadedImage:
-    if path.suffix.lower() not in VALID_IMAGE_SUFFIXES or not path.exists() or not path.is_file():
-        raise ValueError("invalid image")
+    suffix = path.suffix.lower()
+    if suffix not in VALID_IMAGE_SUFFIXES:
+        raise ValueError("kein valides Bild")
+    if not path.exists() or not path.is_file():
+        raise ValueError("kein valides Bild")
+
     try:
         raw = path.read_bytes()
-    except OSError as exc:
-        raise ValueError("invalid image") from exc
+    except OSError:
+        raise ValueError("kein valides Bild")
+
+    media_type = get_media_type_for_path(path)
+
     return LoadedImage(
         path=str(path.resolve()),
-        media_type=get_media_type_for_path(path),
+        media_type=media_type,
         data_base64=base64.b64encode(raw).decode("utf-8"),
     )
 
 
-def build_image_candidates(rst_path: Path, refs: List[ImageReference], workspace: Path, source_root: Optional[Path] = None) -> List[ImageReference]:
+def build_image_candidates(
+    rst_path: Path,
+    refs: List[ImageReference],
+    workspace: Path,
+    source_root: Optional[Path] = None,
+) -> List[ImageReference]:
     candidates: List[ImageReference] = []
+
     for ref in refs:
         try:
             resolved = resolve_local_path(rst_path, ref.target, workspace, source_root)
             valid = is_valid_image_path(ref.target)
             exists = resolved.exists()
-            candidates.append(ImageReference(
-                kind=ref.kind,
-                name=ref.name,
-                target=ref.target,
-                line=ref.line,
-                original_target=ref.target,
-                original_resolved_path=str(resolved),
-                resolved_path=str(resolved),
-                exists=exists,
-                is_valid_image=valid,
-                error=None if valid and exists else "invalid image",
-            ))
+            error = None
+            if not valid or not exists:
+                error = "kein valides Bild"
+
+            candidates.append(
+                ImageReference(
+                    kind=ref.kind,
+                    name=ref.name,
+                    target=ref.target,
+                    line=ref.line,
+                    original_target=ref.target,
+                    original_resolved_path=str(resolved),
+                    resolved_path=str(resolved),
+                    exists=exists,
+                    is_valid_image=valid,
+                    error=error,
+                )
+            )
+
         except ValueError:
-            candidates.append(ImageReference(
-                kind=ref.kind,
-                name=ref.name,
-                target=ref.target,
-                line=ref.line,
-                original_target=ref.target,
-                exists=False,
-                is_valid_image=False,
-                error="invalid image",
-            ))
+            candidates.append(
+                ImageReference(
+                    kind=ref.kind,
+                    name=ref.name,
+                    target=ref.target,
+                    line=ref.line,
+                    original_target=ref.target,
+                    original_resolved_path=None,
+                    resolved_path=None,
+                    exists=False,
+                    is_valid_image=False,
+                    error="kein valides Bild",
+                )
+            )
+
     return candidates
 
 
@@ -330,13 +381,15 @@ def make_prompt(job: Dict[str, Any]) -> str:
         "- screenshot = UI/application/page screenshot with visible interface.\n"
         "- icon = small symbolic graphic, logo, pictogram, or isolated UI symbol.\n"
         "- other = anything else.\n\n"
-        "Do not evaluate colors and do not use color as a hard-fail criterion.\n"
-        "Color validation is performed locally before this API request.\n"
-        "Always set hard_fail=false and hard_fail_reason=null.\n"
-        "Set contains_interactive_buttons based only on visibility of interactive controls.\n"
-        "Set buttons_magenta=false.\n\n"
+        "Color-based validation is handled outside this evaluation.\n"
+        "- Do not evaluate colors.\n"
+        "- Do not use color as a hard-fail criterion.\n"
+        "- Always set hard_fail=false.\n"
+        "- Always set hard_fail_reason=null.\n"
+        "- Set contains_interactive_buttons based only on whether interactive controls are visible.\n"
+        "- Always set buttons_magenta=false.\n\n"
         "Scoring rules:\n"
-        "- criteria scores need to be filled for every image.\n"
+        "- criteria scores still need to be filled for every image.\n"
         "- criteria.topic_match: score from 0 to 3.\n"
         "- criteria.detail_match: score from 0 to 3.\n"
         "- criteria.section_relevance: score from 0 to 3.\n"
@@ -349,6 +402,7 @@ def make_prompt(job: Dict[str, Any]) -> str:
         "- Use exactly the schema fields.\n"
         "- document_path must use exactly the provided rst file path.\n"
         "- image_path must use exactly the provided image path.\n"
+        "- hard_fail_reason must be null when hard_fail is false.\n"
         "- Do not add markdown fences.\n"
         "- Do not add analysis text before or after the JSON.\n\n"
         "Evidence rules:\n"
@@ -358,7 +412,7 @@ def make_prompt(job: Dict[str, Any]) -> str:
         f"FILE: {job['file_path']}\n"
         f"TITLE: {job.get('title') or ''}\n"
         f"ATTACHED_IMAGE_RELATIONS_IN_RST: {image_count}\n\n"
-        f"RST:\n{job['rst_raw']}"
+        "RST:\n<<>>"
     )
 
 
@@ -367,19 +421,30 @@ def extract_finish_reason(data: Dict[str, Any]) -> Optional[str]:
         return data["status"]
     for item in data.get("output", []):
         if isinstance(item, dict) and item.get("finish_reason"):
-            return item["finish_reason"]
+            return item.get("finish_reason")
     return None
 
 
 def _is_complete_result_item(item: Any) -> bool:
     if not isinstance(item, dict):
         return False
+
     required_top = {
-        "document_path", "image_path", "image_kind", "contains_interactive_buttons",
-        "buttons_magenta", "hard_fail", "hard_fail_reason", "criteria", "reasons", "missing_evidence",
+        "document_path",
+        "image_path",
+        "image_kind",
+        "contains_interactive_buttons",
+        "buttons_magenta",
+        "hard_fail",
+        "hard_fail_reason",
+        "criteria",
+        "reasons",
+        "missing_evidence",
     }
+
     if not required_top.issubset(item.keys()):
         return False
+
     if item["image_kind"] not in {"screenshot", "icon", "other"}:
         return False
     if not isinstance(item.get("contains_interactive_buttons"), bool):
@@ -390,20 +455,35 @@ def _is_complete_result_item(item: Any) -> bool:
         return False
     if item.get("hard_fail_reason") is not None and not isinstance(item.get("hard_fail_reason"), str):
         return False
+
     criteria = item.get("criteria")
     if not isinstance(criteria, dict):
         return False
-    required_criteria = {"topic_match", "detail_match", "section_relevance", "visual_evidence", "contradictions"}
+
+    required_criteria = {
+        "topic_match",
+        "detail_match",
+        "section_relevance",
+        "visual_evidence",
+        "contradictions",
+    }
+
     if not required_criteria.issubset(criteria.keys()):
         return False
+
     for key in required_criteria:
         value = criteria.get(key)
         if not isinstance(value, int) or value < 0 or value > 3:
             return False
-    if not isinstance(item.get("reasons"), list) or not all(isinstance(x, str) for x in item["reasons"]):
+
+    if not isinstance(item.get("reasons"), list) or not all(isinstance(x, str) for x in item.get("reasons")):
         return False
-    if not isinstance(item.get("missing_evidence"), list) or not all(isinstance(x, str) for x in item["missing_evidence"]):
+
+    if not isinstance(item.get("missing_evidence"), list) or not all(
+        isinstance(x, str) for x in item.get("missing_evidence")
+    ):
         return False
+
     return True
 
 
@@ -415,11 +495,37 @@ def _normalize_candidate(obj: Any) -> Optional[Dict[str, Any]]:
     return None
 
 
+def _extract_json_candidates_from_text(text: str) -> List[Dict[str, Any]]:
+    candidates: List[Dict[str, Any]] = []
+    decoder = JSONDecoder()
+    i = 0
+    n = len(text)
+
+    while i < n:
+        ch = text[i]
+        if ch not in "{[":
+            i += 1
+            continue
+
+        try:
+            obj, end = decoder.raw_decode(text, i)
+            normalized = _normalize_candidate(obj)
+            if normalized is not None:
+                candidates.append(normalized)
+            i = max(i + 1, end)
+        except JSONDecodeError:
+            i += 1
+
+    return candidates
+
+
 def extract_response_text(data: Dict[str, Any]) -> str:
     parts: List[str] = []
+
     output_text = data.get("output_text")
     if isinstance(output_text, str) and output_text.strip():
         parts.append(output_text.strip())
+
     output = data.get("output")
     if isinstance(output, list):
         for item in output:
@@ -429,23 +535,30 @@ def extract_response_text(data: Dict[str, Any]) -> str:
             if not isinstance(content, list):
                 continue
             for part in content:
-                if isinstance(part, dict) and part.get("type") in {"output_text", "text"} and isinstance(part.get("text"), str):
-                    text = part["text"].strip()
-                    if text:
-                        parts.append(text)
+                if (
+                    isinstance(part, dict)
+                    and part.get("type") in {"output_text", "text"}
+                    and isinstance(part.get("text"), str)
+                ):
+                    txt = part["text"].strip()
+                    if txt:
+                        parts.append(txt)
+
     seen = set()
     deduped = []
-    for part in parts:
-        key = part[:500]
+    for p in parts:
+        key = p[:500]
         if key not in seen:
             seen.add(key)
-            deduped.append(part)
+            deduped.append(p)
+
     return "\n".join(deduped).strip()
 
 
 def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if not isinstance(data, dict):
         return None
+
     candidates: List[Dict[str, Any]] = []
 
     def add_candidate(obj: Any) -> None:
@@ -455,17 +568,17 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
 
     def scan_text(text: str) -> None:
         decoder = JSONDecoder()
-        index = 0
-        while index < len(text):
-            if text[index] not in "{[":
-                index += 1
+        i = 0
+        while i < len(text):
+            if text[i] not in "{[":
+                i += 1
                 continue
             try:
-                obj, end = decoder.raw_decode(text, index)
+                obj, end = decoder.raw_decode(text, i)
                 add_candidate(obj)
-                index = max(index + 1, end)
+                i = max(i + 1, end)
             except JSONDecodeError:
-                index += 1
+                i += 1
 
     def walk_output(container: Any) -> None:
         if not isinstance(container, list):
@@ -479,25 +592,31 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             for part in content:
                 if not isinstance(part, dict):
                     continue
-                if part.get("type") in {"output_json", "json"}:
+                ptype = part.get("type")
+                if ptype in {"output_json", "json"}:
                     add_candidate(part.get("json"))
-                elif part.get("type") in {"output_text", "text"} and isinstance(part.get("text"), str):
+                elif ptype in {"output_text", "text"} and isinstance(part.get("text"), str):
                     scan_text(part["text"])
 
     for key in ("output_parsed", "parsed", "response_parsed"):
         add_candidate(data.get(key))
+
     if isinstance(data.get("output_text"), str):
         scan_text(data["output_text"])
+
     walk_output(data.get("output"))
+
     response_obj = data.get("response")
     if isinstance(response_obj, dict):
         if isinstance(response_obj.get("output_text"), str):
             scan_text(response_obj["output_text"])
         walk_output(response_obj.get("output"))
+
     for candidate in reversed(candidates):
         results = candidate.get("results")
-        if isinstance(results, list) and results and all(_is_complete_result_item(item) for item in results):
+        if isinstance(results, list) and len(results) > 0 and all(_is_complete_result_item(x) for x in results):
             return candidate
+
     return None
 
 
@@ -507,17 +626,24 @@ class ResponsesClient:
         self.api_key = api_key
         self.model = model
 
-    def build_payload(self, prompt: str, images: List[LoadedImage], max_output_tokens: int) -> Tuple[Dict[str, Any], List[str]]:
+    def build_payload(
+        self,
+        prompt: str,
+        images: List[LoadedImage],
+        max_output_tokens: int,
+    ) -> Tuple[Dict[str, Any], List[str]]:
         content: List[Dict[str, Any]] = [{"type": "input_text", "text": prompt}]
         attached_images: List[str] = []
         seen_paths = set()
-        for index, image in enumerate(images, start=1):
-            if image.path in seen_paths:
+
+        for idx, img in enumerate(images, start=1):
+            if img.path in seen_paths:
                 continue
-            seen_paths.add(image.path)
-            content.append({"type": "input_text", "text": f"IMAGE {index} PATH: {image.path}"})
-            content.append({"type": "input_image", "image_url": f"data:{image.media_type};base64,{image.data_base64}"})
-            attached_images.append(image.path)
+            seen_paths.add(img.path)
+            content.append({"type": "input_text", "text": f"IMAGE {idx} PATH: {img.path}"})
+            content.append({"type": "input_image", "image_url": f"data:{img.media_type};base64,{img.data_base64}"})
+            attached_images.append(img.path)
+
         payload = {
             "model": self.model,
             "instructions": (
@@ -540,31 +666,72 @@ class ResponsesClient:
             "temperature": 0,
             "max_output_tokens": max_output_tokens,
         }
+
         return payload, attached_images
 
-    def post_with_retries(self, payload: Dict[str, Any], attached_images: List[str], timeout: int = 180, max_retries: int = DEFAULT_MAX_RETRIES, request_delay: float = DEFAULT_REQUEST_DELAY) -> ApiResult:
-        headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
+    def post_with_retries(
+        self,
+        payload: Dict[str, Any],
+        attached_images: List[str],
+        timeout: int = 180,
+        max_retries: int = DEFAULT_MAX_RETRIES,
+        request_delay: float = DEFAULT_REQUEST_DELAY,
+    ) -> ApiResult:
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+        }
+
         last_result: Optional[ApiResult] = None
+
         for attempt in range(1, max_retries + 1):
             if request_delay > 0:
                 time.sleep(request_delay)
+
             try:
-                response = requests.post(self.api_url, headers=headers, json=payload, timeout=(REQUEST_CONNECT_TIMEOUT, min(timeout, REQUEST_READ_TIMEOUT)))
+                response = requests.post(
+                    self.api_url,
+                    headers=headers,
+                    json=payload,
+                    timeout=(REQUEST_CONNECT_TIMEOUT, min(timeout, REQUEST_READ_TIMEOUT)),
+                )
+
                 status_code = response.status_code
                 response_text = response.text
+
                 if status_code in {429, 500, 502, 503, 504}:
-                    last_result = ApiResult("", None, len(attached_images), attached_images, None, status_code, response_text, None, attempt, max_retries, error="backend_error")
+                    last_result = ApiResult(
+                        raw_text="",
+                        parsed_json=None,
+                        attached_image_count=len(attached_images),
+                        attached_images=attached_images,
+                        raw_response=None,
+                        http_status=status_code,
+                        http_response_text=response_text,
+                        finish_reason=None,
+                        attempt=attempt,
+                        max_retries=max_retries,
+                        error="backend_error",
+                    )
+
                     if attempt < max_retries:
                         continue
+
                     return last_result
+
                 response.raise_for_status()
+
                 try:
                     data = response.json()
                 except Exception:
                     data = {"_non_json_response_text": response_text}
+
+                parsed_json = extract_response_json(data) if isinstance(data, dict) else None
+                raw_text = extract_response_text(data) if isinstance(data, dict) else ""
+
                 return ApiResult(
-                    raw_text=extract_response_text(data) if isinstance(data, dict) else "",
-                    parsed_json=extract_response_json(data) if isinstance(data, dict) else None,
+                    raw_text=raw_text,
+                    parsed_json=parsed_json,
                     attached_image_count=len(attached_images),
                     attached_images=attached_images,
                     raw_response=data if isinstance(data, dict) else None,
@@ -574,18 +741,73 @@ class ResponsesClient:
                     attempt=attempt,
                     max_retries=max_retries,
                 )
+
             except (requests.Timeout, requests.ConnectionError) as exc:
-                last_result = ApiResult("", None, len(attached_images), attached_images, None, None, str(exc), None, attempt, max_retries, error="backend_error")
+                last_result = ApiResult(
+                    raw_text="",
+                    parsed_json=None,
+                    attached_image_count=len(attached_images),
+                    attached_images=attached_images,
+                    raw_response=None,
+                    http_status=None,
+                    http_response_text=str(exc),
+                    finish_reason=None,
+                    attempt=attempt,
+                    max_retries=max_retries,
+                    error="backend_error",
+                )
+
                 if attempt < max_retries:
                     continue
-                return last_result
-            except requests.RequestException as exc:
-                return ApiResult("", None, len(attached_images), attached_images, None, getattr(getattr(exc, "response", None), "status_code", None), getattr(getattr(exc, "response", None), "text", str(exc)), None, attempt, max_retries, error="backend_error")
-        return last_result or ApiResult("", None, len(attached_images), attached_images, None, None, "", None, max_retries, max_retries, error="backend_error")
 
-    def analyze_images(self, prompt: str, images: List[LoadedImage], timeout: int = 180, max_retries: int = DEFAULT_MAX_RETRIES, max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS, request_delay: float = DEFAULT_REQUEST_DELAY) -> ApiResult:
+                return last_result
+
+            except requests.RequestException as exc:
+                return ApiResult(
+                    raw_text="",
+                    parsed_json=None,
+                    attached_image_count=len(attached_images),
+                    attached_images=attached_images,
+                    raw_response=None,
+                    http_status=getattr(getattr(exc, "response", None), "status_code", None),
+                    http_response_text=getattr(getattr(exc, "response", None), "text", str(exc)),
+                    finish_reason=None,
+                    attempt=attempt,
+                    max_retries=max_retries,
+                    error="backend_error",
+                )
+
+        return last_result or ApiResult(
+            raw_text="",
+            parsed_json=None,
+            attached_image_count=len(attached_images),
+            attached_images=attached_images,
+            raw_response=None,
+            http_status=None,
+            http_response_text="",
+            finish_reason=None,
+            attempt=max_retries,
+            max_retries=max_retries,
+            error="backend_error",
+        )
+
+    def analyze_images(
+        self,
+        prompt: str,
+        images: List[LoadedImage],
+        timeout: int = 180,
+        max_retries: int = DEFAULT_MAX_RETRIES,
+        max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS,
+        request_delay: float = DEFAULT_REQUEST_DELAY,
+    ) -> ApiResult:
         payload, attached_images = self.build_payload(prompt, images, max_output_tokens)
-        return self.post_with_retries(payload, attached_images, timeout, max_retries, request_delay)
+        return self.post_with_retries(
+            payload=payload,
+            attached_images=attached_images,
+            timeout=timeout,
+            max_retries=max_retries,
+            request_delay=request_delay,
+        )
 
 
 def read_file_list(file_list: Path) -> List[Path]:
@@ -600,8 +822,8 @@ def read_file_list(file_list: Path) -> List[Path]:
 def find_rst_files(workspace: Path, path_prefixes: List[str]) -> List[Path]:
     files = []
     for path in workspace.rglob("*.rst"):
-        relative_path = path.relative_to(workspace).as_posix()
-        if path_prefixes and not any(relative_path.startswith(prefix) for prefix in path_prefixes):
+        rel = path.relative_to(workspace).as_posix()
+        if path_prefixes and not any(rel.startswith(prefix) for prefix in path_prefixes):
             continue
         files.append(path)
     return sorted(files)
@@ -610,43 +832,55 @@ def find_rst_files(workspace: Path, path_prefixes: List[str]) -> List[Path]:
 def select_input_files(args: argparse.Namespace, workspace: Path) -> List[Path]:
     if args.rst_file:
         files = []
-        for raw_path in args.rst_file:
-            path = Path(raw_path).expanduser()
+        for p in args.rst_file:
+            path = Path(p).expanduser()
             files.append((workspace / path).resolve() if not path.is_absolute() else path.resolve())
     elif args.file_list:
         files = []
-        for raw_path in read_file_list(Path(args.file_list).expanduser()):
-            files.append((workspace / raw_path).resolve() if not raw_path.is_absolute() else raw_path.resolve())
+        for p in read_file_list(Path(args.file_list).expanduser()):
+            path = Path(p).expanduser()
+            files.append((workspace / path).resolve() if not path.is_absolute() else path.resolve())
     else:
         files = find_rst_files(workspace, args.path_prefix)
+
     deduped: List[Path] = []
     seen = set()
     for path in files:
         resolved = path.resolve()
         if resolved.suffix.lower() != ".rst":
             continue
-        if str(resolved) not in seen:
-            seen.add(str(resolved))
+        key = str(resolved)
+        if key not in seen:
+            seen.add(key)
             deduped.append(resolved)
     return deduped
 
 
-def make_row(rst_file: Path, workspace: Path, title: Optional[str], image_refs: List[ImageReference], result: ApiResult) -> AuditRow:
-    relative_path = rst_file.relative_to(workspace).as_posix() if rst_file.is_relative_to(workspace) else str(rst_file)
+def make_row(
+    rst_file: Path,
+    workspace: Path,
+    title: Optional[str],
+    image_refs: List[ImageReference],
+    result: ApiResult,
+) -> AuditRow:
+    rel_path = rst_file.relative_to(workspace).as_posix() if rst_file.is_relative_to(workspace) else str(rst_file)
     return AuditRow(
-        file_path=relative_path,
+        file_path=rel_path,
         title=title,
         image_count=len(image_refs),
-        image_refs=[{
-            "original_target": image.original_target,
-            "original_path": image.original_resolved_path,
-            "used_path": image.resolved_path,
-            "kind": image.kind,
-            "line": image.line,
-            "exists": image.exists,
-            "is_valid_image": image.is_valid_image,
-            "error": image.error,
-        } for image in image_refs],
+        image_refs=[
+            {
+                "original_target": img.original_target,
+                "original_path": img.original_resolved_path,
+                "used_path": img.resolved_path,
+                "kind": img.kind,
+                "line": img.line,
+                "exists": img.exists,
+                "is_valid_image": img.is_valid_image,
+                "error": img.error,
+            }
+            for img in image_refs
+        ],
         result=asdict(result),
     )
 
@@ -672,58 +906,62 @@ def local_hard_fail_item(document_path: str, image_path: str) -> Dict[str, Any]:
     }
 
 
-def process_file(rst_file: Path, workspace: Path, source_root: Optional[Path], client: ResponsesClient, max_retries: int, request_delay: float, max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS) -> Optional[AuditRow]:
+def process_file(
+    rst_file: Path,
+    workspace: Path,
+    source_root: Optional[Path],
+    client: ResponsesClient,
+    max_retries: int,
+    request_delay: float,
+    max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS,
+) -> Optional[AuditRow]:
     if not rst_file.exists() or not rst_file.is_file():
         return None
+
     rst_raw = rst_file.read_text(encoding="utf-8", errors="replace")
     refs = extract_image_refs(rst_raw)
     image_refs = build_image_candidates(rst_file, refs, workspace, source_root)
     if not image_refs:
         return None
 
-    relative_document_path = rst_file.relative_to(workspace).as_posix() if rst_file.is_relative_to(workspace) else str(rst_file)
+    loaded_images: List[LoadedImage] = []
+    seen_paths = set()
+    local_failures: List[Dict[str, Any]] = []
+    target_rgb = hex_to_rgb(FORBIDDEN_COLOR_HEX)
+
+    for ref in image_refs:
+        if ref.error == "kein valides Bild" or not ref.resolved_path:
+            continue
+
+        image_path = Path(ref.resolved_path)
+
+        try:
+            if image_contains_color(image_path, target_rgb, FORBIDDEN_COLOR_TOLERANCE):
+                document_path = rst_file.relative_to(workspace).as_posix() if rst_file.is_relative_to(workspace) else str(rst_file)
+                local_failures.append(local_hard_fail_item(document_path, str(image_path.resolve())))
+                continue
+
+            loaded = load_local_image_content(image_path)
+        except ValueError:
+            ref.error = "kein valides Bild"
+            continue
+
+        if loaded.path in seen_paths:
+            continue
+        seen_paths.add(loaded.path)
+        loaded_images.append(loaded)
+
+    rel_path = rst_file.relative_to(workspace).as_posix() if rst_file.is_relative_to(workspace) else str(rst_file)
     job = {
-        "file_path": relative_document_path,
+        "file_path": rel_path,
         "title": extract_title(rst_raw),
         "rst_raw": rst_raw,
         "image_refs": image_refs,
     }
-    target_rgb = hex_to_rgb(FORBIDDEN_COLOR_HEX)
-    local_failures: List[Dict[str, Any]] = []
-    loaded_images: List[LoadedImage] = []
-    seen_paths = set()
 
-    for ref in image_refs:
-        if ref.error == "invalid image" or not ref.resolved_path:
-            continue
-        image_path = Path(ref.resolved_path)
-        try:
-            if image_contains_color(image_path, target_rgb, FORBIDDEN_COLOR_TOLERANCE):
-                local_failures.append(local_hard_fail_item(relative_document_path, str(image_path.resolve())))
-                continue
-            loaded = load_local_image_content(image_path)
-        except (ValueError, OSError) as exc:
-            ref.error = f"local image validation failed: {exc}"
-            continue
-        if loaded.path not in seen_paths:
-            seen_paths.add(loaded.path)
-            loaded_images.append(loaded)
+    prompt = make_prompt(job)
 
-    # Only images that do not contain the forbidden color are sent to the API.
-    api_result: Optional[ApiResult] = None
-    if loaded_images:
-        try:
-            api_result = client.analyze_images(
-                prompt=make_prompt(job),
-                images=loaded_images,
-                max_retries=max_retries,
-                request_delay=request_delay,
-                max_output_tokens=max_output_tokens,
-            )
-        except Exception as exc:
-            api_result = ApiResult("", None, len(loaded_images), [image.path for image in loaded_images], None, None, str(exc), None, max_retries, max_retries, error="backend_error")
-
-    if api_result is None:
+    if not loaded_images:
         if local_failures:
             result = ApiResult(
                 raw_text="",
@@ -739,85 +977,72 @@ def process_file(rst_file: Path, workspace: Path, source_root: Optional[Path], c
                 warning="Images with the forbidden color were not sent to the AI API.",
             )
         else:
-            result = ApiResult("", None, 0, [], None, None, "invalid image", None, 0, max_retries, error="invalid image")
-    else:
-        parsed = api_result.parsed_json or {"results": []}
-        api_results = parsed.get("results", []) if isinstance(parsed, dict) else []
-        api_result.parsed_json = {"results": local_failures + api_results}
+            result = ApiResult(
+                raw_text="",
+                parsed_json=None,
+                attached_image_count=0,
+                attached_images=[],
+                raw_response=None,
+                http_status=None,
+                http_response_text="kein valides Bild",
+                finish_reason=None,
+                attempt=0,
+                max_retries=max_retries,
+                error="kein valides Bild",
+            )
+        return make_row(rst_file, workspace, job["title"], image_refs, result)
+
+    try:
+        result = client.analyze_images(
+            prompt=prompt,
+            images=loaded_images,
+            max_retries=max_retries,
+            request_delay=request_delay,
+            max_output_tokens=max_output_tokens,
+        )
+
         if local_failures:
-            api_result.warning = "Images with the forbidden color were not sent to the AI API."
-        result = api_result
+            parsed = result.parsed_json or {"results": []}
+            api_results = parsed.get("results", []) if isinstance(parsed, dict) else []
+            result.parsed_json = {"results": local_failures + api_results}
+            result.warning = "Images with the forbidden color were not sent to the AI API."
+
+    except Exception as exc:
+        result = ApiResult(
+            raw_text="",
+            parsed_json=None,
+            attached_image_count=len(loaded_images),
+            attached_images=[img.path for img in loaded_images],
+            raw_response=None,
+            http_status=None,
+            http_response_text=str(exc),
+            finish_reason=None,
+            attempt=max_retries,
+            max_retries=max_retries,
+            error="backend_error",
+        )
 
     return make_row(rst_file, workspace, job["title"], image_refs, result)
-
-
-def result_label(verdict: str) -> str:
-    labels = {"pass": "Pass", "partial": "Review recommended", "fail": "Fail"}
-    return labels.get(verdict, "Unknown")
-
-
-def finding_text(item: Dict[str, Any], verdict: str) -> str:
-    if item.get("hard_fail") is True:
-        return item.get("hard_fail_reason") or "The image violates a mandatory rule."
-    reasons = item.get("reasons", [])
-    if reasons:
-        return " ".join(reasons)
-    if verdict == "partial":
-        return "The contextual or visual suitability of the image should be reviewed."
-    if verdict == "fail":
-        return "The image does not meet the audit criteria."
-    return "No issue detected."
-
-
-def recommendation_text(item: Dict[str, Any], verdict: str) -> str:
-    if item.get("hard_fail") is True:
-        return "Replace the image or remove the forbidden color."
-    if verdict == "fail":
-        return "Replace or rework the image to meet content and visual requirements."
-    if verdict == "partial":
-        return "Manually review the image and adapt it if necessary."
-    return "No action required."
-
-
-def image_path_for_output(image_path: str, workspace: Path) -> str:
-    try:
-        return Path(image_path).resolve().relative_to(workspace).as_posix()
-    except (ValueError, OSError):
-        return image_path
-
-
-def build_csv_rows(row: AuditRow, workspace: Path) -> List[Dict[str, Any]]:
-    rows: List[Dict[str, Any]] = []
-    parsed = ((row.result or {}).get("parsed_json")) or {}
-    parsed_results = parsed.get("results", []) if isinstance(parsed, dict) else []
-    for item in parsed_results:
-        verdict = final_verdict(item)
-        if verdict == "pass":
-            continue
-        rows.append({
-            "Document": row.file_path,
-            "Title": row.title or "",
-            "Image": image_path_for_output(item.get("image_path", ""), workspace),
-            "Result": result_label(verdict),
-            "Finding": finding_text(item, verdict),
-            "Recommended action": recommendation_text(item, verdict),
-        })
-    return rows
 
 
 def build_json_row(row: AuditRow) -> Dict[str, Any]:
     parsed = ((row.result or {}).get("parsed_json")) or {}
     parsed_results = parsed.get("results", []) if isinstance(parsed, dict) else []
+
     enriched_results = []
     summary = {"pass": 0, "partial": 0, "fail": 0}
+
     for item in parsed_results:
-        score = compute_overall_score(item.get("criteria", {}))
+        criteria = item.get("criteria", {})
+        score = compute_overall_score(criteria)
         verdict = final_verdict(item)
         summary[verdict] += 1
+
         enriched_item = dict(item)
         enriched_item["overall_score"] = score
         enriched_item["verdict"] = verdict
         enriched_results.append(enriched_item)
+
     return {
         "file_path": row.file_path,
         "title": row.title,
@@ -837,59 +1062,193 @@ def build_json_row(row: AuditRow) -> Dict[str, Any]:
     }
 
 
+def build_csv_rows(row: AuditRow) -> List[Dict[str, Any]]:
+    rows: List[Dict[str, Any]] = []
+    parsed = ((row.result or {}).get("parsed_json")) or {}
+    parsed_results = parsed.get("results", []) if isinstance(parsed, dict) else []
+
+    ref_map = {
+        ref.get("used_path"): ref
+        for ref in row.image_refs
+        if ref.get("used_path")
+    }
+
+    for item in parsed_results:
+        criteria = item.get("criteria", {})
+        score = compute_overall_score(criteria)
+        verdict = final_verdict(item)
+        ref = ref_map.get(item.get("image_path"), {})
+
+        rows.append({
+            "document_file": row.file_path,
+            "document_title": row.title or "",
+            "image_file": item.get("image_path", ""),
+            "image_reference_type": ref.get("kind", ""),
+            "image_reference_line": ref.get("line", ""),
+            "detected_image_type": item.get("image_kind", ""),
+            "has_interactive_buttons": item.get("contains_interactive_buttons", ""),
+            "interactive_buttons_magenta": item.get("buttons_magenta", ""),
+            "hard_fail_triggered": item.get("hard_fail", ""),
+            "hard_fail_reason": item.get("hard_fail_reason", "") or "",
+            "score_topic_match": criteria.get("topic_match", ""),
+            "score_detail_match": criteria.get("detail_match", ""),
+            "score_section_relevance": criteria.get("section_relevance", ""),
+            "score_visual_evidence": criteria.get("visual_evidence", ""),
+            "score_contradictions": criteria.get("contradictions", ""),
+            "overall_score": f"{score:.2f}",
+            "final_verdict": verdict,
+            "processing_error": row.result.get("error", "") or "",
+            "api_http_status": row.result.get("http_status", ""),
+            "api_finish_reason": row.result.get("finish_reason", "") or "",
+            "api_attempt": row.result.get("attempt", ""),
+            "match_reasons": " | ".join(item.get("reasons", [])),
+            "missing_evidence": " | ".join(item.get("missing_evidence", [])),
+        })
+
+    if not rows and row.result.get("error"):
+        rows.append({
+            "document_file": row.file_path,
+            "document_title": row.title or "",
+            "image_file": "",
+            "image_reference_type": "",
+            "image_reference_line": "",
+            "detected_image_type": "",
+            "has_interactive_buttons": "",
+            "interactive_buttons_magenta": "",
+            "hard_fail_triggered": "",
+            "hard_fail_reason": "",
+            "score_topic_match": "",
+            "score_detail_match": "",
+            "score_section_relevance": "",
+            "score_visual_evidence": "",
+            "score_contradictions": "",
+            "overall_score": "",
+            "final_verdict": "fail",
+            "processing_error": row.result.get("error", "") or "",
+            "api_http_status": row.result.get("http_status", ""),
+            "api_finish_reason": row.result.get("finish_reason", ""),
+            "api_attempt": row.result.get("attempt", ""),
+            "match_reasons": "",
+            "missing_evidence": "",
+        })
+
+    return rows
+
+
 def write_csv(path: Path, rows: List[Dict[str, Any]]) -> None:
-    fieldnames = ["Document", "Title", "Image", "Result", "Finding", "Recommended action"]
-    with path.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+    fieldnames = [
+        "document_file",
+        "document_title",
+        "image_file",
+        "image_reference_type",
+        "image_reference_line",
+        "detected_image_type",
+        "has_interactive_buttons",
+        "interactive_buttons_magenta",
+        "hard_fail_triggered",
+        "hard_fail_reason",
+        "score_topic_match",
+        "score_detail_match",
+        "score_section_relevance",
+        "score_visual_evidence",
+        "score_contradictions",
+        "overall_score",
+        "final_verdict",
+        "processing_error",
+        "api_http_status",
+        "api_finish_reason",
+        "api_attempt",
+        "match_reasons",
+        "missing_evidence",
+    ]
+
+    with path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(rows)
+        for row in rows:
+            writer.writerow(row)
 
 
-def process_files(files: List[Path], workspace: Path, source_root: Optional[Path], client: ResponsesClient, json_output: Path, csv_output: Path, failed_csv_output: Path, max_retries: int, request_delay: float, max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS) -> Tuple[int, int, int]:
+def process_files(
+    files: List[Path],
+    workspace: Path,
+    source_root: Optional[Path],
+    client: ResponsesClient,
+    json_output: Path,
+    csv_output: Path,
+    failed_csv_output: Path,
+    max_retries: int,
+    request_delay: float,
+    max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS,
+) -> Tuple[int, int, int]:
     processed_files = 0
     flagged_files = 0
     all_rows: List[Dict[str, Any]] = []
     csv_rows: List[Dict[str, Any]] = []
+
     for rst_file in files:
-        row = process_file(rst_file, workspace, source_root, client, max_retries, request_delay, max_output_tokens)
+        row = process_file(
+            rst_file=rst_file,
+            workspace=workspace,
+            source_root=source_root,
+            client=client,
+            max_retries=max_retries,
+            request_delay=request_delay,
+            max_output_tokens=max_output_tokens,
+        )
+
         if row is None:
             continue
+
         processed_files += 1
+
         json_row = build_json_row(row)
         all_rows.append(json_row)
-        csv_rows.extend(build_csv_rows(row, workspace))
+
+        file_csv_rows = build_csv_rows(row)
+        csv_rows.extend(file_csv_rows)
+
         has_flagged = (
             json_row["summary"]["partial"] > 0
             or json_row["summary"]["fail"] > 0
             or json_row["status"]["error"] is not None
-            or any(ref.get("error") == "invalid image" for ref in row.image_refs)
+            or any(ref.get("error") == "kein valides Bild" for ref in row.image_refs)
         )
+
         if has_flagged:
             flagged_files += 1
+
         json_output.write_text(json.dumps(all_rows, indent=2, ensure_ascii=False), encoding="utf-8")
         write_csv(csv_output, csv_rows)
-        write_csv(failed_csv_output, [csv_row for csv_row in csv_rows if csv_row.get("Result") == "Fail"])
+        write_csv(failed_csv_output, [row for row in csv_rows if row.get("final_verdict") == "fail"])
+
     return processed_files, flagged_files, len(all_rows)
 
 
 def enforce_strict_mode(json_output: Path) -> None:
     if not json_output.exists():
         return
+
     data = json.loads(json_output.read_text(encoding="utf-8"))
     for row in data:
         image_refs = row.get("image_refs", [])
-        if any(ref.get("error") == "invalid image" for ref in image_refs):
+        if any(ref.get("error") == "kein valides Bild" for ref in image_refs):
             raise SystemExit(1)
+
         status = row.get("status") or {}
-        if status.get("error") in {"invalid image", "backend_error"}:
+        if status.get("error") in {"kein valides Bild", "backend_error"}:
             raise SystemExit(1)
+
         results = row.get("results")
         if not isinstance(results, list):
             raise SystemExit(1)
+
         for item in results:
             if not _is_complete_result_item(item):
                 raise SystemExit(1)
-            if item.get("hard_fail") is True or item.get("verdict") == "fail":
+            if item.get("hard_fail") is True:
+                raise SystemExit(1)
+            if item.get("verdict") == "fail":
                 raise SystemExit(1)
 
 
@@ -898,158 +1257,412 @@ def ensure_parent_dir(path: Path) -> None:
 
 
 def human_duration(seconds: int) -> str:
-    return f"{seconds // 60}m {seconds % 60}s"
+    minutes = seconds // 60
+    sec = seconds % 60
+    return f"{minutes}m {sec}s"
 
 
 def human_total_duration(seconds: int) -> str:
-    return f"{seconds // 3600}h {(seconds % 3600) // 60}m {seconds % 60}s"
+    hours = seconds // 3600
+    minutes = (seconds % 3600) // 60
+    sec = seconds % 60
+    return f"{hours}h {minutes}m {sec}s"
 
 
-def run_command(cmd: List[str], cwd: Optional[Path] = None, env: Optional[Dict[str, str]] = None, capture_output: bool = True, check: bool = False) -> subprocess.CompletedProcess:
-    return subprocess.run(cmd, cwd=str(cwd) if cwd else None, env=env, text=True, capture_output=capture_output, check=check)
+def run_command(
+    cmd: List[str],
+    cwd: Optional[Path] = None,
+    env: Optional[Dict[str, str]] = None,
+    capture_output: bool = True,
+    check: bool = False,
+) -> subprocess.CompletedProcess:
+    return subprocess.run(
+        cmd,
+        cwd=str(cwd) if cwd else None,
+        env=env,
+        text=True,
+        capture_output=capture_output,
+        check=check,
+    )
 
 
 def load_bash_env(env_file: Path, base_env: Optional[Dict[str, str]] = None) -> Dict[str, str]:
     if not env_file.exists():
-        raise SystemExit(f"Environment file not found: {env_file}")
+        raise SystemExit(f"Env-Datei nicht gefunden: {env_file}")
+
+    seed_env = dict(base_env or os.environ)
     quoted = shlex.quote(str(env_file))
-    proc = subprocess.run(["/bin/bash", "-c", f"set -a && source {quoted} && env -0"], text=False, capture_output=True, env=dict(base_env or os.environ))
+    cmd = f"set -a && source {quoted} && env -0"
+
+    proc = subprocess.run(
+        ["/bin/bash", "-c", cmd],
+        text=False,
+        capture_output=True,
+        env=seed_env,
+    )
+
     if proc.returncode != 0:
         stderr = proc.stderr.decode("utf-8", errors="replace")
-        raise SystemExit(f"Could not load environment file {env_file}: {stderr}")
+        raise SystemExit(f"Fehler beim Laden der Env-Datei {env_file}: {stderr}")
+
     env: Dict[str, str] = {}
     for chunk in proc.stdout.split(b"\x00"):
-        if chunk and b"=" in chunk:
-            key, value = chunk.split(b"=", 1)
-            env[key.decode("utf-8", errors="replace")] = value.decode("utf-8", errors="replace")
+        if not chunk or b"=" not in chunk:
+            continue
+        key, value = chunk.split(b"=", 1)
+        env[key.decode("utf-8", errors="replace")] = value.decode("utf-8", errors="replace")
+
     return env
 
 
 def list_repos_with_gh(org: str, limit: int, env: Dict[str, str]) -> List[str]:
-    proc = run_command(["gh", "repo", "list", org, "--visibility=public", "--limit", str(limit), "--json", "nameWithOwner", "--jq", ".[].nameWithOwner"], env=env)
+    proc = run_command(
+        [
+            "gh", "repo", "list", org,
+            "--visibility=public",
+            "--limit", str(limit),
+            "--json", "nameWithOwner",
+            "--jq", ".[].nameWithOwner",
+        ],
+        env=env,
+    )
+
     if proc.returncode != 0:
-        raise SystemExit(f"gh repo list failed:\n{proc.stderr}")
-    return [line.strip() for line in proc.stdout.splitlines() if line.strip()]
+        raise SystemExit(f"gh repo list fehlgeschlagen:\n{proc.stderr}")
+
+    repos = [line.strip() for line in proc.stdout.splitlines() if line.strip()]
+    return repos
 
 
 def append_text(path: Path, text: str) -> None:
     ensure_parent_dir(path)
-    with path.open("a", encoding="utf-8") as handle:
-        handle.write(text)
+    with path.open("a", encoding="utf-8") as f:
+        f.write(text)
 
 
-def clone_or_pull_repo(full_repo: str, working_dir: Path, env: Dict[str, str]) -> Tuple[bool, Optional[str], str]:
+def clone_or_pull_repo(
+    full_repo: str,
+    working_dir: Path,
+    env: Dict[str, str],
+) -> Tuple[bool, Optional[str], str]:
     if (working_dir / ".git").is_dir():
         proc = run_command(["git", "-C", str(working_dir), "pull", "--ff-only"], env=env)
-        error_message = "git pull failed"
+        if proc.returncode != 0:
+            return False, "git pull fehlgeschlagen", (proc.stdout or "") + "\n" + (proc.stderr or "")
+        return True, None, (proc.stdout or "") + "\n" + (proc.stderr or "")
     else:
         proc = run_command(["git", "clone", f"https://github.com/{full_repo}.git", str(working_dir)], env=env)
-        error_message = "clone failed"
-    output = (proc.stdout or "") + "\n" + (proc.stderr or "")
-    return proc.returncode == 0, None if proc.returncode == 0 else error_message, output
+        if proc.returncode != 0:
+            return False, "clone fehlgeschlagen", (proc.stdout or "") + "\n" + (proc.stderr or "")
+        return True, None, (proc.stdout or "") + "\n" + (proc.stderr or "")
 
 
 def run_single_workspace_mode(args: argparse.Namespace) -> None:
-    logging.basicConfig(level=getattr(logging, args.log_level.upper(), logging.INFO), format="%(asctime)s %(levelname)s %(name)s - %(message)s")
+    logging.basicConfig(
+        level=getattr(logging, args.log_level.upper(), logging.INFO),
+        format="%(asctime)s %(levelname)s %(name)s - %(message)s",
+    )
+
     logger = logging.getLogger(__name__)
+
     if not args.api_url:
         raise SystemExit("Missing AI API URL. Use --api-url or set AI_API_URL.")
     if not args.api_key:
         raise SystemExit("Missing AI API key. Use --api-key or set AI_API_KEY.")
+
     workspace = Path(args.workspace).expanduser().resolve()
     source_root = Path(args.source_root).expanduser().resolve() if args.source_root else None
     files = select_input_files(args, workspace)
+
     logger.info("Starting AssetGuard")
     logger.info("Workspace: %s", workspace)
-    logger.info("Found RST files: %d", len(files))
-    client = ResponsesClient(args.api_url, args.api_key, args.model)
-    processed_files, flagged_files, row_count = process_files(files, workspace, source_root, client, Path(args.output_json), Path(args.output_csv), Path(args.output_failed_csv), args.max_retries, args.request_delay, args.max_output_tokens)
+    logger.info("Found RST-Dateien: %d", len(files))
+    logger.info("Sending files to backend and waiting for response..")
+
+    client = ResponsesClient(api_url=args.api_url, api_key=args.api_key, model=args.model)
+
+    processed_files, flagged_files, row_count = process_files(
+        files=files,
+        workspace=workspace,
+        source_root=source_root,
+        client=client,
+        json_output=Path(args.output_json),
+        csv_output=Path(args.output_csv),
+        failed_csv_output=Path(args.output_failed_csv),
+        max_retries=args.max_retries,
+        request_delay=args.request_delay,
+        max_output_tokens=args.max_output_tokens,
+    )
+
     if args.strict:
         enforce_strict_mode(Path(args.output_json))
-    logger.info("Done. Processed %d RST files, wrote %d rows to %s, flagged %d files, csv=%s, failed_csv=%s", processed_files, row_count, args.output_json, flagged_files, args.output_csv, args.output_failed_csv)
+
+    logger.info(
+        "Done. Processed %d rst files, wrote %d rows to %s, flagged %d files, csv=%s, failed_csv=%s",
+        processed_files,
+        row_count,
+        args.output_json,
+        flagged_files,
+        args.output_csv,
+        args.output_failed_csv,
+    )
 
 
 def _repo_worker(worker_args: Dict[str, Any]) -> Dict[str, Any]:
+    repo_logger = logging.getLogger(__name__)
+
     full_repo = worker_args["full_repo"]
     repo_name = full_repo.split("/", 1)[1]
+
     clone_base = Path(worker_args["clone_base"]).expanduser().resolve()
     result_base = Path(worker_args["result_base"]).expanduser().resolve()
     env = dict(worker_args["env"])
+
     working_dir = clone_base / repo_name
     source_root = working_dir / "umn" / "source"
     result_dir = result_base / repo_name
     result_dir.mkdir(parents=True, exist_ok=True)
+
     run_log = result_dir / "run.log"
     duration_file = result_dir / "duration_seconds.txt"
+    output_json = result_dir / "results_with_images.json"
+    output_csv = result_dir / "results_with_images.csv"
+    output_failed_csv = result_dir / "results_with_images.failed_only.csv"
+
     started = int(time.time())
-    log_lines = [f"==> Processing {repo_name}\n"]
+
+    log_lines = [f"==> Bearbeite {repo_name}\n"]
+
     ok, git_error, git_output = clone_or_pull_repo(full_repo, working_dir, env)
     log_lines.append(git_output.strip() + "\n")
-    if not ok or not source_root.is_dir():
-        reason = git_error if not ok else f"source root missing ({source_root})"
+
+    if not ok:
         duration = int(time.time()) - started
         duration_file.write_text(str(duration), encoding="utf-8")
-        log_lines.extend([f"{repo_name}: {reason}\n", f"duration_seconds={duration}\n", f"duration_human={human_duration(duration)}\n"])
+        log_lines.append(f"{repo_name}: {git_error}\n")
+        log_lines.append(f"duration_seconds={duration}\n")
+        log_lines.append(f"duration_human={human_duration(duration)}\n")
         run_log.write_text("".join(log_lines), encoding="utf-8")
-        return {"repo_name": repo_name, "success": False, "failure_reason": reason, "duration_seconds": duration, "duration_human": human_duration(duration), "result_dir": str(result_dir)}
+        return {
+            "repo_name": repo_name,
+            "success": False,
+            "failure_reason": git_error,
+            "duration_seconds": duration,
+            "duration_human": human_duration(duration),
+            "result_dir": str(result_dir),
+        }
+
+    if not source_root.is_dir():
+        duration = int(time.time()) - started
+        duration_file.write_text(str(duration), encoding="utf-8")
+        msg = f"source root fehlt ({source_root})"
+        log_lines.append(f"{repo_name}: {msg}\n")
+        log_lines.append(f"duration_seconds={duration}\n")
+        log_lines.append(f"duration_human={human_duration(duration)}\n")
+        run_log.write_text("".join(log_lines), encoding="utf-8")
+        return {
+            "repo_name": repo_name,
+            "success": False,
+            "failure_reason": msg,
+            "duration_seconds": duration,
+            "duration_human": human_duration(duration),
+            "result_dir": str(result_dir),
+        }
+
     try:
-        client = ResponsesClient(worker_args["api_url"], worker_args["api_key"], worker_args["model"])
-        processed_files, flagged_files, row_count = process_files(find_rst_files(working_dir, []), working_dir, source_root, client, result_dir / "results_with_images.json", result_dir / "results_with_images.csv", result_dir / "results_with_images.failed_only.csv", worker_args["max_retries"], worker_args["request_delay"], worker_args["max_output_tokens"])
+        client = ResponsesClient(
+            api_url=worker_args["api_url"],
+            api_key=worker_args["api_key"],
+            model=worker_args["model"],
+        )
+
+        files = find_rst_files(working_dir, [])
+        processed_files, flagged_files, row_count = process_files(
+            files=files,
+            workspace=working_dir,
+            source_root=source_root,
+            client=client,
+            json_output=output_json,
+            csv_output=output_csv,
+            failed_csv_output=output_failed_csv,
+            max_retries=worker_args["max_retries"],
+            request_delay=worker_args["request_delay"],
+            max_output_tokens=worker_args["max_output_tokens"],
+        )
+
         if worker_args["strict"]:
-            enforce_strict_mode(result_dir / "results_with_images.json")
+            enforce_strict_mode(output_json)
+
         duration = int(time.time()) - started
         duration_file.write_text(str(duration), encoding="utf-8")
-        log_lines.extend([f"OK: stored results for {repo_name} in {result_dir} ({human_duration(duration)})\n", f"processed_files={processed_files}\n", f"flagged_files={flagged_files}\n", f"row_count={row_count}\n"])
+
+        log_lines.append(
+            f"OK: speichere Ergebnis von {repo_name} in {result_dir} "
+            f"(Dauer: {human_duration(duration)})\n"
+        )
+
+        log_lines.append(f"processed_files={processed_files}\n")
+        log_lines.append(f"flagged_files={flagged_files}\n")
+        log_lines.append(f"row_count={row_count}\n")
+        log_lines.append(f"duration_seconds={duration}\n")
+        log_lines.append(f"duration_human={human_duration(duration)}\n")
         run_log.write_text("".join(log_lines), encoding="utf-8")
-        return {"repo_name": repo_name, "success": True, "failure_reason": None, "duration_seconds": duration, "duration_human": human_duration(duration), "result_dir": str(result_dir)}
+
+        return {
+            "repo_name": repo_name,
+            "success": True,
+            "failure_reason": None,
+            "duration_seconds": duration,
+            "duration_human": human_duration(duration),
+            "result_dir": str(result_dir),
+        }
+
     except Exception as exc:
         duration = int(time.time()) - started
         duration_file.write_text(str(duration), encoding="utf-8")
-        log_lines.extend([f"ERROR: Processing failed for {repo_name}\n", f"exception={exc}\n"])
+        log_lines.append(
+            f"FEHLER: Python-Skript für {repo_name} fehlgeschlagen "
+            f"(Dauer: {human_duration(duration)})\n"
+        )
+
+        log_lines.append(f"exception={exc}\n")
+        log_lines.append(f"duration_seconds={duration}\n")
+        log_lines.append(f"duration_human={human_duration(duration)}\n")
         run_log.write_text("".join(log_lines), encoding="utf-8")
-        return {"repo_name": repo_name, "success": False, "failure_reason": str(exc), "duration_seconds": duration, "duration_human": human_duration(duration), "result_dir": str(result_dir)}
+
+        return {
+            "repo_name": repo_name,
+            "success": False,
+            "failure_reason": str(exc),
+            "duration_seconds": duration,
+            "duration_human": human_duration(duration),
+            "result_dir": str(result_dir),
+        }
 
 
 def run_full_repo_test(args: argparse.Namespace) -> None:
-    logging.basicConfig(level=getattr(logging, args.log_level.upper(), logging.INFO), format="%(asctime)s %(levelname)s %(name)s - %(message)s")
+    logging.basicConfig(
+        level=getattr(logging, args.log_level.upper(), logging.INFO),
+        format="%(asctime)s %(levelname)s %(name)s - %(message)s",
+    )
+
     logger = logging.getLogger(__name__)
+
     clone_base = Path(args.clone_base).expanduser().resolve()
+    script_base = Path(args.script_base).expanduser().resolve()
     result_base = Path(args.result_base).expanduser().resolve()
     env_file = Path(args.env_file).expanduser().resolve()
+
     clone_base.mkdir(parents=True, exist_ok=True)
     result_base.mkdir(parents=True, exist_ok=True)
+
     failed_file = result_base / "failed_repos.txt"
     failed_file.write_text("", encoding="utf-8")
+
     env = load_bash_env(env_file, os.environ)
     env.setdefault("HOME", os.environ.get("HOME", str(Path.home())))
-    args.api_url = args.api_url or env.get("AI_API_URL") or os.getenv("AI_API_URL")
-    args.api_key = args.api_key or env.get("AI_API_KEY") or os.getenv("AI_API_KEY")
-    args.model = args.model or env.get("AI_MODEL") or os.getenv("AI_MODEL", "qwen3.6-35b")
-    if not args.api_url or not args.api_key:
-        raise SystemExit("Missing AI API URL or API key.")
+
+    if not args.api_url:
+        args.api_url = env.get("AI_API_URL") or os.getenv("AI_API_URL")
+    if not args.api_key:
+        args.api_key = env.get("AI_API_KEY") or os.getenv("AI_API_KEY")
+    if not args.model:
+        args.model = env.get("AI_MODEL") or os.getenv("AI_MODEL", "qwen3.6-35b")
+
+    if not args.api_url:
+        raise SystemExit("Missing AI API URL. Use --api-url or set AI_API_URL.")
+    if not args.api_key:
+        raise SystemExit("Missing AI API key. Use --api-key or set AI_API_KEY.")
+
+    logger.info("Full repo test gestartet")
+    logger.info("Org: %s", args.org)
+    logger.info("Clone base: %s", clone_base)
+    logger.info("Result base: %s", result_base)
+    logger.info("Env file: %s", env_file)
+    logger.info("Workers: %d", args.max_workers)
+    logger.info("Worker start delay: %.2fs", args.worker_start_delay)
+
     repos = list_repos_with_gh(args.org, args.repo_limit, env)
-    logger.info("Starting processing for %d repositories", len(repos))
-    payloads = [{"full_repo": repo, "clone_base": str(clone_base), "result_base": str(result_base), "env": env, "api_url": args.api_url, "api_key": args.api_key, "model": args.model, "max_retries": args.max_retries, "request_delay": args.request_delay, "max_output_tokens": args.max_output_tokens, "strict": args.strict} for repo in repos]
+    logger.info("Gefundene Repos: %d", len(repos))
+    logger.info("Starte Verarbeitung von %d Repos", len(repos))
+
+    worker_payloads: List[Dict[str, Any]] = []
+    for full_repo in repos:
+        worker_payloads.append({
+            "full_repo": full_repo,
+            "clone_base": str(clone_base),
+            "script_base": str(script_base),
+            "result_base": str(result_base),
+            "env": env,
+            "api_url": args.api_url,
+            "api_key": args.api_key,
+            "model": args.model,
+            "max_retries": args.max_retries,
+            "request_delay": args.request_delay,
+            "max_output_tokens": args.max_output_tokens,
+            "strict": args.strict,
+        })
+
     total_duration = 0
-    success_count = 0
-    failure_count = 0
+    futures = []
+
     with ProcessPoolExecutor(max_workers=args.max_workers) as executor:
-        futures = []
-        for index, payload in enumerate(payloads):
-            if index > 0 and args.worker_start_delay > 0:
+        for idx, payload in enumerate(worker_payloads):
+            if idx > 0 and args.worker_start_delay > 0:
                 time.sleep(args.worker_start_delay)
             futures.append(executor.submit(_repo_worker, payload))
+
+        total_repos = len(futures)
+        success_count = 0
+        failure_count = 0
+
         for completed_count, future in enumerate(as_completed(futures), start=1):
             result = future.result()
-            total_duration += int(result.get("duration_seconds") or 0)
+            repo_name = result["repo_name"]
+            duration = int(result.get("duration_seconds") or 0)
+            total_duration += duration
+            percent = (completed_count / total_repos) * 100
+
             if result["success"]:
                 success_count += 1
-                logger.info("[%d/%d | OK=%d | FAILED=%d] OK: %s completed in %s", completed_count, len(futures), success_count, failure_count, result["repo_name"], result["duration_human"])
+                logger.info(
+                    "[%d/%d | %.1f%% | OK=%d | FEHLER=%d] OK: %s abgeschlossen in %s",
+                    completed_count,
+                    total_repos,
+                    percent,
+                    success_count,
+                    failure_count,
+                    repo_name,
+                    result["duration_human"],
+                )
             else:
                 failure_count += 1
-                logger.error("[%d/%d | OK=%d | FAILED=%d] FAILED: %s: %s", completed_count, len(futures), success_count, failure_count, result["repo_name"], result["failure_reason"])
-                append_text(failed_file, f"{result['repo_name']}: {result['failure_reason']}\n")
-    logger.info("Finished. Repositories=%d, OK=%d, FAILED=%d, total duration=%s", len(repos), success_count, failure_count, human_total_duration(total_duration))
+                logger.error(
+                    "[%d/%d | %.1f%% | OK=%d | FEHLER=%d] FEHLER: %s fehlgeschlagen in %s: %s",
+                    completed_count,
+                    total_repos,
+                    percent,
+                    success_count,
+                    failure_count,
+                    repo_name,
+                    result["duration_human"],
+                    result["failure_reason"],
+                )
+
+                append_text(failed_file, f"{repo_name}: {result['failure_reason']}\n")
+                append_text(failed_file, f"{repo_name} duration_seconds={duration}\n")
+                append_text(failed_file, f"{repo_name} duration_human={result['duration_human']}\n")
+
+        total_human = human_total_duration(total_duration)
+        logger.info(
+            "Fertig. Repos gesamt=%d, OK=%d, FEHLER=%d, Gesamtlaufzeit aller Repos: %s",
+            len(repos),
+            success_count,
+            failure_count,
+            total_human,
+        )
+
+        append_text(failed_file, f"Gesamtlaufzeit aller Repos: {total_human}\n")
 
 
 def parse_args() -> argparse.Namespace:
@@ -1066,19 +1679,21 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-retries", type=int, default=DEFAULT_MAX_RETRIES, help="Number of attempts for backend/transient errors.")
     parser.add_argument("--max-output-tokens", type=int, default=DEFAULT_MAX_OUTPUT_TOKENS, help="Maximum output tokens for the API.")
     parser.add_argument("--output-json", default="results_with_images.json", help="Machine-readable JSON output.")
-    parser.add_argument("--output-csv", default="results_with_images.csv", help="Concise CSV output with findings only.")
-    parser.add_argument("--output-failed-csv", default="results_with_images.failed_only.csv", help="CSV output containing failed findings only.")
+    parser.add_argument("--output-csv", default="results_with_images.csv", help="Flat CSV output.")
+    parser.add_argument("--output-failed-csv", default="results_with_images.failed_only.csv", help="Only failed rows as CSV.")
     parser.add_argument("--strict", action="store_true", help="Exit with code 1 when score < 0.55, hard fail, backend error, invalid image, or invalid parsed JSON.")
     parser.add_argument("--log-level", default="INFO", help="Logging level, e.g. DEBUG, INFO, WARNING.")
-    parser.add_argument("--full-repo-test", action="store_true", help="Run the full multi-repository test workflow.")
+
+    parser.add_argument("--full-repo-test", action="store_true", help="Run the full multi-repo test workflow and replace the old bash orchestration.")
     parser.add_argument("--org", default=DEFAULT_ORG, help="GitHub organization name for --full-repo-test.")
-    parser.add_argument("--repo-limit", type=int, default=DEFAULT_REPO_LIMIT, help="Maximum number of repositories to fetch for --full-repo-test.")
+    parser.add_argument("--repo-limit", type=int, default=DEFAULT_REPO_LIMIT, help="Maximum number of repos to fetch for --full-repo-test.")
     parser.add_argument("--clone-base", default="~/repotesting", help="Clone directory base for --full-repo-test.")
     parser.add_argument("--script-base", default="~/AssetGuard", help="Script base directory for --full-repo-test.")
     parser.add_argument("--result-base", default="~/AssetGuard/repo_results", help="Result directory base for --full-repo-test.")
-    parser.add_argument("--env-file", default=".rst_checker__env", help="Bash environment file to source for --full-repo-test.")
+    parser.add_argument("--env-file", default=".rst_checker__env", help="Bash env file to source for --full-repo-test.")
     parser.add_argument("--max-workers", type=int, default=DEFAULT_MAX_WORKERS, help="Parallel workers for --full-repo-test.")
     parser.add_argument("--worker-start-delay", type=float, default=DEFAULT_WORKER_START_DELAY, help="Delay in seconds between scheduling worker starts for --full-repo-test.")
+
     return parser.parse_args()
 
 
