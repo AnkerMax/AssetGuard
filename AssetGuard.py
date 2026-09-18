@@ -719,7 +719,29 @@ class ResponsesClient:
 
                     return last_result
 
-                response.raise_for_status()
+                try:
+                    response.raise_for_status()
+                except requests.HTTPError as exc:
+                    logging.error(
+                        "API HTTP-Fehler: status=%s, url=%s, response=%s",
+                        response.status_code,
+                        self.api_url,
+                        response.text[:10000],
+                    )
+
+                    return ApiResult(
+                        raw_text="",
+                        parsed_json=None,
+                        attached_image_count=len(attached_images),
+                        attached_images=attached_images,
+                        raw_response=None,
+                        http_status=response.status_code,
+                        http_response_text=response.text,
+                        finish_reason=None,
+                        attempt=attempt,
+                        max_retries=max_retries,
+                        error="backend_error",
+                    )
 
                 try:
                     data = response.json()
