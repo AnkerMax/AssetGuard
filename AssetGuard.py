@@ -129,13 +129,12 @@ RESPONSE_SCHEMA = {
                             "missing_evidence",
                         ],
                     },
-                }
+                },
             },
             "required": ["results"],
         },
     },
 }
-
 
 @dataclass
 class ImageReference:
@@ -150,13 +149,11 @@ class ImageReference:
     is_valid_image: bool = False
     error: Optional[str] = None
 
-
 @dataclass
 class LoadedImage:
     path: str
     media_type: str
     data_base64: str
-
 
 @dataclass
 class ApiResult:
@@ -173,7 +170,6 @@ class ApiResult:
     error: Optional[str] = None
     warning: Optional[str] = None
 
-
 @dataclass
 class AuditRow:
     file_path: str
@@ -182,12 +178,10 @@ class AuditRow:
     image_refs: List[Dict[str, Any]]
     result: Dict[str, Any]
 
-
 def compute_overall_score(criteria: Dict[str, int]) -> float:
     weighted = sum(criteria.get(k, 0) * WEIGHTS[k] for k in WEIGHTS)
     normalized = weighted / sum(3 * WEIGHTS[k] for k in WEIGHTS)
     return round(normalized, 2)
-
 
 def verdict_from_score(score: float) -> str:
     if score >= 0.80:
@@ -196,7 +190,6 @@ def verdict_from_score(score: float) -> str:
         return "partial"
     return "fail"
 
-
 def final_verdict(item: Dict[str, Any]) -> str:
     if item.get("hard_fail") is True:
         return "fail"
@@ -204,13 +197,11 @@ def final_verdict(item: Dict[str, Any]) -> str:
     score = compute_overall_score(criteria)
     return verdict_from_score(score)
 
-
 def hex_to_rgb(hex_color: str) -> Tuple[int, int, int]:
     value = hex_color.strip().lstrip("#")
     if len(value) != 6 or not re.fullmatch(r"[0-9a-fA-F]{6}", value):
         raise ValueError(f"Invalid hex color: {hex_color}")
     return int(value[0:2], 16), int(value[2:4], 16), int(value[4:6], 16)
-
 
 def image_contains_color(
     path: Path,
@@ -224,7 +215,6 @@ def image_contains_color(
                 return True
     return False
 
-
 def extract_title(rst_raw: str) -> Optional[str]:
     lines = rst_raw.splitlines()
     adorn = set("=~-^\"'`:+*#<>")
@@ -235,7 +225,6 @@ def extract_title(rst_raw: str) -> Optional[str]:
             return title
     return None
 
-
 def extract_image_refs(rst_raw: str) -> List[ImageReference]:
     refs: List[ImageReference] = []
     patterns = [
@@ -243,7 +232,6 @@ def extract_image_refs(rst_raw: str) -> List[ImageReference]:
         (r"^\s*\.\.\s+figure::\s+(.+?)\s*$", "figure"),
         (r"^\s*\.\.\s+\|([^|]+)\|\s+image::\s+(.+?)\s*$", "substitution_image"),
     ]
-
     for idx, line in enumerate(rst_raw.splitlines(), start=1):
         for pattern, kind in patterns:
             match = re.match(pattern, line)
@@ -262,18 +250,14 @@ def extract_image_refs(rst_raw: str) -> List[ImageReference]:
                 refs.append(ImageReference(kind=kind, target=match.group(1).strip(), line=idx))
     return refs
 
-
 def normalize_target(target: str) -> str:
     return target.strip().strip('"').strip("'")
-
 
 def get_image_suffix(path: str) -> str:
     return PurePosixPath(path).suffix.lower()
 
-
 def is_valid_image_path(path: str) -> bool:
     return get_image_suffix(path) in VALID_IMAGE_SUFFIXES
-
 
 def get_media_type_for_path(path: Path) -> str:
     suffix = path.suffix.lower()
@@ -281,7 +265,6 @@ def get_media_type_for_path(path: Path) -> str:
     if not media_type:
         raise ValueError("kein valides Bild")
     return media_type
-
 
 def resolve_local_path(
     rst_file: Path,
@@ -296,7 +279,6 @@ def resolve_local_path(
         base = source_root if source_root is not None else workspace
         return (base / target.lstrip("/")).resolve()
     return (rst_file.parent / target).resolve()
-
 
 def load_local_image_content(path: Path) -> LoadedImage:
     suffix = path.suffix.lower()
@@ -317,7 +299,6 @@ def load_local_image_content(path: Path) -> LoadedImage:
         media_type=media_type,
         data_base64=base64.b64encode(raw).decode("utf-8"),
     )
-
 
 def build_image_candidates(
     rst_path: Path,
@@ -369,7 +350,6 @@ def build_image_candidates(
 
     return candidates
 
-
 def make_prompt(job: Dict[str, Any]) -> str:
     image_count = job.get("attached_image_count", len(job.get("image_refs", [])))
     return (
@@ -415,15 +395,23 @@ def make_prompt(job: Dict[str, Any]) -> str:
         "RST:\n<<>>"
     )
 
-
 def extract_finish_reason(data: Dict[str, Any]) -> Optional[str]:
+    # Chat Completions Format
     if isinstance(data.get("status"), str):
         return data["status"]
+    
+    choices = data.get("choices", [])
+    if isinstance(choices, list) and len(choices) > 0:
+        first_choice = choices[0]
+        if isinstance(first_choice, dict):
+            return first_choice.get("finish_reason")
+    
+    # Responses-API Format (Fallback)
     for item in data.get("output", []):
         if isinstance(item, dict) and item.get("finish_reason"):
             return item.get("finish_reason")
+    
     return None
-
 
 def _is_complete_result_item(item: Any) -> bool:
     if not isinstance(item, dict):
@@ -441,7 +429,6 @@ def _is_complete_result_item(item: Any) -> bool:
         "reasons",
         "missing_evidence",
     }
-
     if not required_top.issubset(item.keys()):
         return False
 
@@ -467,7 +454,6 @@ def _is_complete_result_item(item: Any) -> bool:
         "visual_evidence",
         "contradictions",
     }
-
     if not required_criteria.issubset(criteria.keys()):
         return False
 
@@ -486,14 +472,12 @@ def _is_complete_result_item(item: Any) -> bool:
 
     return True
 
-
 def _normalize_candidate(obj: Any) -> Optional[Dict[str, Any]]:
     if isinstance(obj, dict):
         return obj
     if isinstance(obj, list):
         return {"results": obj}
     return None
-
 
 def _extract_json_candidates_from_text(text: str) -> List[Dict[str, Any]]:
     candidates: List[Dict[str, Any]] = []
@@ -518,54 +502,52 @@ def _extract_json_candidates_from_text(text: str) -> List[Dict[str, Any]]:
 
     return candidates
 
-
 def extract_response_text(data: Dict[str, Any]) -> str:
-    parts: List[str] = []
-
-    output_text = data.get("output_text")
-    if isinstance(output_text, str) and output_text.strip():
-        parts.append(output_text.strip())
-
-    output = data.get("output")
-    if isinstance(output, list):
-        for item in output:
-            if not isinstance(item, dict):
-                continue
-            content = item.get("content")
-            if not isinstance(content, list):
-                continue
-            for part in content:
-                if (
-                    isinstance(part, dict)
-                    and part.get("type") in {"output_text", "text"}
-                    and isinstance(part.get("text"), str)
-                ):
-                    txt = part["text"].strip()
-                    if txt:
-                        parts.append(txt)
-
-    seen = set()
-    deduped = []
-    for p in parts:
-        key = p[:500]
-        if key not in seen:
-            seen.add(key)
-            deduped.append(p)
-
-    return "\n".join(deduped).strip()
-
+    """Extrahiert den Text aus einer Chat Completions Response."""
+    if not isinstance(data, dict):
+        return ""
+    
+    # Chat Completions Format
+    choices = data.get("choices", [])
+    if isinstance(choices, list) and len(choices) > 0:
+        first_choice = choices[0]
+        if isinstance(first_choice, dict):
+            message = first_choice.get("message", {})
+            if isinstance(message, dict):
+                content = message.get("content", "")
+                if isinstance(content, str):
+                    return content.strip()
+    
+    # Fallback: output_text Feld (Responses-API Kompatibilität)
+    output_text = data.get("output_text", "")
+    if isinstance(output_text, str):
+        return output_text.strip()
+    
+    return ""
 
 def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    """Extrahiert JSON aus einer Chat Completions Response."""
     if not isinstance(data, dict):
         return None
-
+    
+    # Zuerst Chat Completions Format prüfen
+    text = extract_response_text(data)
+    if text:
+        # JSON aus dem Text extrahieren
+        candidates = _extract_json_candidates_from_text(text)
+        for candidate in reversed(candidates):
+            results = candidate.get("results")
+            if isinstance(results, list) and len(results) > 0 and all(_is_complete_result_item(x) for x in results):
+                return candidate
+    
+    # Fallback: Responses-API Format (output, output_parsed, etc.)
     candidates: List[Dict[str, Any]] = []
-
+    
     def add_candidate(obj: Any) -> None:
         normalized = _normalize_candidate(obj)
         if normalized is not None:
             candidates.append(normalized)
-
+    
     def scan_text(text: str) -> None:
         decoder = JSONDecoder()
         i = 0
@@ -579,7 +561,7 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
                 i = max(i + 1, end)
             except JSONDecodeError:
                 i += 1
-
+    
     def walk_output(container: Any) -> None:
         if not isinstance(container, list):
             return
@@ -597,28 +579,28 @@ def extract_response_json(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
                     add_candidate(part.get("json"))
                 elif ptype in {"output_text", "text"} and isinstance(part.get("text"), str):
                     scan_text(part["text"])
-
+    
     for key in ("output_parsed", "parsed", "response_parsed"):
         add_candidate(data.get(key))
-
-    if isinstance(data.get("output_text"), str):
-        scan_text(data["output_text"])
-
+    
+    output_text = data.get("output_text", "")
+    if isinstance(output_text, str):
+        scan_text(output_text)
+    
     walk_output(data.get("output"))
-
+    
     response_obj = data.get("response")
     if isinstance(response_obj, dict):
         if isinstance(response_obj.get("output_text"), str):
             scan_text(response_obj["output_text"])
         walk_output(response_obj.get("output"))
-
+    
     for candidate in reversed(candidates):
         results = candidate.get("results")
         if isinstance(results, list) and len(results) > 0 and all(_is_complete_result_item(x) for x in results):
             return candidate
-
+    
     return None
-
 
 class ResponsesClient:
     def __init__(self, api_url: str, api_key: str, model: str):
@@ -632,7 +614,7 @@ class ResponsesClient:
         images: List[LoadedImage],
         max_output_tokens: int,
     ) -> Tuple[Dict[str, Any], List[str]]:
-        content: List[Dict[str, Any]] = [{"type": "input_text", "text": prompt}]
+        content: List[Dict[str, Any]] = [{"type": "text", "text": prompt}]
         attached_images: List[str] = []
         seen_paths = set()
 
@@ -640,31 +622,32 @@ class ResponsesClient:
             if img.path in seen_paths:
                 continue
             seen_paths.add(img.path)
-            content.append({"type": "input_text", "text": f"IMAGE {idx} PATH: {img.path}"})
-            content.append({"type": "input_image", "image_url": f"data:{img.media_type};base64,{img.data_base64}"})
+            content.append({"type": "text", "text": f"IMAGE {idx} PATH: {img.path}"})
+            content.append({
+                "type": "image_url",
+                "image_url": {
+                    "url": f"data:{img.media_type};base64,{img.data_base64}"
+                }
+            })
             attached_images.append(img.path)
 
         payload = {
             "model": self.model,
-            "instructions": (
-                "You analyze reStructuredText documents and related images. "
-                "Each image is preceded by a text line in the form 'IMAGE N PATH: '. "
-                "Use that exact path for the corresponding image. "
-                "Do not guess paths. Return JSON only."
-            ),
-            "input": [{"role": "user", "content": content}],
+            "messages": [
+                {"role": "user", "content": content}
+            ],
             "tools": [BACKEND_REQUIRED_TOOL],
             "tool_choice": "none",
-            "text": {
-                "format": {
-                    "type": "json_schema",
+            "temperature": 0,
+            "max_tokens": max_output_tokens,
+            "response_format": {
+                "type": "json_schema",
+                "json_schema": {
                     "name": RESPONSE_SCHEMA["json_schema"]["name"],
                     "strict": RESPONSE_SCHEMA["json_schema"]["strict"],
                     "schema": RESPONSE_SCHEMA["json_schema"]["schema"],
                 }
             },
-            "temperature": 0,
-            "max_output_tokens": max_output_tokens,
         }
 
         return payload, attached_images
@@ -719,29 +702,7 @@ class ResponsesClient:
 
                     return last_result
 
-                try:
-                    response.raise_for_status()
-                except requests.HTTPError as exc:
-                    logging.error(
-                        "API HTTP-Fehler: status=%s, url=%s, response=%s",
-                        response.status_code,
-                        self.api_url,
-                        response.text[:10000],
-                    )
-
-                    return ApiResult(
-                        raw_text="",
-                        parsed_json=None,
-                        attached_image_count=len(attached_images),
-                        attached_images=attached_images,
-                        raw_response=None,
-                        http_status=response.status_code,
-                        http_response_text=response.text,
-                        finish_reason=None,
-                        attempt=attempt,
-                        max_retries=max_retries,
-                        error="backend_error",
-                    )
+                response.raise_for_status()
 
                 try:
                     data = response.json()
@@ -831,7 +792,6 @@ class ResponsesClient:
             request_delay=request_delay,
         )
 
-
 def read_file_list(file_list: Path) -> List[Path]:
     items = []
     for line in file_list.read_text(encoding="utf-8").splitlines():
@@ -839,7 +799,6 @@ def read_file_list(file_list: Path) -> List[Path]:
         if line and not line.startswith("#"):
             items.append(Path(line))
     return items
-
 
 def find_rst_files(workspace: Path, path_prefixes: List[str]) -> List[Path]:
     files = []
@@ -849,7 +808,6 @@ def find_rst_files(workspace: Path, path_prefixes: List[str]) -> List[Path]:
             continue
         files.append(path)
     return sorted(files)
-
 
 def select_input_files(args: argparse.Namespace, workspace: Path) -> List[Path]:
     if args.rst_file:
@@ -876,7 +834,6 @@ def select_input_files(args: argparse.Namespace, workspace: Path) -> List[Path]:
             seen.add(key)
             deduped.append(resolved)
     return deduped
-
 
 def make_row(
     rst_file: Path,
@@ -906,7 +863,6 @@ def make_row(
         result=asdict(result),
     )
 
-
 def local_hard_fail_item(document_path: str, image_path: str) -> Dict[str, Any]:
     return {
         "document_path": document_path,
@@ -926,7 +882,6 @@ def local_hard_fail_item(document_path: str, image_path: str) -> Dict[str, Any]:
         "reasons": [f"Local color check detected {FORBIDDEN_COLOR_HEX}."],
         "missing_evidence": [],
     }
-
 
 def process_file(
     rst_file: Path,
@@ -1012,6 +967,7 @@ def process_file(
                 max_retries=max_retries,
                 error="kein valides Bild",
             )
+
         return make_row(rst_file, workspace, job["title"], image_refs, result)
 
     try:
@@ -1045,7 +1001,6 @@ def process_file(
         )
 
     return make_row(rst_file, workspace, job["title"], image_refs, result)
-
 
 def build_json_row(row: AuditRow) -> Dict[str, Any]:
     parsed = ((row.result or {}).get("parsed_json")) or {}
@@ -1082,7 +1037,6 @@ def build_json_row(row: AuditRow) -> Dict[str, Any]:
         "summary": summary,
         "results": enriched_results,
     }
-
 
 def build_csv_rows(row: AuditRow) -> List[Dict[str, Any]]:
     rows: List[Dict[str, Any]] = []
@@ -1148,14 +1102,13 @@ def build_csv_rows(row: AuditRow) -> List[Dict[str, Any]]:
             "final_verdict": "fail",
             "processing_error": row.result.get("error", "") or "",
             "api_http_status": row.result.get("http_status", ""),
-            "api_finish_reason": row.result.get("finish_reason", ""),
+            "api_finish_reason": row.result.get("finish_reason", "") or "",
             "api_attempt": row.result.get("attempt", ""),
             "match_reasons": "",
             "missing_evidence": "",
         })
 
     return rows
-
 
 def write_csv(path: Path, rows: List[Dict[str, Any]]) -> None:
     fieldnames = [
@@ -1189,7 +1142,6 @@ def write_csv(path: Path, rows: List[Dict[str, Any]]) -> None:
         writer.writeheader()
         for row in rows:
             writer.writerow(row)
-
 
 def process_files(
     files: List[Path],
@@ -1240,12 +1192,11 @@ def process_files(
         if has_flagged:
             flagged_files += 1
 
-        json_output.write_text(json.dumps(all_rows, indent=2, ensure_ascii=False), encoding="utf-8")
-        write_csv(csv_output, csv_rows)
-        write_csv(failed_csv_output, [row for row in csv_rows if row.get("final_verdict") == "fail"])
+    json_output.write_text(json.dumps(all_rows, indent=2, ensure_ascii=False), encoding="utf-8")
+    write_csv(csv_output, csv_rows)
+    write_csv(failed_csv_output, [row for row in csv_rows if row.get("final_verdict") == "fail"])
 
     return processed_files, flagged_files, len(all_rows)
-
 
 def enforce_strict_mode(json_output: Path) -> None:
     if not json_output.exists():
@@ -1273,23 +1224,19 @@ def enforce_strict_mode(json_output: Path) -> None:
             if item.get("verdict") == "fail":
                 raise SystemExit(1)
 
-
 def ensure_parent_dir(path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-
 
 def human_duration(seconds: int) -> str:
     minutes = seconds // 60
     sec = seconds % 60
     return f"{minutes}m {sec}s"
 
-
 def human_total_duration(seconds: int) -> str:
     hours = seconds // 3600
     minutes = (seconds % 3600) // 60
     sec = seconds % 60
     return f"{hours}h {minutes}m {sec}s"
-
 
 def run_command(
     cmd: List[str],
@@ -1306,7 +1253,6 @@ def run_command(
         capture_output=capture_output,
         check=check,
     )
-
 
 def load_bash_env(env_file: Path, base_env: Optional[Dict[str, str]] = None) -> Dict[str, str]:
     if not env_file.exists():
@@ -1336,7 +1282,6 @@ def load_bash_env(env_file: Path, base_env: Optional[Dict[str, str]] = None) -> 
 
     return env
 
-
 def list_repos_with_gh(org: str, limit: int, env: Dict[str, str]) -> List[str]:
     proc = run_command(
         [
@@ -1355,12 +1300,10 @@ def list_repos_with_gh(org: str, limit: int, env: Dict[str, str]) -> List[str]:
     repos = [line.strip() for line in proc.stdout.splitlines() if line.strip()]
     return repos
 
-
 def append_text(path: Path, text: str) -> None:
     ensure_parent_dir(path)
     with path.open("a", encoding="utf-8") as f:
         f.write(text)
-
 
 def clone_or_pull_repo(
     full_repo: str,
@@ -1377,7 +1320,6 @@ def clone_or_pull_repo(
         if proc.returncode != 0:
             return False, "clone fehlgeschlagen", (proc.stdout or "") + "\n" + (proc.stderr or "")
         return True, None, (proc.stdout or "") + "\n" + (proc.stderr or "")
-
 
 def run_single_workspace_mode(args: argparse.Namespace) -> None:
     logging.basicConfig(
@@ -1428,7 +1370,6 @@ def run_single_workspace_mode(args: argparse.Namespace) -> None:
         args.output_csv,
         args.output_failed_csv,
     )
-
 
 def _repo_worker(worker_args: Dict[str, Any]) -> Dict[str, Any]:
     repo_logger = logging.getLogger(__name__)
@@ -1522,7 +1463,6 @@ def _repo_worker(worker_args: Dict[str, Any]) -> Dict[str, Any]:
             f"OK: speichere Ergebnis von {repo_name} in {result_dir} "
             f"(Dauer: {human_duration(duration)})\n"
         )
-
         log_lines.append(f"processed_files={processed_files}\n")
         log_lines.append(f"flagged_files={flagged_files}\n")
         log_lines.append(f"row_count={row_count}\n")
@@ -1546,7 +1486,6 @@ def _repo_worker(worker_args: Dict[str, Any]) -> Dict[str, Any]:
             f"FEHLER: Python-Skript für {repo_name} fehlgeschlagen "
             f"(Dauer: {human_duration(duration)})\n"
         )
-
         log_lines.append(f"exception={exc}\n")
         log_lines.append(f"duration_seconds={duration}\n")
         log_lines.append(f"duration_human={human_duration(duration)}\n")
@@ -1560,7 +1499,6 @@ def _repo_worker(worker_args: Dict[str, Any]) -> Dict[str, Any]:
             "duration_human": human_duration(duration),
             "result_dir": str(result_dir),
         }
-
 
 def run_full_repo_test(args: argparse.Namespace) -> None:
     logging.basicConfig(
@@ -1675,17 +1613,16 @@ def run_full_repo_test(args: argparse.Namespace) -> None:
                 append_text(failed_file, f"{repo_name} duration_seconds={duration}\n")
                 append_text(failed_file, f"{repo_name} duration_human={result['duration_human']}\n")
 
-        total_human = human_total_duration(total_duration)
-        logger.info(
-            "Fertig. Repos gesamt=%d, OK=%d, FEHLER=%d, Gesamtlaufzeit aller Repos: %s",
-            len(repos),
-            success_count,
-            failure_count,
-            total_human,
-        )
+    total_human = human_total_duration(total_duration)
+    logger.info(
+        "Fertig. Repos gesamt=%d, OK=%d, FEHLER=%d, Gesamtlaufzeit aller Repos: %s",
+        len(repos),
+        success_count,
+        failure_count,
+        total_human,
+    )
 
-        append_text(failed_file, f"Gesamtlaufzeit aller Repos: {total_human}\n")
-
+    append_text(failed_file, f"Gesamtlaufzeit aller Repos: {total_human}\n")
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Audit .rst image references with structured model output.")
@@ -1718,14 +1655,12 @@ def parse_args() -> argparse.Namespace:
 
     return parser.parse_args()
 
-
 def main() -> None:
     args = parse_args()
     if args.full_repo_test:
         run_full_repo_test(args)
     else:
         run_single_workspace_mode(args)
-
 
 if __name__ == "__main__":
     main()
