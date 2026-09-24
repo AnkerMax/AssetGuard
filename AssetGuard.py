@@ -614,27 +614,42 @@ class ResponsesClient:
         images: List[LoadedImage],
         max_output_tokens: int,
     ) -> Tuple[Dict[str, Any], List[str]]:
-        content: List[Dict[str, Any]] = [{"type": "text", "text": prompt}]
+        content: List[Dict[str, Any]] = [
+            {
+                "type": "input_text",
+                "text": prompt,
+            }
+        ]
+
         attached_images: List[str] = []
         seen_paths = set()
 
-        for idx, img in enumerate(images, start=1):
+        for img in images:
             if img.path in seen_paths:
                 continue
+
             seen_paths.add(img.path)
-            content.append({"type": "text", "text": f"IMAGE {idx} PATH: {img.path}"})
+            idx = len(attached_images) + 1
+
             content.append({
-                "type": "image_url",
-                "image_url": {
-                    "url": f"data:{img.media_type};base64,{img.data_base64}"
-                }
+                "type": "input_text",
+                "text": f"IMAGE {idx} PATH: {img.path}",
             })
+
+            content.append({
+                "type": "input_image",
+                "image_url": f"data:{img.media_type};base64,{img.data_base64}",
+            })
+
             attached_images.append(img.path)
 
         payload = {
             "model": self.model,
             "input": [
-                {"role": "user", "content": content}
+                {
+                    "role": "user",
+                    "content": content,
+                }
             ],
             "temperature": 0,
             "max_output_tokens": max_output_tokens,
@@ -644,12 +659,12 @@ class ResponsesClient:
                     "name": RESPONSE_SCHEMA["json_schema"]["name"],
                     "strict": RESPONSE_SCHEMA["json_schema"]["strict"],
                     "schema": RESPONSE_SCHEMA["json_schema"]["schema"],
-                }
+                },
             },
         }
 
         return payload, attached_images
-
+    
     def post_with_retries(
         self,
         payload: Dict[str, Any],
