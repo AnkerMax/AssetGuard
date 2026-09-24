@@ -636,8 +636,6 @@ class ResponsesClient:
             "input": [
                 {"role": "user", "content": content}
             ],
-            "tools": [BACKEND_REQUIRED_TOOL],
-            "tool_choice": "none",
             "temperature": 0,
             "max_output_tokens": max_output_tokens,
             "response_format": {
