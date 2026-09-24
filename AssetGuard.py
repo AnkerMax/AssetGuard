@@ -681,6 +681,11 @@ class ResponsesClient:
 
                 status_code = response.status_code
                 response_text = response.text
+                logging.error(
+                    "API response: status=%s body=%s",
+                    status_code,
+                    response_text,
+                )
 
                 if status_code in {429, 500, 502, 503, 504}:
                     last_result = ApiResult(
