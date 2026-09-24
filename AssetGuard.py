@@ -633,13 +633,13 @@ class ResponsesClient:
 
         payload = {
             "model": self.model,
-            "messages": [
+            "input": [
                 {"role": "user", "content": content}
             ],
             "tools": [BACKEND_REQUIRED_TOOL],
             "tool_choice": "none",
             "temperature": 0,
-            "max_tokens": max_output_tokens,
+            "max_output_tokens": max_output_tokens,
             "response_format": {
                 "type": "json_schema",
                 "json_schema": {
