@@ -721,11 +721,30 @@ class ChatCompletionsClient:
                     return last_result
 
                 response.raise_for_status()
-
+                except requests.HTTPError as exc:
+                    logging.error(
+                        "API HTTP-Fehler: status=%s, url=%s, response=%s",
+                        response.status_code,
+                        self.api_url,
+                        response.text[:10000],
+                    )
                 try:
                     data = response.json()
                 except Exception:
                     data = {"_non_json_response_text": response_text}
+                return ApiResult(
+                    raw_text="",
+                    parsed_json=None,
+                    attached_image_count=len(attached_images),
+                    attached_images=attached_images,
+                    raw_response=None,
+                    http_status=response.status_code,
+                    http_response_text=response.text,
+                    finish_reason=None,
+                    attempt=attempt,
+                    max_retries=max_retries,
+                    error="backend_error",
+                )
 
                 parsed_json = extract_response_json(data) if isinstance(data, dict) else None
                 raw_text = extract_response_text(data) if isinstance(data, dict) else ""
