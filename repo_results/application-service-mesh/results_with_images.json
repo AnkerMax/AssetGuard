@@ -1,0 +1,3197 @@
+[
+  {
+    "file_path": "umn/source/best_practices/how_do_i_create_a_service_mesh_with_ipv4_ipv6_dual_stack_enabled.rst",
+    "title": "How Do I Create a Service Mesh with IPv4/IPv6 Dual Stack Enabled",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001741270036.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001741270036.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001741270036.png",
+        "kind": "substitution_image",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001786644069.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001786644069.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001786644069.png",
+        "kind": "substitution_image",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/best_practices/how_do_i_create_a_service_mesh_with_ipv4_ipv6_dual_stack_enabled.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001741270036.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Terminal screenshot showing a curl -v command connecting to test.com:8678 via an IPv6 address (2407:c080:11f0:5fa:4ede:f73d:a9e9:c3c2).",
+          "Directly matches Verification step 1: configuring domain name resolution so the client accesses the gateway using the IPv6 address.",
+          "The IPv6 address and successful connection confirm the dual-stack gateway is reachable via IPv6."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/best_practices/how_do_i_create_a_service_mesh_with_ipv4_ipv6_dual_stack_enabled.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001786644069.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Terminal screenshot showing JSON-formatted ingressgateway log output.",
+          "Contains multiple IPv6 addresses in fields such as downstream_local_address, upstream_local_address, upstream_host, x_forwarded_for, and downstream_remote_address.",
+          "Route name and upstream_cluster reference tomcat-http-v6.default.svc.cluster.local, confirming IPv6 service-to-service communication.",
+          "Directly matches Verification step 2: viewing IPv6 request information in the ingressgateway log."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/best_practices/service_governance_for_dubbo-based_applications/sdk_adaptation_mode/passthrough_solution.rst",
+    "title": "PASSTHROUGH Solution",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001181766534.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181766534.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181766534.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/best_practices/service_governance_for_dubbo-based_applications/sdk_adaptation_mode/passthrough_solution.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181766534.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/best_practices/service_governance_for_dubbo-based_applications/service_discovery_model.rst",
+    "title": "Service Discovery Model",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001181759886.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181759886.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181759886.png",
+        "kind": "substitution_image",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001227360319.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001227360319.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001227360319.png",
+        "kind": "substitution_image",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "document_path": "umn/source/best_practices/service_governance_for_dubbo-based_applications/service_discovery_model.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001181759886.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/best_practices/service_governance_for_dubbo-based_applications/service_discovery_model.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001227360319.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+    "title": "Upgrading Data Plane Sidecars Without Service Interruption",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001145684268.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001145684268.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001145684268.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001191764069.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191764069.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191764069.png",
+        "kind": "substitution_image",
+        "line": 90,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001191923931.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923931.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923931.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001191923929.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923929.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923929.png",
+        "kind": "substitution_image",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001493677652.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001493677652.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001493677652.png",
+        "kind": "substitution_image",
+        "line": 93,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001145684268.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows YAML deployment output with replicas: 2 and strategy type: RollingUpdate, matching the 'Configuring the Number of Service Pods' section.",
+          "The output includes maxSurge and maxUnavailable under rollingUpdate, consistent with the grep strategy -a10 command described.",
+          "All fields (replicas >= 2, RollingUpdate policy) align with the configuration description in the RST."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191764069.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image displays readinessProbe configuration with httpGet, initialDelaySeconds, periodSeconds, and timeoutSeconds, matching the 'Adding a Readiness Probe' section.",
+          "The RST states the configuration includes initial check time, check interval, and timeout duration, all visible in the image.",
+          "The output is consistent with the grep readinessProbe -a10 command described."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923931.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows minReadySeconds: 2 under spec, directly matching the 'Setting the Service Ready Time' section.",
+          "The RST references deployment.spec.minReadySeconds and the image confirms this field is present.",
+          "Output is consistent with the grep minReadySeconds -a1 command."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001191923929.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows terminationGracePeriodSeconds: 30, matching the 'Configuring a Graceful Shutdown Time' section.",
+          "The RST states the default value is 30s, and the image confirms this default.",
+          "Output is consistent with the grep terminationGracePeriodSeconds -a1 command."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/best_practices/upgrading_data_plane_sidecars_without_service_interruption.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001493677652.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows lifecycle.preStop.exec.command with 'nginx -s quit; sleep 10', exactly matching the 'Configuring the preStop' section.",
+          "The RST explicitly states this command is defined in the lifecycle.preStop field, and the image confirms it.",
+          "Output is consistent with the grep lifec -a10 command described."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/mesh_management/how_do_i_disable_sidecar_injection_for_workloads.rst",
+    "title": "How Do I Disable Sidecar Injection for Workloads?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001223579300.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001223579300.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001223579300.png",
+        "kind": "substitution_image",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002373720729.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002373720729.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002373720729.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/mesh_management/how_do_i_disable_sidecar_injection_for_workloads.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001223579300.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a YAML editor with spec.template.metadata.annotations field containing sidecar.istio.io/inject: 'false'",
+          "The annotation is highlighted with a red box, matching the RST instruction for service meshes earlier than 1.13",
+          "The YAML structure (spec, replicas, selector, matchLabels, template, metadata, annotations) is consistent with a Kubernetes Deployment manifest",
+          "The code-block in the RST shows the same annotation syntax"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/mesh_management/how_do_i_disable_sidecar_injection_for_workloads.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002373720729.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a YAML editor with spec.template.metadata.labels field containing sidecar.istio.io/inject: 'false'",
+          "The label is highlighted with a red box, matching the RST instruction for service meshes 1.13 or later",
+          "The YAML structure shows a Deployment with app: nginx, consistent with a workload manifest",
+          "The code-block in the RST shows the same label syntax"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/mesh_management/how_do_i_enable_namespace_injection_for_a_cluster.rst",
+    "title": "How Do I Enable Namespace Injection for a Cluster?",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001270399104.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001270399104.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001270399104.png",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001321081541.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001321081541.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001321081541.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002241895141.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002241895141.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002241895141.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002242015001.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002242015001.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002242015001.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/mesh_management/how_do_i_enable_namespace_injection_for_a_cluster.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001270399104.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows terminal output of 'kubectl get iop -nistio-system' command as described in step 2 of the RST.",
+          "Output displays 'data-plane' with STATUS 'HEALTHY', confirming the iop resource exists, matching the RST's first conditional branch.",
+          "The command and output align precisely with the documented procedure for checking iop resource existence."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/mesh_management/how_do_i_enable_namespace_injection_for_a_cluster.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001321081541.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows terminal output of 'kubectl get iop -nistio-system' returning 'No resources found in istio-system namespace.'",
+          "This matches the RST's second conditional branch where no iop resources exist, directing the user to step 4.",
+          "The command and output are consistent with the documented procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/mesh_management/how_do_i_enable_namespace_injection_for_a_cluster.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002241895141.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays YAML content of an IstioOperator resource with the 'install.istio.io/ignoreReconcile' field highlighted in a red box.",
+          "The field value is set to 'false', matching the RST caution instruction to change the value to false.",
+          "The apiVersion and kind (IstioOperator) are consistent with the kubectl edit iop context described in the RST."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/mesh_management/how_do_i_enable_namespace_injection_for_a_cluster.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002242015001.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows terminal output of 'kubectl get iop -n istio-system' command as described in the RST caution block.",
+          "The STATUS column shows 'HEALTHY' for the private-data-plane entry, highlighted with a red box, matching the RST instruction to wait until STATUS changes to HEALTHY.",
+          "The output is consistent with checking IOP status after editing the ignoreReconcile parameter."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/mesh_management/what_can_i_do_if_a_pod_cannot_be_started_due_to_unready_sidecar.rst",
+    "title": "What Can I Do If a Pod Cannot Be Started Due to Unready Sidecar?",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002339842264.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002339842264.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002339842264.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002241895141.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002241895141.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002241895141.png",
+        "kind": "substitution_image",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002242015001.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002242015001.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002242015001.png",
+        "kind": "substitution_image",
+        "line": 99,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001416224808.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416224808.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416224808.png",
+        "kind": "substitution_image",
+        "line": 100,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001416065480.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416065480.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416065480.png",
+        "kind": "substitution_image",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002373730569.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002373730569.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002373730569.png",
+        "kind": "substitution_image",
+        "line": 102,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001416387696.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416387696.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416387696.png",
+        "kind": "substitution_image",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 7,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/mesh_management/what_can_i_do_if_a_pod_cannot_be_started_due_to_unready_sidecar.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002339842264.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows YAML with holdApplicationUntilProxyStarts: true under the proxy field, matching the global configuration step.",
+          "The highlighted line corresponds exactly to the code block in the RST.",
+          "Context (global, proxy, meshID, clusterName) is consistent with an IOP CR edit."
+        ],
+        "missing_evidence": [
+          "No visible editor UI chrome; appears to be a plain text/YAML view."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/mesh_management/what_can_i_do_if_a_pod_cannot_be_started_due_to_unready_sidecar.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002241895141.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows install.istio.io/ignoreReconcile set to \"false\" highlighted, matching the caution step.",
+          "Kind IstioOperator and metadata.annotations context align with editing the IOP CR.",
+          "Directly supports the instruction to change ignoreReconcile to false before saving."
+        ],
+        "missing_evidence": [
+          "No surrounding editor interface visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/mesh_management/what_can_i_do_if_a_pod_cannot_be_started_due_to_unready_sidecar.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002242015001.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Terminal shows kubectl get iop -n istio-system with STATUS HEALTHY highlighted.",
+          "Matches the step to wait until STATUS changes to HEALTHY.",
+          "Revision 1.18-7-r4 is consistent with the Istio 1.18.7-r4 caution."
+        ],
+        "missing_evidence": [
+          "None significant."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/mesh_management/what_can_i_do_if_a_pod_cannot_be_started_due_to_unready_sidecar.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416224808.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Terminal shows kubectl get iop -n istio-system with HEALTHY status highlighted.",
+          "Matches step 3 checking whether the IOP CR is normal.",
+          "Output format (NAME, REVISION, STATUS, AGE) is consistent with the command."
+        ],
+        "missing_evidence": [
+          "None significant."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/mesh_management/what_can_i_do_if_a_pod_cannot_be_started_due_to_unready_sidecar.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416065480.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Terminal shows kubectl get pod -n default | grep nginx with a Running nginx pod.",
+          "Matches step 5 checking whether the pod is restarted.",
+          "2/2 Running indicates both service and sidecar containers are up."
+        ],
+        "missing_evidence": [
+          "None significant."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/mesh_management/what_can_i_do_if_a_pod_cannot_be_started_due_to_unready_sidecar.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002373730569.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows lifecycle postStart exec command pilot-agent wait and name istio-proxy highlighted.",
+          "Matches step 6 verifying postStart lifecycle and istio-proxy placement.",
+          "Image reference to proxyv2 sidecar image is consistent with Istio sidecar."
+        ],
+        "missing_evidence": [
+          "Container ordering (first position) is implied but not fully visible in the cropped view."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/mesh_management/what_can_i_do_if_a_pod_cannot_be_started_due_to_unready_sidecar.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001416387696.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a Deployment with proxy.istio.io/config annotation and holdApplicationUntilProxyStarts: true highlighted.",
+          "Matches the local configuration step adding the annotation to spec.template.metadata.annotations.",
+          "Annotation structure matches the code block in the RST."
+        ],
+        "missing_evidence": [
+          "The example deployment is named tomcat whereas the RST text uses nginx as the example; the technical annotation content still matches."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configurable_grayscale_release/grayscale_release.rst",
+    "title": "Grayscale Release",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001247200741.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001247200741.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001247200741.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configurable_grayscale_release/grayscale_release.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001247200741.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small isolated pictogram (a paper-airplane / send-style symbol), consistent with an icon rather than a screenshot.",
+          "In the RST, |image1| is the control the user clicks in the asmtest mesh to start creating a grayscale release task, so the icon is semantically tied to the 'Creating a Grayscale Release Task' section.",
+          "The icon is generic and does not itself depict the ASM console, the asmtest mesh, or the grayscale release workflow, limiting detail match.",
+          "No element in the image contradicts the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The icon does not show any label, tooltip, or surrounding UI to confirm which specific action (e.g., create/launch) it triggers.",
+          "No screenshot context is provided to verify the icon's placement within the asmtest mesh page."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/configurable_grayscale_release/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001202040720.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202040720.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202040720.png",
+        "kind": "figure",
+        "line": 18,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configurable_grayscale_release/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202040720.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/enabling_istio_for_a_cluster/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001255345827.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001255345827.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001255345827.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/enabling_istio_for_a_cluster/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001255345827.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+    "title": "Grayscale Release Practices of Bookinfo",
+    "image_count": 8,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001202041610.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202041610.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202041610.png",
+        "kind": "figure",
+        "line": 18,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001440024745.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001440024745.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001440024745.png",
+        "kind": "figure",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001389665636.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001389665636.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001389665636.png",
+        "kind": "figure",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001202053160.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202053160.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202053160.png",
+        "kind": "figure",
+        "line": 287,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001247893125.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001247893125.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001247893125.png",
+        "kind": "figure",
+        "line": 299,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001203053124.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203053124.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203053124.png",
+        "kind": "figure",
+        "line": 305,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001203333110.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203333110.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203333110.png",
+        "kind": "figure",
+        "line": 317,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001203040696.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203040696.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203040696.png",
+        "kind": "figure",
+        "line": 334,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 3
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202041610.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001440024745.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001389665636.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001202053160.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a traffic ratio configuration UI with v1 at 80% and v3 (grayscale version) at 20%",
+          "Matches the RST description of configuring a traffic policy based on traffic ratio with v3 set to 20%",
+          "Clearly labeled as Figure 4 Traffic policy in the document",
+          "Shows Current Pods column with value 1 for both versions"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001247893125.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the BookInfo Sample page for The Comedy of Errors with black stars in Book Reviews",
+          "Matches the RST description of v1 page showing black stars",
+          "Labeled as Figure 5 v1 page in the document",
+          "Book Details section shows type, pages, publisher, language, ISBN-10, ISBN-13"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203053124.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the BookInfo Sample page for The Comedy of Errors with red stars in Book Reviews",
+          "Matches the RST description of v3 page showing red stars",
+          "Labeled as Figure 6 v3 page in the document",
+          "Red stars clearly distinguish this from the v1 black star version"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203333110.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows Traffic Monitoring dashboard with RPS, Success Rate, and Request Latency charts",
+          "Charts display data for both v1 and v3 as described in the RST",
+          "Labeled as Figure 7 Traffic monitoring data in the document",
+          "Time axis shows data around 19:10 to 20:10 with spikes indicating traffic activity"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/grayscale_release_practices_of_bookinfo.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001203040696.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the BookInfo Sample page with only red stars in Book Reviews",
+          "Matches the RST description after switching all traffic to v3 where only red stars are shown",
+          "Labeled as Figure 8 v3 page in the document",
+          "Consistent with the Switching All Traffic to the Grayscale Version section"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/product_bulletin/vulnerability_notices/http_2_bomb_remote_dos_vulnerability_cve-2026-47774.rst",
+    "title": "HTTP/2 Bomb Remote DoS Vulnerability (CVE-2026-47774)",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002631470410.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002631470410.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002631470410.png",
+        "kind": "substitution_image",
+        "line": 117,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/product_bulletin/vulnerability_notices/http_2_bomb_remote_dos_vulnerability_cve-2026-47774.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002631470410.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a CCE console 'Upgrade Workload' UI screenshot, matching the Procedure section that instructs upgrading the istio-ingressgateway workload.",
+          "The highlighted Image Tag field shows '1.18.7-r8-20260611204441', which exactly matches Table 4's mapping for Service Mesh Version 1.18.",
+          "The workload name 'istio-ingressgateway-1-18-7-r8' and namespace 'istio-system' align with step 3 of the procedure.",
+          "The red box emphasizes the Image Tag selection, directly illustrating step 5 ('select the target image tag').",
+          "No visible content contradicts the RST description of the workaround."
+        ],
+        "missing_evidence": [
+          "The screenshot does not show the 'Upgrade' confirmation action or the resulting rolling restart mentioned in the caution note.",
+          "The mesh version selector context (Table 4 lookup) is not shown, only the resulting image tag value."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/related_services.rst",
+    "title": "Related Services",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001303344393.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001303344393.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001303344393.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/related_services.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001303344393.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/creating_a_service_mesh/creating_a_service_mesh.rst",
+    "title": "Creating a Service Mesh",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001920032153.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001920032153.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001920032153.png",
+        "kind": "substitution_image",
+        "line": 143,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001494249996.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001494249996.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001494249996.png",
+        "kind": "substitution_image",
+        "line": 144,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/creating_a_service_mesh/creating_a_service_mesh.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001920032153.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a toggle switch icon in the 'on' (enabled) state, matching the RST context where |image1| represents the 'Restart Existing Services' option being enabled.",
+          "The RST states that when this option is on, pods will be restarted and sidecars can be automatically injected, which aligns with the 'on' toggle state shown.",
+          "The image is a small symbolic graphic (toggle switch), correctly classified as an icon.",
+          "The toggle is clearly visible in the enabled position (circle on the right side)."
+        ],
+        "missing_evidence": [
+          "The image does not show any surrounding UI context (labels, form fields) to confirm it belongs specifically to the 'Restart Existing Services' option.",
+          "No text or additional UI elements are visible to provide further detail about the configuration."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/creating_a_service_mesh/creating_a_service_mesh.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001494249996.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a toggle switch icon in the 'off' (disabled) state, matching the RST context where |image2| represents the 'Restart Existing Services' option being disabled.",
+          "The RST states that when this option is off, sidecars cannot be automatically injected and manual restart is needed, which aligns with the 'off' toggle state shown.",
+          "The image is a small symbolic graphic (toggle switch), correctly classified as an icon.",
+          "The toggle is clearly visible in the disabled position (circle on the left side, gray track)."
+        ],
+        "missing_evidence": [
+          "The image does not show any surrounding UI context (labels, form fields) to confirm it belongs specifically to the 'Restart Existing Services' option.",
+          "No text or additional UI elements are visible to provide further detail about the configuration."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/gateway_management/adding_a_gateway.rst",
+    "title": "Adding a Gateway",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001209954130.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001209954130.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001209954130.png",
+        "kind": "substitution_image",
+        "line": 109,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/gateway_management/adding_a_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001209954130.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small plus (+) symbol, an isolated UI icon rather than a full screenshot.",
+          "In the RST, |image1| is referenced in step 5 as the control to click to open the 'Add Route' dialog, which a plus/add icon plausibly represents.",
+          "The icon is placed within the Procedure section, directly supporting the route-configuration step of adding a gateway.",
+          "The visible plus glyph is clear and unambiguous as an 'add' action symbol.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context (no dialog, label, or button frame) to confirm it is specifically the 'Add Route' button rather than a generic add icon.",
+          "No text or tooltip in the image to verify the exact action it triggers."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/grayscale_release/basic_operations_on_a_grayscale_task.rst",
+    "title": "Basic Operations on a Grayscale Task",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001209978068.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001209978068.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001209978068.png",
+        "kind": "substitution_image",
+        "line": 108,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/grayscale_release/basic_operations_on_a_grayscale_task.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001209978068.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small symbolic icon (paper-airplane shape with a circle/minus glyph) used as a UI action button.",
+          "The RST references this icon in the 'Canceling a Grayscale Release Task' section as a clickable element in the upper-right corner of a task in the grayscale task list.",
+          "The icon is semantically related to the grayscale task management topic but does not depict the full console UI or the specific task list context.",
+          "No contradiction between the icon and the surrounding text; the text simply instructs the user to click this icon to cancel a task."
+        ],
+        "missing_evidence": [
+          "The icon does not show the surrounding UI (task list, upper-right corner placement) described in the RST.",
+          "No label or tooltip is visible on the icon to confirm it specifically represents a 'cancel' action.",
+          "The icon is very small and low-resolution, making it difficult to identify the exact symbol with certainty."
+        ],
+        "overall_score": 0.65,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/grayscale_release/creating_a_grayscale_release_task.rst",
+    "title": "Creating a Grayscale Release Task",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001210438852.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210438852.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210438852.png",
+        "kind": "figure",
+        "line": 93,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001210119300.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210119300.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210119300.png",
+        "kind": "figure",
+        "line": 105,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001254994843.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254994843.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254994843.png",
+        "kind": "substitution_image",
+        "line": 148,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/grayscale_release/creating_a_grayscale_release_task.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210438852.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a conceptual diagram showing traffic ratio split between Default version (75%) and Grayscale version (25%), matching Figure 1 'Based on traffic ratio' in the RST.",
+          "Service A and Service B labels, along with the 75%/25% split, align exactly with the RST description of traffic ratio-based grayscale policy.",
+          "The diagram is placed in the 'Based on traffic ratio' subsection of the grayscale release task creation steps."
+        ],
+        "missing_evidence": [
+          "No additional context such as a UI frame or console interface is shown; it is a standalone diagram."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/grayscale_release/creating_a_grayscale_release_task.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210119300.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a conceptual diagram showing request-content-based routing with 'Cookie: User=internal' directing traffic to the Grayscale version, matching Figure 2 'Based on request content' in the RST.",
+          "The cookie-based routing example (User=internal) is explicitly mentioned in the RST text as the example for cookie-based grayscale policy.",
+          "The diagram is placed in the 'Based on request content' subsection, directly illustrating the cookie filtering mechanism described."
+        ],
+        "missing_evidence": [
+          "The diagram does not show other request-content options (headers, queries, OS, browser) that are also described in the RST."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/grayscale_release/creating_a_grayscale_release_task.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254994843.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small paper-airplane/launch icon referenced as |image1| in the RST, used as a shortcut button in the upper right corner of an Enterprise mesh to create a grayscale release task.",
+          "The icon is a generic 'send' or 'deploy' symbol; it does not contain text or specific grayscale-release labeling, so topic match is moderate.",
+          "It is correctly placed in step 1 of the 'Creating a Grayscale Release Task' section as a shortcut action."
+        ],
+        "missing_evidence": [
+          "The icon lacks any text label or contextual UI frame to confirm it is specifically the 'Create a grayscale release task' button.",
+          "No surrounding interface elements are visible to verify its placement in the upper right corner of an Enterprise mesh."
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/grayscale_release/grayscale_release_overview.rst",
+    "title": "Grayscale Release Overview",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001254994475.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254994475.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254994475.png",
+        "kind": "figure",
+        "line": 18,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001210274518.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210274518.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210274518.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/grayscale_release/grayscale_release_overview.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254994475.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a process flowchart showing the canary/grayscale release process: Release → Configure Traffic Policy → Observe → normal/abnormal branching",
+          "The flow aligns with the text description of canary release: releasing a new version, configuring traffic, observing stability, and either proceeding or rolling back",
+          "The 'Configure a Traffic Policy' step corresponds to the gradual traffic takeover described in the text",
+          "The normal/abnormal branching matches the 'quick rollback is supported' aspect mentioned in the text",
+          "Placed correctly in the Canary Release section as Figure 1"
+        ],
+        "missing_evidence": [
+          "The diagram does not explicitly show the gradual traffic shift (e.g., 10% → 50% → 100%) mentioned in the text as 'gradually takes over all the live traffic'",
+          "No visual representation of 'some users use the new version, while other users continue to use the old version' as a concurrent state"
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/grayscale_release/grayscale_release_overview.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001210274518.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 1,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 1
+        },
+        "reasons": [
+          "Image is labeled as 'Blue-green deployment process' but uses 'Grayscale Version' terminology, which is more associated with canary release",
+          "The text describes blue-green deployment as having two versions online simultaneously in hot backup mode with route weight switched (0 or 100), none of which is depicted",
+          "The flow (Release → Observe → normal/abnormal) is nearly identical to the canary release diagram, lacking the 'Configure a Traffic Policy' step but also lacking any blue-green specific elements",
+          "The binary normal/abnormal outcome loosely maps to the 0/100 switch but does not show the simultaneous online state of both versions",
+          "Placed in the Blue-Green Deployment section as Figure 2, so section placement is correct"
+        ],
+        "missing_evidence": [
+          "No visual representation of two versions (blue and green) running simultaneously",
+          "No depiction of 'hot backup mode' where both versions are online at the same time",
+          "No illustration of route weight switching (0 or 100) as described in the text",
+          "The diagram does not distinguish blue-green deployment from canary release in any meaningful visual way"
+        ],
+        "overall_score": 0.5,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/mesh_configuration/sidecar_management.rst",
+    "title": "Sidecar Management",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001930216052.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001930216052.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001930216052.png",
+        "kind": "substitution_image",
+        "line": 131,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001256463368.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001256463368.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001256463368.png",
+        "kind": "substitution_image",
+        "line": 132,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001200574170.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001200574170.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001200574170.png",
+        "kind": "substitution_image",
+        "line": 133,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/mesh_configuration/sidecar_management.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001930216052.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a toggle switch icon in the 'on' position (circle on the right, magenta fill).",
+          "The RST references |image1| as representing the state where 'The pods are restarted' under the Restart Existing Services parameter.",
+          "The toggle-on state correctly corresponds to the 'Yes' option for Restart Existing Services described in the document.",
+          "The icon is used in the 'Injecting a Sidecar' section under parameter descriptions."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/mesh_configuration/sidecar_management.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001256463368.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a toggle switch icon in the 'off' position (circle on the left, gray fill).",
+          "The RST references |image2| as representing the state where 'The pods are not restarted' under the Restart Existing Services parameter.",
+          "The toggle-off state correctly corresponds to the 'No' option for Restart Existing Services described in the document.",
+          "The icon is used in the 'Injecting a Sidecar' section under parameter descriptions."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/mesh_configuration/sidecar_management.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001200574170.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small downward-pointing chevron/arrow icon (blue and orange).",
+          "The RST references |image3| as the icon to click 'in front of the workload to view the sidecar information of the workload.'",
+          "The downward chevron is a standard expand/reveal icon consistent with the described action of viewing sidecar details.",
+          "The icon is used in the 'Viewing Workload Details' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/mesh_management/service_mesh_events.rst",
+    "title": "Service Mesh Events",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001698197390.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001698197390.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001698197390.png",
+        "kind": "substitution_image",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/mesh_management/service_mesh_events.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001698197390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small document/paper pictogram with a folded corner, matching an isolated UI symbol (icon).",
+          "The RST references this image as the control to click in the upper right corner to open the service mesh events panel, so it is semantically tied to the 'Service Mesh Events' topic.",
+          "It appears in the Procedure section (step 2), directly supporting the described action.",
+          "The visual clearly shows a document-style icon, consistent with an events/log entry symbol.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image shows only the icon, not the surrounding console UI, so its exact placement in the upper right corner cannot be verified visually.",
+          "No label or tooltip is visible to confirm the icon specifically denotes 'events' rather than a generic document action."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/mesh_management/uninstalling_a_service_mesh.rst",
+    "title": "Uninstalling a Service Mesh",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001255111219.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001255111219.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001255111219.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/mesh_management/uninstalling_a_service_mesh.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001255111219.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small isolated trash-can pictogram, matching the 'icon' classification.",
+          "The RST step 2 instructs to 'Click |image1| in the service mesh' to uninstall, and a trash-can icon is the standard symbol for a delete/uninstall action.",
+          "The icon is placed in the Procedure section where the uninstall action is performed, so it is topically and sectionally relevant.",
+          "The visual clearly shows a delete/trash symbol, consistent with the uninstallation context.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is an isolated icon without surrounding console UI, so the exact button label or placement in the ASM console cannot be confirmed visually.",
+          "No text label accompanies the icon in the image to explicitly state 'Uninstall'."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/security/authenticating_jwt_requests_on_the_ingress_gateway_using_asm.rst",
+    "title": "Authenticating JWT Requests on the Ingress Gateway Using ASM",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001476967692.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001476967692.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001476967692.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001477287480.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001477287480.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001477287480.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001528087425.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001528087425.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001528087425.png",
+        "kind": "figure",
+        "line": 61,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001527927469.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001527927469.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001527927469.png",
+        "kind": "figure",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/security/authenticating_jwt_requests_on_the_ingress_gateway_using_asm.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001476967692.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the jwt.io tool with Algorithm set to RS512, matching step 1.a of the RST.",
+          "The Decoded panel displays the public key in the VERIFY SIGNATURE section, consistent with 'Generating a public key'.",
+          "Header shows alg RS512 and typ JWT as described in the document."
+        ],
+        "missing_evidence": [
+          "No explicit label indicating the public key to copy, but it is visible in the VERIFY SIGNATURE box."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/security/authenticating_jwt_requests_on_the_ingress_gateway_using_asm.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001477287480.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the JWK-to-PEM/PEM-to-JWK converter with 'PEM-to-JWK (RSA Only)' selected, matching step 1.b.",
+          "Input contains a BEGIN PUBLIC KEY block and output shows the resulting JWK JSON with kty RSA, e AQAB, kid, n.",
+          "A submit button is visible, consistent with the instruction to click submit."
+        ],
+        "missing_evidence": [
+          "None significant; the conversion result matches the JWK example in the RST."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/security/authenticating_jwt_requests_on_the_ingress_gateway_using_asm.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001528087425.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'JWT Authentication' dialog with issuer, audiences, and jwks fields, matching step 2.c.",
+          "The dialog description about configuring JSON Web Token in ASM aligns with the section topic.",
+          "OK and Cancel buttons are present, consistent with the instruction to click OK."
+        ],
+        "missing_evidence": [
+          "Fields are empty (placeholders), so the specific values test/ASM/JWKS are not shown, but the structure matches."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/security/authenticating_jwt_requests_on_the_ingress_gateway_using_asm.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001527927469.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows jwt.io with Decoded header alg RS512, kid, typ JWT, matching step 1 of the checking section.",
+          "Payload shows iss 'test' and aud 'ASM', exactly as specified in the RST.",
+          "VERIFY SIGNATURE shows the public key, consistent with the instruction to use the public key from step 1.a."
+        ],
+        "missing_evidence": [
+          "No interactive controls visible beyond text areas; the encoded token is shown but not required for the figure's purpose."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/security/configuring_a_security_policy.rst",
+    "title": "Configuring a Security Policy",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001374968509.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001374968509.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001374968509.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/security/configuring_a_security_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001374968509.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows an 'Add' button with a plus icon, consistent with the RST instruction to click the image to select one or more services in a specified namespace.",
+          "The button is referenced in the Access Authorization subsection, which is directly relevant to the security policy configuration topic.",
+          "The visual content (a standard 'Add' UI button) aligns with the described action of adding/selecting services in the dialog box.",
+          "No contradictions between the image content and the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding dialog box or namespace selector context mentioned in the RST."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/security/jwt_authentication_principles.rst",
+    "title": "JWT Authentication Principles",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001477127516.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001477127516.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001477127516.png",
+        "kind": "figure",
+        "line": 18,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/security/jwt_authentication_principles.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001477127516.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UML sequence diagram with four lifelines (Client, Authentication Service, Mesh, Server) that directly illustrates the Istio JWT authentication process described as Figure 1 in the RST.",
+          "Numbered steps 1-10 in the diagram align with the numbered list in the RST: login, verify credentials and sign token, return token, store token, request with token in header, mesh proxy verifies token, forward to server, server processes, server responds, mesh proxy forwards response.",
+          "The diagram matches the section 'JWT Authentication Principles' and the figure caption 'Istio JWT authentication process'.",
+          "Visual evidence is clear: labeled boxes, lifelines, and directional arrows with step annotations are all legible.",
+          "No contradiction between the diagram content and the RST text."
+        ],
+        "missing_evidence": [
+          "The diagram does not explicitly show the JWKS/public key retrieval detail mentioned in the RST, but this is not required for the figure's purpose."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/service_management/fixing_items_automatically/the_service_is_configured_with_a_default-version_route_and_the_route_configuration_is_correct.rst",
+    "title": "The Service Is Configured with a Default-Version Route and the Route Configuration Is Correct",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001201436796.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001201436796.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001201436796.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001246196675.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001246196675.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001246196675.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001201276836.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001201276836.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001201276836.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/service_management/fixing_items_automatically/the_service_is_configured_with_a_default-version_route_and_the_route_configuration_is_correct.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001201436796.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is labeled as Figure 1 'Protocol type in VirtualService' in the RST and shows a YAML code editor with the http protocol highlighted in a red box.",
+          "The displayed YAML (lines 34-43) shows a VirtualService spec with hosts: ratings, http protocol, and a route to destination host ratings port 9080 subset v1.",
+          "This directly illustrates step 3 of the Rectification Guide about ensuring the protocol type in VirtualService matches the Service ports.",
+          "The red box highlighting 'http' draws attention to the protocol type, matching the figure caption."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/service_management/fixing_items_automatically/the_service_is_configured_with_a_default-version_route_and_the_route_configuration_is_correct.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001246196675.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is labeled as Figure 2 'Port protocol type of the Service' in the RST and shows a YAML code editor with the port name 'http-ratings' highlighted in a red box.",
+          "The displayed YAML (lines 13-20) shows a Service spec with ports: name http-ratings, protocol TCP, port 9080, targetPort 9080, and selector app: ratings.",
+          "This directly illustrates step 3 of the Rectification Guide about comparing the protocol type in VirtualService with the Service port protocol.",
+          "The red box highlighting the port name draws attention to the protocol configuration of the Service."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/service_management/fixing_items_automatically/the_service_is_configured_with_a_default-version_route_and_the_route_configuration_is_correct.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001201276836.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is referenced as |image1| in step 2 of the Rectification Guide: 'Ensure that all ports of the Service are configured in VirtualService.'",
+          "The displayed YAML shows a VirtualService spec with hosts: reviews, http match on gateway mesh port 9080, and routes to two destinations (subset v1 weight 50, subset v2 weight 50) both on port 9080.",
+          "This directly illustrates the requirement that all ports of a Service must be configured in VirtualService, showing port 9080 is present in the route configuration.",
+          "The configuration also demonstrates the default-version route concept with weighted traffic splitting between v1 and v2 subsets."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/service_management/fixing_items_automatically/the_service_port_name_complies_with_the_istio_specifications.rst",
+    "title": "The Service Port Name Complies with the Istio Specifications",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001254992703.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254992703.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254992703.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/service_management/fixing_items_automatically/the_service_port_name_complies_with_the_istio_specifications.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254992703.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "The image is a code-editor screenshot showing a YAML Service spec with a ports entry, matching the 'Edit YAML' step in the Rectification Guide.",
+          "The highlighted field 'name: http-ratings' directly illustrates the required <protocol>[-<suffix>] naming format described in the document.",
+          "The image is referenced in step 2 of the Rectification Guide, so it is relevant to that section.",
+          "The YAML structure (name, protocol, port, targetPort) provides clear visual evidence of the Service port configuration."
+        ],
+        "missing_evidence": [
+          "The name uses the 'http' prefix while the protocol field is 'TCP', which is inconsistent with the RST instruction to add the protocol type before the Service name.",
+          "No surrounding console UI (cluster name, Services & Ingresses tab, Edit YAML button) is visible, only the YAML editor pane."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/service_management/fixing_items_automatically/the_service_selector_cannot_contain_version_labels.rst",
+    "title": "The Service Selector Cannot Contain version Labels",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001254992865.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254992865.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254992865.png",
+        "kind": "substitution_image",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/service_management/fixing_items_automatically/the_service_selector_cannot_contain_version_labels.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001254992865.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a code/YAML editor screenshot showing a Service spec with a selector block.",
+          "It displays 'selector:' with 'app: nginx' and 'version: v1', directly matching the topic of a version label inside spec.selector.",
+          "The 'version: v1' line is struck through with a red line, visually illustrating the rectification step of deleting the version label.",
+          "The content aligns with step 2 of the Rectification Guide (view spec.selector and delete the version label).",
+          "No interactive UI controls are visible, only a static code view with line numbers."
+        ],
+        "missing_evidence": [
+          "No console navigation pane or 'Edit YAML' button is shown; only the YAML snippet is visible.",
+          "The cluster name and namespace context mentioned in the text are not visible in the image."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/service_management/fixing_items_manually/all_pods_have_sidecars_injected.rst",
+    "title": "All Pods Have Sidecars Injected",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002086005592.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002086005592.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002086005592.png",
+        "kind": "substitution_image",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001344069664.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001344069664.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001344069664.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/service_management/fixing_items_manually/all_pods_have_sidecars_injected.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000002086005592.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a Namespace YAML with the istio.io/rev label highlighted in a red box, directly illustrating the check method described in step 1",
+          "The label value '1-18-7-r3' matches the format istio.io/rev=<revision> mentioned in the RST",
+          "The image is placed in the 'Check method' subsection of step 1, which describes verifying sidecar injection via namespace labels",
+          "The YAML structure (kind: Namespace, metadata, labels) is consistent with the CCE console namespace view described in the document"
+        ],
+        "missing_evidence": [
+          "The full CCE console UI is not visible; only the YAML editor portion is shown",
+          "No indication of which specific Istio version this namespace belongs to beyond the label value"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/user_guide/service_management/fixing_items_manually/all_pods_have_sidecars_injected.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001344069664.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a workload YAML (Deployment) with hostNetwork: true highlighted in a red box, directly illustrating step 4's check",
+          "The field path spec.template.spec.hostNetwork: true matches exactly what the RST instructs the user to verify",
+          "The image is placed at the end of step 4 which discusses checking host network mode configuration",
+          "The surrounding YAML context (replicas, selector, containers with nginx:alpine) is consistent with a CCE workload view"
+        ],
+        "missing_evidence": [
+          "The full CCE console UI is not visible; only the YAML editor portion is shown",
+          "No indication of the specific workload name or namespace in the visible portion"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/user_guide/traffic_management/configuring_a_traffic_policy.rst",
+    "title": "Configuring a Traffic Policy",
+    "image_count": 12,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001234454572.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234454572.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234454572.png",
+        "kind": "substitution_image",
+        "line": 193,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234773776.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234773776.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234773776.png",
+        "kind": "substitution_image",
+        "line": 194,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001278854949.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001278854949.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001278854949.png",
+        "kind": "substitution_image",
+        "line": 195,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234454572.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234454572.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234454572.png",
+        "kind": "substitution_image",
+        "line": 196,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234773776.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234773776.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234773776.png",
+        "kind": "substitution_image",
+        "line": 197,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001278854949.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001278854949.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001278854949.png",
+        "kind": "substitution_image",
+        "line": 198,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001279134173.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001279134173.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001279134173.png",
+        "kind": "substitution_image",
+        "line": 199,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234614480.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234614480.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234614480.png",
+        "kind": "substitution_image",
+        "line": 200,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234294620.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234294620.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234294620.png",
+        "kind": "substitution_image",
+        "line": 201,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001279134173.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001279134173.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001279134173.png",
+        "kind": "substitution_image",
+        "line": 202,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234614480.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234614480.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234614480.png",
+        "kind": "substitution_image",
+        "line": 203,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001234294620.png",
+        "original_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234294620.png",
+        "used_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234294620.png",
+        "kind": "substitution_image",
+        "line": 204,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 6,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/user_guide/traffic_management/configuring_a_traffic_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234454572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small circular plus icon, an isolated UI symbol (icon).",
+          "Referenced in the RST as |image4| for 'add more request headers' in the HTTP Header section.",
+          "The plus symbol semantically matches the 'add' action described in Table 7.",
+          "Relevant to the traffic policy / HTTP header configuration topic."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context; the icon is shown in isolation.",
+          "No label or tooltip visible to confirm it is the add-headers button."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/user_guide/traffic_management/configuring_a_traffic_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234773776.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Image is a small circular plus icon (icon).",
+          "Referenced in the RST as |image5| for 'edit more request headers' in Table 7.",
+          "The plus symbol is a generic add/more button, which only loosely matches the described 'edit' action.",
+          "Still within the HTTP Header / traffic policy section."
+        ],
+        "missing_evidence": [
+          "No edit-specific glyph (e.g., pencil) visible; the icon is a plus.",
+          "No surrounding UI to confirm the edit-headers context."
+        ],
+        "overall_score": 0.65,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/user_guide/traffic_management/configuring_a_traffic_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001278854949.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Image is a small circular plus icon (icon).",
+          "Referenced in the RST as |image6| for 'remove more request headers' in Table 7.",
+          "The plus symbol is a generic add/more button, which only loosely matches the described 'remove' action.",
+          "Still within the HTTP Header / traffic policy section."
+        ],
+        "missing_evidence": [
+          "No remove-specific glyph (e.g., trash/minus) visible; the icon is a plus.",
+          "No surrounding UI to confirm the remove-headers context."
+        ],
+        "overall_score": 0.65,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/user_guide/traffic_management/configuring_a_traffic_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001279134173.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small circular plus icon (icon).",
+          "Referenced in the RST as |image10| for 'add more response headers' in Table 8.",
+          "The plus symbol semantically matches the 'add' action described.",
+          "Relevant to the traffic policy / HTTP header configuration topic."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context; the icon is shown in isolation.",
+          "No label or tooltip visible to confirm it is the add-response-headers button."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/user_guide/traffic_management/configuring_a_traffic_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234614480.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Image is a small circular plus icon (icon).",
+          "Referenced in the RST as |image11| for 'edit more response headers' in Table 8.",
+          "The plus symbol is a generic add/more button, which only loosely matches the described 'edit' action.",
+          "Still within the HTTP Header / traffic policy section."
+        ],
+        "missing_evidence": [
+          "No edit-specific glyph visible; the icon is a plus.",
+          "No surrounding UI to confirm the edit-response-headers context."
+        ],
+        "overall_score": 0.65,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/user_guide/traffic_management/configuring_a_traffic_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/application-service-mesh/umn/source/_static/images/en-us_image_0000001234294620.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Image is a small circular plus icon (icon).",
+          "Referenced in the RST as |image12| for 'remove more response headers' in Table 8.",
+          "The plus symbol is a generic add/more button, which only loosely matches the described 'remove' action.",
+          "Still within the HTTP Header / traffic policy section."
+        ],
+        "missing_evidence": [
+          "No remove-specific glyph visible; the icon is a plus.",
+          "No surrounding UI to confirm the remove-response-headers context."
+        ],
+        "overall_score": 0.65,
+        "verdict": "partial"
+      }
+    ]
+  }
+]

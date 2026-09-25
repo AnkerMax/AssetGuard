@@ -1,0 +1,2294 @@
+[
+  {
+    "file_path": "api-ref/source/appendix/obtaining_a_project_id.rst",
+    "title": "Obtaining a Project ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001647330778.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001647330778.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001647330778.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/accessing_the_project_management_page.rst",
+    "title": "Accessing the Project Management Page",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001963209421.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963209421.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963209421.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/accessing_the_project_management_page.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963209421.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a drop-down account menu with 'Enterprise Management' highlighted in a red box, matching the RST step to choose Enterprise Management from the drop-down list.",
+          "Menu items (User Center, Security Settings, My Credentials, Switch Role, Tag Management, Log Out) are consistent with a management console account menu.",
+          "Figure caption 'Enterprise Management' aligns with the highlighted item in the screenshot.",
+          "No visible contradiction between the image and the procedure text."
+        ],
+        "missing_evidence": [
+          "The small colored bar at the top with 'hy' and numbers is unclear and not referenced in the RST.",
+          "The full management console page (Enterprise Project Management) is not shown, only the drop-down menu."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0243252592.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252592.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252592.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0243252599.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252599.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252599.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0243252575.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252575.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252575.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001541547957.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001541547957.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001541547957.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 4
+    },
+    "results": [
+      {
+        "document_path": "umn/source/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252592.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252599.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0243252575.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001541547957.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_personnel_management/authorizing_a_user_group_to_manage_an_enterprise_project.rst",
+    "title": "Authorizing a User Group to Manage an Enterprise Project",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001964079921.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964079921.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964079921.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_personnel_management/authorizing_a_user_group_to_manage_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964079921.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI screenshot of an enterprise project details page (EnterpriseProject_A) with the Permissions tab active, matching the RST procedure step 3.",
+          "The 'Authorize User Group' button is visible and highlighted with a red box, directly corresponding to the figure caption 'Figure 1 Authorize User Group'.",
+          "The page shows the Permissions tab and the IAM migration notice, consistent with the RST description of authorizing a user group to manage the enterprise project.",
+          "No contradiction between the visible interface elements and the RST text."
+        ],
+        "missing_evidence": [
+          "The IAM User Groups page referenced in the RST is not shown; only the project details page with the Authorize User Group button is visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_personnel_management/authorizing_a_user_to_manage_an_enterprise_project.rst",
+    "title": "Authorizing a User to Manage an Enterprise Project",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001937385958.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937385958.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937385958.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_personnel_management/authorizing_a_user_to_manage_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937385958.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The screenshot shows an enterprise project details page (EnterpriseProject_A) with the Permissions tab active, matching the procedure's step 3.",
+          "The 'Authorize User' button is highlighted, directly illustrating the action described in the RST ('click Authorize User').",
+          "The page text notes that permissions management is migrated to IAM, consistent with the RST reference to the IAM Users page.",
+          "The figure caption 'Authorizing users' aligns with the image content."
+        ],
+        "missing_evidence": [
+          "The subsequent IAM Users page (after clicking Authorize User) is not shown in this image.",
+          "No user selection or authorization confirmation is visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_personnel_management/removing_a_user_group_from_an_enterprise_project.rst",
+    "title": "Removing a User Group from an Enterprise Project",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001964080645.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964080645.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964080645.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964301309.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964301309.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964301309.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001937383758.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937383758.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937383758.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_personnel_management/removing_a_user_group_from_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964080645.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Enterprise Project details page for EnterpriseProject_A with the Permissions tab active",
+          "The 'Authorize User Group' button is highlighted with a red box, matching step 3 of the procedure",
+          "The IAM migration notice and both Authorize buttons are visible as described in the RST"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_personnel_management/removing_a_user_group_from_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964301309.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the IAM User Groups page with a list of user groups",
+          "The 'Enterprise Project A_Development' group name is highlighted with a red box, matching step 4",
+          "Left sidebar shows User Groups as the active section, consistent with the IAM console navigation"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_personnel_management/removing_a_user_group_from_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937383758.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the user group details page for Enterprise Project A_Development with the Permissions tab active",
+          "The 'By Enterprise Project' button is highlighted, and the 'Delete' button in the Operation column is boxed in red",
+          "The table shows enterprise project entries with EPS Admin policy, matching step 5 of the procedure"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_personnel_management/removing_users_from_an_enterprise_project.rst",
+    "title": "Removing Users from an Enterprise Project",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001964308565.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964308565.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964308565.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964314613.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964314613.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964314613.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964318045.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964318045.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964318045.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_personnel_management/removing_users_from_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964308565.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the EnterpriseProject_A details page with the Permissions tab active, matching Figure 1 'Authorizing users'",
+          "The 'Authorize User' button is highlighted with a red border, consistent with step 3 instruction to click Authorize User",
+          "The page displays project metadata (Name, Status, ID, Created, Modified) and the IAM migration notice as expected",
+          "Two action buttons (Authorize User, Authorize User Group) are visible as described in the procedure"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_personnel_management/removing_users_from_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964314613.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the IAM Users page with a user list table, matching Figure 2 'Users'",
+          "The user 'Murphy' is highlighted with a red border, indicating the user to click as per step 4",
+          "Left sidebar shows IAM navigation (Users, User Groups, Permissions, Projects, etc.) consistent with the IAM console",
+          "Table columns (Username, Description, Status, Last Login, Created, Operation) and Operation links (Authorize, Modify, More) are visible"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_personnel_management/removing_users_from_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964318045.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the user details page for Murphy with the Permissions tab active, matching Figure 3 'Deleting enterprise projects for a user'",
+          "The 'By Enterprise Project' button is highlighted with a red border, consistent with step 5 instruction",
+          "The 'Delete' button above the list and 'Delete' links in the Operation column are visible, matching the batch and individual deletion described",
+          "Table shows enterprise project permissions (EPS Admin, EPS Viewer) with Enterprise Project names and Principal types (User, User Group)"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_personnel_management/viewing_enterprise_project_authorization_records.rst",
+    "title": "Viewing Enterprise Project Authorization Records",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936960228.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936960228.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936960228.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_personnel_management/viewing_enterprise_project_authorization_records.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936960228.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The screenshot shows the IAM Authorization page with the 'By Enterprise Project' view active, matching the figure caption and step 3.",
+          "The table includes Policy/Role, Enterprise Project, Principal, Principal Type, and Operation columns consistent with viewing authorization records.",
+          "A principal entry 'Group03' is highlighted in the Principal column, aligning with step 4 about clicking a user group name.",
+          "Interactive controls (Delete buttons, search box, view tabs) are visible, confirming it is a UI screenshot."
+        ],
+        "missing_evidence": [
+          "The exact enterprise project names are partially obscured/redacted in the Enterprise Project column."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_project_management/creating_an_enterprise_project.rst",
+    "title": "Creating an Enterprise Project",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001213644769.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001213644769.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001213644769.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936655078.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936655078.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936655078.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_project_management/creating_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001213644769.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Create Enterprise Project' form with Name and Description fields, matching the procedure step 3 in the RST.",
+          "The Description field shows a 0/512 character counter, consistent with the table stating up to 512 characters.",
+          "OK and Cancel buttons are present, matching the instruction to click OK.",
+          "The Name field is marked as required (red asterisk), consistent with the configuration rules table.",
+          "This is Figure 1 referenced in step 2 of the procedure, showing the Create Enterprise Project page."
+        ],
+        "missing_evidence": [
+          "The Name field character limit (255) is not visually indicated in the form."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_project_management/creating_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936655078.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Enterprise Project Management Service page with a project list table, matching step 2 of the procedure.",
+          "The 'Create Enterprise Project' button is highlighted in the upper right corner, matching the RST instruction to click it.",
+          "A modal dialog 'Create Enterprise Project' is open with Name field filled with 'EnterpriseProject_A', consistent with the example 'project_A' in the table.",
+          "The Description field shows 0/512 character counter, matching the 512-character limit in the configuration rules.",
+          "This is Figure 2 referenced in step 2, providing full context of the management service page and the creation modal."
+        ],
+        "missing_evidence": [
+          "The Name field character limit (255) is not visually indicated in the modal."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_project_management/modifying_enabling_or_disabling_an_enterprise_project.rst",
+    "title": "Modifying, Enabling, or Disabling an Enterprise Project",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936823890.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936823890.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936823890.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963828029.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963828029.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963828029.png",
+        "kind": "figure",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963830609.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963830609.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963830609.png",
+        "kind": "figure",
+        "line": 94,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_project_management/modifying_enabling_or_disabling_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936823890.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Screenshot of the Enterprise Project Management Service page showing a table of projects",
+          "The More dropdown is expanded with the Modify option highlighted in a red box",
+          "Matches Figure 1 caption 'Modifying an enterprise project'",
+          "Shows the action of selecting Modify from the More menu as described in the RST steps"
+        ],
+        "missing_evidence": [
+          "The RST states 'The Modify Enterprise Project dialog box pops up' but the image shows the dropdown menu rather than the dialog box",
+          "No dialog box with Name and Description fields is visible as described in the RST"
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_project_management/modifying_enabling_or_disabling_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963828029.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Screenshot of the Enterprise Project Management Service page",
+          "Shows a disabled project (ewwe2yyyy) with Status 'Disabled'",
+          "The More dropdown is expanded with the Enable option highlighted in a red box",
+          "Matches Figure 2 caption 'Enabling an enterprise project' and the RST step of enabling a disabled project"
+        ],
+        "missing_evidence": [
+          "The RST states 'The Enable Enterprise Project dialog box pops up' but the image shows the dropdown menu rather than the confirmation dialog box"
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_project_management/modifying_enabling_or_disabling_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963830609.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Screenshot of the Enterprise Project Management Service page",
+          "Shows enabled projects with the More dropdown expanded",
+          "The Disable option is highlighted in a red box",
+          "Matches Figure 3 caption 'Disabling an enterprise project' and the RST step of disabling an enabled project"
+        ],
+        "missing_evidence": [
+          "The RST states 'The Disable Enterprise Project dialog box pops up' but the image shows the dropdown menu rather than the confirmation dialog box"
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_project_management/selecting_an_enterprise_project_for_a_new_cloud_resource.rst",
+    "title": "Selecting an Enterprise Project for a New Cloud Resource",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001963832989.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963832989.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963832989.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001080662358.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001080662358.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001080662358.png",
+        "kind": "figure",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001080533890.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001080533890.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001080533890.png",
+        "kind": "substitution_image",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964330921.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964330921.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964330921.png",
+        "kind": "substitution_image",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_project_management/selecting_an_enterprise_project_for_a_new_cloud_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963832989.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Enterprise Project details page for EnterpriseProject_A with Status: Enabled",
+          "The 'Create Resource' and 'Plan Network' buttons in the upper right corner are highlighted with a red box, matching Figure 1 caption",
+          "Directly corresponds to RST step 3 in the 'Using the EPS Console' section",
+          "Page layout and field names (Name, Status, Modified, ID, Created, Description) are consistent with the described workflow"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_project_management/selecting_an_enterprise_project_for_a_new_cloud_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001080662358.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the RDS DB instance creation page with the Enterprise Project field highlighted in a red box",
+          "The dropdown is open showing 'EnterpriseProject_A' selected, matching Figure 2 caption 'Selecting an enterprise project','Corresponds to RST step 5 in the 'Using the Console of Cloud Services that Support EPS' section",
+          "Other configuration fields (Administrator, Password, Parameter Template, Table Name, Tag, Quantity) are visible as described"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_project_management/selecting_an_enterprise_project_for_a_new_cloud_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001080533890.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small location pin / map marker icon used as the region and project selector",
+          "Referenced as |image1| in RST step 2: 'Click |image1| in the upper left corner to select a region and a project'",
+          "The icon is a standard UI symbol for region/location selection in cloud management consoles",
+          "Matches the semantic purpose described in the RST text"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_project_management/selecting_an_enterprise_project_for_a_new_cloud_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964330921.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small hamburger menu icon (three horizontal lines) used for service navigation",
+          "Referenced as |image2| in RST step 3: 'Click |image2| in the upper left corner of the page and choose Databases > Relational Database Service'",
+          "The icon is a standard UI symbol for opening a navigation/service menu",
+          "Matches the semantic purpose described in the RST text"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_project_resource_management/adding_resources_to_an_enterprise_project.rst",
+    "title": "Adding Resources to an Enterprise Project",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936865004.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964490709.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964490709.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964490709.png",
+        "kind": "figure",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_project_resource_management/adding_resources_to_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Enterprise Project Management Service page with a table listing enterprise projects (default, EnterpriseProject_A)",
+          "The 'View Resource' link in the Operation column is highlighted with a red box, matching the RST instruction to click View Resource",
+          "The page title 'Enterprise Project Management Service' matches the RST description of the Enterprise Project Management page",
+          "Columns (Name, Status, Description, Created, Modified, Operation) align with the expected enterprise project listing interface"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_project_resource_management/adding_resources_to_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001964490709.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Add Resource' dialog box as described in the RST procedure",
+          "The Mode section displays both 'Independent resources' (selected) and 'ECSs and ECS associated resources' options, matching the RST description",
+          "Filter options for service, region, and enterprise project are visible in the Resources row",
+          "The 'Add' button is highlighted with a red box in the lower-left, corresponding to step 3 of the procedure",
+          "The Note section in the dialog provides context about adding independent resources and associated ECS resources"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_project_resource_management/removing_resources_from_an_enterprise_project.rst",
+    "title": "Removing Resources from an Enterprise Project",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936865004.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936952008.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936952008.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936952008.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_project_resource_management/removing_resources_from_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Enterprise Project Management Service page with a table of projects (default, EnterpriseProject_A), matching the RST description of step 2.",
+          "The 'View Resource' link in the Operation column is highlighted with a red box, directly corresponding to the instruction to click View Resource.",
+          "The page header, columns (Name, Status, Description, Created, Modified, Operation), and the Create Enterprise Project button all align with the documented procedure.",
+          "The figure caption in the RST ('Figure 1 Viewing resources') matches the content shown."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_project_resource_management/removing_resources_from_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936952008.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Remove Resource' dialog box as described in steps 3-5 of the procedure.",
+          "The Mode section displays both options: 'Independent resources' (selected) and 'ECSs and ECS associated resources', matching the RST description.",
+          "The Destination Enterprise Project dropdown shows 'default', consistent with the RST mention of removing to the default enterprise project.",
+          "The resource table lists two DNS resources (bb.cc Private Zone, qq.com Public Zone) with the note '2 of the 2 selected resources can be removed.'",
+          "The 'Remove' button is highlighted with a red box at the bottom, and the Resources tab is visible in the background, matching the procedure context.",
+          "The figure caption in the RST ('Figure 2 Removing resources') matches the content shown."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_project_resource_management/viewing_migration_events.rst",
+    "title": "Viewing Migration Events",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936955232.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936955232.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936955232.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_project_resource_management/viewing_migration_events.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936955232.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The screenshot shows the Enterprise Project Management Service page, matching the page named in the RST procedure.",
+          "The 'View Migration Event' button in the upper left is highlighted with a red box, exactly as described in step 2 of the RST.",
+          "The figure caption 'Figure 1 View Migration Event' aligns with the highlighted control in the image.",
+          "The enterprise project list table (Name, Status, Description, Created, Modified, Operation) is visible, consistent with the context of the procedure."
+        ],
+        "missing_evidence": [
+          "The image shows the state before clicking the button; the resulting Migration Events page is not shown, but this is consistent with the figure's placement at step 2."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_project_resource_management/viewing_resources_in_an_enterprise_project.rst",
+    "title": "Viewing Resources in an Enterprise Project",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936865004.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_project_resource_management/viewing_resources_in_an_enterprise_project.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936865004.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI screenshot of the Enterprise Project Management Service list page, matching the document topic of viewing resources in an enterprise project.",
+          "The Operation column shows a 'View Resource' link highlighted with a red box, directly illustrating step 1 of the procedure (click View Resource in the Operation column).",
+          "The table columns (Name, Status, Description, Created, Modified, Operation) and the 'Create Enterprise Project' button are consistent with the enterprise project management context described in the RST.",
+          "No visible element contradicts the RST text; the figure caption 'Viewing resources' aligns with the highlighted action."
+        ],
+        "missing_evidence": [
+          "The Resources tab and the resource search options (region, service type, resource type) mentioned in later steps are not shown in this image.",
+          "The resources table at the bottom of the page referenced in step 2 is not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/how_do_i_obtain_an_enterprise_project_id.rst",
+    "title": "How Do I Obtain an Enterprise Project ID?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001937406302.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937406302.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937406302.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/how_do_i_obtain_an_enterprise_project_id.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001937406302.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI screenshot of an enterprise project details page titled 'EnterpriseProject_A'.",
+          "It displays an 'ID' field (bb13252...4cabe466) highlighted with a red box, matching the figure caption 'Obtaining the ID of an Enterprise Project'.",
+          "This aligns with RST step 2: clicking the target enterprise project name to view its ID on the details page.",
+          "The page also shows Name, Status, Modified, Created, and Description fields consistent with a project details view."
+        ],
+        "missing_evidence": [
+          "The screenshot does not show the navigation steps (account name / Enterprise Management) described in step 1, only the resulting details page."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/what_are_the_differences_between_iam_and_enterprise_management.rst",
+    "title": "What Are the Differences Between IAM and Enterprise Management",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001088335405.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088335405.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088335405.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/what_are_the_differences_between_iam_and_enterprise_management.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088335405.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/what_are_the_differences_between_iam_projects_and_enterprise_projects.rst",
+    "title": "What Are the Differences Between IAM Projects and Enterprise Projects?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001088191991.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088191991.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088191991.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001088335419.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088335419.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088335419.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/what_are_the_differences_between_iam_projects_and_enterprise_projects.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088191991.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Diagram depicts two separate regions (Region A, Region B) each with a Default Regional Project containing IAM Projects, matching the IAM Projects section.",
+          "Visual separation of regions illustrates the 'physically isolate resources in the same region' statement.",
+          "Image is placed directly under the IAM Projects heading, consistent with its content.",
+          "Labels (IAM Project A_1, A_2, B_1, B_2) clearly show per-region grouping without cross-region transfer."
+        ],
+        "missing_evidence": [
+          "No explicit visual indicator of 'cannot be transferred' between IAM projects, though implied by separate regions."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/what_are_the_differences_between_iam_projects_and_enterprise_projects.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001088335419.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Diagram shows Enterprise Project A and B each spanning multiple regions (Region A_Resource, Region B_Resource), matching 'resources in multiple regions'.",
+          "Add/Remove arrows between enterprise projects illustrate direct transfer of resources, matching the text.",
+          "Image is placed under the Enterprise Projects heading, consistent with its content.",
+          "Logical grouping across regions reflects the 'logically isolate' description."
+        ],
+        "missing_evidence": [
+          "No explicit note about 'cannot create projects in IAM after enabling Enterprise Management' shown in the image."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/multi-project_management/procedure.rst",
+    "title": "Procedure",
+    "image_count": 11,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001183142611.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001183142611.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001183142611.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936354110.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936354110.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936354110.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936407072.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936407072.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936407072.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963826009.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963826009.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963826009.png",
+        "kind": "figure",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936576762.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936576762.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936576762.png",
+        "kind": "figure",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936741978.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936741978.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936741978.png",
+        "kind": "figure",
+        "line": 105,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963867729.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963867729.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963867729.png",
+        "kind": "figure",
+        "line": 130,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936593554.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936593554.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936593554.png",
+        "kind": "figure",
+        "line": 149,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963887181.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963887181.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963887181.png",
+        "kind": "figure",
+        "line": 157,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001963826005.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963826005.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963826005.png",
+        "kind": "substitution_image",
+        "line": 187,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001182942651.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001182942651.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001182942651.png",
+        "kind": "substitution_image",
+        "line": 188,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 10
+    },
+    "summary": {
+      "pass": 10,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/multi-project_management/procedure.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001183142611.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/multi-project_management/procedure.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936354110.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Enterprise Project Management Service page with a 'Create Enterprise Project' dialog.",
+          "The Name field contains 'EnterpriseProject_A', matching the RST step to enter EnterpriseProject_A and click OK.",
+          "Corresponds to Figure 2 in the 'Creating an Enterprise Project' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/multi-project_management/procedure.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936407072.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the IAM console User Groups page with the 'Create User Group' button highlighted.",
+          "Matches RST step 2a: choose User Groups from the left navigation and click Create User Group.",
+          "Corresponds to Figure 3 in the 'Creating IAM Users and User Groups' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/multi-project_management/procedure.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963826009.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the IAM Users page with the 'Create User' button highlighted.",
+          "Matches RST step 2a: choose Users in the left navigation and click Create User.",
+          "Corresponds to Figure 4 in the 'Creating IAM Users and User Groups' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/multi-project_management/procedure.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936576762.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Create User 'Set User Details' page with username 'Murphy'.",
+          "Displays Access Type, Credential Type, and Login Protection fields as described in RST step 2b.",
+          "Corresponds to Figure 5 in the 'Creating IAM Users and User Groups' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/multi-project_management/procedure.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936741978.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Add User to Group' step with 'Enterprise Project A_Development' selected.",
+          "Matches RST step 2c: enter the target user group so the user inherits permissions, then click Create.",
+          "Corresponds to Figure 6 in the 'Creating IAM Users and User Groups' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/multi-project_management/procedure.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963867729.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the EnterpriseProject_A details page with the Permissions tab active.",
+          "Displays the 'Authorize User Group' button highlighted, matching RST step 2 of 'Adding User Groups to Enterprise Projects'.",
+          "Corresponds to Figure 7 in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/multi-project_management/procedure.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001936593554.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Elastic Load Balancing page with the 'Create Elastic Load Balancer' button highlighted.",
+          "Matches RST step 2 of 'Creating Resources and Adding Them to Enterprise Projects'.",
+          "Corresponds to Figure 8 in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/multi-project_management/procedure.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963887181.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Create Elastic Load Balancer page with the Enterprise Project field set to 'EnterpriseProject_A'.",
+          "Matches RST step 3: select enterprise project A from the Enterprise Project drop-down list.",
+          "Corresponds to Figure 9 in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/multi-project_management/procedure.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001963826005.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A hamburger menu icon (three horizontal lines) used as |image1| in the RST.",
+          "Referenced in RST step 2a: 'click |image1| in the upper left corner' to open the navigation menu.",
+          "Consistent with a console navigation menu pictogram."
+        ],
+        "missing_evidence": [
+          "No surrounding console context visible; only the isolated menu symbol is shown."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/multi-project_management/procedure.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001182942651.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A hamburger menu icon (three horizontal lines) used as |image2| in the RST.",
+          "Referenced in RST 'Creating Resources' step 1: 'click |image2| in the upper left corner' to open the navigation menu.",
+          "Consistent with a console navigation menu pictogram."
+        ],
+        "missing_evidence": [
+          "No surrounding console context visible; only the isolated menu symbol is shown."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/multi-project_management/scenario.rst",
+    "title": "Scenario",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001137022630.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001137022630.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001137022630.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/multi-project_management/scenario.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001137022630.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hierarchical diagram matching the caption 'Personnel management model of company A' referenced in the Solution section.",
+          "It shows an Account at the top, two Enterprise Management enterprise projects (A and B), IAM user groups under each, and IAM users at the bottom, consistent with the described model.",
+          "User group labels (Accounting, Development, Security maintenance, Operations) align with the user groups listed in Table 1.",
+          "The diagram directly illustrates the cross-project isolation and group-to-project assignment described in the scenario."
+        ],
+        "missing_evidence": [
+          "The image includes an 'Accounting' user group that is not listed in Table 1, though this is not a contradiction.",
+          "No explicit region labels (region_01/region_02) are shown in the diagram."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/recording_tms_operations_using_cts/viewing_cts_traces_in_the_trace_list.rst",
+    "title": "Viewing CTS Traces in the Trace List",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001744598325.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002359774578.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000002359774578.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000002359774578.png",
+        "kind": "substitution_image",
+        "line": 99,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001696678850.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "kind": "substitution_image",
+        "line": 100,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001744678489.jpg",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "kind": "substitution_image",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001942942816.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001942942816.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001942942816.png",
+        "kind": "substitution_image",
+        "line": 102,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001758618249.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "kind": "substitution_image",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/recording_tms_operations_using_cts/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the Trace List filter panel referenced as Figure 1 in the RST.",
+          "Shows Trace Type, Trace Source, Resource Type, Search By, Operator, and Trace Status filters matching Table 1.",
+          "Time range options (Last 1 hour/day/week, Customize) and Query/Reset/Export buttons match step 3 and step 5."
+        ],
+        "missing_evidence": [
+          "None significant; the screenshot aligns with the documented filter parameters."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/recording_tms_operations_using_cts/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000002359774578.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon used in step 1 to open the navigation menu.",
+          "Matches the |image1| reference for clicking the upper-left menu to reach Management & Deployment > Cloud Trace Service."
+        ],
+        "missing_evidence": [
+          "Icon is isolated; surrounding console context is not shown."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/recording_tms_operations_using_cts/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Circular refresh/reload icon matching the |image2| reference.",
+          "Corresponds to step 6 instruction to click the icon to view the latest trace information."
+        ],
+        "missing_evidence": [
+          "Icon is isolated; the trace list context is not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/recording_tms_operations_using_cts/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Downward chevron/expand icon matching the |image3| reference.",
+          "Corresponds to step 7 instruction to click the icon on the left of a trace to expand its details."
+        ],
+        "missing_evidence": [
+          "Icon is isolated; the trace row it belongs to is not shown."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/recording_tms_operations_using_cts/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001942942816.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot of the Trace List with an expanded trace row (login) showing detail fields.",
+          "Matches |image4| in step 7, illustrating the expanded trace details (trace_id, code, trace_name, resource_type, etc.).",
+          "Includes the View Trace link in the Operation column referenced in step 8."
+        ],
+        "missing_evidence": [
+          "Some field values (source_ip, domain_id) are redacted/blurred."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/recording_tms_operations_using_cts/viewing_cts_traces_in_the_trace_list.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-project-service/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot of the 'View Trace' dialog displaying the trace as JSON.",
+          "Matches |image5| in step 8, showing the trace details after clicking View Trace.",
+          "JSON fields (trace_id, code, trace_name, resource_type, trace_rating, message, etc.) align with the trace structure described in the document."
+        ],
+        "missing_evidence": [
+          "Several values (trace_id, source_ip, domain_id, project_id, user name/id) are redacted/blurred."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

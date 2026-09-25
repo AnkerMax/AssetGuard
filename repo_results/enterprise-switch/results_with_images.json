@@ -1,0 +1,2026 @@
+[
+  {
+    "file_path": "umn/source/cloud_eye_monitoring/viewing_metrics.rst",
+    "title": "Viewing Metrics",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002384432926.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002384432926.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002384432926.png",
+        "kind": "substitution_image",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001820780384.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001820780384.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001820780384.png",
+        "kind": "substitution_image",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/cloud_eye_monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002384432926.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin/marker icon, consistent with step 2 which instructs clicking to select a region and project.",
+          "A location pin is a standard UI symbol for region/project selection in cloud management consoles.",
+          "The icon is small and isolated, fitting the 'icon' classification."
+        ],
+        "missing_evidence": [
+          "The icon is generic (a location pin) without any text label confirming it specifically represents region/project selection in this particular console."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/cloud_eye_monitoring/viewing_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001820780384.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), consistent with step 3 which instructs clicking to open the service list.",
+          "A hamburger menu is the standard UI symbol for opening a navigation or service list.",
+          "The icon is small and isolated, fitting the 'icon' classification."
+        ],
+        "missing_evidence": [
+          "No text or additional context in the image to confirm it is specifically the service list toggle for this console."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_switches/creating_an_enterprise_switch.rst",
+    "title": "Creating an Enterprise Switch",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002516958061.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168470.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
+        "kind": "substitution_image",
+        "line": 132,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555557291.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
+        "kind": "substitution_image",
+        "line": 133,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_switches/creating_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is labeled 'Figure 1 Purchasing an enterprise switch' in the RST and shows the Create Enterprise Switch form",
+          "All parameters from Table 1 are visible: Region, Active AZ, Standby AZ, Specifications (Basic/Standard/Enhanced), VPC, Tunnel Subnet, Local Tunnel IP Address, Name, Description",
+          "Specification values match the RST table exactly (Basic: 3 Gbit/s, 500,000 PPS, 1 subnet; Standard: 5 Gbit/s, 1,000,000 PPS, 3 subnets; Enhanced: 10 Gbit/s, 2,000,000 PPS, 6 subnets)",
+          "The form is in the Procedure section, step 5, which instructs to configure parameters as prompted"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_switches/creating_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Referenced as |image1| in step 2: 'Click |image1| in the upper left corner and select the desired region and project'",
+          "The image is a location pin (map marker) icon, consistent with a region/project selector",
+          "Small symbolic graphic used as a UI element in the management console"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact visual details beyond the general shape of a location pin"
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_switches/creating_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Referenced as |image2| in step 3: 'Click |image2| in the upper left corner of the page to open the service list and choose Network > Enterprise Switch'",
+          "The image is a hamburger menu icon (three horizontal lines), consistent with a service list / navigation menu trigger",
+          "Small symbolic graphic used as a UI element in the management console"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact visual details beyond the general shape of three horizontal lines"
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_switches/deleting_an_enterprise_switch.rst",
+    "title": "Deleting an Enterprise Switch",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002007326742.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326742.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326742.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002524317986.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317986.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317986.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_switches/deleting_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326742.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, consistent with the RST instruction to 'select the desired region and project' in step 2.",
+          "A location pin is a standard UI symbol for region/area selection, matching the described action.",
+          "The icon is used in the Procedure section as an inline reference for a navigation step.",
+          "The image clearly shows a location pin/marker symbol."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern.",
+          "No surrounding UI context is visible to confirm it appears in the upper left corner as described."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/enterprise_switches/deleting_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317986.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), consistent with the RST instruction to 'open the service list' in step 3.",
+          "A hamburger menu is the standard UI symbol for opening a navigation or service list, matching the described action precisely.",
+          "The icon is used in the Procedure section as an inline reference for a navigation step.",
+          "The image clearly shows three horizontal lines representing a menu toggle."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution.",
+          "No surrounding UI context is visible to confirm it appears in the upper left corner as described."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_switches/modifying_an_enterprise_switch.rst",
+    "title": "Modifying an Enterprise Switch",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168466.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168466.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168466.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555437385.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437385.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437385.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002533128107.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002533128107.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002533128107.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001261580447.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261580447.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261580447.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_switches/modifying_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168466.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Location pin icon matches the RST description of selecting region and project in step 2",
+          "Standard UI symbol for region/location selection in cloud management consoles",
+          "Icon is appropriately small and symbolic, consistent with its use as a clickable element in the upper left corner"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_switches/modifying_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437385.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon (three horizontal lines) matches the RST description of opening the service list in step 3",
+          "Standard navigation menu symbol used in upper left corner of management consoles",
+          "Consistent with the described action of clicking to reveal a service list for Network > Enterprise Switch"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_switches/modifying_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002533128107.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Pencil/edit icon directly matches the RST description of clicking to enter a new name in step 5",
+          "Core action of the document (modifying the switch name) is represented by this edit symbol",
+          "Standard UI convention for inline editing of a field"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_switches/modifying_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261580447.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Checkmark icon matches the RST description of the final confirmation click in step 6",
+          "Standard UI symbol for confirming or submitting a change",
+          "Appropriate as the last step to finalize the name modification"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enterprise_switches/viewing_details_of_an_enterprise_switch.rst",
+    "title": "Viewing Details of an Enterprise Switch",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002515334080.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002515334080.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002515334080.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007326746.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326746.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326746.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555437361.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437361.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437361.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enterprise_switches/viewing_details_of_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002515334080.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows an Enterprise Switch details page with tabs, ID, Specifications, Mode, AZ, VPC, Tunnel Subnet, Tunnel IP Address, Description, and Created fields.",
+          "Matches the figure caption 'Basic information about the enterprise switch' exactly.",
+          "The page layout and fields align with what the procedure describes as the result of clicking the target enterprise switch name.",
+          "A Delete button and edit icons are visible, consistent with a management console UI."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_switches/viewing_details_of_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326746.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin (map marker) icon, which is a standard symbol for region/project selection in cloud management consoles.",
+          "The RST step 2 instructs to click this icon in the upper left corner to select the desired region and project, which matches the location pin semantics.",
+          "The icon is small and slightly blurry, limiting fine detail assessment."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact styling or label."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enterprise_switches/viewing_details_of_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437361.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a hamburger menu icon (three horizontal lines), the standard symbol for opening a navigation/service list.",
+          "The RST step 3 instructs to click this icon in the upper left corner to open the service list and choose Network > Enterprise Switch, which matches the hamburger menu function.",
+          "The icon is small and slightly blurry but clearly identifiable as three horizontal bars."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, but the three-line pattern is still clearly visible."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/quick_start.rst",
+    "title": "Quick Start",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001355402245.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355402245.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355402245.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/quick_start.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355402245.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/step_2_create_an_enterprise_switch.rst",
+    "title": "Step 2: Create an Enterprise Switch",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002516958061.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168470.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
+        "kind": "substitution_image",
+        "line": 132,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555557291.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
+        "kind": "substitution_image",
+        "line": 133,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/step_2_create_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516958061.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is labeled 'Figure 1 Purchasing an enterprise switch' in the RST and shows the Create Enterprise Switch form",
+          "All parameters from Table 1 are visible: Region, Active AZ, Standby AZ, Specifications (Basic/Standard/Enhanced), VPC, Tunnel Subnet, Local Tunnel IP Address, Name, Description",
+          "Specification values match the RST table exactly (Basic: 3 Gbit/s, 500,000 PPS, 1 subnet; Standard: 5 Gbit/s, 1,000,000 PPS, 3 subnets; Enhanced: 10 Gbit/s, 2,000,000 PPS, 6 subnets)",
+          "The form is in the Procedure section step 5, matching the RST context"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/step_2_create_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168470.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Referenced as |image1| in step 2: 'Click |image1| in the upper left corner and select the desired region and project'",
+          "The image is a location pin (map marker) icon, consistent with a region/project selector",
+          "Small symbolic graphic used as a UI element in the procedure"
+        ],
+        "missing_evidence": [
+          "Icon is very small and low-resolution; only a generic location pin is visible without surrounding UI context"
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/step_2_create_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557291.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Referenced as |image2| in step 3: 'Click |image2| in the upper left corner of the page to open the service list and choose Network > Enterprise Switch'",
+          "The image is a hamburger menu icon (three horizontal lines), consistent with opening a service/navigation list",
+          "Small symbolic graphic used as a UI element in the procedure"
+        ],
+        "missing_evidence": [
+          "Icon is very small and low-resolution; only three horizontal lines are visible without surrounding UI context"
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/step_3_create_a_layer_2_connection.rst",
+    "title": "Step 3: Create a Layer 2 Connection",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002516237194.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516237194.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516237194.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168462.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168462.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168462.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555557853.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557853.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557853.png",
+        "kind": "substitution_image",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/step_3_create_a_layer_2_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516237194.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a UI screenshot titled 'Create Layer 2 Connection' matching Figure 1 in the RST",
+          "All parameters from Table 1 are visible: Enterprise Switch, VPC, Layer 2 Connection Subnet, Interface IP Address, Tunnel VNI, Tunnel IP Address, Tunnel Port, Name",
+          "Directly referenced in step 5 of the procedure as the page for creating a Layer 2 connection",
+          "Form layout and field labels align with the parameter descriptions in the RST"
+        ],
+        "missing_evidence": [
+          "Some values are partially redacted (e.g., VPC name, Name field)"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/step_3_create_a_layer_2_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168462.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin icon, consistent with a region/project selector referenced in step 2",
+          "The RST states 'Click |image1| in the upper left corner and select the desired region and project' which matches a location pin icon",
+          "Icon is small and symbolic, fitting the 'icon' classification",
+          "No contradiction between the icon and its described purpose in the procedure"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/getting_started/step_3_create_a_layer_2_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557853.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon (three horizontal lines), consistent with opening a service list as described in step 3",
+          "The RST states 'Click |image2| in the upper left corner of the page to open the service list' which matches a hamburger menu icon",
+          "Icon is small and symbolic, fitting the 'icon' classification",
+          "No contradiction between the icon and its described purpose in the procedure"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/step_4_configure_a_tunnel_gateway_in_your_data_center.rst",
+    "title": "Step 4: Configure a Tunnel Gateway in Your Data Center",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001325432441.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001325432441.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001325432441.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001275071870.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001275071870.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001275071870.png",
+        "kind": "figure",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/step_4_configure_a_tunnel_gateway_in_your_data_center.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001325432441.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/getting_started/step_4_configure_a_tunnel_gateway_in_your_data_center.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001275071870.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a terminal screenshot showing the output of 'display vxlan vni 5010 verbose', which is exactly the command referenced in step 9 of the CE6850 procedure.",
+          "The displayed values (BD ID 10, State up, Source Address 2.2.2.2, Peer List 10.0.6.3) align with the configuration values described in the RST (bridge-domain 10, tunnel IP 2.2.2.2, cloud tunnel IP 10.0.6.3).",
+          "The State field shows 'up', consistent with the RST note that an 'up' state indicates a normal tunnel status.",
+          "The image is placed as Figure 2 'VXLAN configuration status' directly under the relevant step in the CE6850 section."
+        ],
+        "missing_evidence": [
+          "No additional information is missing; the screenshot fully supports the referenced step."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/step_5_verify_network_connectivity.rst",
+    "title": "Step 5: Verify Network Connectivity",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002515685622.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002515685622.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002515685622.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/step_5_verify_network_connectivity.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002515685622.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a terminal screenshot showing the output of the 'ping 10.1.1.105' command, which directly matches the RST instruction to verify VPC connectivity.",
+          "The displayed output (4 packets transmitted, 4 received, 0% packet loss) corresponds to the RST statement that such information indicates the two VPCs can communicate.",
+          "The command and target IP (10.1.1.105) exactly match the example given in the procedure step.",
+          "No interactive UI controls are present; it is a plain command-line output."
+        ],
+        "missing_evidence": [
+          "No additional context beyond the terminal output is shown, but this is consistent with the RST's expectation of a similar display."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/layer_2_connections/creating_a_layer_2_connection.rst",
+    "title": "Creating a Layer 2 Connection",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002516237194.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516237194.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516237194.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168462.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168462.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168462.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555557853.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557853.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557853.png",
+        "kind": "substitution_image",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/layer_2_connections/creating_a_layer_2_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516237194.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a UI screenshot of the 'Create Layer 2 Connection' form, matching Figure 1 in the RST",
+          "All parameters from Table 1 are visible: Enterprise Switch, VPC, Layer 2 Connection Subnet, Interface IP Address, Tunnel VNI, Tunnel IP Address, Tunnel Port, Name",
+          "The form layout and field labels align precisely with the procedure description in step 5",
+          "Tunnel Port shows a default value consistent with the RST stating port 4789 is used by default"
+        ],
+        "missing_evidence": [
+          "Some field values are partially redacted (e.g., VPC name, Name field)"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/layer_2_connections/creating_a_layer_2_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168462.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin icon, consistent with the RST instruction to click it to select region and project in step 2",
+          "The icon is a standard UI symbol for region/project selection in cloud management consoles",
+          "It is a small isolated pictogram, not a full screenshot",
+          "The icon is generic and not specific to Layer 2 connections but is part of the navigation procedure"
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible to confirm exact placement in upper left corner"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/layer_2_connections/creating_a_layer_2_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555557853.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon (three horizontal lines), consistent with the RST instruction to click it to open the service list in step 3",
+          "The icon is a standard UI symbol for opening navigation/service menus",
+          "It is a small isolated pictogram, not a full screenshot",
+          "The icon is generic and not specific to Layer 2 connections but is part of the navigation procedure"
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible to confirm exact placement in upper left corner"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/layer_2_connections/deleting_a_layer_2_connection.rst",
+    "title": "Deleting a Layer 2 Connection",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002007326734.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326734.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326734.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002524317984.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317984.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317984.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/layer_2_connections/deleting_a_layer_2_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326734.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin/marker icon, which is a standard UI symbol for region or location selection.",
+          "The RST step 2 instructs to click this icon in the upper left corner to select the desired region and project, which aligns perfectly with a location pin icon.",
+          "The icon is small, isolated, and symbolic, fitting the 'icon' classification.",
+          "No contradictions between the image content and its described usage in the procedure."
+        ],
+        "missing_evidence": [
+          "The surrounding UI context (e.g., the full management console header) is not visible, only the isolated icon is shown."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/layer_2_connections/deleting_a_layer_2_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524317984.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), a standard UI symbol for opening a navigation or service list menu.",
+          "The RST step 3 instructs to click this icon in the upper left corner to open the service list and choose Network > Enterprise Switch, which aligns with a hamburger menu icon.",
+          "The icon is small, isolated, and symbolic, fitting the 'icon' classification.",
+          "No contradictions between the image content and its described usage in the procedure."
+        ],
+        "missing_evidence": [
+          "The surrounding UI context (e.g., the full page header or service list dropdown) is not visible, only the isolated icon is shown."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/layer_2_connections/modifying_a_layer_2_connection_name.rst",
+    "title": "Modifying a Layer 2 Connection Name",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002007168458.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168458.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168458.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555437887.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437887.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437887.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001261674917.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261674917.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261674917.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001261474973.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261474973.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261474973.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/layer_2_connections/modifying_a_layer_2_connection_name.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007168458.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Location pin icon matches step 2 description of selecting region and project in the upper left corner",
+          "Icon is appropriate for a region/project selector in a management console",
+          "Small symbolic graphic consistent with icon classification"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/layer_2_connections/modifying_a_layer_2_connection_name.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002555437887.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon (three horizontal lines) matches step 3 description of opening the service list",
+          "Standard navigation icon for accessing a menu in the upper left corner",
+          "Appropriate for navigating to Network > Enterprise Switch"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/layer_2_connections/modifying_a_layer_2_connection_name.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261674917.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Pencil/edit icon directly matches step 6 of clicking next to the Layer 2 connection name to enter a new name",
+          "Core action icon for the document's main topic of modifying a connection name",
+          "Clearly a small symbolic edit icon"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/layer_2_connections/modifying_a_layer_2_connection_name.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001261474973.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Checkmark icon matches step 7 as the confirm/submit action after entering a new name",
+          "Standard confirmation symbol appropriate for finalizing a name change",
+          "Small symbolic graphic consistent with icon classification"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/layer_2_connections/viewing_details_of_a_layer_2_connection.rst",
+    "title": "Viewing Details of a Layer 2 Connection",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002516227978.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516227978.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516227978.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002007326738.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326738.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326738.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002524477976.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524477976.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524477976.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/layer_2_connections/viewing_details_of_a_layer_2_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002516227978.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is labeled Figure 1 in the RST and shows the Layer 2 Connection Topology page exactly as described.",
+          "Displays local subnet (subnet-l2cg-test), local tunnel IP, remote tunnel gateway, remote CIDR block, and remote tunnel IP address — all elements mentioned in the RST.",
+          "Right panel shows connection details: ID, Status (Connecting), VPC, Layer 2 Connection Subnet, Local/Remote Tunnel IP Address, VNI, and Port.",
+          "Tunnel VNI: 1000 is visible in the topology, matching the concept of tunnel parameters described.",
+          "The screenshot is the primary visual evidence for the 'Viewing Details of a Layer 2 Connection' section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/layer_2_connections/viewing_details_of_a_layer_2_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002007326738.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin (map marker) icon, consistent with a region/project selector in the upper-left corner as described in step 2.",
+          "The RST instructs the user to click this icon to select the desired region and project, which aligns with a location/region selector symbol.",
+          "The icon is a standard UI symbol for geographic/region selection, semantically matching the 'select region and project' action.",
+          "It is a supporting procedural icon, not the main content of the Layer 2 connection topic."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution; surrounding UI context (e.g., the management console header) is not visible to confirm exact placement."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/layer_2_connections/viewing_details_of_a_layer_2_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002524477976.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger-menu icon (three horizontal lines), a standard symbol for opening a navigation/service list.",
+          "The RST step 3 instructs the user to click this icon in the upper-left corner to open the service list and choose Network > Enterprise Switch.",
+          "The icon semantically matches the action of opening a service/navigation menu.",
+          "It is a supporting procedural icon, not the main content of the Layer 2 connection topic."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution; surrounding UI context is not visible to confirm exact placement in the console."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/permissions_management/creating_an_iam_user_and_granting_enterprise_switch_permissions.rst",
+    "title": "Creating an IAM User and Granting Enterprise Switch Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001217250348.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001217250348.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001217250348.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/permissions_management/creating_an_iam_user_and_granting_enterprise_switch_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001217250348.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/enterprise_switch_advantages.rst",
+    "title": "Enterprise Switch Advantages",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001355941949.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355941949.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355941949.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002424302708.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002424302708.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002424302708.png",
+        "kind": "figure",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/enterprise_switch_advantages.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355941949.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/service_overview/enterprise_switch_advantages.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000002424302708.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/functions.rst",
+    "title": "Functions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001355818125.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355818125.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355818125.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/functions.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355818125.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/how_enterprise_switches_work.rst",
+    "title": "How Enterprise Switches Work",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001303019660.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001303019660.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001303019660.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/how_enterprise_switches_work.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001303019660.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/region_and_az.rst",
+    "title": "Region and AZ",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0184026531.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0184026531.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0184026531.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/region_and_az.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0184026531.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_an_enterprise_switch.rst",
+    "title": "What Is an Enterprise Switch?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001355818125.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355818125.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355818125.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/what_is_an_enterprise_switch.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001355818125.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/working_with_other_services.rst",
+    "title": "Working with Other Services",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001302704672.png",
+        "original_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001302704672.png",
+        "used_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001302704672.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/working_with_other_services.rst",
+        "image_path": "/home/ubuntu/repotesting/enterprise-switch/umn/source/_static/images/en-us_image_0000001302704672.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  }
+]

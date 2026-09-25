@@ -1,0 +1,1618 @@
+[
+  {
+    "file_path": "umn/source/deh_management/adjusting_deh_resource_quotas.rst",
+    "title": "Adjusting DeH Resource Quotas",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0275513364.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0275513364.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0275513364.png",
+        "kind": "substitution_image",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0152727234.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0152727234.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0152727234.png",
+        "kind": "substitution_image",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/deh_management/adjusting_deh_resource_quotas.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0275513364.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin icon, consistent with a region/project selector in the upper-left corner of a management console.",
+          "The RST step 2 instructs the user to click this icon to select the desired region and project, which aligns with a location/region selector symbol.",
+          "The icon is part of the navigation flow for viewing quotas but does not directly illustrate quota information or DeH resources.",
+          "No contradiction between the icon's appearance and its described function in the document."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution; finer details of the UI context (e.g., surrounding menu) are not visible.",
+          "No label or text accompanies the icon in the image itself to confirm it is specifically a region selector."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/deh_management/adjusting_deh_resource_quotas.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0152727234.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small bar-chart icon (three vertical bars of decreasing height), which is a common symbol for resource usage or quota visualization.",
+          "The RST step 3 instructs the user to click this icon in the upper-right corner to display the Quotas page, which is semantically consistent with a bar-chart/usage icon.",
+          "The icon is directly tied to the step that leads to viewing quota information, making it highly relevant to the section.",
+          "No contradiction between the icon's appearance and its described function in the document."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution; surrounding UI context is not visible.",
+          "No text label in the image confirms it is specifically the 'Quotas' button."
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/deh_management/changing_the_name_of_a_deh.rst",
+    "title": "Changing the Name of a DeH",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001850888056.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238393801.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0238393801.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0238393801.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238393800.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0238393800.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0238393800.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001176881132.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001176881132.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001176881132.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/deh_management/changing_the_name_of_a_deh.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Location pin icon is used in step 2 to select region and project, which is a standard UI pattern for region selection in cloud management consoles.",
+          "The icon is a small symbolic graphic (map pin), consistent with its role as a region/project selector.",
+          "Directly referenced in the Procedure section as the element to click for region and project selection."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible; the icon is shown in isolation."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/deh_management/changing_the_name_of_a_deh.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0238393801.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Green checkmark icon is used in step 5 to confirm the name change, which is a standard confirm/OK action.",
+          "The icon is a small symbolic graphic (checkmark), consistent with a confirmation action.",
+          "Directly referenced in the Procedure section as the button to click after changing the name."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible; the icon is shown in isolation."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/deh_management/changing_the_name_of_a_deh.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0238393800.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Red X icon is used in step 5 as the cancel action when the user does not want to change the name.",
+          "The icon is a small symbolic graphic (X mark), consistent with a cancel/close action.",
+          "Directly referenced in the Procedure section as the button to click to discard the name change."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible; the icon is shown in isolation."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/deh_management/changing_the_name_of_a_deh.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001176881132.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Pencil/edit icon is used in step 6 to make the DeH name editable, which is directly relevant to the topic of changing a name.",
+          "The icon is a small symbolic graphic (pencil), consistent with an edit action.",
+          "Directly referenced in the Procedure section as the element to click next to the DeH name to enable editing."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible; the icon is shown in isolation."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/deh_management/configuring_auto_placement_for_dehs.rst",
+    "title": "Configuring Auto Placement for DeHs",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001850888056.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "kind": "substitution_image",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/deh_management/configuring_auto_placement_for_dehs.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, consistent with a region/project selector icon.",
+          "In the RST, |image1| is used in Procedure step 2: 'Click |image1| in the upper left corner and select the desired region and project,' which matches a location-pin icon.",
+          "The icon is an isolated UI symbol, not a full screenshot or interactive button.",
+          "No contradiction between the icon and its textual reference."
+        ],
+        "missing_evidence": [
+          "The image does not show surrounding console UI, so the exact placement (upper-left corner) cannot be visually confirmed.",
+          "No label or text accompanies the icon to explicitly identify it as the region/project selector."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/deh_management/releasing_a_deh.rst",
+    "title": "Releasing a DeH",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/deh_management/releasing_a_deh.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is used in Procedure step 2 to indicate clicking the region/project selector in the upper-left corner, which a location pin icon conventionally represents.",
+          "The icon is semantically consistent with 'select the desired region and project' and does not contradict the surrounding text.",
+          "No interactive controls (buttons, menus) are visible; it is a static symbol."
+        ],
+        "missing_evidence": [
+          "The image alone does not show the management console context or the region/project dropdown it triggers.",
+          "No label or text accompanies the icon to confirm it is the region selector."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/deh_management/releasing_dehs_in_batches.rst",
+    "title": "Releasing DeHs in Batches",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/deh_management/releasing_dehs_in_batches.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is used in Procedure step 2 to indicate clicking the region/project selector, which a location pin icon appropriately represents.",
+          "The icon is relevant to the Procedure section where the user selects the desired region and project before navigating to Dedicated Host.",
+          "The visual content (a teardrop location marker with a central dot) is clearly visible and unambiguous."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding management console UI, so the exact placement in the upper-left corner cannot be verified from the image alone.",
+          "No label or text accompanies the icon, so its meaning relies on the RST context."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/deh_management/viewing_the_details_of_a_deh.rst",
+    "title": "Viewing the Details of a DeH",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001850888056.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "kind": "substitution_image",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/deh_management/viewing_the_details_of_a_deh.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is referenced in Procedure step 2: 'Click |image1| in the upper left corner and select the desired region and project.'",
+          "A location-pin icon is the standard region/project selector control in cloud management consoles, matching the described action exactly.",
+          "The icon appears in the Procedure section and is directly relevant to navigating to the DeH console.",
+          "No interactive button states, labels, or magenta styling are visible; it is a static symbol."
+        ],
+        "missing_evidence": [
+          "The image is a generic region-selector icon and does not itself show the DeH details page or any DeH-specific fields.",
+          "No surrounding UI context (e.g., the upper-left corner placement) is visible in the isolated icon."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/ecs_management/managing_an_ecs_on_a_deh.rst",
+    "title": "Managing an ECS on a DeH",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001850888056.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/ecs_management/managing_an_ecs_on_a_deh.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, i.e. an isolated UI icon, not a full interface screenshot.",
+          "In the RST, |image1| is used in Procedure step 2: 'Click |image1| in the upper left corner and select the desired region and project.'",
+          "A location-pin icon is a standard symbol for a region selector, so it semantically matches the 'select the desired region' instruction.",
+          "The icon appears in the Procedure section and directly supports the login/region-selection step of managing an ECS on a DeH.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image shows only the symbol; it does not display the upper-left corner context, the region/project dropdown, or any surrounding console UI.",
+          "No label or text accompanies the icon to confirm it is the region selector."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/ecs_management/managing_the_ecss_on_a_deh_in_batches.rst",
+    "title": "Managing the ECSs on a DeH in Batches",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001850888056.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/ecs_management/managing_the_ecss_on_a_deh_in_batches.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is used in Procedure step 2: 'Click |image1| in the upper left corner and select the desired region and project,' which matches a region/project selector icon.",
+          "The location-pin shape is the conventional symbol for region selection in cloud management consoles, consistent with the described action.",
+          "The icon appears in the Procedure section and directly supports the login/region-selection step, so it is section-relevant.",
+          "No interactive controls (buttons, menus) are visible; it is a static symbol, so contains_interactive_buttons is false."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI (upper-left corner placement) that the RST describes.",
+          "No label or tooltip is visible to confirm it is specifically the region/project selector."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/ecs_management/migrating_ecss.rst",
+    "title": "Migrating ECSs",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001850888056.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "kind": "substitution_image",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/ecs_management/migrating_ecss.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, consistent with a region/project selector icon.",
+          "RST step 2 references |image1| as the icon to click in the upper-left corner to select the desired region and project, which matches a location-pin icon.",
+          "The icon is used within the Procedure section of the 'Migrating ECSs' document, so it is topically and sectionally relevant.",
+          "No visible text or UI controls contradict the described usage."
+        ],
+        "missing_evidence": [
+          "The icon is generic and contains no label, so its exact function (region selector) is inferred from the RST context rather than visible text.",
+          "No surrounding UI is shown to confirm placement in the upper-left corner."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/ecs_management/modifying_the_specifications_of_an_ecs_on_a_deh.rst",
+    "title": "Modifying the Specifications of an ECS on a DeH",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001850888056.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/ecs_management/modifying_the_specifications_of_an_ecs_on_a_deh.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, consistent with an isolated UI icon.",
+          "In the RST, |image1| is referenced in Procedure step 2: 'Click |image1| in the upper left corner and select the desired region and project,' which matches a region/project selector pin icon.",
+          "The icon is placed within the Procedure section and directly supports the navigation step, so it is section-relevant.",
+          "The visual content (a location pin) clearly corresponds to the described region-selection control, with no contradiction to the text."
+        ],
+        "missing_evidence": [
+          "The image is a generic location-pin symbol without surrounding UI context, so the exact console placement (upper-left corner) cannot be visually confirmed.",
+          "No label or text accompanies the icon, so its specific function (region/project selector) is inferred from the RST rather than visible in the image."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/ecs_management/viewing_the_details_of_ecss_on_a_deh.rst",
+    "title": "Viewing the Details of ECSs on a DeH",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001850888056.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "kind": "substitution_image",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/ecs_management/viewing_the_details_of_ecss_on_a_deh.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, consistent with a region selector icon.",
+          "In the RST, |image1| is used in Procedure step 2: 'Click |image1| in the upper left corner and select the desired region and project,' which matches a region/location icon.",
+          "The icon is placed in the Procedure section and directly supports the described navigation step.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is a generic location pin and does not show the surrounding console UI, so its exact placement in the upper-left corner cannot be visually confirmed.",
+          "No label or text accompanies the icon to explicitly identify it as the region/project selector."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/deh_faqs/does_each_deh_have_a_unique_id.rst",
+    "title": "Does Each DeH Have a Unique ID?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001540710213.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540710213.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540710213.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/deh_faqs/does_each_deh_have_a_unique_id.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540710213.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI screenshot of a Dedicated Host detail page, matching the FAQ topic about DeH IDs.",
+          "The ID field (c7cb2679-78c1-4e29-819f-90a6670eeb29) is highlighted with a red box, directly illustrating the unique ID referenced in the figure caption 'DeH ID'.",
+          "The screenshot is the figure attached to the 'Does Each DeH Have a Unique ID?' section, so it is highly relevant.",
+          "Visible interface elements (Name, ID, AZ, Status, Type, vCPUs, Memory, etc.) provide clear visual evidence of a DeH record with a unique identifier.",
+          "No element in the image contradicts the statement that each DeH has a unique ID."
+        ],
+        "missing_evidence": [
+          "The image shows only a single DeH, so it does not by itself demonstrate uniqueness across multiple DeHs.",
+          "No explicit text in the image states that the ID is unique; that claim comes from the RST body."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/deh_faqs/how_can_i_query_the_number_of_available_resources_on_a_deh.rst",
+    "title": "How Can I Query the Number of Available Resources on a DeH?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001540675997.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540675997.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540675997.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/deh_faqs/how_can_i_query_the_number_of_available_resources_on_a_deh.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540675997.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of the Dedicated Host (DeH) console, matching the figure caption 'Querying available resources of a DeH'.",
+          "The table includes vCPUs and Memory (GB) columns showing total/available values (e.g., 72/72 and 328/328), directly illustrating the RST statement about viewing total and available resources.",
+          "The interface shows per-DeH rows (deh-240f, deh-b952-wintertime-test) with status and resource details, consistent with the FAQ topic.",
+          "No visible contradiction between the image content and the RST description."
+        ],
+        "missing_evidence": [
+          "The image does not explicitly label the columns as 'available' versus 'total', though the x/y format implies it."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/deh_faqs/what_are_the_differences_between_dehs_and_bmss.rst",
+    "title": "What Are the Differences Between DeHs and BMSs?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001441682817.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001441682817.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001441682817.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/deh_faqs/what_are_the_differences_between_dehs_and_bmss.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001441682817.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/ecs_faqs/can_i_create_ecss_of_different_flavors_on_a_deh.rst",
+    "title": "Can I Create ECSs of Different Flavors on a DeH?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001540505321.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540505321.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540505321.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/ecs_faqs/can_i_create_ecss_of_different_flavors_on_a_deh.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001540505321.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI screenshot showing a DeH configuration form with a 'Supported ECS Flavors' table, matching the figure caption 'ECS flavors allowed on DeH'.",
+          "The table lists c4 flavors (c4.large.2, c4.large.4, c4.xlarge.2, c4.xlarge.4, c4.2xlarge.2, c4.2xlarge.4), consistent with the RST's example of c4 ECSs on c4 DeHs including c4.large.2 and c4.xlarge.2.",
+          "The DeH Type 'c4' and DeH Category 'Dedicated general-purpose' selections align with the topic of creating ECSs of different flavors on a DeH.",
+          "No visible contradiction between the image content and the RST text."
+        ],
+        "missing_evidence": [
+          "The image is cropped at the bottom, so the full list of supported flavors is not visible.",
+          "The image does not explicitly show the act of creating multiple ECSs of different flavors, only the supported flavor list."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/allocating_dehs.rst",
+    "title": "Allocating DeHs",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/allocating_dehs.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small isolated location-pin (map marker) pictogram, classifying it as an icon rather than a screenshot.",
+          "In the RST, |image1| is referenced in Procedure step 2: 'Click |image1| in the upper left corner and select the desired region and project,' which semantically matches a region/location selector icon.",
+          "The icon is placed within the Procedure section and directly supports the region-selection step, so it is section-relevant.",
+          "The visual content (a teardrop location pin with a central dot) is clearly visible and unambiguous.",
+          "No element of the icon contradicts the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image shows only the icon symbol without surrounding UI context (no menu, no region/project list), so the exact control behavior cannot be confirmed from the image alone.",
+          "No label or text accompanies the icon in the image to explicitly confirm it is the region/project selector."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/deploying_ecss_on_dehs.rst",
+    "title": "Deploying ECSs on DeHs",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001633961298.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001633961298.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001633961298.png",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/deploying_ecss_on_dehs.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001633961298.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, i.e. an isolated UI symbol, so it is classified as an icon.",
+          "In the RST the image (|image1|) is referenced in Procedure step 2: 'Click |image1| in the upper left corner and select the desired region and project.'",
+          "A location-pin icon is semantically consistent with a region/project selector control, matching the described action.",
+          "No application interface, page, or button chrome is visible, only the standalone symbol.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "No surrounding management-console UI is shown to confirm the icon's exact placement in the upper-left corner.",
+          "No text label accompanies the icon, so its meaning is inferred from the RST context rather than the image alone."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/key_operations_recorded_by_cts/viewing_cts_traces.rst",
+    "title": "Viewing CTS Traces",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0162743969.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0162743969.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0162743969.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0127704907.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0127704907.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0127704907.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001850888056.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210486176.jpg",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210486176.jpg",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210486176.jpg",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/key_operations_recorded_by_cts/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0162743969.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is explicitly referenced as Figure 1 'Trace details' in the RST",
+          "Shows a trace table with columns matching the RST description: Trace Name, Resource Type, Trace Source, Resource ID, Trace Status, Operator, Recorded, Operation",
+          "Displays expanded trace details below the table row (Trace ID, Trace Type, Source IP Address, Generated)",
+          "The 'View Trace' link in the Operation column matches step 7 of the procedure",
+          "Resource type 'dedicatedHosts' and service 'DeH' align with the dedicated host context of the document"
+        ],
+        "missing_evidence": [
+          "The full trace name is truncated (createDedicated...)",
+          "Operator field is partially redacted"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/key_operations_recorded_by_cts/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0127704907.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is explicitly referenced as Figure 2 'View Trace' in the RST",
+          "Shows a 'View Trace' dialog with JSON content representing a CTS trace structure",
+          "JSON fields include service_type (DeH), resource_type (dedicatedHosts), trace_name (createDedicatedHosts), trace_type (ConsoleAction), matching the document context",
+          "The RST states 'For details about the key fields in the CTS trace structure, see the Cloud Trace Service User Guide' and this image illustrates those fields",
+          "The dialog has a close (X) button in the upper right corner"
+        ],
+        "missing_evidence": [
+          "Some values in the JSON are redacted (domain name, user name, source_ip)",
+          "The bottom of the JSON is cut off (record_time partially visible)"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/key_operations_recorded_by_cts/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001850888056.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Referenced as |image1| in step 2: 'Click |image1| in the upper left corner and select the desired region and project'",
+          "The image is a location pin / map marker icon, which is a standard UI symbol for region or location selection",
+          "The icon is small and isolated, consistent with an inline UI symbol in a navigation bar",
+          "Semantically appropriate for selecting a region in a cloud management console"
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible (no navigation bar, no label)",
+          "Cannot confirm the exact placement in the upper left corner from the icon alone"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/key_operations_recorded_by_cts/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0210486176.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Referenced as |image2| in step 6: 'Click |image2| on the left of the record to be queried to extend its details'",
+          "The image is a downward-pointing chevron (v-shape), a standard UI symbol for expanding/collapsing a row",
+          "Semantically appropriate for expanding trace details in a table row",
+          "The icon is small and isolated, consistent with an inline expand control in a data table"
+        ],
+        "missing_evidence": [
+          "No surrounding table context visible",
+          "Cannot confirm exact placement on the left of a record from the icon alone"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/managing_enterprise_projects.rst",
+    "title": "Managing Enterprise Projects",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001248994857.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001248994857.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001248994857.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/managing_enterprise_projects.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0000001248994857.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/permission_management/creating_a_user_and_granting_permissions.rst",
+    "title": "Creating a User and Granting Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0259246060.jpg",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0259246060.jpg",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0259246060.jpg",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/permission_management/creating_a_user_and_granting_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0259246060.jpg",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/product_introduction/dedicated_host.rst",
+    "title": "Dedicated Host",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0161118470.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0161118470.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0161118470.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/product_introduction/dedicated_host.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0161118470.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/tag_management.rst",
+    "title": "Tag Management",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0181721054.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0181721054.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0181721054.png",
+        "kind": "figure",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238393803.png",
+        "original_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0238393803.png",
+        "used_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0238393803.png",
+        "kind": "substitution_image",
+        "line": 61,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/tag_management.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0181721054.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Search by Tag' panel on the Dedicated Host page with Tag key and Tag value input fields",
+          "The 10-tag maximum limit and 'all specified tags' matching behavior are visible in the helper text",
+          "Search and Reset buttons are present at the bottom right",
+          "The 'Search by Tag' button is visible in the upper right corner as described in step 3",
+          "All UI elements match the RST description of the tag search workflow"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/tag_management.rst",
+        "image_path": "/home/ubuntu/repotesting/dedicated-host/umn/source/_static/images/en-us_image_0238393803.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a small plus (+) icon in a square button, consistent with an 'add' action",
+          "The RST references this image as |image1| in step 5: 'Click |image1| to add a tag'",
+          "The plus symbol is the standard UI convention for adding a new item (tag)",
+          "The icon is small and isolated, fitting the 'icon' classification"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

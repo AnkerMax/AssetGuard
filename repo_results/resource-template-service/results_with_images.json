@@ -1,0 +1,1107 @@
+[
+  {
+    "file_path": "umn/source/auditing/viewing_cts_traces.rst",
+    "title": "Viewing CTS Traces",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0110310841.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110310841.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110310841.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0110311573.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110311573.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110311573.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210486176.jpg",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210486176.jpg",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210486176.jpg",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/auditing/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110310841.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a trace details table with columns matching the RST description (Trace Name, Resource Type, Trace Source, Resource ID, Resource Name, Trace Status, Operator, Recorded, Operation).",
+          "Displays an expanded trace row with Trace ID, Trace Type (ConsoleAction), Source IP Address, and Generated timestamp, consistent with Figure 1 'Trace details'.",
+          "Includes a 'View Trace' link in the Operation column, matching step 7 of the RST.",
+          "The 'normal' status and 'createStacks' trace name align with the filtering options described in step 5."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0110311573.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a 'View Trace' dialog box with JSON trace structure, matching Figure 2 'Viewing trace' in the RST.",
+          "Contains key fields referenced in the RST: user, time, service_type (RTS), resource_type (stacks), resource_name (rds_test02), trace_name (createStacks), trace_type (ConsoleAction), response with stack details.",
+          "The dialog format and content align with step 7: 'click View Trace in the Operation column. A dialog box is displayed, showing the trace structure details.'",
+          "The JSON structure with href links and stack ID matches the expected CTS trace structure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A location pin / map marker icon, consistent with the RST step 2 instruction to 'Click |image1| in the upper left corner to select a region and a project.'",
+          "The icon is a small symbolic graphic used as a UI element for region/project selection.",
+          "Directly referenced as |image1| in the RST document for the region selector."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution; surrounding UI context (upper-left corner placement) is not visible in the isolated image."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/auditing/viewing_cts_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210486176.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A downward-pointing chevron icon, consistent with the RST step 6 instruction to 'Click |image2| on the left of the required trace to expand its details.'",
+          "The chevron is a standard expand/collapse UI symbol, matching the described expand action.",
+          "Directly referenced as |image2| in the RST document for expanding trace details."
+        ],
+        "missing_evidence": [
+          "The icon is very small and isolated; no surrounding table or trace row context is visible to confirm placement 'on the left of the required trace'."
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faq/how_to_obtain_the_flavor_value_of_resource_oserdsinstance.rst",
+    "title": "How to Obtain the flavor Value of Resource OSE::RDS::Instance?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0128465684.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0128465684.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0128465684.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faq/how_to_obtain_the_flavor_value_of_resource_oserdsinstance.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0128465684.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a Chrome DevTools Network tab screenshot, matching the console-based method described in the RST.",
+          "The request list shows 'createInfo?regionCode=eu-de' selected, exactly as stated in step 5.",
+          "The Preview tab is open with 'constant' > 'flavors' expanded, displaying flavor objects with id, cpu, mem, and code fields.",
+          "The figure caption 'Obtaining flavor information' aligns with the visible flavor data.",
+          "No visible element contradicts the RST description."
+        ],
+        "missing_evidence": [
+          "The image shows MSSQL flavor codes (e.g., rds.mssql.*), while the RST example mentions rds.mysql.m1.large.ha; this is a minor example difference, not a contradiction."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/creating_resources_using_a_template_using_the_console.rst",
+    "title": "Creating Resources Using a Template (Using the Console)",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0162741682.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0162741682.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0162741682.png",
+        "kind": "figure",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0129631902.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129631902.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129631902.png",
+        "kind": "figure",
+        "line": 150,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 161,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 162,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/creating_resources_using_a_template_using_the_console.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0162741682.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Create Stack' page with Region Information and Template sections, matching Figure 1 in the RST.",
+          "The 'Manually specify' option is selected under Template Source, consistent with the RST instruction to select Manually specify.",
+          "A Template Content text editor area is visible, matching the step to enter template content.",
+          "A 'Next' button is present at the bottom right, consistent with the RST instruction to click Next."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/creating_resources_using_a_template_using_the_console.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129631902.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a form with fields: ECS Name, Image Name or ID, Key Pair, Flavor Name, Network Name or ID, AZ Name.",
+          "Each field has a description matching the template parameter descriptions in the RST.",
+          "This corresponds to Figure 2 'Specifying details' referenced in the RST step for entering stack parameters.",
+          "All six parameters from the YAML template are represented as form fields."
+        ],
+        "missing_evidence": [
+          "No stack name field is visible, though the RST mentions entering the stack name in this step."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/creating_resources_using_a_template_using_the_console.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small gray location pin / map marker icon.",
+          "Used in the RST as |image1| and |image2| for 'Click in the upper left corner to select the desired region and project.'",
+          "The location pin icon is a standard symbol for region/project selection in cloud management consoles.",
+          "The icon is consistent with its described purpose of selecting region and project."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/rts.rst",
+    "title": "RTS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0162983502.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0162983502.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0162983502.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/rts.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0162983502.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a conceptual flow diagram (Template → RTS → Stack), not a UI screenshot or isolated icon, so it is classified as 'other'.",
+          "It directly illustrates the RTS workflow described in the RST: designing a template, uploading it to the RTS orchestration service, and creating a stack of cloud resources.",
+          "Labels ('Design template', 'RTS orchestration service', 'Collection of cloud resources') align with the document's basic concepts of templates, resource orchestration, and stacks.",
+          "The figure is referenced in the RST as 'Figure 1 Resource template' within the main RTS overview, making it highly relevant to the section.",
+          "No visible interactive controls or buttons are present in the diagram."
+        ],
+        "missing_evidence": [
+          "The diagram does not show specific resource types (ECS, EVS, ELB, etc.) named in the RST, only generic cloud resource icons.",
+          "No explicit mention of YAML/JSON template formats in the image, though the document states them."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/stack_management/creating_a_stack.rst",
+    "title": "Creating a stack",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0165712169.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0165712169.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0165712169.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 83,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238393889.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0238393889.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0238393889.png",
+        "kind": "substitution_image",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/stack_management/creating_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0165712169.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a Template section UI with Template Source (Manually specify / Upload template), Stack Template field with Upload button, and Main File dropdown",
+          "Matches Figure 1 caption 'Uploading a template file' in the RST",
+          "All fields described in step 4b (Template Source, Stack Template, Main File) are visible in the screenshot",
+          "The 'Upload template' option is highlighted, consistent with the upload workflow described"
+        ],
+        "missing_evidence": [
+          "No significant missing evidence; the image aligns well with the RST description"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/stack_management/creating_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin / map marker icon",
+          "RST references it as |image1| in step 2: 'Click |image1| in the upper left corner to select the desired region and project'",
+          "A location pin is a standard symbol for region/project selection in cloud management consoles",
+          "The icon is generic and not specific to stack creation, but contextually appropriate for region selection"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution; no text or additional context is visible",
+          "Cannot confirm the exact UI placement (upper left corner) from the icon alone"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/stack_management/creating_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0238393889.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows three dots (ellipsis) which is a common file-browse or 'more options' button",
+          "RST references it as |image2| in step 4b: 'Stack Template: Click |image2|, select the prepared template package, and click Upload'",
+          "Three dots is a standard UI symbol for opening a file browser dialog",
+          "The icon is generic and not specific to stack creation, but contextually appropriate for file selection"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution",
+          "Cannot confirm the exact label or tooltip associated with this button from the image alone"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/stack_management/deleting_a_stack.rst",
+    "title": "Deleting a Stack",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/stack_management/deleting_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker icon, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is used in step 2 to 'select the desired region and project', and a location-pin icon is the standard region/project selector symbol, matching the described purpose.",
+          "The icon is part of the navigation steps for the 'Deleting a Stack' procedure, so it is relevant to the section, though it is a generic navigation symbol rather than deletion-specific.",
+          "No interactive controls (buttons, menus) are visible; it is a static pictogram.",
+          "No contradiction between the image and the surrounding text."
+        ],
+        "missing_evidence": [
+          "No text label or tooltip is visible in the image to confirm it is the region/project selector.",
+          "The icon is generic; its exact placement in the upper-left corner of the console cannot be verified from the isolated image."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_file_packaging.rst",
+    "title": "Template File Packaging",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0093846144.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846144.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846144.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0093846364.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846364.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846364.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0078602155.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0078602155.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0078602155.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_file_packaging.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846144.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a right-click context menu in a file explorer with 'Add to archive...' highlighted in a red box",
+          "Matches step 1 of the RST: 'Select all files, right-click, and choose Add to archive'",
+          "Files visible (Resources, logo.png, manifest.yaml, random.yaml, template.yaml) are consistent with template file packaging context",
+          "Figure caption 'Figure 1 Packaging template files' aligns with the RST description"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_file_packaging.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0093846364.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Archive name and parameters' dialog with ZIP format selected via radio button",
+          "Matches step 2 of the RST: 'Select the .zip format'",
+          "Archive name field shows 'random.zip' confirming .zip format selection",
+          "Figure caption 'Figure 2 Package type' aligns with the RST description"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_file_packaging.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0078602155.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a file explorer with 'random.zip' highlighted in a red box, indicating the produced package",
+          "Matches step 3 of the RST: 'Produce a package'",
+          "The .zip file appears alongside the original template files (Resources, logo.png, manifest.yaml, random.yaml, template.yaml)",
+          "Figure caption 'Figure 3 Compression format' aligns with the RST description"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_package_structure.rst",
+    "title": "Template Package Structure",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0076468668.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0076468668.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0076468668.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0106214513.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0106214513.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0106214513.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_package_structure.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0076468668.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a file listing with Resources folder, logo.png, manifest.yaml, random.yaml, and template.yaml",
+          "Matches exactly the package structure described in the RST document",
+          "Serves as Figure 1 illustrating the top-level package structure",
+          "All five items listed in the RST are visible in the image"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/stack_management/preparing_a_template_or_a_template_package/template_package_structure.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0106214513.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a tree structure: Resources > HotFiles > random1.yaml",
+          "Matches the RST description of the Resources directory containing HotFiles with random1.yaml",
+          "Serves as Figure 2 illustrating the structure of the Resources directory",
+          "Consistent with the RST note that the structure of Resources/HotFiles is fixed"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/stack_management/updating_a_stack.rst",
+    "title": "Updating a Stack",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/stack_management/updating_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin / map-marker pictogram, consistent with an isolated UI symbol (icon).",
+          "In the RST, |image1| is referenced in step 2 as the control clicked in the upper-left corner to select the desired region and project, which a location pin icon appropriately represents.",
+          "The icon is placed within the 'Updating a Stack' procedure, so it is relevant to the section's step-by-step instructions.",
+          "The visual content (a teardrop location marker with a center dot) is clearly visible and unambiguous.",
+          "No element of the image contradicts the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is a generic location icon and does not itself show the region/project selection dropdown or any stack-specific content.",
+          "No surrounding UI context (toolbar, label, or button chrome) is visible to confirm it is rendered as a clickable control."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/stack_management/viewing_details_of_a_stack.rst",
+    "title": "Viewing Details of a Stack",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0165732878.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0165732878.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0165732878.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238393888.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0238393888.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0238393888.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/stack_management/viewing_details_of_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0165732878.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a topology view of stack resources (random2-5) with 'Creation complete' status, matching the RST description of viewing nested resources in topology.",
+          "The figure is explicitly labeled 'Figure 1 Viewing stack details' in the RST and is placed in the Resources subsection.",
+          "Resource boxes with names, statuses, and connecting lines are clearly visible, consistent with the RST's description of resource information.",
+          "Blue three-dot icons on each resource box serve as interactive controls to view details, matching the RST instruction to hover for resource details."
+        ],
+        "missing_evidence": [
+          "The full stack details page (name, ID, description, creation time, status) is not visible in this cropped topology view."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/stack_management/viewing_details_of_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, which is the standard symbol for region/project selection in cloud management consoles.",
+          "The RST instructs to 'Click |image1| in the upper left corner to select the desired region and project,' and a location pin is the conventional icon for this purpose.",
+          "The icon is small and symbolic, fitting the 'icon' classification.",
+          "No contradiction between the icon and its described function in the RST."
+        ],
+        "missing_evidence": [
+          "The surrounding UI context (upper left corner placement, management console) is not visible since only the isolated icon is shown."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/stack_management/viewing_details_of_a_stack.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0238393888.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a blue circular icon with three white dots (ellipsis), a common 'more options' or 'view details' indicator.",
+          "The RST states 'You can move your mouse |image2| to view resource details,' and a three-dot icon is the standard hover target for revealing additional information.",
+          "The icon is small and symbolic, fitting the 'icon' classification.",
+          "No contradiction between the icon and its described hover-to-view-details function."
+        ],
+        "missing_evidence": [
+          "The surrounding resource box or tooltip that would appear on hover is not visible since only the isolated icon is shown."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/template_syntax/parameters.rst",
+    "title": "Parameters",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0129684031.png",
+        "original_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129684031.png",
+        "used_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129684031.png",
+        "kind": "figure",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/template_syntax/parameters.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-template-service/umn/source/_static/images/en-us_image_0129684031.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI screenshot of a stack creation form showing parameter input fields.",
+          "It displays a 'length Parameters' group containing length, length2, and length1, matching the parameter_groups example in the RST.",
+          "It displays an 'Other Parameters' section containing the name parameter, consistent with the RST's description of two parameter categories on the Specify Details page.",
+          "Default values shown (length=4, length2=4, length1=5, name=random1) match the example template defaults in the RST.",
+          "The figure is explicitly referenced in the RST as Figure 1 'Parameter information'."
+        ],
+        "missing_evidence": [
+          "No submit/interactive buttons are visible in the captured region.",
+          "The page title 'Specify Details' is not visible in the screenshot, though the layout matches the described page."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

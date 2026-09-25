@@ -1,0 +1,2476 @@
+[
+  {
+    "file_path": "umn/source/as_management/as_configuration/copying_an_as_configuration.rst",
+    "title": "Copying an AS Configuration",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_configuration/copying_an_as_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, consistent with an icon rather than a screenshot.",
+          "In the RST, |image1| is referenced in step 2 as the control in the upper-left corner used to select a region and a project, and a location pin is a standard symbol for region selection.",
+          "The icon is placed within the Procedure section and directly supports the described navigation step.",
+          "No interactive button states, labels, or magenta styling are visible; it is a static symbolic graphic."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI, so the exact placement in the upper-left corner cannot be visually confirmed.",
+          "No text or label accompanies the icon to explicitly identify it as the region/project selector."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_configuration/creating_an_as_configuration_from_an_existing_ecs.rst",
+    "title": "Creating an AS Configuration from an Existing ECS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_configuration/creating_an_as_configuration_from_an_existing_ecs.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin / map-marker symbol, i.e. an isolated UI icon, not a full screenshot.",
+          "In the RST, |image1| is referenced in Procedure step 2: 'Click |image1| in the upper left corner to select a region and a project.'",
+          "A location-pin icon is the standard region/project selector symbol in cloud management consoles, matching the described action.",
+          "The icon appears in the Procedure section and directly supports the login/region-selection step of the workflow.",
+          "No visible interactive button control is present in the isolated image; it is just a symbol."
+        ],
+        "missing_evidence": [
+          "The image is a generic pin symbol without any label, so its exact function (region vs. project selector) is inferred from the RST text rather than visible text in the image.",
+          "No surrounding UI context (e.g., the upper-left corner placement) is visible in the isolated icon."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_configuration/creating_an_as_configuration_from_scratch.rst",
+    "title": "Creating an AS Configuration from Scratch",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 147,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_configuration/creating_an_as_configuration_from_scratch.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin pictogram, consistent with a region/project selector symbol.",
+          "The RST step 2 instructs to click |image1| in the upper left corner to select a region and a project, which matches a location/region icon.",
+          "The icon is placed in the Procedure section and directly supports the region-selection step.",
+          "No visible interactive button controls; it is an isolated symbolic graphic."
+        ],
+        "missing_evidence": [
+          "The image does not show surrounding UI context (e.g., the upper-left corner of the console) to confirm placement.",
+          "No label or text in the image explicitly states 'region' or 'project'."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_configuration/deleting_an_as_configuration.rst",
+    "title": "Deleting an AS Configuration",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_configuration/deleting_an_as_configuration.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, i.e., an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is used in Procedure step 2: 'Click |image1| in the upper left corner and select the desired region and project,' which matches a region/project selector pin icon.",
+          "The icon is placed in the Procedure section and directly supports the login/region-selection step of the deletion workflow.",
+          "No visible interactive button or control is present in the isolated image; it is only a symbolic graphic."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding management console UI, so the 'upper left corner' placement cannot be visually confirmed.",
+          "No label or text accompanies the icon to explicitly identify it as the region/project selector."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_group/changing_the_as_configuration_for_an_as_group.rst",
+    "title": "Changing the AS Configuration for an AS Group",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0282829283.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0282829283.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0282829283.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_group/changing_the_as_configuration_for_an_as_group.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0282829283.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a table listing two AS configurations (as-config-B and as-config-A) with columns for Name/ID, Status, Specifications, Image, System Disk, Data Disks, Login Mode, Created, Billing Mode, and Operation.",
+          "The RST explicitly references this as 'Figure 1 Changing the AS configuration' in the 'Effective Time of New AS Configuration' section.",
+          "The configuration names as-config-A and as-config-B in the image match exactly the names used in the RST's example of changing from as-config-A to as-config-B.",
+          "The table displays concrete details (instance types, images, disk sizes) that provide visual evidence of what an AS configuration contains."
+        ],
+        "missing_evidence": [
+          "The image does not show the 'Change Configuration' button or the dialog box mentioned in the procedure steps.",
+          "No visual indication of which configuration is currently active vs. pending."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/as_management/as_group/changing_the_as_configuration_for_an_as_group.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin / map-marker icon, consistent with a region or project selector in a cloud management console.",
+          "The RST references this icon in step 2 of the Procedure: 'Click |image1| in the upper left corner to select a region and a project.'",
+          "The icon is a generic UI element (region selector) and is not specific to AS configuration, so topic match is moderate.",
+          "The icon is small and simple, providing limited visual detail beyond its symbolic meaning."
+        ],
+        "missing_evidence": [
+          "The icon is shown in isolation without surrounding UI context (no console header, no dropdown menu visible).",
+          "No label or tooltip is visible to confirm it is specifically the region/project selector."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_group/creating_an_as_group.rst",
+    "title": "Creating an AS Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0223979402.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0223979402.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0223979402.png",
+        "kind": "substitution_image",
+        "line": 182,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_group/creating_an_as_group.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0223979402.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, which is the standard symbol for region/project selection in cloud management consoles.",
+          "The RST step 2 explicitly states 'Click |image1| in the upper left corner to select a region and a project,' and a location pin is the conventional icon for that action.",
+          "The icon is used within the Procedure section of the 'Creating an AS Group' document, directly supporting the step-by-step instructions.",
+          "No contradiction exists between the icon's visual representation and its described function in the text."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding UI context (e.g., the upper-left corner placement or the region/project dropdown that appears after clicking), but this is expected for an isolated icon asset."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_group/deleting_an_as_group.rst",
+    "title": "Deleting an AS Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_group/deleting_an_as_group.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, consistent with an icon rather than a screenshot.",
+          "In the RST, |image1| is referenced in Procedure step 2 as the control to click in the upper left corner to select the desired region and project, which matches a location/region selector icon.",
+          "The icon is semantically relevant to the procedure for deleting an AS group, though it is not directly about the deletion action itself.",
+          "No interactive buttons or controls are visible within the image; it is an isolated symbol."
+        ],
+        "missing_evidence": [
+          "The image does not show any surrounding UI context (e.g., the management console header) to confirm it is the region/project selector in situ.",
+          "No label or text accompanies the icon to explicitly identify it as the region/project selector."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_group/disabling_an_as_group.rst",
+    "title": "Disabling an AS Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_group/disabling_an_as_group.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, matching the region/project selector icon referenced in step 2.",
+          "The RST step 2 instructs to click the icon in the upper left corner to select a region and a project, which is consistent with a location-pin symbol.",
+          "The icon is an isolated UI symbol, not a full screenshot or interactive control, so it is classified as an icon.",
+          "No contradiction between the image and the surrounding procedure text."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI, so the 'upper left corner' placement cannot be visually confirmed.",
+          "No label or text accompanies the icon to explicitly identify it as the region/project selector."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_group/enabling_an_as_group.rst",
+    "title": "Enabling an AS Group",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_group/enabling_an_as_group.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location/region pin icon, consistent with the RST instruction to click the icon in the upper left corner to select a region and project.",
+          "The icon is referenced as |image1| and |image2| in step 2 of both the 'Enabling an AS Group' and 'Forcibly Enabling an AS Group' procedures.",
+          "The visual content (a map-marker/teardrop pin) semantically matches a region/project selector control in a cloud management console.",
+          "No interactive buttons or controls are visible; it is an isolated symbolic graphic."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI, so the 'upper left corner' placement cannot be visually confirmed.",
+          "No label or text accompanies the icon to explicitly identify it as the region/project selector."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_group/modifying_an_as_group.rst",
+    "title": "Modifying an AS Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_group/modifying_an_as_group.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location/map-pin pictogram, matching the RST reference for selecting a region and project in step 2.",
+          "It is an isolated symbolic graphic (icon), not a full UI screenshot.",
+          "The icon is semantically consistent with a region/project selector control in a management console.",
+          "No contradiction between the image and the surrounding procedure text."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI, so the exact placement in the upper-left corner cannot be verified.",
+          "No label or text accompanies the icon to confirm it is the region/project selector."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_group_and_instance_monitoring/adding_tags_to_as_groups_and_instances.rst",
+    "title": "Adding Tags to AS Groups and Instances",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_group_and_instance_monitoring/adding_tags_to_as_groups_and_instances.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin icon, consistent with a region/project selector referenced in the RST navigation steps.",
+          "The RST instructs the user to click this icon in the upper left corner to select a region and a project, which matches the location-pin semantics.",
+          "The icon is used as a procedural navigation aid rather than illustrating the tag-adding topic directly, so topic match is partial.",
+          "No contradiction is visible between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image does not show any surrounding UI context (e.g., the upper-left corner of the console), so its exact placement cannot be visually confirmed.",
+          "No label or tooltip is visible on the icon to explicitly confirm it is the region/project selector."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_group_and_instance_monitoring/querying_real-time_traces.rst",
+    "title": "Querying Real-Time Traces",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001744598325.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001696838310.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001696838310.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001696838310.png",
+        "kind": "substitution_image",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001696678850.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "kind": "substitution_image",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001744678489.jpg",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001696838318.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001696838318.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001696838318.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001758618249.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_group_and_instance_monitoring/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001744598325.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the CTS Trace List filter panel with Trace Type, Trace Source, Resource Type, Search By, Operator, and Trace Status fields, matching Figure 1 in the RST.",
+          "Includes time-range buttons (Last 1 hour/1 day/1 week, Customize) and Query/Reset/Export controls described in step 4.",
+          "Trace Status radio options (All trace statuses, Normal, Warning, Incident) match the documented filter values."
+        ],
+        "missing_evidence": [
+          "The drop-down contents for each filter are not expanded, so individual option lists are not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/as_management/as_group_and_instance_monitoring/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001696838310.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger (three-line) menu icon used in step 2 to open the navigation menu for Management & Deployment > Cloud Trace Service.",
+          "Matches the |image1| reference placed in the upper-left corner of the console."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is shown, only the isolated menu symbol."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/as_management/as_group_and_instance_monitoring/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001696678850.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Circular refresh/reload icon matching |image2| in step 6, used to view the latest trace information.",
+          "Semantically consistent with the 'refresh the trace list' action described in the RST."
+        ],
+        "missing_evidence": [
+          "No page context shown; only the isolated refresh symbol."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/as_management/as_group_and_instance_monitoring/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001744678489.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Downward chevron/expand icon matching |image3| in step 7, used to expand a trace's details on the left.",
+          "Consistent with the 'expand its details' action in the RST."
+        ],
+        "missing_evidence": [
+          "No surrounding trace row shown; only the isolated expand symbol."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/as_management/as_group_and_instance_monitoring/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001696838318.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Trace List table with an expanded trace row (login) revealing key fields such as trace_id, code, trace_name, resource_type, trace_rating, message, source_ip, trace_type, service_type, event_type, project_id, resource_id, tracker_name, time, resource_name, user, record_time.",
+          "Matches |image4| in step 7 illustrating the expanded trace details.",
+          "Includes a 'View Trace' link in the Operation column consistent with step 8."
+        ],
+        "missing_evidence": [
+          "Some field values are redacted/blurred, so exact data is not fully visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/as_management/as_group_and_instance_monitoring/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001758618249.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'View Trace' dialog with a JSON trace structure (request, trace_id, code 200, trace_name createDockerConfig, resource_type, trace_rating, message, source_ip, domain_id, trace_type, service_type, event_type, project_id, response, resource_id, tracker_name, time, resource_name, user/domain).",
+          "Matches |image5| in step 8, the trace details displayed after clicking View Trace.",
+          "Demonstrates the key fields referenced in the 'Trace Structure' section."
+        ],
+        "missing_evidence": [
+          "Several values (trace_id, source_ip, domain_id, project_id, user name/id) are redacted/blurred."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_group_and_instance_monitoring/setting_monitoring_alarm_rules.rst",
+    "title": "Setting Monitoring Alarm Rules",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0264244243.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0264244243.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0264244243.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_group_and_instance_monitoring/setting_monitoring_alarm_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0264244243.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is referenced in Procedure step 2: 'Click |image1| in the upper left corner and select the desired region and project.'",
+          "A location-pin icon is the standard symbol for a region/project selector in cloud management consoles, matching the described action.",
+          "The icon appears in the Procedure section where it is actually used, so section relevance is high.",
+          "No visible interactive button styling is present; only the pictogram is shown, so contains_interactive_buttons is false."
+        ],
+        "missing_evidence": [
+          "The image shows only the icon in isolation, without surrounding console UI, so its exact placement in the upper-left corner cannot be visually confirmed.",
+          "No label or text accompanies the icon in the image to explicitly state 'region and project'."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_group_and_instance_monitoring/viewing_monitoring_metrics.rst",
+    "title": "Viewing Monitoring Metrics",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210500918.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210500918.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210500918.png",
+        "kind": "substitution_image",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210500918.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210500918.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210500918.png",
+        "kind": "substitution_image",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_group_and_instance_monitoring/viewing_monitoring_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon used as a region/project selector in the upper-left corner of the management console.",
+          "The RST states 'Click |image1| in the upper left corner to select a region and a project,' which matches the location pin icon.",
+          "The icon is a standard UI element for region selection, consistent with cloud platform navigation patterns.",
+          "It is referenced twice (image1 and image3) in two different procedural sections of the document."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern.",
+          "No surrounding UI context is visible to confirm it is in the upper-left corner of a console."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/as_management/as_group_and_instance_monitoring/viewing_monitoring_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210500918.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a small square button with diagonal arrows, consistent with an expand/fullscreen icon.",
+          "The RST states to 'hover your mouse over a graph, and click |image2|' to view data for a longer time range, which aligns with an expand icon.",
+          "The icon is referenced twice (image2 and image4) in both the Auto Scaling and Cloud Eye procedural sections.",
+          "It is a standard UI control for expanding a graph view to see more data."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making the exact arrow direction and button style difficult to confirm.",
+          "No surrounding graph or UI context is visible to confirm its placement on a monitoring chart."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_policy/creating_an_as_policy.rst",
+    "title": "Creating an AS Policy",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 181,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 182,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_policy/creating_an_as_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small isolated gray location/map-pin pictogram, consistent with an icon rather than a full UI screenshot.",
+          "In the RST, |image1| is referenced in step 2: 'Click |image1| in the upper left corner to select a region and a project.' A location pin icon semantically matches a region selector.",
+          "The icon is used within the 'Creating an Alarm Policy' procedure, so it is relevant to the section's navigation steps.",
+          "No visible interactive button controls are present; it is a symbolic icon only."
+        ],
+        "missing_evidence": [
+          "No surrounding management-console UI is visible to confirm the icon's position in the upper-left corner.",
+          "No text label or tooltip is present in the image to explicitly identify it as the region/project selector."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/as_policy/managing_as_policies.rst",
+    "title": "Managing AS Policies",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/as_policy/managing_as_policies.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, i.e., an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is referenced in step 2 of 'Modifying an AS Policy': 'Click |image1| in the upper left corner to select a region and a project.'",
+          "A location-pin icon is a standard visual for a region/project selector, which is semantically consistent with the described action of selecting a region and project.",
+          "The icon is an isolated symbol without a rendered button state, so no interactive control is visible in the image itself."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI (upper-left corner placement) that the RST describes.",
+          "No label or tooltip is visible to confirm it is specifically the region/project selector rather than a generic location icon."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/bandwidth_scaling/creating_a_bandwidth_scaling_policy.rst",
+    "title": "Creating a Bandwidth Scaling Policy",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 185,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 186,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/bandwidth_scaling/creating_a_bandwidth_scaling_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin icon, consistent with a region/project selector in a cloud management console.",
+          "The RST instructs the user to 'Click |image1| in the upper left corner to select a region and a project,' which aligns with a location/region selector icon.",
+          "The icon is a generic navigation element used in the procedure steps rather than being specific to bandwidth scaling content.",
+          "No contradiction exists between the image content and the RST description of its purpose."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding UI context (e.g., the upper-left corner of the console) to confirm placement.",
+          "No label or text accompanies the icon to explicitly identify it as a region/project selector."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/bandwidth_scaling/managing_a_bandwidth_scaling_policy.rst",
+    "title": "Managing a Bandwidth Scaling Policy",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 105,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 106,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 107,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 108,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 109,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/bandwidth_scaling/managing_a_bandwidth_scaling_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, i.e., an isolated UI symbol, so it is classified as an icon.",
+          "In the RST this image is referenced as |image1|–|image5| with the instruction 'Click ... in the upper left corner to select a region and a project', and a location pin is a fitting symbol for region selection.",
+          "The icon is a generic console navigation symbol rather than a bandwidth-scaling-specific graphic, so topic and detail match are moderate.",
+          "The visual content (a location pin) is clearly visible and consistent with the described region/project selector, with no contradiction to the text."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding management console UI, so the 'upper left corner' placement cannot be visually confirmed.",
+          "No label or text accompanies the icon to explicitly tie it to region/project selection."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/bandwidth_scaling/viewing_details_about_a_bandwidth_scaling_policy.rst",
+    "title": "Viewing Details About a Bandwidth Scaling Policy",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/bandwidth_scaling/viewing_details_about_a_bandwidth_scaling_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 1,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location/map-pin pictogram, i.e., an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is used in step 2: 'Click |image1| in the upper left corner to select a region and a project,' which matches a region/location selector icon.",
+          "The icon is part of the generic navigation procedure rather than directly illustrating bandwidth scaling policy details, so topic match is limited.",
+          "No visible interactive button states or magenta elements are present."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding management console UI, so the 'upper left corner' placement cannot be visually confirmed.",
+          "No label or text accompanies the icon to confirm it is the region/project selector."
+        ],
+        "overall_score": 0.73,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/permissions_management/creating_a_user_and_granting_as_permissions.rst",
+    "title": "Creating a User and Granting AS Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0171188722.jpg",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0171188722.jpg",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0171188722.jpg",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/permissions_management/creating_a_user_and_granting_as_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0171188722.jpg",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/scaling_action/configuring_instance_protection.rst",
+    "title": "Configuring Instance Protection",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210485079.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/scaling_action/configuring_instance_protection.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0210485079.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker icon, matching the region/project selector referenced in the steps.",
+          "The RST uses this image as |image1|/|image2| for 'Click ... in the upper left corner and select the desired region and project', which a location pin icon represents.",
+          "The icon is relevant to the navigation procedure but not directly to the instance-protection feature itself.",
+          "No contradiction between the image and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is a generic location-pin icon without any console context, so its exact placement in the UI cannot be confirmed from the image alone."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/scaling_action/managing_lifecycle_hooks.rst",
+    "title": "Managing Lifecycle Hooks",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001763445960.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001763445960.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001763445960.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002040045537.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000002040045537.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000002040045537.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/scaling_action/managing_lifecycle_hooks.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000001763445960.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a flowchart diagram showing the instance lifecycle without lifecycle hooks, matching the RST caption 'Figure 1: Instance lifecycle when no lifecycle hook is added to an AS group'.",
+          "The diagram shows states Initial, Adding, Enabled, Removing, Removed with numbered steps 1-4, consistent with the document's description of the basic lifecycle.",
+          "The legend (Available to users, Unavailable to users, Status out of the AS group) provides clear visual context for the states.",
+          "No wait states are shown, which correctly reflects the 'no lifecycle hook' scenario described in the RST."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/as_management/scaling_action/managing_lifecycle_hooks.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000002040045537.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a flowchart diagram showing the instance lifecycle with lifecycle hooks, matching the RST caption 'Figure 2: Instance lifecycle when a lifecycle hook is added to an AS group'.",
+          "Steps 2 and 6 in the diagram correspond to 'Wait (Adding to AS group)' and 'Wait (Removing from AS group)' states, exactly as referenced in the RST text ('as shown in 2 and 6 in Figure 2').",
+          "The diagram includes 8 numbered steps showing the full lifecycle including wait states, load balancing association/disassociation, and the Enabled state.",
+          "The legend (Available to users, Unavailable to users, Status out of the AS group) is consistent with Image 1 and provides clear visual context.",
+          "No contradictions between the RST description and the visual content of the diagram."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/as_management/scaling_action/viewing_a_scaling_action.rst",
+    "title": "Viewing a Scaling Action",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0164543452.jpg",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0164543452.jpg",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0164543452.jpg",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/as_management/scaling_action/viewing_a_scaling_action.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0164543452.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small downward-pointing chevron, an isolated UI symbol (icon), not a full screenshot.",
+          "The RST references |image1| as the control to click before the scaling action ID to expand and view resource name, status, and failure cause, which matches a downward expand chevron.",
+          "The icon is semantically consistent with the 'Viewing Historical Scaling Actions' section and the topic of viewing scaling action details.",
+          "No contradiction between the icon and the surrounding RST description."
+        ],
+        "missing_evidence": [
+          "No surrounding interface (table, scaling action ID, or list) is visible in the image.",
+          "No text, labels, or state indicators are present in the icon itself."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/best_practices/setting_up_an_automatically_scalable_discuz_forum.rst",
+    "title": "Setting Up an Automatically Scalable Discuz! Forum",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0077278626.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0077278626.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0077278626.png",
+        "kind": "substitution_image",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/best_practices/setting_up_an_automatically_scalable_discuz_forum.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0077278626.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is an architecture diagram showing ELB, multiple ECS instances, a Database, and an AS (Auto Scaling) component, matching the services described in the document (AS, ECS, ELB, VPC).",
+          "The diagram illustrates the overall topology: ELB distributing traffic to ECS instances, a shared database, and AS managing the instance group, consistent with the Overview and Procedure sections.",
+          "The image is placed in the Overview section and serves as a high-level illustration of the scalable Discuz! forum architecture.",
+          "Labeled boxes and connecting arrows provide clear visual evidence of the relationships between components.",
+          "No element in the diagram contradicts the text; the components and their roles align with the described setup."
+        ],
+        "missing_evidence": [
+          "The diagram does not explicitly label the VPC or subnet, which are mentioned in the prerequisites.",
+          "The diagram does not distinguish the MySQL database ECS from the Discuz! forum ECS instances."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/general/what_is_an_as_quota.rst",
+    "title": "What Is an AS Quota?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0275513364.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0275513364.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0275513364.png",
+        "kind": "substitution_image",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0152727234.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0152727234.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0152727234.png",
+        "kind": "substitution_image",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/general/what_is_an_as_quota.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0275513364.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, which is a standard UI symbol for region/location selection.",
+          "The RST states 'Click |image1| in the upper left corner and select the desired region and project,' which aligns perfectly with a location pin icon.",
+          "The icon is used in the 'How Do I View My Quotas?' section as part of console navigation steps.",
+          "The visual clearly shows a teardrop-shaped map marker with a center dot, consistent with a region selector icon."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is visible to confirm it is specifically in the upper left corner of a management console."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/general/what_is_an_as_quota.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0152727234.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a bar chart icon (three vertical bars of decreasing height), which is a common representation for metrics, analytics, or resource usage pages.",
+          "The RST states 'In the upper right corner of the page, click |image2|' and that the 'Service Quota' page is displayed. A bar chart icon is a reasonable but somewhat generic representation for a quota/metrics page.",
+          "The icon is used in the 'How Do I View My Quotas?' section as the navigation step to reach the quota page.",
+          "The visual clearly shows three colored vertical bars in a descending pattern, consistent with a chart/metrics icon."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is visible to confirm it is specifically in the upper right corner of a management console.",
+          "The icon is generic (bar chart) and could represent many different pages, not specifically a 'Service Quota' page."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/quick_start/creating_an_as_group_quickly.rst",
+    "title": "Creating an AS Group Quickly",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0071365800.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0071365800.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0071365800.png",
+        "kind": "substitution_image",
+        "line": 166,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/quick_start/creating_an_as_group_quickly.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0071365800.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, consistent with an isolated UI icon.",
+          "In the RST, |image1| is referenced in Procedure step 2 as the control clicked in the upper-left corner to select a region and project, which matches a location/region selector icon.",
+          "The icon is used within the Procedure section of the 'Creating an AS Group Quickly' guide, so it is topically and sectionally relevant.",
+          "The visual content (a location pin) directly supports the described action of selecting a region/project.",
+          "No contradiction between the image and the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The image does not show surrounding UI context (e.g., the upper-left corner of the console), so placement cannot be visually confirmed.",
+          "No label or text accompanies the icon in the image itself."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/quick_start/wizard-based_process_of_using_as.rst",
+    "title": "Wizard-based Process of Using AS",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0134348019.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0134348019.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0134348019.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/quick_start/wizard-based_process_of_using_as.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0134348019.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flowchart diagram illustrating the wizard-based process of using AS, matching the figure caption in the RST.",
+          "It splits the process into 'A user manually' and 'AS automatically' steps, consistent with the section topic.",
+          "The diagram is the figure referenced by the RST (Figure 1) in this section.",
+          "Text in the boxes is legible and provides clear visual evidence of the process steps."
+        ],
+        "missing_evidence": [
+          "No interactive UI elements are present, as expected for a process diagram."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/as_advantages.rst",
+    "title": "AS Advantages",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0192950213.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0192950213.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0192950213.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0192950214.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0192950214.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0192950214.png",
+        "kind": "figure",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0192950215.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0192950215.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0192950215.png",
+        "kind": "figure",
+        "line": 53,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0200324625.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0200324625.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0200324625.png",
+        "kind": "figure",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0200324482.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0200324482.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0200324482.png",
+        "kind": "figure",
+        "line": 107,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/as_advantages.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0200324625.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/service_overview/as_advantages.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0200324482.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/service_overview/as_advantages.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0192950213.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a line chart showing required capacity across Q1-Q4 with a full-rectangle 'Available capacity' area covering all data points",
+          "Matches Figure 1 caption 'Over-provisioned capacity' in the RST",
+          "The full shaded area represents providing enough servers to always meet demand, consistent with the text description",
+          "Clearly illustrates the first option (over-provisioning) discussed in the train ticket booking example"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/as_advantages.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0192950214.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a line chart showing required capacity across Q1-Q4 with a flat medium-level 'Available capacity' rectangle",
+          "Matches Figure 2 caption 'Insufficient capacity' in the RST",
+          "The flat capacity level does not reach the Q1 and Q4 peaks, illustrating that average-load provisioning cannot meet peak demand",
+          "Clearly illustrates the second option (insufficient capacity) discussed in the train ticket booking example"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/as_advantages.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0192950215.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a line chart showing required capacity across Q1-Q4 with a 'Available capacity' area that dynamically tracks the demand line",
+          "Matches Figure 3 caption 'Auto-scaled capacity' in the RST",
+          "The capacity area follows the V-shape of the demand curve, illustrating AS scaling resources to match changing demand",
+          "Clearly illustrates the third option (AS auto-scaling) that maintains steady performance without waste"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/as_and_other_services.rst",
+    "title": "AS and Other Services",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0282034671.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0282034671.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0282034671.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/as_and_other_services.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0282034671.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/instance_lifecycle.rst",
+    "title": "Instance Lifecycle",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0200326047.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0200326047.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0200326047.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002041487301.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000002041487301.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000002041487301.png",
+        "kind": "figure",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/instance_lifecycle.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0200326047.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a flowchart (Figure 1) showing the instance lifecycle without lifecycle hooks, matching the document topic.",
+          "Statuses Initial, Adding, Enabled, Removing, Removed and actions (Add the instance, Associate/Disassociate with load balancing listener, Remove the instance) match Table 1.",
+          "Trigger condition numbers 1-4 on the arrows correspond to the conditions described in the RST.",
+          "Legend (Available to users, Unavailable to users, Status out of the AS group) is clearly visible and consistent with the diagram.",
+          "No contradiction between the figure and the surrounding text."
+        ],
+        "missing_evidence": [
+          "No missing or unclear information relevant to the document."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/service_overview/instance_lifecycle.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0000002041487301.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a flowchart (Figure 2) showing the instance lifecycle with lifecycle hooks, matching the document topic.",
+          "Statuses Initial, Adding to AS group, Wait (Adding to AS group), Enabled, Removing from AS group, Wait (Removing from AS group), Removed match Table 2.",
+          "Trigger condition numbers 1-8 on the arrows correspond to the conditions described in the RST, including the automatic transitions at 2, 4, 6, 8.",
+          "Legend (Available to users, Unavailable to users, Status out of the AS group) is clearly visible and consistent.",
+          "No contradiction between the figure and the surrounding text."
+        ],
+        "missing_evidence": [
+          "No missing or unclear information relevant to the document."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_auto_scaling.rst",
+    "title": "What Is Auto Scaling?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0284722761.png",
+        "original_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0284722761.png",
+        "used_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0284722761.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/what_is_auto_scaling.rst",
+        "image_path": "/home/ubuntu/repotesting/auto-scaling/umn/source/_static/images/en-us_image_0284722761.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  }
+]

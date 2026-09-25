@@ -1,0 +1,2673 @@
+[
+  {
+    "file_path": "api-ref/source/public_parameters/obtaining_a_project_id.rst",
+    "title": "Obtaining a Project ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001508295281.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001508295281.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001508295281.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/faqs/message_sending/what_can_i_do_when_pictures_in_an_email_message_cannot_be_displayed.rst",
+    "title": "What Can I Do When Pictures in an Email Message Cannot Be Displayed?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001509822909.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001509822909.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001509822909.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001507929213.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001507929213.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001507929213.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/message_sending/what_can_i_do_when_pictures_in_an_email_message_cannot_be_displayed.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001509822909.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Outlook Trust Center dialog on the Automatic Download tab, matching the RST steps about enabling automatic picture download.",
+          "The 'Don't download pictures automatically in standard HTML email messages or RSS items' checkbox is visible and checked, consistent with the state before deselecting it.",
+          "OK and Cancel buttons are present, matching the dialog described in the procedure."
+        ],
+        "missing_evidence": [
+          "No red highlight is present, so it does not itself indicate the deselection action described in step 4."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/message_sending/what_can_i_do_when_pictures_in_an_email_message_cannot_be_displayed.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001507929213.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the same Trust Center Automatic Download tab with the 'Don't download pictures automatically...' checkbox deselected and highlighted, exactly matching step 4.",
+          "The OK button is highlighted, matching the instruction to click OK after deselecting the checkbox.",
+          "Directly illustrates the action of enabling automatic picture download described in the RST."
+        ],
+        "missing_evidence": [
+          "None significant; the image clearly depicts the described action."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started.rst",
+    "title": "Getting Started",
+    "image_count": 15,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001976318720.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001976318720.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001976318720.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002624942854.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624942854.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624942854.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002655065061.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655065061.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655065061.png",
+        "kind": "figure",
+        "line": 107,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002624784058.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624784058.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624784058.png",
+        "kind": "figure",
+        "line": 234,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002624799164.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799164.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799164.png",
+        "kind": "figure",
+        "line": 324,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002624799530.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799530.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799530.png",
+        "kind": "figure",
+        "line": 334,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002655079145.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655079145.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655079145.png",
+        "kind": "figure",
+        "line": 346,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0114842271.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0114842271.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0114842271.png",
+        "kind": "figure",
+        "line": 395,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 414,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002659158837.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659158837.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659158837.png",
+        "kind": "substitution_image",
+        "line": 415,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 416,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002659278785.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659278785.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659278785.png",
+        "kind": "substitution_image",
+        "line": 417,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 418,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002628919572.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002628919572.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002628919572.png",
+        "kind": "substitution_image",
+        "line": 419,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 420,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 11
+    },
+    "summary": {
+      "pass": 7,
+      "partial": 4,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001976318720.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624942854.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the 'Create Topic' form (Figure 2) referenced in Step 1.",
+          "Shows Topic Name, Display Name, Enterprise Project, and Tag fields matching Table 1.",
+          "Helper text for display name and tag limits aligns with the RST descriptions."
+        ],
+        "missing_evidence": [
+          "No OK button visible in the cropped view, though the form context implies it."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655065061.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the 'Add Subscription' dialog (Figure 3) referenced in Step 2.",
+          "Displays Topic Name, Protocol (SMS), Endpoint, Description, and Filter Policy matching Table 2.",
+          "Includes Cancel and OK buttons consistent with the step instructions."
+        ],
+        "missing_evidence": [
+          "Request Header and Version fields not shown (protocol-dependent, SMS selected)."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624784058.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the 'Create Message Template' dialog (Figure 4) referenced in Step 3.",
+          "Shows Template Name, Protocol (Default), and Content fields matching Table 3.",
+          "Placeholder guidance text matches the RST description of {xxx} variables."
+        ],
+        "missing_evidence": [
+          "No example template name filled in, but the form structure is complete."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799164.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the 'Generate Template Message' dialog (Figure 5) referenced in Step 4.",
+          "Shows template tem_001 with startdate (February 10) and enddate (February 21) variables, Default protocol.",
+          "Matches the RST example of replacing variables in tem_001."
+        ],
+        "missing_evidence": [
+          "Preview tab not active in this view (Variables tab shown)."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799530.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the 'Preview' tab of Generate Template Message (Figure 6) referenced in Step 4.",
+          "Displays the generated message text matching the RST example exactly.",
+          "Shows protocol radio options and Message Preview button."
+        ],
+        "missing_evidence": [
+          "None significant; preview content matches the documented example."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655079145.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the 'Publish Message' dialog (Figure 7) referenced in Step 4.",
+          "Shows Message Format set to Template and JSON message with tem_001, startdate, enddate.",
+          "Includes Message Attributes section matching Table 4."
+        ],
+        "missing_evidence": [
+          "Topic Name value is redacted/blurred in the image."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0114842271.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the email message example (Figure 8) referenced in Step 5.",
+          "Contains the exposition message text and an unsubscribe link, matching the RST email description.",
+          "Demonstrates the email protocol subscription endpoint content."
+        ],
+        "missing_evidence": [
+          "No email subject line or sender header visible, only the body content."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location/map-pin icon used as |image1|/|image3|/|image5|/|image7| for region and project selection.",
+          "Relevant to the 'select the desired region and project' step in each procedure.",
+          "Isolated symbolic graphic, not a full UI screenshot."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context shown; only the icon symbol is visible."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659158837.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a save (floppy disk) icon used as |image2| for 'Save as Quick Filter Set'.",
+          "Relevant to the search/filter step in Step 1.",
+          "Isolated symbolic graphic."
+        ],
+        "missing_evidence": [
+          "No surrounding search box context shown; only the icon is visible."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659278785.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a save (floppy disk) icon used as |image4| for 'Save as Quick Filter Set'.",
+          "Relevant to the search/filter step in Step 2.",
+          "Isolated symbolic graphic."
+        ],
+        "missing_evidence": [
+          "No surrounding search box context shown; only the icon is visible."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/getting_started.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002628919572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a save (floppy disk) icon used as |image6| for 'Save as Quick Filter Set'.",
+          "Relevant to the search/filter step in Step 3.",
+          "Isolated symbolic graphic."
+        ],
+        "missing_evidence": [
+          "No surrounding search box context shown; only the icon is visible."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/message_template_management/creating_a_message_template.rst",
+    "title": "Creating a Message Template",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002624784058.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624784058.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624784058.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002628919572.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002628919572.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002628919572.png",
+        "kind": "substitution_image",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/message_template_management/creating_a_message_template.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624784058.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the 'Create Message Template' dialog box, which is exactly what Figure 1 in the RST describes.",
+          "All three fields (Template Name, Protocol, Content) are visible and match the parameter table in the RST.",
+          "The help text about {xxx} placeholders, 21-character limit, and allowed characters matches the Content parameter description.",
+          "The Protocol dropdown shows 'Default' as the default value, consistent with the RST stating the default protocol is Default.",
+          "Cancel and OK buttons are present, matching step 7 (Click OK) in the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/message_template_management/creating_a_message_template.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin / map marker icon, which is the standard icon for region/project selection in Huawei Cloud management consoles.",
+          "The RST references this as |image1| in step 2: 'click |image1| and select the desired region and project.'",
+          "The icon is small and symbolic, consistent with an inline UI icon rather than a full screenshot.",
+          "No contradiction between the icon's purpose (region/project selector) and its usage in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/message_template_management/creating_a_message_template.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002628919572.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small save (floppy disk) icon, which is the standard icon for saving filter sets in Huawei Cloud consoles.",
+          "The RST references this as |image2| in the final paragraph: 'click |image2| in the search box. The Save as Quick Filter Set dialog box is displayed.'",
+          "The icon's save semantics align perfectly with the action of saving current filter criteria as a quick filter set.",
+          "No contradiction between the icon and its described function in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/message_template_management/deleting_a_message_template.rst",
+    "title": "Deleting a Message Template",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002624786890.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624786890.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624786890.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/message_template_management/deleting_a_message_template.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624786890.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Delete Message Template' confirmation dialog exactly as described in the RST procedure",
+          "Table displays template Name, ID, Protocol, and Last Modified columns matching the expected template information",
+          "Input field shows 'DELETE' typed in, matching step 6 of the procedure",
+          "'Auto Enter' link is visible next to the confirmation text as described in the RST",
+          "Cancel and OK buttons are present at the bottom, matching step 7 (click OK)"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/message_template_management/deleting_a_message_template.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin/marker icon used for region and project selection",
+          "Matches the RST reference in step 2 where the user clicks this icon in the upper left corner",
+          "The icon is a generic navigation element, not specific to message template deletion",
+          "Serves as a UI symbol for selecting region/project context before navigating to SMN"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern",
+          "No surrounding UI context is visible to confirm its exact placement in the upper left corner"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/message_template_management/modifying_a_message_template.rst",
+    "title": "Modifying a Message Template",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/message_template_management/modifying_a_message_template.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, consistent with a region/project selector icon.",
+          "In the RST, |image1| is used in step 2 to indicate clicking the region/project selector in the upper-left corner, which semantically matches a location pin.",
+          "The icon is a generic UI symbol rather than a screenshot of the message template page, so it only partially matches the document's main topic.",
+          "No visible interactive controls, labels, or text are present in the image itself."
+        ],
+        "missing_evidence": [
+          "The image does not show the actual region/project dropdown or any console interface, so the surrounding UI context is not visible.",
+          "No text or label accompanies the icon to confirm it is the region/project selector."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/overview/region_and_az.rst",
+    "title": "Region and AZ",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0184026531.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0184026531.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0184026531.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/overview/region_and_az.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0184026531.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/permissions_management/creating_a_user_and_granting_smn_permissions.rst",
+    "title": "Creating a User and Granting SMN Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001569113488.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001569113488.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001569113488.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/permissions_management/creating_a_user_and_granting_smn_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001569113488.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/subscription_management/adding_a_subscription.rst",
+    "title": "Adding a Subscription",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002655065061.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655065061.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655065061.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 144,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002659278785.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659278785.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659278785.png",
+        "kind": "substitution_image",
+        "line": 145,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/subscription_management/adding_a_subscription.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655065061.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the 'Add Subscription' dialog box explicitly referenced as Figure 1 in the RST.",
+          "Shows all fields described in the RST table: Topic Name, Protocol (SMS), Endpoint, Description, and Filter Policy toggle.",
+          "Includes 'Select Topic' link, '+Add Endpoint' and 'Batch Add Endpoints' links matching the procedure steps.",
+          "Cancel and OK buttons at the bottom match the final step of the procedure.",
+          "No contradictions between the image content and the RST description."
+        ],
+        "missing_evidence": [
+          "The Request Header and Version fields (conditional on protocol) are not visible since SMS is selected, which is consistent with the RST."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/subscription_management/adding_a_subscription.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Referenced as |image1| in step 2: 'click |image1| and select the desired region and project.'",
+          "The icon is a location pin/marker, which is semantically appropriate for a region/project selector.",
+          "Directly relevant to the login and navigation procedure described in the RST.",
+          "No contradictions with the RST text."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern.",
+          "No surrounding UI context is visible to confirm its exact placement in the console."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/subscription_management/adding_a_subscription.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659278785.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Referenced as |image2| in the RST: 'click |image2| in the search box. The Save as Quick Filter Set dialog box is displayed.'",
+          "The icon appears to be a save/floppy-disk symbol, which is semantically consistent with saving a quick filter set.",
+          "Directly relevant to the subscription search and filter functionality described in the RST.",
+          "No contradictions with the RST text."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm the exact symbol.",
+          "No surrounding UI context is visible to confirm its placement in the search box."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/subscription_management/deleting_a_subscription.rst",
+    "title": "Deleting a Subscription",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 63,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 64,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/subscription_management/deleting_a_subscription.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker icon, matching the RST reference used for selecting region and project.",
+          "In the RST, |image1| and |image2| appear in the step 'click ... and select the desired region and project', which is exactly what a location-pin icon represents.",
+          "The icon is used in both the 'Topic Details Page' and 'Subscription Page' sections, so it is relevant to both procedures.",
+          "No interactive controls or buttons are visible; it is an isolated symbolic graphic, so it is classified as an icon."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI, so the exact placement in the upper-left corner cannot be visually confirmed.",
+          "No label or tooltip is visible on the icon to confirm it is the region/project selector."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/subscription_management/editing_a_subscription.rst",
+    "title": "Editing a Subscription",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002659277183.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659277183.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659277183.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002624951094.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624951094.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624951094.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002624951094.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624951094.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624951094.png",
+        "kind": "figure",
+        "line": 64,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/subscription_management/editing_a_subscription.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659277183.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Topic Details page with Subscriptions tab active, matching Figure 1 caption in RST",
+          "Table displays Subscription URN, Protocol, Endpoint, Status, Description, and Operation columns as described",
+          "Operation column contains Edit and Delete links matching the RST instruction to click Edit",
+          "Subscriptions and Tags tabs are visible as described in step 6"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/subscription_management/editing_a_subscription.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624951094.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows an Edit dialog with Basic Information (Topic Name, Protocol, Endpoint, Description) and Filter Policy sections",
+          "Filter Policy has a toggle and JSON text area matching the RST description of editing filter policy",
+          "OK and Cancel buttons at the bottom match step 8 instruction to click OK",
+          "Dialog matches both Figure 2 and Figure 3 captions in the RST"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/subscription_management/editing_a_subscription.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small gray location pin icon used as the region/project selector reference",
+          "RST states 'click [image] and select the desired region and project' which matches a location/region icon",
+          "Icon is generic and not specific to the subscription editing topic",
+          "Used identically in both editing sections as |image1| and |image2|"
+        ],
+        "missing_evidence": [
+          "Icon is very small and low-resolution, making it hard to confirm exact visual details",
+          "No surrounding UI context visible to confirm it is the region selector"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/subscription_management/exporting_subscriptions.rst",
+    "title": "Exporting Subscriptions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/subscription_management/exporting_subscriptions.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is used in step 2: 'click |image1| and select the desired region and project', which matches a region/project selector location icon.",
+          "The icon appears in the Procedure section and is directly referenced by the substitution, so it is section-relevant.",
+          "The visual content (a teardrop location marker with a center dot) is consistent with a region selector control in a cloud management console.",
+          "No contradiction between the image and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is an isolated icon without surrounding UI context, so the exact label or menu it opens is not visible.",
+          "The icon does not itself depict subscription export functionality; its relevance is only via the step-2 reference."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/subscription_management/requesting_subscription_confirmation.rst",
+    "title": "Requesting Subscription Confirmation",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/subscription_management/requesting_subscription_confirmation.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location/map-pin pictogram, matching the |image1| reference in step 2 of the Procedure.",
+          "Step 2 instructs to click the icon in the upper left corner to select the desired region and project, which is exactly what a location pin selector represents.",
+          "The icon is used within the Procedure section and is semantically consistent with the surrounding instructions.",
+          "No contradiction between the image content and the RST text."
+        ],
+        "missing_evidence": [
+          "The image is an isolated symbol without surrounding UI context, so the exact console layout it belongs to is not visible.",
+          "No label or text accompanies the icon in the image itself."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/topic_management/adding_a_subscription_to_a_topic.rst",
+    "title": "Adding a Subscription to a Topic",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002624956146.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624956146.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624956146.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 141,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/topic_management/adding_a_subscription_to_a_topic.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624956146.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Add Subscription' dialog box exactly as described in step 6 of the RST procedure",
+          "Protocol dropdown shows 'SMS' matching the protocol options listed in Table 1",
+          "Endpoint and Description fields are visible, matching the parameter table",
+          "Filter Policy toggle is present, corresponding to the optional filter policy step",
+          "Topic Name field is visible (blurred for privacy), matching the table parameter",
+          "Cancel and OK buttons at the bottom match the final step of clicking OK"
+        ],
+        "missing_evidence": [
+          "Request Header and Version fields are not visible (likely hidden because SMS protocol is selected, which is consistent with the RST stating they are only available for HTTP/HTTPS or FunctionGraph)"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/adding_a_subscription_to_a_topic.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin/marker icon, consistent with a region/project selector",
+          "Referenced in step 2 as the element to click for selecting region and project",
+          "The icon is a standard location pin symbol used in cloud management consoles for region selection",
+          "It is a small symbolic graphic (icon) rather than a full screenshot"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to discern fine details",
+          "No surrounding UI context is visible to confirm its exact placement in the console"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/topic_management/adding_modifying_or_deleting_a_topic_tag.rst",
+    "title": "Adding, Modifying, or Deleting a Topic Tag",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002655153713.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655153713.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655153713.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002655153933.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655153933.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655153933.png",
+        "kind": "figure",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002655154231.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655154231.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655154231.png",
+        "kind": "figure",
+        "line": 109,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 114,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 115,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 116,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/topic_management/adding_modifying_or_deleting_a_topic_tag.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655153713.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Add Tag' dialog with tag key and value input fields, matching Figure 1 in the RST",
+          "The 'Tags you can still add: 20' text aligns with the note about adding up to 20 tags",
+          "Dialog includes Cancel and OK buttons as described in the procedure",
+          "The layout and fields match the described step of specifying tag keys and values"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/adding_modifying_or_deleting_a_topic_tag.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655153933.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Edit Tag' dialog with an existing tag (key1) displayed, matching Figure 2 in the RST",
+          "The dialog allows modifying tag values as described in the 'Modifying a Topic Tag' section",
+          "Shows 'Tags you can still add: 0' indicating the tag limit is reached",
+          "Includes Cancel and OK buttons consistent with the procedure"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/adding_modifying_or_deleting_a_topic_tag.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655154231.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Delete Tag' confirmation dialog matching Figure 3 in the RST",
+          "Displays 'Are you sure you want to delete this tag?' and 'Deleted tags cannot be recovered' as a confirmation",
+          "Shows a table with Key and Value columns for the tag being deleted",
+          "Includes Cancel and OK buttons matching the described confirmation dialog box"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/adding_modifying_or_deleting_a_topic_tag.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin / map marker icon used as the region/project selector",
+          "Referenced in the RST as |image1|, |image2|, |image3| for selecting region and project",
+          "It is a generic UI symbol, not specific to topic tag management",
+          "The icon is clearly a location/region selector pictogram"
+        ],
+        "missing_evidence": [
+          "The icon is generic and does not show any topic-tag-specific content",
+          "No text or labels visible in the icon itself"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/topic_management/configuring_a_topic_policy.rst",
+    "title": "Configuring a Topic Policy",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/topic_management/configuring_a_topic_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is referenced in step 2: 'click |image1| and select the desired region and project', which matches a region/location selector icon.",
+          "The location-pin shape is the conventional symbol for selecting a region or project in a cloud management console, consistent with the surrounding procedure.",
+          "The icon is part of the 'Configuring a Topic Policy' procedure but is a generic navigation control rather than a topic-policy-specific element.",
+          "No visible interactive controls (button borders, clickable widgets) appear within the image itself, only the symbol."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI, so the exact placement in the upper-left corner cannot be visually confirmed.",
+          "No label or tooltip is visible in the image to confirm it is the region/project selector."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/topic_management/creating_a_topic.rst",
+    "title": "Creating a Topic",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002624942854.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624942854.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624942854.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002659158837.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659158837.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659158837.png",
+        "kind": "substitution_image",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/topic_management/creating_a_topic.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624942854.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Create Topic form with Topic Name, Display Name, Enterprise Project, and Tag fields, matching Figure 1 in the RST.",
+          "All parameters described in Table 1 (Topic Name, Display Name, Enterprise Project, Tag) are visible in the form.",
+          "The form descriptions align with the RST text (e.g., topic name cannot be modified, display name format, EPS description, tag limits of 20).",
+          "Directly corresponds to step 5/6 of the procedure for creating a topic."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/creating_a_topic.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin icon, referenced as |image1| in step 2 for selecting region and project.",
+          "A location pin is semantically appropriate for a region/project selector in a cloud console.",
+          "The icon is small and symbolic, consistent with its use as a clickable region selector in the upper left corner.",
+          "No contradiction with the RST description of clicking the icon to select region and project."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it hard to confirm exact visual details.",
+          "No surrounding UI context is visible to confirm it is in the upper left corner of a page."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/topic_management/creating_a_topic.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659158837.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small save (floppy disk) icon, referenced as |image2| in step 7 for saving filter criteria as a quick filter set.",
+          "A save icon is semantically appropriate for the 'Save as Quick Filter Set' action described in the RST.",
+          "The icon is small and symbolic, consistent with a button in a search box.",
+          "No contradiction with the RST description of clicking the icon to save filter criteria."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact visual details.",
+          "No surrounding UI context is visible to confirm it is in a search box."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/topic_management/deleting_a_topic.rst",
+    "title": "Deleting a Topic",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002659278783.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659278783.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659278783.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/topic_management/deleting_a_topic.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002659278783.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Delete Topic' dialog box exactly as described in steps 6-7 of the RST",
+          "Displays topic name, URN, and subscriber list matching the deletion confirmation flow",
+          "Shows the 'DELETE' text input field and 'Auto Enter' link as described in step 7",
+          "Contains Cancel and OK buttons matching step 8 of the procedure",
+          "Figure caption in RST ('Deleting a topic') aligns with the dialog content"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/deleting_a_topic.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small location pin icon used as the region/project selector in step 2",
+          "RST references it as |image1| for clicking to select region and project",
+          "Icon is consistent with a geographic/region selection control",
+          "Not directly related to the core 'deleting a topic' action but part of the navigation procedure"
+        ],
+        "missing_evidence": [
+          "Icon is very small and low-resolution, making fine details hard to discern",
+          "No surrounding UI context visible to confirm exact placement in the console"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/topic_management/exporting_topics.rst",
+    "title": "Exporting Topics",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/topic_management/exporting_topics.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 1,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, an isolated UI icon rather than a full screenshot.",
+          "In the RST, |image1| is used in step 2: 'click |image1| and select the desired region and project', which matches a region/project selector pin icon.",
+          "The icon is a generic navigation control, not specific to the 'Exporting Topics' subject, so topic match is low.",
+          "No visible interactive button styling; it is a static symbolic graphic."
+        ],
+        "missing_evidence": [
+          "No surrounding console UI is shown, so the icon's exact placement in the upper-left corner cannot be visually confirmed.",
+          "No label or tooltip is visible to confirm it is the region/project selector."
+        ],
+        "overall_score": 0.73,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/topic_management/modifying_the_display_name_of_a_topic.rst",
+    "title": "Modifying the Display Name of a Topic",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001566365670.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001566365670.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001566365670.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/topic_management/modifying_the_display_name_of_a_topic.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin icon, consistent with its use in step 2 for selecting region and project.",
+          "It is a generic UI symbol for region/project selection, not specific to the display-name modification task.",
+          "The icon is clearly rendered and identifiable as a map-pin/region selector.",
+          "No contradiction between the icon and the RST description of clicking it to select region and project."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution; surrounding UI context (e.g., the management console header) is not visible."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/topic_management/modifying_the_display_name_of_a_topic.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000001566365670.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a pencil/edit icon, directly representing the action of modifying a display name in step 5.",
+          "It aligns precisely with the RST instruction: 'click |image2| and enter a new display name' in the Topic Details area.",
+          "It appears in the core procedural step that is the subject of the document (modifying the display name).",
+          "The icon is clearly rendered and identifiable as a standard edit/pencil symbol.",
+          "No contradiction between the icon and the RST description."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution; surrounding UI context (e.g., the Topic Details panel) is not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/topic_management/publishing_a_message/publishing_a_json_message.rst",
+    "title": "Publishing a JSON Message",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002624796744.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624796744.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624796744.png",
+        "kind": "figure",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002624797784.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624797784.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624797784.png",
+        "kind": "figure",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 121,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/topic_management/publishing_a_message/publishing_a_json_message.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624796744.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Generate JSON Message' dialog as referenced in Figure 1 of the RST",
+          "Displays a Message text field and protocol checkboxes (SMS, Email, HTTP, HTTPS, FunctionGraph) matching the RST description in step 8",
+          "The dialog title and layout align with the procedure for generating a JSON message automatically",
+          "Cancel and OK buttons are visible at the bottom of the dialog"
+        ],
+        "missing_evidence": [
+          "The RST mentions byte count calculation as you type, but the message field is empty in the screenshot so no byte counter is visible"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/publishing_a_message/publishing_a_json_message.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624797784.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the complete 'Publish Message' form as referenced in Figure 2 of the RST",
+          "Displays all parameters from Table 1: Subject, Message Format (JSON selected), and Message with JSON content",
+          "Shows the Message Attributes section matching Table 2 with Type, Name, and Value fields",
+          "The JSON content in the message box shows default and protocol-specific messages (sms, email, http, https, functionstage) as described in the RST",
+          "Byte counter shows '255 bytes' and 'additional 262144 bytes can be entered' matching the 256 KB limit mentioned in the RST"
+        ],
+        "missing_evidence": [
+          "The warning banner about test purposes is visible but not explicitly mentioned in the RST text"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/publishing_a_message/publishing_a_json_message.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 1,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin/map marker icon used as a navigation element",
+          "Referenced in the RST as |image1| in step 2 for selecting region and project",
+          "The icon is a generic navigation symbol, not specific to JSON message publishing",
+          "It serves as a clickable region selector in the management console header"
+        ],
+        "missing_evidence": [
+          "The icon alone does not show the region/project selection dropdown that would appear after clicking it",
+          "No text or label is visible on the icon to confirm its exact function beyond being a location marker"
+        ],
+        "overall_score": 0.67,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/topic_management/publishing_a_message/publishing_a_template_message.rst",
+    "title": "Publishing a Template Message",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002624798318.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624798318.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624798318.png",
+        "kind": "figure",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002624799164.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799164.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799164.png",
+        "kind": "figure",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002624799530.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799530.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799530.png",
+        "kind": "figure",
+        "line": 102,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002655079145.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655079145.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655079145.png",
+        "kind": "figure",
+        "line": 114,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 151,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 152,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/topic_management/publishing_a_message/publishing_a_template_message.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624798318.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Create Message Template' dialog matching Figure 1 in the RST",
+          "Template Name is 'tem_001' as specified in the document",
+          "Protocol is set to 'Default' as required",
+          "Content matches the Arts and Crafts Exposition text with {startdate} and {enddate} variables",
+          "Help text about variables quoted by brackets is visible"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/publishing_a_message/publishing_a_template_message.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799164.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Generate Template Message' dialog matching Figure 2 in the RST",
+          "Template Name 'tem_001' is selected in the dropdown",
+          "Variables tab is active showing startdate (February 10) and enddate (February 21)",
+          "Protocol column shows 'Default' for both variables as described",
+          "Matches step 8 of the Publishing a Template Message section"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/publishing_a_message/publishing_a_template_message.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002624799530.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Preview tab of the Generate Template Message dialog matching Figure 3",
+          "The generated message text matches exactly: 'The Arts and Crafts Exposition will be held from February 10 through February 21. We sincerely invite you to join us.'",
+          "Protocol options (SMS, Email, HTTP, HTTPS, FunctionGraph) are visible as described in the RST",
+          "Message Preview and Template Content buttons are visible",
+          "Matches step 9 of the Publishing section"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/publishing_a_message/publishing_a_template_message.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655079145.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Publish Message' dialog matching Figure 4 in the RST",
+          "Message Format is set to 'Template' as described",
+          "Message field contains JSON with message_template_name 'tem_001' and tags for startdate/enddate",
+          "Message Attributes section is visible with Type, Name, Value fields",
+          "Warning about test purposes is displayed at the top",
+          "Matches step 10 of the Publishing section"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/publishing_a_message/publishing_a_template_message.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin icon used as the region/project selector",
+          "Referenced as |image1| and |image2| in the RST for selecting region and project",
+          "It is a generic UI icon, not specific to the template message topic",
+          "Used in both Creating and Publishing sections for navigation",
+          "The icon is a standard location/region selector pictogram"
+        ],
+        "missing_evidence": [
+          "No specific text or context visible in the icon itself",
+          "Cannot verify the exact UI context where this icon appears from the isolated image"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/topic_management/publishing_a_message/publishing_a_text_message.rst",
+    "title": "Publishing a Text Message",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002655155639.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655155639.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655155639.png",
+        "kind": "figure",
+        "line": 93,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0151546390.png",
+        "original_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "used_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "kind": "substitution_image",
+        "line": 102,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/topic_management/publishing_a_message/publishing_a_text_message.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0000002655155639.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is explicitly referenced in the RST as 'Figure 1 Text message example'",
+          "Shows the Publish Message dialog with all parameters from Table 1 (Subject, Message Format with Text/JSON/Template, Message) and Table 2 (Type, Name, Value)",
+          "Message Format is set to 'Text' matching the document title 'Publishing a Text Message'",
+          "Message Attributes section with Type/Name/Value fields matches Table 2 description",
+          "OK and Cancel buttons visible at the bottom matching step 7 'Click OK'"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/topic_management/publishing_a_message/publishing_a_text_message.rst",
+        "image_path": "/home/ubuntu/repotesting/simple-message-notification/umn/source/_static/images/en-us_image_0151546390.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is referenced in the RST as |image1| in step 2: 'click |image1| and select the desired region and project'",
+          "Shows a location pin/marker icon which is the standard region/project selector in Huawei Cloud management console",
+          "Small symbolic graphic consistent with an icon used in the upper left corner of the page"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

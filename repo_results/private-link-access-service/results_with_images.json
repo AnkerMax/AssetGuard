@@ -1,0 +1,920 @@
+[
+  {
+    "file_path": "umn/source/change_history.rst",
+    "title": "Change History",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0249207685.jpg",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207685.jpg",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207685.jpg",
+        "kind": "substitution_image",
+        "line": 469,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0249207700.jpg",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207700.jpg",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207700.jpg",
+        "kind": "substitution_image",
+        "line": 470,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/change_history.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207685.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 1,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a very small, blurry icon referenced in the RST as |image1| for setting Bandwidth in the PLAS (VPN) Connector creation section.",
+          "The RST context states 'Add or click |image1| or |image2| to set Bandwidth', indicating this is a small UI control icon (likely a minus/dash button).",
+          "The image is too small and blurry to clearly identify the exact symbol, but it appears to be a small dark mark consistent with a minus or dash icon.",
+          "It is an isolated symbolic graphic, not a full UI screenshot."
+        ],
+        "missing_evidence": [
+          "The image is extremely small and blurry, making it difficult to confirm the exact symbol depicted.",
+          "No surrounding UI context is visible to confirm it is a bandwidth adjustment control."
+        ],
+        "overall_score": 0.6,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/change_history.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207700.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small icon showing a plus/cross symbol, referenced in the RST as |image2| for setting Bandwidth in the PLAS (VPN) Connector creation section.",
+          "The RST context states 'Add or click |image1| or |image2| to set Bandwidth', and the plus symbol is consistent with an 'add/increase' control for bandwidth.",
+          "It is an isolated symbolic graphic (a plus/cross icon), not a full UI screenshot.",
+          "The plus shape is reasonably visible and semantically consistent with the 'Add' action described in the RST."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is visible to confirm it is specifically a bandwidth adjustment control.",
+          "The image is small, limiting the amount of visual detail available for verification."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/manual_provisioning/obtaining_region.rst",
+    "title": "Obtaining Region",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0249207710.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207710.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207710.png",
+        "kind": "substitution_image",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/manual_provisioning/obtaining_region.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207710.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin pictogram, matching the RST's reference to the icon next to which region information is shown.",
+          "A location/region pin is semantically consistent with the 'Obtaining Region' topic.",
+          "The icon is directly referenced as |image1| in the section, so it is highly relevant.",
+          "No visible contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image shows only the icon, not the management console UI or the actual region text described in the RST.",
+          "No surrounding interface context is visible to confirm the upper-left placement."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/manual_provisioning/obtaining_the_domain_name.rst",
+    "title": "Obtaining the Domain Name",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0249207678.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207678.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207678.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0249207717.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207717.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207717.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/manual_provisioning/obtaining_the_domain_name.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207678.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a dropdown menu with 'User Center', 'My Credential', and 'Log Out' options, matching Figure 1 description",
+          "The username area in the upper right corner is visible (blurred) with a dropdown arrow, consistent with the RST instruction to click the username",
+          "The 'My Credential' option is clearly visible as a selectable menu item, matching the RST step"
+        ],
+        "missing_evidence": [
+          "The full console interface is not visible; only the dropdown portion is shown"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/manual_provisioning/obtaining_the_domain_name.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207717.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Account Information' panel with multiple fields including User Name, User ID, Domain Name, Domain ID, etc.",
+          "The 'Domain Name' field is highlighted with a red box, directly corresponding to the RST instruction to obtain the user's domain name",
+          "The layout matches Figure 2 description in the RST document"
+        ],
+        "missing_evidence": [
+          "The actual domain name value is blurred/redacted for privacy"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/manual_provisioning/obtaining_the_resource_id.rst",
+    "title": "Obtaining the Resource ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0249207705.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207705.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207705.png",
+        "kind": "substitution_image",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/manual_provisioning/obtaining_the_resource_id.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207705.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, i.e. an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is referenced in step 2 ('Click |image1| in the upper left corner and select a region and a project'), and a location pin is the conventional glyph for a region/project selector, so it is semantically consistent with the procedure.",
+          "The icon is relevant to the 'Obtaining the Resource ID' getting-started workflow because selecting a region/project is a prerequisite step before navigating to Direct Connect.",
+          "The visual content (a teardrop pin with a central dot) is clearly legible and unambiguous."
+        ],
+        "missing_evidence": [
+          "The image shows only the symbol in isolation; the surrounding console UI (upper-left placement, region/project dropdown) is not visible, so the exact context cannot be confirmed from the image alone.",
+          "No label or text accompanies the icon, so its meaning is inferred from the RST step rather than from the image itself."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/manual_provisioning/obtaining_the_vpc_id.rst",
+    "title": "Obtaining the VPC ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0249207715.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207715.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207715.png",
+        "kind": "substitution_image",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/manual_provisioning/obtaining_the_vpc_id.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207715.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, matching the region selector icon referenced in step 2 ('Click |image1| in the upper left corner and select a region and a project').",
+          "It is an isolated symbolic UI graphic, not a full screenshot or page interface.",
+          "The icon is consistent with the getting-started / manual provisioning procedure for selecting a region before navigating to VPC.",
+          "No visible interactive controls, buttons, or text are present in the image."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI, so the 'upper left corner' placement cannot be visually confirmed.",
+          "No label or tooltip is visible to confirm it is specifically the region/project selector."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/self-service_provisioning/creating_a_plas_vpn_connector.rst",
+    "title": "Creating a PLAS (VPN) Connector",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0249207692.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207692.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207692.png",
+        "kind": "figure",
+        "line": 18,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0249207673.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207673.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207673.png",
+        "kind": "figure",
+        "line": 104,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0249207699.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207699.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207699.png",
+        "kind": "figure",
+        "line": 111,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0249207687.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207687.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207687.png",
+        "kind": "figure",
+        "line": 123,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0249207696.jpg",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207696.jpg",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207696.jpg",
+        "kind": "substitution_image",
+        "line": 149,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0249207712.jpg",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207712.jpg",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207712.jpg",
+        "kind": "substitution_image",
+        "line": 150,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/self-service_provisioning/creating_a_plas_vpn_connector.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207692.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Flowchart directly illustrates the PLAS connector creation process as described in the RST Procedure section.",
+          "Steps (Start, Click Create PLAS Connector, Configure connector/cloud/network information, Submit, Notify IPLS administrator, End) align with the numbered procedure in the document.",
+          "Referenced as Figure 1 in the Process section of the RST."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/self-service_provisioning/creating_a_plas_vpn_connector.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207673.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Connector Information form with Region (eu-de), Name, Description, and Bandwidth slider, matching Table 1 in the RST.",
+          "Bandwidth slider shows values 10-1000 Mbit/s with +/- controls, consistent with the RST description.",
+          "Referenced as Figure 2 in the RST under step 5."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/self-service_provisioning/creating_a_plas_vpn_connector.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207699.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows Cloud Information section with Provider (Open Telekom Cloud), Primary Location (Biere eu-de-01), Secondary Location (Magdeburg eu-de-02), and DC Connection Name dropdowns.",
+          "Includes 'Create a connection first' links matching the RST description for DC Connection Name fields.",
+          "Referenced as Figure 3 in the RST under step 5."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/self-service_provisioning/creating_a_plas_vpn_connector.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207687.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows Network Information section with Type (IntraSelect), Access Location (Biere eu-de-01), and Network PoP (Berlin/Frankfurt toggle).",
+          "All values match the RST Table 1 entries for Network Information.",
+          "Referenced as Figure 4 in the RST under step 5."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/self-service_provisioning/creating_a_plas_vpn_connector.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207696.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small minus/dash icon used inline in the RST as |image1| for the bandwidth slider control.",
+          "Referenced in the Bandwidth parameter description: 'Drag the slider or click |image1| or |image2| to set Bandwidth.'",
+          "Image is very small and low-resolution, making details hard to discern."
+        ],
+        "missing_evidence": [
+          "Image is extremely small and blurry; exact appearance of the minus button is difficult to confirm."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/getting_started/self-service_provisioning/creating_a_plas_vpn_connector.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207712.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small plus (+) icon used inline in the RST as |image2| for the bandwidth slider control.",
+          "Referenced in the Bandwidth parameter description: 'Drag the slider or click |image1| or |image2| to set Bandwidth.'",
+          "Image is very small and low-resolution, making details hard to discern."
+        ],
+        "missing_evidence": [
+          "Image is extremely small and blurry; exact appearance of the plus button is difficult to confirm."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/modifying_a_plas_vpn_connector.rst",
+    "title": "Modifying a PLAS (VPN) Connector",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0249207697.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207697.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207697.png",
+        "kind": "substitution_image",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/modifying_a_plas_vpn_connector.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207697.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI form titled 'Connector Information' matching the RST step to modify PLAS connector information.",
+          "It displays Name, Description, and Bandwidth (Mbit/s) fields, exactly the parameters listed in Table 1 of the document.",
+          "The bandwidth slider with +/- controls and a 100 Mbit/s value aligns with the note about increasing or decreasing bandwidth.",
+          "The form is consistent with the 'Modify' operation described in the procedure."
+        ],
+        "missing_evidence": [
+          "The image does not show the Submit button referenced in the final step.",
+          "The Region field (eu-de) is shown but not mentioned in the RST table, though this is not a contradiction."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/searching_for_plas_vpn_connectors.rst",
+    "title": "Searching for PLAS (VPN) Connectors",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0249207713.jpg",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207713.jpg",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207713.jpg",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0249207706.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207706.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207706.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0249207693.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207693.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207693.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/searching_for_plas_vpn_connectors.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207713.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a magnifying glass search icon, matching the RST step 4 instruction to click the search icon after entering a connector name or ID",
+          "The icon is consistent with the topic of searching for PLAS connectors",
+          "It is referenced as |image1| in the Procedure section, step 4, which describes the search action"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/searching_for_plas_vpn_connectors.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207706.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a downward-pointing chevron/arrow icon, matching the RST step 5 instruction to click to open a PLAS connector record for more details",
+          "The icon represents an expand action, consistent with opening a connector record to see details",
+          "It is referenced as |image2| in the Procedure section, step 5"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/searching_for_plas_vpn_connectors.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207693.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The screenshot shows a PLAS connector list with columns for Name/ID, Status, DC Connection Name, Bandwidth (Mbit/s), and Operation, matching the RST description of viewing statuses, bandwidths, and connection names",
+          "An expanded row shows detailed connector information including Connector Name, ID, Status, Cloud Provider, DC Connections, Bandwidth, Port Type, Network Access Location, Network PoP, Network Provider, Network Type, and Create Time",
+          "The screenshot is referenced as |image3| after step 5, illustrating the result of opening a PLAS connector record to see more details",
+          "The search bar in the upper right with a Name dropdown and search icon matches the search functionality described in step 4"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/overview/application_scenarios_and_physical_networking.rst",
+    "title": "Application Scenarios and Physical Networking",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0249207728.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207728.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207728.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/overview/application_scenarios_and_physical_networking.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207728.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a network topology diagram labeled as the physical network of PLAS, matching the figure caption in the RST.",
+          "It depicts Customer network, Carrier network (EC & IP VPN), PLAS, and OTC (Biere/Magdeburg) with Direct Connect Gateways, consistent with the described PLAS connectivity scenarios.",
+          "The diagram directly illustrates the Physical Networking section content about exclusive connections from on-premise networks to VPCs.",
+          "No visible interactive controls; it is a static schematic, so it is classified as 'other'."
+        ],
+        "missing_evidence": [
+          "The diagram does not explicitly label Layer 2 (EC) vs Layer 3 (IP VPN) paths separately, though the carrier network header mentions both.",
+          "No VPC endpoint is explicitly drawn on the OTC side; only Direct Connect Gateways and cloud icons are shown."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/overview/what_is_plas.rst",
+    "title": "What Is PLAS?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0249207722.png",
+        "original_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207722.png",
+        "used_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207722.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/overview/what_is_plas.rst",
+        "image_path": "/home/ubuntu/repotesting/private-link-access-service/umn/source/_static/images/en-us_image_0249207722.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a schematic diagram illustrating PLAS connectors, matching the figure caption 'PLAS connector introduction' in the RST.",
+          "It contrasts 'Without PLAS connectors' (manual, complex configuration) with 'With PLAS connectors' (automatic configuration), aligning with the manual vs self-service provisioning discussion.",
+          "The diagram shows IPLS network connecting to OTC via a PLAS box with PCNE and PCCE edges, consistent with the note defining PCNE (PLAS connector network edge) and PCCE (PLAS connector cloud edge).",
+          "The IPLS-to-OTC connection matches the RST statement that PLAS connectors connect IPLS private lines to the OTC.",
+          "No interactive UI controls are present; it is a static explanatory diagram."
+        ],
+        "missing_evidence": [
+          "The diagram does not explicitly label the Direct Connect gateway or edge/cloud gateway terms used in the RST body.",
+          "No latency or stability metrics are shown, though the RST mentions reduced latency."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4185 @@
+[
+  {
+    "file_path": "api-ref/source/appendix/obtaining_a_project_id.rst",
+    "title": "Obtaining a Project ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001508295281.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001508295281.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001508295281.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "api-ref/source/calling_apis_sfs_capacity-oriented_and_sfs_turbo/response.rst",
+    "title": "Response",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001773129352.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001773129352.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001773129352.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/getting_started/configure_a_vpc_endpoint.rst",
+    "title": "Configure a VPC Endpoint",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001310873016.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001310873016.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001310873016.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0159365094.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0159365094.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0159365094.png",
+        "kind": "substitution_image",
+        "line": 110,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/configure_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001310873016.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a screenshot of the 'Create VPC Endpoint' page, matching Figure 1 referenced in step 2 of the RST procedure.",
+          "All parameters from Table 1 are visible: Region, Service Category, VPC Endpoint Service Name, VPC, and Tag.",
+          "The 'Find a service by name' tab is highlighted, consistent with the RST instruction to select that option.",
+          "The Verify button next to the service name field matches the RST description of clicking Verify after entering the service name.",
+          "The 'Create Now' button at the bottom aligns with the submission step described in the RST."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/configure_a_vpc_endpoint.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0159365094.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin icon, referenced as |image1| in step 1b of the RST procedure.",
+          "The RST instructs to click this icon in the upper left corner to select region and project, which is consistent with a location/region selector icon.",
+          "The icon is a standard map-marker/location pin symbol commonly used for region selection in cloud consoles."
+        ],
+        "missing_evidence": [
+          "The icon is very small and generic; no text or additional context is visible to confirm it is specifically the region/project selector rather than another location-related control."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/create_a_file_system.rst",
+    "title": "Create a File System",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0103405416.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0103405416.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0103405416.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002498372989.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002498372989.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002498372989.png",
+        "kind": "figure",
+        "line": 143,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001168006352.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001168006352.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001168006352.png",
+        "kind": "figure",
+        "line": 226,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/create_a_file_system.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0103405416.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a UI screenshot of the 'Create File System' form for SFS Capacity-Oriented, matching Figure 1 reference in the RST.",
+          "Visible parameters (Region, AZ, Protocol Type, VPC, Encryption, Tag, Name) align with Table 1 in the RST.",
+          "The form shows an 'Auto Capacity Expansion' toggle not explicitly listed in Table 1, suggesting a newer UI element.",
+          "Parameters such as File System Type, Maximum Capacity, and Quantity from Table 1 are not visible in this portion of the form (likely scrolled out of view).",
+          "No contradictions between the image content and the RST description."
+        ],
+        "missing_evidence": [
+          "File System Type selector (SFS Capacity-Oriented vs SFS Turbo) not visible in the screenshot.",
+          "Maximum Capacity and Quantity fields from Table 1 are not visible.",
+          "The 'Create Now' and 'Submit' buttons mentioned in the RST steps are not visible in this crop."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/create_a_file_system.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002498372989.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a UI screenshot of the 'Create General Purpose File System' page, matching Figure 2 reference in the RST.",
+          "All parameters from Table 2 are visible: Region, Data Redundancy Policy (Multi-AZ), Name, Protocol Type (NFS), VPC, and Tags.",
+          "The 'Create Now' button at the bottom right matches the RST step 'Click Create Now'.",
+          "The breadcrumb and page title confirm this is the General Purpose File System creation flow.",
+          "No contradictions between the image content and the RST description."
+        ],
+        "missing_evidence": [
+          "The VPC dropdown values are partially blurred/redacted, making specific VPC names unreadable."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/create_a_file_system.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001168006352.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a UI screenshot of the SFS Turbo 'Create File System' page, matching Figure 3 reference in the RST.",
+          "The file system type table shows all types listed in Table 3: 20MB/s/TiB, 40MB/s/TiB, 125MB/s/TiB, 250MB/s/TiB, Standard, Standard-Enhanced, Performance, Performance-Enhanced.",
+          "Region and AZ selectors are visible, matching the RST parameters.",
+          "The 'Create Now' button at the bottom right matches the RST step 'Click Create Now'.",
+          "Capacity ranges shown in the table (e.g., 3.6 TB - 1 PB for 20MB/s/TiB, 500 GB - 32 TB for Standard) align with Table 3 remarks.",
+          "No contradictions between the image content and the RST description."
+        ],
+        "missing_evidence": [
+          "Lower portion of the form (VPC, Security Group, Automatic Backup, Encryption, Name fields) is not visible in this screenshot crop."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/enabling_or_adding_a_software_repository.rst",
+    "title": "Enabling or Adding a Software Repository",
+    "image_count": 9,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0077173267.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077173267.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077173267.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0077173268.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077173268.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077173268.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0077173489.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077173489.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077173489.png",
+        "kind": "figure",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0077181786.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077181786.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077181786.png",
+        "kind": "figure",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0077185561.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077185561.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077185561.png",
+        "kind": "figure",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0077185562.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077185562.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077185562.png",
+        "kind": "figure",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0077186364.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077186364.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077186364.png",
+        "kind": "figure",
+        "line": 93,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0077187391.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077187391.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077187391.png",
+        "kind": "figure",
+        "line": 106,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0077187392.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077187392.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077187392.png",
+        "kind": "figure",
+        "line": 116,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 9
+    },
+    "summary": {
+      "pass": 8,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/enabling_or_adding_a_software_repository.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077173267.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the exact command 'yum repolist all' as described in step 1 of the CentOS section.",
+          "All repositories display 'disabled' status, matching the RST description that status is disabled.",
+          "Figure 1 caption 'Checking software repositories' aligns with the image content."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_or_adding_a_software_repository.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077173268.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the command 'yum-config-manager --enable Public-OTC-CentOS-7-Base' exactly as in step 2.",
+          "Output displays the repository configuration with enabled = 1, confirming the enable action.",
+          "Figure 2 caption 'Enabling a software repository' matches the image content."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_or_adding_a_software_repository.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077173489.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows 'yum repolist all' with Public-OTC-CentOS-7-Base now displaying 'enabled' status.",
+          "Matches step 3 description that status is enabled after the enable command.",
+          "Figure 3 caption 'Checking whether the software repository has been enabled' aligns with the image."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_or_adding_a_software_repository.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077181786.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 1
+        },
+        "reasons": [
+          "Shows the 'zypper lr' command as described in SUSE step 1.",
+          "The RST states 'If no software repository is detected' but the image clearly shows Public-OTC-OBS with Enabled: Yes.",
+          "This is a direct contradiction between the text description and the image content."
+        ],
+        "missing_evidence": [
+          "The image does not show an empty repository list as the RST text implies for Figure 4."
+        ],
+        "overall_score": 0.73,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_or_adding_a_software_repository.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077185561.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the exact 'zypper addrepo' command with the opensuse12.2 URL as in step 2.",
+          "Output confirms 'Repository opensuse-main successfully added'.",
+          "Figure 5 caption 'Adding a software repository' matches the image content."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_or_adding_a_software_repository.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077185562.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'zypper refresh' command as described in step 3.",
+          "Output shows metadata retrieval and key trust prompt, consistent with a refresh operation.",
+          "Figure 6 caption 'Updating and adding repositories' aligns with the image."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_or_adding_a_software_repository.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077186364.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows 'zypper lr' with opensuse-main displaying Enabled: Yes.",
+          "Matches step 4 description that Enabled is Yes for the added repository.",
+          "Figure 7 caption 'Checking whether the software repository has been enabled' aligns with the image."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_or_adding_a_software_repository.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077187391.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'apt-add-repository http://archive.canonical.com/ubuntu' command as in Ubuntu step 1.",
+          "The command returns to a prompt indicating successful execution.",
+          "Figure 8 caption 'Adding a software repository' matches the image content."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_or_adding_a_software_repository.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0077187392.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'apt-get update' command as in Ubuntu step 2.",
+          "Output lists multiple repository URLs being fetched, consistent with an update operation.",
+          "Figure 9 caption 'Updating and adding repositories' aligns with the image."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/mount_a_file_system/mounting_a_file_system_automatically.rst",
+    "title": "Mounting a File System Automatically",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0072283477.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0072283477.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0072283477.png",
+        "kind": "figure",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001171982484.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001171982484.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001171982484.png",
+        "kind": "figure",
+        "line": 118,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001217262463.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001217262463.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001217262463.png",
+        "kind": "figure",
+        "line": 143,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_a_file_system_automatically.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0072283477.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows terminal output of 'cat /etc/fstab' command, matching Figure 1 caption in the RST",
+          "The NFS mount entry at the bottom (highlighted in red) corresponds to the file system information added in step 3",
+          "The terminal prompt shows 'root@ecs-e356' consistent with logging in as root user described in step 2",
+          "The fstab content includes standard entries plus the NFS mount line with vers=3 parameters matching the RST example"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_a_file_system_automatically.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001171982484.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows Notepad with a 'Save As' dialog, matching Figure 2 caption 'Saving the script'",
+          "The file name field shows 'auto_mount.bat' exactly as specified in step 4 of the Windows procedure",
+          "The Notepad content shows 'mount -t nfs -o vers=3,nolock' which aligns with the mount command described in the RST",
+          "Save as type is set to 'All Files' consistent with saving a .bat script"
+        ],
+        "missing_evidence": [
+          "The full mount command in the Notepad is partially obscured by the Save As dialog, so the complete mount point and drive letter are not fully visible"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_a_file_system_automatically.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001217262463.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows Notepad with a 'Save As' dialog, matching Figure 3 caption 'Creating .vbs file'",
+          "The Notepad content shows the VBS script: 'set ws=WScript.CreateObject(\"WScript.Shell\")' and 'ws.Run \"C:\\test\\auto_mount.bat /start\",0' matching the RST code block",
+          "The Save As path shows 'Programs > Startup' directory, consistent with the RST instruction to save in the Startup folder",
+          "The file name 'autostart.vbs' matches the RST instruction to create a file named XXX.vbs"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+    "title": "Mounting an NFS File System to ECSs (Windows)",
+    "image_count": 13,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0105365714.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105365714.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105365714.png",
+        "kind": "figure",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0105366557.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105366557.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105366557.png",
+        "kind": "figure",
+        "line": 53,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0105369597.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105369597.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105369597.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0132330932.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132330932.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132330932.png",
+        "kind": "figure",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0105371941.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105371941.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105371941.png",
+        "kind": "figure",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0105373154.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105373154.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105373154.png",
+        "kind": "figure",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0105374234.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105374234.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105374234.png",
+        "kind": "figure",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0251323172.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251323172.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251323172.png",
+        "kind": "figure",
+        "line": 117,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0105396156.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105396156.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105396156.png",
+        "kind": "figure",
+        "line": 124,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0108360730.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0108360730.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0108360730.png",
+        "kind": "figure",
+        "line": 135,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0132187564.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132187564.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132187564.png",
+        "kind": "figure",
+        "line": 155,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0132187573.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132187573.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132187573.png",
+        "kind": "figure",
+        "line": 164,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0110722360.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110722360.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110722360.png",
+        "kind": "substitution_image",
+        "line": 171,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 13
+    },
+    "summary": {
+      "pass": 12,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105365714.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows Windows Server Manager dashboard with 'Add roles and features' highlighted",
+          "Matches Figure 1 reference in the RST procedure step 3a",
+          "Clearly displays the Server Manager interface as described"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105366557.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Add Roles and Features Wizard 'Before you begin' page",
+          "Matches Figure 2 reference in the RST procedure step 3b",
+          "Displays the wizard navigation and prerequisite information as described"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105369597.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Select server roles page with 'Server for NFS' highlighted",
+          "Matches Figure 3 reference in the RST procedure step 3c",
+          "Clearly displays the NFS server role selection as described"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132330932.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Select features page with 'Client for NFS' checked",
+          "Matches Figure 4 reference in the RST procedure step 3d",
+          "Clearly displays the NFS client feature selection as described"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105371941.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows Administrative Tools window with 'Services for Network File System (NFS)' highlighted",
+          "Matches Figure 5 reference in the RST procedure step 4a",
+          "Clearly displays the Control Panel navigation path as described"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105373154.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows Services for Network File System window with 'Client for NFS' highlighted",
+          "Matches Figure 6 reference in the RST procedure step 4b",
+          "Clearly displays the NFS services tree as described"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105374234.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows Client for NFS Properties with TCP transport protocol and 'Use hard mounts' selected",
+          "Matches Figure 7 reference in the RST procedure step 4b",
+          "Clearly displays the protocol and mount type settings as described"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251323172.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows file system table with mount address column",
+          "Matches Figure 8 reference in the RST procedure step 6",
+          "Displays the SFS Capacity-Oriented file system with NFS protocol and mount point"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0105396156.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows command prompt with successful mount command output",
+          "Matches Figure 9 reference in the RST procedure step 6",
+          "Displays 'X: is now successfully connected' and 'The command completed successfully'"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0108360730.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows This PC window with network location displaying the mounted file system",
+          "Matches Figure 10 reference in the RST procedure step 7",
+          "Clearly displays the successful mount under Network locations"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132187564.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows Registry Editor with path to ClientForNFS\\CurrentVersion\\Default",
+          "Matches Figure 11 reference in the RST troubleshooting step 2",
+          "Clearly displays the registry navigation path as described"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132187573.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows registry values with AnonymousUid and AnonymousGid set to 0",
+          "Matches Figure 12 reference in the RST troubleshooting step 3",
+          "Clearly displays the DWORD values as described in the procedure"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/mount_a_file_system/mounting_an_nfs_file_system_to_ecss_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110722360.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small copy icon (two overlapping squares) referenced as |image1| in the RST",
+          "Used to indicate the copy button next to the mount point in the console",
+          "Icon is small and low-resolution but semantically matches the copy action described"
+        ],
+        "missing_evidence": [
+          "Icon is very small and pixelated, making exact visual details hard to discern",
+          "No surrounding context visible to confirm it appears next to a mount point"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/overview.rst",
+    "title": "Overview",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0153440615.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0153440615.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0153440615.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0153455845.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0153455845.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0153455845.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002053880478.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002053880478.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002053880478.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 3
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0153440615.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/getting_started/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0153455845.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/getting_started/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002053880478.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/unmount_a_file_system.rst",
+    "title": "Unmount a File System",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001268123369.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001268123369.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001268123369.png",
+        "kind": "figure",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/unmount_a_file_system.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001268123369.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a Windows 'This PC' file explorer screenshot showing a right-click context menu on a network location (SFS share 'share-396876e8').",
+          "The context menu highlights the 'Disconnect' option, which directly matches the RST Windows OS step 3: 'Right-click the file system to be unmounted and choose Disconnect.'",
+          "The figure caption in the RST ('Figure 1 Unmounting') aligns with the depicted unmount/disconnect action.",
+          "The network location path beginning with '\\\\sfs-nas1' is consistent with an SFS file system being unmounted."
+        ],
+        "missing_evidence": [
+          "The exact share name/path is partially obscured by a redacted overlay, but the SFS context is still clear."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/introduction/basic_concepts/region_and_az.rst",
+    "title": "Region and AZ",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0184026531.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0184026531.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0184026531.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/introduction/basic_concepts/region_and_az.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0184026531.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/introduction/what_is_sfs.rst",
+    "title": "What Is SFS?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0259710043.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0259710043.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0259710043.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/introduction/what_is_sfs.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0259710043.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/auditing/supported_sfs_operations.rst",
+    "title": "Supported SFS Operations",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0113383875.jpg",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0113383875.jpg",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0113383875.jpg",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0113383875.jpg",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0113383875.jpg",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0113383875.jpg",
+        "kind": "substitution_image",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/auditing/supported_sfs_operations.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0113383875.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small grayscale location-pin / map-marker symbol, matching the region-and-project selector icon referenced as |image1|/|image2| in the RST.",
+          "The RST instructs 'Click |image1| in the upper left corner and select a region and project,' which is exactly what a region/project selector icon represents.",
+          "The icon is used in the 'Querying Traces' and 'Disabling or Enabling a Tracker' sections, so it is relevant to those navigation steps.",
+          "The visual content (teardrop pin with central dot) is consistent with a console region selector symbol, with no contradiction to the text."
+        ],
+        "missing_evidence": [
+          "The image is a generic console icon and is not specific to SFS or CTS, so it does not directly illustrate SFS operations or trace tables.",
+          "No surrounding UI context is visible to confirm it is the upper-left region selector within the management console."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/backup.rst",
+    "title": "Backup",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001357615949.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001357615949.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001357615949.png",
+        "kind": "figure",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001304536416.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001304536416.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001304536416.png",
+        "kind": "substitution_image",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/backup.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001357615949.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a screenshot of a 'Create File System' form in a cloud console, matching the RST reference 'Figure 1 Create File System' in step 4 of the 'Using a Backup to Create a File System' section.",
+          "The form displays file system parameters (Region, AZ, Storage Class, Protocol Type, VPC, Security Group, Encryption, Enterprise Project) consistent with the RST instruction to 'Set the file system parameters.'",
+          "The 'Create Now' button at the bottom right aligns with the next step in the RST: 'Click Create Now.'",
+          "No contradictions between the image content and the RST description."
+        ],
+        "missing_evidence": [
+          "The RST references a table for detailed parameter descriptions (Table 3) which is not visible in the image.",
+          "The image does not explicitly show the backup context (i.e., that this form is reached from a backup operation)."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/backup.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001304536416.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin icon, referenced in the RST as |image1| in step 1b: 'Click |image1| in the upper left corner and select your desired region and project.'",
+          "The icon is a standard region/project selector symbol commonly found in cloud management consoles, consistent with its described purpose.",
+          "The icon is tangentially related to the backup topic as it is part of the navigation steps to access the CBR Console.",
+          "No contradictions between the icon and its described usage in the RST."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact visual details.",
+          "The surrounding UI context (upper left corner placement) is not visible in the isolated icon image."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/file_system_management/deleting_a_file_system.rst",
+    "title": "Deleting a File System",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001921910840.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921910840.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921910840.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/file_system_management/deleting_a_file_system.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921910840.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI dialog titled 'Delete File System', matching the document topic of deleting a file system.",
+          "It shows the confirmation flow described in step 3: a warning about unmounting, a file system table with status 'Available', a text box where 'DELETE' is entered, and Cancel/OK buttons.",
+          "The figure caption in the RST ('Deleting an SFS Turbo file system') aligns with the dialog shown.",
+          "The warning text about unmounting and non-recoverability matches the prerequisites and note in the RST."
+        ],
+        "missing_evidence": [
+          "The file system name is partially redacted, so the exact name cannot be verified.",
+          "The image shows a single-file-system deletion dialog; batch deletion UI is not depicted (not required for this figure)."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/file_system_management/viewing_a_file_system.rst",
+    "title": "Viewing a File System",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001922045426.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001922045426.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001922045426.png",
+        "kind": "figure",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001921884002.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921884002.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921884002.png",
+        "kind": "figure",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001921889038.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921889038.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921889038.png",
+        "kind": "figure",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001476183046.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001476183046.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001476183046.png",
+        "kind": "substitution_image",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/file_system_management/viewing_a_file_system.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001922045426.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the SFS console 'Basic Info' and 'Mount Point Info' tabs with Name, Status (Available), Maximum Capacity, AZ, ID, Used Capacity, Region, Created, matching the file system parameter table.",
+          "Includes an 'Authorizations' section with an 'Add VPC' button and an operations table (Add/Delete), consistent with the Capacity-Oriented file system detail view described in step 3 (Figure 1).",
+          "Fields align with the rst table (Status, Used Capacity, Maximum Capacity, AZ, etc.)."
+        ],
+        "missing_evidence": [
+          "File system name and ID are partially redacted, so exact values cannot be verified."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/file_system_management/viewing_a_file_system.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921884002.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays 'Basic Info' with Name, Used Capacity, AZ, Created, Region, Data Redundancy Policy (Multi-AZ), and Protocol Type (NFS), matching the general purpose file system detail view (Figure 2).",
+          "Shows 'Mount Point Info' with a 'Mount in Linux' command and a note about installing nfs-utils, consistent with the mount point description in the rst table.",
+          "No prominent interactive buttons are visible (only a copy icon and a note close control)."
+        ],
+        "missing_evidence": [
+          "File system name and mount command are partially redacted."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/file_system_management/viewing_a_file_system.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921889038.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the SFS Turbo file system 'Basic Info' tab with Name, ID, Used Capacity, Status (Available), File System Type (40MB/s/TiB), Region, VPC, Security Group, Encryption, Shared Path, Protocol Type (NFS), Total Capacity, Created, AZ, Subnet, Enterprise Project, and Command Line, matching Figure 3.",
+          "Fields align with the rst parameter table (Status, Used Capacity, Protocol Type, Encryption, Mount Point/Command Line).",
+          "Only minor interactive controls (copy icons, edit pencil, 'View all' link) are present, no prominent buttons."
+        ],
+        "missing_evidence": [
+          "Several values (ID, Shared Path, Subnet, Command Line) are partially redacted."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/file_system_management/viewing_a_file_system.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001476183046.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A small plus (+) pictogram, matching the |image1| reference used in step 4 to add a tag search criterion.",
+          "It is an isolated UI symbol rather than a full interface screenshot.",
+          "Relevant to the 'Search by Tag' procedure but not directly to viewing file system basic information."
+        ],
+        "missing_evidence": [
+          "No surrounding context is shown, so the exact button label/tooltip cannot be confirmed from the image alone."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/file_system_resizing.rst",
+    "title": "File System Resizing",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0251359565.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251359565.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251359565.png",
+        "kind": "figure",
+        "line": 53,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001921925536.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921925536.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921925536.png",
+        "kind": "figure",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/file_system_resizing.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251359565.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a UI dialog titled 'Resize File System' matching Figure 1 in the RST",
+          "Shows exactly the three parameters from Table 1: Used Capacity (GB), Maximum Capacity (GB), New Maximum Capacity (GB)",
+          "The New Maximum Capacity field uses a stepper with GB unit selector, consistent with the RST description of a value range from 1 GB to 512,000 GB",
+          "OK and Cancel buttons are present as described in the procedure steps"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/file_system_resizing.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921925536.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a UI dialog titled 'Expand Capacity' matching Figure 2 in the RST for SFS Turbo file systems",
+          "Shows Current Capacity (500.00 GB) and New Capacity (600 GB) fields matching Table 2 parameters",
+          "Includes the warning 'The file system capacity can only be expanded, not reduced' consistent with the Constraints section",
+          "Blue info box mentions 2-3 minute unavailability during expansion, aligning with the RST note about I/O delay",
+          "File System Type shown as 'Standard' which is one of the types listed in Table 2 constraints"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_sfs_turboobs_storage_interworking.rst",
+    "title": "Managing SFS Turbo+OBS Storage Interworking",
+    "image_count": 8,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002156818469.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156818469.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156818469.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121554746.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121554746.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121554746.png",
+        "kind": "figure",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002156819337.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156819337.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156819337.png",
+        "kind": "figure",
+        "line": 111,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121579872.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121579872.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121579872.png",
+        "kind": "figure",
+        "line": 136,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121422188.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121422188.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121422188.png",
+        "kind": "figure",
+        "line": 164,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002156781101.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156781101.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156781101.png",
+        "kind": "figure",
+        "line": 200,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002156781377.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156781377.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156781377.png",
+        "kind": "figure",
+        "line": 249,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964057245.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001964057245.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001964057245.png",
+        "kind": "substitution_image",
+        "line": 307,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 8
+    },
+    "summary": {
+      "pass": 7,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_sfs_turboobs_storage_interworking.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156818469.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the SFS Turbo Storage Backends tab with the Add OBS Bucket panel open, matching Figure 1 in the RST.",
+          "All fields from Table 1 (Interworking Directory Name, Domain Name, OBS Endpoint, Auto Export) are visible.",
+          "The 'Add OBS Bucket' button and 'View Task Status' button are highlighted with red boxes as described in the RST steps.",
+          "The bucket policy warning and auto-creation note are visible in the panel."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_sfs_turboobs_storage_interworking.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121554746.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Auto Synchronization dialog with Add OBS Bucket fields and Auto Export toggle, matching Figure 2.",
+          "The Auto Export toggle is visible and in the off state, consistent with the RST description of enabling/disabling.",
+          "The dialog structure matches the RST step for configuring auto synchronization after adding an OBS bucket."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_sfs_turboobs_storage_interworking.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156819337.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Auto Synchronization section with Auto Export enabled and Data to Export options (New, Changed, Deleted), matching Figure 3.",
+          "The three data types (New, Changed, Deleted) are clearly visible as selectable options.",
+          "The description text about asynchronous export is visible below the options.",
+          "Matches the RST description of selecting types of data to be exported."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_sfs_turboobs_storage_interworking.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121579872.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Import Metadata dialog with Object Prefix field and Import Additional Metadata checkbox, matching Figure 4.",
+          "The Object Prefix field shows 'input/datasets/' as an example, consistent with the RST description.",
+          "The Import Additional Metadata option is visible as a checkbox, matching the RST step 3.",
+          "All fields (Interworking Directory Name, OBS Bucket Name, Object Prefix) are present."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_sfs_turboobs_storage_interworking.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121422188.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Data import dialog with the informational note about quick import, matching Figure 5.",
+          "The Object Path field shows 'input/dataset/' as an example, consistent with the RST description.",
+          "The note about data and metadata import with quick import is visible, matching the RST text.",
+          "All fields (Interworking Directory Name, OBS Bucket Name, Object Path) are present."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_sfs_turboobs_storage_interworking.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156781101.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Export dialog with File Prefix field, matching Figure 6.",
+          "The File Prefix field shows 'output/results/' as an example, consistent with the RST description.",
+          "All fields (Interworking Directory Name, OBS Bucket Name, File Prefix) are present.",
+          "Matches the RST step for setting File Prefix in the Data Export section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_sfs_turboobs_storage_interworking.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002156781377.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Cold Data Eviction (h)' field with a help icon, dash value, and edit pencil icon, matching Figure 7.",
+          "The field label and edit control are consistent with the RST description of configuring a cold data eviction duration.",
+          "The edit pencil icon indicates the field is modifiable, matching the RST step 3."
+        ],
+        "missing_evidence": [
+          "The actual duration value is shown as a dash, so the configured value is not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_sfs_turboobs_storage_interworking.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001964057245.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small question-mark-in-circle icon, used as |image1| in the Task Status section.",
+          "The RST states 'Click |image1| to the right of the status to view the number of failures or successful executions.'",
+          "The icon is a generic help/info symbol, not specific to the SFS Turbo topic.",
+          "It is referenced in the correct section (Task Status) as described in the RST."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to discern fine details.",
+          "No context of the surrounding task status table is visible in this isolated icon."
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/monitoring/sfs_metrics.rst",
+    "title": "SFS Metrics",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0251362180.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251362180.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251362180.png",
+        "kind": "figure",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/monitoring/sfs_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251362180.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a Cloud Eye monitoring console screenshot showing bandwidth graphs, matching the SFS Metrics topic.",
+          "Displays Read Bandwidth, Write Bandwidth, and Read Write Bandwidth graphs with bytes/s units, consistent with the metrics table.",
+          "Corresponds directly to Figure 1 'Monitoring graphs' in the Viewing Monitoring Statistics section.",
+          "Time-range selectors (1h/3h/12h), Auto Refresh toggle, metric search box, and unit dropdowns are visible interactive controls.",
+          "No contradiction between the image content and the RST description."
+        ],
+        "missing_evidence": [
+          "The graphs show flat zero values, so actual metric magnitudes are not demonstrated.",
+          "Only bandwidth metrics are shown; OPS and Used Capacity metrics from the table are not visible in this view."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/network_configuration/configuring_dns.rst",
+    "title": "Configuring DNS",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0078780345.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0078780345.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0078780345.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0058331748.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0058331748.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0058331748.png",
+        "kind": "figure",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0110762886.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110762886.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110762886.png",
+        "kind": "figure",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0110763434.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110763434.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110763434.png",
+        "kind": "figure",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0110764366.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110764366.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110764366.png",
+        "kind": "figure",
+        "line": 105,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0110765557.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110765557.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110765557.png",
+        "kind": "figure",
+        "line": 114,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/network_configuration/configuring_dns.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0078780345.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows terminal output of /etc/resolv.conf with nameserver entries, matching Figure 1 description",
+          "The 'nameserver' lines with redacted IPs align with the RST instruction to add DNS server IP above existing nameserver information",
+          "The 'generated by /sbin/dhclient-script' header confirms this is a resolv.conf file",
+          "Matches step 2 of the Linux procedure for configuring DNS"
+        ],
+        "missing_evidence": [
+          "The specific IP 100.125.4.25 is not visible (redacted), but the format matches the RST description"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/network_configuration/configuring_dns.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0058331748.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the lsattr /etc/resolv.conf command and its output with the 'i' flag highlighted",
+          "The 'i' flag in the output confirms the file is locked, matching the RST description of Figure 2",
+          "Matches step 6b of the Linux procedure for verifying the file lock",
+          "The red box highlights the 'i' character in the attribute string, consistent with the RST explanation"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/network_configuration/configuring_dns.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110762886.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Windows Network and Sharing Center page as described in Figure 3",
+          "The 'Local Area Connection' link is highlighted in a red box, matching the RST instruction to click it",
+          "The page shows Network 8, Public network, Access type: Internet, consistent with a typical Windows network setup",
+          "Matches step 3 of the Windows procedure"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/network_configuration/configuring_dns.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110763434.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Activity area with Sent/Received bytes and the Properties button highlighted in a red box",
+          "Matches Figure 4 description of selecting Properties in the Activity area",
+          "The Properties, Disable, and Diagnose buttons are visible as expected",
+          "Matches step 4 of the Windows procedure"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/network_configuration/configuring_dns.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110764366.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Local Area Connection Properties dialog with the list of network items",
+          "Internet Protocol Version 4 (TCP/IPv4) is highlighted in a red box, matching the RST instruction",
+          "The Properties button is also highlighted in a red box",
+          "Matches step 5 of the Windows procedure for selecting TCP/IPv4 and clicking Properties"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/network_configuration/configuring_dns.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0110765557.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the DNS configuration dialog with 'Use the following DNS server addresses:' selected and highlighted in a red box",
+          "Preferred DNS server and Alternate DNS server fields are visible with redacted IP values",
+          "Matches Figure 6 description of configuring DNS on Windows with the specified IP 100.125.4.25",
+          "Matches step 6 of the Windows procedure"
+        ],
+        "missing_evidence": [
+          "The specific IP 100.125.4.25 is not visible (redacted in the fields), but the configuration option matches the RST description"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/network_configuration/configuring_multi-vpc_access.rst",
+    "title": "Configuring Multi-VPC Access",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0251350300.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251350300.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251350300.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0251351310.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251351310.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251351310.png",
+        "kind": "figure",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001921916500.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921916500.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921916500.png",
+        "kind": "figure",
+        "line": 118,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001310873016.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001310873016.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001310873016.png",
+        "kind": "figure",
+        "line": 142,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0222409582.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0222409582.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0222409582.png",
+        "kind": "substitution_image",
+        "line": 222,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/network_configuration/configuring_multi-vpc_access.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251350300.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Add Authorized VPC' dialog box exactly as described in Figure 1 of the RST",
+          "VPC dropdown with '--Select--' placeholder and 'Create VPC' link match the RST description",
+          "Text 'You can add 19 more authorized VPCs' is consistent with the 20 VPC maximum constraint stated in the RST",
+          "OK and Cancel buttons are present as expected for a dialog box"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/network_configuration/configuring_multi-vpc_access.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251351310.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Add Authorized Address/Segment' dialog matching Figure 2 in the RST",
+          "All parameters from Table 2 are visible: Authorized Address/Segment, Read-Write Permission (Read-write), User Permission (no_all_squash), User Root Permission (no_root_squash), Priority",
+          "VPC identifier 'vpc-a3d4' is displayed, consistent with the RST context",
+          "Text 'You can add 399 more authorized addresses/segments' aligns with the 400 ACL rule maximum in the constraints",
+          "OK and Cancel buttons present as expected"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/network_configuration/configuring_multi-vpc_access.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001921916500.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Add VPC' dialog matching Figure 3 in the RST for general purpose file systems",
+          "VPC dropdown and 'Create New VPC' link are visible as described",
+          "Authorizations dropdown showing 'Read/Write' matches Table 3 parameter description",
+          "OK and Cancel buttons present as expected for the dialog"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/network_configuration/configuring_multi-vpc_access.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001310873016.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Create VPC Endpoint' page matching Figure 4 in the RST",
+          "All fields from Table 4 are visible: Region (eu-de), Service Category (Cloud service / Find a service by name), VPC Endpoint Service Name with Verify button, VPC with View VPCs link, Tag (Tag key, Tag value)",
+          "'Create Now' button at the bottom is consistent with the RST step to submit the endpoint creation",
+          "The 'Find a service by name' option matches the RST instruction to select this service category"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/network_configuration/configuring_multi-vpc_access.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0222409582.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small downward-pointing chevron/arrow icon, consistent with an expand/collapse or view-details UI indicator",
+          "The RST references this as |image1| to click 'on the left of the VPC name to view details about the IP addresses/segments'",
+          "The icon is a simple pictogram/symbol, not a full UI screenshot",
+          "The icon is somewhat low-resolution and blurry, making fine detail hard to assess"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact styling or context",
+          "No surrounding UI context is visible to confirm its placement next to a VPC name"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/permissions_management/creating_a_user_and_granting_sfs_permissions.rst",
+    "title": "Creating a User and Granting SFS Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002419860586.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002419860586.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002419860586.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/permissions_management/creating_a_user_and_granting_sfs_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002419860586.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/quotas.rst",
+    "title": "Quotas",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0275513364.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0275513364.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0275513364.png",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0152727234.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0152727234.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0152727234.png",
+        "kind": "substitution_image",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/quotas.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0275513364.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location pin / map marker icon, consistent with its use in step 2 for selecting a region and project.",
+          "The RST states 'Click |image1| in the upper left corner and select the desired region and project,' and a location pin is a standard symbol for region selection.",
+          "The icon is a simple, isolated symbolic graphic with no surrounding UI context, confirming it is an icon rather than a screenshot.",
+          "No contradiction between the icon's meaning (location/region) and its described function (region and project selection)."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern.",
+          "No surrounding UI context is shown to confirm its placement in the upper-left corner of the console."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/management/quotas.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0152727234.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small bar-chart icon (three vertical bars of decreasing height), a common symbol for resource usage or quota visualization.",
+          "The RST states 'In the upper right corner of the page, click |image2|' followed by 'The Quotas page is displayed,' and a bar-chart icon is a reasonable representation for a quotas/resource-usage page.",
+          "The icon is a simple, isolated symbolic graphic with no surrounding UI context, confirming it is an icon rather than a screenshot.",
+          "No contradiction between the icon's meaning (data/usage bars) and its described function (navigating to the Quotas page)."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern.",
+          "No surrounding UI context is shown to confirm its placement in the upper-right corner of the console."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/tags.rst",
+    "title": "Tags",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002483494348.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002483494348.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002483494348.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0251361308.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251361308.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251361308.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/tags.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002483494348.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the SFS console Tags tab with an info banner about identifying file systems using tags, matching the document topic.",
+          "The 'Edit Tag' button, search field, and Key/Value table header align with the procedure steps (click Tags tab, click Edit Tag, add key/value).",
+          "Left navigation highlights 'Tags' under Basic Information/Permissions/Management, consistent with a general purpose file system details page (Figure 1).",
+          "The 'You can add 17 more tags' text is consistent with the 20-tag maximum stated in the RST."
+        ],
+        "missing_evidence": [
+          "No actual tag rows are visible in the table, so the populated tag list is not shown.",
+          "The Edit Tag dialog box itself is not displayed in this image."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/tags.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251361308.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Tags tab of an SFS Turbo file system details page, matching Figure 2 in the RST.",
+          "The 'Edit Tag' button, search field, and Key column header correspond to the procedure for adding tags.",
+          "The 'You can add 20 more tags' text is consistent with the 20-tag maximum stated in the RST.",
+          "Tab layout (Basic Info / Tags) is consistent with the SFS Turbo console interface."
+        ],
+        "missing_evidence": [
+          "No actual tag rows are visible in the table, so the populated tag list is not shown.",
+          "The Edit Tag dialog box itself is not displayed in this image."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/other_operations/data_migration/migrating_data_from_sfs_capacity-oriented_to_general-purpose_file_system_using_fpart.rst",
+    "title": "Migrating Data from SFS Capacity-Oriented to General-Purpose File System Using fpart",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002377672905.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002377672905.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002377672905.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/other_operations/data_migration/migrating_data_from_sfs_capacity-oriented_to_general-purpose_file_system_using_fpart.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002377672905.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a timeline/flow diagram illustrating the migration process, matching the figure caption 'Process of migrating data from SFS Capacity-Oriented to General-Purpose File System using fpart'.",
+          "Phases shown (Migration preparation, Full migration, First incremental migration, Stopping customer services, Second incremental migration, Changing the mount point, Migration finished) align with the steps described in the Solution Overview and Procedure.",
+          "It is placed under the Solution Architecture section as Figure 1, consistent with its role as an architecture/process overview.",
+          "No interactive UI controls are present; it is a static schematic diagram."
+        ],
+        "missing_evidence": [
+          "The diagram does not label the unmounting step explicitly, though 'Stopping customer services' and 'Changing the mount point' cover the service-interruption phases.",
+          "No data volumes, durations, or component names (ECS, VPC) are shown, but these are not required for a process overview."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/other_operations/data_migration/migrating_data_from_sfs_capacity-oriented_to_sfs_turbo_using_fpart.rst",
+    "title": "Migrating Data from SFS Capacity-Oriented to SFS Turbo Using fpart",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002381131769.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002381131769.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002381131769.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/other_operations/data_migration/migrating_data_from_sfs_capacity-oriented_to_sfs_turbo_using_fpart.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002381131769.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a timeline/flow diagram illustrating the migration process phases, matching the RST title about migrating data from SFS Capacity-Oriented to SFS Turbo using fpart.",
+          "The labeled phases (Migration preparation, Full migration, First incremental migration, Stopping customer services, Second incremental migration, Changing the mount point, Migration finished) align with the Solution Overview and Procedure steps in the RST.",
+          "The figure is referenced in the Solution Architecture section as 'Figure 1 Process of migrating data from SFS Capacity-Oriented to SFS Turbo using fpart', so it is directly relevant to that section.",
+          "Visual labels are clear and semantically consistent with the documented migration workflow; no contradictory information is present."
+        ],
+        "missing_evidence": [
+          "The diagram does not explicitly name 'fpart' or the file system types, relying on the surrounding text for that context.",
+          "No indication of service-impact windows (e.g., which phases interrupt services) is shown in the image itself."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/other_operations/mounting_a_file_system_to_a_linux_ecs_as_a_non-root_user.rst",
+    "title": "Mounting a File System to a Linux ECS as a Non-root User",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001331394458.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001331394458.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001331394458.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0153998681.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0153998681.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0153998681.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/other_operations/mounting_a_file_system_to_a_linux_ecs_as_a_non-root_user.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001331394458.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Terminal screenshot showing 'which mount' returning /usr/bin/mount and 'which umount' returning /usr/bin/umount, exactly matching Figure 1 caption 'Viewing command paths'.",
+          "The red boxes highlight the output paths, consistent with the RST instruction to view mount and umount command paths.",
+          "Directly corresponds to Procedure step 2b in the document.",
+          "No contradictions between the image content and the RST description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/other_operations/mounting_a_file_system_to_a_linux_ecs_as_a_non-root_user.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0153998681.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot of the /etc/sudoers file in a text editor showing user 'mike' added with NOPASSWD entries for /usr/bin/mount and /usr/bin/umount, matching Figure 2 caption 'Adding a user'.",
+          "The red box highlights the two mike entries, consistent with the RST instruction to add a common user under the root account.",
+          "Directly corresponds to Procedure step 2d in the document.",
+          "The sudoers file context (root ALL=(ALL) ALL line above mike entries) confirms the user is added under the root account as described.",
+          "No contradictions between the image content and the RST description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/troubleshooting/data_fails_to_be_written_into_a_file_system_mounted_to_ecss_running_different_types_of_operating_systems.rst",
+    "title": "Data Fails to Be Written into a File System Mounted to ECSs Running Different Types of Operating Systems",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0123076280.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0123076280.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0123076280.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0132187573.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132187573.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132187573.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/troubleshooting/data_fails_to_be_written_into_a_file_system_mounted_to_ecss_running_different_types_of_operating_systems.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0123076280.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Windows Registry Editor with the exact path HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\ClientForNFS\\CurrentVersion\\Default highlighted with red boxes",
+          "The path at the bottom of the window matches the directory specified in step 2 of the Solution section",
+          "The right panel displays registry values (CacheBlocks, DeleteSymLinks, FirstContact, etc.) consistent with the ClientForNFS\\CurrentVersion\\Default key",
+          "Red highlights on HKEY_LOCAL_MACHINE, SOFTWARE, Microsoft, ClientForNFS, and Default match the navigation steps described in the RST"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/data_fails_to_be_written_into_a_file_system_mounted_to_ecss_running_different_types_of_operating_systems.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0132187573.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the registry values panel with AnonymousUid and AnonymousGid highlighted in a red box",
+          "Both AnonymousUid and AnonymousGid have data value 0x00000000 (0), matching the instruction to set them to 0",
+          "The panel also shows the pre-existing values (CacheBlocks, DeleteSymLinks, FirstContact, etc.) consistent with the ClientForNFS\\CurrentVersion\\Default key",
+          "Directly corresponds to Figure 2 caption 'Adding values' and step 3 of the Solution section"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/troubleshooting/error_message_wrong_fs_type_bad_option_is_displayed_during_file_system_mounting.rst",
+    "title": "Error Message \"wrong fs type, bad option\" Is Displayed During File System Mounting",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0205874230.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0205874230.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0205874230.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0205880095.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0205880095.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0205880095.png",
+        "kind": "figure",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0205880066.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0205880066.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0205880066.png",
+        "kind": "figure",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/troubleshooting/error_message_wrong_fs_type_bad_option_is_displayed_during_file_system_mounting.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0205874230.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows terminal output of 'rpm -qa | grep nfs' and 'yum list | grep nfs' commands, matching the RST instruction to check if nfs-utils is installed",
+          "Output clearly shows nfs-utils.x86_64 package is present, consistent with the figure caption 'Checking whether the software package has been installed'",
+          "Terminal screenshot with visible command prompt and output, no interactive UI buttons"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/error_message_wrong_fs_type_bad_option_is_displayed_during_file_system_mounting.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0205880095.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'yum -y install nfs-utils.x86_64' command being executed, matching the RST instruction to install nfs-utils",
+          "Output shows dependency resolution and transaction check, consistent with the figure caption 'Executing the installation command'",
+          "Terminal screenshot showing the installation process in progress, no interactive UI buttons"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/error_message_wrong_fs_type_bad_option_is_displayed_during_file_system_mounting.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0205880066.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows 'Installed: nfs-utils.x86_64 1:1.3.0-0.33.el7_3' and 'Complete!' confirming successful installation",
+          "List of dependency packages installed is visible, matching the figure caption 'Successful installation'",
+          "Terminal screenshot showing final installation output, no interactive UI buttons"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/troubleshooting/failed_to_access_the_shared_folder_in_windows.rst",
+    "title": "Failed to Access the Shared Folder in Windows",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0216773813.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216773813.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216773813.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0216828477.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216828477.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216828477.png",
+        "kind": "figure",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0216836626.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216836626.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216836626.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0216842861.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216842861.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216842861.png",
+        "kind": "figure",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001092716652.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001092716652.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001092716652.png",
+        "kind": "figure",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001092717428.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001092717428.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001092717428.png",
+        "kind": "figure",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/troubleshooting/failed_to_access_the_shared_folder_in_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216773813.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Windows Run/search box with 'gpedit.msc' entered, matching Figure 1 caption 'Entering gpedit.msc'.",
+          "The 'Best match' result 'gpedit.msc - Microsoft Common Console Document' aligns with the RST step to open Local Group Policy Editor.",
+          "Directly supports Solution 1 step 1 of the troubleshooting procedure."
+        ],
+        "missing_evidence": [
+          "No additional context beyond the search result is shown, but this is sufficient for the step."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/failed_to_access_the_shared_folder_in_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216828477.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays the Local Group Policy Editor window with 'Computer Configuration' and 'Administrative Templates' highlighted, matching Figure 2.",
+          "Corresponds to RST step 2: choose Computer Configuration > Administrative Templates.",
+          "Visual evidence clearly shows the navigation path described."
+        ],
+        "missing_evidence": [
+          "None material; the highlighted nodes match the documented path."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/failed_to_access_the_shared_folder_in_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216836626.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows Network > Lanman Workstation expanded with 'Enable insecure guest logons' highlighted, matching Figure 3.",
+          "Matches RST step 3: under Administrative Templates choose Network > Lanman Workstation and find 'Enable insecure guest logons'.",
+          "The policy description panel confirms the setting's purpose (insecure guest logons on SMB)."
+        ],
+        "missing_evidence": [
+          "None; the option and path are clearly visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/failed_to_access_the_shared_folder_in_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0216842861.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Enable insecure guest logons' dialog with the 'Enabled' radio button selected and the OK button, matching Figure 4.",
+          "Matches RST step 4: double-click the option, select Enabled, and click OK.",
+          "Help text confirms the policy allows insecure guest logons on SMB, consistent with the troubleshooting goal."
+        ],
+        "missing_evidence": [
+          "None; the enabled state and OK control are clearly visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/failed_to_access_the_shared_folder_in_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001092716652.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows Registry Editor at HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\LanmanWorkstation\\Parameters with AllowInsecureGuestAuth highlighted, matching Figure 5.",
+          "Matches RST Solution 2 step 2: navigate to the LanmanWorkstation\\Parameters directory.",
+          "The path in the address bar and the highlighted value align with the documented registry location."
+        ],
+        "missing_evidence": [
+          "None; the registry path and target value are clearly visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/failed_to_access_the_shared_folder_in_windows.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000001092717428.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Edit DWORD (32-bit) Value' dialog for AllowInsecureGuestAuth with value data set to 1, matching Figure 6.",
+          "Matches RST Solution 2 step 3: right-click AllowInsecureGuestAuth, choose Modify, and change the value to 1.",
+          "The value name and the entered data (1) directly support the documented fix."
+        ],
+        "missing_evidence": [
+          "None; the modified value and dialog controls are clearly visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/troubleshooting/failed_to_create_an_sfs_turbo_file_system.rst",
+    "title": "Failed to Create an SFS Turbo File System",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002053408725.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002053408725.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002053408725.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/troubleshooting/failed_to_create_an_sfs_turbo_file_system.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002053408725.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a troubleshooting flowchart centered on 'SFS Turbo file system creation failure', matching the document title and symptom.",
+          "The three branches (insufficient quota, insufficient subnet IP addresses, insufficient background resources) correspond exactly to the three possible causes listed in Table 1 of the RST.",
+          "The figure is referenced in the RST as 'Figure 1 Troubleshooting' within the Troubleshooting section, so it is directly relevant to that section.",
+          "The diagram clearly displays the cause hierarchy with legible text, providing strong visual evidence aligned with the document."
+        ],
+        "missing_evidence": [
+          "The image does not show the solutions column from Table 1, only the possible causes, but this is consistent with its role as a cause-overview figure."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/troubleshooting/failed_to_mount_an_nfs_file_system_to_a_windows_iis_server.rst",
+    "title": "Failed to Mount an NFS File System to a Windows IIS Server",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0251367892.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251367892.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251367892.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0156988117.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0156988117.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0156988117.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/troubleshooting/failed_to_mount_an_nfs_file_system_to_a_windows_iis_server.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0251367892.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a cloud console table with SFS file system details including the Mount Address column, matching the RST description of 'Figure 1 Mount point'.",
+          "The table displays an NFS file system (sfs-d402) with its mount address, directly relevant to the troubleshooting steps for mounting NFS to IIS.",
+          "The image is placed in Solution step 5 where the mount point is referenced, consistent with its role in the document.",
+          "No contradictions between the image content and the RST text."
+        ],
+        "missing_evidence": [
+          "The mount address in the image is partially redacted, so the exact full address cannot be verified against the RST example."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/failed_to_mount_an_nfs_file_system_to_a_windows_iis_server.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0156988117.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the IIS 'Edit Site' dialog with the Physical path field populated with \\\\sfs-nas1...com\\share-396876e8, matching the RST description of 'Figure 2 Physical path'.",
+          "The dialog shows Site name 'Default Web Site' and Application pool 'DefaultAppPool', consistent with the IIS Manager context described in the RST.",
+          "The image is placed in Solution step 5 where the correct physical path to enter is demonstrated, directly supporting the troubleshooting solution.",
+          "No contradictions between the image content and the RST text."
+        ],
+        "missing_evidence": [
+          "The physical path in the image is partially redacted, so the exact full path cannot be fully verified against the RST example of \\\\sfs-nas1.example.com\\share-396876e8."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/troubleshooting/mounting_a_file_system_fails.rst",
+    "title": "Mounting a File System Fails",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0113980196.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0113980196.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0113980196.png",
+        "kind": "figure",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/troubleshooting/mounting_a_file_system_fails.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0113980196.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a terminal/CLI screenshot showing two `ping -I` commands targeting an IP in the 100.125.x.x segment, matching the document's Cause 4 instruction to run the ping command to access SFS.",
+          "The figure caption in the RST ('Running the ping command to access SFS') directly corresponds to the visible ping commands and their output.",
+          "The displayed IP segment (100.x) is consistent with the document's reference to the segment 100 used for SFS access.",
+          "The image is referenced as Figure 1 within the Solution section under Cause 4, so it is topically and sectionally relevant."
+        ],
+        "missing_evidence": [
+          "No explicit SFS domain name or service label is shown in the terminal; the SFS context is inferred from the IP segment and the RST caption."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/troubleshooting/mounting_a_file_system_times_out.rst",
+    "title": "Mounting a File System Times Out",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0147961692.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961692.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961692.png",
+        "kind": "figure",
+        "line": 53,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0147961696.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961696.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961696.png",
+        "kind": "figure",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0147961699.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961699.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961699.png",
+        "kind": "figure",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0147961721.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961721.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961721.png",
+        "kind": "figure",
+        "line": 92,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/troubleshooting/mounting_a_file_system_times_out.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961692.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows terminal output of /etc/resolv.conf with nameserver entries, matching Figure 1 'Configuring DNS'",
+          "The red box highlights a nameserver line, consistent with the RST instruction to check DNS configuration",
+          "Directly referenced in the solution for Cause 3 (DNS configuration incorrect)",
+          "Terminal output clearly shows 'generated by /sbin/dhclient-script' and multiple nameserver entries as expected"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/mounting_a_file_system_times_out.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961696.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows lsattr /etc/resolv.conf output with the 'i' flag highlighted in red, matching Figure 2 'A locked file'",
+          "The RST states that if the 'i' flag is shown, the file is locked and chattr -i should be run",
+          "Directly referenced in the solution for Cause 3 when DNS configuration fails",
+          "Terminal output clearly shows '----i---------e- /etc/resolv.conf' confirming the immutable attribute"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/mounting_a_file_system_times_out.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961699.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows VPC details page with subnet table including DNS Server Address column, matching Figure 3 'VPC details'",
+          "The 'Modify' button is highlighted in red, indicating where to click to modify DNS settings",
+          "Directly referenced in step 4 of Cause 3 solution for modifying VPC DNS configuration",
+          "UI clearly shows Virtual Private Cloud interface with Name, ID, Subnets, Status, CIDR Block fields"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting/mounting_a_file_system_times_out.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0147961721.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows 'Modify Subnet' dialog with DNS Server Address field, matching Figure 4 'Modifying the DNS'",
+          "The dialog allows entering up to 5 DNS server addresses, consistent with the RST instruction to set correct tenant DNS",
+          "Directly referenced in step 4 of Cause 3 solution for modifying VPC subnet DNS",
+          "UI clearly shows Name, DNS Server Address, and NTP Server Address fields with OK/Cancel buttons"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/troubleshooting/writing_to_a_file_system_fails.rst",
+    "title": "Writing to a File System Fails",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002121585809.png",
+        "original_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121585809.png",
+        "used_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121585809.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/troubleshooting/writing_to_a_file_system_fails.rst",
+        "image_path": "/home/ubuntu/repotesting/scalable-file-service/umn/source/_static/images/en-us_image_0000002121585809.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, i.e., an isolated UI icon rather than a screenshot.",
+          "In the RST, |image1| is referenced in Solution step 1b: 'Click |image1| in the upper left corner and select your desired region and project,' which matches a region-selector location icon.",
+          "The icon is placed in the Solution section and directly supports the navigation instruction to choose a region/project.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is a low-resolution isolated symbol; surrounding console context (upper-left corner placement, region/project menu) is not visible.",
+          "No label or text accompanies the icon to confirm it is the region selector beyond the RST description."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

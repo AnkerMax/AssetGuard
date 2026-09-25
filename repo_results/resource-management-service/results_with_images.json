@@ -1,0 +1,1066 @@
+[
+  {
+    "file_path": "api-ref/source/before_you_start/concepts.rst",
+    "title": "Concepts",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001342853528.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342853528.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342853528.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/appendix/services_and_regions_supported_by_rms.rst",
+    "title": "Services and Regions Supported by RMS",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001393093965.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093965.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093965.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001342533756.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533756.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533756.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/appendix/services_and_regions_supported_by_rms.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093965.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Open Telekom Cloud Service List page with categories including Management & Deployment",
+          "Resource Management entry is highlighted with a red box, matching the RST step 2 navigation path",
+          "Corresponds to Figure 1 caption 'RMS service entry' in the RST",
+          "Visible navigation bar with Service List, Favorites, Community Portal confirms it is a console screenshot"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/appendix/services_and_regions_supported_by_rms.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533756.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the My Resources page with a Beta tag, matching the RST step 3 context",
+          "The 'Supported Services and Regions' button is highlighted with a red box, exactly as described in the procedure",
+          "Corresponds to Figure 2 caption 'Supported Resource and Regions' in the RST",
+          "Includes a warning banner about supported services and regions, reinforcing the topic"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/my_resources/viewing_relationships_of_a_resource.rst",
+    "title": "Viewing Relationships of a Resource",
+    "image_count": 8,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001342374068.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342374068.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342374068.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001393013557.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393013557.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393013557.png",
+        "kind": "figure",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001343476174.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001343476174.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001343476174.png",
+        "kind": "figure",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001343316214.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001343316214.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001343316214.png",
+        "kind": "figure",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001393436205.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393436205.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393436205.png",
+        "kind": "figure",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001392893609.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001392893609.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001392893609.png",
+        "kind": "substitution_image",
+        "line": 76,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001393716053.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393716053.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393716053.png",
+        "kind": "substitution_image",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001343156318.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001343156318.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001343156318.png",
+        "kind": "substitution_image",
+        "line": 78,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 8
+    },
+    "summary": {
+      "pass": 8,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/my_resources/viewing_relationships_of_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342374068.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Service List page with 'Resource Management' highlighted under Management & Deployment, matching Figure 1 'RMS service entry'.",
+          "Corresponds to step 2 of the procedure (Service List > Management & Deployment > Resource Management).",
+          "Visible search box and service links indicate interactive UI controls."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_relationships_of_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393013557.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays the resource Overview tab with an ECS resource's details (Name, Service, Region, Status, Specifications, AZ), matching Figure 2 'Resource overview'.",
+          "Shows both Overview and Resource Relationship tabs as described in step 3.",
+          "Tabs and 'View Details' link are visible interactive controls."
+        ],
+        "missing_evidence": [
+          "Some field values (Name, ID) are blurred/redacted."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_relationships_of_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001343476174.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Resource Relationship tab in list view with VPCs, Elastic Volume Service (EVS), and Security Groups cards, matching Figure 3.",
+          "Demonstrates the list-view relationship display described in the procedure.",
+          "View-toggle icons and search icons are visible interactive controls."
+        ],
+        "missing_evidence": [
+          "Some resource names in the cards are blurred."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_relationships_of_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001343316214.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a search box with 'RMS-ECS' entered and resulting related EVS resources, matching Figure 4 'Search related Resource'.",
+          "Illustrates the search step for related resource relationships.",
+          "Search box, clear (x), and Cancel controls are visible interactive elements."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_relationships_of_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393436205.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the topology view with RMS-ECS-MRUMPLER connected to EIPs, Security Groups, and Elastic Volume Service nodes, matching Figure 5.",
+          "Demonstrates the topology-view relationship display described in the procedure.",
+          "Topology/list toggle icons are visible interactive controls."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_relationships_of_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001392893609.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A list/table-view pictogram corresponding to |image1|, used to switch to the list view of resource relationships.",
+          "Directly referenced in the procedure for viewing relationships through the list view."
+        ],
+        "missing_evidence": [
+          "No label or tooltip; meaning inferred from RST context."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_relationships_of_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393716053.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A magnifying-glass search pictogram corresponding to |image2|, the search icon used to find related resource relationships.",
+          "Referenced in the procedure step for searching related resources."
+        ],
+        "missing_evidence": [
+          "No label; meaning inferred from RST context."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_relationships_of_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001343156318.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A topology/network pictogram (three connected nodes) corresponding to |image3|, used to switch to the topology view of resource relationships.",
+          "Referenced in the procedure step for viewing relationships through the topology view."
+        ],
+        "missing_evidence": [
+          "No label; meaning inferred from RST context."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/my_resources/viewing_resources/exporting_resource_information.rst",
+    "title": "Exporting Resource Information",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001342533740.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533740.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533740.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001342374064.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342374064.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342374064.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001393093953.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093953.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093953.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/exporting_resource_information.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533740.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Service List page with services organized by category (Computing, Storage, Network, Security, Application, Database, Data Analysis, Management & Deployment)",
+          "Resource Management is highlighted with a red box under Management & Deployment, matching the navigation path in step 2",
+          "Corresponds to Figure 1 'RMS service entry' as labeled in the RST",
+          "The left sidebar shows Service List expanded, consistent with the procedure description"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/exporting_resource_information.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342374064.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the My Resources page within Resource Management with a table of resources (Name, Region, Service, Resource Type, Enterprise Project, Operation)",
+          "A red box highlights the export icon on the right side of the toolbar, matching step 3 'Click the export icon on the right of the refresh button','Corresponds to Figure 2 'Exporting resource information' as labeled in the RST",
+          "The page shows filters for Service, Region, and Selected, consistent with the 'filtered resources' mentioned in the scenarios section"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/exporting_resource_information.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093953.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small symbolic icon showing an export symbol (box with arrow pointing outward/up-right)",
+          "Directly referenced in the RST as |image1| in step 3: 'Click |image1| on the right of the refresh button'",
+          "The icon visually represents the export action described in the procedure",
+          "Matches the icon highlighted in the red box in Image 2"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/my_resources/viewing_resources/filtering_resources.rst",
+    "title": "Filtering Resources",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001342693632.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342693632.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342693632.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001393093961.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093961.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093961.png",
+        "kind": "figure",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001342533748.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533748.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533748.png",
+        "kind": "substitution_image",
+        "line": 57,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/filtering_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342693632.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Service List page of a cloud management console with Resource Management highlighted under Management & Deployment.",
+          "Matches Figure 1 caption 'RMS service entry' and step 2 instruction to choose Service List > Management & Deployment > Resource Management.",
+          "The red box around 'Resource Management' clearly indicates the target entry point for the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/filtering_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093961.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the My Resources page with a search box and an open dropdown listing filter criteria: Name, Resource ID, and Tags.",
+          "Matches Figure 2 caption 'Filtering resources' and step 3 instruction to click the search box and set the filter criterion.",
+          "The Enterprise Project dropdown is also visible, consistent with the supported filter criteria table in the RST.",
+          "The resource table with Name, Region, Service, Enterprise Project, and Operation columns is clearly displayed."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/filtering_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533748.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small magnifying-glass (search) icon, consistent with the |image1| reference in step 4 'Click |image1|'.",
+          "The icon represents the search action button used to execute the resource filter search.",
+          "It is an isolated symbolic graphic, correctly classified as an icon."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/my_resources/viewing_resources/querying_all_resources.rst",
+    "title": "Querying All Resources",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001393093957.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093957.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093957.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001342853576.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342853576.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342853576.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001342693624.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342693624.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342693624.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001393013553.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393013553.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393013553.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001392893605.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001392893605.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001392893605.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/querying_all_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393093957.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the My Resources page with a resource table, matching Figure 1 'Querying all resources'.",
+          "Service and Region filters are visible with 'All' selected, consistent with viewing all resources.",
+          "The table lists resources with Name, Region, Service, Resource Type, Enterprise Project, and Operation columns.",
+          "Left sidebar shows Resource Management > My Resources, matching the documented navigation."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/querying_all_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342853576.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Service List page with Management & Deployment category visible.",
+          "Resource Management is highlighted with a red box under Management & Deployment, matching Figure 2 'RMS service entry'.",
+          "The navigation path Service List > Management & Deployment > Resource Management is clearly depicted.",
+          "Top navigation bar shows Open Telekom Cloud with Service List active, consistent with the procedure step."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/querying_all_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342693624.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the My Resources page with the 'More' button highlighted in a red box, matching Figure 3.",
+          "The toggle 'Only display cloud services and regions that contain resources' is OFF, showing the default state.",
+          "Service list shows a subset of services (All(897), ECS, RDS, DDB, etc.) consistent with the default view before clicking More.",
+          "The resource table below shows Elastic Cloud Server resources, confirming the My Resources context."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/querying_all_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393013553.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Image shows the My Resources page with the toggle 'Only display cloud services and regions that contain resources' turned ON (highlighted in red box).",
+          "The RST labels this as Figure 4 'Viewing all supported cloud services', but the ON toggle state more closely matches Figure 5's description of showing services with resources associated.",
+          "The service list shows All(604) with multiple services, which is relevant to the section but the specific state (toggle ON) is a partial mismatch with the 'all supported cloud services' caption.",
+          "The image is clearly from the correct page and section, providing visual evidence of the My Resources interface."
+        ],
+        "missing_evidence": [
+          "The image does not clearly show the expanded 'More' view of all supported cloud services; instead it shows the filtered (resources-associated) state.",
+          "Possible swap between Figure 4 and Figure 5 image assignments in the RST."
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/querying_all_resources.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001392893605.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Image shows the My Resources page with an expanded service list organized by categories (All, Network, Storage, Computing, Database) and a search box.",
+          "The RST labels this as Figure 5 'Viewing cloud services with resources associated', but the expanded category view with a 'Fold' button more closely matches Figure 4's description of viewing all supported cloud services after clicking More.",
+          "The image does not clearly show the toggle ON state for 'resources associated'; instead it shows the expanded service list.",
+          "The image is from the correct page and section, providing relevant visual evidence of the My Resources interface."
+        ],
+        "missing_evidence": [
+          "The image does not clearly show the 'Only display cloud services and regions that contain resources' toggle in its ON state.",
+          "Possible swap between Figure 4 and Figure 5 image assignments in the RST."
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/my_resources/viewing_resources/querying_details_about_a_resource.rst",
+    "title": "Querying Details About a Resource",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001342853580.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342853580.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342853580.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001342533744.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533744.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533744.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001393013549.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393013549.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393013549.png",
+        "kind": "figure",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/querying_details_about_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342853580.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the My Resources page with a resource table (Name, Region, Service, Resource Type, Enterprise Project, Operation), matching Figure 1 'Part of resource information displayed'.",
+          "The Operation column contains 'View Details' links, consistent with the procedure text about viewing resource details.",
+          "Service and Region filter chips and a search box are visible, matching the described My Resources page."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/querying_details_about_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001342533744.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Service List page with a 'Management & Deployment' category containing 'Resource Management', matching Figure 2 'RMS service entry'.",
+          "The 'Resource Management' entry is highlighted/boxed, consistent with step 2 of choosing Service List > Management & Deployment > Resource Management.",
+          "Left navigation shows 'Service List' as the active entry, matching the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/my_resources/viewing_resources/querying_details_about_a_resource.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393013549.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a resource detail panel with an 'Overview' tab and a 'View Details' link in the upper right, matching Figure 3 'Resource overview' and step 3/4 of the procedure.",
+          "Overview fields (Name, ID, Service, Resource Type, Region, Enterprise Project, Created, Specifications, Status, AZ) are displayed, consistent with viewing resource overview.",
+          "The left side still shows the My Resources list, matching the context of clicking a resource name to switch to the Overview tab."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_rms.rst",
+    "title": "What Is RMS?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001393253481.png",
+        "original_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393253481.png",
+        "used_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393253481.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/what_is_rms.rst",
+        "image_path": "/home/ubuntu/repotesting/resource-management-service/umn/source/_static/images/en-us_image_0000001393253481.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  }
+]

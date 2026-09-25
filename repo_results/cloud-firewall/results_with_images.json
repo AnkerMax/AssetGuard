@@ -1,0 +1,4226 @@
+[
+  {
+    "file_path": "api-ref/source/appendix/obtaining_a_project_id.rst",
+    "title": "Obtaining a Project ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0277985093.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0277985093.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0277985093.jpg",
+        "kind": "figure",
+        "line": 20,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/attack_defense/blocking_network_attacks.rst",
+    "title": "Blocking Network Attacks",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 94,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001969790077.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969790077.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969790077.png",
+        "kind": "substitution_image",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001969671085.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969671085.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969671085.png",
+        "kind": "substitution_image",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/attack_defense/blocking_network_attacks.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 1,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), a generic navigation UI element.",
+          "It is referenced in the RST as the button to click in the navigation pane to access Security > Cloud Firewall.",
+          "The icon is not specific to blocking network attacks but serves as a navigation entry point.",
+          "The visual clearly matches a standard hamburger/menu icon used in cloud management consoles."
+        ],
+        "missing_evidence": [
+          "No specific Cloud Firewall branding or context is visible in the icon itself.",
+          "The icon is generic and could represent any navigation menu in any application."
+        ],
+        "overall_score": 0.67,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/attack_defense/blocking_network_attacks.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969790077.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a toggle switch icon in the off position, used to enable Sensitive Directory Scan Defense.",
+          "The RST states 'click [image] to enable protection' in the Sensitive Directory Scan Defense area, which matches a toggle switch interaction.",
+          "The toggle is directly relevant to the section on enabling sensitive directory scan defense as part of blocking network attacks.",
+          "The visual clearly shows a standard on/off toggle switch control."
+        ],
+        "missing_evidence": [
+          "No label or text is visible on the toggle to confirm it is specifically for Sensitive Directory Scan Defense.",
+          "The toggle appears in the off state, which is consistent with the instruction to click it to enable the feature."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/attack_defense/blocking_network_attacks.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001969671085.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a toggle switch icon in the off position, used to enable Reverse Shell Defense.",
+          "The RST states 'click [image] to enable defense' in the Reverse Shell Defense module, which matches a toggle switch interaction.",
+          "The toggle is directly relevant to the section on enabling reverse shell defense as part of blocking network attacks.",
+          "The visual clearly shows a standard on/off toggle switch control."
+        ],
+        "missing_evidence": [
+          "No label or text is visible on the toggle to confirm it is specifically for Reverse Shell Defense.",
+          "The toggle appears in the off state, which is consistent with the instruction to click it to enable the feature."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/attack_defense/blocking_virus-infected_files.rst",
+    "title": "Blocking Virus-infected Files",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001617930157.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001617930157.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001617930157.png",
+        "kind": "substitution_image",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/attack_defense/blocking_virus-infected_files.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), a standard navigation symbol.",
+          "The RST instructs 'click |image1| and choose Security > Cloud Firewall', which is consistent with a hamburger menu opening a navigation pane.",
+          "The icon is a generic UI element, not specific to antivirus or Cloud Firewall functionality.",
+          "Used in two separate sections (Enabling Antivirus and Modifying the Virus Defense Action) for the same navigation step."
+        ],
+        "missing_evidence": [
+          "The icon does not show any text or labels specific to Cloud Firewall or Security.",
+          "No indication of the navigation pane content that would appear after clicking the icon."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/attack_defense/blocking_virus-infected_files.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001617930157.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a toggle switch icon in the off/disabled position, consistent with the RST instruction to 'Click |image2| to enable antivirus.'",
+          "The toggle represents the antivirus enable/disable control, directly matching the topic of blocking virus-infected files.",
+          "The RST note states 'After antivirus is enabled, Current Action is Disable by default,' which aligns with the toggle being in the off state before activation.",
+          "The icon is used in step 5 of the 'Enabling Antivirus to Block Virus-infected Files' section, making it highly relevant to that section."
+        ],
+        "missing_evidence": [
+          "No label or text visible on the toggle to confirm it specifically controls antivirus.",
+          "The surrounding UI context (e.g., the Antivirus page) is not visible in the image."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/attack_defense/ips_rule_management/customizing_ips_signatures.rst",
+    "title": "Customizing IPS Signatures",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 154,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/attack_defense/ips_rule_management/customizing_ips_signatures.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-style menu icon (three horizontal bars), matching the |image1| reference used in step 2 to open the left navigation pane.",
+          "It is an isolated UI symbol/pictogram rather than a full interface screenshot, so it is classified as an icon.",
+          "The icon is semantically relevant to the procedure for navigating to Security > Cloud Firewall within the IPS signature customization steps.",
+          "No visible interactive button set is present; it is a single symbolic menu toggle."
+        ],
+        "missing_evidence": [
+          "The image does not show the navigation pane contents (Security, Cloud Firewall) that the text says appear after clicking the icon.",
+          "No labels or context are visible in the icon itself to confirm it is the CFW management console menu."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/attack_defense/ips_rule_management/modifying_the_protection_action_of_an_intrusion_prevention_rule.rst",
+    "title": "Modifying the Protection Action of an Intrusion Prevention Rule",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 79,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/attack_defense/ips_rule_management/modifying_the_protection_action_of_an_intrusion_prevention_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal lines with a small accent mark on the left), matching the |image1| placeholder used in step 2 of the procedure.",
+          "It functions as the navigation entry point to reach Security > Cloud Firewall, which is consistent with the documented login/navigation steps.",
+          "It is an isolated symbolic UI graphic rather than a full application or page screenshot, so it is classified as an icon.",
+          "The icon is generic and does not depict IPS rule actions, so its topical relevance to the core topic (modifying protection actions) is indirect."
+        ],
+        "missing_evidence": [
+          "No text labels or menu items are visible on the icon itself.",
+          "The image does not show the resulting Cloud Firewall Dashboard or any IPS rule interface.",
+          "No visual indication of the specific menu it opens beyond the generic hamburger symbol."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/attack_defense/viewing_attack_defense_information_on_the_dashboard.rst",
+    "title": "Viewing Attack Defense Information on the Dashboard",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/attack_defense/viewing_attack_defense_information_on_the_dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-style menu icon (three horizontal bars), matching the RST reference |image1| used in step 2 to open the navigation pane.",
+          "It is an isolated symbolic UI graphic, not a full screenshot, so it is classified as an icon.",
+          "The icon is semantically relevant to the navigation procedure for reaching Security > Cloud Firewall, though it is generic and not specific to attack defense content.",
+          "No contradiction between the icon and the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The image does not show the navigation pane or the Security/Cloud Firewall menu items it is meant to open.",
+          "No label or context is visible in the icon itself to confirm it is the specific menu control described."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/checking_the_dashboard.rst",
+    "title": "Checking the Dashboard",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 121,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001986387925.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001986387925.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001986387925.png",
+        "kind": "substitution_image",
+        "line": 122,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/checking_the_dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), a standard navigation symbol.",
+          "The RST references |image1| in step 2: 'click |image1| and choose Security > Cloud Firewall', which matches a navigation pane menu icon.",
+          "The icon is consistent with opening a left-side navigation pane in a management console.",
+          "No contradictions between the image and the document context."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern, but the three-line hamburger pattern is clear."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/checking_the_dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001986387925.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a pencil/edit icon, a standard symbol for modifying or editing a field.",
+          "The RST references |image2| in Table 2 under Firewall Name: 'You can click |image2| to change the name', which matches an edit icon.",
+          "The icon is placed in the context of firewall instance details, specifically the name field, which is consistent with an edit action.",
+          "No contradictions between the image and the document context."
+        ],
+        "missing_evidence": [
+          "The icon is small and slightly blurry, but the pencil shape is clearly identifiable."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/adding_blacklist_or_whitelist_items_to_block_or_allow_traffic.rst",
+    "title": "Adding Blacklist or Whitelist Items to Block or Allow Traffic",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/adding_blacklist_or_whitelist_items_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger/navigation menu icon (three horizontal bars), matching the |image1| reference used in step 2 to open the navigation pane.",
+          "It is semantically consistent with the instruction to click the navigation icon and choose Security > Cloud Firewall.",
+          "The icon is an isolated UI symbol, not a full screenshot, so it is classified as an icon.",
+          "No contradiction between the icon and the surrounding procedure text."
+        ],
+        "missing_evidence": [
+          "The icon is generic and does not show the 'Security' or 'Cloud Firewall' menu items it is meant to open.",
+          "No surrounding console UI is visible to confirm the exact placement of the navigation icon."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+    "title": "Adding Protection Rules to Block or Allow Traffic",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001532325404.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532325404.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532325404.png",
+        "kind": "substitution_image",
+        "line": 444,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001582605405.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001582605405.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001582605405.png",
+        "kind": "substitution_image",
+        "line": 445,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001532202610.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532202610.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532202610.png",
+        "kind": "substitution_image",
+        "line": 446,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001532362570.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532362570.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532362570.png",
+        "kind": "substitution_image",
+        "line": 447,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001937115664.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001937115664.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001937115664.png",
+        "kind": "substitution_image",
+        "line": 448,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001964194709.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964194709.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964194709.png",
+        "kind": "substitution_image",
+        "line": 449,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532325404.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch icon in the 'on' (enabled) position, matching the RST label '|image1|: enabled'.",
+          "Used in Table 1 (Internet boundary rule parameters) under the Status parameter, which is the correct context.",
+          "The blue/active toggle clearly represents an enabled state, consistent with the document's description of policy status."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001582605405.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch icon in the 'off' (disabled) position, matching the RST label '|image2|: disabled'.",
+          "Used in Table 1 (Internet boundary rule parameters) under the Status parameter, which is the correct context.",
+          "The gray/inactive toggle clearly represents a disabled state, consistent with the document's description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532202610.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch icon in the 'on' (enabled) position, matching the RST label '|image3|: enabled'.",
+          "Used in Table 2 (VPC border protection rule parameters) under the Status parameter, which is the correct context.",
+          "The blue/active toggle clearly represents an enabled state, consistent with the document's description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001532362570.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch icon in the 'off' (disabled) position, matching the RST label '|image4|: disabled'.",
+          "Used in Table 2 (VPC border protection rule parameters) under the Status parameter, which is the correct context.",
+          "The gray/inactive toggle clearly represents a disabled state, consistent with the document's description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001937115664.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch icon in the 'on' (enabled) position, matching the RST label '|image5|: enabled'.",
+          "Used in Table 3 (SNAT protection rule parameters) under the Status parameter, which is the correct context.",
+          "The blue/active toggle clearly represents an enabled state, consistent with the document's description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/adding_protection_rules_to_block_or_allow_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964194709.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch icon in the 'off' (disabled) position, matching the RST label '|image6|: disabled'.",
+          "Used in Table 3 (SNAT protection rule parameters) under the Status parameter, which is the correct context.",
+          "The gray/inactive toggle clearly represents a disabled state, consistent with the document's description."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_1_allowing_the_inbound_traffic_from_a_specified_ip_address.rst",
+    "title": "Example 1: Allowing the Inbound Traffic from a Specified IP Address",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936832142.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "kind": "figure",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001936832146.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832146.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832146.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_1_allowing_the_inbound_traffic_from_a_specified_ip_address.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a CFW protection rule configuration UI with Inbound direction selected, matching the document's description of Figure 1.",
+          "Source, Destination, and Service are all set to 'Any', consistent with the 'block all traffic' rule described in the RST.",
+          "Protection Action is set to 'Block', matching the figure caption 'Blocking all traffic'.",
+          "The UI layout with Matching Condition and Protection Action sections is consistent with a cloud firewall rule configuration page."
+        ],
+        "missing_evidence": [
+          "No priority field is visible in the screenshot, though the RST mentions the rule has the lowest priority."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_1_allowing_the_inbound_traffic_from_a_specified_ip_address.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832146.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a CFW protection rule configuration UI with Inbound direction selected, matching the document's description of Figure 2.",
+          "Source is set to 'IP Address' with a specific IP value entered in the input field, consistent with 'allowing a specified IP address'.",
+          "Destination and Service are set to 'Any', and Protection Action is set to 'Allow', matching the figure caption.",
+          "The UI layout is consistent with the companion Figure 1, showing the same form structure with different parameter selections."
+        ],
+        "missing_evidence": [
+          "No priority field is visible in the screenshot, though the RST mentions the rule has the highest priority.",
+          "The specific IP address value in the input field is partially obscured by a tag/chip element."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_2_blocking_access_from_a_region.rst",
+    "title": "Example 2: Blocking Access from a Region",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001964045585.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964045585.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964045585.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/configuring_protection_rules_to_block_or_allow_traffic/example_2_blocking_access_from_a_region.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001964045585.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI configuration screenshot showing a protection rule's Matching Condition and Protection Action, matching the figure caption 'Intercepting the access traffic from Germany'.",
+          "Source is set to 'Countries and regions' with 'Germany' selected, Direction is Inbound, Destination and Service are 'Any', and Action is 'Block', exactly matching the RST description of blocking all access traffic from Germany.",
+          "The visible warning note about selecting a continent aligns with the region-based blocking context.",
+          "No visible element contradicts the RST text or figure caption."
+        ],
+        "missing_evidence": [
+          "The image does not show the rule name or the full rule list, but these are not required by the RST."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/adding_a_domain_name_group.rst",
+    "title": "Adding a Domain Name Group",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 114,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 115,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/adding_a_domain_name_group.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu pictogram (three horizontal bars), an isolated UI symbol, so it is classified as an icon.",
+          "In the RST it is used as |image1| in the step 'click |image1| and choose Security > Cloud Firewall', which is consistent with a navigation/menu icon.",
+          "The icon is relevant to the navigation steps in the 'Adding a Domain Name Group' section.",
+          "The visual content clearly shows a menu icon, providing direct visual evidence.",
+          "No contradiction between the icon and the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The image is a generic menu icon without labels, so it does not itself confirm the 'Security > Cloud Firewall' path.",
+          "No surrounding UI context is visible to confirm it is the navigation pane control."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/deleting_a_domain_name_group.rst",
+    "title": "Deleting a Domain Name Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/domain_name_management/deleting_a_domain_name_group.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars), matching the RST reference |image1| used in step 2 to open the left navigation pane.",
+          "It is an isolated UI symbol, not a full screenshot, so it is classified as an icon.",
+          "The icon is semantically consistent with the instruction to click it and then choose Security > Cloud Firewall.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The icon does not show the navigation pane contents (Security > Cloud Firewall) that the text describes after clicking it.",
+          "No label or context is visible in the image to confirm it specifically opens the Cloud Firewall navigation."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/adjusting_the_priority_of_a_protection_rule.rst",
+    "title": "Adjusting the Priority of a Protection Rule",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/adjusting_the_priority_of_a_protection_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-style navigation icon (three horizontal bars), matching its use in the RST as the navigation pane icon to click before choosing Security > Cloud Firewall.",
+          "It is referenced in the procedural steps of the 'Adjusting the Priority of a Protection Rule' section, so it is contextually relevant to the task.",
+          "The icon is a generic navigation symbol and does not itself depict priority adjustment, so topic and detail match are moderate rather than high.",
+          "No contradiction between the image and the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The image does not show the actual Cloud Firewall console, the Access Policies page, or the Configure Priority control, so it provides no direct visual evidence of the priority-adjustment action.",
+          "No labels or text are visible in the icon to confirm it specifically represents the navigation pane entry described."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/importing_and_exporting_protection_policies.rst",
+    "title": "Importing and Exporting Protection Policies",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 254,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 255,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/importing_and_exporting_protection_policies.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger menu icon (three horizontal bars), matching the navigation-pane icon referenced by |image1|/|image2| in the steps.",
+          "It is used in the instruction 'click |image1| and choose Security > Cloud Firewall', which is consistent with a navigation menu toggle icon.",
+          "The icon is clearly visible and unambiguous as a menu/hamburger symbol.",
+          "No contradiction between the icon and the surrounding RST navigation instructions."
+        ],
+        "missing_evidence": [
+          "The image is a generic hamburger icon without any product-specific branding or labels, so it cannot be tied to a specific console UI element beyond a navigation menu.",
+          "No surrounding UI context is shown to confirm the exact placement of the icon within the management console."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/managing_protection_rules.rst",
+    "title": "Managing Protection Rules",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 99,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/managing_protection_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars), consistent with a navigation-pane toggle.",
+          "The RST uses this icon as the click target to open the navigation pane and choose Security > Cloud Firewall, which matches a menu-toggle symbol.",
+          "The same icon is referenced in all four procedural sections (viewing, editing, copying, deleting), so it is relevant to each section.",
+          "The visual content clearly shows an isolated pictogram with no surrounding UI, supporting the 'icon' classification."
+        ],
+        "missing_evidence": [
+          "The icon is generic and does not itself display the 'Security' or 'Cloud Firewall' menu items described in the text.",
+          "No surrounding navigation pane or page context is visible to confirm the exact placement of the icon."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/managing_the_blacklist_and_the_whitelist.rst",
+    "title": "Managing the Blacklist and the Whitelist",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 76,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_access_control_policies/managing_the_blacklist_and_the_whitelist.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-style menu icon (three horizontal bars), matching its use as a navigation-pane toggle in the steps.",
+          "It is referenced in both the 'Editing' and 'Removing' sections as the icon to click to open the navigation pane for Security > Cloud Firewall.",
+          "The icon is generic and not specific to blacklist/whitelist content, so detail match is limited.",
+          "No contradiction between the icon and the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The icon does not show any label or context confirming it is the Cloud Firewall navigation menu specifically.",
+          "No surrounding UI is visible to confirm the exact placement of the icon."
+        ],
+        "overall_score": 0.7,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_ip_address_groups/adding_user-defined_ip_addresses_and_address_groups.rst",
+    "title": "Adding User-defined IP Addresses and Address Groups",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_ip_address_groups/adding_user-defined_ip_addresses_and_address_groups.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-style menu icon (three horizontal bars), matching the navigation menu control referenced in step 2 of the procedure.",
+          "The RST uses this icon as the click target to open the navigation pane before choosing Security > Cloud Firewall, so it is semantically relevant to the access-control workflow.",
+          "The icon is an isolated UI symbol rather than a full screenshot, consistent with an inline navigation button reference.",
+          "No visible text or context contradicts its use as a menu/navigation icon."
+        ],
+        "missing_evidence": [
+          "The icon carries no label or surrounding UI, so its exact target (navigation menu) is inferred from the RST text rather than visible in the image.",
+          "No indication of the specific product branding or menu state is visible in the icon."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_ip_address_groups/deleting_ip_address_groups.rst",
+    "title": "Deleting IP Address Groups",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_ip_address_groups/deleting_ip_address_groups.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars), matching the RST reference |image1| used to open the left navigation pane.",
+          "It is placed in step 2 of the 'Deleting User-defined IP Address Groups' procedure, where the user clicks the icon to reach Security > Cloud Firewall.",
+          "The icon is a generic navigation symbol, so it is topically relevant but not specific to IP address group deletion.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The icon alone does not show the navigation pane contents (Security > Cloud Firewall) it is meant to open.",
+          "No surrounding UI context is visible to confirm the exact placement of the icon."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_ip_address_groups/viewing_a_predefined_address_group.rst",
+    "title": "Viewing a Predefined Address Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/managing_ip_address_groups/viewing_a_predefined_address_group.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars), matching the |image1| reference used in step 2 to open the left navigation pane.",
+          "It is an isolated UI symbol, not a full screenshot, so it is classified as an icon.",
+          "The icon is semantically relevant to the navigation step that leads to Security > Cloud Firewall, but it does not depict address groups directly.",
+          "No contradiction between the icon and the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The image does not show the navigation pane contents (Security, Cloud Firewall) that the text describes after clicking the icon.",
+          "No label or context is visible in the icon itself to confirm it is the specific menu control referenced."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/service_group_management/adding_a_user-defined_service_group.rst",
+    "title": "Adding a User-defined Service Group",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 90,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/service_group_management/adding_a_user-defined_service_group.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars), an isolated UI symbol, matching the 'icon' classification.",
+          "The RST uses this icon as the navigation trigger: 'click |image1| and choose Security > Cloud Firewall', which is consistent with a menu icon.",
+          "The icon is generic and not specific to service groups, so topic and detail match are partial rather than exact.",
+          "The icon is referenced in both the 'Adding a User-defined Service Group' and 'Adding a Service' step sequences, making it relevant to those sections.",
+          "The visual content (three horizontal lines) is clearly visible and unambiguous."
+        ],
+        "missing_evidence": [
+          "The image does not show the navigation pane, the 'Security' or 'Cloud Firewall' labels, or any service-group UI, so it cannot confirm the downstream steps.",
+          "No context (surrounding UI) is present to verify the exact placement of the menu icon within the console."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/service_group_management/deleting_a_user-defined_service_group.rst",
+    "title": "Deleting a User-defined Service Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/service_group_management/deleting_a_user-defined_service_group.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars), matching the |image1| reference used in step 2 to open the navigation pane.",
+          "It is an isolated symbolic UI graphic, so it is classified as an icon rather than a screenshot.",
+          "The icon is semantically consistent with the instruction to click it and choose Security > Cloud Firewall, supporting the navigation step in the deletion procedure.",
+          "No contradiction between the icon and the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The icon is generic and does not itself show the Security > Cloud Firewall menu items it is meant to open.",
+          "No surrounding UI context is visible to confirm the exact placement of the menu toggle."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/service_group_management/viewing_a_predefined_service_group.rst",
+    "title": "Viewing a Predefined Service Group",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/service_group_management/viewing_a_predefined_service_group.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars), matching the |image1| reference used in step 2 to open the left navigation pane.",
+          "It is an isolated UI symbol, not a full screenshot, so it is classified as an icon.",
+          "The icon is semantically consistent with the instruction to click it and then choose Security > Cloud Firewall.",
+          "No contradiction between the icon and the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The image does not show the navigation pane contents (Security > Cloud Firewall) that the text describes after clicking the icon.",
+          "No surrounding console UI is visible to confirm the exact placement of the menu toggle."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_access_control_policies_to_control_traffic/viewing_protection_information_using_the_policy_assistant.rst",
+    "title": "Viewing Protection Information Using the Policy Assistant",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_access_control_policies_to_control_traffic/viewing_protection_information_using_the_policy_assistant.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 1,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small symbolic graphic: three stacked horizontal bars forming a hamburger/navigation menu icon.",
+          "In the RST it is referenced as |image1| in step 2, the element clicked in the left navigation pane to reach Security > Cloud Firewall.",
+          "It is a generic navigation icon, not specific to the Policy Assistant content, so detail match is low.",
+          "No contradiction with the surrounding text; it serves as the navigation trigger icon."
+        ],
+        "missing_evidence": [
+          "No text or label in the image to confirm it represents the navigation menu.",
+          "No surrounding UI context (e.g., the Cloud Firewall dashboard) is shown in the image."
+        ],
+        "overall_score": 0.65,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/creating_a_pay-per-use_cfw.rst",
+    "title": "Creating a Pay-per-Use CFW",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/creating_a_pay-per-use_cfw.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger-menu (three horizontal lines) icon, which is a standard navigation-pane toggle in cloud management consoles.",
+          "The RST step 2 instructs the user to 'click |image1| and choose Security > Cloud Firewall', which is consistent with clicking a navigation menu icon to reveal the service list.",
+          "The icon is generic and not specific to Cloud Firewall, so topic and detail match are moderate rather than high.",
+          "No contradiction between the icon and the surrounding text; the icon serves its intended purpose as a navigation trigger."
+        ],
+        "missing_evidence": [
+          "The icon does not show the 'Security' or 'Cloud Firewall' labels, so the specific navigation path is not visually confirmed.",
+          "No surrounding UI context (e.g., the navigation pane or dashboard) is visible to confirm the exact console layout."
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enabling_internet_border_traffic_protection.rst",
+    "title": "Enabling Internet Border Traffic Protection",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enabling_internet_border_traffic_protection.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal lines with a small accent dot), which is an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is referenced in step 2 of the 'Enabling Internet Border Traffic Protection' procedure: 'click |image1| and choose Security > Cloud Firewall', which matches a navigation-pane menu icon.",
+          "The icon is directly relevant to the step-by-step section where the user must open the navigation pane to reach Cloud Firewall.",
+          "The visual content (three stacked horizontal bars) is the standard representation of a hamburger/menu toggle, consistent with the textual instruction to click it to reveal the navigation pane.",
+          "No contradiction exists between the image and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding navigation pane or the 'Security > Cloud Firewall' menu items, so the full navigation context is not visible.",
+          "The small red/orange dot on the left of each bar is ambiguous; it may be a status indicator or an artifact, but its meaning is not stated in the RST."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/configuring_an_enterprise_router.rst",
+    "title": "Configuring an Enterprise Router",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001636363317.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001636363317.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001636363317.png",
+        "kind": "figure",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 208,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/configuring_an_enterprise_router.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001636363317.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/configuring_an_enterprise_router.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal lines), matching its use in step 2 as the navigation-pane menu button.",
+          "It is referenced in the Procedure section to open the navigation pane before choosing Security > Cloud Firewall, which is consistent with the document topic.",
+          "The visual content (three stacked horizontal bars) is clearly a standard menu/pictogram symbol, not a full UI screenshot."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is shown, so the exact console or page where the icon appears cannot be confirmed from the image alone.",
+          "The icon is generic and could represent any navigation menu, so its specific association with the Cloud Firewall console is inferred from the RST text rather than the image."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/creating_a_vpc_border_firewall.rst",
+    "title": "Creating a VPC Border Firewall",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/creating_a_vpc_border_firewall.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small three-line (hamburger) menu icon, matching its use in step 2 as the navigation-pane control to open the menu.",
+          "It is referenced in the Procedure section where the user clicks the icon to choose Security > Cloud Firewall, so it is contextually relevant.",
+          "The icon is generic and not specific to VPC border firewall content, limiting topic and detail specificity.",
+          "The visual content (three horizontal bars) is clearly visible and unambiguous."
+        ],
+        "missing_evidence": [
+          "No label or surrounding UI is shown, so the exact menu it opens is not visible in the image itself.",
+          "The image does not depict the Cloud Firewall or VPC border firewall interface, only a generic navigation symbol."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/enabling_or_disabling_a_vpc_border_firewall.rst",
+    "title": "Enabling or Disabling a VPC Border Firewall",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/enabling_or_disabling_a_vpc_border_firewall.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars), an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is referenced in Procedure step 2 as the control to click in order to open the left navigation pane, which matches a hamburger menu icon.",
+          "The icon is placed in the Procedure section and directly supports the navigation step for reaching Cloud Firewall.",
+          "The visual content (three stacked horizontal lines) is clearly legible and consistent with a navigation toggle symbol.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is a generic navigation icon and does not itself show the 'Security > Cloud Firewall' menu items mentioned in the step.",
+          "No surrounding UI context is visible to confirm the exact placement of the icon within the console."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/purchasing_an_enterprise_router.rst",
+    "title": "Purchasing an Enterprise Router",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/enterprise_router_mode/purchasing_an_enterprise_router.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a three-line hamburger menu icon, a small isolated UI symbol, matching the 'icon' classification.",
+          "In the RST, |image1| is used in step 2 to indicate clicking the navigation menu icon to reach Security > Cloud Firewall, so the icon is semantically relevant to the procedure.",
+          "The visual content (three horizontal bars) clearly corresponds to a navigation/menu toggle icon, providing strong visual evidence for its use as a clickable menu symbol.",
+          "The icon is generic and not specific to enterprise routers, so topic and detail match are moderate rather than exact."
+        ],
+        "missing_evidence": [
+          "The image does not show any label or context confirming it is the specific navigation icon for the Cloud Firewall console.",
+          "No surrounding UI is visible to confirm the exact placement in the left navigation pane."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_border_firewall_overview.rst",
+    "title": "VPC Border Firewall Overview",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001690646797.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001690646797.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001690646797.png",
+        "kind": "figure",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001525350932.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001525350932.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001525350932.png",
+        "kind": "figure",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_border_firewall_overview.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001690646797.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_border_firewall_overview.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001525350932.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/configuring_vpc_route.rst",
+    "title": "Configuring VPC Route",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001625319329.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001625319329.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001625319329.png",
+        "kind": "substitution_image",
+        "line": 41,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/configuring_vpc_route.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001625319329.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), matching the RST reference |image1| used to open the navigation tree in the upper left corner.",
+          "It is placed in the Procedure step 2 where the user clicks the menu icon to access Virtual Private Cloud > Route Tables.",
+          "The icon is a small isolated UI symbol, correctly classified as an icon.",
+          "No contradiction between the image and the surrounding text."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is shown; only the isolated menu symbol is visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/creating_a_firewall_vpc_mode.rst",
+    "title": "Creating a Firewall (VPC Mode)",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/creating_a_firewall_vpc_mode.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-style menu pictogram (three horizontal bars), matching the navigation-pane toggle referenced in step 2.",
+          "The RST uses |image1| as the clickable element to open the navigation pane before choosing Security > Cloud Firewall, so the icon is semantically consistent with that step.",
+          "It is an isolated UI symbol rather than a full interface capture, so it is classified as an icon.",
+          "No contradiction between the icon and the surrounding procedure text."
+        ],
+        "missing_evidence": [
+          "The icon is generic and does not itself show the 'Security' or 'Cloud Firewall' menu items it is meant to open.",
+          "No surrounding console UI is visible to confirm the exact placement of the menu toggle."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/enabling_or_disabling_a_vpc_border_firewall.rst",
+    "title": "Enabling or Disabling a VPC Border Firewall",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/enabling_or_disabling_a_vpc_border_firewall.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars), a common navigation toggle symbol.",
+          "The RST references this icon in the step 'In the navigation pane on the left, click |image1| and choose Security > Cloud Firewall', which matches a menu-opening icon.",
+          "The icon is used in both the Enabling and Disabling sections as the navigation entry point, so it is relevant to the procedure.",
+          "The visual content (three stacked bars) is clearly a menu/pictogram symbol with no contradictory elements."
+        ],
+        "missing_evidence": [
+          "The image is an isolated symbol; it does not show the actual navigation pane or the Security > Cloud Firewall menu items it is meant to open.",
+          "No surrounding UI context is visible to confirm the exact console layout."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/managing_protected_vpcs.rst",
+    "title": "Managing Protected VPCs",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001625198857.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001625198857.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001625198857.png",
+        "kind": "substitution_image",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 86,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/managing_protected_vpcs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon (three horizontal lines), consistent with a navigation pane toggle used to access the Cloud Firewall section.",
+          "The RST references this image in step 2 of both the associating and disassociating procedures as the element to click before choosing Security > Cloud Firewall.",
+          "The icon is generic and not specific to VPC or firewall content, but it is semantically appropriate for the navigation context described."
+        ],
+        "missing_evidence": [
+          "The image does not show any text or label identifying it as a navigation menu; it is a generic hamburger icon.",
+          "No surrounding UI context is visible to confirm it belongs to a specific console navigation pane."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/enabling_vpc_border_traffic_protection/vpc_mode/managing_protected_vpcs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001625198857.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a plus-in-circle icon with the label 'Add', matching the RST instruction to click the icon to add a CIDR block in the Firewall Route parameter.",
+          "The icon is directly relevant to the 'Parameters for adding a protected VPC' table where it is referenced for adding additional CIDR blocks.",
+          "The visual content (plus symbol + 'Add' text) clearly corresponds to the add action described in the document."
+        ],
+        "missing_evidence": [
+          "No surrounding form or table context is visible in the image; it is an isolated icon with label.",
+          "The specific CIDR block field or form layout is not shown."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/about_the_product/what_are_the_priorities_of_the_protection_settings_in_cfw.rst",
+    "title": "What Are the Priorities of the Protection Settings in CFW?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001722053142.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001722053142.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001722053142.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/about_the_product/what_are_the_priorities_of_the_protection_settings_in_cfw.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001722053142.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_ips_blocks_normal_services.rst",
+    "title": "What Do I Do If IPS Blocks Normal Services?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001707369821.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001707369821.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001707369821.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_ips_blocks_normal_services.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001707369821.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a table with columns Attack Type, Severity, Rule ID, and Matched Rule, matching the RST description of recording the Rule ID from Attack Event Logs",
+          "The Rule ID column (336842) is highlighted with a red box, consistent with the instruction to 'record the Rule ID'",
+          "The table content (Vulnerability, High severity, Simple HTT...) is consistent with IPS attack event log data",
+          "Image is placed as Figure 1 in step 4 of the Querying Hit Rules section, directly supporting the described action"
+        ],
+        "missing_evidence": [
+          "The full table context (surrounding UI elements, page title) is not visible, only a cropped portion of the table is shown"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_ips_blocks_normal_services.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon (three horizontal lines), a standard navigation symbol",
+          "The RST references this as |image1| in step 2: 'click |image1| and choose Security > Cloud Firewall', which is consistent with a navigation menu icon",
+          "The icon is generic and not specific to Cloud Firewall or IPS topics, but serves the navigation purpose described",
+          "No contradiction between the icon and its described usage in the RST"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact styling",
+          "No surrounding UI context is visible to confirm it belongs to the Cloud Firewall management console navigation pane"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_service_traffic_is_abnormal.rst",
+    "title": "What Do I Do If Service Traffic is Abnormal?",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001922057320.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922057320.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922057320.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001922291358.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922291358.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922291358.png",
+        "kind": "figure",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001950170221.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001950170221.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001950170221.png",
+        "kind": "figure",
+        "line": 104,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001922451014.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922451014.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922451014.png",
+        "kind": "figure",
+        "line": 115,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001922291366.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922291366.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922291366.png",
+        "kind": "figure",
+        "line": 162,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001950170229.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001950170229.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001950170229.png",
+        "kind": "figure",
+        "line": 170,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_service_traffic_is_abnormal.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922057320.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_service_traffic_is_abnormal.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922291358.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the CFW console EIPs page with EIPID, Protection Status, Associated Instance, and Operation columns, matching Figure 2 'EIPs'.",
+          "Displays 'Enable Protection'/'Disable Protection' controls and per-row protection status, consistent with step 1 of the Cause 2 case (disabling EIP protection).",
+          "The selected row shows 'Protected' status with a 'Disable Protection' action, aligning with the described fault-locating procedure."
+        ],
+        "missing_evidence": [
+          "The specific EIP xx.xx.xx.126 mentioned in the text is not visible (IDs are masked/different)."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_service_traffic_is_abnormal.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001950170221.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Access Control Logs tab with filters Action: Block and Source: .126, matching Figure 3 'Filtering access control logs'.",
+          "Log rows show Action 'Block' and Rule 'Block-Malicious-Outreach', consistent with step 2 of the Cause 2 case.",
+          "Columns (Source, Destination, Protocol, Action, Rule) match the described log inspection."
+        ],
+        "missing_evidence": [
+          "Full source IP xx.xx.xx.126 is partially masked in the table."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_service_traffic_is_abnormal.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922451014.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Protection Rules list filtered by Source .126, Action Block, Direction Outbound, matching Figure 4 'Searching for a protection rule'.",
+          "Lists three rules (Block-xxx-com, Block-Malicious-Outreach, Allow-Asia) with a Hits column, matching the caution text describing three valid rules.",
+          "Block-Malicious-Outreach shows a high Hits count (9,821), consistent with the text stating many sessions were blocked."
+        ],
+        "missing_evidence": [
+          "Some destination/source values are masked, so exact IP xx.xx.xx.126 is not fully visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_service_traffic_is_abnormal.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001922291366.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Shows the Attack Event Logs tab filtered by Destination IP Address .90, matching Figure 5 'Filtering attack event logs'.",
+          "Log rows show Severity Critical, Action Block, and a highlighted Rule ID column, consistent with step 2 of the Cause 3 case.",
+          "The displayed Rule ID is 331978, which contradicts the text stating the blocking IPS rule ID was 334841."
+        ],
+        "missing_evidence": [
+          "The rule ID shown (331978) does not match the 334841 referenced in the surrounding text.",
+          "Full destination IP xx.xx.xx.99 is partially masked."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/what_do_i_do_if_service_traffic_is_abnormal.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001950170229.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Basic Protection tab with filter ID: 334841, matching Figure 6 'Rule 334841'.",
+          "The rule row shows ID 334841, Risk Level High, Rule Type Vulnerability Attack, and Current Action Intercept, consistent with step 3 of the Cause 3 case.",
+          "Operation column offers Observe/Intercept/Disable, matching the described action of setting the rule to Observe."
+        ],
+        "missing_evidence": [
+          "Rule name is truncated (Cross-site Scripting...), so the full name is not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/troubleshooting/why_does_a_protection_rule_not_take_effect.rst",
+    "title": "Why Does a Protection Rule Not Take Effect?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001936832142.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 2,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/troubleshooting/why_does_a_protection_rule_not_take_effect.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001936832142.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a Cloud Firewall rule configuration form with Inbound direction, Source: Any, Destination: Any, Service: Any, and Action: Block selected",
+          "This directly matches the RST description of configuring a global blocking rule to block all traffic",
+          "The figure caption 'Blocking all traffic' aligns with the visible settings in the screenshot",
+          "The form layout and field names match the CFW access policy configuration described in the RST"
+        ],
+        "missing_evidence": [
+          "The priority field is not visible in this screenshot, though the RST mentions setting the lowest priority in a separate step"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/why_does_a_protection_rule_not_take_effect.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small hamburger menu icon (three horizontal lines) used as a navigation element",
+          "The RST references it in step 2 as the icon to click in the navigation pane to access Security > Cloud Firewall",
+          "It is a generic UI navigation icon, not specific to the protection rule topic",
+          "The icon is consistent with its use as a menu toggle in a management console interface"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact visual details",
+          "No label or text is visible on the icon itself to confirm it represents the navigation menu"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/system_management/alarm_notification.rst",
+    "title": "Alarm Notification",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 136,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001443711605.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443711605.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443711605.png",
+        "kind": "substitution_image",
+        "line": 137,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 138,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001443792005.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443792005.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443792005.png",
+        "kind": "substitution_image",
+        "line": 139,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 140,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001673130380.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001673130380.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001673130380.png",
+        "kind": "substitution_image",
+        "line": 141,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/system_management/alarm_notification.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon (three horizontal lines), which is the standard icon for opening a navigation pane.",
+          "The RST references this image in step 2 of the Attack Alarm section: 'In the navigation pane on the left, click [image1] and choose Security > Cloud Firewall.'",
+          "The hamburger menu is the correct and expected icon for accessing a navigation pane in a management console.",
+          "This same image is reused for |image3| and |image5| in the High Traffic Warning and EIP Not Protected sections respectively."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/system_management/alarm_notification.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443711605.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a toggle switch in the off (disabled) position, rendered in gray.",
+          "The RST references this image in step 7 of the Attack Alarm section: 'In the Status column of Attack alarm, click [image2] to enable it.'",
+          "A toggle switch in the off position is exactly what a user would click to enable a feature, matching the RST instruction.",
+          "The visual representation is consistent with a status toggle in a management console table."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/system_management/alarm_notification.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001443792005.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a toggle switch in the off (disabled) position, rendered in gray.",
+          "The RST references this image in step 7 of the High Traffic Warning section: 'In the Status column of High Traffic Warning, click [image4] to enable it.'",
+          "A toggle switch in the off position is the correct UI element for enabling a notification feature.",
+          "The visual is consistent with a status toggle in a management console table."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/system_management/alarm_notification.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001673130380.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a toggle switch in the off (disabled) position, rendered in gray.",
+          "The RST references this image in step 7 of the EIP Not Protected section: 'In the Status column of EIP Not Protected, click [image6] to enable it.'",
+          "A toggle switch in the off position is the correct UI element for enabling a notification feature.",
+          "The visual is consistent with a status toggle in a management console table."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/system_management/configuring_a_dns_server.rst",
+    "title": "Configuring a DNS Server",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/system_management/configuring_a_dns_server.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars), matching its use in step 2 as the navigation-pane toggle.",
+          "It is a generic UI symbol, not specific to DNS server configuration, so topic and detail match are moderate.",
+          "It is placed in the 'Configuring a DNS Server' procedure to indicate where to click to open the navigation menu, so it is relevant to the section.",
+          "The visual content clearly shows a navigation menu icon, consistent with the RST instruction to click it and choose Security > Cloud Firewall.",
+          "No contradiction between the image and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image does not show the actual navigation pane, the Security/Cloud Firewall menu, or any DNS-related UI.",
+          "No label or context in the image confirms it is the specific menu icon for the management console."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/system_management/security_report_management/creating_a_security_report.rst",
+    "title": "Creating a Security Report",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/system_management/security_report_management/creating_a_security_report.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small three-line (hamburger) menu icon, matching its use in step 2 as the navigation-pane control to open the menu.",
+          "It is referenced in the RST as |image1| for clicking in the left navigation pane before choosing Security > Cloud Firewall, so it is semantically tied to the procedure.",
+          "The icon is a generic navigation symbol rather than a screenshot of the Security Report page, so it only partially illustrates the specific task.",
+          "No visible contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The icon does not show the actual navigation pane, the Security/Cloud Firewall menu items, or the Security Report page described in the steps.",
+          "No label or context in the image confirms it is the specific menu control for Cloud Firewall."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/system_management/security_report_management/managing_security_reports.rst",
+    "title": "Managing Security Reports",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 66,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001790475961.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001790475961.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001790475961.png",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001743556254.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001743556254.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001743556254.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/system_management/security_report_management/managing_security_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a hamburger menu icon (three horizontal lines), which is the standard navigation menu symbol.",
+          "The RST instructs users to 'click |image1| and choose Security > Cloud Firewall' in the navigation pane, which matches a hamburger menu icon.",
+          "The icon is used identically in all three sections (enabling/disabling, modifying, deleting) as the first navigation step.",
+          "The visual content (three horizontal bars) is consistent with a menu/navigation toggle icon."
+        ],
+        "missing_evidence": [
+          "No additional context needed; the icon clearly represents the navigation menu button described in the RST."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/system_management/security_report_management/managing_security_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001790475961.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a toggle switch in the 'on' position (colored/blue with the circle on the right side).",
+          "The RST explicitly labels this image as 'enabled' in the context of toggling the security report status.",
+          "The visual representation matches the described 'enabled' state of a toggle switch.",
+          "Directly relevant to the 'Enabling/Disabling the Security Report Function' section."
+        ],
+        "missing_evidence": [
+          "No additional context needed; the toggle switch icon clearly represents the enabled state as described in the RST."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/system_management/security_report_management/managing_security_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001743556254.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a toggle switch in the 'off' position (gray with the circle on the left side).",
+          "The RST explicitly labels this image as 'disabled' in the context of toggling the security report status.",
+          "The visual representation matches the described 'disabled' state of a toggle switch.",
+          "Directly relevant to the 'Enabling/Disabling the Security Report Function' section."
+        ],
+        "missing_evidence": [
+          "No additional context needed; the toggle switch icon clearly represents the disabled state as described in the RST."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/system_management/security_report_management/viewing_downloading_a_security_report.rst",
+    "title": "Viewing/Downloading a Security Report",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/system_management/security_report_management/viewing_downloading_a_security_report.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger/menu icon (three horizontal bars), a standard navigation toggle symbol.",
+          "The RST references this icon as the element to click in the left navigation pane to reach Security > Cloud Firewall, which matches a menu-toggle icon.",
+          "The icon is generic and not specific to security reports, so topic and detail match are moderate.",
+          "No contradiction between the icon and the surrounding navigation instructions."
+        ],
+        "missing_evidence": [
+          "The image is an isolated icon without surrounding UI context, so the exact menu it opens is not visible.",
+          "No label or text accompanies the icon to confirm it is the navigation pane toggle."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/using_cloud_eye_to_monitor_cfw/configuring_alarm_monitoring_rules.rst",
+    "title": "Configuring Alarm Monitoring Rules",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001293893596.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001293893596.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001293893596.png",
+        "kind": "substitution_image",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/using_cloud_eye_to_monitor_cfw/configuring_alarm_monitoring_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001293893596.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), consistent with the RST reference to a navigation menu in the upper left corner of the management console.",
+          "The RST step 2 instructs the user to hover over this icon to access Management & Deployment > Cloud Eye, which matches the typical use of a hamburger menu icon.",
+          "The icon is directly relevant to the 'Configuring Alarm Monitoring Rules' section as it is part of the navigation steps to reach Cloud Eye."
+        ],
+        "missing_evidence": [
+          "The image is a generic hamburger menu icon without any specific branding or label, so it cannot be uniquely tied to a specific product's console beyond the RST context."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_cfw_protection_logs/log_management/changing_the_log_storage_duration.rst",
+    "title": "Changing the Log Storage Duration",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_cfw_protection_logs/log_management/changing_the_log_storage_duration.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines) used to represent the navigation pane toggle in the management console.",
+          "The RST references this image in step 3 as the icon to click to open the navigation pane and select Security > Cloud Firewall.",
+          "The icon is a generic UI symbol for navigation, not specific to log storage duration but part of the access path.",
+          "The visual clearly shows three horizontal bars consistent with a standard menu/hamburger icon."
+        ],
+        "missing_evidence": [
+          "The image does not show any text labels or context specific to Cloud Firewall or log management.",
+          "No surrounding UI context is visible to confirm it is the exact icon from the management console navigation pane."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_cfw_protection_logs/log_management/configuring_logs.rst",
+    "title": "Configuring Logs",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001349643997.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001349643997.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001349643997.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_cfw_protection_logs/log_management/configuring_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a standard hamburger menu icon (three horizontal lines), used in step 2 to indicate clicking the navigation pane button.",
+          "It is a generic navigation icon, not specific to Cloud Firewall or log configuration, but contextually appropriate for the navigation step.",
+          "The RST text says 'click |image1| and choose Security > Cloud Firewall', which aligns with a navigation menu icon.",
+          "The icon is clearly visible and unambiguous as a hamburger/menu symbol."
+        ],
+        "missing_evidence": [
+          "The icon is generic and does not show any Cloud Firewall-specific branding or labeling.",
+          "No surrounding UI context is visible to confirm it is specifically the left navigation pane button."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/viewing_cfw_protection_logs/log_management/configuring_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001349643997.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a toggle switch in the off position, which directly matches the RST instruction 'Toggle on |image2| to enable the cloud log interconnection service.'",
+          "It is a standard UI toggle/switch icon, appropriate for representing an on/off control for a service.",
+          "The icon is clearly visible and unambiguous as a toggle switch.",
+          "It is directly relevant to the step about enabling the cloud log interconnection service in the Configuring Logs section."
+        ],
+        "missing_evidence": [
+          "No label or text is visible on or near the toggle to identify which specific service it controls.",
+          "The surrounding UI context (e.g., the Log Management page) is not shown."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_cfw_protection_logs/querying_logs.rst",
+    "title": "Querying Logs",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 185,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 186,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 187,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001889194328.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001889194328.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001889194328.png",
+        "kind": "substitution_image",
+        "line": 188,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_cfw_protection_logs/querying_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), a standard navigation pane toggle.",
+          "The RST uses this icon in steps 2 of Attack Event Logs, Access Control Logs, and Traffic Logs sections: 'click |image1| and choose Security > Cloud Firewall'.",
+          "The icon is consistent with opening a left navigation pane in a management console.",
+          "It is a generic navigation icon, not specific to log querying functionality."
+        ],
+        "missing_evidence": [
+          "The icon does not show any CFW-specific branding or context.",
+          "No surrounding UI is visible to confirm it is the navigation pane toggle in the CFW console."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/viewing_cfw_protection_logs/querying_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001889194328.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is an export icon (a square with an arrow pointing outward, enclosed in a rounded square border).",
+          "The RST states: 'Click |image4| in the upper right corner to export the logs in the list.'",
+          "The icon directly represents the export action described in the Related Operations section.",
+          "The visual matches the semantic meaning of exporting data from a log list."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is visible to confirm placement in the upper right corner of the log query page."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_traffic_statistics/viewing_inbound_traffic.rst",
+    "title": "Viewing Inbound Traffic",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 64,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_traffic_statistics/viewing_inbound_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-style menu icon (three horizontal bars), consistent with a navigation pane toggle referenced as |image1| in step 2.",
+          "The RST uses the icon to indicate clicking the navigation pane before choosing Security > Cloud Firewall, so the icon is semantically relevant to the procedure.",
+          "The visual content (three stacked horizontal lines) is clearly visible and matches a typical navigation/menu pictogram.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The icon is generic and does not itself display the 'Security' or 'Cloud Firewall' labels described in the text.",
+          "No surrounding UI context is shown to confirm it is specifically the left navigation pane control."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_traffic_statistics/viewing_inter-vpc_traffic.rst",
+    "title": "Viewing Inter-VPC Traffic",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_traffic_statistics/viewing_inter-vpc_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small isolated graphic showing three stacked horizontal bars, i.e., a hamburger/navigation menu icon.",
+          "In the RST it is referenced as |image1| in step 2 ('click |image1| and choose Security > Cloud Firewall'), consistent with a navigation-pane menu icon.",
+          "The icon is semantically relevant to the navigation steps for reaching the Inter-VPC Access page, though it is not specific to inter-VPC traffic itself.",
+          "No visible text, labels, or page content in the image, so it cannot be a screenshot; it is a symbolic UI icon."
+        ],
+        "missing_evidence": [
+          "No label or tooltip in the image to confirm it is the navigation/menu control.",
+          "No surrounding UI context to verify it belongs to the Cloud Firewall console navigation pane."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_traffic_statistics/viewing_outbound_traffic.rst",
+    "title": "Viewing Outbound Traffic",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001259322747.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "kind": "substitution_image",
+        "line": 74,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_traffic_statistics/viewing_outbound_traffic.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-firewall/umn/source/_static/images/en-us_image_0000001259322747.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small three-line hamburger/menu pictogram, matching the |image1| reference used in step 2 to open the navigation pane.",
+          "It is an isolated UI symbol (icon), not a full screenshot or page interface.",
+          "The icon is semantically consistent with the instruction to click it and choose Security > Cloud Firewall.",
+          "The icon is generic and not specific to outbound traffic, so topic/detail match is moderate.",
+          "No contradiction between the image and the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The image does not show the Security > Cloud Firewall menu items it is supposed to open.",
+          "No label or context in the image confirms it is the Cloud Firewall navigation icon specifically."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1866 @@
+[
+  {
+    "file_path": "api-ref/source/appendix/obtaining_a_project_id.rst",
+    "title": "Obtaining a Project ID",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001508295281.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000001508295281.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000001508295281.png",
+        "kind": "figure",
+        "line": 67,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/central_networks/central_networks.rst",
+    "title": "Central Networks",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002479757549.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002479757549.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002479757549.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002446788280.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446788280.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446788280.png",
+        "kind": "figure",
+        "line": 85,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002446790368.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446790368.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446790368.png",
+        "kind": "figure",
+        "line": 116,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002125143789.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143789.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143789.png",
+        "kind": "substitution_image",
+        "line": 121,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002125143789.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143789.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143789.png",
+        "kind": "substitution_image",
+        "line": 122,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002125143789.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143789.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143789.png",
+        "kind": "substitution_image",
+        "line": 123,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002125143789.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143789.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143789.png",
+        "kind": "substitution_image",
+        "line": 124,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/central_networks.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002479757549.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a 'Create Central Network' dialog with Name, Description, and Policy fields (Region, Enterprise Router, ASN, Operation), matching Figure 1.",
+          "The dialog aligns with the 'Creating a Central Network' section and Table 1 parameters (Name, Description, Policy with Region and Enterprise Router).",
+          "Interactive controls (Cancel, OK, Add Enterprise Router, Delete) are visible."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/central_networks.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446788280.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Basic Information' tab of a central network (gcn-78e7) with Name, Status, Created At, Enterprise Routers, ID, Cross-Site Connections, Description.",
+          "Matches Figure 2 'Viewing the basic information about a central network' and the 'Viewing a Central Network' section.",
+          "No interactive buttons are visible, only edit/copy icons."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/central_networks.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446790368.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a 'Delete This Central Network' dialog requiring the user to enter 'DELETE' to confirm, matching Figure 3.",
+          "Aligns with the 'Deleting a Central Network' section step to enter DELETE in the dialog box.",
+          "Interactive controls (Cancel, OK, Delete) are visible."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/central_networks.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143789.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location/map-pin icon, consistent with the |image1|..|image4| references used for 'Click ... in the upper left corner to select a region and a project.'",
+          "Used across multiple sections (Creating, Viewing, Modifying, Deleting) as the region/project selector icon.",
+          "As an isolated pictogram, it provides limited detail beyond the region-selection purpose."
+        ],
+        "missing_evidence": [
+          "The icon alone does not show the region/project selection dropdown it triggers."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/central_networks/cross-site_connection_bandwidths.rst",
+    "title": "Cross-Site Connection Bandwidths",
+    "image_count": 9,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002446606818.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446606818.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446606818.png",
+        "kind": "figure",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002449948666.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449948666.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449948666.png",
+        "kind": "figure",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002449789746.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449789746.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449789746.png",
+        "kind": "figure",
+        "line": 104,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002449949814.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449949814.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449949814.png",
+        "kind": "figure",
+        "line": 133,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002461583304.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002461583304.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002461583304.png",
+        "kind": "figure",
+        "line": 141,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002125143777.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143777.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143777.png",
+        "kind": "substitution_image",
+        "line": 150,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002089584360.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584360.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584360.png",
+        "kind": "substitution_image",
+        "line": 151,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002125143773.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143773.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143773.png",
+        "kind": "substitution_image",
+        "line": 152,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002089584348.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584348.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584348.png",
+        "kind": "substitution_image",
+        "line": 153,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 9
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 4,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/cross-site_connection_bandwidths.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446606818.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Cross-Site Connection Bandwidths tab with a table of cross-site connections.",
+          "Displays 'No bandwidth assigned. Assign ...' in the Global Connection Bandwidth column, matching the assign-bandwidth step.",
+          "Matches Figure 1 'Assigning a cross-site connection bandwidth' in the Assigning section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/cross-site_connection_bandwidths.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449948666.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a Monitoring Data panel with Inbound Traffic, Outbound Traffic, and Inbound PPS charts.",
+          "Corresponds to clicking the monitoring icon in the Monitoring column.",
+          "Matches Figure 2 'Cross-site connection bandwidth monitoring' in the Viewing Monitoring Metrics section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/cross-site_connection_bandwidths.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449789746.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Change Bandwidth' dialog with Global Connection Bandwidth and Bandwidth fields.",
+          "Includes the note that assigned bandwidth cannot exceed the global connection bandwidth.",
+          "Matches Figure 3 'Modifying a bandwidth' in the Changing section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/cross-site_connection_bandwidths.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449949814.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Delete this cross-site connection bandwidth?' confirmation dialog.",
+          "Displays the connection details table and Cancel/OK buttons.",
+          "Matches Figure 4 'Deleting a cross-site connection bandwidth' in the Deleting section."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/cross-site_connection_bandwidths.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002461583304.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a dialog warning that the unbound global connection bandwidth is still being billed.",
+          "Contains the 'Go to Delete' button referenced in the deleting steps.",
+          "Matches Figure 5 'Confirming whether to delete the global connection bandwidth'."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/cross-site_connection_bandwidths.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143777.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A small location-pin / map-marker icon used as the region and project selector.",
+          "Referenced in the steps as the icon to click in the upper left corner to select a region and project.",
+          "Generic UI symbol, not specific to cross-site connection bandwidths."
+        ],
+        "missing_evidence": [
+          "No textual or contextual detail beyond the icon glyph itself."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/cross-site_connection_bandwidths.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584360.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A small location-pin / map-marker icon used as the region and project selector.",
+          "Referenced in the monitoring steps as the icon to click to select a region and project.",
+          "Generic UI symbol, not specific to cross-site connection bandwidths."
+        ],
+        "missing_evidence": [
+          "No textual or contextual detail beyond the icon glyph itself."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/cross-site_connection_bandwidths.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143773.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A small location-pin / map-marker icon used as the region and project selector.",
+          "Referenced in the changing-bandwidth steps as the icon to click to select a region and project.",
+          "Generic UI symbol, not specific to cross-site connection bandwidths."
+        ],
+        "missing_evidence": [
+          "No textual or contextual detail beyond the icon glyph itself."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/cross-site_connection_bandwidths.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584348.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A small location-pin / map-marker icon used as the region and project selector.",
+          "Referenced in the deleting-bandwidth steps as the icon to click to select a region and project.",
+          "Generic UI symbol, not specific to cross-site connection bandwidths."
+        ],
+        "missing_evidence": [
+          "No textual or contextual detail beyond the icon glyph itself."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/central_networks/overview.rst",
+    "title": "Overview",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002445430860.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002445430860.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002445430860.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002478587813.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002478587813.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002478587813.png",
+        "kind": "figure",
+        "line": 56,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002445430860.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002478587813.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/central_networks/policies.rst",
+    "title": "Policies",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002446287918.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446287918.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446287918.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002483026245.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002483026245.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002483026245.png",
+        "kind": "figure",
+        "line": 63,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002449787866.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449787866.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449787866.png",
+        "kind": "figure",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002089584376.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584376.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584376.png",
+        "kind": "substitution_image",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002125143785.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143785.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143785.png",
+        "kind": "substitution_image",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002089584372.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584372.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584372.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 3,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/policies.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002446287918.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Add Policy' dialog with Region, Enterprise Router, ASN, and Operation columns, matching Figure 1 'Creating a policy'.",
+          "The info banner about one enterprise router per region aligns with the Constraints section.",
+          "The 'Add Enterprise Router' link matches step 7 of the Creating a Policy procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/policies.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002483026245.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Policies tab of a central network (gcn-d94f) with policy rows and Apply/Delete actions, matching Figure 2 'Applying a policy'.",
+          "The banner about only one policy per central network matches the Constraints section.",
+          "The expanded policy row shows Enterprise Router, Region, and ASN, consistent with the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/policies.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002449787866.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Delete this policy?' confirmation dialog with Cancel and OK buttons, matching Figure 3 'Deleting a policy'.",
+          "The warning that deleted resources cannot be recovered is consistent with the deletion procedure.",
+          "The dialog displays the policy's enterprise router, region, and ASN details."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/policies.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584376.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location-pin icon used as |image1| in step 2 to select a region and project.",
+          "It is a generic UI symbol, not a full interface, so detail relevance is limited.",
+          "It supports the login/region-selection step common to all procedures."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is visible to confirm exact placement."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/policies.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002125143785.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location-pin icon used as |image2| in step 2 of the Applying a Policy procedure.",
+          "It is a generic region/project selector symbol with limited detail.",
+          "It is consistent with the documented step to select a region and project."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is visible to confirm exact placement."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/central_networks/policies.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089584372.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location-pin icon used as |image3| in step 2 of the Deleting a Policy procedure.",
+          "It is a generic region/project selector symbol with limited detail.",
+          "It is consistent with the documented step to select a region and project."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is visible to confirm exact placement."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/adding_instances_to_a_global_connection_bandwidth.rst",
+    "title": "Adding Instances to a Global Connection Bandwidth",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002089104752.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089104752.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089104752.png",
+        "kind": "substitution_image",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/adding_instances_to_a_global_connection_bandwidth.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089104752.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, consistent with an isolated UI icon.",
+          "In the RST it is referenced as |image1| in step 2: 'Click |image1| in the upper left corner to select a region and a project', which matches a region/locator icon.",
+          "The icon is used within the procedural steps for using a global connection bandwidth on a central network, so it is relevant to the section.",
+          "The visual content (a location pin) clearly supports the 'select a region' action described in the text.",
+          "No contradiction between the icon and the surrounding RST content."
+        ],
+        "missing_evidence": [
+          "The image is an isolated symbol without surrounding console UI, so the exact placement ('upper left corner') cannot be visually confirmed.",
+          "No label or tooltip is visible to confirm it specifically selects both region and project."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/creating_a_global_connection_bandwidth.rst",
+    "title": "Creating a Global Connection Bandwidth",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002480095461.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002480095461.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002480095461.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002089264608.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089264608.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089264608.png",
+        "kind": "substitution_image",
+        "line": 82,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/creating_a_global_connection_bandwidth.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002480095461.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI screenshot of the 'Create Global Connection Bandwidth' form, matching the figure caption in the RST.",
+          "All parameters listed in Table 1 (Bandwidth Type, Geographic Region, Connect Regions, Billed By, Bandwidth, Bandwidth Name, Enterprise Project) are visible in the form.",
+          "The 'Next' button at the bottom right corresponds to step 7 in the procedure.",
+          "The form layout and field values (Geographic-region, Europe, bandwidth-9134) align with the RST descriptions.",
+          "No contradictions between the image content and the RST text."
+        ],
+        "missing_evidence": [
+          "The title bar text is truncated ('Create Global Connection Ba...'), but the full title is implied by context."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/creating_a_global_connection_bandwidth.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089264608.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin icon, consistent with the RST instruction to 'Click |image1| in the upper left corner to select a region and a project.'",
+          "A location pin is a standard UI symbol for region/area selection, making it semantically appropriate for the described action.",
+          "The icon is used in step 2 of the procedure, a preliminary navigation step rather than the core topic of creating a bandwidth.",
+          "No contradictions between the icon and its described purpose in the RST."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern.",
+          "The surrounding UI context (upper-left corner placement) is not visible in the isolated icon image."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/deleting_a_global_connection_bandwidth.rst",
+    "title": "Deleting a Global Connection Bandwidth",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002461833813.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002461833813.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002461833813.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/deleting_a_global_connection_bandwidth.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002461833813.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is referenced in Procedure step 2: 'Click |image1| in the upper left corner to select a region and a project.'",
+          "A location-pin icon is a standard symbol for selecting a region, which matches the stated purpose of the icon in the procedure.",
+          "The icon appears in the Procedure section and is directly tied to the region/project selection step, so it is section-relevant.",
+          "No interactive controls or buttons are visible within the image itself."
+        ],
+        "missing_evidence": [
+          "The image shows only the isolated icon, not the upper-left corner of the management console where it is said to appear.",
+          "No surrounding UI context (e.g., the region/project dropdown) is visible to confirm placement."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/modifying_a_global_connection_bandwidth.rst",
+    "title": "Modifying a Global Connection Bandwidth",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002089264612.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089264612.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089264612.png",
+        "kind": "substitution_image",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/modifying_a_global_connection_bandwidth.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089264612.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, consistent with a region/project selector icon.",
+          "RST step 2 references |image1| as the control to 'select a region and a project', which matches a location-pin icon.",
+          "The icon is used within the procedure for modifying a global connection bandwidth, so it is topically and sectionally relevant.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is an isolated symbol without surrounding UI context, so its exact placement in the console cannot be verified.",
+          "No label or tooltip is visible to confirm it is specifically the region/project selector."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002482863093.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002482863093.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002482863093.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002482863093.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/removing_instances_from_a_global_connection_bandwidth.rst",
+    "title": "Removing Instances from a Global Connection Bandwidth",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002089104748.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089104748.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089104748.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/global_connection_bandwidths/removing_instances_from_a_global_connection_bandwidth.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002089104748.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin / map-marker pictogram, consistent with an isolated UI symbol (icon).",
+          "In the RST, |image1| is referenced in step 2: 'Click |image1| in the upper left corner to select a region and a project,' which matches a region/project selector icon.",
+          "The icon is placed within the 'Deleting Cross-Site Connection Bandwidth' procedure, supporting the navigation steps of the document.",
+          "No visible interactive button controls or magenta elements are present in the image."
+        ],
+        "missing_evidence": [
+          "The icon is a generic region-selector symbol and does not itself depict the global connection bandwidth or instance-removal workflow.",
+          "No surrounding UI context (e.g., the upper-left corner placement) is visible in the isolated image."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/monitoring_and_auditing/using_cloud_eye_to_monitor_central_network_metrics/creating_an_alarm_rule.rst",
+    "title": "Creating an Alarm Rule",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001190483836.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000001190483836.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000001190483836.png",
+        "kind": "substitution_image",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002082224192.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002082224192.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002082224192.png",
+        "kind": "substitution_image",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/monitoring_and_auditing/using_cloud_eye_to_monitor_central_network_metrics/creating_an_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000001190483836.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, consistent with the RST instruction to 'Click |image1| in the upper left corner and select the desired region and project.'",
+          "It is a small symbolic UI element (icon) used for region/project selection in the management console.",
+          "The icon is relevant to the Procedure section step 2 but is a generic navigation element rather than specific to alarm rule creation.",
+          "No contradictions between the image and the RST text."
+        ],
+        "missing_evidence": [
+          "The icon is generic and does not show any specific region or project name.",
+          "No surrounding UI context is visible to confirm it is in the upper left corner of a console."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/monitoring_and_auditing/using_cloud_eye_to_monitor_central_network_metrics/creating_an_alarm_rule.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002082224192.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a downward-pointing chevron/arrow icon, consistent with the RST instruction to 'click |image2| to view its attachments.'",
+          "It is a small symbolic UI element (icon) typically used for expanding or revealing sub-items such as attachments.",
+          "The icon is relevant to the Procedure section step 5a for viewing enterprise router attachments before creating an alarm rule.",
+          "No contradictions between the image and the RST text."
+        ],
+        "missing_evidence": [
+          "The icon is generic and does not show any specific attachment list or router context.",
+          "No surrounding UI context is visible to confirm it is in the enterprise router list."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/monitoring_and_auditing/using_cloud_eye_to_monitor_central_network_metrics/viewing_central_network_metrics.rst",
+    "title": "Viewing Central Network Metrics",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001190483836.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000001190483836.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000001190483836.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002082069408.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002082069408.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002082069408.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/monitoring_and_auditing/using_cloud_eye_to_monitor_central_network_metrics/viewing_central_network_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000001190483836.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, consistent with a region/project selector in the upper-left corner of a management console.",
+          "The RST step 2 says 'Click |image1| in the upper left corner and select the desired region and project,' which matches a location/region icon.",
+          "The icon is a generic console navigation element rather than something specific to central network metrics or Cloud Eye.",
+          "No contradiction between the icon and its described function in the procedure."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI context (upper-left corner placement, region/project dropdown).",
+          "No label or text is visible in the icon to confirm it is specifically a region selector."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/monitoring_and_auditing/using_cloud_eye_to_monitor_central_network_metrics/viewing_central_network_metrics.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002082069408.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a downward-pointing chevron, a standard expand/collapse indicator used to reveal sub-items in a list.",
+          "The RST step 5a says 'click |image2| to view its attachments,' which aligns with an expand icon that reveals child rows (attachments) under an enterprise router.",
+          "The icon is directly part of the procedure for viewing enterprise router attachment metrics, making it relevant to the section.",
+          "No contradiction between the chevron icon and its described function of expanding to view attachments."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding table or list context (enterprise router list, Operation column).",
+          "No label or text is visible to confirm it is specifically tied to the 'attachments' expansion action."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/monitoring_and_auditing/using_cts_to_record_key_operations_on_central_networks/viewing_central_network_audit_logs.rst",
+    "title": "Viewing Central Network Audit Logs",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002122008564.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002122008564.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002122008564.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002157370221.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002157370221.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002157370221.png",
+        "kind": "substitution_image",
+        "line": 54,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002121850428.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002121850428.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002121850428.png",
+        "kind": "substitution_image",
+        "line": 55,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/monitoring_and_auditing/using_cts_to_record_key_operations_on_central_networks/viewing_central_network_audit_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002122008564.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a screenshot of the CTS console filter panel, directly matching Figure 1 in the RST.",
+          "All filters described in the RST are visible: Trace Source, Resource Type, Search By, Operator, Trace Status, and time range.",
+          "The Query, Reset, and Export buttons are visible, consistent with the procedure for querying/exporting records.",
+          "The time range shown (2018-08-28 to 2018-09-04) aligns with the 'last seven days' mentioned in the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/monitoring_and_auditing/using_cts_to_record_key_operations_on_central_networks/viewing_central_network_audit_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002157370221.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin icon, referenced as |image1| in step 2 for selecting a region and project.",
+          "The icon is a standard map/location marker, semantically appropriate for region selection.",
+          "It is a small symbolic graphic used as a UI element in the procedure, not the main content of the audit log topic.",
+          "No contradiction with the RST description of clicking it to select a region and project."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern.",
+          "No surrounding UI context is visible to confirm its placement in the upper left corner."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/central_network_operation_guide/monitoring_and_auditing/using_cts_to_record_key_operations_on_central_networks/viewing_central_network_audit_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002121850428.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon (three horizontal lines), referenced as |image2| in step 3 for accessing the service list.",
+          "The hamburger menu is a standard UI symbol for opening a navigation/service list, matching the RST description.",
+          "It is a small symbolic graphic used as a UI element in the procedure, not the main content of the audit log topic.",
+          "No contradiction with the RST description of clicking it to go to the service list."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern.",
+          "No surrounding UI context is visible to confirm its placement in the upper left corner."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/central_network_operation_guide/permissions_management/creating_a_user_and_granting_central_network_permissions.rst",
+    "title": "Creating a User and Granting Central Network Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002090740630.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002090740630.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002090740630.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/central_network_operation_guide/permissions_management/creating_a_user_and_granting_central_network_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002090740630.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/using_a_central_network_and_enterprise_routers_to_connect_vpcs_in_the_same_account_but_different_regions.rst",
+    "title": "Using a Central Network and Enterprise Routers to Connect VPCs in the Same Account But Different Regions",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002461680909.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002461680909.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002461680909.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002178551392.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002178551392.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002178551392.png",
+        "kind": "figure",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/using_a_central_network_and_enterprise_routers_to_connect_vpcs_in_the_same_account_but_different_regions.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002461680909.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/getting_started/using_a_central_network_and_enterprise_routers_to_connect_vpcs_in_the_same_account_but_different_regions.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002178551392.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002445430860.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002445430860.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002445430860.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002445430860.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_cloud_connect.rst",
+    "title": "What Is Cloud Connect?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002445232846.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002445232846.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002445232846.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/what_is_cloud_connect.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-connect/umn/source/_static/images/en-us_image_0000002445232846.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  }
+]

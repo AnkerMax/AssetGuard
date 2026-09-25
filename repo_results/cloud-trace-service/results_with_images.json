@@ -1,0 +1,2505 @@
+[
+  {
+    "file_path": "api-ref/source/before_you_start/concepts.rst",
+    "title": "Concepts",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002471373426.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002471373426.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002471373426.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "api-ref/source/calling_apis/response.rst",
+    "title": "Response",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002471213444.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002471213444.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002471213444.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": false,
+        "is_valid_image": true,
+        "error": "kein valides Bild"
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": null,
+      "attempt": 0,
+      "max_retries": 2,
+      "error": "kein valides Bild",
+      "warning": null,
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": []
+  },
+  {
+    "file_path": "umn/source/application_examples/fault_locating.rst",
+    "title": "Fault Locating",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350744.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350744.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350744.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510660.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510660.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510660.png",
+        "kind": "substitution_image",
+        "line": 45,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350744.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350744.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350744.png",
+        "kind": "substitution_image",
+        "line": 46,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750035.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750035.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750035.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/application_examples/fault_locating.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350744.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, consistent with the RST instruction to 'Click |image1| in the upper left corner to select the desired region and project.'",
+          "The icon is appropriate for a region/project selector in a cloud management console.",
+          "It is used in the Procedure section of the Fault Locating document."
+        ],
+        "missing_evidence": [
+          "The image does not show the full console context, only the isolated icon."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/application_examples/fault_locating.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510660.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), consistent with the RST instruction to 'Click |image2| in the upper left corner and choose Management & Deployment > Cloud Trace Service.'",
+          "A hamburger menu icon is the standard UI element for opening a navigation menu in a management console.",
+          "It is used in the Procedure section of the Fault Locating document."
+        ],
+        "missing_evidence": [
+          "The image does not show the full console context, only the isolated icon."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/application_examples/fault_locating.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750035.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), consistent with the RST instruction to 'Click |image4| in the upper left corner and choose Management & Deployment > Cloud Trace Service.'",
+          "A hamburger menu icon is the standard UI element for opening a navigation menu in a management console.",
+          "It is used in the second procedure (ECS server creation fault) in the Procedure section."
+        ],
+        "missing_evidence": [
+          "The image does not show the full console context, only the isolated icon."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/application_examples/resource_tracking.rst",
+    "title": "Resource Tracking",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350744.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350744.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350744.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750075.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750075.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750075.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/application_examples/resource_tracking.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350744.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon.",
+          "The RST text instructs to click this icon to select the desired region and project.",
+          "A location pin is a standard symbol for region or location selection in cloud management consoles."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/application_examples/resource_tracking.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750075.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines).",
+          "The RST text instructs to click this icon in the upper left corner to choose a service from the menu.",
+          "A hamburger menu is a standard symbol for opening a navigation menu."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/application_examples/security_auditing.rst",
+    "title": "Security Auditing",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750031.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750031.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750031.png",
+        "kind": "substitution_image",
+        "line": 53,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750027.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750027.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750027.png",
+        "kind": "substitution_image",
+        "line": 54,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/application_examples/security_auditing.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750031.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin / map marker pictogram, an isolated symbolic icon.",
+          "RST step 2 uses |image1| to 'select the desired region and project', which a location icon appropriately represents.",
+          "The icon is consistent with the CTS console navigation procedure and does not contradict the text."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is shown; the icon is isolated, so its exact placement in the console cannot be verified."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/application_examples/security_auditing.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750027.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a three-line hamburger menu pictogram, an isolated symbolic icon.",
+          "RST step 3 uses |image2| to open the menu and choose 'Management & Deployment > Cloud Trace Service', which a hamburger menu icon appropriately represents.",
+          "The icon is consistent with the CTS console navigation procedure and does not contradict the text."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is shown; the icon is isolated, so its exact placement in the console cannot be verified."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_key_event_notifications.rst",
+    "title": "Configuring Key Event Notifications",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002656630097.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630097.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630097.png",
+        "kind": "substitution_image",
+        "line": 145,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750047.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750047.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750047.png",
+        "kind": "substitution_image",
+        "line": 146,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510672.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510672.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510672.png",
+        "kind": "substitution_image",
+        "line": 147,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_key_event_notifications.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630097.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon (three horizontal lines), a standard navigation symbol",
+          "RST references it as the button to click in the upper left corner to access Management & Deployment > Cloud Trace Service",
+          "It is a generic UI navigation element, not specific to key event notifications",
+          "The icon is consistent with the described action of opening a navigation menu"
+        ],
+        "missing_evidence": [
+          "No specific CTS branding or context visible in the icon itself",
+          "Cannot confirm it is specifically the upper-left menu button of the Huawei Cloud console from the icon alone"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/configuring_key_event_notifications.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750047.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon (three horizontal lines), identical in appearance to image1",
+          "RST references it in the Managing Key Event Notifications section as the button to click in the upper left corner",
+          "It serves the same navigation purpose as image1 but in a different section of the document",
+          "The icon is consistent with the described action of opening a navigation menu"
+        ],
+        "missing_evidence": [
+          "No specific CTS branding or context visible in the icon itself",
+          "Cannot confirm it is specifically the upper-left menu button of the Huawei Cloud console from the icon alone"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/configuring_key_event_notifications.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510672.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a refresh/reload icon (circular arrow) inside a button frame",
+          "RST references it for 'Refreshing the key event notification list' in the upper right corner",
+          "The icon directly matches the described action of refreshing a list",
+          "It is placed in Table 2 under Managing Key Event Notifications, which is the correct context"
+        ],
+        "missing_evidence": [
+          "No specific CTS branding visible in the icon",
+          "Cannot confirm the exact position (upper right corner) from the isolated icon image"
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/does_cts_record_ecs_creation_failures.rst",
+    "title": "Does CTS Record ECS Creation Failures?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510646.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510646.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510646.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/does_cts_record_ecs_creation_failures.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510646.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI filter/search bar showing three applied filter chips: 'Trace Source: ECS', 'Resource Type: ecs', and 'Trace Name: createServer'.",
+          "This directly matches RST Procedure step 3, which instructs selecting Trace Source=ECS, Resource Type=ecs, and Trace Name=createServer.",
+          "The image is placed inline in the Procedure section right after the filtering instruction, so it is contextually relevant.",
+          "Visible interactive controls (search icon, 'Add filter', clear X, settings gear) confirm it is a screenshot of a console interface.",
+          "No contradiction between the image content and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image shows only the filter bar, not the resulting trace list rows, so the actual createServer trace results are not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/how_do_i_find_out_the_login_ip_address_of_an_iam_user.rst",
+    "title": "How Do I Find Out the Login IP Address of an IAM User?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750055.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750055.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750055.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510680.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510680.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510680.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/how_do_i_find_out_the_login_ip_address_of_an_iam_user.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750055.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a CTS search/filter bar with 'Trace Source: IAM' and 'Trace Name: login' filters, exactly matching step 2 of the procedure.",
+          "The filter chips and 'Add filter' control correspond to the described filter setup for IAM login traces.",
+          "No contradiction with the RST text; the visible labels align with the documented steps."
+        ],
+        "missing_evidence": [
+          "The surrounding CTS console page (time range selector, results list) is not visible, only the filter bar is shown."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/how_do_i_find_out_the_login_ip_address_of_an_iam_user.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510680.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a JSON trace detail with 'trace_name': 'login' and 'service_type': 'IAM', matching the target trace described in step 3.",
+          "The 'source_ip' field is highlighted in a red box, matching the RST statement that source_ip indicates the login IP address.",
+          "The 'record_time' field is highlighted in a red box, matching the RST statement that record_time indicates the login time.",
+          "No contradiction; the visible fields directly support the documented explanation."
+        ],
+        "missing_evidence": [
+          "The actual IP value is redacted/blurred, so the concrete login IP is not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/how_do_i_find_out_who_created_a_specific_ecs.rst",
+    "title": "How Do I Find Out Who Created a Specific ECS?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750021.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750021.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750021.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/how_do_i_find_out_who_created_a_specific_ecs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750021.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI filter/search bar showing three active filter chips: Trace Source: ECS, Trace Name: createServer, and Resource ID: 8acd386a-3927-4f56-815e-74c01d53e276.",
+          "These filters exactly match the RST Procedure step 3 instructions to select Trace Source = ECS, Trace Name = createServer, and Resource ID = {Resource ID of the ECS}.",
+          "The image is referenced as |image1| immediately after the filter description in step 3, so it is placed in the correct section.",
+          "Interactive controls are visible (per-chip clear 'x', an 'Add filter' field, a global clear 'x', and a settings gear icon).",
+          "No contradiction between the image content and the surrounding RST text."
+        ],
+        "missing_evidence": [
+          "The image shows only the filter bar, not the resulting trace list or the 'user' field described in step 4.",
+          "The specific resource ID value shown is an example and not tied to a particular ECS in the document."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/what_if_i_cannot_query_traces.rst",
+    "title": "What If I Cannot Query Traces?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350798.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350798.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350798.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/what_if_i_cannot_query_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350798.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a UI screenshot of the CTS Trace List page, matching the document's topic of querying traces.",
+          "A red box highlights the query time range dropdown ('Last 1 week'), directly illustrating step 1 about configuring a proper query time range.",
+          "The table columns (Trace Name, Trace Source, Resource Type, Resource Name, Resource ID, Operator, Trace Status) align with the filter fields described in the RST.",
+          "The image is placed under the Procedure section, consistent with its instructional purpose.",
+          "No visible element contradicts the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image does not show the filter panel itself, only the time range selector and the resulting trace list."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/overview.rst",
+    "title": "Overview",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002656630081.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630081.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630081.png",
+        "kind": "substitution_image",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/overview.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630081.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars), matching the RST reference |image1| used in step 2 to open the navigation menu.",
+          "The RST instructs to 'Click |image1| in the upper left corner', which is consistent with a hamburger menu symbol placed in the upper-left of a management console.",
+          "The icon is directly relevant to the Procedure section describing how to reach the Cloud Trace Service console.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is an isolated symbol; the surrounding console UI (upper-left placement, menu contents) is not visible to confirm exact context.",
+          "No label or text accompanies the icon to confirm it specifically opens 'Management & Deployment'."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/querying_archived_traces.rst",
+    "title": "Querying Archived Traces",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350756.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350756.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350756.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750033.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750033.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750033.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350750.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350750.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350750.png",
+        "kind": "figure",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350746.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350746.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350746.png",
+        "kind": "figure",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510656.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510656.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510656.png",
+        "kind": "substitution_image",
+        "line": 104,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350754.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350754.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350754.png",
+        "kind": "substitution_image",
+        "line": 105,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750025.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750025.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750025.png",
+        "kind": "substitution_image",
+        "line": 106,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 7,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350756.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Tracker List table with the OBS bucket column highlighted (obs-cts), matching Figure 1 caption 'Selecting an OBS bucket'.",
+          "The red box around 'OBS: obs-cts' directly corresponds to the RST step 'Click a bucket in the OBS Bucket column'.",
+          "Table columns (Tracker Name, Storage, Status, Created, Operation) are consistent with the CTS console UI described in the document.",
+          "The tracker name 'system' and status 'Enabled' align with the prerequisites described in the RST."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750033.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the OBS bucket file browser with the path structure matching the RST description: obs-cts > CloudTraces > cn-southwest-237 > 2023 > 08 > 30 > system > CTS.",
+          "The trace file name 'file_CloudTrace_cn-southwest-237_2023-08-30T01-50-12Z_d22ef9d12629392c.json.gz' matches the naming format described in the RST.",
+          "Download, Copy Path, and More options are visible, matching the RST instruction to click Download.",
+          "Figure 2 caption 'Viewing trace file content' is accurately represented."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350750.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a JSON file with trace fields (code, event_type, project_id, record_time, resource_name, resource_type, service_type, trace_id, trace_name, tracker_name, etc.), matching Figure 3 'JSON file'.",
+          "The content corresponds to step 6: 'Decompress the downloaded package to obtain a JSON file... Open the JSON file using a text file editor to view traces.'",
+          "Fields like service_type 'OBS', tracker_name 'system', and trace_name 'listAllMyBucket' are consistent with CTS trace structure.",
+          "Some values are redacted (source_ip, user name), which is typical for documentation screenshots."
+        ],
+        "missing_evidence": [
+          "Some field values are partially redacted/obscured in the image."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350746.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Tracker List table with the LTS log stream 'CTS/system-trace' highlighted in a red box, matching Figure 4 and the RST step 'Click an LTS log stream in the Storage column'.",
+          "The log stream path 'CTS/system-trace' matches the RST example for the management tracker.",
+          "The OBS entry 'obs-cts' is also visible below the LTS entry, consistent with a tracker having both storage options.",
+          "Table structure and columns are consistent with the CTS console UI."
+        ],
+        "missing_evidence": [
+          "The RST alt text says 'Selecting an OBS log stream' which appears to be a typo (should be LTS), but the image correctly shows the LTS log stream."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510656.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A hamburger menu icon (three horizontal lines) used as |image1| in step 2 to open the navigation menu.",
+          "The icon is a generic UI navigation symbol, not specific to trace querying but correctly referenced in the RST step.",
+          "Placed in the 'Querying Traces Transferred to OBS' section step 2, matching the RST reference.",
+          "The icon is small and symbolic, consistent with its use as a clickable menu trigger."
+        ],
+        "missing_evidence": [
+          "No trace-specific content visible; it is a generic navigation icon."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350754.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A hamburger menu icon (three horizontal lines) used as |image2| in step 2 of the LTS section.",
+          "Identical in appearance to |image1|, serving the same navigation purpose in the LTS workflow.",
+          "Correctly referenced in the RST step 'Click |image2| in the upper left corner and choose Management & Deployment > Cloud Trace Service.'",
+          "Generic UI symbol with no trace-specific detail."
+        ],
+        "missing_evidence": [
+          "No trace-specific content visible; it is a generic navigation icon."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750025.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A download icon (downward arrow into a tray) used as |image3| in step 6 of the LTS section.",
+          "Directly corresponds to the RST instruction 'Click |image3| to download the log file to your local PC.'",
+          "The icon semantically represents the download action described in the step.",
+          "Small symbolic graphic consistent with an isolated UI control icon."
+        ],
+        "missing_evidence": [
+          "No additional context visible beyond the download symbol itself."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/querying_real-time_traces.rst",
+    "title": "Querying Real-Time Traces",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510684.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510684.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510684.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750059.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750059.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750059.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350790.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350790.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350790.png",
+        "kind": "substitution_image",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656630115.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630115.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630115.jpg",
+        "kind": "substitution_image",
+        "line": 61,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656630113.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630113.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630113.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350788.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350788.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350788.png",
+        "kind": "substitution_image",
+        "line": 63,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510684.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Trace List filter panel with Trace Type, Trace Source, Resource Type, Search By, Operator, Trace Status, time range, and Query/Reset/Export buttons",
+          "Matches Figure 1 description in the RST exactly",
+          "All filter fields mentioned in the RST are visible in the screenshot"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750059.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon (three horizontal lines) used for navigation in the upper left corner",
+          "Matches RST reference |image1| for clicking to access Management & Deployment > Cloud Trace Service",
+          "Standard navigation menu icon consistent with cloud console UIs"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350790.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Circular arrow refresh icon",
+          "Matches RST reference |image2| for clicking to view the latest information about traces",
+          "Standard refresh/reload symbol consistent with the described action"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630115.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Downward chevron/arrow icon used to expand trace details",
+          "Matches RST reference |image3| for clicking on the left of a trace to expand its details",
+          "Standard expand/collapse indicator consistent with the described action"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630113.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows expanded trace details with fields: trace_id, code, trace_name, resource_type, trace_rating, message, source_ip, trace_type, service_type, event_type, project_id, resource_id, tracker_name, time, resource_name, user, record_time",
+          "Matches RST reference |image4| shown after expanding a trace",
+          "Displays the trace structure fields referenced in the RST's pointer to Trace Structure section"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350788.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the View Trace dialog with JSON-formatted trace details including request, trace_id, code, trace_name, resource_type, trace_rating, api_version, message, source_ip, domain_id, trace_type, service_type, event_type, project_id, response, resource_id, tracker_name, time, resource_name, user, domain",
+          "Matches RST reference |image5| shown after clicking View Trace in the Operation column",
+          "Displays the full trace structure in JSON format consistent with the CTS trace format"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_trackers/configuring_a_tracker.rst",
+    "title": "Configuring a Tracker",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750069.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750069.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750069.png",
+        "kind": "substitution_image",
+        "line": 105,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750065.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750065.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750065.png",
+        "kind": "substitution_image",
+        "line": 106,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_trackers/configuring_a_tracker.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750069.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin icon, consistent with the RST instruction to click it to select the desired region and project.",
+          "It is a generic UI navigation icon, not specific to the tracker configuration topic, so topic match is moderate.",
+          "The RST explicitly references this image in step 2 of the Procedure for region/project selection, which matches the icon's purpose.",
+          "The visual clearly shows a location pin symbol, providing strong visual evidence for its role as a region selector."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is visible; the icon is shown in isolation without the console header or region dropdown."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/management_trackers/configuring_a_tracker.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750065.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger-menu icon (three horizontal lines), consistent with the RST instruction to click it to open the navigation menu and choose Management & Deployment > Cloud Trace Service.",
+          "It is a generic UI navigation icon, not specific to the tracker configuration topic, so topic match is moderate.",
+          "The RST explicitly references this image in step 3 of the Procedure for opening the service navigation, which matches the icon's purpose.",
+          "The visual clearly shows three horizontal bars forming a standard hamburger menu symbol, providing strong visual evidence."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is visible; the icon is shown in isolation without the console header or navigation panel."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_trackers/deleting_a_tracker.rst",
+    "title": "Deleting a Tracker",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002656630103.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630103.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630103.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350780.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350780.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350780.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_trackers/deleting_a_tracker.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630103.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, consistent with step 2's instruction to select the desired region and project.",
+          "It is referenced in the Procedure section as |image1| in the upper left corner.",
+          "The icon is a small symbolic graphic, correctly classified as an icon.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is a generic location pin; the specific console context is not visible, but the RST text confirms its purpose."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_trackers/deleting_a_tracker.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350780.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), consistent with step 3's instruction to open the navigation menu and choose Management & Deployment > Cloud Trace Service.",
+          "It is referenced in the Procedure section as |image2| in the upper left corner.",
+          "The icon is a small symbolic graphic, correctly classified as an icon.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is a generic menu icon; the specific console context is not visible, but the RST text confirms its purpose."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_trackers/disabling_or_enabling_a_tracker.rst",
+    "title": "Disabling or Enabling a Tracker",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350774.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350774.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350774.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510676.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510676.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510676.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_trackers/disabling_or_enabling_a_tracker.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350774.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, consistent with step 2's instruction to select the desired region and project.",
+          "Region/project selection in cloud consoles is commonly represented by a location pin symbol.",
+          "The icon is referenced in the Procedure section and aligns with the CTS console navigation context.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is a standalone symbol without surrounding UI context, so the exact console layout is not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_trackers/disabling_or_enabling_a_tracker.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510676.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), matching step 3's instruction to open the navigation menu.",
+          "Opening the menu to choose Management & Deployment > Cloud Trace Service is typically triggered by a hamburger icon.",
+          "The icon is referenced in the Procedure section and fits the CTS console navigation flow.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is a standalone symbol without surrounding UI context, so the exact menu contents are not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/permissions_management.rst",
+    "title": "Permissions Management",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002656630065.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630065.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630065.png",
+        "kind": "figure",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/permissions_management.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630065.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/querying_traces/querying_archived_traces.rst",
+    "title": "Querying Archived Traces",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350756.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350756.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350756.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750033.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750033.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750033.png",
+        "kind": "figure",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510688.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510688.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510688.png",
+        "kind": "figure",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350746.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350746.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350746.png",
+        "kind": "figure",
+        "line": 89,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510656.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510656.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510656.png",
+        "kind": "substitution_image",
+        "line": 104,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350754.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350754.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350754.png",
+        "kind": "substitution_image",
+        "line": 105,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656750025.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750025.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750025.png",
+        "kind": "substitution_image",
+        "line": 106,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/querying_traces/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350756.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Tracker List table with the OBS Bucket column highlighted (OBS: obs-cts), matching Figure 1 caption 'Selecting an OBS bucket'",
+          "The red box around the OBS bucket value aligns with step 4 instruction to click a bucket in the OBS Bucket column",
+          "Table columns (Tracker Name, Storage, Status, Created, Operation) are consistent with the CTS console UI described in the RST"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/querying_traces/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750033.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the OBS bucket file browser with path structure matching the RST description (bucket > CloudTraces > Region > Year > Month > Day > Tracker > Service)",
+          "The trace file name (file_CloudTrace_cn-southwest-237_2023-08-30T01-50-12Z_d22ef9d12629392c.json.gz) matches the naming format described in the RST",
+          "Download, Copy Path, and More options are visible on the right, matching step 5 instructions"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/querying_traces/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510688.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a JSON file with trace structure fields (code, event_type, project_id, record_time, resource_type, service_type, trace_id, trace_name, tracker_name, etc.)",
+          "Matches Figure 3 caption 'JSON file' and step 6 instruction to open the decompressed JSON file",
+          "Fields are consistent with the CTS trace structure referenced in the RST"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/querying_traces/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350746.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Tracker List table with the Storage column highlighted showing 'LTS: CTS/system-trace', matching Figure 4 and step 4 of the LTS section",
+          "The log stream path CTS/system-trace matches the RST example for the management tracker",
+          "Also shows OBS: obs-cts in the same row, consistent with a tracker having both OBS and LTS enabled"
+        ],
+        "missing_evidence": [
+          "The RST alt text says 'Selecting an OBS log stream' which is a typo; the image correctly shows an LTS log stream"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/querying_traces/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510656.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon (three horizontal lines) used as |image1| in step 2 to open the navigation menu",
+          "Matches the RST instruction 'Click |image1| in the upper left corner and choose Management & Deployment > Cloud Trace Service'",
+          "Generic UI navigation icon; no specific CTS content visible"
+        ],
+        "missing_evidence": [
+          "No service-specific content visible; it is a generic menu toggle icon"
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/querying_traces/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350754.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon (three horizontal lines) used as |image2| in step 2 of the LTS section",
+          "Matches the RST instruction 'Click |image2| in the upper left corner and choose Management & Deployment > Cloud Trace Service'",
+          "Identical in appearance to |image1|; generic navigation icon"
+        ],
+        "missing_evidence": [
+          "No service-specific content visible; it is a generic menu toggle icon"
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/querying_traces/querying_archived_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656750025.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Download icon (down arrow into a tray) used as |image3| in step 6 of the LTS section",
+          "Matches the RST instruction 'Click |image3| to download the log file to your local PC'",
+          "Clearly represents a download action, consistent with the step's purpose"
+        ],
+        "missing_evidence": [
+          "Small icon with limited detail; no surrounding UI context visible"
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/querying_traces/querying_real-time_traces.rst",
+    "title": "Querying Real-Time Traces",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350796.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350796.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350796.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656630129.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630129.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630129.png",
+        "kind": "substitution_image",
+        "line": 58,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510698.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510698.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510698.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656630127.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630127.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630127.jpg",
+        "kind": "substitution_image",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002656630121.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630121.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630121.png",
+        "kind": "substitution_image",
+        "line": 61,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350802.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350802.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350802.png",
+        "kind": "substitution_image",
+        "line": 62,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 3,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/querying_traces/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350796.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Trace List filter panel with Trace Type, Trace Source, Resource Type, Search By, Operator, Trace Status, time range, and Query/Reset/Export controls.",
+          "Matches Figure 1 'Filters' referenced in the 'Viewing Real-Time Traces' section.",
+          "All filter fields described in the RST are visible."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/querying_traces/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630129.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon (three horizontal lines) used in step 2 to open the navigation menu.",
+          "Generic UI symbol, not specific to trace content but consistent with the navigation instruction."
+        ],
+        "missing_evidence": [
+          "No surrounding console context visible to confirm it is the upper-left menu."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/querying_traces/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510698.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Circular refresh/reload icon matching step 6 'Click to view the latest information about traces'.",
+          "Generic symbol consistent with a refresh action on the trace list."
+        ],
+        "missing_evidence": [
+          "No label or surrounding UI to confirm exact placement."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/querying_traces/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630127.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Downward chevron/expand icon matching step 7 'Click on the left of a trace to expand its details'.",
+          "Generic expand symbol consistent with the described action."
+        ],
+        "missing_evidence": [
+          "No surrounding trace row visible to confirm context."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/querying_traces/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630121.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Trace List table with an expanded trace revealing fields such as trace_id, code, trace_name, resource_type, trace_rating, message, source_ip, trace_type, service_type, event_type, project_id, resource_id, tracker_name, time, resource_name, user, record_time.",
+          "Matches step 7 where expanding a trace shows its details.",
+          "Consistent with the trace structure described in the document."
+        ],
+        "missing_evidence": [
+          "Some values are redacted/blurred."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/querying_traces/querying_real-time_traces.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350802.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'View Trace' dialog displaying the full JSON trace structure (request, trace_id, code, trace_name, resource_type, trace_rating, message, source_ip, domain_id, trace_type, service_type, event_type, project_id, response, resource_id, tracker_name, time, resource_name, user).",
+          "Matches step 8 'Click View Trace in the Operation column. The trace details are displayed.'",
+          "Demonstrates the key fields of the trace structure referenced in the document."
+        ],
+        "missing_evidence": [
+          "Some field values are redacted/blurred."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/basic_concepts.rst",
+    "title": "Basic Concepts",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350758.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350758.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350758.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/basic_concepts.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350758.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a JSON object in a code editor, matching the RST statement that trace files are in JSON format.",
+          "Fields such as trace_id, trace_name, tracker_name, service_type, and resource_type align with the trace file example described in the Trace Files section.",
+          "The figure is referenced in the RST as 'Figure 1 Trace file example', and the image content is consistent with that caption.",
+          "No interactive UI controls are visible, only code text with line-number gutter."
+        ],
+        "missing_evidence": [
+          "Some values (source_ip, user name) appear redacted/blurred, so full field values cannot be verified.",
+          "The image does not show the surrounding editor window title or file name, so the exact file context is not explicit."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/how_cts_functions.rst",
+    "title": "How CTS Functions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510678.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510678.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510678.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/how_cts_functions.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510678.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a flow diagram illustrating the working principle of CTS, matching the figure caption 'How CTS functions' referenced in the RST.",
+          "It depicts the exact example described in the text: IMS creates images, reports traces to Cloud Trace Service, which transfers traces to an OBS bucket.",
+          "Labels (Image Management Service, Cloud Trace Service, OBS bucket, Create images, Report traces, Transfer traces, View traces) align with the RST narrative.",
+          "No interactive UI controls are present; it is a static conceptual diagram."
+        ],
+        "missing_evidence": [
+          "The diagram does not show the seven-day console trace list or tracker configuration mentioned elsewhere in the section, but these are not required for this figure."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_cloud_trace_service.rst",
+    "title": "What Is Cloud Trace Service",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002656630079.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630079.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630079.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/what_is_cloud_trace_service.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002656630079.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a CTS service architecture diagram, matching the figure caption 'CTS service diagram' in the RST.",
+          "It depicts trace recording (services reporting a trace), trace query (user querying a trace), and trace transfer (CTS storing/querying traces with OBS), aligning with the listed CTS functions.",
+          "The diagram is placed in the 'What Is Cloud Trace Service' section and directly illustrates the service's role.",
+          "Labels (User, VPC, EVS, ECS, CTS, OBS) and directional arrows are clearly visible, providing strong visual evidence.",
+          "No element in the diagram contradicts the textual description of CTS."
+        ],
+        "missing_evidence": [
+          "The diagram does not show the SMN key event notification function mentioned in the text.",
+          "No mention of LTS log streams in the diagram, only OBS is shown for trace transfer."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/verifying_trace_file_integrity/enabling_verification_of_trace_file_integrity.rst",
+    "title": "Enabling Verification of Trace File Integrity",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002626350784.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350784.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350784.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002626510686.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510686.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510686.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/verifying_trace_file_integrity/enabling_verification_of_trace_file_integrity.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626350784.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location/map-pin icon, matching step 2 which instructs clicking the icon in the upper left to select region and project.",
+          "The icon is a small isolated symbolic graphic, consistent with the 'icon' classification.",
+          "It is directly relevant to the CTS enabling-verification procedure described in the RST.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The icon is shown in isolation without surrounding console UI, so the exact placement in the upper-left corner cannot be visually confirmed."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/verifying_trace_file_integrity/enabling_verification_of_trace_file_integrity.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-trace-service/umn/source/_static/images/en-us_image_0000002626510686.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger/menu icon (three horizontal lines), matching step 3 which instructs clicking the icon in the upper left to open the navigation menu for Management & Deployment > Cloud Trace Service.",
+          "The icon is a small isolated symbolic graphic, consistent with the 'icon' classification.",
+          "It is directly relevant to the CTS enabling-verification procedure described in the RST.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The icon is shown in isolation without surrounding console UI, so the exact placement in the upper-left corner cannot be visually confirmed."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3060 @@
+[
+  {
+    "file_path": "umn/source/best_practices/configuring_redundant_or_active_standby_connections.rst",
+    "title": "Configuring Redundant or Active/Standby Connections",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001500493814.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001500493814.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001500493814.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001551687625.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001551687625.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001551687625.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "document_path": "umn/source/best_practices/configuring_redundant_or_active_standby_connections.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001500493814.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/best_practices/configuring_redundant_or_active_standby_connections.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001551687625.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/best_practices/using_a_connection_to_access_multiple_vpcs.rst",
+    "title": "Using a Connection to Access Multiple VPCs",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002462421801.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462421801.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462421801.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002428663310.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002428663310.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002428663310.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002428823182.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002428823182.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002428823182.png",
+        "kind": "figure",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/best_practices/using_a_connection_to_access_multiple_vpcs.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462421801.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a network topology diagram illustrating the scenario of accessing multiple VPCs over one connection.",
+          "Shows Local data center (172.16.0.1/24) connected via Direct connection to VPC A (192.168.0.1/24), then via VPC peering connection to VPC B (192.168.10.1/24).",
+          "All CIDR blocks and connection types match the RST description exactly.",
+          "Figure is referenced as Figure 1 in the Scenarios section of the document."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/best_practices/using_a_connection_to_access_multiple_vpcs.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002428663310.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a simple diagram showing VPC A labeled 'Peer VPC' connected to VPC B labeled 'Local VPC' via 'peering-001'.",
+          "Matches the RST description for the case where VPC A is the peer VPC in peering-001.",
+          "Referenced as Figure 2 in the Procedure section, step 3, under the same-tenant scenario.",
+          "Labels and connection name align with the document text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/best_practices/using_a_connection_to_access_multiple_vpcs.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002428823182.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a simple diagram showing VPC A labeled 'Local VPC' connected to VPC B labeled 'Peer VPC' via 'peering-001'.",
+          "Matches the RST description for the case where VPC A is the local VPC in peering-001.",
+          "Referenced as Figure 3 in the Procedure section, step 3, under the same-tenant scenario.",
+          "Labels and connection name align with the document text."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/enabling_direct_connect/connecting_your_on-premises_data_center_to_the_cloud.rst",
+    "title": "Connecting Your On-Premises Data Center to the Cloud",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002555047133.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002555047133.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002555047133.png",
+        "kind": "figure",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002555172851.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002555172851.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002555172851.png",
+        "kind": "figure",
+        "line": 156,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/enabling_direct_connect/connecting_your_on-premises_data_center_to_the_cloud.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002555047133.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a UI screenshot of the 'Create Virtual Gateway' dialog, matching Figure 1 referenced in the RST.",
+          "All visible fields (Name, Enterprise Project, Attach To, VPC, Local Subnet, BGP ASN, Tag, Description) correspond to Table 2 parameters in the RST.",
+          "The form is placed in step 8 of the procedure, exactly where the RST references this figure.",
+          "BGP ASN field shows 64512, consistent with the eu-nl region example in Table 2.",
+          "Cancel and OK buttons at the bottom match the RST instruction to click OK after configuring parameters."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_direct_connect/connecting_your_on-premises_data_center_to_the_cloud.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002555172851.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a UI screenshot of the 'Create Virtual Interface' form, matching Figure 2 referenced in the RST.",
+          "Visible fields (Region, Name, Connection, Virtual Gateway, VLAN, Enterprise Project, Tag) correspond to Table 3 parameters in the RST.",
+          "The form is placed in step 12 of the procedure, exactly where the RST references this figure.",
+          "VLAN field description text matches the RST explanation about values 0-3999 and VLAN ID requirements.",
+          "The 'Create Now' button at the bottom matches the RST instruction to click Create Now after configuring parameters."
+        ],
+        "missing_evidence": [
+          "The form appears to be partially visible; fields such as Local Gateway, Remote Gateway, Remote Subnet, Routing Mode, BGP ASN, BGP MD5 Authentication Key, and Description from Table 3 are not visible in the screenshot (likely below the fold)."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/enabling_direct_connect/obtaining_the_domain_name.rst",
+    "title": "Obtaining the Domain Name",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001408374401.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408374401.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408374401.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002622150059.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002622150059.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002622150059.png",
+        "kind": "figure",
+        "line": 22,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/enabling_direct_connect/obtaining_the_domain_name.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408374401.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a drop-down menu with 'My Credentials' highlighted, matching step 2 of the RST",
+          "The menu items (User Center, My Credentials, Switch Role, Log Out) are consistent with a management console user menu",
+          "Figure caption 'My Credentials' in the RST matches the highlighted item in the image"
+        ],
+        "missing_evidence": [
+          "The upper-right corner context (username click) is not visible in this cropped image"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_direct_connect/obtaining_the_domain_name.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002622150059.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the My Credentials page with a 'Domain Name' field, directly matching step 3",
+          "The page displays user information fields including Username, User ID, Domain Name, Domain ID, Email Address, etc.",
+          "Figure caption 'Domain Name' in the RST corresponds to the Domain Name field visible in the image"
+        ],
+        "missing_evidence": [
+          "The actual domain name value is redacted/blurred in the image"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/enabling_direct_connect/obtaining_the_region.rst",
+    "title": "Obtaining the Region",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001408614093.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408614093.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408614093.png",
+        "kind": "figure",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/enabling_direct_connect/obtaining_the_region.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408614093.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows the upper-left corner of the Open Telekom Cloud management console, matching the RST instruction to check the information in the upper left corner.",
+          "A red box highlights the region selector (location pin with dropdown), exactly as described in the RST ('The part in the red box is Region').",
+          "The figure caption 'Figure 1 Region' aligns with the document's purpose of identifying the Region.",
+          "Navigation items (Homepage, Service List, Favorites) and a dropdown control are visible, consistent with a management console UI."
+        ],
+        "missing_evidence": [
+          "The actual region name text inside the red box is blurred/obscured, so the specific region value cannot be verified.",
+          "The note about alphabetical ordering and the default 'eu-nl' region is not visually confirmable from this cropped top bar."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/enabling_direct_connect/obtaining_the_resource_id.rst",
+    "title": "Obtaining the Resource ID",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001408184657.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408184657.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408184657.png",
+        "kind": "substitution_image",
+        "line": 15,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001358504586.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001358504586.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001358504586.png",
+        "kind": "substitution_image",
+        "line": 16,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/enabling_direct_connect/obtaining_the_resource_id.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408184657.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small downward chevron/arrow icon referenced in step 4 as the element to click on the left of the connection name",
+          "Icon is consistent with a link or expand indicator next to a connection name in a Direct Connect console",
+          "Matches the RST instruction to click this element to proceed with obtaining the resource ID"
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible to confirm it is specifically in the Direct Connect Connections list",
+          "Cannot verify the exact placement relative to a connection name from the icon alone"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_direct_connect/obtaining_the_resource_id.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001358504586.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small copy icon (two overlapping rectangles) referenced in step 5 to copy the connection ID",
+          "Directly matches the RST instruction to click this icon on the right of the connection ID to copy it",
+          "Icon is a standard copy symbol, clearly identifiable and semantically correct for the described action"
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible to confirm placement next to a specific connection ID field"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/enabling_direct_connect/obtaining_the_vpc_id.rst",
+    "title": "Obtaining the VPC ID",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001358494134.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001358494134.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001358494134.png",
+        "kind": "figure",
+        "line": 19,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001408374433.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408374433.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408374433.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/enabling_direct_connect/obtaining_the_vpc_id.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001358494134.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a VPC details panel with name vpc-dbf3, ID field (redacted), Status: Normal, Subnet: 3, and VPC CIDR: 192.168.0.0/16",
+          "Directly corresponds to step 4 in the RST: 'In the VPC details area on the right of the page, select the target VPC. The value of ID is the VPC ID.'",
+          "The figure caption in the RST is 'Figure 1 VPC ID' which matches the content shown",
+          "Edit and delete icons are visible in the upper right of the panel"
+        ],
+        "missing_evidence": [
+          "The actual VPC ID value is redacted/blurred in the image"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/enabling_direct_connect/obtaining_the_vpc_id.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001408374433.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin/marker icon, consistent with a region or project selector",
+          "Referenced in RST step 2: 'Click |image1| in the upper left corner and select a region and a project'",
+          "The location pin is a standard symbol for region/location selection in cloud management consoles",
+          "Icon is simple and small, providing minimal visual detail beyond the basic pin shape"
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible to confirm it is in the upper left corner",
+          "No text label visible on the icon to confirm its exact function"
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/enabling_direct_connect/process_description.rst",
+    "title": "Process Description",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001169908623.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001169908623.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001169908623.png",
+        "kind": "figure",
+        "line": 12,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/enabling_direct_connect/process_description.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001169908623.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/connections/managing_connection_tags.rst",
+    "title": "Managing Connection Tags",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002571752560.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002571752560.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002571752560.png",
+        "kind": "figure",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002556465705.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002556465705.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002556465705.png",
+        "kind": "figure",
+        "line": 88,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002556305743.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002556305743.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002556305743.png",
+        "kind": "figure",
+        "line": 119,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 126,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 127,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 128,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/connections/managing_connection_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002571752560.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Edit Tag' panel with key/value input fields, '+ Add' link, and OK/Cancel buttons, matching the 'Adding a Tag' steps.",
+          "Left side shows the connection detail page with the 'Tags' tab and 'Edit Tag' button, consistent with the navigation described in the RST.",
+          "The 'Tags you can still add: 19' text aligns with the 20-tag maximum stated in the document."
+        ],
+        "missing_evidence": [
+          "Tag key/value text in the input fields is blurred, so exact example values are not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/connections/managing_connection_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002556465705.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays the 'Edit Tag' panel where an existing tag's key and value can be modified, matching the 'Editing a Tag' section.",
+          "The 'Tags' tab and 'Edit Tag' button on the left correspond to the navigation steps in the RST.",
+          "OK button is present for confirming the edit, consistent with step 8."
+        ],
+        "missing_evidence": [
+          "The specific tag being edited is blurred, so the exact key/value to modify is not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/connections/managing_connection_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002556305743.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Edit Tag' panel with a 'Delete' link next to a tag entry, matching the 'Deleting a Tag' section.",
+          "The 'Tags' tab and 'Edit Tag' button on the left align with the navigation steps in the RST.",
+          "OK button is present for confirming the deletion, consistent with the final step."
+        ],
+        "missing_evidence": [
+          "The tag entry targeted for deletion is blurred, so the specific key/value is not visible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/connections/managing_connection_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A location/region pin icon, used in the RST as the |image1|/|image2|/|image3| reference for selecting a region and project in the upper left corner.",
+          "It is a small symbolic UI icon rather than a full interface screenshot.",
+          "Relevant to the login/navigation steps common to all three tag-management procedures."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is shown, so the exact menu it opens is not visible."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/connections/modifying_a_connection.rst",
+    "title": "Modifying a Connection",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002603191073.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002603191073.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002603191073.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/connections/modifying_a_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002603191073.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a 'Modify Connection' dialog with fields for Name, Bandwidth (Mbit/s), Peer Location, and Description",
+          "Matches step 6 of the procedure: 'Modify its name, bandwidth, peer location, and description as needed'",
+          "Dialog includes Cancel and OK buttons matching step 7: 'Click OK'",
+          "Referenced in RST as Figure 1 with alt text 'Modifying a connection'"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/connections/modifying_a_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small location pin/marker icon used as a navigation element",
+          "Referenced in RST step 2 as |image1|: 'Click |image1| in the upper left corner and select a region and a project'",
+          "A location pin icon is semantically appropriate for selecting a region",
+          "Icon is small and slightly blurry but clearly identifiable as a location marker"
+        ],
+        "missing_evidence": [
+          "Icon is low resolution making fine details hard to discern",
+          "No surrounding UI context visible to confirm its placement in the upper left corner"
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/connections/viewing_a_connection.rst",
+    "title": "Viewing a Connection",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002525421462.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525421462.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525421462.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/connections/viewing_a_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525421462.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a connection details page with Basic Information and Tags tabs, matching Figure 1 caption in the RST",
+          "Fields such as Name, ID, Carrier, Location, Leased Line Status, Bandwidth, Port Type, and Project ID are visible, consistent with viewing connection settings",
+          "The page layout matches the management console UI described in the procedure steps"
+        ],
+        "missing_evidence": [
+          "Some field values are redacted/blurred, but the structure is clearly a connection details view"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/connections/viewing_a_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small location-pin icon used as |image1| in step 2 of the procedure",
+          "The RST instructs to click this icon in the upper left corner to select a region and a project, which aligns with a location/region selector icon",
+          "Icon is a simple symbolic graphic with no visible interactive controls"
+        ],
+        "missing_evidence": [
+          "No additional context beyond the icon itself; the surrounding UI is not shown"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_historical_connections/modifying_a_historical_connection.rst",
+    "title": "Modifying a Historical Connection",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001527134977.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001527134977.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001527134977.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_historical_connections/modifying_a_historical_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001527134977.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is referenced in Procedure step 2: 'Click |image1| in the upper left corner and select a region and a project,' which matches a region/location selector icon.",
+          "The location-pin glyph is semantically consistent with selecting a region, supporting its use in the procedure.",
+          "The icon is generic (region selector) and not specific to historical connections, so topic and detail match are moderate rather than exact.",
+          "No visible interactive button frame or control is present in the image itself, only the symbol."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI, so the 'upper left corner' placement cannot be visually confirmed.",
+          "No label or text accompanies the icon to confirm it is the region/project selector.",
+          "The icon is monochrome and small, so it cannot be tied to a specific service or page."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_historical_connections/viewing_a_historical_connection.rst",
+    "title": "Viewing a Historical Connection",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0070860784.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0070860784.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0070860784.png",
+        "kind": "substitution_image",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001527454805.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001527454805.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001527454805.png",
+        "kind": "substitution_image",
+        "line": 25,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_historical_connections/viewing_a_historical_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0070860784.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, which is a standard UI symbol for region/location selection.",
+          "The RST references this icon in step 2 for selecting a region and project in the upper left corner, which semantically matches a location pin.",
+          "The icon is small, isolated, and symbolic, fitting the 'icon' classification.",
+          "No interactive buttons are visible; it is a static pictogram."
+        ],
+        "missing_evidence": [
+          "The icon does not show the surrounding UI context (upper-left corner, region/project dropdown) that the RST describes.",
+          "No label or text accompanies the icon to confirm it is specifically the region selector."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_historical_connections/viewing_a_historical_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001527454805.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a downward-pointing chevron (V-shape), a common UI symbol for expanding a row or revealing details.",
+          "The RST references this icon in step 5 for clicking on the left of a target connection to view its settings, which aligns with an expand/reveal action.",
+          "The icon is small, isolated, and symbolic, fitting the 'icon' classification.",
+          "No interactive buttons are visible; it is a static pictogram."
+        ],
+        "missing_evidence": [
+          "The icon does not show the surrounding table/list context (connection list, target row) described in the RST.",
+          "No label or text accompanies the icon to confirm it is specifically the expand-to-view-settings control."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/creating_a_hosted_connection.rst",
+    "title": "Creating a Hosted Connection",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 59,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/creating_a_hosted_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin / map-marker symbol, matching the |image1| reference used in step 2 to select a region and project.",
+          "A location pin is the conventional icon for a region/area selector in a management console, consistent with the RST instruction 'Click |image1| in the upper left corner and select a region and a project.'",
+          "The icon is placed in the Procedure section and directly supports the steps for creating a hosted connection.",
+          "No contradiction between the icon's meaning (region/location selector) and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is an isolated symbol without surrounding UI context, so the exact placement (upper-left corner) cannot be visually confirmed from the image alone."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/deleting_a_hosted_connection.rst",
+    "title": "Deleting a Hosted Connection",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/deleting_a_hosted_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, i.e. an isolated symbolic icon.",
+          "In the RST, |image1| is referenced in Procedure step 2: 'Click |image1| in the upper left corner and select a region and a project,' which matches a region/project selector icon.",
+          "The icon is placed in the Procedure section and is directly relevant to the steps for deleting a hosted connection.",
+          "No contradiction between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image is a generic location pin; it does not show the actual management console UI or the region/project dropdown it represents.",
+          "No label or text is visible in the image to confirm it is the region/project selector."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/modifying_a_hosted_connection.rst",
+    "title": "Modifying a Hosted Connection",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/modifying_a_hosted_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, matching the |image1| reference in step 2 ('Click |image1| in the upper left corner and select a region and a project').",
+          "A location pin is a conventional icon for region/project selection, so it is semantically consistent with the procedure text.",
+          "The icon is an isolated symbolic graphic with no surrounding UI, so it is classified as an icon rather than a screenshot.",
+          "No interactive controls (buttons, menus) are visible within the image itself."
+        ],
+        "missing_evidence": [
+          "The image does not show the management console context (upper-left corner placement) described in the text.",
+          "No label or tooltip is visible to confirm it is specifically the region/project selector."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/viewing_a_hosted_connection.rst",
+    "title": "Viewing a Hosted Connection",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001560319725.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001560319725.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001560319725.png",
+        "kind": "substitution_image",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/viewing_a_hosted_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location pin/marker icon, consistent with a region/project selector in a management console.",
+          "The RST step 2 says 'Click |image1| in the upper left corner and select a region and a project,' which aligns with a location/region icon.",
+          "The icon is a generic navigation element, not specific to hosted connections or Direct Connect.",
+          "The visual clearly shows a location pin symbol, matching the described usage."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it hard to confirm exact design details.",
+          "No surrounding UI context is visible to confirm it appears in the upper left corner of a console."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_hosted_connections/viewing_a_hosted_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001560319725.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small downward-pointing chevron/arrow icon, commonly used for expand or view-more actions.",
+          "The RST step 6 says 'click |image2| to view its settings,' which is consistent with a dropdown/expand chevron.",
+          "The icon is a generic UI element, not specific to hosted connections or Direct Connect.",
+          "The visual clearly shows a small V-shaped or downward chevron symbol."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact design details.",
+          "No surrounding UI context is visible to confirm it appears in a table row or settings panel."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_operations_or_hosted_connections/managing_operations_connections/modifying_an_operations_connection.rst",
+    "title": "Modifying an Operations Connection",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_operations_connections/modifying_an_operations_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, matching the |image1| reference in step 2 ('Click |image1| in the upper left corner and select a region and a project').",
+          "A location pin is the conventional icon for a region/project selector, so it is semantically consistent with the procedure text.",
+          "The icon is an isolated symbolic graphic, not a full UI screenshot, so it is classified as an icon.",
+          "No visible interactive controls, labels, or buttons are present in the isolated image."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding management console UI, so its exact placement in the upper-left corner cannot be visually confirmed.",
+          "No text or label accompanies the icon to explicitly identify it as the region/project selector."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_operations_or_hosted_connections/managing_operations_connections/viewing_an_operations_connection.rst",
+    "title": "Viewing an Operations Connection",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_operations_or_hosted_connections/managing_operations_connections/viewing_an_operations_connection.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin / map-marker symbol, matching the region/project selector referenced in step 2 of the procedure.",
+          "It is an isolated UI symbol (icon), not a full screenshot or page interface.",
+          "The icon is semantically consistent with 'select a region and a project' in the Direct Connect management console procedure.",
+          "No visible interactive controls or buttons are present in the isolated icon."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding management console UI, so its exact placement in the upper-left corner cannot be verified.",
+          "No label or text accompanies the icon to confirm it is the region/project selector."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_virtual_gateways/deleting_a_virtual_gateway.rst",
+    "title": "Deleting a Virtual Gateway",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002525425808.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525425808.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525425808.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/deleting_a_virtual_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525425808.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a 'Delete This Virtual Gateway' confirmation dialog, matching Figure 1 caption in the RST",
+          "Dialog displays warning text about irreversibility and the virtual gateway name (vgw-___) to be deleted",
+          "Contains Cancel and OK buttons corresponding to step 6 (Click OK) in the procedure",
+          "Table with Name and ID columns is consistent with the virtual gateway list context"
+        ],
+        "missing_evidence": [
+          "The specific virtual gateway name and ID are redacted/blurred in the image"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/deleting_a_virtual_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin / map marker icon, referenced as |image1| in step 2 of the procedure",
+          "Used in context of selecting a region and project in the upper left corner of the management console",
+          "Icon is a generic UI navigation element, not specific to virtual gateway deletion",
+          "Clearly visible as a simple pictogram matching the RST reference for the region selector"
+        ],
+        "missing_evidence": [
+          "No additional context visible in the icon itself to confirm it is specifically the region/project selector button"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_virtual_gateways/managing_virtual_gateway_tags.rst",
+    "title": "Managing Virtual Gateway Tags",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002429392042.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429392042.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429392042.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002462722037.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462722037.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462722037.png",
+        "kind": "figure",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002462843981.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462843981.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462843981.png",
+        "kind": "figure",
+        "line": 118,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 125,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 126,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 127,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/managing_virtual_gateway_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429392042.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Virtual Gateways details page with the Edit Tag panel open, matching Figure 1 'Adding a tag to a virtual gateway'.",
+          "Displays a tag key/value pair (key-test01 / value-test01) and an 'Add Tag' link, consistent with the Adding a Tag steps.",
+          "Includes Cancel and OK buttons matching the final 'Click OK' step."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/managing_virtual_gateway_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462722037.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Edit Tag panel with a modified tag (modify-key-test02 / value-test02), matching Figure 2 'Editing a tag of a virtual gateway'.",
+          "Two tag rows are visible, illustrating the modification of a tag key and value.",
+          "Cancel and OK buttons present, consistent with the Editing a Tag steps."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/managing_virtual_gateway_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462843981.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the Edit Tag panel with a Delete link next to the tag, matching Figure 3 'Deleting a tag from a virtual gateway'.",
+          "The visible Delete control aligns with the step 'locate the tag to be deleted and click Delete'.",
+          "Cancel and OK buttons present, consistent with the Deleting a Tag steps."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/managing_virtual_gateway_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A small location-pin pictogram used as the |image1|/|image2|/|image3| reference in the steps.",
+          "Matches the instruction 'Click |image1| in the upper left corner and select a region and a project', where a region/selector icon is expected.",
+          "Isolated symbolic graphic with no interface, classifying it as an icon."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_virtual_gateways/modifying_a_virtual_gateway.rst",
+    "title": "Modifying a Virtual Gateway",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002462395257.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462395257.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462395257.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002428916858.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002428916858.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002428916858.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/modifying_a_virtual_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462395257.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a 'Modify Virtual Gateway' dialog with Name, Local Subnet, and Description fields",
+          "Matches RST description: 'If the virtual gateway is attached to a VPC, you can modify Name, Local Subnet, and Description'",
+          "Dialog includes Cancel and OK buttons consistent with the procedure step 'Click OK'",
+          "Labeled as Figure 1 in the RST for VPC-attached virtual gateway modification"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/modifying_a_virtual_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002428916858.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a 'Modify Virtual Gateway' dialog with only Name and Description fields (no Local Subnet)",
+          "Matches RST description: 'If the virtual gateway is attached to an enterprise router, you can modify Name and Description'",
+          "Dialog includes Cancel and OK buttons consistent with the procedure",
+          "Labeled as Figure 2 in the RST for enterprise router-attached virtual gateway modification"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/modifying_a_virtual_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin / map marker icon",
+          "Referenced in RST step 2 as the icon to click for selecting a region and project",
+          "The location pin symbol is semantically appropriate for a region/project selector",
+          "No interactive buttons visible; it is a standalone symbolic icon"
+        ],
+        "missing_evidence": [
+          "The icon is small and low-resolution; exact UI context (e.g., surrounding menu) is not visible"
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_virtual_gateways/viewing_a_virtual_gateway.rst",
+    "title": "Viewing a Virtual Gateway",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002525424096.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525424096.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525424096.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002525265116.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525265116.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525265116.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/viewing_a_virtual_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525424096.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows a Virtual Gateways detail page with a VPC field visible, matching Figure 1 caption",
+          "Fields include Name, Status (Normal), Virtual Interfaces, Local Subnet (IPv4), Description, ID, VPC, BGP ASN, Enterprise Project",
+          "Tags section with Edit Tag button is visible at the bottom",
+          "Directly corresponds to the RST bullet 'View the virtual gateway that is attached to a VPC'"
+        ],
+        "missing_evidence": [
+          "Some field values are redacted/blurred for privacy"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/viewing_a_virtual_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002525265116.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows a Virtual Gateways detail page with an Enterprise Router field visible, matching Figure 2 caption",
+          "Fields include Name, Status (Normal), Virtual Interfaces, Description, ID, Enterprise Router, BGP ASN, Enterprise Project",
+          "Tags section with Edit Tag button is visible at the bottom",
+          "Directly corresponds to the RST bullet 'View the virtual gateway that is attached to an enterprise router'"
+        ],
+        "missing_evidence": [
+          "Some field values are redacted/blurred for privacy"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_gateways/viewing_a_virtual_gateway.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small location pin/marker icon used as the region and project selector reference in step 2",
+          "Matches the RST instruction 'Click |image1| in the upper left corner and select a region and a project'",
+          "It is a generic UI symbol, not specific to virtual gateway viewing",
+          "Serves as a navigational aid in the procedure rather than illustrating the main topic"
+        ],
+        "missing_evidence": [
+          "The icon is generic and does not show the actual region/project selection interface",
+          "No context of the surrounding UI is visible in this isolated icon"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_virtual_interfaces/deleting_a_virtual_interface.rst",
+    "title": "Deleting a Virtual Interface",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002603311315.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002603311315.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002603311315.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_virtual_interfaces/deleting_a_virtual_interface.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002603311315.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Delete This Virtual Interface' confirmation dialog, directly matching the document title and step 6",
+          "The dialog includes the DELETE confirmation text field, warning message, Name/ID table, and Cancel/OK buttons as described in the RST",
+          "Figure caption in RST ('Figure 1 Deleting a virtual interface') matches the image content exactly",
+          "All UI elements visible in the screenshot align with the procedure described in the document"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_interfaces/deleting_a_virtual_interface.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin / map marker icon used as the region/project selector in step 2",
+          "The RST references this as |image1| for 'Click |image1| in the upper left corner and select a region and a project'",
+          "The icon is a generic location symbol, not specific to virtual interface deletion but relevant to the navigation procedure",
+          "The icon is small and slightly blurry, making fine details hard to discern"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact visual details",
+          "No surrounding UI context is visible to confirm it is the region selector in the upper left corner"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_virtual_interfaces/managing_virtual_interface_tags.rst",
+    "title": "Managing Virtual Interface Tags",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002429253408.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429253408.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429253408.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002462872773.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462872773.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462872773.png",
+        "kind": "figure",
+        "line": 87,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002463058861.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002463058861.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002463058861.png",
+        "kind": "figure",
+        "line": 118,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 125,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 126,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 127,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_virtual_interfaces/managing_virtual_interface_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429253408.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Edit Tag' dialog with a tag key/value pair (key-test01 / value-test01) and an 'Add Tag' link, matching Figure 1 'Adding a tag to a virtual interface'.",
+          "The left panel shows the 'Tags' tab of a virtual interface, consistent with the navigation steps in the Adding a Tag section.",
+          "Interactive controls (Add Tag, Delete, Cancel, OK) are visible and align with the described workflow."
+        ],
+        "missing_evidence": [
+          "The full virtual interface name and region/project context are partially obscured."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_interfaces/managing_virtual_interface_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462872773.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Edit Tag' dialog with a modified key (modify-key-test01) and a second tag, matching Figure 2 'Editing a tag of a virtual interface'.",
+          "The presence of multiple editable key/value rows and Delete links supports the editing workflow described in the Editing a Tag section.",
+          "Interactive controls (Add Tag, Delete, Cancel, OK) are visible."
+        ],
+        "missing_evidence": [
+          "The exact before/after state of the edited tag is not explicitly labeled."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_interfaces/managing_virtual_interface_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002463058861.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the 'Edit Tag' dialog with a single tag (key-test02 / value-test02) and a visible 'Delete' link, matching Figure 3 'Deleting a tag from a virtual interface'.",
+          "The 'You can add 19 more tags' counter is consistent with one tag having been removed from a set of two.",
+          "Interactive controls (Add Tag, Delete, Cancel, OK) are visible and align with the deletion workflow."
+        ],
+        "missing_evidence": [
+          "The deleted tag itself is not shown, only the remaining tag."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_interfaces/managing_virtual_interface_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A small location-pin pictogram, matching the |image1|/|image2|/|image3| references used in step 2 ('Click ... in the upper left corner and select a region and a project').",
+          "The location/region symbol is semantically consistent with selecting a region and project in the management console.",
+          "It is an isolated symbolic graphic, not a full UI screenshot."
+        ],
+        "missing_evidence": [
+          "No surrounding UI context is visible; only the icon itself is shown."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_virtual_interfaces/modifying_a_virtual_interface.rst",
+    "title": "Modifying a Virtual Interface",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002462395533.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462395533.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462395533.png",
+        "kind": "figure",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_virtual_interfaces/modifying_a_virtual_interface.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002462395533.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a 'Modify Virtual Interface' dialog with Name, Remote Subnet, and Description fields, matching step 6 of the RST procedure.",
+          "The OK and Cancel buttons at the bottom align with step 7 ('Click OK').",
+          "The warning text about 100.64.0.0/10 subnet is visible and relevant to the remote subnet field.",
+          "Figure caption in RST ('Figure 1 Modifying a virtual interface') matches the dialog title."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_interfaces/modifying_a_virtual_interface.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin icon referenced as |image1| in step 2 for selecting a region and project.",
+          "It is a symbolic UI icon used as a navigation/region selector, consistent with the RST context.",
+          "The icon is small and slightly blurry, limiting fine detail assessment."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact visual details.",
+          "No surrounding UI context is shown to confirm its placement in the upper-left corner as described in the RST."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management/managing_virtual_interfaces/viewing_a_virtual_interface.rst",
+    "title": "Viewing a Virtual Interface",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002603312607.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002603312607.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002603312607.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002429106732.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "kind": "substitution_image",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management/managing_virtual_interfaces/viewing_a_virtual_interface.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002603312607.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a virtual interface settings page with Basic Information and Tags tabs",
+          "Fields visible include Name, Status, Connection, BGP ASN, Remote Gateway, VLAN, Virtual Gateway, Routing Mode, BGP MD5 Authentication Key, Enterprise Project",
+          "Matches the RST figure caption 'Virtual interface settings' referenced in step 5 of the procedure",
+          "Routing Mode shows 'BGP' and Enterprise Project shows 'default', consistent with a Direct Connect virtual interface detail view"
+        ],
+        "missing_evidence": [
+          "Some field values are blurred/redacted, preventing full verification of specific settings",
+          "No navigation pane or breadcrumb visible to confirm the exact page location within the console"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management/managing_virtual_interfaces/viewing_a_virtual_interface.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000002429106732.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small location pin/marker icon, consistent with a region/project selector",
+          "RST step 2 instructs to click this icon in the upper left corner to select a region and project",
+          "The icon is a standard UI symbol for geographic/region selection",
+          "It is a supporting element in the procedure rather than the main subject of viewing a virtual interface"
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible to confirm its placement in the upper left corner",
+          "No text label visible on the icon itself to confirm its function beyond the RST description"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/permissions_management/creating_a_user_and_granting_permissions.rst",
+    "title": "Creating a User and Granting Permissions",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001562084113.jpg",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001562084113.jpg",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001562084113.jpg",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/permissions_management/creating_a_user_and_granting_permissions.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001562084113.jpg",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/application_scenarios.rst",
+    "title": "Application Scenarios",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001146013067.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001146013067.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001146013067.png",
+        "kind": "figure",
+        "line": 21,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001490649208.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001490649208.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001490649208.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 2
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001146013067.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/service_overview/application_scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0000001490649208.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/basic_concepts/virtual_gateways.rst",
+    "title": "Virtual Gateways",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0140247511.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0140247511.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0140247511.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/basic_concepts/virtual_gateways.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0140247511.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is an architectural diagram illustrating a virtual gateway linking a local data center to a VPC, matching the document topic.",
+          "Labels (Local data center, Gateway, Connection, Virtual interface, Virtual gateway, vRouter, VPC) align with the RST description of virtual gateways as virtual routers connecting Direct Connect to VPCs.",
+          "The figure caption 'Figure 1 Virtual gateway' in the RST corresponds directly to this image.",
+          "No interactive UI controls are present; it is a static schematic."
+        ],
+        "missing_evidence": [
+          "No explicit Direct Connect branding is shown, though the connection concept is implied."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/basic_concepts/virtual_interfaces.rst",
+    "title": "Virtual Interfaces",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0161422124.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0161422124.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0161422124.png",
+        "kind": "figure",
+        "line": 13,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/basic_concepts/virtual_interfaces.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0161422124.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is an architecture/schematic diagram, not a UI screenshot or icon, so image_kind is 'other'.",
+          "It depicts a local data center gateway connected via a 'Connection' to a virtual interface/virtual gateway, then to a vRouter and a VPC, matching the RST description of virtual interfaces associating on-premises gateways with virtual gateways to access VPCs.",
+          "Labels (Local data center, Gateway, Connection, Virtual interface, Virtual gateway, vRouter, VPC) align with the section's topic of virtual interfaces and hybrid connectivity.",
+          "No interactive controls are visible in the diagram."
+        ],
+        "missing_evidence": [
+          "The diagram does not explicitly show BGP or static routing, which the RST mentions as supported routing methods.",
+          "No legend or additional annotation beyond the component labels is present."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/direct_connect.rst",
+    "title": "Direct Connect",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0140303752.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0140303752.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0140303752.png",
+        "kind": "figure",
+        "line": 14,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/direct_connect.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0140303752.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is an architecture diagram illustrating how Direct Connect works, matching the figure caption in the RST.",
+          "Labeled components (On-premises data center, Customer gateway, Connection, Virtual interface, Virtual gateway, vRouter, VPC) align with the RST description of the connection, virtual gateway, and virtual interface.",
+          "The diagram is referenced as Figure 1 in the Direct Connect section, so it is directly relevant to that section.",
+          "Clear labels and directional arrows provide strong visual evidence of the hybrid cloud connectivity flow.",
+          "No visible element contradicts the RST text."
+        ],
+        "missing_evidence": [
+          "The diagram does not explicitly show multiple VPCs, though the RST mentions one or more VPCs.",
+          "No legend or color coding is provided to distinguish connection types beyond solid vs. dashed arrows."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/region_and_az.rst",
+    "title": "Region and AZ",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0184026531.png",
+        "original_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0184026531.png",
+        "used_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0184026531.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/region_and_az.rst",
+        "image_path": "/home/ubuntu/repotesting/direct-connect/umn/source/_static/images/en-us_image_0184026531.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  }
+]

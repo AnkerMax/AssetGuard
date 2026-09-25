@@ -1,0 +1,3317 @@
+[
+  {
+    "file_path": "umn/source/adding_audit_scope.rst",
+    "title": "Adding Audit Scope",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001173318613.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001173318613.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001173318613.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001074398929.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "kind": "substitution_image",
+        "line": 93,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/adding_audit_scope.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001173318613.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is titled 'Add Audit Scope' matching the document title exactly",
+          "Dialog box fields (Name, Database Name, Operations with Login/Operation checkboxes, Database Account, Exception IP Address, Source IP Address) match the parameters table in the RST",
+          "Referenced in step 6 of the Procedure as Figure 1 for setting the audit scope",
+          "OK and Cancel buttons are visible at the bottom of the dialog",
+          "The Source Port field mentioned in the table is not visible, likely below the visible area of the screenshot"
+        ],
+        "missing_evidence": [
+          "Source Port field is not visible in the screenshot (may be below the fold)",
+          "No visible dialog title bar or window chrome beyond the heading text"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/adding_audit_scope.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon (three horizontal lines) used as a navigation element",
+          "Referenced in step 2 as the icon to click before choosing Security > Database Security Service",
+          "The icon is a standard navigation menu symbol consistent with management console UI patterns",
+          "It is a prerequisite navigation step rather than directly related to the audit scope topic"
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible to confirm it is specifically the service menu in the management console",
+          "No label or tooltip visible to confirm its exact function"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/adding_risky_operations.rst",
+    "title": "Adding Risky Operations",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001531047000.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001531047000.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001531047000.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001562224796.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001562224796.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001562224796.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001561906096.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001561906096.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001561906096.png",
+        "kind": "substitution_image",
+        "line": 98,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001562385088.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001562385088.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001562385088.png",
+        "kind": "substitution_image",
+        "line": 99,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/adding_risky_operations.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001531047000.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a screenshot of the Add Risky Operation page matching Figure 1 caption in the RST.",
+          "Shows Basic Info section with Name, Risk Level (High/Moderate/Low/No risk), Status toggle, and Select Database fields as described in Table 1.",
+          "Shows Client IP Address or IP Range text area matching the parameter description.",
+          "Shows Operations section with Login and Operation checkboxes matching Table 2.",
+          "Shows Objects section with Add Object button and table columns (Destination Database, Target Table, Field, Operation) matching Table 2."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/adding_risky_operations.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001562224796.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small toggle switch icon in the on/active position.",
+          "Referenced in RST as |image1| representing the 'enabled' status in Table 1.",
+          "Visually consistent with an enabled toggle state (filled, active position).",
+          "Used in the Status parameter row to illustrate the enabled option."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/adding_risky_operations.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001561906096.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small toggle switch icon in the off/inactive position.",
+          "Referenced in RST as |image2| representing the 'disabled' status in Table 1.",
+          "Visually consistent with a disabled toggle state (gray, inactive position).",
+          "Used in the Status parameter row to illustrate the disabled option."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/adding_risky_operations.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001562385088.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small toggle switch icon in the on/active position.",
+          "Referenced in RST as |image3| serving as the example value for the Status parameter in Table 1.",
+          "Visually consistent with an enabled toggle state, matching the example context.",
+          "Used as the example value illustration for the Status field."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/applying_for_a_database_audit_instance.rst",
+    "title": "Applying for a Database Audit Instance",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001078852871.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001078852871.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001078852871.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/applying_for_a_database_audit_instance.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001078852871.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small hamburger-menu icon (three horizontal bars with a small accent dot), matching the |image1| reference used in step 2 to open the navigation menu.",
+          "The RST instructs the user to 'click |image1|, and choose Security > Database Security Service', which is consistent with a menu icon that opens a navigation panel.",
+          "The icon is placed in the Procedure section and directly supports the navigation step toward the Database Security Service dashboard.",
+          "The visual content (a generic menu pictogram) is clear and unambiguous."
+        ],
+        "missing_evidence": [
+          "The icon is a generic hamburger menu and does not itself depict the Database Security Service or any database-audit-specific UI, so topic specificity is limited.",
+          "No surrounding UI context (e.g., the menu panel it opens) is shown in the image."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/best_practices/auditing_an_rds_db_instance_without_agents.rst",
+    "title": "Auditing an RDS DB Instance (Without Agents)",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001438417909.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001438417909.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001438417909.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001560437302.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001560437302.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001560437302.png",
+        "kind": "figure",
+        "line": 117,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001438388809.jpg",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001438388809.jpg",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001438388809.jpg",
+        "kind": "substitution_image",
+        "line": 122,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0297146326.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0297146326.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0297146326.png",
+        "kind": "substitution_image",
+        "line": 123,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/best_practices/auditing_an_rds_db_instance_without_agents.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001438417909.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/best_practices/auditing_an_rds_db_instance_without_agents.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001560437302.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Image shows a Reports/Report Management page with a table of generated reports, matching the RST description of viewing report status and downloading reports",
+          "The instance dropdown shows 'DBSS-test17' consistent with a DBSS audit instance",
+          "The Operation column shows 'Download' and 'Delete' links, with the first 'Download' highlighted in a red box, matching the RST instruction to download a report",
+          "The RST mentions 'click Preview or choose More > Download' but the image shows 'Download' and 'Delete' directly without a 'More' dropdown or 'Preview' button"
+        ],
+        "missing_evidence": [
+          "The RST mentions a 'Preview' option that is not visible in the image",
+          "The RST mentions a 'More' dropdown for downloading, but the image shows a direct 'Download' link"
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/best_practices/auditing_an_rds_db_instance_without_agents.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001438388809.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a hamburger menu icon (three horizontal lines), which is a standard navigation icon",
+          "The RST references this as |image1| in the step 'Select a region and click |image1|. Choose Security > Database Security Service', consistent with a menu icon for navigation",
+          "The icon is small and symbolic, fitting the 'icon' classification"
+        ],
+        "missing_evidence": [
+          "The image is very small and low-resolution, making it difficult to confirm exact details of the icon",
+          "Cannot verify if this is the exact icon used in the specific console version referenced"
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/best_practices/auditing_an_rds_db_instance_without_agents.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0297146326.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a calendar icon, which is the standard UI element for date/time selection",
+          "The RST references this as |image2| in the step 'click |image2| to set the start time and end time of the report', which perfectly matches a calendar icon",
+          "The icon is small and symbolic, fitting the 'icon' classification",
+          "No contradictions between the RST description and the visual content of the icon"
+        ],
+        "missing_evidence": [
+          "The image is small and slightly blurry, but the calendar shape is clearly identifiable"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/configuring_privacy_data_protection_rules.rst",
+    "title": "Configuring Privacy Data Protection Rules",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001531043744.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001531043744.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001531043744.png",
+        "kind": "figure",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001581444553.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581444553.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581444553.png",
+        "kind": "figure",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001193982039.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001193982039.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001193982039.png",
+        "kind": "substitution_image",
+        "line": 118,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001530562784.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530562784.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530562784.png",
+        "kind": "substitution_image",
+        "line": 119,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/configuring_privacy_data_protection_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001531043744.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the Add Rule dialog box (Figure 1) referenced in step 6 of the Procedure section",
+          "Shows all three parameters from Table 1: Rule Name, Regular Expression, Substitution Value",
+          "Includes an Example section demonstrating password masking with regular expression and substitution value",
+          "Contains OK and Cancel buttons matching the RST instruction to click OK"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_privacy_data_protection_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581444553.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is Figure 2 showing the Privacy Data Protection tab with an enabled Passport NO. rule",
+          "Mask Privacy Data toggle is enabled (on), matching the verification step requirement",
+          "Store Result Set toggle is disabled, consistent with the advisory in the Procedure section",
+          "Table shows Passport NO. rule with Default type, Enabled status, and Disable/Edit/Delete operations matching the Common Operations section"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_privacy_data_protection_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001193982039.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch in the OFF/disabled (gray) state",
+          "Used as |image1| in the RST where it says 'You are advised to disable |image1|' for Store Result Set",
+          "The disabled state visually represents the recommended action for Store Result Set"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/configuring_privacy_data_protection_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530562784.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch in the ON/enabled (magenta) state",
+          "Used as |image2| in the RST where it says 'You are advised to enable |image2|' for Mask Privacy Data",
+          "The enabled state visually represents the recommended action for Mask Privacy Data"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/enabling_or_disabling_sql_injection_detection.rst",
+    "title": "Enabling or Disabling SQL Injection Detection",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001127129398.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001127129398.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001127129398.png",
+        "kind": "figure",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001671055773.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001671055773.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001671055773.png",
+        "kind": "figure",
+        "line": 53,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001173169443.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001173169443.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001173169443.png",
+        "kind": "figure",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001074398929.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "kind": "substitution_image",
+        "line": 110,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001671056613.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001671056613.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001671056613.png",
+        "kind": "substitution_image",
+        "line": 111,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001671056725.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001671056725.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001671056725.png",
+        "kind": "substitution_image",
+        "line": 112,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001622617012.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001622617012.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001622617012.png",
+        "kind": "substitution_image",
+        "line": 113,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/enabling_or_disabling_sql_injection_detection.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001127129398.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a table of SQL injection detection rules with Name, Command Feature, Risk Severity, Status, and Operation columns",
+          "Two rules visible: 'HAVING error SQL injection' (Moderate) and 'Boolean SQL injection' (High), both Enabled",
+          "Disable buttons are highlighted with red boxes in the Operation column, matching Figure 1 caption",
+          "Directly corresponds to the step of disabling an SQL injection detection rule"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enabling_or_disabling_sql_injection_detection.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001671055773.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows an 'Add Rule' form with fields: Rule Name, Risk Level, Status, Regular expression",
+          "Risk Level options (High, Moderate, Low, No risk) match Table 1 in the RST",
+          "Test Regular expression section with Data input, Test button, and Result field matches the table description",
+          "OK and Cancel buttons at the bottom match the step instruction to click OK",
+          "Status toggle is visible, matching the Status parameter in Table 1"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enabling_or_disabling_sql_injection_detection.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001173169443.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows the same SQL injection rules table as Figure 1 but with 'Boolean SQL injection' in Disabled status",
+          "Enable button is highlighted with a red box in the Operation column, matching Figure 3 caption",
+          "Directly corresponds to the Follow-Up Procedure section about enabling a rule",
+          "Status column shows 'Disabled' for the second rule, confirming the rule was previously disabled"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enabling_or_disabling_sql_injection_detection.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Hamburger menu icon (three horizontal lines) used as a navigation trigger",
+          "Referenced in step 2: 'click |image1|, and choose Security > Database Security Service'",
+          "It is a generic navigation icon, not specific to SQL injection detection",
+          "Serves as the entry point to access the Database Security Service"
+        ],
+        "missing_evidence": [
+          "The icon is generic and does not show any SQL injection-specific content"
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/enabling_or_disabling_sql_injection_detection.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001671056613.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Toggle switch icon in the 'on' position (knob to the right, magenta fill)",
+          "Used in Table 1 as |image2| representing the 'enabled' status",
+          "Directly corresponds to the Status parameter description in the RST table",
+          "Visually represents an active/enabled state"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enabling_or_disabling_sql_injection_detection.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001671056725.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Toggle switch icon in the 'off' position (knob to the left, gray fill)",
+          "Used in Table 1 as |image3| representing the 'disabled' status",
+          "Directly corresponds to the Status parameter description in the RST table",
+          "Visually represents an inactive/disabled state"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/enabling_or_disabling_sql_injection_detection.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001622617012.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Toggle switch icon in the 'on' position (knob to the right, magenta fill)",
+          "Used in Table 1 as |image4| for the Status example value",
+          "Represents the enabled state as an example in the parameter table",
+          "Identical in appearance to |image2|, both representing the enabled toggle state"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/logs/how_do_i_back_up_the_database_audit_logs.rst",
+    "title": "How Do I Back Up the Database Audit Logs?",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001294284718.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001294284718.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001294284718.png",
+        "kind": "figure",
+        "line": 24,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001581367781.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581367781.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581367781.png",
+        "kind": "substitution_image",
+        "line": 67,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001530888000.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530888000.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530888000.png",
+        "kind": "substitution_image",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001530889940.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530889940.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530889940.png",
+        "kind": "substitution_image",
+        "line": 69,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001147868462.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001147868462.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001147868462.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/logs/how_do_i_back_up_the_database_audit_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001294284718.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the Configure Automatic Backup dialog box referenced as Figure 1 in the RST.",
+          "All parameters listed in Table 1 are visible: Automatic Backup toggle, Backup Period, Started, Bucket Name, Export Directory.",
+          "The dialog shows OBS backup notification consistent with the document text.",
+          "Buttons (Create Default Bucket, Select Bucket, OK, Cancel) match the described workflow."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/logs/how_do_i_back_up_the_database_audit_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581367781.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small toggle-switch icon in the enabled (on) position, matching |image1| described as 'enabled' in Table 1.",
+          "Used in the Automatic Backup parameter row to illustrate the enabled state.",
+          "Visually consistent with the toggle shown in the main dialog screenshot."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/logs/how_do_i_back_up_the_database_audit_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530888000.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small toggle-switch icon in the disabled (off) position, matching |image2| described as 'disabled' in Table 1.",
+          "Used in the Automatic Backup parameter row to illustrate the disabled state.",
+          "Visually distinct from the enabled toggle, correctly representing the off state."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/logs/how_do_i_back_up_the_database_audit_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530889940.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small toggle-switch icon in the enabled (on) position, matching |image3| used as the example value for the Automatic Backup parameter.",
+          "Serves as the visual example in Table 1 showing what the enabled state looks like.",
+          "Consistent with the enabled toggle shown in the main dialog screenshot."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/logs/how_do_i_back_up_the_database_audit_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001147868462.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small calendar icon matching |image4| described in the Started row as 'Click |image4| to configure'.",
+          "Represents the date/time picker control for setting the backup start time.",
+          "Consistent with the calendar icon visible next to the Started field in the main dialog screenshot."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/operations/how_do_i_check_the_version_of_database_audit.rst",
+    "title": "How Do I Check the Version of Database Audit?",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001552210846.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001552210846.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001552210846.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001074398929.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "kind": "substitution_image",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/operations/how_do_i_check_the_version_of_database_audit.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001552210846.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows the Overview page of a Database Security Service instance with the Version field highlighted in a red box",
+          "Matches the RST step 6: 'View the instance version' and the figure caption 'Figure 1 Viewing the instance version'",
+          "The version value 22.07.01.120901 is clearly visible and highlighted",
+          "UI elements (tabs, edit icons) are consistent with a management console interface"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/operations/how_do_i_check_the_version_of_database_audit.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small hamburger menu icon (three horizontal lines) used as |image1| in step 3 of the procedure",
+          "Referenced in RST as the button to click to navigate to Security > Database Security Service",
+          "Generic navigation icon; not specific to database audit version checking but part of the navigation steps"
+        ],
+        "missing_evidence": [
+          "No context shown around the icon (no surrounding UI to confirm it is a menu button in the management console)",
+          "The icon is very small and low-resolution, making fine details unclear"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/operations/how_do_i_view_all_alarms_in_database_audit.rst",
+    "title": "How Do I View All Alarms in Database Audit?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000002291173653.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000002291173653.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000002291173653.png",
+        "kind": "substitution_image",
+        "line": 17,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/operations/how_do_i_view_all_alarms_in_database_audit.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000002291173653.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small magnifying-glass (search) icon, an isolated UI symbol.",
+          "The RST references this image as the control to click in order to query alarms for a selected time range.",
+          "A search/magnifier icon is consistent with the 'click to view alarms' query action described in the steps.",
+          "No contradiction between the icon and the surrounding procedure text."
+        ],
+        "missing_evidence": [
+          "No surrounding management-console UI (drop-down list, alarm table) is visible in the image.",
+          "The icon has no text label, so its exact function is inferred from the RST context."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/faqs/troubleshooting/database_audit_is_unavailable.rst",
+    "title": "Database Audit Is Unavailable",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0291724693.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0291724693.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0291724693.png",
+        "kind": "figure",
+        "line": 93,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0291724694.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0291724694.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0291724694.png",
+        "kind": "figure",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001074398929.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "kind": "substitution_image",
+        "line": 135,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001072223296.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001072223296.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001072223296.png",
+        "kind": "substitution_image",
+        "line": 136,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 1,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/faqs/troubleshooting/database_audit_is_unavailable.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0291724693.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows terminal output of tailf /opt/dbss_audit_agent/log/audit_agent.log with success messages",
+          "Matches Figure 1 'Normal communication' described in the RST",
+          "Log lines include 'send config data capture result success', 'init udp connection success', 'init udp communication success'",
+          "Clearly demonstrates normal agent-to-audit-instance communication as described in the Checking Database Agent Status section"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/database_audit_is_unavailable.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0291724694.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows terminal output of tailf /opt/dbss_audit_agent/log/audit_agent.log with an ERROR line",
+          "Matches Figure 2 'Communication error' described in the RST",
+          "Shows 'ERROR [websocket_connection_handle.cpp:177] send authentication packet failed, retry 30 seconds later!'",
+          "Clearly demonstrates abnormal agent-to-audit-instance communication as described in the Checking Database Agent Status section"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/database_audit_is_unavailable.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 1,
+          "detail_match": 1,
+          "section_relevance": 1,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small icon showing three horizontal lines (hamburger/list menu icon)",
+          "Defined as |image1| in the RST but not clearly referenced in the visible body text",
+          "Too small and pixelated to determine exact UI context",
+          "No clear contradiction with the document content"
+        ],
+        "missing_evidence": [
+          "The RST defines |image1| but does not show where it is used in the visible text",
+          "Cannot determine which specific UI element or section this icon corresponds to",
+          "Image is very small and pixelated, making it difficult to identify the exact UI context"
+        ],
+        "overall_score": 0.48,
+        "verdict": "fail"
+      },
+      {
+        "document_path": "umn/source/faqs/troubleshooting/database_audit_is_unavailable.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001072223296.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small downward chevron/arrow icon, consistent with a 'view details' or 'expand' UI element",
+          "Used as |image2| in step 4: 'Click |image2| next to the database to view the information of its agent'",
+          "The chevron icon is a common UI pattern for expanding or revealing additional information",
+          "Matches the context of clicking an icon next to a database entry to view agent information"
+        ],
+        "missing_evidence": [
+          "Image is very small and pixelated, making it hard to confirm exact icon design",
+          "Cannot verify the exact UI context (which page or panel) this icon appears in"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_an_audit_scope.rst",
+    "title": "Management an Audit Scope",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001523190264.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001523190264.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001523190264.png",
+        "kind": "figure",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_an_audit_scope.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001523190264.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a management console UI showing the 'Audit Scope' tab, matching the 'Viewing the Audit Scope' section.",
+          "The table columns (Name, Exception IP, Source IP Address, Source Port, Database Name, Database Account, Status, Operation) align with Table 1 parameters in the RST.",
+          "The 'Full audit rules' row shows Edit/Delete disabled, consistent with the precaution that the full audit rule cannot be deleted.",
+          "The Instance drop-down and search box match the described steps for selecting an instance and searching by name."
+        ],
+        "missing_evidence": [
+          "The 'Enable' operation is not visible in the Operation column (rows show Disable/Edit/Delete), but this is consistent with the rows being in Enabled status."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/managing_database_audit_instances.rst",
+    "title": "Managing Database Audit Instances",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001570553141.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001570553141.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001570553141.png",
+        "kind": "figure",
+        "line": 23,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/managing_database_audit_instances.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001570553141.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a management console screenshot showing a database audit instance list, matching the figure caption 'Viewing database audit instances'.",
+          "Columns (Instance Name/ID, Specifications, Status, Associated Databases/Total Databases, Operation) align with Table 1 parameters in the RST.",
+          "Status values shown as 'Running' and operation links 'Configure Rule' / 'More' match the documented options.",
+          "Top-right controls (Search by Tag, All statuses drop-down, instance name search box) correspond to the note about filtering/searching instances."
+        ],
+        "missing_evidence": [
+          "The 'Version' column listed in Table 1 is not visible in the screenshot.",
+          "The 'More' expanded menu (Restart/Enable/Disable/Delete/View Details) is not shown, only the collapsed 'More' link."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/managing_privacy_data_protection_rules.rst",
+    "title": "Managing Privacy Data Protection Rules",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001193982039.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001193982039.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001193982039.png",
+        "kind": "substitution_image",
+        "line": 80,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001530562784.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530562784.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530562784.png",
+        "kind": "substitution_image",
+        "line": 81,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/managing_privacy_data_protection_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001193982039.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch in the OFF/disabled position (circle on left, gray track).",
+          "The RST references |image1| in the context of 'Store Result Set' and advises to disable it.",
+          "The disabled state of the toggle aligns with the recommendation to disable the Store Result Set function.",
+          "The image is a small isolated UI symbol (toggle switch), classified as an icon."
+        ],
+        "missing_evidence": [
+          "No additional context beyond the toggle state is visible in the image."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/managing_privacy_data_protection_rules.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530562784.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch in the ON/enabled position (circle on right, magenta/pink track).",
+          "The RST references |image2| in the context of 'Mask Privacy Data' and advises to enable it.",
+          "The enabled state of the toggle aligns with the recommendation to enable the Mask Privacy Data function.",
+          "The image is a small isolated UI symbol (toggle switch), classified as an icon."
+        ],
+        "missing_evidence": [
+          "No additional context beyond the toggle state is visible in the image."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/overview/deployment_architecture.rst",
+    "title": "Deployment Architecture",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0273147489.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0273147489.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0273147489.png",
+        "kind": "figure",
+        "line": 11,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/overview/deployment_architecture.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0273147489.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/step_1_add_a_database.rst",
+    "title": "Step 1: Add a Database",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001347187761.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001347187761.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001347187761.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001293789358.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001293789358.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001293789358.png",
+        "kind": "figure",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001074398929.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "kind": "substitution_image",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/step_1_add_a_database.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001347187761.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "Image is the Add Database dialog box (Figure 1) as described in step 6 of the RST",
+          "Shows Database Type dropdown set to 'RDS database' matching the RST table example",
+          "Shows Type dropdown set to 'GaussDB(for MySQL)' while RST table lists 'TaurusDB' as the example value",
+          "Contains OK and Cancel buttons matching the RST instruction to click OK",
+          "Table columns (Instance Name/ID, IP Address, Status, Enterprise Project, Database Name) are visible"
+        ],
+        "missing_evidence": [
+          "RST table specifies Type example as 'TaurusDB' but image shows 'GaussDB(for MySQL)' - possible naming discrepancy or version difference"
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/step_1_add_a_database.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001293789358.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a database entry in the list after successful addition (Figure 2)",
+          "Audit Status column shows 'Disabled' matching RST statement 'Audit Status is Disabled'",
+          "Agent column shows 'No agent needs to be a...' consistent with RST 'You do not need to manually install the agent'",
+          "Operation column shows Enable and Delete links matching the RST note about clicking Delete",
+          "Database Information shows Name, Type (GaussDB for MySQL), and Version 8.0"
+        ],
+        "missing_evidence": [
+          "Agent column text is truncated ('No agent needs to be a...') so full message is not visible"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/step_1_add_a_database.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon (three horizontal lines) used for navigation in cloud consoles",
+          "Referenced in RST step 2 as the icon to click to access the navigation menu for Security > Database Security Service",
+          "Standard UI navigation icon consistent with Huawei Cloud console interface",
+          "Small symbolic graphic fitting the icon classification"
+        ],
+        "missing_evidence": [
+          "No additional context visible beyond the three-line menu icon itself"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/step_2_enable_database_audit.rst",
+    "title": "Step 2: Enable Database Audit",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001347194069.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001347194069.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001347194069.png",
+        "kind": "figure",
+        "line": 26,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001090901115.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001090901115.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001090901115.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001385655312.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001385655312.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001385655312.png",
+        "kind": "substitution_image",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/step_2_enable_database_audit.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001347194069.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Screenshot shows a database management console with an Instance dropdown (DBSS-97ba), a table listing database information, and an Operation column with an Enable button highlighted in a red box",
+          "Matches the RST description of Figure 1 'Enabling database audit' exactly: shows Audit Status as Disabled, the Enable link in the Operation column, and the database instance details",
+          "The table columns (Database Information, Character Set, IP Address/Port, Instance, OS, Audit Status, Agent, Operation) align with the described interface",
+          "The Enable button is clearly visible and highlighted, matching step 5 of the Enabling Database Audit section"
+        ],
+        "missing_evidence": [
+          "The RST mentions the Audit Status should become 'Enabled' after clicking, but the screenshot shows the 'Disabled' state (pre-action), which is consistent with showing the step before completion"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/step_2_enable_database_audit.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001090901115.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small hamburger menu icon (three horizontal lines) used as a navigation trigger in the management console",
+          "Referenced in the RST as |image1| in the step 'Select a region, click [icon], and choose Security > Database Security Service'",
+          "The icon is a generic navigation control, not specific to database audit functionality",
+          "Provides minimal visual detail beyond indicating a clickable menu button"
+        ],
+        "missing_evidence": [
+          "The icon is too small to discern any specific branding or label",
+          "No context shown around the icon to confirm which specific menu it opens"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/step_2_enable_database_audit.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001385655312.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small hamburger menu icon (three horizontal lines) used as a navigation trigger in the management console",
+          "Referenced in the RST as |image2| in the Verifying Audit Results section: 'Select a region, click [icon], and choose Security > Database Security Service'",
+          "The icon is a generic navigation control, not specific to database audit functionality",
+          "Provides minimal visual detail beyond indicating a clickable menu button"
+        ],
+        "missing_evidence": [
+          "The icon is too small to discern any specific branding or label",
+          "No context shown around the icon to confirm which specific menu it opens"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_audit_reports.rst",
+    "title": "Viewing Audit Reports",
+    "image_count": 15,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001581231593.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581231593.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581231593.png",
+        "kind": "figure",
+        "line": 65,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001530712248.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530712248.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530712248.png",
+        "kind": "figure",
+        "line": 73,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001530872056.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530872056.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530872056.png",
+        "kind": "figure",
+        "line": 95,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001531037008.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001531037008.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001531037008.png",
+        "kind": "figure",
+        "line": 103,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001581439873.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581439873.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581439873.png",
+        "kind": "figure",
+        "line": 170,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001529391298.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001529391298.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001529391298.png",
+        "kind": "substitution_image",
+        "line": 175,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001148025398.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001148025398.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001148025398.png",
+        "kind": "substitution_image",
+        "line": 176,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001074398929.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "kind": "substitution_image",
+        "line": 177,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001570821361.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001570821361.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001570821361.png",
+        "kind": "substitution_image",
+        "line": 178,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001581357417.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581357417.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581357417.png",
+        "kind": "substitution_image",
+        "line": 179,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001530568420.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530568420.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530568420.png",
+        "kind": "substitution_image",
+        "line": 180,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001581127865.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581127865.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581127865.png",
+        "kind": "substitution_image",
+        "line": 181,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001581247597.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581247597.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581247597.png",
+        "kind": "substitution_image",
+        "line": 182,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001581447801.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581447801.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581447801.png",
+        "kind": "substitution_image",
+        "line": 183,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001074398929.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "kind": "substitution_image",
+        "line": 184,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 14
+    },
+    "summary": {
+      "pass": 12,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581231593.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Report Management tab with a table of report templates (Database Security General Report, Compliance Report, SOX Report)",
+          "Columns match the RST description: Template Name, Related Database, Type, Description, Task Status, Operation",
+          "Operation column shows 'Schedule Task' and 'Generate Report' links as described in the RST",
+          "This is Figure 1 referenced in Step 1, Method 1, step 6"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530712248.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Generate Report' dialog box with Time Range and Database fields",
+          "Time Range shows a date-time picker with values 2023-04-25 00:00:00 to 2023-04-25 09:09:01",
+          "Database field shows 'All databases' dropdown",
+          "OK and Cancel buttons are present as described in the RST",
+          "This is Figure 2 referenced in Step 1, Method 1, step 7"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530872056.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the same Report Management table as Figure 1 but with 'Schedule Task' highlighted with a red box",
+          "This matches the RST description of Figure 3 'Setting a task' where the user locates the target template and clicks Schedule Task",
+          "The highlighted 'Schedule Task' link in the Operation column corresponds to Step 1, Method 2, step 6"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001531037008.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Schedule Task' dialog with all parameters from Table 2: Enable Task, Message Notifications, SMN Topic, Report Type, Execution Mode, Time, Database",
+          "Report Type is set to 'Weekly', Execution Mode to 'Periodically', Time to '17:00', Database to 'All databases'",
+          "SMN notification warning text is visible at the top",
+          "This is Figure 4 referenced in Step 1, Method 2, step 7"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581439873.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Reports page with a table of generated reports including Name, Associated Database, Report Type, Generated, Format, Status, Operation columns",
+          "Status column shows 100% with progress bars, matching the RST requirement that Status must be 100%",
+          "Operation column shows 'Download' and 'Delete' links, with 'Download' highlighted in a red box",
+          "This is Figure 5 referenced in Step 2 for previewing or downloading audit reports"
+        ],
+        "missing_evidence": [
+          "The RST mentions 'Preview' or 'More > Download' but the image only shows 'Download' and 'Delete' in the Operation column"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001529391298.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon (three horizontal lines) used as |image1| for navigation in the management console",
+          "Referenced in Step 1 Method 1 step 2 and Step 2 step 2 for selecting a region and navigating to Database Security Service",
+          "Generic navigation icon, not specific to audit reports but correctly placed in context"
+        ],
+        "missing_evidence": [
+          "Icon is small and low-resolution, making it difficult to confirm exact appearance"
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001148025398.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a calendar icon used as |image2| for setting the start and end time of the report",
+          "Referenced in Step 1 Method 1 step 7 where the user clicks the calendar icon to set time range",
+          "Calendar icon is semantically appropriate for date/time selection in report generation"
+        ],
+        "missing_evidence": [
+          "Icon is small and low-resolution"
+        ],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a hamburger menu icon (three horizontal lines) used as |image3| for navigation",
+          "Referenced in Step 1 Method 2 step 2 for selecting a region and navigating to Database Security Service",
+          "Same icon as |image1|, generic navigation element"
+        ],
+        "missing_evidence": [
+          "Icon is small and low-resolution"
+        ],
+        "overall_score": 0.78,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001570821361.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch in the disabled/off state (gray) used as |image4|",
+          "Referenced in Table 2 as the disabled state for the Enable Task parameter",
+          "Correctly represents the off/disabled state of a toggle switch"
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581357417.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch in the enabled/on state (magenta/pink) used as |image5|",
+          "Referenced in Table 2 as the enabled state for the Enable Task parameter",
+          "Correctly represents the on/enabled state of a toggle switch"
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530568420.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch in the enabled/on state (magenta/pink) used as |image6|",
+          "Referenced in Table 2 as the example value for the Enable Task parameter",
+          "Consistent with the enabled state shown in the Schedule Task dialog (Figure 4)"
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581127865.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch in the enabled/on state (magenta/pink) used as |image7|",
+          "Referenced in Table 2 as the enabled state for the Message Notifications parameter",
+          "Correctly represents the on/enabled state for notifications"
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581247597.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch in the disabled/off state (gray) used as |image8|",
+          "Referenced in Table 2 as the disabled state for the Message Notifications parameter",
+          "Correctly represents the off/disabled state for notifications"
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_audit_reports.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001581447801.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch in the enabled/on state (magenta/pink) used as |image9|",
+          "Referenced in Table 2 as the example value for the Message Notifications parameter",
+          "Consistent with the enabled state shown in the Schedule Task dialog (Figure 4)"
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.95,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_information_about_sql_injection_detection.rst",
+    "title": "Viewing Information About SQL Injection Detection",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001523031304.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001523031304.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001523031304.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_information_about_sql_injection_detection.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001523031304.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a management console UI screenshot showing the SQL Injection tab, matching the figure caption 'Viewing information about the SQL injection detection'.",
+          "The table columns (Name, Command Feature, Risk Severity, Status, Operation) align exactly with Table 1 parameters in the RST.",
+          "The 'All risk severities' drop-down and 'Set Priority' operation link mentioned in the note are visible in the image.",
+          "Risk severity values (High, Moderate) and status values (Enabled, Disabled) match the options listed in the RST."
+        ],
+        "missing_evidence": [
+          "The 'Low' and 'No risks' risk severity options are not shown in the visible rows, though they are listed in the RST."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_session_distribution.rst",
+    "title": "Viewing Session Distribution",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001074398929.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001147864254.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001147864254.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001147864254.png",
+        "kind": "substitution_image",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_session_distribution.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), a standard navigation control in cloud management consoles.",
+          "The RST instructs the user to 'click |image1|' to navigate to Security > Database Security Service, which aligns with a menu/navigation icon.",
+          "The icon is used in step 2 of the Procedure section for navigating the management console, which is contextually appropriate.",
+          "The visual content (three horizontal bars) is clearly identifiable as a hamburger/menu icon."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern, but the three-line pattern is clear."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_session_distribution.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001147864254.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a calendar icon, which is the standard symbol for date/time selection.",
+          "The RST instructs the user to 'click |image2| to set start time and end time', which directly matches a calendar/date-picker icon.",
+          "The icon appears in step 6 of the Procedure section for specifying a custom time range, which is contextually appropriate.",
+          "The visual content (a square with grid lines resembling a calendar) is clearly identifiable."
+        ],
+        "missing_evidence": [
+          "The icon is small and slightly blurry, but the calendar grid pattern is recognizable."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_sql_statement_details.rst",
+    "title": "Viewing SQL Statement Details",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001294276970.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001294276970.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001294276970.png",
+        "kind": "figure",
+        "line": 32,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001074398929.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "kind": "substitution_image",
+        "line": 97,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_sql_statement_details.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001294276970.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Dashboard page with the Statements tab selected, matching the RST step 5-6 about clicking the Statements tab and viewing SQL statement information",
+          "Instance dropdown, time filters, risk severity filters, and Search button are all visible and consistent with the querying workflow described",
+          "Figure caption in RST is 'Querying SQL statements' which aligns with the visible UI for filtering and searching SQL statements",
+          "The UI elements (tabs, dropdowns, date range picker) match the procedure described in the RST"
+        ],
+        "missing_evidence": [
+          "The actual SQL statement list/table is not visible in the screenshot, only the filter controls are shown",
+          "No specific SQL statement data rows are displayed"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_sql_statement_details.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small hamburger menu icon (three horizontal lines), consistent with the RST instruction to 'click |image1|' for navigation",
+          "The icon is used in step 2 to access the service menu (Security > Database Security Service), which is a standard navigation pattern",
+          "The icon is generic and not specific to the database security service topic, but serves its navigational purpose as described"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact visual details",
+          "No surrounding UI context is visible to confirm the exact placement of this menu icon in the console"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_the_alarms.rst",
+    "title": "Viewing the Alarms",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001522903594.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001522903594.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001522903594.png",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_the_alarms.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001522903594.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 2
+        },
+        "reasons": [
+          "The image is a UI screenshot of the Alarm Monitoring tab, matching the RST topic 'Viewing the Alarms'.",
+          "Table columns (Time, Type, Alarm Risk Severity, Cleared, Confirmed Or Not, Description) align with Table 1 in the RST.",
+          "Filter rows for Time, Risk Severity, and Alarm Type, plus the 'Batch Confirm' button, match the procedure and follow-up notes.",
+          "The image is referenced as Figure 1 in the Procedure section, so it is directly relevant.",
+          "The Alarm Type options in the image include 'Risky Operations' and omit 'Audit traffic exceeds threshold' listed in the RST table, a minor mismatch."
+        ],
+        "missing_evidence": [
+          "The table body shows 'No records found', so no actual alarm rows are visible to verify field content.",
+          "The exact alarm type enumeration in the image does not fully match the RST table list."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_the_audit_dashboard.rst",
+    "title": "Viewing the Audit Dashboard",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001074398929.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001148018506.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001148018506.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001148018506.png",
+        "kind": "substitution_image",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_the_audit_dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001074398929.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a hamburger menu icon (three horizontal lines), a standard navigation symbol.",
+          "The RST references this icon in step 2: 'click |image1|, and choose Security > Database Security Service', which aligns with a menu icon used for navigation.",
+          "The icon is semantically appropriate for indicating a menu click to access a service in a management console.",
+          "No contradictions between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The icon is generic (hamburger menu) and does not show any specific branding or label for 'Security' or 'Database Security Service'."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_the_audit_dashboard.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001148018506.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a calendar icon, a standard symbol for date/time selection.",
+          "The RST references this icon in step 6: 'click |image2| to customize start time and end time', which directly matches a calendar/date-picker icon.",
+          "The icon is semantically appropriate for indicating a time-range customization action in a dashboard.",
+          "No contradictions between the icon and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The icon is generic (calendar) and does not show any specific UI context such as a dropdown or date fields."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_the_instance_overview.rst",
+    "title": "Viewing the Instance Overview",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001530573878.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530573878.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530573878.png",
+        "kind": "figure",
+        "line": 27,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001435874465.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001435874465.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001435874465.png",
+        "kind": "substitution_image",
+        "line": 76,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001385674488.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001385674488.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001385674488.png",
+        "kind": "substitution_image",
+        "line": 77,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_the_instance_overview.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001530573878.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a full-page screenshot of the Instance Overview page, matching Figure 1 caption exactly.",
+          "Shows Basic Info (Name, Status, ID, AZ, Version, Remarks, Edition, Created), Network Settings (VPC, Security Group, Subnet, Private IP Address), and Associated Database sections as described in the RST table.",
+          "The 'Manage Database' link is visible in the Associated Database section, matching the RST instruction.",
+          "Edit (pencil) icons are visible next to Name and Remarks, consistent with the table descriptions referencing |image1| and |image2|.",
+          "Tabs Overview, Monitoring, Logs, Tag are visible at the top, consistent with a management console interface."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_the_instance_overview.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001435874465.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small pencil/edit icon, matching the RST reference |image1| used in the table row for Name: 'You can click |image1| next to Name to change it.'",
+          "The icon is a standard edit (pencil) symbol, semantically appropriate for indicating a field can be modified.",
+          "Visible in the main screenshot (Image 1) next to the Name field, confirming its role as an edit indicator."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_the_instance_overview.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001385674488.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a small pencil/edit icon, matching the RST reference |image2| used in the table row for Remarks: 'You can click |image2| next to Remarks to modify it.'",
+          "The icon is a standard edit (pencil) symbol, semantically appropriate for indicating a field can be modified.",
+          "Visible in the main screenshot (Image 1) next to the Remarks field, confirming its role as an edit indicator."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_the_system_monitoring.rst",
+    "title": "Viewing the System Monitoring",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0000001127160302.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001127160302.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001127160302.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000001193906833.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001193906833.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001193906833.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_the_system_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001127160302.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a full UI screenshot of the System Monitoring page, matching the RST description exactly",
+          "Shows the Monitoring tab active with System Monitoring sub-tab selected, as described in step 3",
+          "Displays time range selectors (Last 30 minutes, 1 hour, Today, 7 days, 30 days) matching the RST text",
+          "Shows System (Memory/CPU) and Traffic (MB/s) charts as expected for system monitoring",
+          "Includes partition information (Swap, System, Data Center) consistent with system resource monitoring"
+        ],
+        "missing_evidence": [
+          "The RST mentions '7 days' and '30 days' but the image also shows a 'Today' option not explicitly listed in the RST text (minor addition, not a contradiction)"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_the_system_monitoring.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000001193906833.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small calendar icon used as |image1| in the RST for customizing start and end time",
+          "Matches the RST instruction: 'click |image1| to customize start time and end time'",
+          "Calendar pictogram is semantically appropriate for date/time range selection",
+          "Isolated symbolic graphic with no surrounding UI context, consistent with an icon"
+        ],
+        "missing_evidence": [
+          "No additional context visible beyond the calendar symbol itself"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/viewing_tracing_logs.rst",
+    "title": "Viewing Tracing Logs",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0217009691.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0217009691.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0217009691.png",
+        "kind": "figure",
+        "line": 39,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0217011475.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0217011475.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0217011475.png",
+        "kind": "figure",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0000002230396592.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000002230396592.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000002230396592.png",
+        "kind": "substitution_image",
+        "line": 53,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0210925109.png",
+        "original_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0210925109.png",
+        "used_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0210925109.png",
+        "kind": "substitution_image",
+        "line": 54,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 4
+    },
+    "summary": {
+      "pass": 4,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/viewing_tracing_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0217009691.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Shows a CTS Trace List table with an expanded DBSS trace row, matching Figure 1 'Expanding trace details'.",
+          "Visible fields (trace_name cloudServiceInstanceCreate, resource_type dbss, service_type DBSS, trace_rating normal) align with the RST description of DBSS trace details.",
+          "Includes the 'View Trace' operation link referenced in step 7."
+        ],
+        "missing_evidence": [
+          "The full column headers are truncated (e.g., 'Resource ...', 'Trace Sou...'), so some column names are not fully legible."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_tracing_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0217011475.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Displays the 'View Trace' dialog box with JSON trace structure details, matching Figure 2 'Viewing a trace'.",
+          "JSON content (project_id, trace_name cloudServiceInstanceCreate, resource_type dbss, service_type DBSS) is consistent with the DBSS trace described in the RST.",
+          "Contains a 'Close' button, an interactive control."
+        ],
+        "missing_evidence": [
+          "Some user name/domain values are redacted/blurred in the JSON."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_tracing_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0000002230396592.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A hamburger (three-line) menu icon, matching |image1| used in step 2 to open the menu for 'Mgmt & Deployment' > 'Cloud Trace Service'.",
+          "It is an isolated symbolic UI graphic, classified as an icon."
+        ],
+        "missing_evidence": [
+          "The icon is generic; it does not itself show the 'Mgmt & Deployment' or 'Cloud Trace Service' menu items it is meant to open."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/viewing_tracing_logs.rst",
+        "image_path": "/home/ubuntu/repotesting/database-security-service/umn/source/_static/images/en-us_image_0210925109.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "A downward chevron/expand arrow icon, matching |image2| used in step 6 to expand a trace's details.",
+          "It is an isolated symbolic UI graphic, classified as an icon."
+        ],
+        "missing_evidence": [
+          "The icon is generic; it does not show the trace row or expanded details it is meant to trigger."
+        ],
+        "overall_score": 0.93,
+        "verdict": "pass"
+      }
+    ]
+  }
+]

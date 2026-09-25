@@ -1,0 +1,2497 @@
+[
+  {
+    "file_path": "umn/source/getting_started/creating_a_csbs_backup.rst",
+    "title": "Creating a CSBS Backup",
+    "image_count": 6,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0164859557.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164859557.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164859557.png",
+        "kind": "figure",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0152874351.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0152874351.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0152874351.png",
+        "kind": "figure",
+        "line": 47,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0127861516.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0127861516.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0127861516.png",
+        "kind": "figure",
+        "line": 96,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0164859985.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164859985.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164859985.png",
+        "kind": "figure",
+        "line": 109,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 154,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238025636.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025636.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025636.png",
+        "kind": "substitution_image",
+        "line": 155,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/creating_a_csbs_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164859557.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a 'Servers' page with 'Available Servers' and 'Selected Servers (1)' panels, matching Figure 1 'Selecting servers'.",
+          "One ECS instance is checked in the available list and appears in the selected servers panel, consistent with step 3 of the procedure.",
+          "Columns (Name/ID, Status, Type, AZ, Associated) align with the described ECS list."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/creating_a_csbs_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0152874351.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the 'Configure Backup' area with both 'Auto Backup' and 'Immediate Backup' sections, matching Figure 2.",
+          "Auto Backup section displays a Backup Policy dropdown and a 'Create Policy' button as described in the RST.",
+          "Immediate Backup section shows Name field (manualbk_5ff1) and Description field, consistent with Table 1 parameters."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/creating_a_csbs_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0127861516.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a 'Full Backup' label with an unchecked checkbox and 'Enable' text, matching Figure 3 'Enabling Full Backup or not'.",
+          "A help icon is visible next to the Enable label, consistent with UI conventions.",
+          "Directly corresponds to step 5 of the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/creating_a_csbs_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164859985.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a 'Tag' section with 'Tag key' and 'Tag value' input fields, matching Figure 4 'Adding a tag'.",
+          "Text 'You can add 10 more tags' aligns with the RST statement that a backup can have a maximum of 10 tags.",
+          "Directly corresponds to step 6 of the procedure."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/creating_a_csbs_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin icon, referenced as |image1| in step 1b for selecting a region and project.",
+          "A location/region pin icon is semantically appropriate for region selection in a cloud console.",
+          "Small symbolic graphic consistent with an icon classification."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/getting_started/creating_a_csbs_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025636.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a downward chevron icon, referenced as |image2| for expanding a backup policy to view associated servers.",
+          "A chevron/expand icon is semantically appropriate for revealing sub-items like associated servers under a policy name.",
+          "Small symbolic graphic consistent with an icon classification."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/getting_started/scenarios.rst",
+    "title": "Scenarios",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0067805744.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0067805744.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0067805744.png",
+        "kind": "figure",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/getting_started/scenarios.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0067805744.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The diagram illustrates the intermixed use of one-off and periodic backup, matching Figure 1's caption in the RST.",
+          "It shows ECS instances connected to a 'Backup policy' (periodic backup) and a direct one-off backup path to CSBS, consistent with the described scenario.",
+          "OBS and CSBS cloud components are shown with a bidirectional link, aligning with the backup service context.",
+          "Labels (ECS, Backup policy, Periodic backup, One-off backup, OBS, CSBS) are clearly legible and support the textual explanation."
+        ],
+        "missing_evidence": [
+          "No explicit indication of which ECS is the 'most important' one receiving the one-off backup, though the diagram implies a single direct path."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup/deleting_a_backup.rst",
+    "title": "Deleting a Backup",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0164873120.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164873120.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164873120.png",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 43,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup/deleting_a_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164873120.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a 'Delete Backup' confirmation dialog matching Figure 1 in the RST",
+          "Dialog displays backup details (Name, Status, Created, Server Name) consistent with the procedure",
+          "Contains 'Yes' and 'No' buttons matching step 4 'Click Yes'",
+          "Warning text about irreversibility aligns with the deletion context",
+          "Table shows a backup in 'Available' state matching the prerequisite"
+        ],
+        "missing_evidence": [
+          "The 'More > Delete' menu interaction that triggers this dialog is not visible in the screenshot"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup/deleting_a_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small location pin icon used as |image1| for region/project selection in step 1b",
+          "Icon is consistent with a region selector in a management console",
+          "Relevant to the login/navigation procedure but not directly about backup deletion",
+          "No contradiction with the RST description of clicking the icon to select region and project"
+        ],
+        "missing_evidence": [
+          "Icon is very small and low-resolution, making fine details hard to discern",
+          "No surrounding UI context visible to confirm it is in the upper left corner of the console"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup/managing_backup_tags.rst",
+    "title": "Managing Backup Tags",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 83,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148563132.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "kind": "substitution_image",
+        "line": 84,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup/managing_backup_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin icon, consistent with the RST instruction to click it in the upper left corner to select a region and project.",
+          "It is a small isolated UI symbol (icon), not a full screenshot.",
+          "The icon is relevant to the navigation step of the procedure but not directly to backup tag management.",
+          "The visual clearly shows a map/location pin symbol, matching the context of region selection."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern.",
+          "No surrounding UI context is visible to confirm it is in the upper left corner of a console."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup/managing_backup_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a downward chevron/arrow icon, consistent with the RST instruction to click it on the left of a backup name to view details.",
+          "It is a small isolated UI symbol (icon), not a full screenshot.",
+          "The icon is relevant to the step of viewing backup details before managing tags, but not directly about tag management itself.",
+          "The visual clearly shows a down-pointing chevron, a common UI affordance for expanding or viewing details."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern.",
+          "No surrounding UI context is visible to confirm it appears next to a backup name in a list."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup/using_backups_to_create_images.rst",
+    "title": "Using Backups to Create Images",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup/using_backups_to_create_images.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, matching the isolated UI symbol definition of an icon.",
+          "In the RST it is referenced as |image1| in Procedure step 1b: 'Click |image1| in the upper left corner of the management console and select a region and a project.'",
+          "A location pin is semantically appropriate for selecting a region/project, so it aligns with the surrounding instruction.",
+          "The icon is part of the login/region-selection procedure rather than the core backup-to-image topic, so topic relevance is moderate.",
+          "No contradiction between the icon and the text description."
+        ],
+        "missing_evidence": [
+          "The image is a generic location pin without any label, so it cannot be confirmed to be the exact console control shown in the live UI.",
+          "No surrounding console interface is visible to verify the icon's placement in the upper-left corner."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup/viewing_a_backup.rst",
+    "title": "Viewing a Backup",
+    "image_count": 8,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0164860175.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164860175.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164860175.png",
+        "kind": "figure",
+        "line": 91,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0164860652.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164860652.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164860652.png",
+        "kind": "figure",
+        "line": 101,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 106,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148561644.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148561644.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148561644.png",
+        "kind": "substitution_image",
+        "line": 107,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238025638.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025638.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025638.png",
+        "kind": "substitution_image",
+        "line": 108,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238025638.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025638.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025638.png",
+        "kind": "substitution_image",
+        "line": 109,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148563132.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "kind": "substitution_image",
+        "line": 110,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 111,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 6
+    },
+    "summary": {
+      "pass": 6,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup/viewing_a_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164860175.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Backups/Policies tabs and a storage-space summary line, matching Figure 1 'Backup overview'.",
+          "The text 'You can create 588 more backups. 99.398 GB of storage space has been used.' aligns with the step to click the used storage space number.",
+          "Content is directly relevant to the 'View Backup Space Usage' section."
+        ],
+        "missing_evidence": [
+          "No explicit label confirming this is Figure 1, but context matches."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup/viewing_a_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164860652.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Dialog titled 'Storage Space Usage' with a Backups tab matches Figure 2.",
+          "Table columns 'Backups' and 'Total Backup Capacity (GB)' match the RST description of the dialog contents.",
+          "Relevant to the 'View Backup Space Usage' section step 3."
+        ],
+        "missing_evidence": [
+          "None significant."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup/viewing_a_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Location-pin icon is used as image1/image6 for selecting a region and project in the upper left corner.",
+          "A pin/region selector icon is semantically consistent with region selection."
+        ],
+        "missing_evidence": [
+          "Icon is generic; no label confirms it is the region selector."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup/viewing_a_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148561644.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Magnifying-glass icon matches image2 used to 'search for target backups'.",
+          "Search icon is the standard symbol for the described search action."
+        ],
+        "missing_evidence": [
+          "None significant."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup/viewing_a_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025638.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Plus icon matches image3/image4 used to add a tag key/value for combination search.",
+          "A plus symbol is the standard control for adding an item, consistent with adding tag criteria."
+        ],
+        "missing_evidence": [
+          "None significant."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup/viewing_a_backup.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Chevron/expand icon matches image5 used to expand a backup name and view details.",
+          "A downward chevron is a common expand-to-view-details control."
+        ],
+        "missing_evidence": [
+          "Icon is small and generic; no label confirms its exact function."
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup_policies/associating_ecss_with_a_backup_policy.rst",
+    "title": "Associating ECSs with a Backup Policy",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0164878450.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164878450.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164878450.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 48,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup_policies/associating_ecss_with_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164878450.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the server association interface with 'Available Servers' and 'Selected Servers' panels, matching Figure 1 caption 'Associating servers'",
+          "Table columns (Name/ID, Status, Type, AZ, Associated) align with the RST description of selecting ECSs in Running or Stopped state",
+          "The selected server appears in the right panel with 'Selected Disks' and an Operation column, consistent with step 4 of the procedure",
+          "One ECS is checked in the left panel and appears in the right panel, demonstrating the selection workflow described in the RST"
+        ],
+        "missing_evidence": [
+          "The 'OK' button mentioned in step 5 is not visible in this screenshot",
+          "No visible 'Associate Server' button from step 3 in this view"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup_policies/associating_ecss_with_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small location pin icon used in step 1b to select region and project in the management console",
+          "The icon is a standard UI symbol for region/location selection, consistent with the RST instruction to 'select a region and a project'",
+          "It is a navigation element in the login procedure, not directly related to the core topic of associating ECSs with a backup policy"
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact visual details",
+          "No surrounding UI context is visible to confirm its placement in the upper left corner of the console"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup_policies/creating_a_backup_policy.rst",
+    "title": "Creating a Backup Policy",
+    "image_count": 5,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0198726086.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0198726086.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0198726086.png",
+        "kind": "figure",
+        "line": 30,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0164875135.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164875135.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164875135.png",
+        "kind": "figure",
+        "line": 136,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 153,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238025635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025635.png",
+        "kind": "substitution_image",
+        "line": 154,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148568289.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148568289.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148568289.png",
+        "kind": "substitution_image",
+        "line": 155,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 5
+    },
+    "summary": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup_policies/creating_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0198726086.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the 'Create Policy' dialog directly referenced as Figure 1 in the RST procedure.",
+          "Shows all parameters from Table 1: Enable toggle, Execution Time, Backup Period (Weekly/Daily), Retention Rule (Time Period/Backup Quantity), and Long-term retention settings.",
+          "The dialog layout and field labels match the RST description of creating a backup policy.",
+          "OK and Cancel buttons are visible at the bottom, consistent with step 4 'Click OK'."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup_policies/creating_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164875135.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is the server association interface directly referenced as Figure 2 in step 6 of the RST.",
+          "Shows two panels: 'Available Servers' and 'Selected Servers (1)', matching the RST description of selecting ECSs to associate.",
+          "Columns include Name/ID, Status, Type, AZ, Associated, and Selected Disks, consistent with the RST context about ECS association.",
+          "The 'Associated' column shows values like 'Yes (test001)' and 'Yes (666)', aligning with the note about ECSs already associated with other backup policies."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup_policies/creating_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a location pin icon referenced as |image1| in step 1b of the RST.",
+          "The RST states 'Click |image1| in the upper left corner of the management console and select a region and a project', which matches a region/project selector icon.",
+          "The pin/marker shape is a standard symbol for location or region selection in cloud management consoles."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup_policies/creating_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch icon in the 'on' position, referenced as |image2| in Table 1 under the Status parameter.",
+          "The RST states 'Enabled: |image2|', and the image shows an active/on toggle, which correctly represents the enabled state.",
+          "The blue/cyan color of the toggle is consistent with an active state indicator in UI design."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup_policies/creating_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148568289.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a toggle switch icon in the 'off' position, referenced as |image3| in Table 1 under the Status parameter.",
+          "The RST states 'Disabled: |image3|', and the image shows an inactive/off toggle, which correctly represents the disabled state.",
+          "The gray color of the toggle is consistent with an inactive state indicator in UI design."
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup_policies/deleting_a_backup_policy.rst",
+    "title": "Deleting a Backup Policy",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 33,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup_policies/deleting_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker pictogram, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is referenced in Procedure step 1b: 'Click |image1| in the upper left corner of the management console and select a region and a project.'",
+          "A location-pin icon is the standard region/project selector control in cloud management consoles, matching the described action of selecting a region and project.",
+          "The icon is part of the login/navigation procedure that precedes the actual delete-policy steps, so it is relevant to the section but not directly about deletion itself.",
+          "No visible interactive button styling is present in the isolated image; it is a static symbol."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding console UI, so the 'upper left corner' placement cannot be visually confirmed from the image alone.",
+          "No label or text accompanies the icon, so its exact function (region selector) is inferred from the RST context rather than visible text."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup_policies/disassociating_ecss_from_a_backup_policy.rst",
+    "title": "Disassociating ECSs from a Backup Policy",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0238025636.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025636.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025636.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup_policies/disassociating_ecss_from_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin icon, consistent with a region/project selector in a management console.",
+          "The RST references this icon in step 1b: 'Click |image1| in the upper left corner of the management console and select a region and a project.'",
+          "The icon is a generic navigation element (region selector) rather than something specific to backup policy disassociation.",
+          "The visual content (a map-pin/teardrop shape) aligns well with the described action of selecting a region."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution; finer details of the UI context (e.g., surrounding toolbar) are not visible."
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup_policies/disassociating_ecss_from_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0238025636.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small downward-pointing chevron/arrow icon, typical of an expand or dropdown control in a table row.",
+          "The RST references this icon in step 3: 'In the row of the backup policy from which you want to disassociate the ECS, click |image2|.'",
+          "A downward chevron is consistent with expanding a policy row to reveal its 'Associated Servers' list, which is the next step in the procedure.",
+          "The icon is directly relevant to the core procedure of accessing the backup policy's associated servers for disassociation."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution; the exact UI context (table row, column header) is not visible."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup_policies/editing_a_backup_policy.rst",
+    "title": "Editing a Backup Policy",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0164876805.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164876805.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164876805.png",
+        "kind": "figure",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup_policies/editing_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164876805.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image is a screenshot of the 'Edit Policy' dialog, directly matching the RST title 'Editing a Backup Policy'",
+          "Shows all fields described in the procedure: Name, Enable toggle, Execution Time, Backup Period (Weekly/Daily), Retention Rule (Time Period/Backup Quantity/Permanent)",
+          "Referenced as Figure 1 in step 4 of the procedure: 'Edit the backup policy. See Figure 1'",
+          "The dialog includes OK and Cancel buttons matching step 5 'Click OK'",
+          "No contradictions between the image content and the RST description"
+        ],
+        "missing_evidence": [
+          "The RST references a Table 1 for parameter descriptions which is not visible in this image",
+          "Tag management details referenced in the RST are not shown in this screenshot"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup_policies/editing_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Small location-pin icon used as a region/project selector in the management console",
+          "Referenced in RST step 1b: 'Click |image1| in the upper left corner of the management console and select a region and a project'",
+          "Part of the login/navigation procedure rather than the core backup policy editing action",
+          "Icon is consistent with a standard region selector pictogram in cloud management consoles",
+          "No contradictions with the RST text"
+        ],
+        "missing_evidence": [
+          "Icon is very small and low-resolution, making it difficult to confirm exact visual details",
+          "The surrounding UI context (upper left corner placement) is not visible in the isolated icon image"
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup_policies/enabling_and_disabling_a_backup_policy.rst",
+    "title": "Enabling and Disabling a Backup Policy",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 29,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup_policies/enabling_and_disabling_a_backup_policy.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin symbol, matching the RST reference |image1| used in step 1b to select a region and project.",
+          "It is an isolated UI symbol (icon), not a full screenshot or page interface.",
+          "The icon semantically aligns with the 'select a region and a project' action described in the Procedure section.",
+          "No contradiction between the image and the surrounding text."
+        ],
+        "missing_evidence": [
+          "The image does not show the surrounding management console UI, so its exact placement in the upper-left corner cannot be visually confirmed.",
+          "No label or text accompanies the icon to confirm it is the region/project selector."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup_policies/executing_a_backup_policy_at_once.rst",
+    "title": "Executing a Backup Policy at Once",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 34,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup_policies/executing_a_backup_policy_at_once.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker symbol, consistent with a region/project selector icon.",
+          "In the RST, |image1| is referenced in Procedure step 1b: 'Click |image1| in the upper left corner of the management console and select a region and a project.'",
+          "A location pin icon is the standard visual for selecting a region and project in a cloud management console, matching the step's intent.",
+          "The icon is an isolated UI symbol, not a full screenshot or button control."
+        ],
+        "missing_evidence": [
+          "The image is a generic location pin without any label, so the exact console (CSBS) context is inferred from the RST rather than visible in the image.",
+          "No surrounding UI (menu, dropdown) is shown to confirm it is the region selector in the upper-left corner."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/backup_policies/managing_backup_policy_tags.rst",
+    "title": "Managing Backup Policy Tags",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 70,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148563132.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "kind": "substitution_image",
+        "line": 71,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 2,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/backup_policies/managing_backup_policy_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location-pin pictogram, matching the RST reference |image1| used to select a region and project in the upper-left corner.",
+          "It is a navigation/region selector icon, only indirectly related to the backup policy tags topic but part of the login procedure.",
+          "The visual clearly shows an isolated map-marker symbol with no UI interface, consistent with an icon."
+        ],
+        "missing_evidence": [
+          "No surrounding console UI is shown, so the exact placement in the upper-left corner cannot be visually confirmed.",
+          "The icon is monochrome and small, so its exact label or tooltip is not visible."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      },
+      {
+        "document_path": "umn/source/management_operations/backup_policies/managing_backup_policy_tags.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148563132.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small downward chevron/arrow pictogram, matching the RST reference |image2| clicked to reveal the Tags tab of a backup policy.",
+          "It is a dropdown/expand control symbol, part of the procedure for accessing the Tags panel.",
+          "The visual clearly shows an isolated chevron symbol with no full interface, consistent with an icon."
+        ],
+        "missing_evidence": [
+          "No surrounding table or Tags panel is shown, so the exact context of the click cannot be visually confirmed.",
+          "The icon is small and low-resolution, so any associated label is not visible."
+        ],
+        "overall_score": 0.77,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/events.rst",
+    "title": "Events",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 72,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/events.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small gray location-pin / map-marker icon, an isolated UI symbol, so it is classified as an icon.",
+          "In the RST, |image1| is referenced in step 2 of 'Disabling or Enabling a Tracker': 'Click |image1| in the upper left corner and select a region and project.'",
+          "A location-pin icon is the standard symbol for a region/project selector in a management console, matching the described action.",
+          "The icon is generic to the console navigation and not specific to CSBS events/CTS, so topic match is moderate.",
+          "No interactive button controls are visible in the image itself, only the symbolic icon."
+        ],
+        "missing_evidence": [
+          "The image does not show surrounding console UI, so the 'upper left corner' placement cannot be visually confirmed.",
+          "No label or text accompanies the icon to explicitly identify it as the region/project selector."
+        ],
+        "overall_score": 0.9,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/processing_failed_jobs.rst",
+    "title": "Processing Failed Jobs",
+    "image_count": 4,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0148669238.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148669238.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148669238.png",
+        "kind": "substitution_image",
+        "line": 35,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148669238.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148669238.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148669238.png",
+        "kind": "substitution_image",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 37,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148669874.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148669874.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148669874.jpg",
+        "kind": "substitution_image",
+        "line": 38,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/processing_failed_jobs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148669238.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a question mark icon inside a circle, matching the RST description of 'the question mark |image1| next to the message to view details'",
+          "Used in the Context section to explain how to view details of failed backup/restoration job messages",
+          "The icon is a standard help/question mark symbol commonly used in UIs for viewing additional information"
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible; the icon is shown in isolation"
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/processing_failed_jobs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 3,
+          "section_relevance": 2,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a location pin/marker icon, consistent with the RST instruction to 'Click |image3| in the upper left corner of the management console and select a region and a project'",
+          "A location pin is a standard symbol for region/project selection in cloud management consoles",
+          "This icon is part of the login procedure (step 1b), which is a prerequisite step rather than the core failed-job processing topic"
+        ],
+        "missing_evidence": [
+          "No surrounding UI context visible; the icon is shown in isolation",
+          "The specific label or text associated with this icon in the actual UI is not visible"
+        ],
+        "overall_score": 0.83,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/processing_failed_jobs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148669874.jpg",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 2,
+          "section_relevance": 3,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a small red/orange circular icon, referenced in the RST as the element to click next to 'Job Status' on the Backups tab",
+          "This icon is directly relevant to the procedure for navigating to Job Status to view failed jobs",
+          "The icon is small and somewhat low-resolution, making it difficult to identify the exact symbol (possibly a gear, settings, or indicator icon)"
+        ],
+        "missing_evidence": [
+          "The icon is small and low-resolution, making precise identification of the symbol difficult",
+          "No surrounding UI context visible; the icon is shown in isolation",
+          "The exact label or text associated with this icon in the actual UI is not visible"
+        ],
+        "overall_score": 0.88,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/quotas.rst",
+    "title": "Quotas",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0275513364.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0275513364.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0275513364.png",
+        "kind": "substitution_image",
+        "line": 49,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0152727234.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0152727234.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0152727234.png",
+        "kind": "substitution_image",
+        "line": 50,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 2,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/quotas.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0275513364.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a location pin/marker icon, which is a standard UI symbol for region selection.",
+          "The RST states 'Click |image1| in the upper left corner and select the desired region and project', and a location pin is the conventional icon for region/area selection in cloud consoles.",
+          "The icon is small and isolated, consistent with an icon classification.",
+          "No contradictions between the image content and the RST description."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making fine details hard to discern, but the location pin shape is clear."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/quotas.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0152727234.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small bar chart icon (three vertical bars of decreasing height), commonly used to represent statistics, metrics, or quotas.",
+          "The RST states 'In the upper right corner of the page, click |image2|' followed by 'The Quotas page is displayed', and a bar chart icon is a reasonable symbol for a quotas/statistics page.",
+          "The icon is small and isolated, consistent with an icon classification.",
+          "No contradictions between the image content and the RST description."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution; the exact number of bars is approximately three but fine detail is limited."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/management_operations/using_backups_to_restore_ecss.rst",
+    "title": "Using Backups to Restore ECSs",
+    "image_count": 2,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0164880794.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164880794.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164880794.png",
+        "kind": "figure",
+        "line": 42,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0148411635.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "kind": "substitution_image",
+        "line": 75,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 2
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 1,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/management_operations/using_backups_to_restore_ecss.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0164880794.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image shows a 'Restore Data' dialog that directly corresponds to Figure 1 'Restoring a server' referenced in step 3 of the Procedure.",
+          "The warning text about overwriting server data matches the important note in the RST about historical data overwriting current ECS data.",
+          "The 'Start the server immediately after restoration' checkbox is visible and matches step 4 of the procedure.",
+          "The 'Disk Backups' dropdown is visible, corresponding to the 'Specified Disk' drop-down list mentioned in step 5.",
+          "The backup table shows Name, Status, Created, and Server Name columns with an 'Available' status, consistent with the prerequisites."
+        ],
+        "missing_evidence": [
+          "The 'Specified Disk' label is not explicitly visible; the dropdown shows 'Disk Backups' instead, which is a minor labeling difference but semantically equivalent."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/management_operations/using_backups_to_restore_ecss.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0148411635.png",
+        "image_kind": "icon",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 2,
+          "detail_match": 2,
+          "section_relevance": 2,
+          "visual_evidence": 2,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is a small location pin / map marker icon used as a region and project selector in the management console.",
+          "The RST references this icon in step 1b: 'Click |image1| in the upper left corner of the management console and select a region and a project.'",
+          "The icon is a generic UI symbol for region selection, which is consistent with its described purpose in the procedure.",
+          "It is a supporting element in the login procedure rather than the main topic of the document (restoring ECSs)."
+        ],
+        "missing_evidence": [
+          "The icon is very small and low-resolution, making it difficult to confirm exact visual details beyond its general shape as a location pin.",
+          "No surrounding UI context is visible to confirm its placement in the upper left corner of the console."
+        ],
+        "overall_score": 0.72,
+        "verdict": "partial"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/region_and_az.rst",
+    "title": "Region and AZ",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0184026531.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0184026531.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0184026531.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": null,
+      "finish_reason": "local_hard_fail",
+      "attempt": 0,
+      "max_retries": 2,
+      "error": null,
+      "warning": "Images with the forbidden color were not sent to the AI API.",
+      "attached_image_count": 0
+    },
+    "summary": {
+      "pass": 0,
+      "partial": 0,
+      "fail": 1
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/region_and_az.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0184026531.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": true,
+        "hard_fail_reason": "Forbidden color #3298ff was detected in the image.",
+        "criteria": {
+          "topic_match": 0,
+          "detail_match": 0,
+          "section_relevance": 0,
+          "visual_evidence": 0,
+          "contradictions": 0
+        },
+        "reasons": [
+          "Local color check detected #3298ff."
+        ],
+        "missing_evidence": [],
+        "overall_score": 0.0,
+        "verdict": "fail"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/service_overview/what_is_csbs.rst",
+    "title": "What Is CSBS?",
+    "image_count": 1,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0067805991.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0067805991.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0067805991.png",
+        "kind": "figure",
+        "line": 20,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 1
+    },
+    "summary": {
+      "pass": 1,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/service_overview/what_is_csbs.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0067805991.png",
+        "image_kind": "other",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "The image is an architecture diagram labeled 'Region A' showing ECS, EVS disks, CSBS, and OBS, matching the RST reference 'Figure 1 CSBS product architecture'.",
+          "Two numbered steps (ECS backup to OBS and ECS restoration from backups) align with the RST description of CSBS backing up ECS data to OBS and restoring to a point in time.",
+          "The diagram directly supports the section explaining how CSBS works with ECS and OBS to enhance backup data security.",
+          "Labels and dashed flow arrows provide clear visual evidence of the backup and restoration data paths.",
+          "No element in the diagram contradicts the textual description of CSBS functionality."
+        ],
+        "missing_evidence": [
+          "The diagram does not explicitly depict full vs. incremental backup behavior mentioned in the RST.",
+          "No indication of consistency snapshot technology is shown in the figure."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/troubleshooting_cases/an_ecs_created_using_an_image_enters_the_maintenance_mode_after_login.rst",
+    "title": "An ECS Created Using an Image Enters the Maintenance Mode After Login",
+    "image_count": 7,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0133157609.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133157609.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133157609.jpg",
+        "kind": "figure",
+        "line": 28,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0133153500.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153500.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153500.jpg",
+        "kind": "figure",
+        "line": 36,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0133153562.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153562.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153562.jpg",
+        "kind": "figure",
+        "line": 44,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0133153565.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153565.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153565.jpg",
+        "kind": "figure",
+        "line": 52,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0133153567.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153567.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153567.jpg",
+        "kind": "figure",
+        "line": 60,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0133153569.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153569.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153569.jpg",
+        "kind": "figure",
+        "line": 68,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0133150825.jpg",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133150825.jpg",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133150825.jpg",
+        "kind": "figure",
+        "line": 76,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 7
+    },
+    "summary": {
+      "pass": 7,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/troubleshooting_cases/an_ecs_created_using_an_image_enters_the_maintenance_mode_after_login.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133157609.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows a terminal with 'Welcome to emergency mode!' message and root password prompt for maintenance",
+          "Matches Figure 1 description: Interface displayed when an ECS enters the maintenance mode",
+          "Corresponds to step 2 in the Solution section",
+          "Terminal output clearly shows the maintenance/emergency mode interface"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting_cases/an_ecs_created_using_an_image_enters_the_maintenance_mode_after_login.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153500.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows cat /etc/fstab output with data disk UUID entries (UUID=27f9be47... /root ext4, UUID=4ea7b80b... /tmp/test xfs)",
+          "Matches Figure 2 description: Data disk UUIDs",
+          "Corresponds to step 3 in the Solution section",
+          "Red box highlights the data disk attachment information"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting_cases/an_ecs_created_using_an_image_enters_the_maintenance_mode_after_login.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153562.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows cat /etc/fstab output with only the /boot entry remaining, data disk entries removed",
+          "Matches Figure 3 description: /etc/fstab after being updated",
+          "Corresponds to step 4 in the Solution section",
+          "Demonstrates the deletion of data disk attachment information"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting_cases/an_ecs_created_using_an_image_enters_the_maintenance_mode_after_login.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153565.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows CentOS Linux 7 (Core) bootup with kernel version and login prompt",
+          "Matches Figure 4 description: Normal bootup page",
+          "Corresponds to step 5 in the Solution section",
+          "Shows the system successfully rebooted to normal login"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting_cases/an_ecs_created_using_an_image_enters_the_maintenance_mode_after_login.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153567.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows fdisk -l output listing data disks and mount /dev/vdb1 /tmp/test command",
+          "Matches Figure 5 description: Attaching the data disks manually",
+          "Corresponds to step 6 in the Solution section",
+          "Demonstrates manual attachment of data disks after reboot"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting_cases/an_ecs_created_using_an_image_enters_the_maintenance_mode_after_login.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133153569.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows blkid command output with UUIDs for /dev/vda1, /dev/vdb1, /dev/vdb2",
+          "Matches Figure 6 description: Obtaining UUIDs of data disks",
+          "Corresponds to step 7 in the Solution section",
+          "Shows the UUID information needed to update /etc/fstab"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting_cases/an_ecs_created_using_an_image_enters_the_maintenance_mode_after_login.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0133150825.jpg",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": false,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows blkid output followed by cat /etc/fstab with data disk entries added back (UUID=27f9be47... /root ext4, UUID=4ea7b80b... /tmp/test xfs)",
+          "Matches Figure 7 description: Adding attachment information of data disks",
+          "Corresponds to step 8 in the Solution section",
+          "Demonstrates the final state of /etc/fstab with correct data disk UUIDs"
+        ],
+        "missing_evidence": [],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  },
+  {
+    "file_path": "umn/source/troubleshooting_cases/data_disks_are_not_displayed_after_a_windows_ecs_is_restored.rst",
+    "title": "Data Disks Are Not Displayed After a Windows ECS Is Restored",
+    "image_count": 3,
+    "image_refs": [
+      {
+        "original_target": "/_static/images/en-us_image_0095223848.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0095223848.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0095223848.png",
+        "kind": "figure",
+        "line": 31,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0095227273.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0095227273.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0095227273.png",
+        "kind": "figure",
+        "line": 40,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      },
+      {
+        "original_target": "/_static/images/en-us_image_0095233951.png",
+        "original_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0095233951.png",
+        "used_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0095233951.png",
+        "kind": "figure",
+        "line": 51,
+        "exists": true,
+        "is_valid_image": true,
+        "error": null
+      }
+    ],
+    "status": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "attempt": 1,
+      "max_retries": 2,
+      "error": null,
+      "warning": null,
+      "attached_image_count": 3
+    },
+    "summary": {
+      "pass": 3,
+      "partial": 0,
+      "fail": 0
+    },
+    "results": [
+      {
+        "document_path": "umn/source/troubleshooting_cases/data_disks_are_not_displayed_after_a_windows_ecs_is_restored.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0095223848.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Windows Computer Management window with Storage > Disk Management selected, matching step 3 of the solution.",
+          "Disk 3 and Disk 4 are displayed in the lower pane with status 'Offline', and a red box highlights the 'Offline' label on Disk 3, matching Figure 1 caption 'Data disks in the offline state'.",
+          "The volume list at the top shows only the system volumes (C:, E:, F:, System Reserved), consistent with data disks not yet displayed.",
+          "No contradiction with the RST text describing offline data disks after restore."
+        ],
+        "missing_evidence": [
+          "No additional information missing; the image fully supports the described offline state."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting_cases/data_disks_are_not_displayed_after_a_windows_ecs_is_restored.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0095227273.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Disk Management view with a right-click context menu open over Disk 3, matching step 4 of the solution.",
+          "The context menu lists 'Online', 'Properties', and 'Help', with 'Online' highlighted in a red box, matching Figure 2 caption 'Setting a data disk to be online'.",
+          "Disk 3 is still shown as 'Offline' before the action, consistent with the procedure of bringing it online.",
+          "No contradiction with the RST text describing right-clicking a data disk and choosing Online."
+        ],
+        "missing_evidence": [
+          "No additional information missing; the image clearly shows the Online menu option."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      },
+      {
+        "document_path": "umn/source/troubleshooting_cases/data_disks_are_not_displayed_after_a_windows_ecs_is_restored.rst",
+        "image_path": "/home/ubuntu/repotesting/cloud-server-backup-service/umn/source/_static/images/en-us_image_0095233951.png",
+        "image_kind": "screenshot",
+        "contains_interactive_buttons": true,
+        "buttons_magenta": false,
+        "hard_fail": false,
+        "hard_fail_reason": null,
+        "criteria": {
+          "topic_match": 3,
+          "detail_match": 3,
+          "section_relevance": 3,
+          "visual_evidence": 3,
+          "contradictions": 3
+        },
+        "reasons": [
+          "Image shows the Disk Management view after the disks are brought online, matching Figure 3 caption 'Viewing online data disks'.",
+          "The volume list now includes New Volume (H:) and New Volume (I:) highlighted in a red box, indicating the data disks are displayed in the disk list.",
+          "Disk 3 and Disk 4 in the lower pane now show status 'Online' with New Volume (H:) and New Volume, consistent with the post-action state.",
+          "No contradiction with the RST text stating the data disk status changes to Online and is displayed in the disk list."
+        ],
+        "missing_evidence": [
+          "No additional information missing; the image clearly shows the online data disks in the volume list."
+        ],
+        "overall_score": 1.0,
+        "verdict": "pass"
+      }
+    ]
+  }
+]
